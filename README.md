@@ -3,7 +3,7 @@
  - [NoLimitSecu](https://www.nolimitsecu.fr/) – NoLimitSecu
  - [La cybersécurité expliquée à ma grand-mère](https://smartlink.ausha.co/la-cyber-securite-expliquee-a-ma-grand-mere) - Nicolas Remarck
  - [Cybersécurité All Day](https://cybersecuriteallday.fr/) - Michael VIRGONE - linkedin.com/in/michaelvirgone
- - [HacktBack CyberTalk]https://podcast.ausha.co/cybertalk) – HacktBack
+ - [HacktBack CyberTalk](https://podcast.ausha.co/cybertalk) – HacktBack
  - [Hack’n Speak](https://anchor.fm/hacknspeak) – Martial Puygrenier
  - [French Connection](https://securite.fm/) – @SecuritePodcas
  - [On dit chiffrer](https://feeds.acast.com/public/shows/on-dit-chiffrer) – OnDitChiffrer

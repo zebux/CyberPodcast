@@ -1,4 +1,4 @@
-🔒🎙️ Podcasts francophone portant sur la cybersécurité : 
+🔒🎙️ Podcasts francophones portant sur la cybersécurité : 
  - [RadioCSIRT](https://www.radiocsirt.org/) - Marc-Frédéric GOMEZ
  - [NoLimitSecu](https://www.nolimitsecu.fr/) – NoLimitSecu
  - [La cybersécurité expliquée à ma grand-mère](https://smartlink.ausha.co/la-cyber-securite-expliquee-a-ma-grand-mere) - Nicolas Remarck
@@ -13,7 +13,7 @@
  - [Purple voice](https://www.deezer.com/us/show/1001900081) - Nabil Diab et Raphaël Ellouz
    
 
-😶‍🌫️🎙️ Podcasts francophone orientés devops et cloud :
+😶‍🌫️🎙️ Podcasts francophones orientés devops et cloud :
  - [Message à caractère informatique](https://www.clever-cloud.com/fr/podcast/) - Clever Cloud
  - [On Azure Grave](https://shows.acast.com/on-azure-grave-onag) - Arnaud Morvillier
  - [Deez is la tech](https://www.deezer.com/fr/show/5244847) - Deezer
@@ -24,7 +24,7 @@
  - [WeSpeakCloud](https://podcastaddict.com/podcast/2664488) – WeScale
    
 
-⌨️🎙️ Podcasts francophone orientés Dev :
+⌨️🎙️ Podcasts francophones orientés Dev :
  - [Les Cast Codeurs](https://lescastcodeurs.com/) - Guillaume Laforge
  - [IfThisThenDev](https://ifttd.io/) -
  - [PunkinDev](https://podcast.ausha.co/punkindev) - PUNKIN DEV

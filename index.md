@@ -11,6 +11,7 @@
  - Le monde de la cyber - https://podcastaddict.com/podcast/le-monde-de-la-cyber/4110724 - Leslie Fornero
  - Objectif Cyber - Capgemini - https://www.capgemini.com/fr-fr/perspectives/publications/podcast-objectif-tech/objectif-cyber/ - Capgemini
  - Purple voice - https://www.deezer.com/us/show/1001900081 - Nabil Diab et Raphaël Ellouz
+   
 
 😶‍🌫️🎙️ Podcasts francophone orientés devops et cloud :
  - Message à caractère informatique – https://www.clever-cloud.com/fr/podcast/ - Clever Cloud
@@ -21,6 +22,7 @@
  - Dans la tech - https://open.spotify.com/show/0GlIJ34eW9qg0yKvHmlFUh
  - Les compagnons du devops – https://www.youtube.com/c/lescompagnonsdudevops - Les Compagnons du DevOps
  - WeSpeakCloud – https://podcastaddict.com/podcast/2664488 – WeScale
+   
 
 ⌨️🎙️ Podcasts francophone orientés Dev :
  - Les Cast Codeurs – https://lescastcodeurs.com/ - Guillaume Laforge

@@ -2,7 +2,7 @@
  - [RadioCSIRT](https://www.radiocsirt.org/) - Marc-Frédéric GOMEZ
  - [NoLimitSecu](https://www.nolimitsecu.fr/) – NoLimitSecu
  - [La cybersécurité expliquée à ma grand-mère](https://smartlink.ausha.co/la-cyber-securite-expliquee-a-ma-grand-mere) - Nicolas Remarck
- - [Cybersécurité All Day](https://cybersecuriteallday.fr/) - Michael VIRGONE - linkedin.com/in/michaelvirgone
+ - [Cybersécurité All Day](https://cybersecuriteallday.fr/) - Michael VIRGONE 
  - [HacktBack CyberTalk](https://podcast.ausha.co/cybertalk) – HacktBack
  - [Hack’n Speak](https://anchor.fm/hacknspeak) – Martial Puygrenier
  - [French Connection](https://securite.fm/) – @SecuritePodcas
@@ -19,13 +19,13 @@
  - [Deez is la tech](https://www.deezer.com/fr/show/5244847) - Deezer
  - [ElectoMonkeys](https://electro-monkeys.fr/) - Electro Monkeys Podcast
  - [Dev’Obs](https://devobs.p7t.tech/episodes) - DevObs
- - [Dans la tech](https://open.spotify.com/show/0GlIJ34eW9qg0yKvHmlFUh)
+ - [Dans la tech](https://open.spotify.com/show/0GlIJ34eW9qg0yKvHmlFUh) -
  - [Les compagnons du devops](https://www.youtube.com/c/lescompagnonsdudevops) - Les Compagnons du DevOps
  - [WeSpeakCloud](https://podcastaddict.com/podcast/2664488) – WeScale
    
 
 ⌨️🎙️ Podcasts francophone orientés Dev :
  - [Les Cast Codeurs](https://lescastcodeurs.com/) - Guillaume Laforge
- - [IfThisThenDev](https://ifttd.io/) - If This Then Dev
+ - [IfThisThenDev](https://ifttd.io/) -
  - [PunkinDev](https://podcast.ausha.co/punkindev) - PUNKIN DEV
  - [Dans la tech](https://lnkd.in/egWYQCmc) - 

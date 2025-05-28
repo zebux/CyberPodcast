@@ -13,20 +13,20 @@
  - Purple voice - https://www.deezer.com/us/show/1001900081 - Nabil Diab et Raphaël Ellouz
 
 😶‍🌫️🎙️ Podcasts francophone orientés devops et cloud :
- - Message à caractère informatique – CleverCloud – https://lnkd.in/eRcCZtQE Clever Cloud
- - On Azure Grave - https://lnkd.in/eYxxeVqu Arnaud Morvillier
- - Deez is la tech - Deezer - https://lnkd.in/eKMwhE7g - Deezer
- - ElectoMonkeys – https://lnkd.in/eDMxWNw7 - Electro Monkeys Podcast
- - Dev’Obs – https://lnkd.in/eKQqi7W3 - DevObs
- - Dans la tech - https://lnkd.in/egWYQCmc
- - Les compagnons du devops – https://lnkd.in/eggteq8k - Les Compagnons du DevOps
- - WeSpeakCloud – https://lnkd.in/eRdiK2ni – WeScale
+ - Message à caractère informatique – https://www.clever-cloud.com/fr/podcast/ - Clever Cloud
+ - On Azure Grave - https://shows.acast.com/on-azure-grave-onag - Arnaud Morvillier
+ - Deez is la tech - Deezer - https://www.deezer.com/fr/show/5244847 - Deezer
+ - ElectoMonkeys – https://electro-monkeys.fr/ - Electro Monkeys Podcast
+ - Dev’Obs – https://devobs.p7t.tech/episodes - DevObs
+ - Dans la tech - https://open.spotify.com/show/0GlIJ34eW9qg0yKvHmlFUh
+ - Les compagnons du devops – https://www.youtube.com/c/lescompagnonsdudevops - Les Compagnons du DevOps
+ - WeSpeakCloud – https://podcastaddict.com/podcast/2664488 – WeScale
 
 ⌨️🎙️ Podcasts francophone orientés Dev :
- - Les Cast Codeurs – https://lnkd.in/ecGwe_Mg - Guillaume Laforge
+ - Les Cast Codeurs – https://lescastcodeurs.com/ - Guillaume Laforge
  - IfThisThenDev – https://ifttd.io/ - If This Then Dev
- - PunkinDev - https://lnkd.in/eMaQ7CPB - PUNKIN DEV
- - Dans la tech - https://lnkd.in/egWYQCmc
+ - PunkinDev - https://podcast.ausha.co/punkindev - PUNKIN DEV
+ - Dans la tech - https://lnkd.in/egWYQCmc - 
  
  
  

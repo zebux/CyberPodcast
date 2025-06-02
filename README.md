@@ -13,7 +13,7 @@
  - [Purple voice](https://www.deezer.com/us/show/1001900081) - Nabil Diab et Raphaël Ellouz
  - [Compliance Without coma](https://podcast.ausha.co/compliance-without-coma) - Fabrice De Paepe
  - [Dialogues imaginaires du monde merveilleux de la cyber](https://dialogues-imaginaires.net/) - Ourf et l'Elfe
- - [La matrice a buggé](https://www.deezer.com/fr/show/5699187) - [@LaMatriceaBugge](https://www.youtube.com/@LaMatriceaBugge)
+ - [La matrice a buggé](https://www.deezer.com/fr/show/5699187) - Manon Desplat et Léa Le Pezron
  - [La box du RSSI](https://podcast.ausha.co/laboxdurssi) - Fabrice Bourdelon
  - [Dans l'oeil de la cyber](https://podcast.ausha.co/dans-l-oeil-de-la-cyber) - Gatewatcher
  - [La Robe Numérique](https://www.larobenumerique.com/podcast) - Oriana Labruyère

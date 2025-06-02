@@ -12,7 +12,7 @@
  - [Objectif Cyber](https://www.capgemini.com/fr-fr/perspectives/publications/podcast-objectif-tech/objectif-cyber/) - Capgemini
  - [Purple voice](https://www.deezer.com/us/show/1001900081) - Nabil Diab et Raphaël Ellouz
  - [Compliance Without coma](https://podcast.ausha.co/compliance-without-coma) - Fabrice De Paepe
- - [Dialogues imaginaires du monde merveilleux de la cyber](https://dialogues-imaginaires.net/) - Ourf et l'Elfe
+ - [Dialogues imaginaires du monde merveilleux de la cyber](https://dialogues-imaginaires.net/) - L'ours
  - [La matrice a buggé](https://www.deezer.com/fr/show/5699187) - Manon Desplat et Léa Le Pezron
  - [La box du RSSI](https://podcast.ausha.co/laboxdurssi) - Fabrice Bourdelon
  - [Dans l'oeil de la cyber](https://podcast.ausha.co/dans-l-oeil-de-la-cyber) - Gatewatcher

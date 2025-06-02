@@ -13,6 +13,17 @@
  - [Purple voice](https://www.deezer.com/us/show/1001900081) - Nabil Diab et Raphaël Ellouz
  - [Compliance Without coma](https://podcast.ausha.co/compliance-without-coma) - Fabrice De Paepe
  - [Dialogues imaginaires du monde merveilleux de la cyber](https://dialogues-imaginaires.net/) - Ourf et l'Elfe
+ - [La matrice a buggé](https://www.deezer.com/fr/show/5699187) - [@LaMatriceaBugge](https://www.youtube.com/@LaMatriceaBugge)
+ - [La box du RSSI](https://podcast.ausha.co/laboxdurssi) - Fabrice Bourdelon
+ - [Dans l'oeil de la cyber](https://podcast.ausha.co/dans-l-oeil-de-la-cyber) - Gatewatcher
+ - [La Robe Numérique](https://www.larobenumerique.com/podcast) - Oriana Labruyère
+ - [La tangente](https://open.spotify.com/show/0WBMbK4frOLnBIApsZSw8w) - Luckas Bosch
+ - [InCyber Voices](http://incyber.org/article/lancement-du-podcast-incyber-voices/) - InCyber News
+ - [Les enfants de ma Cyber](https://www.deezer.com/fr/show/1001824361) -  Agora Managers Groupe
+ - [Le Déjargonneur cyber](https://shows.acast.com/le-dejargonneur-cyber) - Clusif
+ - [PolySécure](https://polysecure.ca/) -  Nicolas-Loïc Fortin
+ - [Source ouverte](https://www.deezer.com/fr/show/1001440081) - Cigref
+ - [Yakafokon](https://open.spotify.com/show/77AVXD1a6ysbJiua5jDpZr) - Florian Maury
    
 
 😶‍🌫️🎙️ Podcasts francophones orientés devops et cloud :

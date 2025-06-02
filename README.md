@@ -11,6 +11,8 @@
  - [Le monde de la cyber](https://podcastaddict.com/podcast/le-monde-de-la-cyber/4110724) - Leslie Fornero
  - [Objectif Cyber](https://www.capgemini.com/fr-fr/perspectives/publications/podcast-objectif-tech/objectif-cyber/) - Capgemini
  - [Purple voice](https://www.deezer.com/us/show/1001900081) - Nabil Diab et Raphaël Ellouz
+ - [compliance Without coma](https://podcast.ausha.co/compliance-without-coma) - Fabrice De Paepe
+ - [Dialogues imaginaires du monde merveilleux de la cyber](https://dialogues-imaginaires.net/) - Ourf et l'Elfe
    
 
 😶‍🌫️🎙️ Podcasts francophones orientés devops et cloud :

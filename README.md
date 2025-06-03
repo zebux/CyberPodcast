@@ -24,6 +24,7 @@
  - [PolySécure](https://polysecure.ca/) -  Nicolas-Loïc Fortin
  - [Source ouverte](https://www.deezer.com/fr/show/1001440081) - Cigref
  - [Yakafokon](https://open.spotify.com/show/77AVXD1a6ysbJiua5jDpZr) - Florian Maury
+ - [CéKoiÇa](https://podcast.ausha.co/consulia-cekoica) - Romain ROUSSEAU
    
 
 😶‍🌫️🎙️ Podcasts francophones orientés devops et cloud :

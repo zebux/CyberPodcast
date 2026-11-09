@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T20:51:21.481613+00:00",
+  "generated_at": "2026-11-09T21:06:34.424791+00:00",
   "total": 90,
   "total_episodes": 24567,
   "with_rss": 83,
@@ -43,7 +43,7 @@
     "GCP": 3,
     "Terraform": 1,
     "Ansible": 1,
-    "IA": 10,
+    "IA": 9,
     "LLM": 2,
     "Carrière": 4,
     "Réseau": 2,

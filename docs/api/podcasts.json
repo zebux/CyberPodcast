@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T20:51:21.481613+00:00",
+  "generated_at": "2026-11-09T21:06:34.424791+00:00",
   "site": "https://zebux.github.io/CyberPodcast/",
   "count": 90,
   "podcasts": [
@@ -9607,7 +9607,6 @@
       "community_rating_count": 107,
       "platform": "Substack",
       "topics": [
-        "IA",
         "LLM"
       ],
       "tags": [

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T21:22:28.035223+00:00",
+  "generated_at": "2026-11-09T22:22:43.283150+00:00",
   "site": "https://zebux.github.io/CyberPodcast/",
   "count": 90,
   "podcasts": [
@@ -20,7 +20,7 @@
       "rss": "https://feeds.transistor.fm/dans-ton-kube",
       "youtube": "https://www.youtube.com/playlist?list=PL4gxR9MFQk9_UfXr-8ymWLKOC9P0H75vD",
       "spotify": "https://open.spotify.com/show/73Wfs4RYXFlrZKO1bkABEW",
-      "apple_podcast": "https://podcasts.apple.com/fr/podcast/dans-ton-kube/id1438233899?uo=4",
+      "apple_podcast": "https://podcasts.apple.com/fr/podcast/dans-ton-kube/id1438233899",
       "linkedin": null,
       "deezer": null,
       "pocket_casts": null,
@@ -717,13 +717,13 @@
     },
     {
       "id": "cloud-cafe",
-      "name": "Cloud Café",
+      "name": "ITQ Private Cloud Café",
       "category": [
         "Cloud",
         "DevOps"
       ],
-      "language": "fr",
-      "country": "FR",
+      "language": "en",
+      "country": "US",
       "hosts": [
         "ITQ"
       ],

@@ -717,7 +717,41 @@ def load_curated() -> dict[str, dict[str, Any]]:
     return payload.get("curated", {}) or {}
 
 
-def enrich_one(seed: dict[str, Any], curated: dict[str, Any]) -> dict[str, Any]:
+FALLBACK_FIELDS = (
+    "website",
+    "rss",
+    "youtube",
+    "spotify",
+    "apple_podcast",
+    "linkedin",
+    "description",
+    "last_episode",
+    "episode_count",
+    "average_duration",
+    "community_rating",
+    "platform",
+    "hosts",
+    "topics",
+    "tags",
+)
+
+
+def load_previous() -> dict[str, dict[str, Any]]:
+    if not OUTPUT.exists():
+        return {}
+    try:
+        with OUTPUT.open(encoding="utf-8") as handle:
+            payload = yaml.safe_load(handle) or {}
+    except (OSError, yaml.YAMLError):
+        return {}
+    return {
+        str(podcast["id"]): podcast
+        for podcast in (payload.get("podcasts") or [])
+        if podcast.get("id")
+    }
+
+
+def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str, Any]) -> dict[str, Any]:
     entry_id = str(seed["id"])
     name = str(seed.get("name") or entry_id)
     overrides = dict(curated.get(entry_id, {}))
@@ -875,6 +909,15 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any]) -> dict[str, Any]:
         "topics": topics,
         "tags": tags,
     }
+
+    previous_entry = previous.get(entry_id) or {}
+    for field in FALLBACK_FIELDS:
+        current = result.get(field)
+        old = previous_entry.get(field)
+        if (current in (None, "", []) or (field == "platform" and current == "autre")) and old not in (None, "", []):
+            result[field] = old
+    if not overrides.get("status"):
+        result["status"] = compute_status(result.get("last_episode"), seed.get("status"))
     return result
 
 
@@ -945,12 +988,13 @@ def main() -> int:
 
     seeds = load_sources()
     curated = load_curated()
+    previous = load_previous()
     log(f"{len(seeds)} podcasts en entrée, {len(curated)} entrées curatées\n")
 
     enriched: list[dict[str, Any]] = []
     with ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
         futures = {
-            pool.submit(enrich_one, seed, curated): seed for seed in seeds
+            pool.submit(enrich_one, seed, curated, previous): seed for seed in seeds
         }
         for future in as_completed(futures):
             seed = futures[future]

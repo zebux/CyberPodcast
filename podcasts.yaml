@@ -1489,15 +1489,15 @@ podcasts:
   hosts:
   - Nicolas-Loïc Fortin
   website: https://polysecure.ca/
-  rss: null
+  rss: https://polysecure.ca/general_feed.xml
   youtube: null
   spotify: null
   apple_podcast: https://podcasts.apple.com/fr/podcast/polys%C3%A9cure-podcast/id1561084634?uo=4
   linkedin: null
   description: Podcast québécois sur la cybersécurité, la vie privée et la sécurité des organisations.
-  last_episode: null
+  last_episode: '2026-11-09'
   episode_count: 867
-  average_duration: null
+  average_duration: 44
   status: active
   community_rating: 5.0
   platform: autre
@@ -1681,24 +1681,35 @@ podcasts:
   - Cybersécurité
   language: fr
   country: FR
-  hosts: []
-  website: null
-  rss: null
+  hosts:
+  - Root Down Productions
+  website: https://hackstock.net
+  rss: https://feeds.acast.com/public/shows/6569f298ff391100123ba68c
   youtube: null
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/hackstock/id1207672174?uo=4
   linkedin: null
-  description: null
-  last_episode: null
-  episode_count: null
-  average_duration: null
+  description: Hack the planet!
+  last_episode: '2021-06-04'
+  episode_count: 15
+  average_duration: 64
   status: archived
-  community_rating: null
-  platform: autre
+  community_rating: 5.0
+  platform: Acast
   topics:
   - Cybersécurité
   tags:
-  - Cybersécurité
+  - hacking
+  - hackers
+  - hacker
+  - hack
+  - surveillance
+  - privacy
+  - vie privée
+  - piratage
+  - Technology
+  - News
+  - Tech News
 - id: le-comptoir-secu
   name: Le Comptoir Sécu
   category:
@@ -1766,14 +1777,14 @@ podcasts:
   rss: https://les-minutes-cyber.lepodcast.fr/rss
   youtube: null
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/les-minutes-cyber/id1705850996?uo=4
   linkedin: null
   description: Le podcast français dédié aux acteurs clés de la cybersécurité
   last_episode: '2024-02-12'
   episode_count: 5
   average_duration: 33
   status: archived
-  community_rating: null
+  community_rating: 5.0
   platform: autre
   topics:
   - Cybersécurité
@@ -1799,23 +1810,27 @@ podcasts:
   country: FR
   hosts:
   - Véronique Loquet
-  website: null
-  rss: null
+  website: https://twitter.com/NologPodcast
+  rss: https://feeds.acast.com/public/shows/no-log
   youtube: null
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/no-log/id1541382557?uo=4
   linkedin: null
-  description: null
-  last_episode: null
-  episode_count: null
-  average_duration: null
+  description: Un Podcast pour plonger dans les coulisses du cybermonde. Décryptage, rencontres, chroniques, récits...
+  last_episode: '2021-01-11'
+  episode_count: 7
+  average_duration: 32
   status: archived
-  community_rating: null
-  platform: autre
+  community_rating: 4.8
+  platform: Acast
   topics:
   - Cybersécurité
   tags:
-  - Cybersécurité
+  - '#cybersécurité'
+  - '#cybercrime'
+  - Technology
+  - True Crime
+  - Society & Culture
 - id: osint-origins
   name: OSINT Origins
   category:
@@ -1890,14 +1905,14 @@ podcasts:
   rss: https://lescastcodeurs.com/feed.atom
   youtube: null
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/les-cast-codeurs-podcast/id312239675?uo=4
   linkedin: null
   description: Les Cast Codeurs est un podcast en français de, par et pour les développeurs. Prenez connaissance des dernières nouvelles de la sphère Java et du développement en général. Plongez sur un sujet précis…
   last_episode: '2026-10-19'
   episode_count: 363
   average_duration: 72
   status: active
-  community_rating: null
+  community_rating: 4.8
   platform: Libsyn
   topics:
   - Développement
@@ -1988,14 +2003,14 @@ podcasts:
   rss: https://feeds.zencastr.com/f/oSn1i316.rss
   youtube: null
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/developer-voices/id1687271887?uo=4
   linkedin: null
   description: Deep-dive discussions with the smartest developers we know, explaining what they're working on, how they're trying to move the industry forward, and what we can learn from them. You might find the…
   last_episode: '2026-09-25'
   episode_count: 108
   average_duration: 85
   status: active
-  community_rating: null
+  community_rating: 5.0
   platform: Zencastr
   topics:
   - Développement
@@ -2023,14 +2038,14 @@ podcasts:
   rss: https://feed.syntax.fm
   youtube: https://www.youtube.com/@syntaxfm
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/syntax/id1613894378?uo=4
   linkedin: null
   description: Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like…
   last_episode: '2026-11-09'
   episode_count: 1054
   average_duration: 66
   status: active
-  community_rating: null
+  community_rating: 4.5
   platform: Megaphone
   topics:
   - Développement
@@ -2051,14 +2066,14 @@ podcasts:
   rss: https://www.codingblocks.net/feed/podcast/
   youtube: null
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/coding-blocks/id769189585?uo=4
   linkedin: null
   description: Podcast about computer programming and software development so you can learn on the go.
   last_episode: '2024-10-07'
   episode_count: 242
   average_duration: 5
   status: archived
-  community_rating: null
+  community_rating: 4.9
   platform: Libsyn
   topics:
   - Développement
@@ -2148,14 +2163,14 @@ podcasts:
   rss: https://cppcast.com/feed.rss
   youtube: null
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/cppcast/id968703120?uo=4
   linkedin: null
   description: The first podcast for C++ developers, by C++ developers!
   last_episode: '2026-11-02'
   episode_count: 412
   average_duration: 62
   status: active
-  community_rating: null
+  community_rating: 4.8
   platform: Transistor
   topics:
   - Développement
@@ -2203,14 +2218,14 @@ podcasts:
   rss: https://pythonbytes.fm/episodes/rss
   youtube: null
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/python-bytes/id1173690032?uo=4
   linkedin: null
   description: Developer headlines delivered directly to your earbuds
   last_episode: '2026-11-03'
   episode_count: 503
   average_duration: 33
   status: active
-  community_rating: null
+  community_rating: 4.7
   platform: autre
   topics:
   - Développement
@@ -2255,14 +2270,14 @@ podcasts:
   rss: https://realpython.com/podcasts/rpp/feed
   youtube: null
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/the-real-python-podcast/id1501905538?uo=4
   linkedin: null
   description: A weekly Python podcast hosted by Christopher Bailey with interviews, coding tips, and conversation with guests from the Python community. The show covers a wide range of topics including Python…
   last_episode: '2026-11-06'
   episode_count: 319
   average_duration: 54
   status: active
-  community_rating: null
+  community_rating: 4.7
   platform: autre
   topics:
   - Open Source
@@ -2282,6 +2297,7 @@ podcasts:
   - Mat Ryer
   - Johnny Boursiquot
   - Jon Calhoun
+  - Go Time Indiegogo Podcast
   website: https://changelog.com/gotime
   rss: https://changelog.com/gotime/feed
   youtube: null
@@ -2347,14 +2363,14 @@ podcasts:
   rss: https://feeds.simplecast.com/JoR28o79
   youtube: null
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/react-podcast/id1341969432?uo=4
   linkedin: null
   description: Conversations about React with your favorite developers.
   last_episode: '2020-12-17'
   episode_count: 123
   average_duration: 58
   status: archived
-  community_rating: null
+  community_rating: 4.6
   platform: Simplecast
   topics:
   - Développement
@@ -2406,7 +2422,7 @@ podcasts:
   rss: https://serve.podhome.fm/rss/c9abdd38-a5dc-5eb2-96fd-f833f93208a7
   youtube: null
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/ai-engineering-podcast/id1877957479?uo=4
   linkedin: null
   description: This show is your guidebook to building scalable and maintainable AI systems. You will learn how to architect AI applications, apply AI to your work, and the considerations involved in building or…
   last_episode: '2026-10-15'
@@ -2468,14 +2484,15 @@ podcasts:
   spotify: null
   apple_podcast: null
   linkedin: null
-  description: null
-  last_episode: null
-  episode_count: null
-  average_duration: null
+  description: 'The main Latent Space podcast: AI engineering, Forward Deployed Engineering, AI for science, and ⚡ Lightning episodes. Other feeds: Engineering and FDE: https://podcast.latent.space/eng.xml; Science…'
+  last_episode: '2026-11-08'
+  episode_count: 295
+  average_duration: 63
   status: active
   community_rating: null
   platform: Substack
   topics:
+  - IA
   - LLM
   tags:
   - LLM
@@ -2588,14 +2605,14 @@ podcasts:
   rss: https://softskills.audio/feed.xml
   youtube: null
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/soft-skills-engineering/id1091341048?uo=4
   linkedin: null
   description: It takes more than great code to be a great engineer. Soft Skills Engineering is a weekly advice podcast for software developers about the non-technical stuff that goes into being a great software…
   last_episode: '2026-11-02'
   episode_count: 538
   average_duration: 33
   status: active
-  community_rating: null
+  community_rating: 4.8
   platform: autre
   topics:
   - Développement
@@ -2669,7 +2686,7 @@ podcasts:
   rss: https://changelog.com/shipit/feed
   youtube: null
   spotify: null
-  apple_podcast: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/ship-it/id1803383466?uo=4
   linkedin: null
   description: A podcast about everything that happens after \`git push\` Justin Garrison & Autumn Nash explore all things DevOps, infra, cloud & running apps in production. Whether you're cloud native, Kubernetes…
   last_episode: '2024-12-20'

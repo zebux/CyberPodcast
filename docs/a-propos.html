@@ -67,15 +67,14 @@
       <p>Le site agrège des podcasts, vérifie leurs liens, récupère leurs derniers épisodes et enrichit les fiches depuis les flux RSS, Apple Podcasts et les sites officiels. Tout est généré statiquement : aucun serveur, aucun compte, aucun cookie.</p>
       <h2>Comment les données sont produites</h2>
       <ol>
-        <li>Les sources sont maintenues dans <code>data/podcasts-*.yaml</code>.</li>
-        <li>Les corrections manuelles vérifiées sont dans <code>data/curated.yaml</code>.</li>
+        <li>Les sources et les corrections manuelles vérifiées sont dans <code>data/podcasts-*.yaml</code>.</li>
         <li>Le pipeline Python fusionne, déduplique, enrichit et écrit <code>podcasts.yaml</code>.</li>
         <li>Un workflow GitHub Actions contrôle la santé des liens, régénère le site et publie GitHub Pages.</li>
       </ol>
       <h2>Automatisation</h2>
       <p>Le workflow tourne chaque jour. Il récupère les nouveautés, met à jour les notes et les derniers épisodes, produit un rapport de santé et redéploie le site. Les erreurs réseau ne bloquent pas la publication : les données précédentes servent de repli.</p>
       <h2>Contribuer</h2>
-      <p>Une erreur, un podcast manquant, un flux cassé ? Ouvrez une <a href="https://github.com/zebux/CyberPodcast/issues" target="_blank" rel="noopener noreferrer">issue</a> ou proposez une correction dans <code>data/curated.yaml</code>. Les liens officiels et les flux vérifiés sont prioritaires.</p>
+      <p>Une erreur, un podcast manquant, un flux cassé ? Ouvrez une <a href="https://github.com/zebux/CyberPodcast/issues" target="_blank" rel="noopener noreferrer">issue</a> ou proposez une correction dans <code>data/podcasts-*.yaml</code>. Les liens officiels et les flux vérifiés sont prioritaires.</p>
       <h2>Transparence</h2>
       <p>Les notes affichées proviennent d’Apple Podcasts et sont indicatives. Les liens d’écoute renvoient vers les plateformes officielles. Le code et les données sont publics sur <a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
     </section>

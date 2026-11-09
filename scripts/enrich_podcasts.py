@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Enrichit la liste des podcasts depuis iTunes + les flux RSS.
 
-Sources  : data/podcasts-*.yaml (un podcast = une entrée)
-Curation : data/curated.yaml (liens officiels vérifiés manuellement)
+Sources  : data/podcasts-*.yaml (un podcast = une entrée, corrections incluses)
 Sortie   : podcasts.yaml (fichier unique, trié, dédupliqué)
 
 Le script est idempotent : il peut être lancé à la main ou par GitHub Actions.
@@ -846,15 +845,6 @@ def load_sources() -> list[dict[str, Any]]:
     return [entries[entry_id] for entry_id in order]
 
 
-def load_curated() -> dict[str, dict[str, Any]]:
-    path = DATA_DIR / "curated.yaml"
-    if not path.exists():
-        return {}
-    with path.open(encoding="utf-8") as handle:
-        payload = yaml.safe_load(handle) or {}
-    return payload.get("curated", {}) or {}
-
-
 FALLBACK_FIELDS = (
     "website",
     "rss",
@@ -905,19 +895,16 @@ def load_previous() -> dict[str, dict[str, Any]]:
     }
 
 
-def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str, Any]) -> dict[str, Any]:
+def enrich_one(seed: dict[str, Any], previous: dict[str, Any]) -> dict[str, Any]:
     entry_id = str(seed["id"])
     name = str(seed.get("name") or entry_id)
-    overrides = dict(curated.get(entry_id, {}))
-    language = overrides.get("language") or seed.get("language")
-    country = overrides.get("country") or seed.get("country")
+    language = seed.get("language")
+    country = seed.get("country")
     log(f"→ {name}")
 
-    website = overrides.get("website") or seed.get("website")
-    rss_url = overrides.get("rss") or seed.get("rss")
-    skip_discovery = bool(
-        overrides.get("skip_rss_discovery") or seed.get("skip_rss_discovery")
-    )
+    website = seed.get("website")
+    rss_url = seed.get("rss")
+    skip_discovery = bool(seed.get("skip_rss_discovery"))
 
     # 1) autodiscovery du flux depuis le site officiel
     if not rss_url and website and not skip_discovery:
@@ -925,9 +912,9 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
 
     # 2) iTunes : lien Apple + flux de secours
     itunes_country = "fr" if language == "fr" else "us"
-    skip_itunes = bool(overrides.get("skip_itunes") or seed.get("skip_itunes"))
+    skip_itunes = bool(seed.get("skip_itunes"))
     itunes = None if skip_itunes else best_itunes_match(name, itunes_country)
-    apple_url = overrides.get("apple_podcast") or seed.get("apple_podcast")
+    apple_url = seed.get("apple_podcast")
     if not apple_url and itunes:
         apple_url = itunes.get("collectionViewUrl")
     if not rss_url and itunes:
@@ -949,15 +936,15 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
 
     feed_entries = list(feed.entries) if feed and feed.entries else []
 
-    episodes = overrides.get("episodes") or seed.get("episodes") or extract_episodes(feed_entries)
+    episodes = seed.get("episodes") or extract_episodes(feed_entries)
     if not isinstance(episodes, list):
         episodes = []
     latest_episode = episodes[0] if episodes else {}
     frequency, frequency_days = compute_frequency(episodes)
-    if overrides.get("frequency"):
-        frequency = overrides["frequency"]
-    if overrides.get("frequency_days") is not None:
-        frequency_days = int(overrides["frequency_days"])
+    if seed.get("frequency"):
+        frequency = seed["frequency"]
+    if seed.get("frequency_days") is not None:
+        frequency_days = int(seed["frequency_days"])
 
     last_dt: datetime | None = None
     timed_entries: list[tuple[datetime, float | None]] = []
@@ -967,31 +954,17 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
             last_dt = date
         timed_entries.append((date or datetime.min.replace(tzinfo=timezone.utc), episode_duration(item)))
 
-    last_episode = overrides.get("last_episode") or seed.get("last_episode")
+    last_episode = seed.get("last_episode")
     if not last_episode:
         last_episode = latest_episode.get("published")
-    if last_dt and not overrides.get("last_episode"):
+    if last_dt and not seed.get("last_episode"):
         last_episode = last_dt.date().isoformat()
 
-    last_episode_title = (
-        overrides.get("last_episode_title")
-        or seed.get("last_episode_title")
-        or latest_episode.get("title")
-    )
-    last_episode_url = (
-        overrides.get("last_episode_url")
-        or seed.get("last_episode_url")
-        or latest_episode.get("url")
-    )
-    last_episode_audio = (
-        overrides.get("last_episode_audio")
-        or seed.get("last_episode_audio")
-        or latest_episode.get("audio")
-    )
+    last_episode_title = seed.get("last_episode_title") or latest_episode.get("title")
+    last_episode_url = seed.get("last_episode_url") or latest_episode.get("url")
+    last_episode_audio = seed.get("last_episode_audio") or latest_episode.get("audio")
     last_episode_duration = (
-        overrides.get("last_episode_duration")
-        or seed.get("last_episode_duration")
-        or latest_episode.get("duration")
+        seed.get("last_episode_duration") or latest_episode.get("duration")
     )
 
     itunes_count = itunes.get("trackCount") if itunes else None
@@ -999,12 +972,12 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
         itunes_count = int(itunes_count) if itunes_count is not None else None
     except (TypeError, ValueError):
         itunes_count = None
-    episode_count = overrides.get("episode_count") or seed.get("episode_count")
+    episode_count = seed.get("episode_count")
     if episode_count is None:
         candidates = [n for n in (len(feed_entries), itunes_count) if n]
         episode_count = max(candidates) if candidates else None
 
-    average_duration = overrides.get("average_duration") or seed.get("average_duration")
+    average_duration = seed.get("average_duration")
     if average_duration is None and timed_entries:
         recent = sorted(timed_entries, key=lambda item: item[0], reverse=True)[:20]
         recent_durations = [duration for _, duration in recent if duration]
@@ -1012,28 +985,25 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
             average_duration = round(statistics.median(recent_durations))
 
     description = (
-        overrides.get("description")
-        or seed.get("description")
+        seed.get("description")
         or clean_text(feed_meta.get("subtitle"))
         or clean_text(feed_meta.get("summary"))
         or clean_text(feed_meta.get("description"))
     )
     description = clean_text(description)
 
-    categories = dedupe(as_list(seed.get("category")) + as_list(overrides.get("category")))
+    categories = dedupe(as_list(seed.get("category")))
     feed_categories = [c.get("term", "") for c in feed_meta.get("tags", []) if isinstance(c, dict)]
     context = " ".join(
         filter(None, [name, description or "", " ".join(categories), " ".join(feed_categories)])
     )
 
     topics = dedupe(
-        as_list(overrides.get("topics"))
-        or as_list(seed.get("topics"))
+        as_list(seed.get("topics"))
         or detect_topics(context, categories)
     )
     tags = dedupe(
-        as_list(overrides.get("tags"))
-        or as_list(seed.get("tags"))
+        as_list(seed.get("tags"))
         or detect_tags(context, categories)
         or [c for c in feed_categories if c]
         or categories
@@ -1049,26 +1019,18 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
         hints.append(str(feed_entries[0].get("id", "")))
         for link in feed_entries[0].get("links", []):
             hints.append(link.get("href", ""))
-    platform = overrides.get("platform") or seed.get("platform") or detect_platform(hints) or "autre"
+    platform = seed.get("platform") or detect_platform(hints) or "autre"
 
     feed_author = feed_meta.get("author")
     if not feed_author:
         feed_author = (feed_meta.get("author_detail") or {}).get("name")
-    if overrides.get("hosts"):
-        hosts = dedupe(as_list(overrides["hosts"]))
-    else:
-        hosts = dedupe(
-            as_list(seed.get("hosts"))
-            + as_list(seed.get("host"))
-        ) or dedupe(as_list(feed_author))
-    status = compute_status(last_episode, seed.get("status"))
-    if overrides.get("status"):
-        status = overrides["status"]
+    hosts = dedupe(
+        as_list(seed.get("hosts"))
+        + as_list(seed.get("host"))
+    ) or dedupe(as_list(feed_author))
 
-    rating = overrides.get("community_rating") or seed.get("community_rating")
-    rating_count = overrides.get("community_rating_count") or seed.get(
-        "community_rating_count"
-    )
+    rating = seed.get("community_rating")
+    rating_count = seed.get("community_rating_count")
     if apple_url and (rating is None or rating_count is None):
         apple_rating, apple_count = apple_community_rating(apple_url)
         if rating is None:
@@ -1076,23 +1038,14 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
         if rating_count is None:
             rating_count = apple_count
 
-    youtube = (
-        overrides.get("youtube")
-        or seed.get("youtube")
-        or discovered_links.get("youtube")
-    )
-    spotify = (
-        overrides.get("spotify")
-        or seed.get("spotify")
-        or discovered_links.get("spotify")
-    )
-    linkedin = overrides.get("linkedin") or seed.get("linkedin")
-    image = overrides.get("image") or seed.get("image") or feed_image(feed_meta, feed_entries)
+    youtube = seed.get("youtube") or discovered_links.get("youtube")
+    spotify = seed.get("spotify") or discovered_links.get("spotify")
+    linkedin = seed.get("linkedin")
+    image = seed.get("image") or feed_image(feed_meta, feed_entries)
     if not image and itunes:
         image = itunes.get("artworkUrl600") or itunes.get("artworkUrl100")
     author = (
-        overrides.get("author")
-        or seed.get("author")
+        seed.get("author")
         or feed_author
         or (itunes or {}).get("artistName")
     )
@@ -1106,34 +1059,24 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
         "hosts": hosts,
         "website": normalize_url(website),
         "rss": normalize_url(
-            rss_url if feed and not feed_error else (overrides.get("rss") or None)
+            rss_url if feed and not feed_error else (seed.get("rss") or None)
         ),
         "youtube": normalize_url(youtube),
         "spotify": normalize_url(spotify),
         "apple_podcast": normalize_url(apple_url),
         "linkedin": normalize_url(linkedin),
-        "deezer": normalize_url(
-            overrides.get("deezer") or seed.get("deezer") or discovered_links.get("deezer")
-        ),
+        "deezer": normalize_url(seed.get("deezer") or discovered_links.get("deezer")),
         "pocket_casts": normalize_url(
-            overrides.get("pocket_casts")
-            or seed.get("pocket_casts")
-            or discovered_links.get("pocket_casts")
+            seed.get("pocket_casts") or discovered_links.get("pocket_casts")
         ),
         "podcast_addict": normalize_url(
-            overrides.get("podcast_addict")
-            or seed.get("podcast_addict")
-            or discovered_links.get("podcast_addict")
+            seed.get("podcast_addict") or discovered_links.get("podcast_addict")
         ),
         "amazon_music": normalize_url(
-            overrides.get("amazon_music")
-            or seed.get("amazon_music")
-            or discovered_links.get("amazon_music")
+            seed.get("amazon_music") or discovered_links.get("amazon_music")
         ),
         "castbox": normalize_url(
-            overrides.get("castbox")
-            or seed.get("castbox")
-            or discovered_links.get("castbox")
+            seed.get("castbox") or discovered_links.get("castbox")
         ),
         "image": normalize_url(image),
         "author": author,
@@ -1150,7 +1093,7 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
         "updated_at": TODAY.isoformat(),
         "episode_count": episode_count,
         "average_duration": average_duration,
-        "status": status,
+        "status": compute_status(last_episode, seed.get("status")),
         "community_rating": float(rating) if rating is not None else None,
         "community_rating_count": (
             int(rating_count) if rating_count is not None else None
@@ -1166,8 +1109,6 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
         old = previous_entry.get(field)
         if (current in (None, "", []) or (field == "platform" and current == "autre")) and old not in (None, "", []):
             result[field] = old
-    if not overrides.get("status"):
-        result["status"] = compute_status(result.get("last_episode"), seed.get("status"))
     return result
 
 
@@ -1237,14 +1178,13 @@ def main() -> int:
         shutil.rmtree(CACHE_DIR)
 
     seeds = load_sources()
-    curated = load_curated()
     previous = load_previous()
-    log(f"{len(seeds)} podcasts en entrée, {len(curated)} entrées curatées\n")
+    log(f"{len(seeds)} podcasts en entrée\n")
 
     enriched: list[dict[str, Any]] = []
     with ThreadPoolExecutor(max_workers=max(1, args.workers)) as pool:
         futures = {
-            pool.submit(enrich_one, seed, curated, previous): seed for seed in seeds
+            pool.submit(enrich_one, seed, previous): seed for seed in seeds
         }
         for future in as_completed(futures):
             seed = futures[future]

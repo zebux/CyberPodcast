@@ -20,8 +20,7 @@ Site : https://zebux.github.io/CyberPodcast/
 Le projet reste volontairement simple et sans runtime serveur :
 
 ```text
-data/podcasts-*.yaml     sources maintenues à la main
-data/curated.yaml        corrections vérifiées (liens, flux, descriptions)
+data/podcasts-*.yaml     sources maintenues à la main (corrections incluses)
 scripts/enrich_podcasts.py   fusion, déduplication, enrichissement RSS/Apple/sites
 scripts/check_health.py      contrôle des liens et rapport de santé
 scripts/render_html.py       génération complète du site statique
@@ -64,15 +63,14 @@ python scripts/render_html.py
 
 ## Ajouter ou corriger un podcast
 
-1. Ajouter l'entrée minimale dans le fichier source adapté (`data/podcasts-cyber.yaml`, `-cloud` ou `-dev`).
-2. Ajouter si nécessaire une correction dans `data/curated.yaml` : site officiel, flux RSS, lien Apple, description, animateurs, pays ou plateforme.
-3. Lancer l'enrichissement puis vérifier la fiche générée.
+1. Ajouter ou compléter l'entrée dans le fichier source adapté (`data/podcasts-cyber.yaml`, `-cloud` ou `-dev`). Les champs vérifiés manuellement (site officiel, flux RSS, lien Apple, description, animateurs, pays, plateforme) y sont prioritaires.
+2. Lancer l'enrichissement puis vérifier la fiche générée.
 
-Les valeurs de `data/curated.yaml` ont priorité sur la découverte automatique. Les champs absents sont enrichis depuis le site officiel, le flux RSS et Apple Podcasts. En cas d'échec réseau, les valeurs de la dernière exécution sont conservées.
+Les champs absents sont enrichis depuis le site officiel, le flux RSS et Apple Podcasts. En cas d'échec réseau, les valeurs de la dernière exécution sont conservées.
 
 ## Contribuer
 
-Une erreur, un flux cassé, un podcast manquant ? Ouvrez une issue ou proposez une correction dans `data/curated.yaml`. Les liens officiels et les flux vérifiés sont prioritaires.
+Une erreur, un flux cassé, un podcast manquant ? Ouvrez une issue ou proposez une correction directement dans le fichier source adapté (`data/podcasts-*.yaml`). Les liens officiels et les flux vérifiés sont prioritaires.
 
 ## Notes
 

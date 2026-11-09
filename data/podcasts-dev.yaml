@@ -5,6 +5,9 @@
       - Architecture
     language: fr
     status: active
+    website: https://ifttd.io/
+    hosts:
+      - Bruno Soulez
 
   - id: les-cast-codeurs
     name: "Les Cast Codeurs"
@@ -12,6 +15,13 @@
       - Développement
     language: fr
     status: active
+    website: https://lescastcodeurs.com/
+    hosts:
+      - Guillaume Laforge
+      - Arnaud Héritier
+      - Vincent Massol
+      - Emmanuel Bernard
+      - Antonio Goncalves
 
   - id: la-cave
     name: "La Cave"
@@ -20,6 +30,11 @@
       - Architecture
     language: fr
     status: active
+    website: https://podcast.ausha.co/lacave
+    platform: Ausha
+    hosts:
+      - Pascal Maria
+    rss: https://feed.ausha.co/aOeG3uNw2QrW
 
   - id: tech-cafe
     name: "Tech Café"
@@ -28,6 +43,13 @@
       - Tech
     language: fr
     status: active
+    website: https://techcafe.fr
+    rss: https://feeds.audiomeans.fr/feed/d6ddb849-3100-43b2-91a5-93f54fe4c4b5.xml
+    apple_podcast: https://podcasts.apple.com/us/podcast/tech-caf%C3%A9-tech-ia/id916491698?uo=4
+    platform: Audiomeans
+    hosts:
+      - Guillaume Vendé
+      - Guillaume Poggiaspalla
 
   - id: developer-voice
     name: "Developer Voices"
@@ -36,6 +58,9 @@
       - Architecture
     language: en
     status: active
+    website: https://www.developervoices.com/
+    hosts:
+      - Kris Jenkins
 
   - id: syntax
     name: "Syntax"
@@ -43,6 +68,11 @@
       - Développement Web
     language: en
     status: active
+    website: https://syntax.fm/
+    youtube: https://www.youtube.com/@syntaxfm
+    hosts:
+      - Wes Bos
+      - Scott Tolinski
 
   - id: coding-blocks
     name: "Coding Blocks"
@@ -50,6 +80,11 @@
       - Développement
     language: en
     status: active
+    website: https://www.codingblocks.net/
+    hosts:
+      - Allen Underwood
+      - Michael Outlaw
+      - Joe Zack
 
   - id: software-engineering-daily
     name: "Software Engineering Daily"
@@ -58,6 +93,9 @@
       - Architecture
     language: en
     status: active
+    website: https://softwareengineeringdaily.com/
+    hosts:
+      - Jeff Meyerson
 
   - id: changelog
     name: "The Changelog"
@@ -66,6 +104,12 @@
       - Développement
     language: en
     status: active
+    website: https://changelog.com/podcast
+    hosts:
+      - Adam Stacoviak
+      - Jerod Santo
+    rss: https://changelog.com/podcast/feed
+    apple_podcast: https://podcasts.apple.com/us/podcast/the-changelog-software-development-open-source/id341623264
 
   - id: cppcast
     name: "CppCast"
@@ -74,6 +118,10 @@
       - Développement
     language: en
     status: active
+    website: https://cppcast.com/
+    hosts:
+      - Rob Irving
+      - Jason Turner
 
   - id: dotnet-rocks
     name: ".NET Rocks!"
@@ -82,6 +130,12 @@
       - Développement
     language: en
     status: active
+    website: https://www.dotnetrocks.com/
+    hosts:
+      - Carl Franklin
+      - Richard Campbell
+    rss: https://pwop.com/feed.aspx?show=dotnetrocks
+    platform: Spreaker
 
   - id: python-bytes
     name: "Python Bytes"
@@ -89,6 +143,10 @@
       - Python
     language: en
     status: active
+    website: https://pythonbytes.fm/
+    hosts:
+      - Michael Kennedy
+      - Brian Okken
 
   - id: talk-python
     name: "Talk Python To Me"
@@ -96,6 +154,9 @@
       - Python
     language: en
     status: active
+    website: https://talkpython.fm/
+    hosts:
+      - Michael Kennedy
 
   - id: real-python
     name: "Real Python Podcast"
@@ -103,6 +164,9 @@
       - Python
     language: en
     status: active
+    website: https://realpython.com/podcasts/rpp/
+    hosts:
+      - Christopher Bailey
 
   - id: go-time
     name: "Go Time"
@@ -110,6 +174,12 @@
       - Go
     language: en
     status: active
+    website: https://changelog.com/gotime
+    hosts:
+      - Mat Ryer
+      - Johnny Boursiquot
+      - Jon Calhoun
+    rss: https://changelog.com/gotime/feed
 
   - id: gotime
     name: "GoTime"
@@ -125,6 +195,9 @@
       - JavaScript
     language: en
     status: active
+    website: https://javascriptjabber.com/
+    hosts:
+      - Charles Max Wood
 
   - id: react-podcast
     name: "React Podcast"
@@ -132,6 +205,11 @@
       - React
     language: en
     status: active
+    website: https://reactpodcast.com/
+    hosts:
+      - Michael Chan
+    rss: https://feeds.simplecast.com/JoR28o79
+    platform: Simplecast
 
   - id: angular-show
     name: "The Angular Show"
@@ -139,6 +217,16 @@
       - Angular
     language: en
     status: active
+    hosts:
+      - Jay Bell
+      - James Spivey
+      - Lara Newsom
+      - Mike Hartington
+    website: https://ng.show
+    rss: https://www.spreaker.com/show/4175221/episodes/feed
+    apple_podcast: https://podcasts.apple.com/podcast/id1501989276
+    spotify: https://open.spotify.com/show/1PrLErQHBqBhZsRV1KHhGM
+    platform: Spreaker
 
   - id: ai-engineering
     name: "The AI Engineering Podcast"
@@ -147,6 +235,7 @@
       - Machine Learning
     language: en
     status: active
+    website: https://aiengineeringpodcast.com/
 
   - id: practical-ai
     name: "Practical AI"
@@ -154,6 +243,11 @@
       - Intelligence Artificielle
     language: en
     status: active
+    website: https://changelog.com/practicalai
+    hosts:
+      - Daniel Whitenack
+      - Chris Benson
+    rss: https://changelog.com/practicalai/feed
 
   - id: latent-space
     name: "Latent Space"
@@ -162,6 +256,12 @@
       - IA
     language: en
     status: active
+    website: https://www.latent.space/
+    hosts:
+      - swyx
+      - Alessio Fanelli
+    rss: https://api.substack.com/feed/podcast/1084089.rss
+    platform: Substack
 
   - id: twiml
     name: "This Week in Machine Learning & AI"
@@ -170,6 +270,9 @@
       - Machine Learning
     language: en
     status: active
+    website: https://twimlai.com/
+    hosts:
+      - Sam Charrington
 
   - id: data-engineering-podcast
     name: "Data Engineering Podcast"
@@ -178,6 +281,11 @@
       - IA
     language: en
     status: active
+    website: https://www.dataengineeringpodcast.com/
+    hosts:
+      - Tobias Macey
+    apple_podcast: https://podcasts.apple.com/us/podcast/data-engineering-podcast/id1193040557
+    spotify: https://open.spotify.com/show/2iLvljRGVVIGlJshT5vNDS
 
   - id: command-line-heroes
     name: "Command Line Heroes"
@@ -186,6 +294,9 @@
       - Histoire
     language: en
     status: archived
+    website: https://www.redhat.com/en/command-line-heroes
+    hosts:
+      - Saron Yitbarek
 
   - id: devjourney
     name: "Developer Journey"
@@ -194,6 +305,7 @@
       - Carrière
     language: en
     status: active
+    website: https://devjourney.info/
 
   - id: soft-skills-engineering
     name: "Soft Skills Engineering"
@@ -202,6 +314,10 @@
       - Carrière
     language: en
     status: active
+    website: https://softskills.audio/
+    hosts:
+      - Dave Smith
+      - Jamison Dance
 
   - id: maintainable
     name: "Maintainable"
@@ -210,6 +326,9 @@
       - Qualité logicielle
     language: en
     status: active
+    website: https://maintainable.fm/
+    hosts:
+      - Robby Russell
 
   - id: ship-it
     name: "Ship It!"
@@ -218,3 +337,9 @@
       - Développement
     language: en
     status: active
+    website: https://changelog.com/shipit
+    hosts:
+      - Justin Searls
+      - Adam Stacoviak
+      - Jerod Santo
+    rss: https://changelog.com/shipit/feed

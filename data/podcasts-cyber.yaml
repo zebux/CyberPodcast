@@ -8,6 +8,9 @@ podcasts:
     language: fr
     host: "Romain Rousseau"
     status: active
+    website: https://podcast.ausha.co/consulia-cekoica
+    platform: Ausha
+    apple_podcast: https://podcasts.apple.com/fr/podcast/consulia-c%C3%A9koi%C3%A7a/id1766096112?uo=4
 
   - id: compliance-without-coma
     name: "Compliance Without Coma"
@@ -15,6 +18,8 @@ podcasts:
     language: fr
     host: "Fabrice De Paepe"
     status: active
+    website: https://podcast.ausha.co/compliance-without-coma
+    platform: Ausha
 
   - id: cyberpunkcompany
     name: "CyberPunkCompany"
@@ -22,6 +27,9 @@ podcasts:
     language: fr
     host: "Tixlegeek"
     status: active
+    spotify: https://open.spotify.com/show/6hrcsJTfyJfaIoh4vx14qd
+    website: https://cyberpunk.company/
+    description: Podcast de Tixlegeek consacré au hacking, à la cybersécurité et à la culture geek.
 
   - id: cybersecurite-all-day
     name: "Cybersécurité All Day"
@@ -29,6 +37,7 @@ podcasts:
     language: fr
     host: "Michael Virgone"
     status: active
+    website: https://cybersecuriteallday.fr/
 
   - id: dans-loeil-de-la-cyber
     name: "Dans l'œil de la cyber"
@@ -36,6 +45,8 @@ podcasts:
     language: fr
     host: "Gatewatcher"
     status: active
+    website: https://podcast.ausha.co/dans-l-oeil-de-la-cyber
+    platform: Ausha
 
   - id: dialogues-imaginaires
     name: "Dialogues imaginaires du monde merveilleux de la cyber"
@@ -43,6 +54,7 @@ podcasts:
     language: fr
     host: "L'Ours"
     status: active
+    website: https://dialogues-imaginaires.net/
 
   - id: french-connection
     name: "French Connection"
@@ -50,6 +62,8 @@ podcasts:
     language: fr
     host: "@SecuritePodcast"
     status: active
+    website: https://securite.fm/
+    description: Podcast francophone de Sécurité FM sur la cybersécurité et les enjeux du numérique.
 
   - id: hacknspeak
     name: "Hack'n Speak"
@@ -57,6 +71,8 @@ podcasts:
     language: fr
     host: "Martial Puygrenier"
     status: active
+    website: https://anchor.fm/hacknspeak
+    platform: Anchor
 
   - id: hacktback-cybertalk
     name: "HacktBack CyberTalk"
@@ -64,6 +80,8 @@ podcasts:
     language: fr
     host: "HacktBack"
     status: active
+    website: https://podcast.ausha.co/cybertalk
+    platform: Ausha
 
   - id: incyber-voices
     name: "InCyber Voices"
@@ -71,6 +89,8 @@ podcasts:
     language: fr
     host: "InCyber News"
     status: active
+    website: https://incyber.org/
+    skip_rss_discovery: true
 
   - id: la-box-du-rssi
     name: "La Box du RSSI"
@@ -78,6 +98,8 @@ podcasts:
     language: fr
     host: "Fabrice Bourdelon"
     status: active
+    website: https://podcast.ausha.co/laboxdurssi
+    platform: Ausha
 
   - id: cyber-grand-mere
     name: "La cybersécurité expliquée à ma grand-mère"
@@ -85,6 +107,8 @@ podcasts:
     language: fr
     host: "Nicolas Remarck"
     status: active
+    website: https://smartlink.ausha.co/la-cyber-securite-expliquee-a-ma-grand-mere
+    platform: Ausha
 
   - id: la-matrice-a-bugge
     name: "La matrice a buggé"
@@ -101,6 +125,8 @@ podcasts:
     language: fr
     host: "Oriana Labruyère"
     status: active
+    website: https://www.larobenumerique.com/podcast
+    description: Podcast qui explore les enjeux juridiques et sociétaux du numérique et de la cybersécurité.
 
   - id: la-tangente
     name: "La Tangente"
@@ -108,6 +134,7 @@ podcasts:
     language: fr
     host: "Luckas Bosch"
     status: active
+    spotify: https://open.spotify.com/show/0WBMbK4frOLnBIApsZSw8w
 
   - id: le-dejargonneur-cyber
     name: "Le Déjargonneur Cyber"
@@ -115,6 +142,8 @@ podcasts:
     language: fr
     host: "CLUSIF"
     status: active
+    website: https://shows.acast.com/le-dejargonneur-cyber
+    platform: Acast
 
   - id: le-monde-de-la-cyber
     name: "Le Monde de la Cyber"
@@ -127,8 +156,14 @@ podcasts:
     name: "Les Enfants de la Cyber"
     category: ["Cybersécurité"]
     language: fr
-    host: "Agora Managers Groupe"
     status: active
+    website: https://smartlinks.audiomeans.fr/l/les-enfants-de-la-cyber-0f28787e
+    rss: https://feeds.audiomeans.fr/feed/0f28787e-2a00-4dd5-9503-96e824efbacf.xml
+    platform: Audiomeans
+    hosts:
+      - Franck Rouxel
+      - Julien Merali
+    linkedin: https://fr.linkedin.com/in/julien-merali
 
   - id: lets-talk-about-sec
     name: "Let's Talk About Sec"
@@ -143,6 +178,7 @@ podcasts:
     language: fr
     host: "NoLimitSecu"
     status: active
+    website: https://www.nolimitsecu.fr/
 
   - id: objectif-cyber
     name: "Objectif Cyber"
@@ -150,6 +186,10 @@ podcasts:
     language: fr
     host: "Capgemini"
     status: active
+    website: https://www.capgemini.com/fr-fr/perspectives/publications/podcast-objectif-tech/objectif-cyber/
+    skip_rss_discovery: true
+    description: Podcast Capgemini consacré à la cybersécurité et aux enjeux cyber des entreprises.
+    apple_podcast: https://podcasts.apple.com/fr/podcast/objectif-tech/id1597450554?uo=4
 
   - id: on-dit-chiffrer
     name: "On dit chiffrer"
@@ -157,6 +197,8 @@ podcasts:
     language: fr
     host: "OnDitChiffrer"
     status: active
+    rss: https://feeds.acast.com/public/shows/on-dit-chiffrer
+    platform: Acast
 
   - id: polysecure
     name: "PolySécure"
@@ -164,6 +206,9 @@ podcasts:
     language: fr
     host: "Nicolas-Loïc Fortin"
     status: active
+    website: https://polysecure.ca/
+    country: CA
+    description: Podcast québécois sur la cybersécurité, la vie privée et la sécurité des organisations.
 
   - id: purple-voice
     name: "Purple Voice"
@@ -180,13 +225,20 @@ podcasts:
     language: fr
     host: "Marc-Frédéric Gomez"
     status: active
+    website: https://www.radiocsirt.org/
+    description: Podcast consacré aux CSIRT, à la réponse à incident et à la cybersécurité opérationnelle.
 
   - id: riskintel-media
     name: "Riskintel Média"
     category: ["Cybersécurité"]
     language: fr
-    host: "Riskintel"
     status: active
+    apple_podcast: https://podcasts.apple.com/fr/podcast/riskintel-m%C3%A9dia-le-podcast-en-cybers%C3%A9curit%C3%A9/id1710814400
+    website: https://podcast.ausha.co/riskintel-media
+    rss: https://feed.ausha.co/rjLzeUqpJDe1
+    platform: Ausha
+    hosts:
+      - Yasmine Douadi
 
   - id: source-ouverte
     name: "Source Ouverte"
@@ -194,6 +246,7 @@ podcasts:
     language: fr
     host: "Cigref"
     status: active
+    description: Podcast du Cigref sur l'intelligence collective, l'OSINT et la gestion de crise.
 
   - id: yakafokon
     name: "Yakafokon"
@@ -201,13 +254,19 @@ podcasts:
     language: fr
     host: "Florian Maury"
     status: active
+    spotify: https://open.spotify.com/show/77AVXD1a6ysbJiua5jDpZr
 
   - id: diginov
     name: "Diginov"
     category: ["Cybersécurité"]
     language: fr
-    host: "Sylvanus Hougbekey"
     status: archived
+    apple_podcast: https://podcasts.apple.com/fr/podcast/diginov/id1731261927
+    linkedin: https://fr.linkedin.com/in/sylvanush
+    hosts:
+      - Sylvanus Hougbekey
+      - Madena-Esso Kao
+    description: Podcast sur l'innovation, la transformation digitale, la cybersécurité, le cloud et l'IA.
 
   - id: hackstock
     name: "Hackstock"
@@ -220,27 +279,49 @@ podcasts:
     category: ["Cybersécurité"]
     language: fr
     status: archived
+    website: https://www.comptoirsecu.fr/
+    hosts:
+      - Justin Ganivet
+      - Morgan Hotonnier
+      - Loïs Samain
+      - Youenn Piolet
+      - Jil
+      - SwitHak
 
   - id: les-chiens-de-garde
     name: "Les Chiens de Garde"
     category: ["Cybersécurité"]
     language: fr
     status: archived
+    spotify: https://open.spotify.com/show/3mESEykdPUxhkrMWVd3iNl
+    country: CA
 
   - id: les-minutes-cyber
     name: "Les Minutes Cyber"
     category: ["Cybersécurité"]
     language: fr
     status: archived
+    website: https://les-minutes-cyber.lepodcast.fr/
+    hosts:
+      - Kedros Cybersécurité
 
   - id: nolog
     name: "NOLOG"
     category: ["Cybersécurité"]
     language: fr
     status: archived
+    hosts:
+      - Véronique Loquet
 
   - id: osint-origins
     name: "OSINT Origins"
     category: ["OSINT", "Cybersécurité"]
     language: fr
     status: archived
+    spotify: https://open.spotify.com/show/4WjF4NReXClnfL0Lsev95p
+    website: https://osintfr.com/en/home/
+    rss: https://anchor.fm/s/6d2d3288/podcast/rss
+    youtube: https://www.youtube.com/channel/UCTkCTxPPRMzdjhaKkn_4PiQ
+    platform: Anchor
+    hosts:
+      - Sylvain Hajri

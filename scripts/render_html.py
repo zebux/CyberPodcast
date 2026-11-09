@@ -30,6 +30,7 @@ LANGUAGE_LABELS = {
 
 DEFAULT_CATEGORY = "Cybersécurité"
 DEFAULT_LANGUAGE = "fr"
+DEFAULT_STATUS = "active"
 
 
 def escape(value: Any) -> str:
@@ -288,6 +289,7 @@ def render() -> None:
         labels=STATUS_LABELS,
         counts=status_counts,
         empty_label="Tous les statuts",
+        selected=DEFAULT_STATUS,
     )
     language_options = build_options(
         languages,
@@ -319,22 +321,94 @@ def render() -> None:
   <meta property="og:description" content="Annuaire de podcasts cybersécurité, cloud et développement, enrichi automatiquement.">
   <meta property="og:type" content="website">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%23080d1c%22/><circle cx=%2250%22 cy=%2242%22 r=%2217%22 fill=%22%236ee7ff%22/><rect x=%2243%22 y=%2258%22 width=%2214%22 height=%2224%22 rx=%227%22 fill=%22%23a78bfa%22/></svg>">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('cyberpodcast-theme');
+        var theme = stored === 'light' || stored === 'dark'
+          ? stored
+          : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        document.documentElement.dataset.theme = theme;
+      } catch (error) {}
+    })();
+  </script>
   <style>
     :root {
+      color-scheme: dark;
       --bg: #080d1c;
       --bg-soft: #0e1530;
-      --card: rgba(255, 255, 255, 0.045);
       --card-strong: rgba(255, 255, 255, 0.075);
+      --card-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.022));
       --border: rgba(255, 255, 255, 0.10);
       --text: #e9eefb;
       --muted: #96a2c2;
       --accent: #6ee7ff;
       --accent-2: #a78bfa;
+      --gradient-3: #f0abfc;
       --green: #34d399;
       --amber: #fbbf24;
       --red: #fb7185;
       --radius: 18px;
       --shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
+      --toolbar-bg: rgba(8, 13, 28, 0.82);
+      --placeholder: #6f7da1;
+      --description: #c8d3eb;
+      --chip-bg: rgba(255, 255, 255, 0.05);
+      --link-bg: rgba(255, 255, 255, 0.05);
+      --link-hover-text: #06101f;
+      --card-hover-border: rgba(110, 231, 255, 0.34);
+      --focus-border: rgba(110, 231, 255, 0.65);
+      --focus-shadow: 0 0 0 4px rgba(110, 231, 255, 0.12);
+      --status-active-text: #bbf7d0;
+      --status-active-bg: rgba(34, 197, 94, 0.14);
+      --status-active-border: rgba(34, 197, 94, 0.34);
+      --status-slow-text: #fde68a;
+      --status-slow-bg: rgba(245, 158, 11, 0.14);
+      --status-slow-border: rgba(245, 158, 11, 0.34);
+      --status-archived-text: #cbd5e1;
+      --status-archived-bg: rgba(148, 163, 184, 0.14);
+      --status-archived-border: rgba(148, 163, 184, 0.34);
+      --glow-1: rgba(110, 231, 255, 0.16);
+      --glow-2: rgba(167, 139, 250, 0.14);
+      --glow-3: rgba(52, 211, 153, 0.10);
+    }
+    [data-theme="light"] {
+      color-scheme: light;
+      --bg: #f4f7fb;
+      --bg-soft: #ffffff;
+      --card-strong: rgba(255, 255, 255, 0.98);
+      --card-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.82));
+      --border: rgba(15, 23, 42, 0.13);
+      --text: #0f172a;
+      --muted: #52607a;
+      --accent: #0369a1;
+      --accent-2: #7c3aed;
+      --gradient-3: #c026d3;
+      --green: #047857;
+      --amber: #b45309;
+      --red: #be123c;
+      --shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+      --toolbar-bg: rgba(244, 247, 251, 0.88);
+      --placeholder: #7b879c;
+      --description: #334155;
+      --chip-bg: rgba(15, 23, 42, 0.05);
+      --link-bg: rgba(15, 23, 42, 0.05);
+      --link-hover-text: #ffffff;
+      --card-hover-border: rgba(3, 105, 161, 0.35);
+      --focus-border: rgba(3, 105, 161, 0.55);
+      --focus-shadow: 0 0 0 4px rgba(3, 105, 161, 0.12);
+      --status-active-text: #166534;
+      --status-active-bg: rgba(34, 197, 94, 0.12);
+      --status-active-border: rgba(34, 197, 94, 0.30);
+      --status-slow-text: #92400e;
+      --status-slow-bg: rgba(245, 158, 11, 0.12);
+      --status-slow-border: rgba(245, 158, 11, 0.30);
+      --status-archived-text: #475569;
+      --status-archived-bg: rgba(100, 116, 139, 0.10);
+      --status-archived-border: rgba(100, 116, 139, 0.25);
+      --glow-1: rgba(14, 165, 233, 0.10);
+      --glow-2: rgba(124, 58, 237, 0.08);
+      --glow-3: rgba(16, 185, 129, 0.07);
     }
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
@@ -343,9 +417,9 @@ def render() -> None:
       min-height: 100vh;
       color: var(--text);
       background:
-        radial-gradient(900px 520px at 8% -10%, rgba(110, 231, 255, 0.16), transparent 60%),
-        radial-gradient(820px 520px at 92% 0%, rgba(167, 139, 250, 0.14), transparent 62%),
-        radial-gradient(720px 420px at 50% 110%, rgba(52, 211, 153, 0.10), transparent 60%),
+        radial-gradient(900px 520px at 8% -10%, var(--glow-1), transparent 60%),
+        radial-gradient(820px 520px at 92% 0%, var(--glow-2), transparent 62%),
+        radial-gradient(720px 420px at 50% 110%, var(--glow-3), transparent 60%),
         var(--bg);
       background-attachment: fixed;
       font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -385,7 +459,7 @@ def render() -> None:
       letter-spacing: -0.035em;
     }
     .gradient {
-      background: linear-gradient(92deg, var(--accent), var(--accent-2) 55%, #f0abfc);
+      background: linear-gradient(92deg, var(--accent), var(--accent-2) 55%, var(--gradient-3));
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
@@ -396,7 +470,7 @@ def render() -> None:
       z-index: 20;
       border-top: 1px solid var(--border);
       border-bottom: 1px solid var(--border);
-      background: rgba(8, 13, 28, 0.82);
+      background: var(--toolbar-bg);
       backdrop-filter: blur(16px);
     }
     .toolbar-inner {
@@ -426,7 +500,7 @@ def render() -> None:
       width: 100%;
       padding: 0 14px;
     }
-    input[type="search"]::placeholder { color: #6f7da1; }
+    input[type="search"]::placeholder { color: var(--placeholder); }
     select {
       max-width: 220px;
       padding: 0 34px 0 12px;
@@ -441,8 +515,8 @@ def render() -> None:
     input[type="search"]:focus,
     select:focus,
     button:focus-visible {
-      border-color: rgba(110, 231, 255, 0.65);
-      box-shadow: 0 0 0 4px rgba(110, 231, 255, 0.12);
+      border-color: var(--focus-border);
+      box-shadow: var(--focus-shadow);
     }
     button:hover { background: var(--card-strong); }
     .results {
@@ -469,7 +543,7 @@ def render() -> None:
       gap: 14px;
       overflow: hidden;
       padding: 20px;
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.022));
+      background: var(--card-gradient);
       border: 1px solid var(--border);
       border-radius: var(--radius);
       transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
@@ -490,7 +564,7 @@ def render() -> None:
     }
     .card:hover {
       transform: translateY(-3px);
-      border-color: rgba(110, 231, 255, 0.34);
+      border-color: var(--card-hover-border);
       box-shadow: var(--shadow);
     }
     .card[hidden] { display: none !important; }
@@ -521,19 +595,19 @@ def render() -> None:
       white-space: nowrap;
     }
     .status-active {
-      color: #bbf7d0;
-      background: rgba(34, 197, 94, 0.14);
-      border-color: rgba(34, 197, 94, 0.34);
+      color: var(--status-active-text);
+      background: var(--status-active-bg);
+      border-color: var(--status-active-border);
     }
     .status-slow {
-      color: #fde68a;
-      background: rgba(245, 158, 11, 0.14);
-      border-color: rgba(245, 158, 11, 0.34);
+      color: var(--status-slow-text);
+      background: var(--status-slow-bg);
+      border-color: var(--status-slow-border);
     }
     .status-archived {
-      color: #cbd5e1;
-      background: rgba(148, 163, 184, 0.14);
-      border-color: rgba(148, 163, 184, 0.34);
+      color: var(--status-archived-text);
+      background: var(--status-archived-bg);
+      border-color: var(--status-archived-border);
     }
     .chips, .tags {
       display: flex;
@@ -543,7 +617,7 @@ def render() -> None:
     .chip {
       padding: 3px 8px;
       color: var(--muted);
-      background: rgba(255, 255, 255, 0.05);
+      background: var(--chip-bg);
       border: 1px solid var(--border);
       border-radius: 999px;
       font-size: 0.7rem;
@@ -553,7 +627,7 @@ def render() -> None:
       display: -webkit-box;
       margin: 0;
       overflow: hidden;
-      color: #c8d3eb;
+      color: var(--description);
       font-size: 0.9rem;
       line-height: 1.55;
       -webkit-box-orient: vertical;
@@ -593,7 +667,7 @@ def render() -> None:
       gap: 7px;
       padding: 6px 10px;
       color: var(--text);
-      background: rgba(255, 255, 255, 0.05);
+      background: var(--link-bg);
       border: 1px solid var(--border);
       border-radius: 999px;
       font-size: 0.76rem;
@@ -602,7 +676,7 @@ def render() -> None:
       transition: color 0.16s ease, background 0.16s ease, border-color 0.16s ease;
     }
     .link:hover {
-      color: #06101f;
+      color: var(--link-hover-text);
       background: var(--accent);
       border-color: var(--accent);
     }
@@ -619,7 +693,7 @@ def render() -> None:
     .link-spotify .dot { background: var(--green); }
     .link-youtube .dot { background: var(--red); }
     .link-linkedin .dot { background: #60a5fa; }
-    .link:hover .dot { background: #06101f; }
+    .link:hover .dot { background: var(--link-hover-text); }
     .tags {
       padding-top: 12px;
       border-top: 1px dashed var(--border);
@@ -692,6 +766,7 @@ def render() -> None:
         <option value="status">Statut</option>
       </select>
       <button id="reset" type="button">Réinitialiser</button>
+      <button id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
     </div>
   </section>
 
@@ -719,9 +794,35 @@ def render() -> None:
       const reset = document.getElementById('reset');
       const count = document.getElementById('count');
       const empty = document.getElementById('empty');
+      const themeToggle = document.getElementById('theme-toggle');
       const statusOrder = { active: 0, slow: 1, archived: 2 };
       const defaultCategory = 'Cybersécurité';
       const defaultLanguage = 'fr';
+      const defaultStatus = 'active';
+      const themeKey = 'cyberpodcast-theme';
+
+      function applyTheme(theme, persist) {
+        const light = theme === 'light';
+        document.documentElement.dataset.theme = light ? 'light' : 'dark';
+        themeToggle.textContent = light ? 'Sombre' : 'Clair';
+        themeToggle.setAttribute('aria-pressed', String(light));
+        const label = light ? 'Activer le thème sombre' : 'Activer le thème clair';
+        themeToggle.setAttribute('aria-label', label);
+        themeToggle.title = label;
+        if (persist) {
+          try {
+            localStorage.setItem(themeKey, light ? 'light' : 'dark');
+          } catch (error) {}
+        }
+      }
+
+      applyTheme(document.documentElement.dataset.theme || 'dark', false);
+      themeToggle.addEventListener('click', function () {
+        applyTheme(
+          document.documentElement.dataset.theme === 'light' ? 'dark' : 'light',
+          true
+        );
+      });
 
       function normalize(value) {
         return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
@@ -777,7 +878,7 @@ def render() -> None:
       reset.addEventListener('click', function () {
         search.value = '';
         category.value = defaultCategory;
-        status.value = '';
+        status.value = defaultStatus;
         language.value = defaultLanguage;
         platform.value = '';
         sort.value = 'name';

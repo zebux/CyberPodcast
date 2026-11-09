@@ -1,0 +1,2706 @@
+version: 2
+count: 90
+podcasts:
+- id: dans-ton-kube
+  name: Dans ton Kube
+  category:
+  - DevOps
+  - Kubernetes
+  - Cloud
+  language: fr
+  country: FR
+  hosts:
+  - Guilhem Lettron
+  website: https://dtk.p7t.tech/
+  rss: https://feeds.transistor.fm/dans-ton-kube
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/dans-ton-kube/id1438233899?uo=4
+  linkedin: null
+  description: Parlons de Kubernetes..
+  last_episode: '2026-01-14'
+  episode_count: 11
+  average_duration: 59
+  status: slow
+  community_rating: 5.0
+  platform: Transistor
+  topics:
+  - Cloud
+  - Kubernetes
+  - DevOps
+  tags:
+  - Kubernetes
+  - CNCF
+- id: les-compagnons-du-devops
+  name: Les Compagnons du DevOps
+  category:
+  - DevOps
+  - Cloud
+  language: fr
+  country: FR
+  hosts:
+  - Christophe Chaudier
+  website: https://www.compagnons-devops.fr
+  rss: null
+  youtube: https://www.youtube.com/c/lescompagnonsdudevops
+  spotify: null
+  apple_podcast: null
+  linkedin: null
+  description: 'Chaîne et podcast de la communauté francophone Les Compagnons du DevOps : cloud, Kubernetes et infrastructure as code.'
+  last_episode: null
+  episode_count: null
+  average_duration: null
+  status: active
+  community_rating: null
+  platform: autre
+  topics:
+  - Cloud
+  - Kubernetes
+  - DevOps
+  tags:
+  - Kubernetes
+- id: on-azure-grave
+  name: On Azure Grave
+  category:
+  - Azure
+  - Cloud
+  language: fr
+  country: FR
+  hosts:
+  - Arnaud Morvillier
+  website: https://shows.acast.com/on-azure-grave-onag
+  rss: https://feeds.acast.com/public/shows/on-azure-grave-onag
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/on-azure-grave-onag/id1694255772?uo=4
+  linkedin: null
+  description: Toute l'actualisé sur le Cloud Azure.
+  last_episode: '2025-06-24'
+  episode_count: 97
+  average_duration: 16
+  status: slow
+  community_rating: null
+  platform: Acast
+  topics:
+  - Cloud
+  - Azure
+  - Docker
+  tags:
+  - Azure
+- id: wespeakcloud
+  name: We Speak Cloud
+  category:
+  - Cloud
+  - Azure
+  - AWS
+  - GCP
+  language: fr
+  country: FR
+  hosts:
+  - WeScale
+  website: https://wespeakcloud.com
+  rss: https://anchor.fm/s/11be1e6c/podcast/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/we-speak-cloud/id1498451853?uo=4
+  linkedin: null
+  description: Welcome to our podcast! We lay the foundation for what this podcast is all about... the Cloud. Find a bit about what we do, how you can make your business or job more efficient, and free services we…
+  last_episode: '2020-04-15'
+  episode_count: 8
+  average_duration: 12
+  status: archived
+  community_rating: null
+  platform: Anchor
+  topics:
+  - Cloud
+  - AWS
+  - Azure
+  - GCP
+  tags:
+  - Azure
+  - AWS
+  - GCP
+- id: radio-devops
+  name: Radio DevOps
+  category:
+  - DevOps
+  - SRE
+  - Cloud Native
+  language: fr
+  country: FR
+  hosts:
+  - Christophe Chaudier
+  website: https://www.compagnons-devops.fr
+  rss: https://feeds.acast.com/public/shows/radio-devops
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/radio-devops/id1502434010?uo=4
+  linkedin: https://www.linkedin.com/in/cchaudier
+  description: Le podcast des Compagnons du DevOps
+  last_episode: '2025-04-02'
+  episode_count: 142
+  average_duration: 21
+  status: slow
+  community_rating: 4.8
+  platform: Acast
+  topics:
+  - Cloud
+  - Kubernetes
+  - Docker
+  - Terraform
+  - Ansible
+  - DevOps
+  tags:
+  - Kubernetes
+  - Docker
+  - Terraform
+  - Ansible
+  - GitLab
+  - CNCF
+  - OpenStack
+- id: kubernetes-podcast-fr
+  name: Kubernetes Podcast FR
+  category:
+  - Kubernetes
+  - Cloud Native
+  language: fr
+  country: FR
+  hosts: []
+  website: null
+  rss: null
+  youtube: null
+  spotify: null
+  apple_podcast: null
+  linkedin: null
+  description: Podcast francophone dédié à Kubernetes et aux technologies cloud native.
+  last_episode: null
+  episode_count: null
+  average_duration: null
+  status: active
+  community_rating: null
+  platform: autre
+  topics:
+  - Cloud
+  - Kubernetes
+  tags:
+  - Kubernetes
+  - CNCF
+- id: les-tetes-dans-le-cloud
+  name: Les Têtes dans le Cloud
+  category:
+  - Azure
+  - Cloud
+  language: fr
+  country: FR
+  hosts:
+  - Expertime
+  website: https://www.expertime.com
+  rss: https://feeds.audiomeans.fr/feed/20a4dac2-0553-4bcd-ac1e-49a3d0785044.xml
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/les-t%C3%AAtes-dans-le-cloud/id1678696904?uo=4
+  linkedin: null
+  description: Les Têtes Dans Le Cloud, un condensé de news tech fortement influencé par l'écosystème Microsoft et animé par des passionnés ! Hébergé par Audiomeans. Visitez…
+  last_episode: '2026-11-05'
+  episode_count: 221
+  average_duration: 22
+  status: active
+  community_rating: 4.6
+  platform: Audiomeans
+  topics:
+  - Cloud
+  - Azure
+  tags:
+  - Azure
+- id: cloud-cafe
+  name: Cloud Café
+  category:
+  - Cloud
+  - DevOps
+  language: fr
+  country: FR
+  hosts:
+  - ITQ
+  website: https://podcasters.spotify.com/pod/show/itq4
+  rss: https://anchor.fm/s/108b1f810/podcast/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/itq-private-cloud-caf%C3%A9/id1835939834?uo=4
+  linkedin: null
+  description: Welcome to the ITQ Private Cloud Café podcast. In this series, we explore Private Cloud, Private AI, Cloud Native, data sovereignty, and digital innovation. Together with experts, customers, and…
+  last_episode: '2026-11-04'
+  episode_count: 5
+  average_duration: 43
+  status: active
+  community_rating: null
+  platform: Anchor
+  topics:
+  - Cloud
+  - DevOps
+  - IA
+  tags:
+  - CNCF
+- id: cloud-native-fr
+  name: Cloud Native FR
+  category:
+  - Kubernetes
+  - CNCF
+  - DevOps
+  language: fr
+  country: FR
+  hosts: []
+  website: null
+  rss: null
+  youtube: null
+  spotify: null
+  apple_podcast: null
+  linkedin: null
+  description: Podcast francophone sur le cloud native, Kubernetes et les pratiques DevOps.
+  last_episode: null
+  episode_count: null
+  average_duration: null
+  status: active
+  community_rating: null
+  platform: autre
+  topics:
+  - Cloud
+  - Kubernetes
+  - DevOps
+  tags:
+  - Kubernetes
+  - CNCF
+- id: devops-tribe
+  name: DevOps Tribe
+  category:
+  - DevOps
+  - SRE
+  language: en
+  country: US
+  hosts: []
+  website: null
+  rss: null
+  youtube: null
+  spotify: null
+  apple_podcast: null
+  linkedin: null
+  description: Podcast en anglais consacré au DevOps et à la fiabilité des systèmes (SRE).
+  last_episode: null
+  episode_count: null
+  average_duration: null
+  status: active
+  community_rating: null
+  platform: autre
+  topics:
+  - DevOps
+  tags:
+  - DevOps
+  - SRE
+- id: kubernetes-podcast
+  name: Kubernetes Podcast from Google
+  category:
+  - Kubernetes
+  - CNCF
+  language: en
+  country: US
+  hosts:
+  - Abdel Sghiouar
+  - Kaslin Fields
+  website: https://kubernetespodcast.com/
+  rss: https://kubernetespodcast.com/feeds/audio.xml
+  youtube: null
+  spotify: https://open.spotify.com/show/0AsnxlMtXRUEeZkIO0ScpJ
+  apple_podcast: https://podcasts.apple.com/us/podcast/kubernetes-podcast-from-google/id1370049232
+  linkedin: null
+  description: A biweekly podcast focused on what's happening in the Kubernetes community hosted by Abdel Sghiouar and Kaslin Fields. We cover Kubernetes, cloud-native applications, and other developments in the…
+  last_episode: '2026-09-03'
+  episode_count: 272
+  average_duration: 33
+  status: active
+  community_rating: 4.8
+  platform: Libsyn
+  topics:
+  - Cloud
+  - Kubernetes
+  tags:
+  - Kubernetes
+  - CNCF
+- id: the-cloudcast
+  name: The Cloudcast
+  category:
+  - Cloud
+  - DevOps
+  language: en
+  country: US
+  hosts:
+  - Aaron Delp
+  - Brian Gracely
+  website: https://www.thecloudcast.net/
+  rss: https://rss.buzzsprout.com/3195.rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/the-enterprise-ai-show/id417826820?uo=4
+  linkedin: null
+  description: The Enterprise AI Show explores the AI journey for Enterprise companies around the world. [formerly The Cloudcast] As the AI revolution moves from experimentation to execution, The Enterprise AI Show…
+  last_episode: '2026-11-08'
+  episode_count: 1113
+  average_duration: 37
+  status: active
+  community_rating: 4.6
+  platform: Buzzsprout
+  topics:
+  - Cloud
+  - DevOps
+  - IA
+  - LLM
+  - Carrière
+  tags:
+  - LLM
+  - OpenAI
+  - Anthropic
+- id: arrested-devops
+  name: Arrested DevOps
+  category:
+  - DevOps
+  language: en
+  country: US
+  hosts:
+  - Matt Stratton
+  - Trevor Hess
+  - Bridget Kromhout
+  website: https://www.arresteddevops.com/
+  rss: https://www.arresteddevops.com/feed/podcast
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/arrested-devops/id773888088?uo=4
+  linkedin: null
+  description: There's always DevOps in the Banana Stand
+  last_episode: '2026-10-28'
+  episode_count: 210
+  average_duration: 41
+  status: active
+  community_rating: 4.6
+  platform: Blubrry
+  topics:
+  - DevOps
+  tags:
+  - Technology
+  - Software How-To
+  - Tech News
+- id: software-defined-talk
+  name: Software Defined Talk
+  category:
+  - Cloud
+  - Kubernetes
+  - DevOps
+  language: en
+  country: US
+  hosts:
+  - Brandon Whichard
+  - Matt Ray
+  - Coté
+  website: https://www.softwaredefinedtalk.com/
+  rss: https://www.softwaredefinedtalk.com/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/software-defined-talk/id893738521?uo=4
+  linkedin: null
+  description: A podcast about Enterprise Software and Cloud Computing that doesn't take itself too seriously.
+  last_episode: '2026-11-06'
+  episode_count: 544
+  average_duration: 60
+  status: active
+  community_rating: 4.7
+  platform: Fireside
+  topics:
+  - Cloud
+  - Kubernetes
+  - DevOps
+  - Carrière
+  tags:
+  - Kubernetes
+- id: packet-pushers
+  name: Packet Pushers
+  category:
+  - Réseau
+  - Cloud
+  - Infrastructure
+  language: en
+  country: US
+  hosts:
+  - Greg Ferro
+  - Ethan Banks
+  website: https://packetpushers.net/
+  rss: https://feeds.packetpushers.net/PacketPushersWeeklyPodcast/
+  youtube: null
+  spotify: null
+  apple_podcast: null
+  linkedin: null
+  description: Heavy Networking is an unabashedly nerdy dive into all things networking. On air since 2010, it’s the flagship show of the Packet Pushers podcast network.
+  last_episode: '2026-11-06'
+  episode_count: 250
+  average_duration: 60
+  status: active
+  community_rating: null
+  platform: autre
+  topics:
+  - Cloud
+  - Réseau
+  tags:
+  - Technology
+  - networking
+  - networks
+  - IT
+  - infrastructure
+- id: screaming-in-the-cloud
+  name: Screaming in the Cloud
+  category:
+  - AWS
+  - Cloud
+  language: en
+  country: US
+  hosts:
+  - Corey Quinn
+  website: https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/
+  rss: https://feeds.transistor.fm/screaming-in-the-cloud
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/screaming-in-the-cloud/id1361244178?uo=4
+  linkedin: null
+  description: Screaming in the Cloud with Corey Quinn features conversations with domain experts in the world of Cloud Computing.
+  last_episode: '2026-11-05'
+  episode_count: 682
+  average_duration: 31
+  status: active
+  community_rating: 4.7
+  platform: Transistor
+  topics:
+  - Cloud
+  - AWS
+  - DevOps
+  tags:
+  - AWS
+- id: aws-podcast
+  name: AWS Podcast
+  category:
+  - AWS
+  - Cloud
+  language: en
+  country: US
+  hosts:
+  - Simon Elisha
+  website: https://aws.amazon.com/podcasts/aws-podcast/
+  rss: https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/aws-podcast/id1122785133?uo=4
+  linkedin: null
+  description: The Official AWS Podcast is a podcast for developers and IT professionals looking for the latest news and trends in storage, security, infrastructure, serverless, and more. Join Simon Elisha and Hawn…
+  last_episode: '2026-04-07'
+  episode_count: 622
+  average_duration: 32
+  status: slow
+  community_rating: 4.3
+  platform: autre
+  topics:
+  - Cybersécurité
+  - Cloud
+  - AWS
+  tags:
+  - AWS
+- id: azure-podcast
+  name: The Azure Podcast
+  category:
+  - Azure
+  language: en
+  country: US
+  hosts:
+  - Evan Basalik
+  - Sujit D'Mello
+  - Russell Young
+  website: https://www.azpodcast.com/
+  rss: https://feeds.feedburner.com/TheAzurePodcast
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/the-azure-podcast/id728193635?uo=4
+  linkedin: null
+  description: The latest updates on Microsoft Azure
+  last_episode: '2025-06-11'
+  episode_count: 102
+  average_duration: 22
+  status: slow
+  community_rating: 4.6
+  platform: FeedBurner
+  topics:
+  - Cloud
+  - Azure
+  tags:
+  - Azure
+- id: google-cloud-platform-podcast
+  name: Google Cloud Platform Podcast
+  category:
+  - GCP
+  - Cloud
+  language: en
+  country: US
+  hosts:
+  - Mark Mirchandani
+  - Stephanie Wong
+  website: https://www.gcppodcast.com/
+  rss: https://googlecloudpodcast.libsyn.com/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/google-cloud-platform-podcast/id1053299163?uo=4
+  linkedin: null
+  description: The Google Cloud Platform Podcast, coming to you every week. Discussing everything on Google Cloud Platform from App Engine to BigQuery.
+  last_episode: '2023-11-16'
+  episode_count: 335
+  average_duration: 35
+  status: archived
+  community_rating: 4.6
+  platform: Libsyn
+  topics:
+  - Cloud
+  - GCP
+  tags:
+  - GCP
+- id: cloud-security-podcast
+  name: Cloud Security Podcast
+  category:
+  - Cloud Security
+  - Azure
+  - AWS
+  - GCP
+  language: en
+  country: US
+  hosts:
+  - Ashish Rajan
+  website: https://cloudsecuritypodcast.tv/
+  rss: https://anchor.fm/s/10fb9928/podcast/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/cloud-security-podcast/id1489678590?uo=4
+  linkedin: null
+  description: Learn Cloud Security in Public Cloud and for AI systems, the unbiased way from CyberSecurity Experts solving challenges at Cloud Scale. We are honest because we are not owned by Cloud Service…
+  last_episode: '2026-11-05'
+  episode_count: 365
+  average_duration: 42
+  status: active
+  community_rating: 5.0
+  platform: Anchor
+  topics:
+  - Cybersécurité
+  - Cloud Security
+  - Cloud
+  - AWS
+  - Azure
+  - GCP
+  - IA
+  tags:
+  - Azure
+  - AWS
+  - GCP
+- id: day-two-cloud
+  name: Day Two Cloud
+  category:
+  - Cloud
+  - Infrastructure
+  language: en
+  country: US
+  hosts:
+  - Ned Bellavance
+  - Ethan Banks
+  website: https://daytwocloud.io/
+  rss: https://feeds.packetpushers.net/day2cloud/
+  youtube: null
+  spotify: null
+  apple_podcast: null
+  linkedin: null
+  description: Dive deep into the challenges of cloud operations on this weekly podcast for IT pros & DevOps engineers.
+  last_episode: '2026-11-04'
+  episode_count: 250
+  average_duration: 45
+  status: active
+  community_rating: null
+  platform: autre
+  topics:
+  - Cloud
+  - AWS
+  - Azure
+  - DevOps
+  - Réseau
+  tags:
+  - Azure
+  - AWS
+- id: heavy-strategies
+  name: Heavy Strategy
+  category:
+  - Architecture
+  - Cloud
+  language: en
+  country: US
+  hosts:
+  - Johna Till Johnson
+  - Ned Bellavance
+  website: https://packetpushers.net/series/heavy-strategy/
+  rss: https://feeds.packetpushers.net/heavystrategy
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/heavy-strategy/id1536001488?uo=4
+  linkedin: null
+  description: From technology to workplace culture, from geopolitical trends to economics, Heavy Strategy debates pivotal questions in enterprise IT. Hosts Greg Ferro and Johna Till Johnson bring their technical…
+  last_episode: '2026-10-27'
+  episode_count: 149
+  average_duration: 37
+  status: active
+  community_rating: 4.8
+  platform: autre
+  topics:
+  - Cloud
+  - Architecture
+  tags:
+  - Technology
+  - CIO
+  - CISO
+  - CTO
+  - strategy
+  - leadership
+- id: command-line-heroes
+  name: Command Line Heroes
+  category:
+  - DevOps
+  - Linux
+  - Histoire
+  - Informatique
+  language: en
+  country: US
+  hosts:
+  - Saron Yitbarek
+  website: https://www.redhat.com/en/command-line-heroes
+  rss: https://api.riverside.com/hosting/dpRAL2Z3.rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/command-line-heroes/id1319947289?uo=4
+  linkedin: null
+  description: Hear the epic true tales of how developers, programmers, hackers, geeks, and open source rebels are revolutionizing the technology landscape. Command Line Heroes is an award-winning podcast hosted by…
+  last_episode: '2022-05-31'
+  episode_count: 77
+  average_duration: 23
+  status: archived
+  community_rating: 4.6
+  platform: Riverside
+  topics:
+  - Linux
+  - DevOps
+  - Open Source
+  - Histoire
+  tags:
+  - Society & Culture
+  - Technology
+- id: linux-action-news
+  name: Linux Action News
+  category:
+  - Linux
+  - Open Source
+  - Sysadmin
+  language: en
+  country: US
+  hosts:
+  - Chris Fisher
+  - Wes Payne
+  - Joe Ressington
+  website: https://linuxactionnews.com/
+  rss: https://linuxactionnews.com/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/linux-action-news/id160075139?uo=4
+  linkedin: null
+  description: Our weekly take on the free and open source world.
+  last_episode: '2023-07-06'
+  episode_count: 300
+  average_duration: 15
+  status: archived
+  community_rating: 4.5
+  platform: Fireside
+  topics:
+  - Linux
+  - Open Source
+  - Administration système
+  tags:
+  - Technology
+  - News
+  - Tech News
+- id: self-hosted
+  name: Self-Hosted
+  category:
+  - Linux
+  - Homelab
+  - Auto-hébergement
+  language: en
+  country: US
+  hosts:
+  - Alex Kretzschmar
+  - Chris Fisher
+  website: https://selfhosted.show/
+  rss: https://selfhosted.show/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/self-hosted/id1477997392?uo=4
+  linkedin: null
+  description: A chat show between Chris and Alex two long-time "self-hosters" who share their lessons and take you on the journey of their new ones.
+  last_episode: '2025-05-30'
+  episode_count: 151
+  average_duration: 58
+  status: slow
+  community_rating: 4.8
+  platform: Fireside
+  topics:
+  - Reverse Engineering
+  - Cloud
+  - Linux
+  - Open Source
+  tags:
+  - Homelab
+- id: late-night-linux
+  name: Late Night Linux
+  category:
+  - Linux
+  - Open Source
+  language: en
+  country: UK
+  hosts:
+  - Joe Ressington
+  website: https://latenightlinux.com/
+  rss: https://latenightlinux.com/feed
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/late-night-linux/id1189978971?uo=4
+  linkedin: null
+  description: Podcast britannique d'actualité Linux, open source et administration système.
+  last_episode: '2026-11-06'
+  episode_count: 1053
+  average_duration: null
+  status: active
+  community_rating: 4.6
+  platform: autre
+  topics:
+  - Linux
+  - Open Source
+  - Administration système
+  tags:
+  - News
+  - Tech News
+- id: linux-unplugged
+  name: Linux Unplugged
+  category:
+  - Linux
+  - DevOps
+  language: en
+  country: US
+  hosts:
+  - Chris Fisher
+  - Wes Payne
+  website: https://linuxunplugged.com/
+  rss: https://linuxunplugged.com/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/linux-unplugged/id687598126?uo=4
+  linkedin: null
+  description: Weekly Linux talk show with no script, no limits, surprise guests and tons of opinion.
+  last_episode: '2026-11-08'
+  episode_count: 692
+  average_duration: 80
+  status: active
+  community_rating: 4.5
+  platform: Art19
+  topics:
+  - Linux
+  - DevOps
+  tags:
+  - Technology
+  - News
+  - Tech News
+- id: ask-noah-show
+  name: The Ask Noah Show
+  category:
+  - Linux
+  - Administration système
+  language: en
+  country: US
+  hosts:
+  - Noah Chelliah
+  website: https://asknoahshow.com/
+  rss: https://feeds.fireside.fm/asknoah/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/ask-noah-show/id1221193873?uo=4
+  linkedin: null
+  description: The community centered show where you are the content!
+  last_episode: '2026-11-04'
+  episode_count: 512
+  average_duration: 54
+  status: active
+  community_rating: 4.6
+  platform: Fireside
+  topics:
+  - Linux
+  - Administration système
+  tags:
+  - Technology
+  - News
+  - Tech News
+  - Education
+  - How To
+- id: cekoica
+  name: CéKoiÇa
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Romain Rousseau
+  website: https://podcast.ausha.co/consulia-cekoica
+  rss: https://feed.ausha.co/VLezJt6PxXDZ
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/consulia-c%C3%A9koi%C3%A7a/id1766096112?uo=4
+  linkedin: null
+  description: 'Consulia CéKoiÇa, un podcast dédié à l’explication de notions techniques et complexes, relatives au domaine de la sécurité de l’information. Le principe est le suivant: vous résumer une norme, un…'
+  last_episode: '2025-01-27'
+  episode_count: 7
+  average_duration: 36
+  status: slow
+  community_rating: 5.0
+  platform: Ausha
+  topics:
+  - Cybersécurité
+  tags:
+  - Technology
+  - News
+  - Tech News
+- id: compliance-without-coma
+  name: Compliance Without Coma
+  category:
+  - Cybersécurité
+  - GRC
+  language: fr
+  country: FR
+  hosts:
+  - Fabrice De Paepe
+  website: https://podcast.ausha.co/compliance-without-coma
+  rss: https://feed.ausha.co/DEzWetYgJnD2
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/compliance-without-coma/id1809743806?uo=4
+  linkedin: null
+  description: 🔐 Normes. Risques. Gouvernance. Sans prise de tête. Bienvenue dans Compliance Without Coma®, le podcast qui parle de sécurité de l’information, de conformité, de risques et de normes… sans jargon et…
+  last_episode: '2026-11-06'
+  episode_count: 86
+  average_duration: 10
+  status: active
+  community_rating: 5.0
+  platform: Ausha
+  topics:
+  - Cybersécurité
+  - GRC
+  tags:
+  - Business
+  - Education
+  - Self-Improvement
+- id: cyberpunkcompany
+  name: CyberPunkCompany
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Tixlegeek
+  website: https://cyberpunk.company/
+  rss: null
+  youtube: null
+  spotify: https://open.spotify.com/show/6hrcsJTfyJfaIoh4vx14qd
+  apple_podcast: null
+  linkedin: null
+  description: Podcast de Tixlegeek consacré au hacking, à la cybersécurité et à la culture geek.
+  last_episode: null
+  episode_count: null
+  average_duration: null
+  status: active
+  community_rating: null
+  platform: autre
+  topics:
+  - Cybersécurité
+  tags:
+  - Cybersécurité
+- id: cybersecurite-all-day
+  name: Cybersécurité All Day
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Michael Virgone
+  website: https://cybersecuriteallday.fr/
+  rss: https://feeds.redcircle.com/ee62d503-8472-489e-aa70-be2885f8f5c9
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/cybers%C3%A9curit%C3%A9-all-day/id1543119176?uo=4
+  linkedin: null
+  description: Podcast francophone de vulgarisation des sujets de la cybersécurité, dans une ambiance décontractée. Animé par Michael VIRGONE, commercial et passionné de cyber depuis plusieurs années
+  last_episode: '2026-10-22'
+  episode_count: 77
+  average_duration: 37
+  status: active
+  community_rating: 4.7
+  platform: RedCircle
+  topics:
+  - Cybersécurité
+  tags:
+  - Technology
+  - News
+  - Tech News
+- id: dans-loeil-de-la-cyber
+  name: Dans l'œil de la cyber
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Gatewatcher
+  website: https://podcast.ausha.co/dans-l-oeil-de-la-cyber
+  rss: https://feed.ausha.co/BxpxZc2aQMrl
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/dans-l%C5%93il-de-la-cyber/id1594557345?uo=4
+  linkedin: null
+  description: Dans l’œil de la cyber est un podcast d’exploration du numérique, de ses promesses et de ses zones d’ombre. Animé par Anne-Laure de La Rivière, il donne la parole à celles et ceux qui façonnent le…
+  last_episode: '2026-11-09'
+  episode_count: 52
+  average_duration: 35
+  status: active
+  community_rating: 5.0
+  platform: Ausha
+  topics:
+  - Cybersécurité
+  tags:
+  - Technology
+  - News
+  - Tech News
+- id: dialogues-imaginaires
+  name: Dialogues imaginaires du monde merveilleux de la cyber
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - L'Ours
+  website: https://dialogues-imaginaires.net/
+  rss: https://dialogues-imaginaires.net/feed/
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/le-monde-merveilleux-des-dialogues-imaginaires-de-la-cyber/id1797567024?uo=4
+  linkedin: null
+  description: M'en fous !
+  last_episode: '2026-06-23'
+  episode_count: 5
+  average_duration: 28
+  status: active
+  community_rating: 5.0
+  platform: autre
+  topics:
+  - Cybersécurité
+  tags:
+  - Cybersécurité
+- id: french-connection
+  name: French Connection
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - '@SecuritePodcast'
+  website: https://securite.fm/
+  rss: https://securite.fm/general_feed.xml
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/la-french-connection/id1193002598?uo=4
+  linkedin: null
+  description: Podcast francophone de Sécurité FM sur la cybersécurité et les enjeux du numérique.
+  last_episode: '2026-10-06'
+  episode_count: 299
+  average_duration: null
+  status: active
+  community_rating: 5.0
+  platform: autre
+  topics:
+  - Cybersécurité
+  tags:
+  - Cybersécurité
+- id: hacknspeak
+  name: Hack'n Speak
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Martial Puygrenier
+  website: https://anchor.fm/hacknspeak
+  rss: https://anchor.fm/s/435c0d58/podcast/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/hackn-speak/id1548697084?uo=4
+  linkedin: null
+  description: Bienvenue sur le podcast francophone Hack'n Speak ! Notre but est de partager la voix de nos 'hacker' à travers leurs outils / recherches.
+  last_episode: '2026-08-24'
+  episode_count: 58
+  average_duration: 53
+  status: active
+  community_rating: 4.8
+  platform: Anchor
+  topics:
+  - Cybersécurité
+  tags:
+  - Technology
+- id: hacktback-cybertalk
+  name: HacktBack CyberTalk
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - HacktBack
+  website: https://podcast.ausha.co/cybertalk
+  rss: https://feed.ausha.co/KwvdxtwwlYdV
+  youtube: null
+  spotify: null
+  apple_podcast: null
+  linkedin: null
+  description: Des interviews d'experts en Cybersécurité sur des sujets adaptés à tous les niveaux. Futurs hackers, défenseurs et curieux sont les bienvenus à nos côtés pour explorer cet univers riche ! Hôtes…
+  last_episode: '2026-04-14'
+  episode_count: 51
+  average_duration: 82
+  status: slow
+  community_rating: null
+  platform: Ausha
+  topics:
+  - Cybersécurité
+  tags:
+  - Technology
+- id: incyber-voices
+  name: InCyber Voices
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - InCyber News
+  website: https://incyber.org/
+  rss: https://feed.ausha.co/XEnA7SpjRm2Y
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/incyber-voices/id1805462489?uo=4
+  linkedin: null
+  description: 'InCyber Voices : la cybersécurité expliquée aux métiers Achats, juridique, RH, finance, communication, direction, DAF, marketing, supply chain… Dans INCYBER Voices, experts, RSSI, mais aussi celles…'
+  last_episode: '2026-09-30'
+  episode_count: 23
+  average_duration: 22
+  status: active
+  community_rating: 4.5
+  platform: Ausha
+  topics:
+  - Cybersécurité
+  - Juridique
+  tags:
+  - News
+  - Tech News
+  - Technology
+- id: la-box-du-rssi
+  name: La Box du RSSI
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Fabrice Bourdelon
+  website: https://podcast.ausha.co/laboxdurssi
+  rss: https://feed.ausha.co/w0k5QHz3QkrR
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/la-box-du-rssi/id1785679774?uo=4
+  linkedin: null
+  description: La Box du RSSI est un podcast 🎙️ dédié à la cybersécurité pour les TPE, PME et ETI. Je suis ravi de vous accueillir dans cet espace où nous allons partager, échanger et surtout VULGARISER les…
+  last_episode: '2026-10-21'
+  episode_count: 59
+  average_duration: 27
+  status: active
+  community_rating: 5.0
+  platform: Ausha
+  topics:
+  - Cybersécurité
+  tags:
+  - News
+  - News Commentary
+  - Tech News
+- id: cyber-grand-mere
+  name: La cybersécurité expliquée à ma grand-mère
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Nicolas Remarck
+  website: https://smartlink.ausha.co/la-cyber-securite-expliquee-a-ma-grand-mere
+  rss: https://feed.ausha.co/7zMxQFOPzR9O
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/la-cybers%C3%A9curit%C3%A9-expliqu%C3%A9e-%C3%A0-ma-grand-m%C3%A8re/id1631656748?uo=4
+  linkedin: null
+  description: La cybersécurité éxpliquée à ceux qui n'y comprennent rien
+  last_episode: '2026-11-02'
+  episode_count: 84
+  average_duration: 30
+  status: active
+  community_rating: 4.8
+  platform: Ausha
+  topics:
+  - Cybersécurité
+  tags:
+  - Technology
+  - Education
+  - Self-Improvement
+- id: la-matrice-a-bugge
+  name: La matrice a buggé
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Manon Desplat
+  - Léa Le Pezron
+  website: https://shows.acast.com/la-matrice-a-bugge
+  rss: https://feeds.acast.com/public/shows/63d3ee76c552d9001143c7c9
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/la-matrice-a-bugg%C3%A9/id1886717960?uo=4
+  linkedin: null
+  description: Les fake news, le cyber harcèlement, les 10% de femmes dans la cyber, des réseaux sociaux rachetés par des milliardaires et tes goûts, mieux connus par Google que ton mec ou ta meuf... Pourquoi ?…
+  last_episode: '2026-10-06'
+  episode_count: 13
+  average_duration: 37
+  status: active
+  community_rating: null
+  platform: Acast
+  topics:
+  - Cybersécurité
+  tags:
+  - numérique
+  - cyber
+  - féminisme
+  - hacking
+  - digital
+  - News
+  - Tech News
+  - Technology
+  - Science
+  - Social Sciences
+- id: la-robe-numerique
+  name: La Robe Numérique
+  category:
+  - Cybersécurité
+  - Juridique
+  language: fr
+  country: FR
+  hosts:
+  - Oriana Labruyère
+  website: https://www.larobenumerique.com/podcast
+  rss: https://www.larobenumerique.com/podcast?format=rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/la-robe-num%C3%A9rique/id1549703033?uo=4
+  linkedin: null
+  description: Podcast qui explore les enjeux juridiques et sociétaux du numérique et de la cybersécurité.
+  last_episode: '2021-11-25'
+  episode_count: 123
+  average_duration: 17
+  status: archived
+  community_rating: 5.0
+  platform: autre
+  topics:
+  - Cybersécurité
+  - Juridique
+  tags:
+  - Cybersécurité
+  - Juridique
+- id: la-tangente
+  name: La Tangente
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Luckas Bosch
+  website: https://podcast.ausha.co/cafecompas
+  rss: https://feed.ausha.co/yOraMCxd0ezj
+  youtube: null
+  spotify: https://open.spotify.com/show/0WBMbK4frOLnBIApsZSw8w
+  apple_podcast: https://podcasts.apple.com/fr/podcast/la-tangente/id1574191593?uo=4
+  linkedin: null
+  description: Podcast d'aventures et développement par Hervé Chevalley
+  last_episode: '2024-01-28'
+  episode_count: 32
+  average_duration: 45
+  status: archived
+  community_rating: null
+  platform: Ausha
+  topics:
+  - Cybersécurité
+  - Développement
+  tags:
+  - Education
+  - Self-Improvement
+  - Business
+  - Entrepreneurship
+- id: le-dejargonneur-cyber
+  name: Le Déjargonneur Cyber
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - CLUSIF
+  website: https://shows.acast.com/le-dejargonneur-cyber
+  rss: https://feeds.acast.com/public/shows/le-dejargonneur-cyber
+  youtube: null
+  spotify: null
+  apple_podcast: null
+  linkedin: null
+  description: Le Clusif déjargonne la cybersécurité
+  last_episode: '2026-02-18'
+  episode_count: 9
+  average_duration: 4
+  status: slow
+  community_rating: null
+  platform: Acast
+  topics:
+  - Cybersécurité
+  tags:
+  - Cyber
+  - Cybersécurité
+  - Clusif
+  - Déjargonneur
+  - Technology
+- id: le-monde-de-la-cyber
+  name: Le Monde de la Cyber
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Leslie Fornero
+  website: https://www.lemondedelacyber.com
+  rss: https://feeds.audiomeans.fr/feed/7962208c-987b-4d10-8e9a-104d0d77851a.xml
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/le-monde-de-la-cyber/id1648909847?uo=4
+  linkedin: null
+  description: Le podcast qui vous emmène à la découverte du monde de la cybersécurité.
+  last_episode: '2026-11-03'
+  episode_count: 135
+  average_duration: 29
+  status: active
+  community_rating: 4.7
+  platform: Audiomeans
+  topics:
+  - Cybersécurité
+  - Malware
+  tags:
+  - cybersécurité
+  - risque
+  - hacker
+  - informatique
+  - technologie
+  - internet
+  - attaque
+  - malware
+  - virus
+  - ransomware
+  - logiciel
+  - tech
+  - politique
+  - entreprise
+  - femmes
+  - cyber
+  - sensibilisation
+  - expertise
+  - IA
+  - données
+  - sécurité
+  - défense
+  - France
+  - Technology
+- id: les-enfants-de-la-cyber
+  name: Les Enfants de la Cyber
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Franck Rouxel
+  - Julien Merali
+  website: https://smartlinks.audiomeans.fr/l/les-enfants-de-la-cyber-0f28787e
+  rss: https://feeds.audiomeans.fr/feed/0f28787e-2a00-4dd5-9503-96e824efbacf.xml
+  youtube: null
+  spotify: null
+  apple_podcast: null
+  linkedin: https://fr.linkedin.com/in/julien-merali
+  description: Le podcast hebdomadaire dédié à la Cybersécurité. Une initiative portée par Franck Rouxel (Membre & Fondateur - Agora RSSI & CISO) et Julien Merali (General Manager - Agora RSSI & CISO), pensée comme…
+  last_episode: '2026-10-20'
+  episode_count: 4
+  average_duration: 27
+  status: active
+  community_rating: null
+  platform: Audiomeans
+  topics:
+  - Cybersécurité
+  tags:
+  - cybersécurité
+  - RSSI
+  - DSI
+  - CISO
+  - numérique
+  - technologies
+  - Business
+  - Technology
+- id: lets-talk-about-sec
+  name: Let's Talk About Sec
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - HarfangLab
+  website: https://podcast.ausha.co/let-s-talk-about-sec
+  rss: https://feed.ausha.co/v3PX6h8ljxv6
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/lets-talk-about-sec/id1728063946?uo=4
+  linkedin: null
+  description: Let's talk about Sec, c'est le podcast de celles et ceux qui font la cyber. Bienvenu dans le podcast made in HarfangLab. Animé par Noémie, son objectif est de créer un espace d’échange autour des…
+  last_episode: '2026-09-09'
+  episode_count: 16
+  average_duration: 55
+  status: active
+  community_rating: 5.0
+  platform: Ausha
+  topics:
+  - Cybersécurité
+  tags:
+  - HarfangLab
+- id: nolimitsecu
+  name: NoLimitSecu
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - NoLimitSecu
+  website: https://www.nolimitsecu.fr/
+  rss: https://www.nolimitsecu.fr/feed/podcast/
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/nolimitsecu/id1108965516?uo=4
+  linkedin: null
+  description: Le podcast Francophone hebdomadaire dédié à la cybersécurité
+  last_episode: '2026-11-08'
+  episode_count: 302
+  average_duration: 30
+  status: active
+  community_rating: 4.8
+  platform: Blubrry
+  topics:
+  - Cybersécurité
+  tags:
+  - News
+  - Tech News
+- id: objectif-cyber
+  name: Objectif Cyber
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Capgemini
+  website: https://www.capgemini.com/fr-fr/perspectives/publications/podcast-objectif-tech/objectif-cyber/
+  rss: null
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/objectif-tech/id1597450554?uo=4
+  linkedin: null
+  description: Podcast Capgemini consacré à la cybersécurité et aux enjeux cyber des entreprises.
+  last_episode: null
+  episode_count: null
+  average_duration: null
+  status: active
+  community_rating: 4.9
+  platform: autre
+  topics:
+  - Cybersécurité
+  tags:
+  - Cybersécurité
+- id: on-dit-chiffrer
+  name: On dit chiffrer
+  category:
+  - Cybersécurité
+  - Cryptographie
+  language: fr
+  country: FR
+  hosts:
+  - OnDitChiffrer
+  website: https://shows.acast.com/on-dit-chiffrer
+  rss: https://feeds.acast.com/public/shows/on-dit-chiffrer
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/onditchiffrer/id1734002842?uo=4
+  linkedin: null
+  description: On dit chiffrer, le podcast pour renforcer son expertise cybersécurité, mot après mot. Découvrez le monde de la cybersécurité simple et pas à pas. Chaque épisode décrypte avec humour un mot, un thème…
+  last_episode: '2026-03-24'
+  episode_count: 26
+  average_duration: 37
+  status: slow
+  community_rating: 5.0
+  platform: Acast
+  topics:
+  - Cybersécurité
+  - Cryptographie
+  tags:
+  - cybersécurité
+  - onditchiffré
+  - cyber
+  - SSI
+  - sécurité informatique
+  - Technology
+  - Education
+  - How To
+- id: polysecure
+  name: PolySécure
+  category:
+  - Cybersécurité
+  language: fr
+  country: CA
+  hosts:
+  - Nicolas-Loïc Fortin
+  website: https://polysecure.ca/
+  rss: https://polysecure.ca/general_feed.xml
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/polys%C3%A9cure-podcast/id1561084634?uo=4
+  linkedin: null
+  description: Podcast québécois sur la cybersécurité, la vie privée et la sécurité des organisations.
+  last_episode: '2026-11-09'
+  episode_count: 867
+  average_duration: 44
+  status: active
+  community_rating: 5.0
+  platform: autre
+  topics:
+  - Cybersécurité
+  tags:
+  - Cybersécurité
+- id: purple-voice
+  name: Purple Voice
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Nabil Diab
+  - Raphaël Ellouz
+  website: https://feeds.acast.com/public/shows/purple-voice
+  rss: https://feeds.acast.com/public/shows/68065b0838088415692025d0
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/purple-voice/id1809792883?uo=4
+  linkedin: null
+  description: Le podcast qui décrypte la cybersécurité opérationnelle.
+  last_episode: '2026-07-23'
+  episode_count: 20
+  average_duration: 32
+  status: active
+  community_rating: 4.7
+  platform: Acast
+  topics:
+  - Cybersécurité
+  - Pentest
+  - Red Team
+  - Blue Team
+  tags:
+  - cybersecurity
+  - redteam
+  - blueteam
+  - Detection
+  - prévention
+  - Offensif
+  - Pentest
+  - Technology
+  - News
+  - Tech News
+- id: radiocsirt
+  name: RadioCSIRT
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Marc-Frédéric Gomez
+  website: https://www.radiocsirt.org/
+  rss: https://www.radiocsirt.org/feed/
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/radiocsirt/id1763090000?uo=4
+  linkedin: null
+  description: Podcast consacré aux CSIRT, à la réponse à incident et à la cybersécurité opérationnelle.
+  last_episode: '2026-10-11'
+  episode_count: 798
+  average_duration: null
+  status: active
+  community_rating: 4.9
+  platform: autre
+  topics:
+  - Cybersécurité
+  - DFIR
+  tags:
+  - Cybersécurité
+- id: riskintel-media
+  name: Riskintel Média
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Yasmine Douadi
+  website: https://podcast.ausha.co/riskintel-media
+  rss: https://feed.ausha.co/rjLzeUqpJDe1
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/riskintel-m%C3%A9dia-le-podcast-en-cybers%C3%A9curit%C3%A9/id1710814400
+  linkedin: null
+  description: De la cybersécurité aux affrontements économiques, en passant par les stratégies d’espionnage et les défis liés aux technologies disruptives, Riskintel Media décortique des thématiques complexes pour…
+  last_episode: '2026-11-09'
+  episode_count: 190
+  average_duration: 34
+  status: active
+  community_rating: 4.7
+  platform: Ausha
+  topics:
+  - Cybersécurité
+  tags:
+  - News
+  - Tech News
+  - Politics
+- id: source-ouverte
+  name: Source Ouverte
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Cigref
+  website: null
+  rss: null
+  youtube: null
+  spotify: null
+  apple_podcast: null
+  linkedin: null
+  description: Podcast du Cigref sur l'intelligence collective, l'OSINT et la gestion de crise.
+  last_episode: null
+  episode_count: null
+  average_duration: null
+  status: active
+  community_rating: null
+  platform: autre
+  topics:
+  - Cybersécurité
+  - OSINT
+  tags:
+  - Cybersécurité
+- id: yakafokon
+  name: Yakafokon
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Florian Maury
+  website: https://yakafokon.home.blog
+  rss: https://anchor.fm/s/119e32f0/podcast/rss
+  youtube: null
+  spotify: https://open.spotify.com/show/77AVXD1a6ysbJiua5jDpZr
+  apple_podcast: https://podcasts.apple.com/fr/podcast/yakafokon/id1491995553?uo=4
+  linkedin: null
+  description: Chaque mois, on se lancera un défi sur un des millions de sujets que l’on veut explorer. Une sorte d’aventure dans laquelle nous nous lançons pendant 30 jours. Nous vous délivrerons notre journal de…
+  last_episode: '2019-12-15'
+  episode_count: 2
+  average_duration: null
+  status: archived
+  community_rating: null
+  platform: Anchor
+  topics:
+  - Cybersécurité
+  tags:
+  - Society & Culture
+  - Personal Journals
+- id: diginov
+  name: Diginov
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Sylvanus Hougbekey
+  - Madena-Esso Kao
+  website: https://podcasters.spotify.com/pod/show/diginovbymadenasylvanus
+  rss: https://anchor.fm/s/e419c3e8/podcast/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/diginov/id1731261927
+  linkedin: https://fr.linkedin.com/in/sylvanush
+  description: Podcast sur l'innovation, la transformation digitale, la cybersécurité, le cloud et l'IA.
+  last_episode: '2026-03-26'
+  episode_count: 21
+  average_duration: 12
+  status: slow
+  community_rating: null
+  platform: Anchor
+  topics:
+  - Cybersécurité
+  - Cloud
+  tags:
+  - Technology
+- id: hackstock
+  name: Hackstock
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Root Down Productions
+  website: https://hackstock.net
+  rss: https://feeds.acast.com/public/shows/6569f298ff391100123ba68c
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/hackstock/id1207672174?uo=4
+  linkedin: null
+  description: Hack the planet!
+  last_episode: '2021-06-04'
+  episode_count: 15
+  average_duration: 64
+  status: archived
+  community_rating: 5.0
+  platform: Acast
+  topics:
+  - Cybersécurité
+  tags:
+  - hacking
+  - hackers
+  - hacker
+  - hack
+  - surveillance
+  - privacy
+  - vie privée
+  - piratage
+  - Technology
+  - News
+  - Tech News
+- id: le-comptoir-secu
+  name: Le Comptoir Sécu
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Justin Ganivet
+  - Morgan Hotonnier
+  - Loïs Samain
+  - Youenn Piolet
+  - Jil
+  - SwitHak
+  website: https://www.comptoirsecu.fr/
+  rss: https://www.comptoirsecu.fr/feed/all.xml
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/le-comptoir-s%C3%A9cu-podcasts/id691497996?uo=4
+  linkedin: null
+  description: Le Comptoir Sécu est un podcast traitant de la cybersécurité à travers des dossiers thématiques et des revues de l'actualité spécialisée.
+  last_episode: '2024-02-18'
+  episode_count: 100
+  average_duration: null
+  status: archived
+  community_rating: 4.8
+  platform: autre
+  topics:
+  - Cybersécurité
+  tags:
+  - Cybersécurité
+- id: les-chiens-de-garde
+  name: Les Chiens de Garde
+  category:
+  - Cybersécurité
+  language: fr
+  country: CA
+  hosts:
+  - Crypto.Québec
+  website: https://crypto.quebec/podcastgen/
+  rss: https://www.crypto.quebec/podcastgen/feed.xml
+  youtube: null
+  spotify: https://open.spotify.com/show/3mESEykdPUxhkrMWVd3iNl
+  apple_podcast: https://podcasts.apple.com/fr/podcast/les-chiens-de-garde/id1116789610?uo=4
+  linkedin: null
+  description: Cedant Arma Tagae
+  last_episode: '2025-07-15'
+  episode_count: 60
+  average_duration: 35
+  status: slow
+  community_rating: 4.8
+  platform: autre
+  topics:
+  - Cybersécurité
+  tags:
+  - Arts
+- id: les-minutes-cyber
+  name: Les Minutes Cyber
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Kedros Cybersécurité
+  website: https://les-minutes-cyber.lepodcast.fr/
+  rss: https://les-minutes-cyber.lepodcast.fr/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/les-minutes-cyber/id1705850996?uo=4
+  linkedin: null
+  description: Le podcast français dédié aux acteurs clés de la cybersécurité
+  last_episode: '2024-02-12'
+  episode_count: 5
+  average_duration: 33
+  status: archived
+  community_rating: 5.0
+  platform: autre
+  topics:
+  - Cybersécurité
+  tags:
+  - Cybersécurité
+  - SSI
+  - Podcast
+  - Interview
+  - France
+  - ISO27001
+  - Gouvernance
+  - Hack
+  - RSSI
+  - DSI
+  - ISO27005
+  - ISO19011
+  - Technology
+- id: nolog
+  name: NOLOG
+  category:
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Véronique Loquet
+  website: https://twitter.com/NologPodcast
+  rss: https://feeds.acast.com/public/shows/no-log
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/no-log/id1541382557?uo=4
+  linkedin: null
+  description: Un Podcast pour plonger dans les coulisses du cybermonde. Décryptage, rencontres, chroniques, récits...
+  last_episode: '2021-01-11'
+  episode_count: 7
+  average_duration: 32
+  status: archived
+  community_rating: 4.8
+  platform: Acast
+  topics:
+  - Cybersécurité
+  tags:
+  - '#cybersécurité'
+  - '#cybercrime'
+  - Technology
+  - True Crime
+  - Society & Culture
+- id: osint-origins
+  name: OSINT Origins
+  category:
+  - OSINT
+  - Cybersécurité
+  language: fr
+  country: FR
+  hosts:
+  - Sylvain Hajri
+  website: https://osintfr.com/en/home/
+  rss: https://anchor.fm/s/6d2d3288/podcast/rss
+  youtube: https://www.youtube.com/channel/UCTkCTxPPRMzdjhaKkn_4PiQ
+  spotify: https://open.spotify.com/show/4WjF4NReXClnfL0Lsev95p
+  apple_podcast: null
+  linkedin: null
+  description: OSINT Origins, the podcast created by OSINT-FR (osintfr.com) which interviews people and organisations passionate about OSINT to tell stories from the past and the present.
+  last_episode: '2023-12-10'
+  episode_count: 8
+  average_duration: 45
+  status: archived
+  community_rating: null
+  platform: Anchor
+  topics:
+  - Cybersécurité
+  - OSINT
+  tags:
+  - News
+  - Tech News
+- id: if-this-then-dev
+  name: If This Then Dev
+  category:
+  - Développement
+  - Architecture
+  language: fr
+  country: FR
+  hosts:
+  - Bruno Soulez
+  website: https://ifttd.io/
+  rss: https://feeds.audiomeans.fr/feed/03d88297-85c1-475f-a491-a6c7a443ffca.xml
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/ifttd-if-this-then-dev/id1471506605?uo=4
+  linkedin: null
+  description: 'If This Then Dev, c''est le podcast D.E.V : Différent, Extraordinaire et Visionnaire. Un podcast qui veut résoudre le problème avant de passer au dev. Chaque semaine Bruno Soulez reçoit un expert pour…'
+  last_episode: '2026-11-09'
+  episode_count: 761
+  average_duration: 61
+  status: active
+  community_rating: 4.8
+  platform: Audiomeans
+  topics:
+  - Développement
+  - Architecture
+  tags:
+  - TECH
+  - technology
+  - computer programming
+  - dev
+- id: les-cast-codeurs
+  name: Les Cast Codeurs
+  category:
+  - Développement
+  language: fr
+  country: FR
+  hosts:
+  - Guillaume Laforge
+  - Arnaud Héritier
+  - Vincent Massol
+  - Emmanuel Bernard
+  - Antonio Goncalves
+  website: https://lescastcodeurs.com/
+  rss: https://lescastcodeurs.com/feed.atom
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/les-cast-codeurs-podcast/id312239675?uo=4
+  linkedin: null
+  description: Les Cast Codeurs est un podcast en français de, par et pour les développeurs. Prenez connaissance des dernières nouvelles de la sphère Java et du développement en général. Plongez sur un sujet précis…
+  last_episode: '2026-10-19'
+  episode_count: 363
+  average_duration: 72
+  status: active
+  community_rating: 4.8
+  platform: Libsyn
+  topics:
+  - Développement
+  - Java
+  tags:
+  - Java
+- id: la-cave
+  name: La Cave
+  category:
+  - Développement
+  - Architecture
+  language: fr
+  country: FR
+  hosts:
+  - Pascal Maria
+  website: https://podcast.ausha.co/lacave
+  rss: https://feed.ausha.co/aOeG3uNw2QrW
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/fr/podcast/la-cave/id1562020575?uo=4
+  linkedin: null
+  description: 'La Cave : Plonge au cœur des expériences tech ! https://www.lacave.tech/ Bienvenue dans La Cave, le podcast qui te dévoile les coulisses de la tech à travers les récits captivants de professionnels…'
+  last_episode: '2026-03-16'
+  episode_count: 18
+  average_duration: 65
+  status: slow
+  community_rating: null
+  platform: Ausha
+  topics:
+  - Développement
+  - Architecture
+  tags:
+  - Technology
+  - News
+  - Tech News
+- id: tech-cafe
+  name: Tech Café
+  category:
+  - Développement
+  - Tech
+  language: fr
+  country: FR
+  hosts:
+  - Guillaume Vendé
+  - Guillaume Poggiaspalla
+  website: https://techcafe.fr
+  rss: https://feeds.audiomeans.fr/feed/d6ddb849-3100-43b2-91a5-93f54fe4c4b5.xml
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/tech-caf%C3%A9-tech-ia/id916491698?uo=4
+  linkedin: null
+  description: 'Tech Café : votre veille sur les nouvelles technologies chaque semaine'
+  last_episode: '2026-11-08'
+  episode_count: 558
+  average_duration: 86
+  status: active
+  community_rating: 4.6
+  platform: Audiomeans
+  topics:
+  - Développement
+  - IA
+  tags:
+  - tech
+  - intelligence artificielle
+  - IA
+  - gadgets
+  - réseaux sociaux
+  - actualité
+  - politique
+  - robots
+  - jeux vidéo
+  - smartphones
+  - tablettes
+  - Technology
+  - News
+  - Politics
+  - Tech News
+- id: developer-voice
+  name: Developer Voices
+  category:
+  - Développement
+  - Architecture
+  language: en
+  country: US
+  hosts:
+  - Kris Jenkins
+  website: https://www.developervoices.com/
+  rss: https://feeds.zencastr.com/f/oSn1i316.rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/developer-voices/id1687271887?uo=4
+  linkedin: null
+  description: Deep-dive discussions with the smartest developers we know, explaining what they're working on, how they're trying to move the industry forward, and what we can learn from them. You might find the…
+  last_episode: '2026-09-25'
+  episode_count: 108
+  average_duration: 85
+  status: active
+  community_rating: 5.0
+  platform: Zencastr
+  topics:
+  - Développement
+  - Architecture
+  tags:
+  - programming
+  - software development
+  - programming languages
+  - databases
+  - software
+  - software archtecture
+  - Technology
+  - News
+  - Tech News
+- id: syntax
+  name: Syntax
+  category:
+  - Développement Web
+  language: en
+  country: US
+  hosts:
+  - Wes Bos
+  - Scott Tolinski
+  website: https://syntax.fm/
+  rss: https://feed.syntax.fm
+  youtube: https://www.youtube.com/@syntaxfm
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/syntax/id1613894378?uo=4
+  linkedin: null
+  description: Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like…
+  last_episode: '2026-11-09'
+  episode_count: 1054
+  average_duration: 66
+  status: active
+  community_rating: 4.5
+  platform: Megaphone
+  topics:
+  - Développement
+  - JavaScript
+  tags:
+  - JavaScript
+- id: coding-blocks
+  name: Coding Blocks
+  category:
+  - Développement
+  language: en
+  country: US
+  hosts:
+  - Allen Underwood
+  - Michael Outlaw
+  - Joe Zack
+  website: https://www.codingblocks.net/
+  rss: https://www.codingblocks.net/feed/podcast/
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/coding-blocks/id769189585?uo=4
+  linkedin: null
+  description: Podcast about computer programming and software development so you can learn on the go.
+  last_episode: '2024-10-07'
+  episode_count: 242
+  average_duration: 5
+  status: archived
+  community_rating: 4.9
+  platform: Libsyn
+  topics:
+  - Développement
+  tags:
+  - Technology
+  - Education
+  - How To
+  - Business
+  - Careers
+- id: software-engineering-daily
+  name: Software Engineering Daily
+  category:
+  - Développement
+  - Architecture
+  language: en
+  country: US
+  hosts:
+  - Jeff Meyerson
+  website: https://softwareengineeringdaily.com/
+  rss: https://softwareengineeringdaily.com/category/podcast/feed
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/software-engineering-daily/id1019576853?uo=4
+  linkedin: null
+  description: Technical interviews about software topics.
+  last_episode: '2026-11-05'
+  episode_count: 104
+  average_duration: 53
+  status: active
+  community_rating: 4.4
+  platform: Transistor
+  topics:
+  - Développement
+  - Architecture
+  tags:
+  - News
+  - Tech News
+  - Technology
+- id: changelog
+  name: The Changelog
+  category:
+  - Open Source
+  - Développement
+  language: en
+  country: US
+  hosts:
+  - Adam Stacoviak
+  - Jerod Santo
+  website: https://changelog.com/podcast
+  rss: https://changelog.com/podcast/feed
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/the-changelog-software-development-open-source/id341623264
+  linkedin: null
+  description: Software's best weekly news brief, deep technical interviews & talk show.
+  last_episode: '2026-11-04'
+  episode_count: 1018
+  average_duration: 106
+  status: active
+  community_rating: 4.7
+  platform: autre
+  topics:
+  - Open Source
+  - Développement
+  tags:
+  - changelog
+  - open source
+  - software
+  - development
+  - code
+  - programming
+  - hacker
+  - change log
+  - software engineering
+  - Technology
+- id: cppcast
+  name: CppCast
+  category:
+  - C++
+  - Développement
+  language: en
+  country: US
+  hosts:
+  - Rob Irving
+  - Jason Turner
+  website: https://cppcast.com/
+  rss: https://cppcast.com/feed.rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/cppcast/id968703120?uo=4
+  linkedin: null
+  description: The first podcast for C++ developers, by C++ developers!
+  last_episode: '2026-11-02'
+  episode_count: 412
+  average_duration: 62
+  status: active
+  community_rating: 4.8
+  platform: Transistor
+  topics:
+  - Développement
+  - C++
+  tags:
+  - C++
+- id: dotnet-rocks
+  name: .NET Rocks!
+  category:
+  - .NET
+  - Développement
+  language: en
+  country: US
+  hosts:
+  - Carl Franklin
+  - Richard Campbell
+  website: https://www.dotnetrocks.com/
+  rss: https://pwop.com/feed.aspx?show=dotnetrocks
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/net-rocks/id130068596?uo=4
+  linkedin: null
+  description: .NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.
+  last_episode: '2026-11-05'
+  episode_count: 2021
+  average_duration: 58
+  status: active
+  community_rating: 4.6
+  platform: Spreaker
+  topics:
+  - Développement
+  - .NET
+  tags:
+  - .NET
+- id: python-bytes
+  name: Python Bytes
+  category:
+  - Python
+  language: en
+  country: US
+  hosts:
+  - Michael Kennedy
+  - Brian Okken
+  website: https://pythonbytes.fm/
+  rss: https://pythonbytes.fm/episodes/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/python-bytes/id1173690032?uo=4
+  linkedin: null
+  description: Developer headlines delivered directly to your earbuds
+  last_episode: '2026-11-03'
+  episode_count: 503
+  average_duration: 33
+  status: active
+  community_rating: 4.7
+  platform: autre
+  topics:
+  - Développement
+  - Python
+  tags:
+  - Python
+- id: talk-python
+  name: Talk Python To Me
+  category:
+  - Python
+  language: en
+  country: US
+  hosts:
+  - Michael Kennedy
+  website: https://talkpython.fm/
+  rss: https://talkpython.fm/episodes/rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/talk-python-to-me/id979020229?uo=4
+  linkedin: null
+  description: The podcast for Python developers, data scientists, and AI builders
+  last_episode: '2026-11-03'
+  episode_count: 567
+  average_duration: 66
+  status: active
+  community_rating: 4.8
+  platform: autre
+  topics:
+  - Python
+  - IA
+  tags:
+  - Python
+- id: real-python
+  name: Real Python Podcast
+  category:
+  - Python
+  language: en
+  country: US
+  hosts:
+  - Christopher Bailey
+  website: https://realpython.com/podcasts/rpp/
+  rss: https://realpython.com/podcasts/rpp/feed
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/the-real-python-podcast/id1501905538?uo=4
+  linkedin: null
+  description: A weekly Python podcast hosted by Christopher Bailey with interviews, coding tips, and conversation with guests from the Python community. The show covers a wide range of topics including Python…
+  last_episode: '2026-11-06'
+  episode_count: 319
+  average_duration: 54
+  status: active
+  community_rating: 4.7
+  platform: autre
+  topics:
+  - Open Source
+  - Développement
+  - Python
+  - Data
+  tags:
+  - Python
+- id: go-time
+  name: Go Time
+  category:
+  - Go
+  - Cloud Native
+  language: en
+  country: US
+  hosts:
+  - Mat Ryer
+  - Johnny Boursiquot
+  - Jon Calhoun
+  - Go Time Indiegogo Podcast
+  website: https://changelog.com/gotime
+  rss: https://changelog.com/gotime/feed
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/go-time/id1032830083?uo=4
+  linkedin: null
+  description: Your source for wide-ranging discussions from all around the Go community. Panelists include Mat Ryer, Jon Calhoun, Natalie Pistunovich, Johnny Boursiquot, Angelica Hill, Kris Brandow, and Ian…
+  last_episode: '2024-12-18'
+  episode_count: 347
+  average_duration: 66
+  status: slow
+  community_rating: 4.9
+  platform: autre
+  topics:
+  - Kubernetes
+  - Docker
+  - DevOps
+  - Open Source
+  - Développement
+  - Architecture
+  - Go
+  - Cloud
+  tags:
+  - Kubernetes
+  - Docker
+  - Go
+  - CNCF
+- id: javascript-jabber
+  name: JavaScript Jabber
+  category:
+  - JavaScript
+  language: en
+  country: US
+  hosts:
+  - Charles Max Wood
+  website: https://javascriptjabber.com/
+  rss: https://javascriptjabber.com/feed
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/javascript-jabber/id496893300?uo=4
+  linkedin: null
+  description: Stay current on JavaScript, Node, and Front-End development. Learn from experts in programming, careers, and technology every week.
+  last_episode: '2026-02-25'
+  episode_count: 738
+  average_duration: 69
+  status: slow
+  community_rating: 4.4
+  platform: Spreaker
+  topics:
+  - Développement
+  - JavaScript
+  tags:
+  - JavaScript
+- id: react-podcast
+  name: React Podcast
+  category:
+  - React
+  language: en
+  country: US
+  hosts:
+  - Michael Chan
+  website: https://reactpodcast.com/
+  rss: https://feeds.simplecast.com/JoR28o79
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/react-podcast/id1341969432?uo=4
+  linkedin: null
+  description: Conversations about React with your favorite developers.
+  last_episode: '2020-12-17'
+  episode_count: 123
+  average_duration: 58
+  status: archived
+  community_rating: 4.6
+  platform: Simplecast
+  topics:
+  - Développement
+  - JavaScript
+  - React
+  tags:
+  - JavaScript
+  - React
+- id: angular-show
+  name: The Angular Show
+  category:
+  - Angular
+  language: en
+  country: US
+  hosts:
+  - Jay Bell
+  - James Spivey
+  - Lara Newsom
+  - Mike Hartington
+  website: https://ng.show
+  rss: https://www.spreaker.com/show/4175221/episodes/feed
+  youtube: null
+  spotify: https://open.spotify.com/show/1PrLErQHBqBhZsRV1KHhGM
+  apple_podcast: https://podcasts.apple.com/podcast/id1501989276
+  linkedin: null
+  description: The Angular Plus Show is leveling up! The Ai Dev Craft Show takes the same great developer conversations you know and expands them into the fast-moving world of AI, coding, tools, agents…
+  last_episode: '2026-10-28'
+  episode_count: 308
+  average_duration: 53
+  status: active
+  community_rating: 4.0
+  platform: Spreaker
+  topics:
+  - Développement
+  - Angular
+  - IA
+  tags:
+  - Angular
+- id: ai-engineering
+  name: The AI Engineering Podcast
+  category:
+  - IA
+  - Machine Learning
+  language: en
+  country: US
+  hosts:
+  - Tobias Macey
+  website: https://aiengineeringpodcast.com/
+  rss: https://serve.podhome.fm/rss/c9abdd38-a5dc-5eb2-96fd-f833f93208a7
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/ai-engineering-podcast/id1877957479?uo=4
+  linkedin: null
+  description: This show is your guidebook to building scalable and maintainable AI systems. You will learn how to architect AI applications, apply AI to your work, and the considerations involved in building or…
+  last_episode: '2026-10-15'
+  episode_count: 82
+  average_duration: 60
+  status: active
+  community_rating: null
+  platform: Podhome
+  topics:
+  - IA
+  tags:
+  - Technology
+  - Education
+- id: practical-ai
+  name: Practical AI
+  category:
+  - Intelligence Artificielle
+  language: en
+  country: US
+  hosts:
+  - Daniel Whitenack
+  - Chris Benson
+  website: https://changelog.com/practicalai
+  rss: https://changelog.com/practicalai/feed
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/practical-ai/id1406537385?uo=4
+  linkedin: null
+  description: Making artificial intelligence practical, productive & accessible to everyone.
+  last_episode: '2026-11-05'
+  episode_count: 381
+  average_duration: 47
+  status: active
+  community_rating: 4.3
+  platform: Transistor
+  topics:
+  - IA
+  tags:
+  - Technology
+  - ai
+  - machine learning
+  - deep learning
+  - artificial intelligence
+  - neural networks
+  - computer vision
+- id: latent-space
+  name: Latent Space
+  category:
+  - LLM
+  - IA
+  language: en
+  country: US
+  hosts:
+  - swyx
+  - Alessio Fanelli
+  website: https://www.latent.space/
+  rss: https://api.substack.com/feed/podcast/1084089.rss
+  youtube: null
+  spotify: null
+  apple_podcast: null
+  linkedin: null
+  description: 'The main Latent Space podcast: AI engineering, Forward Deployed Engineering, AI for science, and ⚡ Lightning episodes. Other feeds: Engineering and FDE: https://podcast.latent.space/eng.xml; Science…'
+  last_episode: '2026-11-08'
+  episode_count: 295
+  average_duration: 63
+  status: active
+  community_rating: null
+  platform: Substack
+  topics:
+  - IA
+  - LLM
+  tags:
+  - LLM
+- id: twiml
+  name: This Week in Machine Learning & AI
+  category:
+  - IA
+  - Machine Learning
+  language: en
+  country: US
+  hosts:
+  - Sam Charrington
+  website: https://twimlai.com/
+  rss: https://feeds.megaphone.fm/MLN2155636147
+  youtube: null
+  spotify: null
+  apple_podcast: null
+  linkedin: null
+  description: Machine learning and artificial intelligence are dramatically changing the way businesses operate and people live. The TWIML AI Podcast brings the top minds and ideas from the world of ML and AI to a…
+  last_episode: '2026-11-03'
+  episode_count: 801
+  average_duration: 57
+  status: active
+  community_rating: null
+  platform: Megaphone
+  topics:
+  - IA
+  tags:
+  - Technology
+  - News
+  - Tech News
+  - Science
+- id: data-engineering-podcast
+  name: Data Engineering Podcast
+  category:
+  - Data
+  - IA
+  language: en
+  country: US
+  hosts:
+  - Tobias Macey
+  website: https://www.dataengineeringpodcast.com/
+  rss: https://serve.podhome.fm/rss/1c0357c0-6aba-5766-a2d5-2090d8dab6bc
+  youtube: null
+  spotify: https://open.spotify.com/show/2iLvljRGVVIGlJshT5vNDS
+  apple_podcast: https://podcasts.apple.com/us/podcast/data-engineering-podcast/id1193040557
+  linkedin: null
+  description: This show goes behind the scenes for the tools, techniques, and difficulties associated with the discipline of data engineering. Databases, workflows, automation, and data manipulation are just some…
+  last_episode: '2026-11-01'
+  episode_count: 521
+  average_duration: 54
+  status: active
+  community_rating: 4.6
+  platform: Podhome
+  topics:
+  - Data
+  tags:
+  - Technology
+  - Education
+- id: devjourney
+  name: Developer Journey
+  category:
+  - Développement
+  - Carrière
+  language: en
+  country: US
+  hosts:
+  - Timothée Bourguignon
+  website: https://devjourney.info/
+  rss: https://feeds.buzzsprout.com/190346.rss
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/the-developers-journey/id1832805533?uo=4
+  linkedin: null
+  description: Becoming a software developer is a journey. The Software Developers Journey show is an inspirational podcast for software developers. Every week, a successful software engineer shares their journey…
+  last_episode: '2024-04-09'
+  episode_count: 296
+  average_duration: 47
+  status: archived
+  community_rating: null
+  platform: Buzzsprout
+  topics:
+  - Développement
+  - Carrière
+  tags:
+  - Career Development
+  - Tech Careers
+  - Career Growth
+  - Career Advice
+  - Coding Journey
+  - Software Engineer
+  - Software Developer
+  - Programmer
+  - Mentoring
+  - Technology
+  - Education
+  - Business
+  - Careers
+- id: soft-skills-engineering
+  name: Soft Skills Engineering
+  category:
+  - Développement
+  - Carrière
+  language: en
+  country: US
+  hosts:
+  - Dave Smith
+  - Jamison Dance
+  website: https://softskills.audio/
+  rss: https://softskills.audio/feed.xml
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/soft-skills-engineering/id1091341048?uo=4
+  linkedin: null
+  description: It takes more than great code to be a great engineer. Soft Skills Engineering is a weekly advice podcast for software developers about the non-technical stuff that goes into being a great software…
+  last_episode: '2026-11-02'
+  episode_count: 538
+  average_duration: 33
+  status: active
+  community_rating: 4.8
+  platform: autre
+  topics:
+  - Développement
+  - Carrière
+  tags:
+  - software engineering
+  - career advice
+  - soft skills
+  - engineering management
+  - developer career
+  - tech leadership
+  - promotions
+  - salary negotiation
+  - coworkers
+  - job interviews
+  - Technology
+  - Business
+- id: maintainable
+  name: Maintainable
+  category:
+  - Architecture
+  - Qualité logicielle
+  language: en
+  country: US
+  hosts:
+  - Robby Russell
+  website: https://maintainable.fm/
+  rss: https://feeds.simplecast.com/7y1CbAbN
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/maintainable/id1459893010?uo=4
+  linkedin: null
+  description: Do you feel like you're hitting a wall with your existing software projects? Are you curious to hear how other people are navigating this? You're not alone. On the Maintainable Software Podcast…
+  last_episode: '2026-10-27'
+  episode_count: 236
+  average_duration: 55
+  status: active
+  community_rating: 5.0
+  platform: Simplecast
+  topics:
+  - Développement
+  - Architecture
+  tags:
+  - software development
+  - software
+  - agile
+  - programming
+  - technical debt
+  - best practices
+  - web development
+  - legacy code
+  - software engineering
+  - software programming
+  - coding
+  - software code
+  - Technology
+  - Business
+  - Careers
+- id: ship-it
+  name: Ship It!
+  category:
+  - DevOps
+  - Développement
+  language: en
+  country: US
+  hosts:
+  - Justin Searls
+  - Adam Stacoviak
+  - Jerod Santo
+  website: https://changelog.com/shipit
+  rss: https://changelog.com/shipit/feed
+  youtube: null
+  spotify: null
+  apple_podcast: https://podcasts.apple.com/us/podcast/ship-it/id1803383466?uo=4
+  linkedin: null
+  description: A podcast about everything that happens after \`git push\` Justin Garrison & Autumn Nash explore all things DevOps, infra, cloud & running apps in production. Whether you're cloud native, Kubernetes…
+  last_episode: '2024-12-20'
+  episode_count: 136
+  average_duration: 70
+  status: slow
+  community_rating: null
+  platform: autre
+  topics:
+  - DevSecOps
+  - Cloud
+  - Kubernetes
+  - DevOps
+  - Développement
+  tags:
+  - Kubernetes
+  - CNCF

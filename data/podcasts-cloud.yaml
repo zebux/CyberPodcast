@@ -1,0 +1,233 @@
+  - id: dans-ton-kube
+    name: "Dans ton Kube"
+    category:
+      - DevOps
+      - Kubernetes
+      - Cloud
+    language: fr
+    status: active
+
+  - id: les-compagnons-du-devops
+    name: "Les Compagnons du DevOps"
+    category:
+      - DevOps
+      - Cloud
+    language: fr
+    status: active
+
+  - id: on-azure-grave
+    name: "On Azure Grave"
+    category:
+      - Azure
+      - Cloud
+    language: fr
+    status: active
+
+  - id: wespeakcloud
+    name: "We Speak Cloud"
+    category:
+      - Cloud
+      - Azure
+      - AWS
+      - GCP
+    language: fr
+    status: active
+
+  - id: radio-devops
+    name: "Radio DevOps"
+    category:
+      - DevOps
+      - SRE
+      - Cloud Native
+    language: fr
+    status: active
+
+  - id: kubernetes-podcast-fr
+    name: "Kubernetes Podcast FR"
+    category:
+      - Kubernetes
+      - Cloud Native
+    language: fr
+    status: active
+
+  - id: les-tetes-dans-le-cloud
+    name: "Les Têtes dans le Cloud"
+    category:
+      - Azure
+      - Cloud
+    language: fr
+    status: active
+
+  - id: cloud-cafe
+    name: "Cloud Café"
+    category:
+      - Cloud
+      - DevOps
+    language: fr
+    status: active
+
+  - id: cloud-native-fr
+    name: "Cloud Native FR"
+    category:
+      - Kubernetes
+      - CNCF
+      - DevOps
+    language: fr
+    status: active
+
+  - id: devops-tribe
+    name: "DevOps Tribe"
+    category:
+      - DevOps
+      - SRE
+    language: en
+    status: active
+
+  - id: kubernetes-podcast
+    name: "Kubernetes Podcast from Google"
+    category:
+      - Kubernetes
+      - CNCF
+    language: en
+    status: active
+
+  - id: the-cloudcast
+    name: "The Cloudcast"
+    category:
+      - Cloud
+      - DevOps
+    language: en
+    status: active
+
+  - id: arrested-devops
+    name: "Arrested DevOps"
+    category:
+      - DevOps
+    language: en
+    status: active
+
+  - id: software-defined-talk
+    name: "Software Defined Talk"
+    category:
+      - Cloud
+      - Kubernetes
+      - DevOps
+    language: en
+    status: active
+
+  - id: packet-pushers
+    name: "Packet Pushers"
+    category:
+      - Réseau
+      - Cloud
+      - Infrastructure
+    language: en
+    status: active
+
+  - id: screaming-in-the-cloud
+    name: "Screaming in the Cloud"
+    category:
+      - AWS
+      - Cloud
+    language: en
+    status: active
+
+  - id: aws-podcast
+    name: "AWS Podcast"
+    category:
+      - AWS
+      - Cloud
+    language: en
+    status: active
+
+  - id: azure-podcast
+    name: "The Azure Podcast"
+    category:
+      - Azure
+    language: en
+    status: active
+
+  - id: google-cloud-platform-podcast
+    name: "Google Cloud Platform Podcast"
+    category:
+      - GCP
+      - Cloud
+    language: en
+    status: active
+
+  - id: cloud-security-podcast
+    name: "Cloud Security Podcast"
+    category:
+      - Cloud Security
+      - Azure
+      - AWS
+      - GCP
+    language: en
+    status: active
+
+  - id: day-two-cloud
+    name: "Day Two Cloud"
+    category:
+      - Cloud
+      - Infrastructure
+    language: en
+    status: active
+
+  - id: heavy-strategies
+    name: "Heavy Strategy"
+    category:
+      - Architecture
+      - Cloud
+    language: en
+    status: active
+
+  - id: command-line-heroes
+    name: "Command Line Heroes"
+    category:
+      - DevOps
+      - Linux
+      - Histoire
+    language: en
+    status: archived
+
+  - id: linux-action-news
+    name: "Linux Action News"
+    category:
+      - Linux
+      - Open Source
+      - Sysadmin
+    language: en
+    status: active
+
+  - id: self-hosted
+    name: "Self-Hosted"
+    category:
+      - Linux
+      - Homelab
+      - Auto-hébergement
+    language: en
+    status: active
+
+  - id: late-night-linux
+    name: "Late Night Linux"
+    category:
+      - Linux
+      - Open Source
+    language: en
+    status: active
+
+  - id: linux-unplugged
+    name: "Linux Unplugged"
+    category:
+      - Linux
+      - DevOps
+    language: en
+    status: active
+
+  - id: ask-noah-show
+    name: "The Ask Noah Show"
+    category:
+      - Linux
+      - Administration système
+    language: en
+    status: active

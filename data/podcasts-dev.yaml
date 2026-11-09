@@ -1,0 +1,220 @@
+  - id: if-this-then-dev
+    name: "If This Then Dev"
+    category:
+      - Développement
+      - Architecture
+    language: fr
+    status: active
+
+  - id: les-cast-codeurs
+    name: "Les Cast Codeurs"
+    category:
+      - Développement
+    language: fr
+    status: active
+
+  - id: la-cave
+    name: "La Cave"
+    category:
+      - Développement
+      - Architecture
+    language: fr
+    status: active
+
+  - id: tech-cafe
+    name: "Tech Café"
+    category:
+      - Développement
+      - Tech
+    language: fr
+    status: active
+
+  - id: developer-voice
+    name: "Developer Voices"
+    category:
+      - Développement
+      - Architecture
+    language: en
+    status: active
+
+  - id: syntax
+    name: "Syntax"
+    category:
+      - Développement Web
+    language: en
+    status: active
+
+  - id: coding-blocks
+    name: "Coding Blocks"
+    category:
+      - Développement
+    language: en
+    status: active
+
+  - id: software-engineering-daily
+    name: "Software Engineering Daily"
+    category:
+      - Développement
+      - Architecture
+    language: en
+    status: active
+
+  - id: changelog
+    name: "The Changelog"
+    category:
+      - Open Source
+      - Développement
+    language: en
+    status: active
+
+  - id: cppcast
+    name: "CppCast"
+    category:
+      - C++
+      - Développement
+    language: en
+    status: active
+
+  - id: dotnet-rocks
+    name: ".NET Rocks!"
+    category:
+      - .NET
+      - Développement
+    language: en
+    status: active
+
+  - id: python-bytes
+    name: "Python Bytes"
+    category:
+      - Python
+    language: en
+    status: active
+
+  - id: talk-python
+    name: "Talk Python To Me"
+    category:
+      - Python
+    language: en
+    status: active
+
+  - id: real-python
+    name: "Real Python Podcast"
+    category:
+      - Python
+    language: en
+    status: active
+
+  - id: go-time
+    name: "Go Time"
+    category:
+      - Go
+    language: en
+    status: active
+
+  - id: gotime
+    name: "GoTime"
+    category:
+      - Go
+      - Cloud Native
+    language: en
+    status: active
+
+  - id: javascript-jabber
+    name: "JavaScript Jabber"
+    category:
+      - JavaScript
+    language: en
+    status: active
+
+  - id: react-podcast
+    name: "React Podcast"
+    category:
+      - React
+    language: en
+    status: active
+
+  - id: angular-show
+    name: "The Angular Show"
+    category:
+      - Angular
+    language: en
+    status: active
+
+  - id: ai-engineering
+    name: "The AI Engineering Podcast"
+    category:
+      - IA
+      - Machine Learning
+    language: en
+    status: active
+
+  - id: practical-ai
+    name: "Practical AI"
+    category:
+      - Intelligence Artificielle
+    language: en
+    status: active
+
+  - id: latent-space
+    name: "Latent Space"
+    category:
+      - LLM
+      - IA
+    language: en
+    status: active
+
+  - id: twiml
+    name: "This Week in Machine Learning & AI"
+    category:
+      - IA
+      - Machine Learning
+    language: en
+    status: active
+
+  - id: data-engineering-podcast
+    name: "Data Engineering Podcast"
+    category:
+      - Data
+      - IA
+    language: en
+    status: active
+
+  - id: command-line-heroes
+    name: "Command Line Heroes"
+    category:
+      - Informatique
+      - Histoire
+    language: en
+    status: archived
+
+  - id: devjourney
+    name: "Developer Journey"
+    category:
+      - Développement
+      - Carrière
+    language: en
+    status: active
+
+  - id: soft-skills-engineering
+    name: "Soft Skills Engineering"
+    category:
+      - Développement
+      - Carrière
+    language: en
+    status: active
+
+  - id: maintainable
+    name: "Maintainable"
+    category:
+      - Architecture
+      - Qualité logicielle
+    language: en
+    status: active
+
+  - id: ship-it
+    name: "Ship It!"
+    category:
+      - DevOps
+      - Développement
+    language: en
+    status: active

@@ -1,0 +1,246 @@
+version: 1
+
+podcasts:
+
+  - id: cekoica
+    name: "CéKoiÇa"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Romain Rousseau"
+    status: active
+
+  - id: compliance-without-coma
+    name: "Compliance Without Coma"
+    category: ["Cybersécurité", "GRC"]
+    language: fr
+    host: "Fabrice De Paepe"
+    status: active
+
+  - id: cyberpunkcompany
+    name: "CyberPunkCompany"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Tixlegeek"
+    status: active
+
+  - id: cybersecurite-all-day
+    name: "Cybersécurité All Day"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Michael Virgone"
+    status: active
+
+  - id: dans-loeil-de-la-cyber
+    name: "Dans l'œil de la cyber"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Gatewatcher"
+    status: active
+
+  - id: dialogues-imaginaires
+    name: "Dialogues imaginaires du monde merveilleux de la cyber"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "L'Ours"
+    status: active
+
+  - id: french-connection
+    name: "French Connection"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "@SecuritePodcast"
+    status: active
+
+  - id: hacknspeak
+    name: "Hack'n Speak"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Martial Puygrenier"
+    status: active
+
+  - id: hacktback-cybertalk
+    name: "HacktBack CyberTalk"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "HacktBack"
+    status: active
+
+  - id: incyber-voices
+    name: "InCyber Voices"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "InCyber News"
+    status: active
+
+  - id: la-box-du-rssi
+    name: "La Box du RSSI"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Fabrice Bourdelon"
+    status: active
+
+  - id: cyber-grand-mere
+    name: "La cybersécurité expliquée à ma grand-mère"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Nicolas Remarck"
+    status: active
+
+  - id: la-matrice-a-bugge
+    name: "La matrice a buggé"
+    category: ["Cybersécurité"]
+    language: fr
+    host:
+      - "Manon Desplat"
+      - "Léa Le Pezron"
+    status: active
+
+  - id: la-robe-numerique
+    name: "La Robe Numérique"
+    category: ["Cybersécurité", "Juridique"]
+    language: fr
+    host: "Oriana Labruyère"
+    status: active
+
+  - id: la-tangente
+    name: "La Tangente"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Luckas Bosch"
+    status: active
+
+  - id: le-dejargonneur-cyber
+    name: "Le Déjargonneur Cyber"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "CLUSIF"
+    status: active
+
+  - id: le-monde-de-la-cyber
+    name: "Le Monde de la Cyber"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Leslie Fornero"
+    status: active
+
+  - id: les-enfants-de-la-cyber
+    name: "Les Enfants de la Cyber"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Agora Managers Groupe"
+    status: active
+
+  - id: lets-talk-about-sec
+    name: "Let's Talk About Sec"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "HarfangLab"
+    status: active
+
+  - id: nolimitsecu
+    name: "NoLimitSecu"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "NoLimitSecu"
+    status: active
+
+  - id: objectif-cyber
+    name: "Objectif Cyber"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Capgemini"
+    status: active
+
+  - id: on-dit-chiffrer
+    name: "On dit chiffrer"
+    category: ["Cybersécurité", "Cryptographie"]
+    language: fr
+    host: "OnDitChiffrer"
+    status: active
+
+  - id: polysecure
+    name: "PolySécure"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Nicolas-Loïc Fortin"
+    status: active
+
+  - id: purple-voice
+    name: "Purple Voice"
+    category: ["Cybersécurité"]
+    language: fr
+    host:
+      - "Nabil Diab"
+      - "Raphaël Ellouz"
+    status: active
+
+  - id: radiocsirt
+    name: "RadioCSIRT"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Marc-Frédéric Gomez"
+    status: active
+
+  - id: riskintel-media
+    name: "Riskintel Média"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Riskintel"
+    status: active
+
+  - id: source-ouverte
+    name: "Source Ouverte"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Cigref"
+    status: active
+
+  - id: yakafokon
+    name: "Yakafokon"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Florian Maury"
+    status: active
+
+  - id: diginov
+    name: "Diginov"
+    category: ["Cybersécurité"]
+    language: fr
+    host: "Sylvanus Hougbekey"
+    status: archived
+
+  - id: hackstock
+    name: "Hackstock"
+    category: ["Cybersécurité"]
+    language: fr
+    status: archived
+
+  - id: le-comptoir-secu
+    name: "Le Comptoir Sécu"
+    category: ["Cybersécurité"]
+    language: fr
+    status: archived
+
+  - id: les-chiens-de-garde
+    name: "Les Chiens de Garde"
+    category: ["Cybersécurité"]
+    language: fr
+    status: archived
+
+  - id: les-minutes-cyber
+    name: "Les Minutes Cyber"
+    category: ["Cybersécurité"]
+    language: fr
+    status: archived
+
+  - id: nolog
+    name: "NOLOG"
+    category: ["Cybersécurité"]
+    language: fr
+    status: archived
+
+  - id: osint-origins
+    name: "OSINT Origins"
+    category: ["OSINT", "Cybersécurité"]
+    language: fr
+    status: archived

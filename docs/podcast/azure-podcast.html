@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Azure Podcast · CyberPodcast</title>
+  <meta name="description" content="The latest updates on Microsoft Azure">
+  <link rel="canonical" href="https://zebux.github.io/CyberPodcast/podcast/azure-podcast.html">
+  <meta name="theme-color" content="#080d1c">
+  <meta property="og:site_name" content="CyberPodcast">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The Azure Podcast · CyberPodcast">
+  <meta property="og:description" content="The latest updates on Microsoft Azure">
+  <meta property="og:url" content="https://zebux.github.io/CyberPodcast/podcast/azure-podcast.html">
+  <meta property="og:image" content="http://azpodcast.blob.core.windows.net/artifacts/PodcastArtwork.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Azure Podcast · CyberPodcast">
+  <meta name="twitter:description" content="The latest updates on Microsoft Azure">
+  <meta name="twitter:image" content="http://azpodcast.blob.core.windows.net/artifacts/PodcastArtwork.jpg">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="CyberPodcast · Derniers épisodes" href="../feed.xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script>
+(function () {
+  try {
+    var stored = localStorage.getItem('cyberpodcast-theme');
+    var theme = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.theme = theme;
+  } catch (error) {}
+})();
+</script>
+  <script src="../assets/app.js" defer></script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"PodcastSeries","name":"The Azure Podcast","url":"https://zebux.github.io/CyberPodcast/podcast/azure-podcast.html","description":"The latest updates on Microsoft Azure","image":"http://azpodcast.blob.core.windows.net/artifacts/PodcastArtwork.jpg","webFeed":"https://feeds.feedburner.com/TheAzurePodcast","inLanguage":"en","author":[{"@type":"Person","name":"Evan Basalik"},{"@type":"Person","name":"Sujit D'Mello"},{"@type":"Person","name":"Russell Young"}],"sameAs":["https://www.azpodcast.com/","https://podcasts.apple.com/us/podcast/the-azure-podcast/id728193635?uo=4","https://open.spotify.com/show/3EScErvEcLV7IEk7nDsG8L","https://youtu.be/EJGvLLA4lpY"]}</script>
+</head>
+<body class="">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html" aria-label="CyberPodcast, accueil">
+        <span class="brand-mark">CP</span>
+        <span class="brand-text">Cyber<span>Podcast</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a class="nav-link" href="../index.html">Podcasts</a>
+        <a class="nav-link" href="../sujets.html">Sujets</a>
+        <a class="nav-link" href="../statistiques.html">Statistiques</a>
+        <a class="nav-link" href="../a-propos.html">À propos</a>
+        <a class="nav-link" href="../rapport.html">Rapport</a>
+        <a class="nav-link nav-external" href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="detail" id="contenu">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane">
+      <a href="../index.html">Podcasts</a><span>/</span><span>The Azure Podcast</span>
+    </nav>
+    <section class="detail-hero">
+      <div class="cover cover-lg"><img src="http://azpodcast.blob.core.windows.net/artifacts/PodcastArtwork.jpg" alt="Pochette de The Azure Podcast" decoding="async" referrerpolicy="no-referrer"></div>
+      <div class="detail-intro">
+        <div class="detail-badges"><span class="badge status-slow">Peu actif</span><span class="badge badge-soft">Bimensuel (~14 j)</span></div>
+        <h1>The Azure Podcast</h1>
+        <p class="detail-hosts">Evan Basalik, Sujit D&#x27;Mello, Russell Young</p>
+        <p class="lead">The latest updates on Microsoft Azure</p>
+        <div class="chips"><a class="chip" href="../index.html?topic=Cloud&amp;category=&amp;status=&amp;language=">Cloud</a><a class="chip" href="../index.html?topic=Azure&amp;category=&amp;status=&amp;language=">Azure</a></div>
+        <div class="detail-actions">
+          <button class="button favorite-btn" type="button" data-id="azure-podcast" aria-pressed="false" aria-label="Ajouter The Azure Podcast aux favoris" title="Ajouter aux favoris"><span class="heart">♡</span><span class="favorite-label">Ajouter aux favoris</span></button>
+          <a class="button button-secondary" href="https://feeds.feedburner.com/TheAzurePodcast" target="_blank" rel="noopener noreferrer">Flux RSS</a>
+          <a class="button button-secondary" href="https://www.azpodcast.com/" target="_blank" rel="noopener noreferrer">Site officiel ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="detail-grid">
+      <section class="panel">
+        <div class="panel-head"><h2>Dernier épisode</h2><span class="muted">11/06/2025</span></div>
+
+        <div class="player-card">
+          <p class="player-title">Episode 521 - The Final Episode</p>
+          <audio id="main-player" controls preload="metadata" src="https://azpodcast.blob.core.windows.net/episodes/Episode521.mp3"></audio>
+          <a class="link" href="http://azpodcast.azurewebsites.net/post/Episode-521-The-Final-Episode" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Voir l’épisode</a>
+        </div>
+        <h2>Épisodes récents</h2>
+        <ol class="episode-list">
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">11/06/2025</span>
+            <h3><a href="http://azpodcast.azurewebsites.net/post/Episode-521-The-Final-Episode" target="_blank" rel="noopener noreferrer">Episode 521 - The Final Episode</a></h3>
+          </div>
+          <span class="episode-duration">30 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://azpodcast.blob.core.windows.net/episodes/Episode521.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">19/05/2025</span>
+            <h3><a href="http://azpodcast.azurewebsites.net/post/Episode-520-Azure-Native-Pure-Storage-Cloud" target="_blank" rel="noopener noreferrer">Episode 520 - Azure Native Pure Storage Cloud</a></h3>
+          </div>
+          <span class="episode-duration">17 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://azpodcast.blob.core.windows.net/episodes/Episode520.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">02/05/2025</span>
+            <h3><a href="http://azpodcast.azurewebsites.net/post/Episode-519-VM-Repair-Extension" target="_blank" rel="noopener noreferrer">Episode 519 - VM Repair Extension</a></h3>
+          </div>
+          <span class="episode-duration">26 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://azpodcast.blob.core.windows.net/episodes/Episode519.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">18/04/2025</span>
+            <h3><a href="http://azpodcast.azurewebsites.net/post/Episode-518-Azure-Confidential-Ledger" target="_blank" rel="noopener noreferrer">Episode 518 - Azure Confidential Ledger</a></h3>
+          </div>
+          <span class="episode-duration">26 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://azpodcast.blob.core.windows.net/episodes/Episode518.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">15/04/2025</span>
+            <h3><a href="http://azpodcast.azurewebsites.net/post/Episode-517-ExpressRoute-Gateway-Resiliency-Validation" target="_blank" rel="noopener noreferrer">Episode 517 - ExpressRoute Gateway Resiliency Validation</a></h3>
+          </div>
+          <span class="episode-duration">17 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://azpodcast.blob.core.windows.net/episodes/Episode517.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">04/04/2025</span>
+            <h3><a href="http://azpodcast.azurewebsites.net/post/Episode-516-Digital-Intelligence-Architecture" target="_blank" rel="noopener noreferrer">Episode 516 - Digital Intelligence Architecture</a></h3>
+          </div>
+          <span class="episode-duration">21 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://azpodcast.blob.core.windows.net/episodes/Episode516.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">27/03/2025</span>
+            <h3><a href="http://azpodcast.azurewebsites.net/post/Episode-515-Building-Copilots" target="_blank" rel="noopener noreferrer">Episode 515 - Building Copilots</a></h3>
+          </div>
+          <span class="episode-duration">24 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://azpodcast.blob.core.windows.net/episodes/Episode515.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">06/03/2025</span>
+            <h3><a href="http://azpodcast.azurewebsites.net/post/Episode-514-Sysinternals-Tools-on-Azure" target="_blank" rel="noopener noreferrer">Episode 514 - Sysinternals Tools on Azure</a></h3>
+          </div>
+          <span class="episode-duration">23 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://azpodcast.blob.core.windows.net/episodes/Episode514.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">26/02/2025</span>
+            <h3><a href="http://azpodcast.azurewebsites.net/post/Episode-513-Azure-Container-Apps-Deep-Dive" target="_blank" rel="noopener noreferrer">Episode 513 - Azure Container Apps Deep Dive</a></h3>
+          </div>
+          <span class="episode-duration">32 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://azpodcast.blob.core.windows.net/episodes/Episode513.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">03/02/2025</span>
+            <h3><a href="http://azpodcast.azurewebsites.net/post/Episode-512-WAF-and-WARA-on-the-Azure-Podcast1" target="_blank" rel="noopener noreferrer">Episode 512 - WAF and WARA on the Azure Podcast</a></h3>
+          </div>
+          <span class="episode-duration">13 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://azpodcast.blob.core.windows.net/episodes/Episode512.mp3"></audio>
+      </li></ol>
+      </section>
+      <aside class="panel">
+        <h2>Informations</h2>
+        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>Evan Basalik, Sujit D&#x27;Mello, Russell Young</dd></div><div><dt>Auteur</dt><dd>Cynthia Kreng, Kendall Roden, Cale Teeter, Evan Basalik, Russell Young and Sujit D&#x27;Mello (sujit@hotmail.com)</dd></div><div><dt>Langue</dt><dd>Anglais · US</dd></div><div><dt>Dernier épisode</dt><dd>11/06/2025</dd></div><div><dt>Rythme</dt><dd>Bimensuel (~14 j)</dd></div><div><dt>Épisodes</dt><dd>102</dd></div><div><dt>Durée moyenne</dt><dd>22 min</dd></div><div><dt>Note Apple</dt><dd>4.6/5 (44)</dd></div><div><dt>Plateforme</dt><dd>Spotify</dd></div><div><dt>Pays</dt><dd>US</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>09/11/2026</dd></div></dl>
+        <h2>Liens d’écoute</h2>
+        <div class="links"><a class="link link-site" href="https://www.azpodcast.com/" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Site</a><a class="link link-rss" href="https://feeds.feedburner.com/TheAzurePodcast" target="_blank" rel="noopener noreferrer"><span class="dot"></span>RSS</a><a class="link link-apple" href="https://podcasts.apple.com/us/podcast/the-azure-podcast/id728193635?uo=4" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Apple</a><a class="link link-spotify" href="https://open.spotify.com/show/3EScErvEcLV7IEk7nDsG8L" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Spotify</a><a class="link link-youtube" href="https://youtu.be/EJGvLLA4lpY" target="_blank" rel="noopener noreferrer"><span class="dot"></span>YouTube</a><a class="link link-amazon" href="https://music.amazon.com/podcasts/b4e13f4c-4b08-4451-931e-8304220e5670/the-azure-podcast" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Amazon Music</a></div>
+        <h2>Sujets</h2><div class="chips"><a class="chip" href="../index.html?topic=Cloud&amp;category=&amp;status=&amp;language=">Cloud</a><a class="chip" href="../index.html?topic=Azure&amp;category=&amp;status=&amp;language=">Azure</a></div>
+        <h2>Tags</h2><div class="tags"><span class="tag">Azure</span></div>
+      </aside>
+    </div>
+
+    <section class="related">
+      <h2>À découvrir aussi</h2>
+      <div class="related-grid">
+    <a class="mini-card" href="../podcast/cloud-security-podcast.html">
+      <div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/2749242/2749242-1702414932410-4a0a63fceb0f9.jpg" alt="Pochette de Cloud Security Podcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Cloud Security Podcast</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/les-tetes-dans-le-cloud.html">
+      <div class="mini-cover"><img src="https://static.audiomeans.fr/img/podcast/6d33de64-9124-475c-9be7-b4a249107108.jpg" alt="Pochette de Les Têtes dans le Cloud" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Les Têtes dans le Cloud</strong>
+        <small>Actif · Français · FR</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/on-azure-grave.html">
+      <div class="mini-cover"><img src="https://assets.pippa.io/shows/649866b28b68980011d7f955/1708522409280-201063e084520ca67c7afd4c3b4949ee.jpeg" alt="Pochette de On Azure Grave" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>On Azure Grave</strong>
+        <small>Peu actif · Français · FR</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/wespeakcloud.html">
+      <div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2876723/2876723-1582139974029-82bc558fd2d02.jpg" alt="Pochette de We Speak Cloud" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>We Speak Cloud</strong>
+        <small>Inactif · Français · FR</small>
+      </span>
+    </a></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <span>Données enrichies automatiquement · dernière mise à jour 09/11/2026 · <a href="../a-propos.html">méthode</a></span>
+    <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="../feed.xml">RSS</a> · <a href="../api/podcasts.json">API JSON</a></span>
+  </footer>
+</body>
+</html>

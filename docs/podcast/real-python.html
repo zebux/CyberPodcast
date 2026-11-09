@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Real Python Podcast · CyberPodcast</title>
+  <meta name="description" content="A weekly Python podcast hosted by Christopher Bailey with interviews, coding tips, and conversation with guests from the Python community. The show covers a wide range of topics including Python…">
+  <link rel="canonical" href="https://zebux.github.io/CyberPodcast/podcast/real-python.html">
+  <meta name="theme-color" content="#080d1c">
+  <meta property="og:site_name" content="CyberPodcast">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Real Python Podcast · CyberPodcast">
+  <meta property="og:description" content="A weekly Python podcast hosted by Christopher Bailey with interviews, coding tips, and conversation with guests from the Python community. The show covers a wide range of topics including Python…">
+  <meta property="og:url" content="https://zebux.github.io/CyberPodcast/podcast/real-python.html">
+  <meta property="og:image" content="https://files.realpython.com/media/real-python-logo-square.28474fda9228.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Real Python Podcast · CyberPodcast">
+  <meta name="twitter:description" content="A weekly Python podcast hosted by Christopher Bailey with interviews, coding tips, and conversation with guests from the Python community. The show covers a wide range of topics including Python…">
+  <meta name="twitter:image" content="https://files.realpython.com/media/real-python-logo-square.28474fda9228.png">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="CyberPodcast · Derniers épisodes" href="../feed.xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script>
+(function () {
+  try {
+    var stored = localStorage.getItem('cyberpodcast-theme');
+    var theme = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.theme = theme;
+  } catch (error) {}
+})();
+</script>
+  <script src="../assets/app.js" defer></script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"PodcastSeries","name":"Real Python Podcast","url":"https://zebux.github.io/CyberPodcast/podcast/real-python.html","description":"A weekly Python podcast hosted by Christopher Bailey with interviews, coding tips, and conversation with guests from the Python community. The show covers a wide range of topics including Python…","image":"https://files.realpython.com/media/real-python-logo-square.28474fda9228.png","webFeed":"https://realpython.com/podcasts/rpp/feed","inLanguage":"en","author":[{"@type":"Person","name":"Christopher Bailey"}],"sameAs":["https://realpython.com/podcasts/rpp/","https://podcasts.apple.com/us/podcast/the-real-python-podcast/id1501905538?uo=4","https://open.spotify.com/show/41Av6Rq81LfOT3Volz7W9D","https://www.youtube.com/@realpython/podcasts"]}</script>
+</head>
+<body class="">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html" aria-label="CyberPodcast, accueil">
+        <span class="brand-mark">CP</span>
+        <span class="brand-text">Cyber<span>Podcast</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a class="nav-link" href="../index.html">Podcasts</a>
+        <a class="nav-link" href="../sujets.html">Sujets</a>
+        <a class="nav-link" href="../statistiques.html">Statistiques</a>
+        <a class="nav-link" href="../a-propos.html">À propos</a>
+        <a class="nav-link" href="../rapport.html">Rapport</a>
+        <a class="nav-link nav-external" href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="detail" id="contenu">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane">
+      <a href="../index.html">Podcasts</a><span>/</span><span>Real Python Podcast</span>
+    </nav>
+    <section class="detail-hero">
+      <div class="cover cover-lg"><img src="https://files.realpython.com/media/real-python-logo-square.28474fda9228.png" alt="Pochette de Real Python Podcast" decoding="async" referrerpolicy="no-referrer"></div>
+      <div class="detail-intro">
+        <div class="detail-badges"><span class="badge status-active">Actif</span><span class="badge badge-soft">Hebdomadaire (~7 j)</span></div>
+        <h1>Real Python Podcast</h1>
+        <p class="detail-hosts">Christopher Bailey</p>
+        <p class="lead">A weekly Python podcast hosted by Christopher Bailey with interviews, coding tips, and conversation with guests from the Python community. The show covers a wide range of topics including Python…</p>
+        <div class="chips"><a class="chip" href="../index.html?topic=Open%20Source&amp;category=&amp;status=&amp;language=">Open Source</a><a class="chip" href="../index.html?topic=D%C3%A9veloppement&amp;category=&amp;status=&amp;language=">Développement</a><a class="chip" href="../index.html?topic=Python&amp;category=&amp;status=&amp;language=">Python</a><a class="chip" href="../index.html?topic=Data&amp;category=&amp;status=&amp;language=">Data</a></div>
+        <div class="detail-actions">
+          <button class="button favorite-btn" type="button" data-id="real-python" aria-pressed="false" aria-label="Ajouter Real Python Podcast aux favoris" title="Ajouter aux favoris"><span class="heart">♡</span><span class="favorite-label">Ajouter aux favoris</span></button>
+          <a class="button button-secondary" href="https://realpython.com/podcasts/rpp/feed" target="_blank" rel="noopener noreferrer">Flux RSS</a>
+          <a class="button button-secondary" href="https://realpython.com/podcasts/rpp/" target="_blank" rel="noopener noreferrer">Site officiel ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="detail-grid">
+      <section class="panel">
+        <div class="panel-head"><h2>Dernier épisode</h2><span class="muted">06/11/2026</span></div>
+
+        <div class="player-card">
+          <p class="player-title">Free-Threaded Python: Why Python Devs Should Know About the ABI</p>
+          <audio id="main-player" controls preload="metadata" src="https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E318_03_Nathan_Goldbaum.430cadd3c2d9.mp3"></audio>
+          <a class="link" href="https://realpython.com/podcasts/rpp/318/" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Voir l’épisode</a>
+        </div>
+        <h2>Épisodes récents</h2>
+        <ol class="episode-list">
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">06/11/2026</span>
+            <h3><a href="https://realpython.com/podcasts/rpp/318/" target="_blank" rel="noopener noreferrer">Free-Threaded Python: Why Python Devs Should Know About the ABI</a></h3>
+          </div>
+          <span class="episode-duration">68 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E318_03_Nathan_Goldbaum.430cadd3c2d9.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">30/10/2026</span>
+            <h3><a href="https://realpython.com/podcasts/rpp/317/" target="_blank" rel="noopener noreferrer">Demystifying Python Memory Management &amp; Choosing a Project Layout</a></h3>
+          </div>
+          <span class="episode-duration">46 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E317_02_PyCoders.17e6b202c1cb.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">23/10/2026</span>
+            <h3><a href="https://realpython.com/podcasts/rpp/316/" target="_blank" rel="noopener noreferrer">The Future of Python Security: Trends, Challenges, and Solutions</a></h3>
+          </div>
+          <span class="episode-duration">71 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E316_02_Seth_Larson.0322945fcfb1.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">16/10/2026</span>
+            <h3><a href="https://realpython.com/podcasts/rpp/315/" target="_blank" rel="noopener noreferrer">Python Pitfalls: Common Mistakes and How to Avoid Them</a></h3>
+          </div>
+          <span class="episode-duration">46 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E315_02_PyCoders.1d0ea08ec515.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">09/10/2026</span>
+            <h3><a href="https://realpython.com/podcasts/rpp/314/" target="_blank" rel="noopener noreferrer">Codemoo: Demonstrating How Coding Agents Work</a></h3>
+          </div>
+          <span class="episode-duration">67 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E314_02_GeirArne.6d0fc50172ef.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">02/10/2026</span>
+            <h3><a href="https://realpython.com/podcasts/rpp/313/" target="_blank" rel="noopener noreferrer">Python 3.15: Exploring the New Features</a></h3>
+          </div>
+          <span class="episode-duration">44 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E313_03_Python3_15.d4b0b6ec2049.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">25/09/2026</span>
+            <h3><a href="https://realpython.com/podcasts/rpp/312/" target="_blank" rel="noopener noreferrer">Navigating AI in Open Source: Insights From Wagtail</a></h3>
+          </div>
+          <span class="episode-duration">68 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E312_02_Wagtail.f67106ff33dc.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">11/09/2026</span>
+            <h3><a href="https://realpython.com/podcasts/rpp/311/" target="_blank" rel="noopener noreferrer">Django Developers Survey Results &amp; Reproducible Python Builds</a></h3>
+          </div>
+          <span class="episode-duration">47 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E311_03_PyCoders.303c777df801.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">04/09/2026</span>
+            <h3><a href="https://realpython.com/podcasts/rpp/310/" target="_blank" rel="noopener noreferrer">Performance Engineering: Profiling and Making Apps Fast by Default</a></h3>
+          </div>
+          <span class="episode-duration">77 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E310_02_Den_Odell.df6778d7f7a6.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">28/08/2026</span>
+            <h3><a href="https://realpython.com/podcasts/rpp/309/" target="_blank" rel="noopener noreferrer">Exploring Complex Systems &amp; Maintainable Data Science Pipelines</a></h3>
+          </div>
+          <span class="episode-duration">41 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E309_02_PyCoders.46f5efbbee30.mp3"></audio>
+      </li></ol>
+      </section>
+      <aside class="panel">
+        <h2>Informations</h2>
+        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>Christopher Bailey</dd></div><div><dt>Auteur</dt><dd>Real Python</dd></div><div><dt>Langue</dt><dd>Anglais · US</dd></div><div><dt>Dernier épisode</dt><dd>06/11/2026</dd></div><div><dt>Rythme</dt><dd>Hebdomadaire (~7 j)</dd></div><div><dt>Épisodes</dt><dd>319</dd></div><div><dt>Durée moyenne</dt><dd>54 min</dd></div><div><dt>Note Apple</dt><dd>4.7/5 (144)</dd></div><div><dt>Plateforme</dt><dd>Spotify</dd></div><div><dt>Pays</dt><dd>US</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>09/11/2026</dd></div></dl>
+        <h2>Liens d’écoute</h2>
+        <div class="links"><a class="link link-site" href="https://realpython.com/podcasts/rpp/" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Site</a><a class="link link-rss" href="https://realpython.com/podcasts/rpp/feed" target="_blank" rel="noopener noreferrer"><span class="dot"></span>RSS</a><a class="link link-apple" href="https://podcasts.apple.com/us/podcast/the-real-python-podcast/id1501905538?uo=4" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Apple</a><a class="link link-spotify" href="https://open.spotify.com/show/41Av6Rq81LfOT3Volz7W9D" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Spotify</a><a class="link link-youtube" href="https://www.youtube.com/@realpython/podcasts" target="_blank" rel="noopener noreferrer"><span class="dot"></span>YouTube</a><a class="link link-pocketcasts" href="https://pca.st/itunes/1501905538" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Pocket Casts</a><a class="link link-podcastaddict" href="https://podcastaddict.com/podcast/2561845" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Podcast Addict</a><a class="link link-castbox" href="https://castbox.fm/vic/1501905538" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Castbox</a></div>
+        <h2>Sujets</h2><div class="chips"><a class="chip" href="../index.html?topic=Open%20Source&amp;category=&amp;status=&amp;language=">Open Source</a><a class="chip" href="../index.html?topic=D%C3%A9veloppement&amp;category=&amp;status=&amp;language=">Développement</a><a class="chip" href="../index.html?topic=Python&amp;category=&amp;status=&amp;language=">Python</a><a class="chip" href="../index.html?topic=Data&amp;category=&amp;status=&amp;language=">Data</a></div>
+        <h2>Tags</h2><div class="tags"><span class="tag">Python</span></div>
+      </aside>
+    </div>
+
+    <section class="related">
+      <h2>À découvrir aussi</h2>
+      <div class="related-grid">
+    <a class="mini-card" href="../podcast/python-bytes.html">
+      <div class="mini-cover"><img src="https://cdn.pythonbytes.fm/static/img/podcast-theme-img_3000.jpg" alt="Pochette de Python Bytes" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Python Bytes</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/changelog.html">
+      <div class="mini-cover"><img src="https://cdn.changelog.com/static/images/podcasts/podcast-original-f16d0363067166f241d080ee2e2d4a28.png" alt="Pochette de The Changelog" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>The Changelog</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/go-time.html">
+      <div class="mini-cover"><img src="https://cdn.changelog.com/uploads/covers/go-time-original.png?v=63725770357" alt="Pochette de Go Time" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Go Time</strong>
+        <small>Peu actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/talk-python.html">
+      <div class="mini-cover"><img src="https://cdn-podcast.talkpython.fm/static/img/talk-python-3000.jpg" alt="Pochette de Talk Python To Me" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Talk Python To Me</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <span>Données enrichies automatiquement · dernière mise à jour 09/11/2026 · <a href="../a-propos.html">méthode</a></span>
+    <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="../feed.xml">RSS</a> · <a href="../api/podcasts.json">API JSON</a></span>
+  </footer>
+</body>
+</html>

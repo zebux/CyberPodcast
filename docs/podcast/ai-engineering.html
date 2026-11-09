@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The AI Engineering Podcast · CyberPodcast</title>
+  <meta name="description" content="This show is your guidebook to building scalable and maintainable AI systems. You will learn how to architect AI applications, apply AI to your work, and the considerations involved in building or…">
+  <link rel="canonical" href="https://zebux.github.io/CyberPodcast/podcast/ai-engineering.html">
+  <meta name="theme-color" content="#080d1c">
+  <meta property="og:site_name" content="CyberPodcast">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="The AI Engineering Podcast · CyberPodcast">
+  <meta property="og:description" content="This show is your guidebook to building scalable and maintainable AI systems. You will learn how to architect AI applications, apply AI to your work, and the considerations involved in building or…">
+  <meta property="og:url" content="https://zebux.github.io/CyberPodcast/podcast/ai-engineering.html">
+  <meta property="og:image" content="https://assets.podhome.fm/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557211890591941ai_engineering_podcast_logo.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The AI Engineering Podcast · CyberPodcast">
+  <meta name="twitter:description" content="This show is your guidebook to building scalable and maintainable AI systems. You will learn how to architect AI applications, apply AI to your work, and the considerations involved in building or…">
+  <meta name="twitter:image" content="https://assets.podhome.fm/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557211890591941ai_engineering_podcast_logo.jpg">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="CyberPodcast · Derniers épisodes" href="../feed.xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script>
+(function () {
+  try {
+    var stored = localStorage.getItem('cyberpodcast-theme');
+    var theme = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.theme = theme;
+  } catch (error) {}
+})();
+</script>
+  <script src="../assets/app.js" defer></script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"PodcastSeries","name":"The AI Engineering Podcast","url":"https://zebux.github.io/CyberPodcast/podcast/ai-engineering.html","description":"This show is your guidebook to building scalable and maintainable AI systems. You will learn how to architect AI applications, apply AI to your work, and the considerations involved in building or…","image":"https://assets.podhome.fm/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557211890591941ai_engineering_podcast_logo.jpg","webFeed":"https://serve.podhome.fm/rss/c9abdd38-a5dc-5eb2-96fd-f833f93208a7","inLanguage":"en","author":[{"@type":"Person","name":"Tobias Macey"}],"sameAs":["https://aiengineeringpodcast.com/","https://podcasts.apple.com/us/podcast/ai-engineering-podcast/id1877957479?uo=4","https://open.spotify.com/show/19KSYTTB5DTEb2z5Q3qiTh"]}</script>
+</head>
+<body class="">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html" aria-label="CyberPodcast, accueil">
+        <span class="brand-mark">CP</span>
+        <span class="brand-text">Cyber<span>Podcast</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a class="nav-link" href="../index.html">Podcasts</a>
+        <a class="nav-link" href="../sujets.html">Sujets</a>
+        <a class="nav-link" href="../statistiques.html">Statistiques</a>
+        <a class="nav-link" href="../a-propos.html">À propos</a>
+        <a class="nav-link" href="../rapport.html">Rapport</a>
+        <a class="nav-link nav-external" href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="detail" id="contenu">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane">
+      <a href="../index.html">Podcasts</a><span>/</span><span>The AI Engineering Podcast</span>
+    </nav>
+    <section class="detail-hero">
+      <div class="cover cover-lg"><img src="https://assets.podhome.fm/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557211890591941ai_engineering_podcast_logo.jpg" alt="Pochette de The AI Engineering Podcast" decoding="async" referrerpolicy="no-referrer"></div>
+      <div class="detail-intro">
+        <div class="detail-badges"><span class="badge status-active">Actif</span><span class="badge badge-soft">Hebdomadaire (~10 j)</span></div>
+        <h1>The AI Engineering Podcast</h1>
+        <p class="detail-hosts">Tobias Macey</p>
+        <p class="lead">This show is your guidebook to building scalable and maintainable AI systems. You will learn how to architect AI applications, apply AI to your work, and the considerations involved in building or…</p>
+        <div class="chips"><a class="chip" href="../index.html?topic=IA&amp;category=&amp;status=&amp;language=">IA</a></div>
+        <div class="detail-actions">
+          <button class="button favorite-btn" type="button" data-id="ai-engineering" aria-pressed="false" aria-label="Ajouter The AI Engineering Podcast aux favoris" title="Ajouter aux favoris"><span class="heart">♡</span><span class="favorite-label">Ajouter aux favoris</span></button>
+          <a class="button button-secondary" href="https://serve.podhome.fm/rss/c9abdd38-a5dc-5eb2-96fd-f833f93208a7" target="_blank" rel="noopener noreferrer">Flux RSS</a>
+          <a class="button button-secondary" href="https://aiengineeringpodcast.com/" target="_blank" rel="noopener noreferrer">Site officiel ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="detail-grid">
+      <section class="panel">
+        <div class="panel-head"><h2>Dernier épisode</h2><span class="muted">15/10/2026</span></div>
+
+        <div class="player-card">
+          <p class="player-title">What Do Humans Do Now? Rethinking Software Engineering in the Age of AI Agents</p>
+          <audio id="main-player" controls preload="metadata" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/639276278041101179cbed4fc8-6df2-48d5-9073-bd25792c5a73.mp3"></audio>
+          <a class="link" href="https://www.aiengineeringpodcast.com/agentic-software-engineering-human-judgement-episode-81" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Voir l’épisode</a>
+        </div>
+        <h2>Épisodes récents</h2>
+        <ol class="episode-list">
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">15/10/2026</span>
+            <h3><a href="https://www.aiengineeringpodcast.com/agentic-software-engineering-human-judgement-episode-81" target="_blank" rel="noopener noreferrer">What Do Humans Do Now? Rethinking Software Engineering in the Age of AI Agents</a></h3>
+          </div>
+          <span class="episode-duration">68 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/639276278041101179cbed4fc8-6df2-48d5-9073-bd25792c5a73.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">07/10/2026</span>
+            <h3><a href="https://www.aiengineeringpodcast.com/rag-evaluation-with-sparse-data-episode-80" target="_blank" rel="noopener noreferrer">How to Evaluate RAG Systems When Ground Truth Keeps Changing</a></h3>
+          </div>
+          <span class="episode-duration">63 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/639269265437119038e0852786-5c11-4d9f-a3eb-edf7580bbf17.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">19/09/2026</span>
+            <h3><a href="https://www.aiengineeringpodcast.com/trueforge-ai-agent-harness-engineering-episode-79" target="_blank" rel="noopener noreferrer">Harness Engineering for Reliable, Governed AI Agents</a></h3>
+          </div>
+          <span class="episode-duration">64 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/639253042375413381da28e164-aee4-4d13-8245-2c6583090f54.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">25/02/2026</span>
+            <h3><a href="https://www.aiengineeringpodcast.com/ai-sovereignty-infrastructure-adaptation-episode-78" target="_blank" rel="noopener noreferrer">Kubernetes, Compliance, and Control: The Operational Backbone of AI Sovereignty</a></h3>
+          </div>
+          <span class="episode-duration">61 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6390757335959399973043fb99-1dfb-45ee-94be-be532e0166f8.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">15/02/2026</span>
+            <h3><a href="https://www.aiengineeringpodcast.com/openlit-open-source-llmops-episode-77" target="_blank" rel="noopener noreferrer">From Blind Spots to Observability: Operationalizing LLM Apps with OpenLit</a></h3>
+          </div>
+          <span class="episode-duration">51 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/63906714955750011937985833-1425-4bb6-acfe-ce3b20759f52.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">08/02/2026</span>
+            <h3><a href="https://www.aiengineeringpodcast.com/ensemble-listening-models-episode-76" target="_blank" rel="noopener noreferrer">Taming Voice Complexity with Dynamic Ensembles at Modulate</a></h3>
+          </div>
+          <span class="episode-duration">59 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/63906178161892160583ed2644-e8ca-4e05-bf77-bba64fd20392.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">27/01/2026</span>
+            <h3><a href="https://www.aiengineeringpodcast.com/gpu-cloud-marketplace-episode-75" target="_blank" rel="noopener noreferrer">GPU Clouds, Aggregators, and the New Economics of AI Compute</a></h3>
+          </div>
+          <span class="episode-duration">46 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6390506821343929494441b0a7-114e-4f58-bdd7-9d27dd424008.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">20/01/2026</span>
+            <h3><a href="https://www.aiengineeringpodcast.com/spotify-agentic-developer-experience-episode-74" target="_blank" rel="noopener noreferrer">The Future of Dev Experience: Spotify’s Playbook for Organization‑Scale AI</a></h3>
+          </div>
+          <span class="episode-duration">56 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/63904461444220660207ac8867-ee66-4197-b6ba-e3100f87f4c3.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">05/01/2026</span>
+            <h3><a href="https://www.aiengineeringpodcast.com/ai-accessibility-impact-episode-73" target="_blank" rel="noopener noreferrer">Generative AI Meets Accessibility: Benchmarks, Breakthroughs, and Blind Spots with Joe Devon</a></h3>
+          </div>
+          <span class="episode-duration">56 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/63903170428479483116ab0678-5aa2-4058-8194-c14342e26c27.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">29/12/2025</span>
+            <h3><a href="https://www.aiengineeringpodcast.com/adding-agentic-behavior-to-saas-episode-72" target="_blank" rel="noopener noreferrer">Beyond the Chatbot: Practical Frameworks for Agentic Capabilities in SaaS</a></h3>
+          </div>
+          <span class="episode-duration">54 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6390255359811420953e28bc77-38eb-4f81-bda2-978d6d30ebd5.mp3"></audio>
+      </li></ol>
+      </section>
+      <aside class="panel">
+        <h2>Informations</h2>
+        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>Tobias Macey</dd></div><div><dt>Auteur</dt><dd>Tobias Macey</dd></div><div><dt>Langue</dt><dd>Anglais · US</dd></div><div><dt>Dernier épisode</dt><dd>15/10/2026</dd></div><div><dt>Rythme</dt><dd>Hebdomadaire (~10 j)</dd></div><div><dt>Épisodes</dt><dd>82</dd></div><div><dt>Durée moyenne</dt><dd>60 min</dd></div><div><dt>Note Apple</dt><dd>—</dd></div><div><dt>Plateforme</dt><dd>Spotify</dd></div><div><dt>Pays</dt><dd>US</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>09/11/2026</dd></div></dl>
+        <h2>Liens d’écoute</h2>
+        <div class="links"><a class="link link-site" href="https://aiengineeringpodcast.com/" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Site</a><a class="link link-rss" href="https://serve.podhome.fm/rss/c9abdd38-a5dc-5eb2-96fd-f833f93208a7" target="_blank" rel="noopener noreferrer"><span class="dot"></span>RSS</a><a class="link link-apple" href="https://podcasts.apple.com/us/podcast/ai-engineering-podcast/id1877957479?uo=4" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Apple</a><a class="link link-spotify" href="https://open.spotify.com/show/19KSYTTB5DTEb2z5Q3qiTh" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Spotify</a><a class="link link-pocketcasts" href="https://pca.st/itunes/1626358243" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Pocket Casts</a><a class="link link-amazon" href="https://music.amazon.com/podcasts/6df56b82-1715-42a8-8234-c6d93f271e5b/the-machine-learning-podcast" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Amazon Music</a><a class="link link-castbox" href="https://castbox.fm/vic/1626358243" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Castbox</a></div>
+        <h2>Sujets</h2><div class="chips"><a class="chip" href="../index.html?topic=IA&amp;category=&amp;status=&amp;language=">IA</a></div>
+        <h2>Tags</h2><div class="tags"><span class="tag">Technology</span><span class="tag">Education</span></div>
+      </aside>
+    </div>
+
+    <section class="related">
+      <h2>À découvrir aussi</h2>
+      <div class="related-grid">
+    <a class="mini-card" href="../podcast/twiml.html">
+      <div class="mini-cover"><img src="https://megaphone.imgix.net/podcasts/35230150-ee98-11eb-ad1a-b38cbabcd053/image/TWIML_AI_Podcast_Official_Cover_Art_1400px.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" alt="Pochette de This Week in Machine Learning &amp; AI" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>This Week in Machine Learning &amp; AI</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/latent-space.html">
+      <div class="mini-cover"><img src="https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818" alt="Pochette de Latent Space" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Latent Space</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/cloud-cafe.html">
+      <div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/44308484/44308484-1756284540431-0f8013780193.jpg" alt="Pochette de Cloud Café" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Cloud Café</strong>
+        <small>Actif · Français · FR</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/cloud-security-podcast.html">
+      <div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/2749242/2749242-1702414932410-4a0a63fceb0f9.jpg" alt="Pochette de Cloud Security Podcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Cloud Security Podcast</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <span>Données enrichies automatiquement · dernière mise à jour 09/11/2026 · <a href="../a-propos.html">méthode</a></span>
+    <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="../feed.xml">RSS</a> · <a href="../api/podcasts.json">API JSON</a></span>
+  </footer>
+</body>
+</html>

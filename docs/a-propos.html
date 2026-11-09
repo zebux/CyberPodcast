@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>À propos · CyberPodcast</title>
+  <meta name="description" content="Découvrez la méthode, les sources et l’automatisation du projet CyberPodcast.">
+  <link rel="canonical" href="https://zebux.github.io/CyberPodcast/a-propos.html">
+  <meta name="theme-color" content="#080d1c">
+  <meta property="og:site_name" content="CyberPodcast">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="À propos · CyberPodcast">
+  <meta property="og:description" content="Découvrez la méthode, les sources et l’automatisation du projet CyberPodcast.">
+  <meta property="og:url" content="https://zebux.github.io/CyberPodcast/a-propos.html">
+  <meta property="og:image" content="https://zebux.github.io/CyberPodcast/assets/icon.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="À propos · CyberPodcast">
+  <meta name="twitter:description" content="Découvrez la méthode, les sources et l’automatisation du projet CyberPodcast.">
+  <meta name="twitter:image" content="https://zebux.github.io/CyberPodcast/assets/icon.svg">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="CyberPodcast · Derniers épisodes" href="feed.xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script>
+(function () {
+  try {
+    var stored = localStorage.getItem('cyberpodcast-theme');
+    var theme = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.theme = theme;
+  } catch (error) {}
+})();
+</script>
+  <script src="assets/app.js" defer></script>
+
+
+</head>
+<body class="">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="index.html" aria-label="CyberPodcast, accueil">
+        <span class="brand-mark">CP</span>
+        <span class="brand-text">Cyber<span>Podcast</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a class="nav-link" href="index.html">Podcasts</a>
+        <a class="nav-link" href="sujets.html">Sujets</a>
+        <a class="nav-link" href="statistiques.html">Statistiques</a>
+        <a class="nav-link" href="a-propos.html">À propos</a>
+        <a class="nav-link" href="rapport.html">Rapport</a>
+        <a class="nav-link nav-external" href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page prose" id="contenu">
+    <header class="page-header">
+      <p class="eyebrow">Le projet</p>
+      <h1>Un annuaire <span class="gradient">vivant</span> des podcasts cyber</h1>
+      <p class="lead">CyberPodcast référence 90 podcasts francophones et internationaux autour de la cybersécurité, du cloud et du développement.</p>
+    </header>
+    <section class="panel">
+      <h2>Ce que fait le projet</h2>
+      <p>Le site agrège des podcasts, vérifie leurs liens, récupère leurs derniers épisodes et enrichit les fiches depuis les flux RSS, Apple Podcasts et les sites officiels. Tout est généré statiquement : aucun serveur, aucun compte, aucun cookie.</p>
+      <h2>Comment les données sont produites</h2>
+      <ol>
+        <li>Les sources sont maintenues dans <code>data/podcasts-*.yaml</code>.</li>
+        <li>Les corrections manuelles vérifiées sont dans <code>data/curated.yaml</code>.</li>
+        <li>Le pipeline Python fusionne, déduplique, enrichit et écrit <code>podcasts.yaml</code>.</li>
+        <li>Un workflow GitHub Actions contrôle la santé des liens, régénère le site et publie GitHub Pages.</li>
+      </ol>
+      <h2>Automatisation</h2>
+      <p>Le workflow tourne chaque jour. Il récupère les nouveautés, met à jour les notes et les derniers épisodes, produit un rapport de santé et redéploie le site. Les erreurs réseau ne bloquent pas la publication : les données précédentes servent de repli.</p>
+      <h2>Contribuer</h2>
+      <p>Une erreur, un podcast manquant, un flux cassé ? Ouvrez une <a href="https://github.com/zebux/CyberPodcast/issues" target="_blank" rel="noopener noreferrer">issue</a> ou proposez une correction dans <code>data/curated.yaml</code>. Les liens officiels et les flux vérifiés sont prioritaires.</p>
+      <h2>Transparence</h2>
+      <p>Les notes affichées proviennent d’Apple Podcasts et sont indicatives. Les liens d’écoute renvoient vers les plateformes officielles. Le code et les données sont publics sur <a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+    </section>
+    <section class="panel">
+      <h2>Stack technique</h2>
+      <p>Python, PyYAML, requests, feedparser, HTML/CSS/JavaScript vanilla, GitHub Actions et GitHub Pages. Aucun framework front, aucun tracker, aucune dépendance runtime.</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <span>Données enrichies automatiquement · dernière mise à jour 09/11/2026 · <a href="a-propos.html">méthode</a></span>
+    <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="feed.xml">RSS</a> · <a href="api/podcasts.json">API JSON</a></span>
+  </footer>
+</body>
+</html>

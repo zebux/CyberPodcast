@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page introuvable · CyberPodcast</title>
+  <meta name="description" content="La page demandée est introuvable sur CyberPodcast.">
+  <link rel="canonical" href="https://zebux.github.io/CyberPodcast/404.html">
+  <meta name="theme-color" content="#080d1c">
+  <meta property="og:site_name" content="CyberPodcast">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Page introuvable · CyberPodcast">
+  <meta property="og:description" content="La page demandée est introuvable sur CyberPodcast.">
+  <meta property="og:url" content="https://zebux.github.io/CyberPodcast/404.html">
+  <meta property="og:image" content="https://zebux.github.io/CyberPodcast/assets/icon.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Page introuvable · CyberPodcast">
+  <meta name="twitter:description" content="La page demandée est introuvable sur CyberPodcast.">
+  <meta name="twitter:image" content="https://zebux.github.io/CyberPodcast/assets/icon.svg">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="CyberPodcast · Derniers épisodes" href="feed.xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script>
+(function () {
+  try {
+    var stored = localStorage.getItem('cyberpodcast-theme');
+    var theme = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.theme = theme;
+  } catch (error) {}
+})();
+</script>
+  <script src="assets/app.js" defer></script>
+
+
+</head>
+<body class="">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="index.html" aria-label="CyberPodcast, accueil">
+        <span class="brand-mark">CP</span>
+        <span class="brand-text">Cyber<span>Podcast</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a class="nav-link" href="index.html">Podcasts</a>
+        <a class="nav-link" href="sujets.html">Sujets</a>
+        <a class="nav-link" href="statistiques.html">Statistiques</a>
+        <a class="nav-link" href="a-propos.html">À propos</a>
+        <a class="nav-link" href="rapport.html">Rapport</a>
+        <a class="nav-link nav-external" href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page not-found" id="contenu">
+    <p class="eyebrow">Erreur 404</p>
+    <h1>Cette page n’existe <span class="gradient">pas encore</span></h1>
+    <p class="lead">Le podcast ou la page demandée est introuvable. Revenez à l’annuaire pour continuer l’exploration.</p>
+    <a class="button" href="index.html">Retour aux podcasts</a>
+  </main>
+  <footer class="footer">
+    <span>Données enrichies automatiquement · dernière mise à jour 09/11/2026 · <a href="a-propos.html">méthode</a></span>
+    <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="feed.xml">RSS</a> · <a href="api/podcasts.json">API JSON</a></span>
+  </footer>
+</body>
+</html>

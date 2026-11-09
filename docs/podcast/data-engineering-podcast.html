@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Engineering Podcast · CyberPodcast</title>
+  <meta name="description" content="This show goes behind the scenes for the tools, techniques, and difficulties associated with the discipline of data engineering. Databases, workflows, automation, and data manipulation are just some…">
+  <link rel="canonical" href="https://zebux.github.io/CyberPodcast/podcast/data-engineering-podcast.html">
+  <meta name="theme-color" content="#080d1c">
+  <meta property="og:site_name" content="CyberPodcast">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Data Engineering Podcast · CyberPodcast">
+  <meta property="og:description" content="This show goes behind the scenes for the tools, techniques, and difficulties associated with the discipline of data engineering. Databases, workflows, automation, and data manipulation are just some…">
+  <meta property="og:url" content="https://zebux.github.io/CyberPodcast/podcast/data-engineering-podcast.html">
+  <meta property="og:image" content="https://assets.podhome.fm/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557928872209534cover.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Data Engineering Podcast · CyberPodcast">
+  <meta name="twitter:description" content="This show goes behind the scenes for the tools, techniques, and difficulties associated with the discipline of data engineering. Databases, workflows, automation, and data manipulation are just some…">
+  <meta name="twitter:image" content="https://assets.podhome.fm/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557928872209534cover.jpg">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="CyberPodcast · Derniers épisodes" href="../feed.xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script>
+(function () {
+  try {
+    var stored = localStorage.getItem('cyberpodcast-theme');
+    var theme = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.theme = theme;
+  } catch (error) {}
+})();
+</script>
+  <script src="../assets/app.js" defer></script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"PodcastSeries","name":"Data Engineering Podcast","url":"https://zebux.github.io/CyberPodcast/podcast/data-engineering-podcast.html","description":"This show goes behind the scenes for the tools, techniques, and difficulties associated with the discipline of data engineering. Databases, workflows, automation, and data manipulation are just some…","image":"https://assets.podhome.fm/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557928872209534cover.jpg","webFeed":"https://serve.podhome.fm/rss/1c0357c0-6aba-5766-a2d5-2090d8dab6bc","inLanguage":"en","author":[{"@type":"Person","name":"Tobias Macey"}],"sameAs":["https://www.dataengineeringpodcast.com/","https://podcasts.apple.com/us/podcast/data-engineering-podcast/id1193040557","https://open.spotify.com/show/2iLvljRGVVIGlJshT5vNDS"]}</script>
+</head>
+<body class="">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html" aria-label="CyberPodcast, accueil">
+        <span class="brand-mark">CP</span>
+        <span class="brand-text">Cyber<span>Podcast</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a class="nav-link" href="../index.html">Podcasts</a>
+        <a class="nav-link" href="../sujets.html">Sujets</a>
+        <a class="nav-link" href="../statistiques.html">Statistiques</a>
+        <a class="nav-link" href="../a-propos.html">À propos</a>
+        <a class="nav-link" href="../rapport.html">Rapport</a>
+        <a class="nav-link nav-external" href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="detail" id="contenu">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane">
+      <a href="../index.html">Podcasts</a><span>/</span><span>Data Engineering Podcast</span>
+    </nav>
+    <section class="detail-hero">
+      <div class="cover cover-lg"><img src="https://assets.podhome.fm/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557928872209534cover.jpg" alt="Pochette de Data Engineering Podcast" decoding="async" referrerpolicy="no-referrer"></div>
+      <div class="detail-intro">
+        <div class="detail-badges"><span class="badge status-active">Actif</span><span class="badge badge-soft">Bimensuel (~13 j)</span></div>
+        <h1>Data Engineering Podcast</h1>
+        <p class="detail-hosts">Tobias Macey</p>
+        <p class="lead">This show goes behind the scenes for the tools, techniques, and difficulties associated with the discipline of data engineering. Databases, workflows, automation, and data manipulation are just some…</p>
+        <div class="chips"><a class="chip" href="../index.html?topic=Data&amp;category=&amp;status=&amp;language=">Data</a></div>
+        <div class="detail-actions">
+          <button class="button favorite-btn" type="button" data-id="data-engineering-podcast" aria-pressed="false" aria-label="Ajouter Data Engineering Podcast aux favoris" title="Ajouter aux favoris"><span class="heart">♡</span><span class="favorite-label">Ajouter aux favoris</span></button>
+          <a class="button button-secondary" href="https://serve.podhome.fm/rss/1c0357c0-6aba-5766-a2d5-2090d8dab6bc" target="_blank" rel="noopener noreferrer">Flux RSS</a>
+          <a class="button button-secondary" href="https://www.dataengineeringpodcast.com/" target="_blank" rel="noopener noreferrer">Site officiel ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="detail-grid">
+      <section class="panel">
+        <div class="panel-head"><h2>Dernier épisode</h2><span class="muted">01/11/2026</span></div>
+
+        <div class="player-card">
+          <p class="player-title">Entity Resolution at Scale: Graphs, LLMs, and Real-World Data Messiness</p>
+          <audio id="main-player" controls preload="metadata" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6392906730033367709a988d34-3c66-4046-8588-51f31d477173.mp3"></audio>
+          <a class="link" href="https://www.dataengineeringpodcast.com/scaling-entity-resolution-beyond-llm-prototypes-episode-520" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Voir l’épisode</a>
+        </div>
+        <h2>Épisodes récents</h2>
+        <ol class="episode-list">
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">01/11/2026</span>
+            <h3><a href="https://www.dataengineeringpodcast.com/scaling-entity-resolution-beyond-llm-prototypes-episode-520" target="_blank" rel="noopener noreferrer">Entity Resolution at Scale: Graphs, LLMs, and Real-World Data Messiness</a></h3>
+          </div>
+          <span class="episode-duration">59 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6392906730033367709a988d34-3c66-4046-8588-51f31d477173.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">20/10/2026</span>
+            <h3><a href="https://www.dataengineeringpodcast.com/amazon-physical-logistics-automation-episode-519" target="_blank" rel="noopener noreferrer">How Amazon Uses Telemetry and AI to Automate Physical Logistics</a></h3>
+          </div>
+          <span class="episode-duration">50 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6392805184014366512ed76dc5-e5ea-4887-8fa3-dc30d65c5d0b.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">07/10/2026</span>
+            <h3><a href="https://www.dataengineeringpodcast.com/metakarta-meta-integration-technology-episode-518" target="_blank" rel="noopener noreferrer">Why Metadata Still Matters: From Data Catalogs to AI-Ready Semantic Hubs</a></h3>
+          </div>
+          <span class="episode-duration">85 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/639269301622202034b471efd0-5c78-470d-b430-f1db25595736.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">24/09/2026</span>
+            <h3><a href="https://www.dataengineeringpodcast.com/agile-ledger-architecture-to-reduce-data-debt-episode-517" target="_blank" rel="noopener noreferrer">Reducing Data Debt with Agile Ledger Architecture</a></h3>
+          </div>
+          <span class="episode-duration">50 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6392587911197837527d435cc5-ef2a-4406-8fd5-f8f5e9ea383e.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">15/09/2026</span>
+            <h3><a href="https://www.dataengineeringpodcast.com/what-context-really-means-in-data-systems-episode-516" target="_blank" rel="noopener noreferrer">What Context Really Means in Data Engineering and AI</a></h3>
+          </div>
+          <span class="episode-duration">53 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6392442136782912425808093c-c664-4986-9964-121f5e14a01a.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">27/08/2026</span>
+            <h3><a href="https://www.dataengineeringpodcast.com/astronomer-otto-airflow-agent-episode-515" target="_blank" rel="noopener noreferrer">Specialized AI for Data Engineers: Inside Astronomer’s Otto</a></h3>
+          </div>
+          <span class="episode-duration">46 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/639234304916782127a0815158-0341-48e3-ae7f-db841208a246.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">02/08/2026</span>
+            <h3><a href="https://www.dataengineeringpodcast.com/omnigraph-lakehouse-versioned-multi-agent-graph-engine-episode-514" target="_blank" rel="noopener noreferrer">Why Multi-Agent Systems Need Shared State, Graph Semantics, and Governance</a></h3>
+          </div>
+          <span class="episode-duration">62 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6392130619121105521c1e7e44-b4c7-4b7f-931a-c3e4a96937bf.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">06/07/2026</span>
+            <h3><a href="https://www.dataengineeringpodcast.com/data-agent-context-layer-components-episode-513" target="_blank" rel="noopener noreferrer">Building the Context Flywheel for AI Data Agents</a></h3>
+          </div>
+          <span class="episode-duration">61 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6391889630903766738d7df31f-c5f6-48b1-8144-c4225fecd8aav1.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">18/06/2026</span>
+            <h3><a href="https://www.dataengineeringpodcast.com/typestream-kafka-as-code-for-product-teams-episode-512" target="_blank" rel="noopener noreferrer">Holding Kafka Right: Product-Friendly Streaming with TypeStream</a></h3>
+          </div>
+          <span class="episode-duration">50 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6391733588741892878ecda746-bff7-4c7e-b384-3fc00c01f44av1.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">08/06/2026</span>
+            <h3><a href="https://www.dataengineeringpodcast.com/kaarvi-agentic-data-engineering-episode-511" target="_blank" rel="noopener noreferrer">Text to Data Products: Kaarvi’s End-to-End AI for Ingestion, Quality, and Dashboards</a></h3>
+          </div>
+          <span class="episode-duration">53 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6391647681280765633f2d2645-06b3-49a6-90f2-3722747b3664.mp3"></audio>
+      </li></ol>
+      </section>
+      <aside class="panel">
+        <h2>Informations</h2>
+        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>Tobias Macey</dd></div><div><dt>Auteur</dt><dd>Tobias Macey</dd></div><div><dt>Langue</dt><dd>Anglais · US</dd></div><div><dt>Dernier épisode</dt><dd>01/11/2026</dd></div><div><dt>Rythme</dt><dd>Bimensuel (~13 j)</dd></div><div><dt>Épisodes</dt><dd>521</dd></div><div><dt>Durée moyenne</dt><dd>54 min</dd></div><div><dt>Note Apple</dt><dd>4.6/5 (146)</dd></div><div><dt>Plateforme</dt><dd>Spotify</dd></div><div><dt>Pays</dt><dd>US</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>09/11/2026</dd></div></dl>
+        <h2>Liens d’écoute</h2>
+        <div class="links"><a class="link link-site" href="https://www.dataengineeringpodcast.com/" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Site</a><a class="link link-rss" href="https://serve.podhome.fm/rss/1c0357c0-6aba-5766-a2d5-2090d8dab6bc" target="_blank" rel="noopener noreferrer"><span class="dot"></span>RSS</a><a class="link link-apple" href="https://podcasts.apple.com/us/podcast/data-engineering-podcast/id1193040557" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Apple</a><a class="link link-spotify" href="https://open.spotify.com/show/2iLvljRGVVIGlJshT5vNDS" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Spotify</a><a class="link link-pocketcasts" href="https://pca.st/itunes/1193040557" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Pocket Casts</a><a class="link link-amazon" href="https://music.amazon.com/podcasts/4c60afdb-050c-49de-9053-ffcaeaa9fcb7/data-engineering-podcast" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Amazon Music</a><a class="link link-castbox" href="https://castbox.fm/vic/1193040557" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Castbox</a></div>
+        <h2>Sujets</h2><div class="chips"><a class="chip" href="../index.html?topic=Data&amp;category=&amp;status=&amp;language=">Data</a></div>
+        <h2>Tags</h2><div class="tags"><span class="tag">Technology</span><span class="tag">Education</span></div>
+      </aside>
+    </div>
+
+    <section class="related">
+      <h2>À découvrir aussi</h2>
+      <div class="related-grid">
+    <a class="mini-card" href="../podcast/real-python.html">
+      <div class="mini-cover"><img src="https://files.realpython.com/media/real-python-logo-square.28474fda9228.png" alt="Pochette de Real Python Podcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Real Python Podcast</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/latent-space.html">
+      <div class="mini-cover"><img src="https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818" alt="Pochette de Latent Space" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Latent Space</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/ai-engineering.html">
+      <div class="mini-cover"><img src="https://assets.podhome.fm/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557211890591941ai_engineering_podcast_logo.jpg" alt="Pochette de The AI Engineering Podcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>The AI Engineering Podcast</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/twiml.html">
+      <div class="mini-cover"><img src="https://megaphone.imgix.net/podcasts/35230150-ee98-11eb-ad1a-b38cbabcd053/image/TWIML_AI_Podcast_Official_Cover_Art_1400px.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" alt="Pochette de This Week in Machine Learning &amp; AI" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>This Week in Machine Learning &amp; AI</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <span>Données enrichies automatiquement · dernière mise à jour 09/11/2026 · <a href="../a-propos.html">méthode</a></span>
+    <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="../feed.xml">RSS</a> · <a href="../api/podcasts.json">API JSON</a></span>
+  </footer>
+</body>
+</html>

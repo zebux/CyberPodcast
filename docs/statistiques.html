@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Statistiques · CyberPodcast</title>
+  <meta name="description" content="Statistiques du catalogue CyberPodcast : podcasts, épisodes, langues, plateformes et sujets.">
+  <link rel="canonical" href="https://zebux.github.io/CyberPodcast/statistiques.html">
+  <meta name="theme-color" content="#080d1c">
+  <meta property="og:site_name" content="CyberPodcast">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Statistiques · CyberPodcast">
+  <meta property="og:description" content="Statistiques du catalogue CyberPodcast : podcasts, épisodes, langues, plateformes et sujets.">
+  <meta property="og:url" content="https://zebux.github.io/CyberPodcast/statistiques.html">
+  <meta property="og:image" content="https://zebux.github.io/CyberPodcast/assets/icon.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Statistiques · CyberPodcast">
+  <meta name="twitter:description" content="Statistiques du catalogue CyberPodcast : podcasts, épisodes, langues, plateformes et sujets.">
+  <meta name="twitter:image" content="https://zebux.github.io/CyberPodcast/assets/icon.svg">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="CyberPodcast · Derniers épisodes" href="feed.xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script>
+(function () {
+  try {
+    var stored = localStorage.getItem('cyberpodcast-theme');
+    var theme = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.theme = theme;
+  } catch (error) {}
+})();
+</script>
+  <script src="assets/app.js" defer></script>
+
+
+</head>
+<body class="">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="index.html" aria-label="CyberPodcast, accueil">
+        <span class="brand-mark">CP</span>
+        <span class="brand-text">Cyber<span>Podcast</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a class="nav-link" href="index.html">Podcasts</a>
+        <a class="nav-link" href="sujets.html">Sujets</a>
+        <a class="nav-link" href="statistiques.html">Statistiques</a>
+        <a class="nav-link" href="a-propos.html">À propos</a>
+        <a class="nav-link" href="rapport.html">Rapport</a>
+        <a class="nav-link nav-external" href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page" id="contenu">
+    <header class="page-header">
+      <p class="eyebrow">Chiffres clés</p>
+      <h1>Le catalogue en <span class="gradient">un coup d’œil</span></h1>
+      <p class="lead">Des statistiques générées automatiquement à partir de la base enrichie, sans suivi ni cookie.</p>
+    </header>
+    <section class="stats-grid">
+      <div class="stat-card"><strong>90</strong><span>podcasts</span></div>
+      <div class="stat-card"><strong>24 567</strong><span>épisodes référencés</span></div>
+      <div class="stat-card"><strong>59</strong><span>podcasts actifs</span></div>
+      <div class="stat-card"><strong>81</strong><span>écoutes directes</span></div>
+      <div class="stat-card"><strong>4.74/5</strong><span>note Apple moyenne</span></div>
+      <div class="stat-card"><strong>83</strong><span>pochettes disponibles</span></div>
+    </section>
+    <div class="charts-grid">
+      <section class="panel"><h2>Statuts</h2><div class="bar-row"><span class="bar-label">Actif</span><span class="bar-track"><span class="bar-fill" style="width:65.6%"></span></span><span class="bar-count">59</span></div><div class="bar-row"><span class="bar-label">Peu actif</span><span class="bar-track"><span class="bar-fill" style="width:17.8%"></span></span><span class="bar-count">16</span></div><div class="bar-row"><span class="bar-label">Inactif</span><span class="bar-track"><span class="bar-fill" style="width:16.7%"></span></span><span class="bar-count">15</span></div></section>
+      <section class="panel"><h2>Langues</h2><div class="bar-row"><span class="bar-label">Français</span><span class="bar-track"><span class="bar-fill" style="width:53.3%"></span></span><span class="bar-count">48</span></div><div class="bar-row"><span class="bar-label">Anglais</span><span class="bar-track"><span class="bar-fill" style="width:46.7%"></span></span><span class="bar-count">42</span></div></section>
+      <section class="panel"><h2>Plateformes</h2><div class="bar-row"><span class="bar-label">Spotify</span><span class="bar-track"><span class="bar-fill" style="width:34.4%"></span></span><span class="bar-count">31</span></div><div class="bar-row"><span class="bar-label">Autre</span><span class="bar-track"><span class="bar-fill" style="width:16.7%"></span></span><span class="bar-count">15</span></div><div class="bar-row"><span class="bar-label">Ausha</span><span class="bar-track"><span class="bar-fill" style="width:12.2%"></span></span><span class="bar-count">11</span></div><div class="bar-row"><span class="bar-label">Acast</span><span class="bar-track"><span class="bar-fill" style="width:8.9%"></span></span><span class="bar-count">8</span></div><div class="bar-row"><span class="bar-label">Anchor</span><span class="bar-track"><span class="bar-fill" style="width:7.8%"></span></span><span class="bar-count">7</span></div><div class="bar-row"><span class="bar-label">Libsyn</span><span class="bar-track"><span class="bar-fill" style="width:4.4%"></span></span><span class="bar-count">4</span></div><div class="bar-row"><span class="bar-label">Audiomeans</span><span class="bar-track"><span class="bar-fill" style="width:3.3%"></span></span><span class="bar-count">3</span></div><div class="bar-row"><span class="bar-label">Buzzsprout</span><span class="bar-track"><span class="bar-fill" style="width:2.2%"></span></span><span class="bar-count">2</span></div><div class="bar-row"><span class="bar-label">Simplecast</span><span class="bar-track"><span class="bar-fill" style="width:2.2%"></span></span><span class="bar-count">2</span></div><div class="bar-row"><span class="bar-label">Spreaker</span><span class="bar-track"><span class="bar-fill" style="width:2.2%"></span></span><span class="bar-count">2</span></div><div class="bar-row"><span class="bar-label">Blubrry</span><span class="bar-track"><span class="bar-fill" style="width:1.1%"></span></span><span class="bar-count">1</span></div><div class="bar-row"><span class="bar-label">Fireside</span><span class="bar-track"><span class="bar-fill" style="width:1.1%"></span></span><span class="bar-count">1</span></div><div class="bar-row"><span class="bar-label">RedCircle</span><span class="bar-track"><span class="bar-fill" style="width:1.1%"></span></span><span class="bar-count">1</span></div><div class="bar-row"><span class="bar-label">Substack</span><span class="bar-track"><span class="bar-fill" style="width:1.1%"></span></span><span class="bar-count">1</span></div><div class="bar-row"><span class="bar-label">Transistor</span><span class="bar-track"><span class="bar-fill" style="width:1.1%"></span></span><span class="bar-count">1</span></div></section>
+      <section class="panel"><h2>Catégories</h2><div class="bar-row"><span class="bar-label">Cybersécurité</span><span class="bar-track"><span class="bar-fill" style="width:38.9%"></span></span><span class="bar-count">35</span></div><div class="bar-row"><span class="bar-label">Cloud</span><span class="bar-track"><span class="bar-fill" style="width:15.6%"></span></span><span class="bar-count">14</span></div><div class="bar-row"><span class="bar-label">Développement</span><span class="bar-track"><span class="bar-fill" style="width:14.4%"></span></span><span class="bar-count">13</span></div><div class="bar-row"><span class="bar-label">DevOps</span><span class="bar-track"><span class="bar-fill" style="width:13.3%"></span></span><span class="bar-count">12</span></div><div class="bar-row"><span class="bar-label">Architecture</span><span class="bar-track"><span class="bar-fill" style="width:6.7%"></span></span><span class="bar-count">6</span></div><div class="bar-row"><span class="bar-label">Linux</span><span class="bar-track"><span class="bar-fill" style="width:6.7%"></span></span><span class="bar-count">6</span></div><div class="bar-row"><span class="bar-label">Azure</span><span class="bar-track"><span class="bar-fill" style="width:5.6%"></span></span><span class="bar-count">5</span></div><div class="bar-row"><span class="bar-label">Kubernetes</span><span class="bar-track"><span class="bar-fill" style="width:5.6%"></span></span><span class="bar-count">5</span></div><div class="bar-row"><span class="bar-label">AWS</span><span class="bar-track"><span class="bar-fill" style="width:4.4%"></span></span><span class="bar-count">4</span></div><div class="bar-row"><span class="bar-label">IA</span><span class="bar-track"><span class="bar-fill" style="width:4.4%"></span></span><span class="bar-count">4</span></div><div class="bar-row"><span class="bar-label">Cloud Native</span><span class="bar-track"><span class="bar-fill" style="width:3.3%"></span></span><span class="bar-count">3</span></div><div class="bar-row"><span class="bar-label">GCP</span><span class="bar-track"><span class="bar-fill" style="width:3.3%"></span></span><span class="bar-count">3</span></div><div class="bar-row"><span class="bar-label">Open Source</span><span class="bar-track"><span class="bar-fill" style="width:3.3%"></span></span><span class="bar-count">3</span></div><div class="bar-row"><span class="bar-label">Python</span><span class="bar-track"><span class="bar-fill" style="width:3.3%"></span></span><span class="bar-count">3</span></div></section>
+      <section class="panel panel-wide"><h2>Sujets les plus représentés</h2><div class="bar-row"><span class="bar-label">Cybersécurité</span><span class="bar-track"><span class="bar-fill" style="width:41.1%"></span></span><span class="bar-count">37</span></div><div class="bar-row"><span class="bar-label">Cloud</span><span class="bar-track"><span class="bar-fill" style="width:26.7%"></span></span><span class="bar-count">24</span></div><div class="bar-row"><span class="bar-label">Développement</span><span class="bar-track"><span class="bar-fill" style="width:24.4%"></span></span><span class="bar-count">22</span></div><div class="bar-row"><span class="bar-label">DevOps</span><span class="bar-track"><span class="bar-fill" style="width:16.7%"></span></span><span class="bar-count">15</span></div><div class="bar-row"><span class="bar-label">IA</span><span class="bar-track"><span class="bar-fill" style="width:11.1%"></span></span><span class="bar-count">10</span></div><div class="bar-row"><span class="bar-label">Kubernetes</span><span class="bar-track"><span class="bar-fill" style="width:10.0%"></span></span><span class="bar-count">9</span></div><div class="bar-row"><span class="bar-label">Architecture</span><span class="bar-track"><span class="bar-fill" style="width:7.8%"></span></span><span class="bar-count">7</span></div><div class="bar-row"><span class="bar-label">Open Source</span><span class="bar-track"><span class="bar-fill" style="width:7.8%"></span></span><span class="bar-count">7</span></div><div class="bar-row"><span class="bar-label">Azure</span><span class="bar-track"><span class="bar-fill" style="width:6.7%"></span></span><span class="bar-count">6</span></div><div class="bar-row"><span class="bar-label">Linux</span><span class="bar-track"><span class="bar-fill" style="width:6.7%"></span></span><span class="bar-count">6</span></div><div class="bar-row"><span class="bar-label">AWS</span><span class="bar-track"><span class="bar-fill" style="width:5.6%"></span></span><span class="bar-count">5</span></div><div class="bar-row"><span class="bar-label">Carrière</span><span class="bar-track"><span class="bar-fill" style="width:4.4%"></span></span><span class="bar-count">4</span></div><div class="bar-row"><span class="bar-label">Administration système</span><span class="bar-track"><span class="bar-fill" style="width:3.3%"></span></span><span class="bar-count">3</span></div><div class="bar-row"><span class="bar-label">Docker</span><span class="bar-track"><span class="bar-fill" style="width:3.3%"></span></span><span class="bar-count">3</span></div><div class="bar-row"><span class="bar-label">GCP</span><span class="bar-track"><span class="bar-fill" style="width:3.3%"></span></span><span class="bar-count">3</span></div><div class="bar-row"><span class="bar-label">JavaScript</span><span class="bar-track"><span class="bar-fill" style="width:3.3%"></span></span><span class="bar-count">3</span></div><div class="bar-row"><span class="bar-label">Python</span><span class="bar-track"><span class="bar-fill" style="width:3.3%"></span></span><span class="bar-count">3</span></div><div class="bar-row"><span class="bar-label">Data</span><span class="bar-track"><span class="bar-fill" style="width:2.2%"></span></span><span class="bar-count">2</span></div><div class="bar-row"><span class="bar-label">Juridique</span><span class="bar-track"><span class="bar-fill" style="width:2.2%"></span></span><span class="bar-count">2</span></div><div class="bar-row"><span class="bar-label">LLM</span><span class="bar-track"><span class="bar-fill" style="width:2.2%"></span></span><span class="bar-count">2</span></div><div class="bar-row"><span class="bar-label">OSINT</span><span class="bar-track"><span class="bar-fill" style="width:2.2%"></span></span><span class="bar-count">2</span></div><div class="bar-row"><span class="bar-label">Réseau</span><span class="bar-track"><span class="bar-fill" style="width:2.2%"></span></span><span class="bar-count">2</span></div><div class="bar-row"><span class="bar-label">.NET</span><span class="bar-track"><span class="bar-fill" style="width:1.1%"></span></span><span class="bar-count">1</span></div><div class="bar-row"><span class="bar-label">Angular</span><span class="bar-track"><span class="bar-fill" style="width:1.1%"></span></span><span class="bar-count">1</span></div></section>
+    </div>
+  </main>
+  <footer class="footer">
+    <span>Données enrichies automatiquement · dernière mise à jour 09/11/2026 · <a href="a-propos.html">méthode</a></span>
+    <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="feed.xml">RSS</a> · <a href="api/podcasts.json">API JSON</a></span>
+  </footer>
+</body>
+</html>

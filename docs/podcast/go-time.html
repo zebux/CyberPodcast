@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Go Time · CyberPodcast</title>
+  <meta name="description" content="Your source for wide-ranging discussions from all around the Go community. Panelists include Mat Ryer, Jon Calhoun, Natalie Pistunovich, Johnny Boursiquot, Angelica Hill, Kris Brandow, and Ian…">
+  <link rel="canonical" href="https://zebux.github.io/CyberPodcast/podcast/go-time.html">
+  <meta name="theme-color" content="#080d1c">
+  <meta property="og:site_name" content="CyberPodcast">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Go Time · CyberPodcast">
+  <meta property="og:description" content="Your source for wide-ranging discussions from all around the Go community. Panelists include Mat Ryer, Jon Calhoun, Natalie Pistunovich, Johnny Boursiquot, Angelica Hill, Kris Brandow, and Ian…">
+  <meta property="og:url" content="https://zebux.github.io/CyberPodcast/podcast/go-time.html">
+  <meta property="og:image" content="https://cdn.changelog.com/uploads/covers/go-time-original.png?v=63725770357">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Go Time · CyberPodcast">
+  <meta name="twitter:description" content="Your source for wide-ranging discussions from all around the Go community. Panelists include Mat Ryer, Jon Calhoun, Natalie Pistunovich, Johnny Boursiquot, Angelica Hill, Kris Brandow, and Ian…">
+  <meta name="twitter:image" content="https://cdn.changelog.com/uploads/covers/go-time-original.png?v=63725770357">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="CyberPodcast · Derniers épisodes" href="../feed.xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script>
+(function () {
+  try {
+    var stored = localStorage.getItem('cyberpodcast-theme');
+    var theme = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.theme = theme;
+  } catch (error) {}
+})();
+</script>
+  <script src="../assets/app.js" defer></script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"PodcastSeries","name":"Go Time","url":"https://zebux.github.io/CyberPodcast/podcast/go-time.html","description":"Your source for wide-ranging discussions from all around the Go community. Panelists include Mat Ryer, Jon Calhoun, Natalie Pistunovich, Johnny Boursiquot, Angelica Hill, Kris Brandow, and Ian…","image":"https://cdn.changelog.com/uploads/covers/go-time-original.png?v=63725770357","webFeed":"https://changelog.com/gotime/feed","inLanguage":"en","author":[{"@type":"Person","name":"Mat Ryer"},{"@type":"Person","name":"Johnny Boursiquot"},{"@type":"Person","name":"Jon Calhoun"},{"@type":"Person","name":"Go Time Indiegogo Podcast"}],"sameAs":["https://changelog.com/gotime","https://podcasts.apple.com/us/podcast/go-time/id1032830083?uo=4","https://www.youtube.com/playlist?list=PLCzseuA9sYrc2AB-eYXMBLVD8l9AM1ov0"]}</script>
+</head>
+<body class="">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html" aria-label="CyberPodcast, accueil">
+        <span class="brand-mark">CP</span>
+        <span class="brand-text">Cyber<span>Podcast</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a class="nav-link" href="../index.html">Podcasts</a>
+        <a class="nav-link" href="../sujets.html">Sujets</a>
+        <a class="nav-link" href="../statistiques.html">Statistiques</a>
+        <a class="nav-link" href="../a-propos.html">À propos</a>
+        <a class="nav-link" href="../rapport.html">Rapport</a>
+        <a class="nav-link nav-external" href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="detail" id="contenu">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane">
+      <a href="../index.html">Podcasts</a><span>/</span><span>Go Time</span>
+    </nav>
+    <section class="detail-hero">
+      <div class="cover cover-lg"><img src="https://cdn.changelog.com/uploads/covers/go-time-original.png?v=63725770357" alt="Pochette de Go Time" decoding="async" referrerpolicy="no-referrer"></div>
+      <div class="detail-intro">
+        <div class="detail-badges"><span class="badge status-slow">Peu actif</span><span class="badge badge-soft">Hebdomadaire (~9 j)</span></div>
+        <h1>Go Time</h1>
+        <p class="detail-hosts">Mat Ryer, Johnny Boursiquot, Jon Calhoun, Go Time Indiegogo Podcast</p>
+        <p class="lead">Your source for wide-ranging discussions from all around the Go community. Panelists include Mat Ryer, Jon Calhoun, Natalie Pistunovich, Johnny Boursiquot, Angelica Hill, Kris Brandow, and Ian…</p>
+        <div class="chips"><a class="chip" href="../index.html?topic=Kubernetes&amp;category=&amp;status=&amp;language=">Kubernetes</a><a class="chip" href="../index.html?topic=Docker&amp;category=&amp;status=&amp;language=">Docker</a><a class="chip" href="../index.html?topic=DevOps&amp;category=&amp;status=&amp;language=">DevOps</a><a class="chip" href="../index.html?topic=Open%20Source&amp;category=&amp;status=&amp;language=">Open Source</a><a class="chip" href="../index.html?topic=D%C3%A9veloppement&amp;category=&amp;status=&amp;language=">Développement</a><a class="chip" href="../index.html?topic=Architecture&amp;category=&amp;status=&amp;language=">Architecture</a><a class="chip" href="../index.html?topic=Go&amp;category=&amp;status=&amp;language=">Go</a><a class="chip" href="../index.html?topic=Cloud&amp;category=&amp;status=&amp;language=">Cloud</a></div>
+        <div class="detail-actions">
+          <button class="button favorite-btn" type="button" data-id="go-time" aria-pressed="false" aria-label="Ajouter Go Time aux favoris" title="Ajouter aux favoris"><span class="heart">♡</span><span class="favorite-label">Ajouter aux favoris</span></button>
+          <a class="button button-secondary" href="https://changelog.com/gotime/feed" target="_blank" rel="noopener noreferrer">Flux RSS</a>
+          <a class="button button-secondary" href="https://changelog.com/gotime" target="_blank" rel="noopener noreferrer">Site officiel ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="detail-grid">
+      <section class="panel">
+        <div class="panel-head"><h2>Dernier épisode</h2><span class="muted">18/12/2024</span></div>
+
+        <div class="player-card">
+          <p class="player-title">That&#x27;s Go Time!</p>
+          <audio id="main-player" controls preload="metadata" src="https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/340/go-time-340.mp3"></audio>
+          <a class="link" href="https://changelog.com/gotime/340" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Voir l’épisode</a>
+        </div>
+        <h2>Épisodes récents</h2>
+        <ol class="episode-list">
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">18/12/2024</span>
+            <h3><a href="https://changelog.com/gotime/340" target="_blank" rel="noopener noreferrer">That&#x27;s Go Time!</a></h3>
+          </div>
+          <span class="episode-duration">88 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/340/go-time-340.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">10/12/2024</span>
+            <h3><a href="https://changelog.com/gotime/339" target="_blank" rel="noopener noreferrer">Pitching Go in 2025</a></h3>
+          </div>
+          <span class="episode-duration">61 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/339/go-time-339.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">21/11/2024</span>
+            <h3><a href="https://changelog.com/gotime/338" target="_blank" rel="noopener noreferrer">Unpop roundup! 2023</a></h3>
+          </div>
+          <span class="episode-duration">38 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/338/go-time-338.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">12/11/2024</span>
+            <h3><a href="https://changelog.com/gotime/337" target="_blank" rel="noopener noreferrer">Crawl, walk &amp; run your way to usable CLIs in Go</a></h3>
+          </div>
+          <span class="episode-duration">58 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/337/go-time-337.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">06/11/2024</span>
+            <h3><a href="https://changelog.com/gotime/336" target="_blank" rel="noopener noreferrer">Writing a shell in Go</a></h3>
+          </div>
+          <span class="episode-duration">65 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/336/go-time-336.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">23/10/2024</span>
+            <h3><a href="https://changelog.com/gotime/335" target="_blank" rel="noopener noreferrer">AI for Observability</a></h3>
+          </div>
+          <span class="episode-duration">69 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/335/go-time-335.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">09/10/2024</span>
+            <h3><a href="https://changelog.com/gotime/334" target="_blank" rel="noopener noreferrer">Unpop roundup! 2022</a></h3>
+          </div>
+          <span class="episode-duration">38 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/334/go-time-334.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">03/10/2024</span>
+            <h3><a href="https://changelog.com/gotime/333" target="_blank" rel="noopener noreferrer">Russ Cox on passing the torch</a></h3>
+          </div>
+          <span class="episode-duration">69 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/333/go-time-333.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">24/09/2024</span>
+            <h3><a href="https://changelog.com/gotime/332" target="_blank" rel="noopener noreferrer">&quot;Founder Mode&quot; at work when you&#x27;re not a founder</a></h3>
+          </div>
+          <span class="episode-duration">56 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/332/go-time-332.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">18/09/2024</span>
+            <h3><a href="https://changelog.com/gotime/331" target="_blank" rel="noopener noreferrer">How I lost my (old) job to AI</a></h3>
+          </div>
+          <span class="episode-duration">78 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/331/go-time-331.mp3"></audio>
+      </li></ol>
+      </section>
+      <aside class="panel">
+        <h2>Informations</h2>
+        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>Mat Ryer, Johnny Boursiquot, Jon Calhoun, Go Time Indiegogo Podcast</dd></div><div><dt>Auteur</dt><dd>Changelog Media</dd></div><div><dt>Langue</dt><dd>Anglais · US</dd></div><div><dt>Dernier épisode</dt><dd>18/12/2024</dd></div><div><dt>Rythme</dt><dd>Hebdomadaire (~9 j)</dd></div><div><dt>Épisodes</dt><dd>347</dd></div><div><dt>Durée moyenne</dt><dd>66 min</dd></div><div><dt>Note Apple</dt><dd>4.9/5 (34)</dd></div><div><dt>Plateforme</dt><dd>Autre</dd></div><div><dt>Pays</dt><dd>US</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>09/11/2026</dd></div></dl>
+        <h2>Liens d’écoute</h2>
+        <div class="links"><a class="link link-site" href="https://changelog.com/gotime" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Site</a><a class="link link-rss" href="https://changelog.com/gotime/feed" target="_blank" rel="noopener noreferrer"><span class="dot"></span>RSS</a><a class="link link-apple" href="https://podcasts.apple.com/us/podcast/go-time/id1032830083?uo=4" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Apple</a><a class="link link-youtube" href="https://www.youtube.com/playlist?list=PLCzseuA9sYrc2AB-eYXMBLVD8l9AM1ov0" target="_blank" rel="noopener noreferrer"><span class="dot"></span>YouTube</a></div>
+        <h2>Sujets</h2><div class="chips"><a class="chip" href="../index.html?topic=Kubernetes&amp;category=&amp;status=&amp;language=">Kubernetes</a><a class="chip" href="../index.html?topic=Docker&amp;category=&amp;status=&amp;language=">Docker</a><a class="chip" href="../index.html?topic=DevOps&amp;category=&amp;status=&amp;language=">DevOps</a><a class="chip" href="../index.html?topic=Open%20Source&amp;category=&amp;status=&amp;language=">Open Source</a><a class="chip" href="../index.html?topic=D%C3%A9veloppement&amp;category=&amp;status=&amp;language=">Développement</a><a class="chip" href="../index.html?topic=Architecture&amp;category=&amp;status=&amp;language=">Architecture</a><a class="chip" href="../index.html?topic=Go&amp;category=&amp;status=&amp;language=">Go</a><a class="chip" href="../index.html?topic=Cloud&amp;category=&amp;status=&amp;language=">Cloud</a></div>
+        <h2>Tags</h2><div class="tags"><span class="tag">Kubernetes</span><span class="tag">Docker</span><span class="tag">Go</span><span class="tag">CNCF</span></div>
+      </aside>
+    </div>
+
+    <section class="related">
+      <h2>À découvrir aussi</h2>
+      <div class="related-grid">
+    <a class="mini-card" href="../podcast/radio-devops.html">
+      <div class="mini-cover"><img src="https://assets.pippa.io/shows/5df7c112b9e5bf6d176cbfcb/1657530546008-7697d8bbde29ec27533f0e6bf6e813bf.jpeg" alt="Pochette de Radio DevOps" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Radio DevOps</strong>
+        <small>Peu actif · Français · FR</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/ship-it.html">
+      <div class="mini-cover"><img src="https://cdn.changelog.com/uploads/covers/ship-it-original.png?v=63787880447" alt="Pochette de Ship It!" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Ship It!</strong>
+        <small>Peu actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/cloud-native-fr.html">
+      <div class="mini-cover cover-placeholder" aria-hidden="true"><span>CN</span></div>
+      <span class="mini-body">
+        <strong>Cloud Native FR</strong>
+        <small>Actif · Français · FR</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/les-compagnons-du-devops.html">
+      <div class="mini-cover cover-placeholder" aria-hidden="true"><span>LC</span></div>
+      <span class="mini-body">
+        <strong>Les Compagnons du DevOps</strong>
+        <small>Actif · Français · FR</small>
+      </span>
+    </a></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <span>Données enrichies automatiquement · dernière mise à jour 09/11/2026 · <a href="../a-propos.html">méthode</a></span>
+    <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="../feed.xml">RSS</a> · <a href="../api/podcasts.json">API JSON</a></span>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Python Bytes · CyberPodcast</title>
+  <meta name="description" content="Developer headlines delivered directly to your earbuds">
+  <link rel="canonical" href="https://zebux.github.io/CyberPodcast/podcast/python-bytes.html">
+  <meta name="theme-color" content="#080d1c">
+  <meta property="og:site_name" content="CyberPodcast">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Python Bytes · CyberPodcast">
+  <meta property="og:description" content="Developer headlines delivered directly to your earbuds">
+  <meta property="og:url" content="https://zebux.github.io/CyberPodcast/podcast/python-bytes.html">
+  <meta property="og:image" content="https://cdn.pythonbytes.fm/static/img/podcast-theme-img_3000.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Python Bytes · CyberPodcast">
+  <meta name="twitter:description" content="Developer headlines delivered directly to your earbuds">
+  <meta name="twitter:image" content="https://cdn.pythonbytes.fm/static/img/podcast-theme-img_3000.jpg">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="CyberPodcast · Derniers épisodes" href="../feed.xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script>
+(function () {
+  try {
+    var stored = localStorage.getItem('cyberpodcast-theme');
+    var theme = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.theme = theme;
+  } catch (error) {}
+})();
+</script>
+  <script src="../assets/app.js" defer></script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"PodcastSeries","name":"Python Bytes","url":"https://zebux.github.io/CyberPodcast/podcast/python-bytes.html","description":"Developer headlines delivered directly to your earbuds","image":"https://cdn.pythonbytes.fm/static/img/podcast-theme-img_3000.jpg","webFeed":"https://pythonbytes.fm/episodes/rss","inLanguage":"en","author":[{"@type":"Person","name":"Michael Kennedy"},{"@type":"Person","name":"Brian Okken"}],"sameAs":["https://pythonbytes.fm/","https://podcasts.apple.com/us/podcast/python-bytes/id1173690032?uo=4"]}</script>
+</head>
+<body class="">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html" aria-label="CyberPodcast, accueil">
+        <span class="brand-mark">CP</span>
+        <span class="brand-text">Cyber<span>Podcast</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a class="nav-link" href="../index.html">Podcasts</a>
+        <a class="nav-link" href="../sujets.html">Sujets</a>
+        <a class="nav-link" href="../statistiques.html">Statistiques</a>
+        <a class="nav-link" href="../a-propos.html">À propos</a>
+        <a class="nav-link" href="../rapport.html">Rapport</a>
+        <a class="nav-link nav-external" href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="detail" id="contenu">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane">
+      <a href="../index.html">Podcasts</a><span>/</span><span>Python Bytes</span>
+    </nav>
+    <section class="detail-hero">
+      <div class="cover cover-lg"><img src="https://cdn.pythonbytes.fm/static/img/podcast-theme-img_3000.jpg" alt="Pochette de Python Bytes" decoding="async" referrerpolicy="no-referrer"></div>
+      <div class="detail-intro">
+        <div class="detail-badges"><span class="badge status-active">Actif</span><span class="badge badge-soft">Hebdomadaire (~7 j)</span></div>
+        <h1>Python Bytes</h1>
+        <p class="detail-hosts">Michael Kennedy, Brian Okken</p>
+        <p class="lead">Developer headlines delivered directly to your earbuds</p>
+        <div class="chips"><a class="chip" href="../index.html?topic=D%C3%A9veloppement&amp;category=&amp;status=&amp;language=">Développement</a><a class="chip" href="../index.html?topic=Python&amp;category=&amp;status=&amp;language=">Python</a></div>
+        <div class="detail-actions">
+          <button class="button favorite-btn" type="button" data-id="python-bytes" aria-pressed="false" aria-label="Ajouter Python Bytes aux favoris" title="Ajouter aux favoris"><span class="heart">♡</span><span class="favorite-label">Ajouter aux favoris</span></button>
+          <a class="button button-secondary" href="https://pythonbytes.fm/episodes/rss" target="_blank" rel="noopener noreferrer">Flux RSS</a>
+          <a class="button button-secondary" href="https://pythonbytes.fm/" target="_blank" rel="noopener noreferrer">Site officiel ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="detail-grid">
+      <section class="panel">
+        <div class="panel-head"><h2>Dernier épisode</h2><span class="muted">03/11/2026</span></div>
+
+        <div class="player-card">
+          <p class="player-title">#503 It’s not 85% HTML</p>
+          <audio id="main-player" controls preload="metadata" src="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/503/it-s-not-85-html.mp3"></audio>
+          <a class="link" href="https://pythonbytes.fm/episodes/show/503/it-s-not-85-html" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Voir l’épisode</a>
+        </div>
+        <h2>Épisodes récents</h2>
+        <ol class="episode-list">
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">03/11/2026</span>
+            <h3><a href="https://pythonbytes.fm/episodes/show/503/it-s-not-85-html" target="_blank" rel="noopener noreferrer">#503 It’s not 85% HTML</a></h3>
+          </div>
+          <span class="episode-duration">30 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/503/it-s-not-85-html.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">27/10/2026</span>
+            <h3><a href="https://pythonbytes.fm/episodes/show/502/introducing-chameleon-rs" target="_blank" rel="noopener noreferrer">#502 Introducing chameleon-rs</a></h3>
+          </div>
+          <span class="episode-duration">34 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/502/introducing-chameleon-rs.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">20/10/2026</span>
+            <h3><a href="https://pythonbytes.fm/episodes/show/501/a-nod-to-sir-mix-alot" target="_blank" rel="noopener noreferrer">#501 A Nod to Sir-Mix-Alot</a></h3>
+          </div>
+          <span class="episode-duration">38 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/501/a-nod-to-sir-mix-alot.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">14/10/2026</span>
+            <h3><a href="https://pythonbytes.fm/episodes/show/500/episode-500" target="_blank" rel="noopener noreferrer">#500 Episode 500!</a></h3>
+          </div>
+          <span class="episode-duration">68 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/500/episode-500.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">06/10/2026</span>
+            <h3><a href="https://pythonbytes.fm/episodes/show/499/so-many-questions" target="_blank" rel="noopener noreferrer">#499 So many questions??</a></h3>
+          </div>
+          <span class="episode-duration">33 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/499/so-many-questions.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">29/09/2026</span>
+            <h3><a href="https://pythonbytes.fm/episodes/show/498/a-tiny-episode" target="_blank" rel="noopener noreferrer">#498 A Tiny Episode</a></h3>
+          </div>
+          <span class="episode-duration">33 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/498/a-tiny-episode.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">23/09/2026</span>
+            <h3><a href="https://pythonbytes.fm/episodes/show/497/faster-than-light-profiling" target="_blank" rel="noopener noreferrer">#497 Faster than light profiling</a></h3>
+          </div>
+          <span class="episode-duration">27 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/497/faster-than-light-profiling.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">15/09/2026</span>
+            <h3><a href="https://pythonbytes.fm/episodes/show/496/a-lake-house-in-seattle" target="_blank" rel="noopener noreferrer">#496 A lake house in Seattle</a></h3>
+          </div>
+          <span class="episode-duration">33 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/496/a-lake-house-in-seattle.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">08/09/2026</span>
+            <h3><a href="https://pythonbytes.fm/episodes/show/495/banned" target="_blank" rel="noopener noreferrer">#495 Banned</a></h3>
+          </div>
+          <span class="episode-duration">28 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/495/banned.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">01/09/2026</span>
+            <h3><a href="https://pythonbytes.fm/episodes/show/494/python-wrapture" target="_blank" rel="noopener noreferrer">#494 Python Wrapture</a></h3>
+          </div>
+          <span class="episode-duration">29 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/494/python-wrapture.mp3"></audio>
+      </li></ol>
+      </section>
+      <aside class="panel">
+        <h2>Informations</h2>
+        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>Michael Kennedy, Brian Okken</dd></div><div><dt>Auteur</dt><dd>Michael Kennedy</dd></div><div><dt>Langue</dt><dd>Anglais · US</dd></div><div><dt>Dernier épisode</dt><dd>03/11/2026</dd></div><div><dt>Rythme</dt><dd>Hebdomadaire (~7 j)</dd></div><div><dt>Épisodes</dt><dd>503</dd></div><div><dt>Durée moyenne</dt><dd>33 min</dd></div><div><dt>Note Apple</dt><dd>4.7/5 (212)</dd></div><div><dt>Plateforme</dt><dd>Autre</dd></div><div><dt>Pays</dt><dd>US</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>09/11/2026</dd></div></dl>
+        <h2>Liens d’écoute</h2>
+        <div class="links"><a class="link link-site" href="https://pythonbytes.fm/" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Site</a><a class="link link-rss" href="https://pythonbytes.fm/episodes/rss" target="_blank" rel="noopener noreferrer"><span class="dot"></span>RSS</a><a class="link link-apple" href="https://podcasts.apple.com/us/podcast/python-bytes/id1173690032?uo=4" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Apple</a></div>
+        <h2>Sujets</h2><div class="chips"><a class="chip" href="../index.html?topic=D%C3%A9veloppement&amp;category=&amp;status=&amp;language=">Développement</a><a class="chip" href="../index.html?topic=Python&amp;category=&amp;status=&amp;language=">Python</a></div>
+        <h2>Tags</h2><div class="tags"><span class="tag">Python</span></div>
+      </aside>
+    </div>
+
+    <section class="related">
+      <h2>À découvrir aussi</h2>
+      <div class="related-grid">
+    <a class="mini-card" href="../podcast/real-python.html">
+      <div class="mini-cover"><img src="https://files.realpython.com/media/real-python-logo-square.28474fda9228.png" alt="Pochette de Real Python Podcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Real Python Podcast</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/talk-python.html">
+      <div class="mini-cover"><img src="https://cdn-podcast.talkpython.fm/static/img/talk-python-3000.jpg" alt="Pochette de Talk Python To Me" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Talk Python To Me</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/dotnet-rocks.html">
+      <div class="mini-cover"><img src="https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d609b60f7cc16bfd0e6416ce8d5596ec.jpg" alt="Pochette de .NET Rocks!" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>.NET Rocks!</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/cppcast.html">
+      <div class="mini-cover"><img src="https://cppcast.com/static/cppcast-logo-square.png" alt="Pochette de CppCast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>CppCast</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <span>Données enrichies automatiquement · dernière mise à jour 09/11/2026 · <a href="../a-propos.html">méthode</a></span>
+    <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="../feed.xml">RSS</a> · <a href="../api/podcasts.json">API JSON</a></span>
+  </footer>
+</body>
+</html>

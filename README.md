@@ -1,60 +1,82 @@
-# 🔒🎙️ Podcasts francophones portant sur la cybersécurité : 
- - [CéKoiÇa](https://podcast.ausha.co/consulia-cekoica) - Romain ROUSSEAU
- - [Compliance Without coma](https://podcast.ausha.co/compliance-without-coma) - Fabrice De Paepe
- - [CyberPunkCompany](https://open.spotify.com/show/6hrcsJTfyJfaIoh4vx14qd) - Tixlegeek
- - [Cybersécurité All Day](https://cybersecuriteallday.fr/) - Michael VIRGONE 
- - [Dans l'oeil de la cyber](https://podcast.ausha.co/dans-l-oeil-de-la-cyber) - Gatewatcher
- - [Dialogues imaginaires du monde merveilleux de la cyber](https://dialogues-imaginaires.net/) - L'ours
- - [French Connection](https://securite.fm/) – @SecuritePodcas
- - [Hack’n Speak](https://anchor.fm/hacknspeak) – Martial Puygrenier
- - [HacktBack CyberTalk](https://podcast.ausha.co/cybertalk) – HacktBack
- - [InCyber Voices](http://incyber.org/article/lancement-du-podcast-incyber-voices/) - InCyber News
- - [La box du RSSI](https://podcast.ausha.co/laboxdurssi) - Fabrice Bourdelon
- - [La cybersécurité expliquée à ma grand-mère](https://smartlink.ausha.co/la-cyber-securite-expliquee-a-ma-grand-mere) - Nicolas Remarck
- - [La matrice a buggé](https://www.deezer.com/fr/show/5699187) - Manon Desplat et Léa Le Pezron
- - [La Robe Numérique](https://www.larobenumerique.com/podcast) - Oriana Labruyère
- - [La tangente](https://open.spotify.com/show/0WBMbK4frOLnBIApsZSw8w) - Luckas Bosch
- - [Le Déjargonneur cyber](https://shows.acast.com/le-dejargonneur-cyber) - Clusif
- - [Le monde de la cyber](https://podcastaddict.com/podcast/le-monde-de-la-cyber/4110724) - Leslie Fornero
- - [Les enfants de la Cyber](https://www.deezer.com/fr/show/1001824361) -  Agora Managers Groupe
- - [Let's talk about Sec](https://podcastaddict.com/podcast/let-s-talk-about-sec/4838402) - HarfangLab
- - [NoLimitSecu](https://www.nolimitsecu.fr/) – NoLimitSecu
- - [Objectif Cyber](https://www.capgemini.com/fr-fr/perspectives/publications/podcast-objectif-tech/objectif-cyber/) - Capgemini
- - [On dit chiffrer](https://feeds.acast.com/public/shows/on-dit-chiffrer) – OnDitChiffrer
- - [PolySécure](https://polysecure.ca/) -  Nicolas-Loïc Fortin
- - [Purple voice](https://www.deezer.com/us/show/1001900081) - Nabil Diab et Raphaël Ellouz
- - [RadioCSIRT](https://www.radiocsirt.org/) - Marc-Frédéric GOMEZ
- - [Riskintel Média](https://podcasts.apple.com/fr/podcast/riskintel-m%C3%A9dia-le-podcast-en-cybers%C3%A9curit%C3%A9/id1710814400) - Riskintel Média
- - [Source ouverte](https://www.deezer.com/fr/show/1001440081) - Cigref
- - [Yakafokon](https://open.spotify.com/show/77AVXD1a6ysbJiua5jDpZr) - Florian Maury
+# CyberPodcast
 
-# 🔇🎙️ Les podcasts cybersécurité qui semblent moins actifs ces derniers temps :
- - [Diginov](https://podcasts.apple.com/fr/podcast/diginov/id1731261927) - Sylvanus HOUGBEKEY
- - [Hackstock](https://pocketcasts.com/podcasts/87c3cd50-da1f-0134-ebdd-4114446340cb) - Hackstock
- - [Le Comptoir Sécu](https://www.comptoirsecu.fr/) - Le comptoire sécu (Justin Ganivet, Morgan Hotonnier, Loïs Samain, Youenn Piolet, Jil, SwitHak...)
- - [Les chiens de garde](https://open.spotify.com/show/3mESEykdPUxhkrMWVd3iNl) - Crypto.Québec
- - [Les minutes cyber](https://les-minutes-cyber.lepodcast.fr/) - Kedros Cybersécurité
- - [NOLOG](https://podcastfrance.fr/podcasts/web/no-log/) - Véronique LOQUET
- - [OSINT Origins](https://open.spotify.com/show/4WjF4NReXClnfL0Lsev95p) - OSINT.fr
+Annuaire statique de podcasts francophones et internationaux consacrés à la cybersécurité, au cloud et au développement.
 
-# 😶‍🌫️🎙️ Podcasts francophones orientés devops et cloud :
- -[DataOops](https://www.deezer.com/fr/show/3362912) - Adrien Nayrat, Fabien Beaumont et Romain Ferraton 
- - [Dans la tech](https://open.spotify.com/show/0GlIJ34eW9qg0yKvHmlFUh) - Damyr, Mathieu Corbin et Maxence Maireaux
- - [Dans ton Kube](https://dtk.p7t.tech/) - Guilhem Lettron
- - [Deez is la tech](https://www.deezer.com/fr/show/5244847) - Deezer
- - [Dev’Obs](https://devobs.p7t.tech/episodes) - DevObs
- - [ElectoMonkeys](https://electro-monkeys.fr/) - Electro Monkeys Podcast
- - [Les compagnons du devops](https://www.youtube.com/c/lescompagnonsdudevops) - Les Compagnons du DevOps
- - [Message à caractère informatique](https://www.clever-cloud.com/fr/podcast/) - Clever Cloud
- - [On Azure Grave](https://shows.acast.com/on-azure-grave-onag) - Arnaud Morvillier
- - [WeSpeakCloud](https://podcastaddict.com/podcast/2664488) – WeScale
-   
+Site : https://zebux.github.io/CyberPodcast/
 
-# ⌨️🎙️ Podcasts francophones orientés Dev :
- - [Dans la tech](https://lnkd.in/egWYQCmc) -
- - [Human Coders](https://open.spotify.com/show/3tLO8LmKVl96cSp7J3INwh) - Human Coders
- - [IfThisThenDev](https://ifttd.io/) - Bruno Soulez
- - [La Cave](https://podcast.ausha.co/lacave) - Pascal Maria
- - [Les Cast Codeurs](https://lescastcodeurs.com/) - Guillaume Laforge
- - [Nom d'un pipeline](https://www.nomdunpipeline.com/) - Julien Danjou
- - [PunkinDev](https://podcast.ausha.co/punkindev) - PUNKIN DEV
+## Fonctionnalités
+
+- Recherche instantanée et filtres par catégorie, statut, langue, plateforme et sujets multiples.
+- Favoris stockés localement dans le navigateur, sans compte ni cookie.
+- Lecteur audio intégré pour le dernier épisode, lecteur global sur l'annuaire et liste des épisodes récents.
+- Fiches détaillées par podcast avec liens d'écoute, métadonnées, sujets, tags et podcasts proches.
+- Pages secondaires : sujets, statistiques, à propos et rapport de santé.
+- SEO statique : sitemap, robots.txt, flux RSS, JSON-LD, Open Graph et Twitter Cards.
+- API JSON publique : `docs/api/podcasts.json`, `docs/api/stats.json`, `docs/api/health.json`.
+- Thème clair/sombre avec préférence système et mémorisation locale.
+
+## Architecture
+
+Le projet reste volontairement simple et sans runtime serveur :
+
+```text
+data/podcasts-*.yaml     sources maintenues à la main
+data/curated.yaml        corrections vérifiées (liens, flux, descriptions)
+scripts/enrich_podcasts.py   fusion, déduplication, enrichissement RSS/Apple/sites
+scripts/check_health.py      contrôle des liens et rapport de santé
+scripts/render_html.py       génération complète du site statique
+podcasts.yaml            base enrichie version 3
+docs/                    site publié par GitHub Pages
+reports/health.json      dernier rapport de santé
+```
+
+Le workflow GitHub Actions tourne chaque jour : enrichissement, contrôle santé, rendu, validation, commit et déploiement GitHub Pages.
+
+## Modèle de données
+
+Chaque podcast de `podcasts.yaml` contient notamment :
+
+- identité : `id`, `name`, `category`, `language`, `country`, `hosts`, `author` ;
+- liens : `website`, `rss`, `apple_podcast`, `spotify`, `youtube`, `deezer`, `pocket_casts`, `podcast_addict`, `amazon_music`, `castbox`, `linkedin` ;
+- contenu : `description`, `image`, `episodes`, `last_episode`, `last_episode_title`, `last_episode_url`, `last_episode_audio`, `last_episode_duration` ;
+- rythme : `frequency`, `frequency_days` ;
+- qualité : `status`, `episode_count`, `average_duration`, `community_rating`, `community_rating_count` ;
+- suivi : `first_seen`, `updated_at`, `platform`, `topics`, `tags`.
+
+Les statuts sont `active`, `slow` et `archived` ; l'interface les affiche comme « Actif », « Peu actif » et « Inactif ».
+
+## Commandes locales
+
+```bash
+python -m pip install -r requirements.txt
+python scripts/enrich_podcasts.py
+python scripts/check_health.py
+python scripts/render_html.py
+python -m http.server 8000 --directory docs
+```
+
+Pour tester le rendu sans réseau :
+
+```bash
+python scripts/check_health.py --skip-network
+python scripts/render_html.py
+```
+
+## Ajouter ou corriger un podcast
+
+1. Ajouter l'entrée minimale dans le fichier source adapté (`data/podcasts-cyber.yaml`, `-cloud` ou `-dev`).
+2. Ajouter si nécessaire une correction dans `data/curated.yaml` : site officiel, flux RSS, lien Apple, description, animateurs, pays ou plateforme.
+3. Lancer l'enrichissement puis vérifier la fiche générée.
+
+Les valeurs de `data/curated.yaml` ont priorité sur la découverte automatique. Les champs absents sont enrichis depuis le site officiel, le flux RSS et Apple Podcasts. En cas d'échec réseau, les valeurs de la dernière exécution sont conservées.
+
+## Contribuer
+
+Une erreur, un flux cassé, un podcast manquant ? Ouvrez une issue ou proposez une correction dans `data/curated.yaml`. Les liens officiels et les flux vérifiés sont prioritaires.
+
+## Notes
+
+- Les notes affichées proviennent d'Apple Podcasts et sont indicatives.
+- Les liens d'écoute renvoient vers les plateformes officielles.
+- Le site ne dépose aucun cookie et n'utilise aucun tracker.
+- Les données et le code sont publics sur GitHub.

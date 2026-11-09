@@ -1,0 +1,2085 @@
+{
+  "generated_at": "2026-11-09T20:49:10.570380+00:00",
+  "mode": "network",
+  "duration_seconds": 16.71,
+  "summary": {
+    "total": 90,
+    "ok": 90,
+    "warning": 0,
+    "error": 0,
+    "missing": 27,
+    "checked_urls": 332
+  },
+  "podcasts": [
+    {
+      "id": "dans-ton-kube",
+      "name": "Dans ton Kube",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://dtk.p7t.tech/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.transistor.fm/dans-ton-kube"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://img.transistorcdn.com/K_rGqnKPX2xo7L3Vc1m36JDb4VmbWhKSS1eyj6xcr4k/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/Lzg0MzgvMTU4NDEw/NzIzMS1hcnR3b3Jr/LmpwZw.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://media.transistor.fm/3420634c/09462586.mp3"
+        }
+      }
+    },
+    {
+      "id": "les-compagnons-du-devops",
+      "name": "Les Compagnons du DevOps",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.compagnons-devops.fr"
+        },
+        "rss": {
+          "status": "missing",
+          "url": null
+        },
+        "image": {
+          "status": "missing",
+          "url": null
+        },
+        "audio": {
+          "status": "missing",
+          "url": null
+        }
+      }
+    },
+    {
+      "id": "on-azure-grave",
+      "name": "On Azure Grave",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://shows.acast.com/on-azure-grave-onag"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.acast.com/public/shows/on-azure-grave-onag"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://assets.pippa.io/shows/649866b28b68980011d7f955/1708522409280-201063e084520ca67c7afd4c3b4949ee.jpeg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://sphinx.acast.com/p/open/s/649866b28b68980011d7f955/e/685a3d2a4a2d8b8b516875b3/media.mp3"
+        }
+      }
+    },
+    {
+      "id": "wespeakcloud",
+      "name": "We Speak Cloud",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://wespeakcloud.com"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/11be1e6c/podcast/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2876723/2876723-1582139974029-82bc558fd2d02.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/11be1e6c/podcast/play/12458961/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2020-3-15%2F64754574-48000-2-692d274998682.mp3"
+        }
+      }
+    },
+    {
+      "id": "radio-devops",
+      "name": "Radio DevOps",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.compagnons-devops.fr"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.acast.com/public/shows/radio-devops"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://assets.pippa.io/shows/5df7c112b9e5bf6d176cbfcb/1657530546008-7697d8bbde29ec27533f0e6bf6e813bf.jpeg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://sphinx.acast.com/p/open/s/5df7c112b9e5bf6d176cbfcb/e/67ed5049506c6c628c14e243/media.mp3"
+        }
+      }
+    },
+    {
+      "id": "kubernetes-podcast-fr",
+      "name": "Kubernetes Podcast FR",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "missing",
+          "url": null
+        },
+        "rss": {
+          "status": "missing",
+          "url": null
+        },
+        "image": {
+          "status": "missing",
+          "url": null
+        },
+        "audio": {
+          "status": "missing",
+          "url": null
+        }
+      }
+    },
+    {
+      "id": "les-tetes-dans-le-cloud",
+      "name": "Les Têtes dans le Cloud",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.expertime.com"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.audiomeans.fr/feed/20a4dac2-0553-4bcd-ac1e-49a3d0785044.xml"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://static.audiomeans.fr/img/podcast/6d33de64-9124-475c-9be7-b4a249107108.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/e290b824-17c2-4d26-a4b2-2970888d8618.mp3?_=1791878882"
+        }
+      }
+    },
+    {
+      "id": "cloud-cafe",
+      "name": "Cloud Café",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://podcasters.spotify.com/pod/show/itq4"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/108b1f810/podcast/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/44308484/44308484-1756284540431-0f8013780193.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/108b1f810/podcast/play/128757849/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F435849256-44100-2-bda7ffaf90ac1.mp3"
+        }
+      }
+    },
+    {
+      "id": "cloud-native-fr",
+      "name": "Cloud Native FR",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "missing",
+          "url": null
+        },
+        "rss": {
+          "status": "missing",
+          "url": null
+        },
+        "image": {
+          "status": "missing",
+          "url": null
+        },
+        "audio": {
+          "status": "missing",
+          "url": null
+        }
+      }
+    },
+    {
+      "id": "devops-tribe",
+      "name": "DevOps Tribe",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "missing",
+          "url": null
+        },
+        "rss": {
+          "status": "missing",
+          "url": null
+        },
+        "image": {
+          "status": "missing",
+          "url": null
+        },
+        "audio": {
+          "status": "missing",
+          "url": null
+        }
+      }
+    },
+    {
+      "id": "kubernetes-podcast",
+      "name": "Kubernetes Podcast from Google",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://kubernetespodcast.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://kubernetespodcast.com/feeds/audio.xml"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://static.libsyn.com/p/assets/a/3/a/a/a3aa4f08236059f5e55e3c100dce7605/NewKPodRoboWhite-20240924-1zwoxpn1sl.png"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://traffic.libsyn.com/secure/e780d51f-f115-44a6-8252-aed9216bb521/KPOD272.mp3?dest-id=3486674"
+        }
+      }
+    },
+    {
+      "id": "the-cloudcast",
+      "name": "The Cloudcast",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.thecloudcast.net/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://rss.buzzsprout.com/3195.rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://storage.buzzsprout.com/qy0q4u4tgdaume7dfehgpznhwhn0?.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://www.buzzsprout.com/3195/episodes/20070300-claude-make-me-rich-finding-anthropic-s-next-giant-market.mp3"
+        }
+      }
+    },
+    {
+      "id": "arrested-devops",
+      "name": "Arrested DevOps",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.arresteddevops.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://www.arresteddevops.com/feed/podcast"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://www.arresteddevops.com/img/ado-podcast-logo.png"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode210.mp3"
+        }
+      }
+    },
+    {
+      "id": "software-defined-talk",
+      "name": "Software Defined Talk",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.softwaredefinedtalk.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://www.softwaredefinedtalk.com/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/9/9b74150b-3553-49dc-8332-f89bbbba9f92/cover.jpg?v=1"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/2d7d31e0-6e43-4602-92a5-e4a99838c6e9.mp3"
+        }
+      }
+    },
+    {
+      "id": "packet-pushers",
+      "name": "Packet Pushers",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://packetpushers.net/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.packetpushers.net/PacketPushersWeeklyPodcast/"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://static.feedpress.com/logo/packetpushersweeklypodcast-653bc236a0040.png"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://feeds.packetpushers.net/link/12486/17516765/HN850.mp3"
+        }
+      }
+    },
+    {
+      "id": "screaming-in-the-cloud",
+      "name": "Screaming in the Cloud",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.transistor.fm/screaming-in-the-cloud"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://img.transistorcdn.com/sjY7QBiTinCDr8X80gOsgDaM4fMY0WuZn87UxNTh6Fw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzE0OTQvMTU4Mzg2/OTQ4My1hcnR3b3Jr/LmpwZw.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://dts.podtrac.com/redirect.mp3/media.transistor.fm/47707c1e/88c1ffd2.mp3"
+        }
+      }
+    },
+    {
+      "id": "aws-podcast",
+      "name": "AWS Podcast",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://aws.amazon.com/podcasts/aws-podcast/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "http://d3gih7jbfe3jlq.cloudfront.net/AWS-Podcast-Title-Art.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://d1le29qyzha1u4.cloudfront.net/AWS_Podcast_Episode_754.mp3"
+        }
+      }
+    },
+    {
+      "id": "azure-podcast",
+      "name": "The Azure Podcast",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.azpodcast.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.feedburner.com/TheAzurePodcast"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "http://azpodcast.blob.core.windows.net/artifacts/PodcastArtwork.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://azpodcast.blob.core.windows.net/episodes/Episode521.mp3"
+        }
+      }
+    },
+    {
+      "id": "google-cloud-platform-podcast",
+      "name": "Google Cloud Platform Podcast",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.gcppodcast.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://googlecloudpodcast.libsyn.com/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://static.libsyn.com/p/assets/3/c/3/b/3c3b13ac1fc67854e5bbc093207a2619/logo_large.png"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://traffic.libsyn.com/secure/googlecloudpodcast/Google.Cloud.Platform.Podcast.Episode.336.mp3?dest-id=3174422"
+        }
+      }
+    },
+    {
+      "id": "cloud-security-podcast",
+      "name": "Cloud Security Podcast",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://cloudsecuritypodcast.tv/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/10fb9928/podcast/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/2749242/2749242-1702414932410-4a0a63fceb0f9.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/10fb9928/podcast/play/128805943/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F435910796-44100-2-d2f67b5993a6e.mp3"
+        }
+      }
+    },
+    {
+      "id": "day-two-cloud",
+      "name": "Day Two Cloud",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://daytwocloud.io/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.packetpushers.net/day2cloud/"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://static.feedpress.com/logo/day2cloud-669fc5e024d4b.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://feeds.packetpushers.net/link/20975/17515361/D2DO318.mp3"
+        }
+      }
+    },
+    {
+      "id": "heavy-strategies",
+      "name": "Heavy Strategy",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://packetpushers.net/series/heavy-strategy/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.packetpushers.net/heavystrategy"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://static.feedpress.com/logo/heavystrategy-65738ff49c606.png"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://feeds.packetpushers.net/link/22503/17507731/HS148.mp3"
+        }
+      }
+    },
+    {
+      "id": "command-line-heroes",
+      "name": "Command Line Heroes",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.redhat.com/en/command-line-heroes"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://api.riverside.com/hosting/dpRAL2Z3.rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://hosting-media.riverside.com/media/imports/podcasts/985a8bcc-7937-4ce0-9e5f-8bfb400c6a5f/english.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://api.riverside.com/hosting-analytics/media/4493621dea49e9a6e278049ce6aaaf4d1d557164c06ff99d9530f956610ad5c7/eyJlcGlzb2RlSWQiOiJjZWIyM2E5Ny0yZmExLTQyOTMtYTZhYy04NGVkOGY0MzA0MmIiLCJwb2RjYXN0SWQiOiI5ODVhOGJjYy03OTM3LTRjZTAtOWU1Zi04YmZiNDAwYzZhNWYiLCJhY2NvdW50SWQiOiI2YTY3N2FmMDRhNzcyY2U2NTBiMDc4MDEiLCJwYXRoIjoibWVkaWEvaW1wb3J0cy9wb2RjYXN0cy85ODVhOGJjYy03OTM3LTRjZTAtOWU1Zi04YmZiNDAwYzZhNWYvZXBpc29kZXMvY2ViMjNhOTctMmZhMS00MjkzLWE2YWMtODRlZDhmNDMwNDJiL2RlZmF1bHRfdGMubXAzIn0=.mp3"
+        }
+      }
+    },
+    {
+      "id": "linux-action-news",
+      "name": "Linux Action News",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://linuxactionnews.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://linuxactionnews.com/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/d/dec90738-e640-45e5-b375-4573052f4bf4/cover.jpg?v=6"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://aphid.fireside.fm/d/1437767933/dec90738-e640-45e5-b375-4573052f4bf4/270cad96-f51a-4143-9b0c-37083bd03e12.mp3"
+        }
+      }
+    },
+    {
+      "id": "self-hosted",
+      "name": "Self-Hosted",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://selfhosted.show/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://selfhosted.show/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/7/7296e34a-2697-479a-adfb-ad32329dd0b0/cover.jpg?v=2"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://aphid.fireside.fm/d/1437767933/7296e34a-2697-479a-adfb-ad32329dd0b0/4efa9938-a1f5-4d2c-b1e9-b62f5acd6cf6.mp3"
+        }
+      }
+    },
+    {
+      "id": "late-night-linux",
+      "name": "Late Night Linux",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://latenightlinux.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://latenightlinux.com/feed"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg"
+        },
+        "audio": {
+          "status": "missing",
+          "url": null
+        }
+      }
+    },
+    {
+      "id": "linux-unplugged",
+      "name": "Linux Unplugged",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://linuxunplugged.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://linuxunplugged.com/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://assets.fireside.fm/file/fireside-images/podcasts/images/f/f31a453c-fa15-491f-8618-3f71f1d565e5/cover.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://dts.podtrac.com/redirect.mp3/mgln.ai/e/211/rss.art19.com/episodes/063c8438-44c7-469a-ac86-9f2de37fc74e.mp3"
+        }
+      }
+    },
+    {
+      "id": "ask-noah-show",
+      "name": "The Ask Noah Show",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://asknoahshow.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.fireside.fm/asknoah/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/3/305e3275-6919-4ed2-9ca1-b21e0cf904b2/cover.jpg?v=1"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/827dad28-5f10-401c-8dd8-0d16c1a837ba.mp3"
+        }
+      }
+    },
+    {
+      "id": "cekoica",
+      "name": "CéKoiÇa",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://podcast.ausha.co/consulia-cekoica"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feed.ausha.co/VLezJt6PxXDZ"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://image.ausha.co/WbcVtvztuL9bj1VyrsNMTZjBiH7nW3TSSKcENWOA_1400x1400.jpeg?t=1725178069"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.ausha.co/YK6M9h8JJ2GE.mp3?t=1737923075"
+        }
+      }
+    },
+    {
+      "id": "compliance-without-coma",
+      "name": "Compliance Without Coma",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://podcast.ausha.co/compliance-without-coma"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feed.ausha.co/DEzWetYgJnD2"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://image.ausha.co/BqMWpfXoRipRMZuXDqqGiqhQrdDTNVXVvaeZMeQS_1400x1400.jpeg?t=1784635470"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.ausha.co/ewnKeF6VQ3Km.mp3?t=1793879099"
+        }
+      }
+    },
+    {
+      "id": "cyberpunkcompany",
+      "name": "CyberPunkCompany",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://cyberpunk.company/"
+        },
+        "rss": {
+          "status": "missing",
+          "url": null
+        },
+        "image": {
+          "status": "missing",
+          "url": null
+        },
+        "audio": {
+          "status": "missing",
+          "url": null
+        }
+      }
+    },
+    {
+      "id": "cybersecurite-all-day",
+      "name": "Cybersécurité All Day",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://cybersecuriteallday.fr/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.redcircle.com/ee62d503-8472-489e-aa70-be2885f8f5c9"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://media.redcircle.com/images/2023/12/22/15/2d5b25de-fd0f-4936-a05c-26a74021cfcf_2e2b_27c6ee64-25e7-496f-b3a7-c22753949a97_blob.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio4.redcircle.com/episodes/65154056-39a4-4e0e-8437-32255b84f1b3/stream.mp3"
+        }
+      }
+    },
+    {
+      "id": "dans-loeil-de-la-cyber",
+      "name": "Dans l'œil de la cyber",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://podcast.ausha.co/dans-l-oeil-de-la-cyber"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feed.ausha.co/BxpxZc2aQMrl"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://image.ausha.co/ZhBXHkkoSaY6hQTwfE13kxJNfOyoGJEZj5jl4x13_1400x1400.jpeg?t=1701792440"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.ausha.co/BQZNGF9lep0K.mp3?t=1794217578"
+        }
+      }
+    },
+    {
+      "id": "dialogues-imaginaires",
+      "name": "Dialogues imaginaires du monde merveilleux de la cyber",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://dialogues-imaginaires.net/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://dialogues-imaginaires.net/feed/"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c9/5b/55/c95b5597-50c9-0782-1e3e-cdf045e61b58/mza_18086194992061792353.jpeg/600x600bb.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://dialogues-imaginaires.net/wp-content/uploads/2026/06/EP05final.mp3"
+        }
+      }
+    },
+    {
+      "id": "french-connection",
+      "name": "French Connection",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://securite.fm/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://securite.fm/general_feed.xml"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/80/9a/b1/809ab1c6-7f0b-a53c-8c29-2eb9fe2c8419/mza_11876107571718736518.png/600x600bb.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://securite.fm/episodes/FrenchConnectionPodcast-Episode0x301.mp3"
+        }
+      }
+    },
+    {
+      "id": "hacknspeak",
+      "name": "Hack'n Speak",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/hacknspeak"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/435c0d58/podcast/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/11201062/11201062-1610393629389-b04e93ff7d159.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/435c0d58/podcast/play/123955240/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-8%2F5e384d63-1a22-ad7f-7c24-2dcb0b15f599.mp3"
+        }
+      }
+    },
+    {
+      "id": "hacktback-cybertalk",
+      "name": "HacktBack CyberTalk",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://podcast.ausha.co/cybertalk"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feed.ausha.co/KwvdxtwwlYdV"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://image.ausha.co/646Np4mUzHSisgaM1qDI3wclNl8PSA7nITCWMmkn_1400x1400.jpeg?t=1666275229"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.ausha.co/Qd33Nt9vnLjm.mp3?t=1776105120"
+        }
+      }
+    },
+    {
+      "id": "incyber-voices",
+      "name": "InCyber Voices",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://incyber.org/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feed.ausha.co/XEnA7SpjRm2Y"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://image.ausha.co/mM7ZhfN5GuTKl9gFnhdSYBRB8na4g43fR5lii8vv_1400x1400.jpeg?t=1743355614"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.ausha.co/LjAqaF2pE1GV.mp3?t=1790164265"
+        }
+      }
+    },
+    {
+      "id": "la-box-du-rssi",
+      "name": "La Box du RSSI",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://podcast.ausha.co/laboxdurssi"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feed.ausha.co/w0k5QHz3QkrR"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://image.ausha.co/UmjONms2O6yvvssNOdEXazwTxejnYcft1pZ3DXuw_1400x1400.jpeg?t=1768305932"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.ausha.co/bllN16SOJvNz.mp3?t=1792500131"
+        }
+      }
+    },
+    {
+      "id": "cyber-grand-mere",
+      "name": "La cybersécurité expliquée à ma grand-mère",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://smartlink.ausha.co/la-cyber-securite-expliquee-a-ma-grand-mere"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feed.ausha.co/7zMxQFOPzR9O"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://image.ausha.co/cJQ9LKJiAcfpKunRWM315F8VlE6graB8HmNIG00y_1400x1400.jpeg?t=1656144902"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.ausha.co/omK5Ju6vKA8P.mp3?t=1793548203"
+        }
+      }
+    },
+    {
+      "id": "la-matrice-a-bugge",
+      "name": "La matrice a buggé",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://shows.acast.com/la-matrice-a-bugge"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.acast.com/public/shows/63d3ee76c552d9001143c7c9"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://assets.pippa.io/shows/cover/1674833453387-607221ff6e38325df8065612bd1abca8.jpeg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://sphinx.acast.com/p/open/s/63d3ee76c552d9001143c7c9/e/6ac4b592aef0446505ac7bb3/media.mp3"
+        }
+      }
+    },
+    {
+      "id": "la-robe-numerique",
+      "name": "La Robe Numérique",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.larobenumerique.com/podcast"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://www.larobenumerique.com/podcast?format=rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/55/4b/ec/554becb4-b057-ca98-67b5-5518814b7ec8/mza_14204533298284299946.jpeg/600x600bb.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://static1.squarespace.com/static/5ff86ae0a6a63d22c04cd9f8/t/619fa99a829f5f05ea8d8d76/1637853649256/1636560239498-4994be8feb857298062fe9f57af174a4.mp3"
+        }
+      }
+    },
+    {
+      "id": "la-tangente",
+      "name": "La Tangente",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://podcast.ausha.co/cafecompas"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feed.ausha.co/yOraMCxd0ezj"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://image.ausha.co/wyd3CbdkCzbFKMP1cdebiIww2gYp6RQokQXChnOH_1400x1400.jpeg?t=1706379884"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.ausha.co/BnvA1Iqvxd4q.mp3?t=1693147694"
+        }
+      }
+    },
+    {
+      "id": "le-dejargonneur-cyber",
+      "name": "Le Déjargonneur Cyber",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://shows.acast.com/le-dejargonneur-cyber"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.acast.com/public/shows/le-dejargonneur-cyber"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://assets.pippa.io/shows/cover/1739180298323-3b459660-3eba-49c7-97d7-2aae5b298beb.jpeg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://sphinx.acast.com/p/open/s/67a9c9b49c6f7f7f288a2198/e/6995cce74c238f5dcaf3a23b/media.mp3"
+        }
+      }
+    },
+    {
+      "id": "le-monde-de-la-cyber",
+      "name": "Le Monde de la Cyber",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.lemondedelacyber.com"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.audiomeans.fr/feed/7962208c-987b-4d10-8e9a-104d0d77851a.xml"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://static.audiomeans.fr/img/podcast/b5e0e495-d53d-4e3f-bf27-29a1b92815bc.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/3ce1d910-c6f7-46a9-9e78-baeea7f48c80.mp3?_=1792071745"
+        }
+      }
+    },
+    {
+      "id": "les-enfants-de-la-cyber",
+      "name": "Les Enfants de la Cyber",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://smartlinks.audiomeans.fr/l/les-enfants-de-la-cyber-0f28787e"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.audiomeans.fr/feed/0f28787e-2a00-4dd5-9503-96e824efbacf.xml"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://static.audiomeans.fr/img/podcast/67290a54-309b-4730-8cfd-bea0c97c0aab.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/5e70234a-1b29-4807-8bf5-84d9464041b5.mp3?_=1792507851"
+        }
+      }
+    },
+    {
+      "id": "lets-talk-about-sec",
+      "name": "Let's Talk About Sec",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://podcast.ausha.co/let-s-talk-about-sec"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feed.ausha.co/v3PX6h8ljxv6"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://image.ausha.co/8wcSczPApCy0mg85wGqo14TSUmZFNiGBIkgIZlex_1400x1400.jpeg?t=1706108684"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.ausha.co/QdYqrUEWrnR9.mp3?t=1788940724"
+        }
+      }
+    },
+    {
+      "id": "nolimitsecu",
+      "name": "NoLimitSecu",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.nolimitsecu.fr/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://www.nolimitsecu.fr/feed/podcast/"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "http://ftp.nolimitsecu.fr/nolimitsecu-1400.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://media.blubrry.com/3898091/www.nolimitsecu.fr/wp-content/uploads/NoLimitSecu-557-IA-la-cybersécurite-change-de-dimension.mp3"
+        }
+      }
+    },
+    {
+      "id": "objectif-cyber",
+      "name": "Objectif Cyber",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.capgemini.com/fr-fr/perspectives/publications/podcast-objectif-tech/objectif-cyber/"
+        },
+        "rss": {
+          "status": "missing",
+          "url": null
+        },
+        "image": {
+          "status": "missing",
+          "url": null
+        },
+        "audio": {
+          "status": "missing",
+          "url": null
+        }
+      }
+    },
+    {
+      "id": "on-dit-chiffrer",
+      "name": "On dit chiffrer",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://shows.acast.com/on-dit-chiffrer"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.acast.com/public/shows/on-dit-chiffrer"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://assets.pippa.io/shows/65b3645785ae6700165ec9c3/1709377594422-1bdb4bce3db353a24d44550626d861f9.jpeg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://sphinx.acast.com/p/open/s/65b3645785ae6700165ec9c3/e/69bc4002007cdcf83f783265/media.mp3"
+        }
+      }
+    },
+    {
+      "id": "polysecure",
+      "name": "PolySécure",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://polysecure.ca/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://polysecure.ca/general_feed.xml"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/28/3f/f1/283ff12a-8b1d-f1b1-c2e8-e5edb093574c/mza_8980461369952681688.jpg/600x600bb.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://polysecure.ca/episodes/PolySecure-0x364.m4a"
+        }
+      }
+    },
+    {
+      "id": "purple-voice",
+      "name": "Purple Voice",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://feeds.acast.com/public/shows/purple-voice"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.acast.com/public/shows/68065b0838088415692025d0"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://assets.pippa.io/shows/68065b0838088415692025d0/1747755289075-f4e0b9fd-013e-4117-8209-c4eff33cd129.jpeg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://sphinx.acast.com/p/open/s/68065b0838088415692025d0/e/6a6135925092e5d571d3e49f/media.mp3"
+        }
+      }
+    },
+    {
+      "id": "radiocsirt",
+      "name": "RadioCSIRT",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.radiocsirt.org/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://www.radiocsirt.org/feed/"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://www.radiocsirt.org/wp-content/uploads/2022/10/cropped-cropped-Radio-CSIRT-logo-2-2-32x32.png"
+        },
+        "audio": {
+          "status": "missing",
+          "url": null
+        }
+      }
+    },
+    {
+      "id": "riskintel-media",
+      "name": "Riskintel Média",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://podcast.ausha.co/riskintel-media"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feed.ausha.co/rjLzeUqpJDe1"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://image.ausha.co/c3yW5F56nIhAY9CDNIzAvfwemve0u3qpH8ZClSNI_1400x1400.jpeg?t=1736074692"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.ausha.co/KwM65h7gG0eD.mp3?t=1794220305"
+        }
+      }
+    },
+    {
+      "id": "source-ouverte",
+      "name": "Source Ouverte",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "missing",
+          "url": null
+        },
+        "rss": {
+          "status": "missing",
+          "url": null
+        },
+        "image": {
+          "status": "missing",
+          "url": null
+        },
+        "audio": {
+          "status": "missing",
+          "url": null
+        }
+      }
+    },
+    {
+      "id": "yakafokon",
+      "name": "Yakafokon",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://yakafokon.home.blog"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/119e32f0/podcast/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/2855804/2855804-1576411623692-f840da1e2e64f.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/119e32f0/podcast/play/9013158/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-15%2F38760896-44100-2-7e8e411c6de1b.mp3"
+        }
+      }
+    },
+    {
+      "id": "diginov",
+      "name": "Diginov",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://podcasters.spotify.com/pod/show/diginovbymadenasylvanus"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/e419c3e8/podcast/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/38168938/38168938-1687036282239-1922430875c63.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/e419c3e8/podcast/play/117522000/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-26%2Fddaf2752-3ef6-59f9-ef0b-1f40527decff.mp3"
+        }
+      }
+    },
+    {
+      "id": "hackstock",
+      "name": "Hackstock",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://hackstock.net"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.acast.com/public/shows/6569f298ff391100123ba68c"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://assets.pippa.io/shows/cover/1701442099641-dd2998d93e5d0f1d2eeb2e61d8b81b38.jpeg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://sphinx.acast.com/p/open/s/6569f298ff391100123ba68c/e/67bf87276b976c33513bf441/media.mp3"
+        }
+      }
+    },
+    {
+      "id": "le-comptoir-secu",
+      "name": "Le Comptoir Sécu",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.comptoirsecu.fr/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://www.comptoirsecu.fr/feed/all.xml"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://www.comptoirsecu.fr//images/logo.big.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://podcasts.comptoirsecu.fr/podcasts/SECHebdo/CSEC.SECHebdo.2024-02-18.m4a"
+        }
+      }
+    },
+    {
+      "id": "les-chiens-de-garde",
+      "name": "Les Chiens de Garde",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://crypto.quebec/podcastgen/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://www.crypto.quebec/podcastgen/feed.xml"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://crypto.quebec/podcastgen/images/itunes_image.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://crypto.quebec/podcastgen/media/2025-07-15_100.mp3"
+        }
+      }
+    },
+    {
+      "id": "les-minutes-cyber",
+      "name": "Les Minutes Cyber",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://les-minutes-cyber.lepodcast.fr/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://les-minutes-cyber.lepodcast.fr/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://uploads.podcloud.fr/uploads/covers/30/4c/304cd4963c078adb249ca360121f12229def1bd9.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://stats.podcloud.fr/les-minutes-cyber/episode-5-agences-de-cyber-notation-et-souverainete-thomas-gayet-ceo/enclosure.0be19fba71d252af7fdee6f375259c51563946c339071574e9936be1bc34b2f0.mp3?p=f"
+        }
+      }
+    },
+    {
+      "id": "nolog",
+      "name": "NOLOG",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://twitter.com/NologPodcast"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.acast.com/public/shows/no-log"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://assets.pippa.io/shows/5fb64f222168d75055c38951/1605783678412-6dca764f07691ad7086669825ddc8a33.jpeg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://sphinx.acast.com/p/open/s/5fb64f222168d75055c38951/e/5fe1f16fc7889f41d03cf3e0/media.mp3"
+        }
+      }
+    },
+    {
+      "id": "osint-origins",
+      "name": "OSINT Origins",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://osintfr.com/en/home/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/6d2d3288/podcast/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/18216786/18216786-1639693892918-6cd8225debf16.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/6d2d3288/podcast/play/79834760/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-10%2F67525b6f-edb8-eb82-422c-6cd0958d7122.mp3"
+        }
+      }
+    },
+    {
+      "id": "if-this-then-dev",
+      "name": "If This Then Dev",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://ifttd.io/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.audiomeans.fr/feed/03d88297-85c1-475f-a491-a6c7a443ffca.xml"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://static.audiomeans.fr/img/podcast/b0f6c0ee-41d3-4406-9d0c-7ef45174c4b8.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/9e7c0f1d-cfb3-4c63-81e3-3130cbe7b951.mp3?_=1794142829"
+        }
+      }
+    },
+    {
+      "id": "les-cast-codeurs",
+      "name": "Les Cast Codeurs",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://lescastcodeurs.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://lescastcodeurs.com/feed.atom"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/27/d4/c2/27d4c27c-6cd5-b27d-de7f-e683c79e5442/mza_6557719921920703431.png/600x600bb.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://traffic.libsyn.com/lescastcodeurs/LesCastCodeurs-Episode-344.mp3"
+        }
+      }
+    },
+    {
+      "id": "la-cave",
+      "name": "La Cave",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://podcast.ausha.co/lacave"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feed.ausha.co/aOeG3uNw2QrW"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://image.ausha.co/FmbeVeI2czW5fVFiO39ag0HrECD1s2plMASn5cjd_1400x1400.jpeg?t=1736093649"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.ausha.co/jzWaqHAQW5ND.mp3?t=1773664638"
+        }
+      }
+    },
+    {
+      "id": "tech-cafe",
+      "name": "Tech Café",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://techcafe.fr"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.audiomeans.fr/feed/d6ddb849-3100-43b2-91a5-93f54fe4c4b5.xml"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://static.audiomeans.fr/img/podcast/6babef68-0aa0-4a2a-879a-97ff3bd55131.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/4b14fdb4-aa33-4f0a-82c5-61514fe7927e.mp3?_=1794072971"
+        }
+      }
+    },
+    {
+      "id": "developer-voice",
+      "name": "Developer Voices",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.developervoices.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.zencastr.com/f/oSn1i316.rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://media.zencastr.com/image-files/619e48a9649c44004c5a44e8/cde8d1f5-e1f1-4c33-9f47-781a27ad1d2e.png"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://redirect.zencastr.com/r/episode/6ab60273bf988ba185897271/size/204379348/audio-files/619e48a9649c44004c5a44e8/3e08490f-8717-4cfd-a747-e8a8e8136d3e.mp3"
+        }
+      }
+    },
+    {
+      "id": "syntax",
+      "name": "Syntax",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://syntax.fm/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feed.syntax.fm"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://megaphone.imgix.net/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://traffic.megaphone.fm/FSI5980748523.mp3"
+        }
+      }
+    },
+    {
+      "id": "coding-blocks",
+      "name": "Coding Blocks",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.codingblocks.net/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://www.codingblocks.net/feed/podcast/"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "http://www.codingblocks.net/wp-content/uploads/powerpress/codingblocks-itunes.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://media.blubrry.com/codingblocks/www.podtrac.com/pts/redirect.mp3/traffic.libsyn.com/codingblocks/coding-blocks-episode-242.mp3"
+        }
+      }
+    },
+    {
+      "id": "software-engineering-daily",
+      "name": "Software Engineering Daily",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://softwareengineeringdaily.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://softwareengineeringdaily.com/category/podcast/feed"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://softwareengineeringdaily.com/wp-content/uploads/2026/07/sed_logo_2026.png"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://media.transistor.fm/605f45df/3cd65c7b.mp3"
+        }
+      }
+    },
+    {
+      "id": "changelog",
+      "name": "The Changelog",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://changelog.com/podcast"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://changelog.com/podcast/feed"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://cdn.changelog.com/static/images/podcasts/podcast-original-f16d0363067166f241d080ee2e2d4a28.png"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/689/the-changelog-689.mp3"
+        }
+      }
+    },
+    {
+      "id": "cppcast",
+      "name": "CppCast",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://cppcast.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://cppcast.com/feed.rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://cppcast.com/static/cppcast-logo-square.png"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://media.transistor.fm/0ff102b0/a38f0b23.mp3"
+        }
+      }
+    },
+    {
+      "id": "dotnet-rocks",
+      "name": ".NET Rocks!",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.dotnetrocks.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://pwop.com/feed.aspx?show=dotnetrocks"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d609b60f7cc16bfd0e6416ce8d5596ec.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76101431/dotnetrocks_2027_the_future_we_were_promised_geek_out.mp3"
+        }
+      }
+    },
+    {
+      "id": "python-bytes",
+      "name": "Python Bytes",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://pythonbytes.fm/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://pythonbytes.fm/episodes/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://cdn.pythonbytes.fm/static/img/podcast-theme-img_3000.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/503/it-s-not-85-html.mp3"
+        }
+      }
+    },
+    {
+      "id": "talk-python",
+      "name": "Talk Python To Me",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://talkpython.fm/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://talkpython.fm/episodes/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://cdn-podcast.talkpython.fm/static/img/talk-python-3000.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/talkpython.fm/episodes/download/568/cloudflare-python-workers.mp3?v=2"
+        }
+      }
+    },
+    {
+      "id": "real-python",
+      "name": "Real Python Podcast",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://realpython.com/podcasts/rpp/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://realpython.com/podcasts/rpp/feed"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://files.realpython.com/media/real-python-logo-square.28474fda9228.png"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E318_03_Nathan_Goldbaum.430cadd3c2d9.mp3"
+        }
+      }
+    },
+    {
+      "id": "go-time",
+      "name": "Go Time",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://changelog.com/gotime"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://changelog.com/gotime/feed"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://cdn.changelog.com/uploads/covers/go-time-original.png?v=63725770357"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/gotime/340/go-time-340.mp3"
+        }
+      }
+    },
+    {
+      "id": "javascript-jabber",
+      "name": "JavaScript Jabber",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://javascriptjabber.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://javascriptjabber.com/feed"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/1d6a39759b7b8442bda3dde45332e0a5.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/70275018/jsj_703.mp3"
+        }
+      }
+    },
+    {
+      "id": "react-podcast",
+      "name": "React Podcast",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://reactpodcast.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.simplecast.com/JoR28o79"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://image.simplecastcdn.com/images/bdb43d4d-bd1d-4fbc-bd60-40f1e3299aa3/20f97d0b-6dab-4005-a995-0ab8fc2cf31c/3000x3000/1550288890-artwork.jpg?aid=rss_feed"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://cdn.simplecast.com/audio/bdb43d4d-bd1d-4fbc-bd60-40f1e3299aa3/episodes/a6363455-0a0e-460f-8074-75f4f5e84775/audio/620d2586-389b-44c7-80ad-25703fd52094/default_tc.mp3?aid=rss_feed&feed=JoR28o79"
+        }
+      }
+    },
+    {
+      "id": "angular-show",
+      "name": "The Angular Show",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://ng.show"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://www.spreaker.com/show/4175221/episodes/feed"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/fcc772975a2e6b3cf9d89de273b79fb5.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76050794/rainer_murat_final.mp3"
+        }
+      }
+    },
+    {
+      "id": "ai-engineering",
+      "name": "The AI Engineering Podcast",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://aiengineeringpodcast.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://serve.podhome.fm/rss/c9abdd38-a5dc-5eb2-96fd-f833f93208a7"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://assets.podhome.fm/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557211890591941ai_engineering_podcast_logo.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/639276278041101179cbed4fc8-6df2-48d5-9073-bd25792c5a73.mp3"
+        }
+      }
+    },
+    {
+      "id": "practical-ai",
+      "name": "Practical AI",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://changelog.com/practicalai"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://changelog.com/practicalai/feed"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://img.transistorcdn.com/WMlp2ug34XB6LDJ3-vnzti_-_y144LUlFW0Xzzn3fss/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wMTZi/ZWJmNWIwNDdmYTcw/NGJjMTExZjNjZmYy/M2ZjNS5wbmc.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/1b301bdc/b7154aa0.mp3"
+        }
+      }
+    },
+    {
+      "id": "latent-space",
+      "name": "Latent Space",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.latent.space/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://api.substack.com/feed/podcast/1084089.rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1bcf7-771f-7c67-ba1d-94f856e787b0/01a1bcf7-78db-7028-b115-7c753e3b3b76.mp3"
+        }
+      }
+    },
+    {
+      "id": "twiml",
+      "name": "This Week in Machine Learning & AI",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://twimlai.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.megaphone.fm/MLN2155636147"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://megaphone.imgix.net/podcasts/35230150-ee98-11eb-ad1a-b38cbabcd053/image/TWIML_AI_Podcast_Official_Cover_Art_1400px.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN7947684039.mp3"
+        }
+      }
+    },
+    {
+      "id": "data-engineering-podcast",
+      "name": "Data Engineering Podcast",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://www.dataengineeringpodcast.com/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://serve.podhome.fm/rss/1c0357c0-6aba-5766-a2d5-2090d8dab6bc"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://assets.podhome.fm/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557928872209534cover.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://op3.dev/e/dts.podtrac.com/redirect.mp3/serve.podhome.fm/episode/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/6392906730033367709a988d34-3c66-4046-8588-51f31d477173.mp3"
+        }
+      }
+    },
+    {
+      "id": "devjourney",
+      "name": "Developer Journey",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://devjourney.info/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.buzzsprout.com/190346.rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://storage.buzzsprout.com/0osjnkhcanlx3md9p4ozc3bqjyhb?.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://www.buzzsprout.com/190346/episodes/14790983-300-celebrating-a-journey-of-connection-diversity-and-discovery.mp3"
+        }
+      }
+    },
+    {
+      "id": "soft-skills-engineering",
+      "name": "Soft Skills Engineering",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://softskills.audio/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://softskills.audio/feed.xml"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://download.softskills.audio/sse-cover-art.png"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-537.mp3?source=rss"
+        }
+      }
+    },
+    {
+      "id": "maintainable",
+      "name": "Maintainable",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://maintainable.fm/"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://feeds.simplecast.com/7y1CbAbN"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://image.simplecastcdn.com/images/d4c323fd-afaa-4b98-9a29-0b4c80b447b9/b878e177-a030-42aa-8e43-31f7f24c91cd/3000x3000/maintainable-curl.jpg?aid=rss_feed"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://cdn.simplecast.com/media/audio/transcoded/fa45096d-ed10-4a46-90b7-c2a148ae728a/8009a438-929c-46f2-815a-840a5135defe/episodes/audio/group/4e69c04a-71e0-4ddf-9d5f-43d020652596/group-item/70d82eaa-e6db-4054-94cb-e16253dfc1d1/128_default_tc.mp3?aid=rss_feed&feed=7y1CbAbN"
+        }
+      }
+    },
+    {
+      "id": "ship-it",
+      "name": "Ship It!",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://changelog.com/shipit"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://changelog.com/shipit/feed"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://cdn.changelog.com/uploads/covers/ship-it-original.png?v=63787880447"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://op3.dev/e/https://cdn.changelog.com/uploads/shipit/135/ship-it-135.mp3"
+        }
+      }
+    }
+  ]
+}

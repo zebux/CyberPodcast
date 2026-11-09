@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CppCast · CyberPodcast</title>
+  <meta name="description" content="The first podcast for C++ developers, by C++ developers!">
+  <link rel="canonical" href="https://zebux.github.io/CyberPodcast/podcast/cppcast.html">
+  <meta name="theme-color" content="#080d1c">
+  <meta property="og:site_name" content="CyberPodcast">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="CppCast · CyberPodcast">
+  <meta property="og:description" content="The first podcast for C++ developers, by C++ developers!">
+  <meta property="og:url" content="https://zebux.github.io/CyberPodcast/podcast/cppcast.html">
+  <meta property="og:image" content="https://cppcast.com/static/cppcast-logo-square.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CppCast · CyberPodcast">
+  <meta name="twitter:description" content="The first podcast for C++ developers, by C++ developers!">
+  <meta name="twitter:image" content="https://cppcast.com/static/cppcast-logo-square.png">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="CyberPodcast · Derniers épisodes" href="../feed.xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script>
+(function () {
+  try {
+    var stored = localStorage.getItem('cyberpodcast-theme');
+    var theme = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.theme = theme;
+  } catch (error) {}
+})();
+</script>
+  <script src="../assets/app.js" defer></script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"PodcastSeries","name":"CppCast","url":"https://zebux.github.io/CyberPodcast/podcast/cppcast.html","description":"The first podcast for C++ developers, by C++ developers!","image":"https://cppcast.com/static/cppcast-logo-square.png","webFeed":"https://cppcast.com/feed.rss","inLanguage":"en","author":[{"@type":"Person","name":"Rob Irving"},{"@type":"Person","name":"Jason Turner"}],"sameAs":["https://cppcast.com/","https://podcasts.apple.com/us/podcast/cppcast/id968703120?uo=4","https://open.spotify.com/show/3NPVzS05lvJLv3ovgF3OAP"]}</script>
+</head>
+<body class="">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html" aria-label="CyberPodcast, accueil">
+        <span class="brand-mark">CP</span>
+        <span class="brand-text">Cyber<span>Podcast</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a class="nav-link" href="../index.html">Podcasts</a>
+        <a class="nav-link" href="../sujets.html">Sujets</a>
+        <a class="nav-link" href="../statistiques.html">Statistiques</a>
+        <a class="nav-link" href="../a-propos.html">À propos</a>
+        <a class="nav-link" href="../rapport.html">Rapport</a>
+        <a class="nav-link nav-external" href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="detail" id="contenu">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane">
+      <a href="../index.html">Podcasts</a><span>/</span><span>CppCast</span>
+    </nav>
+    <section class="detail-hero">
+      <div class="cover cover-lg"><img src="https://cppcast.com/static/cppcast-logo-square.png" alt="Pochette de CppCast" decoding="async" referrerpolicy="no-referrer"></div>
+      <div class="detail-intro">
+        <div class="detail-badges"><span class="badge status-active">Actif</span><span class="badge badge-soft">Mensuel (~28 j)</span></div>
+        <h1>CppCast</h1>
+        <p class="detail-hosts">Rob Irving, Jason Turner</p>
+        <p class="lead">The first podcast for C++ developers, by C++ developers!</p>
+        <div class="chips"><a class="chip" href="../index.html?topic=D%C3%A9veloppement&amp;category=&amp;status=&amp;language=">Développement</a><a class="chip" href="../index.html?topic=C%2B%2B&amp;category=&amp;status=&amp;language=">C++</a></div>
+        <div class="detail-actions">
+          <button class="button favorite-btn" type="button" data-id="cppcast" aria-pressed="false" aria-label="Ajouter CppCast aux favoris" title="Ajouter aux favoris"><span class="heart">♡</span><span class="favorite-label">Ajouter aux favoris</span></button>
+          <a class="button button-secondary" href="https://cppcast.com/feed.rss" target="_blank" rel="noopener noreferrer">Flux RSS</a>
+          <a class="button button-secondary" href="https://cppcast.com/" target="_blank" rel="noopener noreferrer">Site officiel ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="detail-grid">
+      <section class="panel">
+        <div class="panel-head"><h2>Dernier épisode</h2><span class="muted">02/11/2026</span></div>
+
+        <div class="player-card">
+          <p class="player-title">Learning C++ With C++26&#x27;s Reflection</p>
+          <audio id="main-player" controls preload="metadata" src="https://media.transistor.fm/0ff102b0/a38f0b23.mp3"></audio>
+          <a class="link" href="https://cppcast.com/learning_cpp_with_cpp26s_reflection/" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Voir l’épisode</a>
+        </div>
+        <h2>Épisodes récents</h2>
+        <ol class="episode-list">
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">02/11/2026</span>
+            <h3><a href="https://cppcast.com/learning_cpp_with_cpp26s_reflection/" target="_blank" rel="noopener noreferrer">Learning C++ With C++26&#x27;s Reflection</a></h3>
+          </div>
+          <span class="episode-duration">57 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://media.transistor.fm/0ff102b0/a38f0b23.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">05/10/2026</span>
+            <h3><a href="https://cppcast.com/safety_and_interoperability_with_rust_and_cpp/" target="_blank" rel="noopener noreferrer">Safety and Interoperability with Rust and C++</a></h3>
+          </div>
+          <span class="episode-duration">69 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://media.transistor.fm/0175d78b/f38b0822.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">07/09/2026</span>
+            <h3><a href="https://cppcast.com/running_conferences_and_processing_credit_cards_with_kevin_carpenter/" target="_blank" rel="noopener noreferrer">Running Conferences and Processing Credit Cards with Kevin Carpenter</a></h3>
+          </div>
+          <span class="episode-duration">68 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://media.transistor.fm/d70aa9e6/6ac159e7.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">10/08/2026</span>
+            <h3><a href="https://cppcast.com/from_self_taught_to_committee_members_first_accepted_paper/" target="_blank" rel="noopener noreferrer">From Self Taught to Committee Member&#x27;s First Accepted Paper</a></h3>
+          </div>
+          <span class="episode-duration">63 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://media.transistor.fm/be29f77b/86621f4b.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">13/07/2026</span>
+            <h3><a href="https://cppcast.com/40_years_of_programming_and_embeddable_programming_languages_with_mark_guidarelli/" target="_blank" rel="noopener noreferrer">40 Years of Programming and Embeddable Programming Languages with Mark Guidarelli</a></h3>
+          </div>
+          <span class="episode-duration">77 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://media.transistor.fm/8c0e48ed/2f384f6a.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">22/06/2026</span>
+            <h3><a href="https://cppcast.com/teaching_cpp_to_game_development_students_in_the_age_of_llms_with_tom_tesch/" target="_blank" rel="noopener noreferrer">Teaching C++ to Game Development Students in the Age of LLMs with Tom Tesch</a></h3>
+          </div>
+          <span class="episode-duration">71 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://media.transistor.fm/1cdcebb7/3710a93b.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">18/05/2026</span>
+            <h3><a href="https://cppcast.com/gpu_programming_and_hlsl_with_chris_bieneman/" target="_blank" rel="noopener noreferrer">GPU Programming and HLSL with Chris Bieneman</a></h3>
+          </div>
+          <span class="episode-duration">68 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://media.transistor.fm/7dbd9348/1462828f.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">20/04/2026</span>
+            <h3><a href="https://cppcast.com/compiler_warnings_as_errors_with_keith_stockdale/" target="_blank" rel="noopener noreferrer">Compiler Warnings as Errors with Keith Stockdale</a></h3>
+          </div>
+          <span class="episode-duration">65 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://media.transistor.fm/9220825a/0d11476a.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">06/04/2026</span>
+            <h3><a href="https://cppcast.com/a_compiler_insider_the_compiler_with_daniel_nikpayuk/" target="_blank" rel="noopener noreferrer">Building a Compiler Inside the C++ Compiler with Daniel Nikpayuk</a></h3>
+          </div>
+          <span class="episode-duration">59 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://media.transistor.fm/d1f56079/2a2f06e0.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">23/02/2026</span>
+            <h3><a href="https://cppcast.com/job_hunting_and_optimizing_compilers_with_jamie_pendergast/" target="_blank" rel="noopener noreferrer">Job Hunting and Optimizing Compilers with Jamie Pendergast</a></h3>
+          </div>
+          <span class="episode-duration">52 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://media.transistor.fm/4ef28f46/c6ee8ab7.mp3"></audio>
+      </li></ol>
+      </section>
+      <aside class="panel">
+        <h2>Informations</h2>
+        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>Rob Irving, Jason Turner</dd></div><div><dt>Auteur</dt><dd>Jason Turner &amp; Mathieu Ropert</dd></div><div><dt>Langue</dt><dd>Anglais · US</dd></div><div><dt>Dernier épisode</dt><dd>02/11/2026</dd></div><div><dt>Rythme</dt><dd>Mensuel (~28 j)</dd></div><div><dt>Épisodes</dt><dd>412</dd></div><div><dt>Durée moyenne</dt><dd>62 min</dd></div><div><dt>Note Apple</dt><dd>4.8/5 (106)</dd></div><div><dt>Plateforme</dt><dd>Spotify</dd></div><div><dt>Pays</dt><dd>US</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>09/11/2026</dd></div></dl>
+        <h2>Liens d’écoute</h2>
+        <div class="links"><a class="link link-site" href="https://cppcast.com/" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Site</a><a class="link link-rss" href="https://cppcast.com/feed.rss" target="_blank" rel="noopener noreferrer"><span class="dot"></span>RSS</a><a class="link link-apple" href="https://podcasts.apple.com/us/podcast/cppcast/id968703120?uo=4" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Apple</a><a class="link link-spotify" href="https://open.spotify.com/show/3NPVzS05lvJLv3ovgF3OAP" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Spotify</a><a class="link link-pocketcasts" href="https://pca.st/2onqeys1" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Pocket Casts</a><a class="link link-podcastaddict" href="https://podcastaddict.com/podcast/2201996" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Podcast Addict</a></div>
+        <h2>Sujets</h2><div class="chips"><a class="chip" href="../index.html?topic=D%C3%A9veloppement&amp;category=&amp;status=&amp;language=">Développement</a><a class="chip" href="../index.html?topic=C%2B%2B&amp;category=&amp;status=&amp;language=">C++</a></div>
+        <h2>Tags</h2><div class="tags"><span class="tag">C++</span></div>
+      </aside>
+    </div>
+
+    <section class="related">
+      <h2>À découvrir aussi</h2>
+      <div class="related-grid">
+    <a class="mini-card" href="../podcast/dotnet-rocks.html">
+      <div class="mini-cover"><img src="https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d609b60f7cc16bfd0e6416ce8d5596ec.jpg" alt="Pochette de .NET Rocks!" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>.NET Rocks!</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/developer-voice.html">
+      <div class="mini-cover"><img src="https://media.zencastr.com/image-files/619e48a9649c44004c5a44e8/cde8d1f5-e1f1-4c33-9f47-781a27ad1d2e.png" alt="Pochette de Developer Voices" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Developer Voices</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/if-this-then-dev.html">
+      <div class="mini-cover"><img src="https://static.audiomeans.fr/img/podcast/b0f6c0ee-41d3-4406-9d0c-7ef45174c4b8.jpg" alt="Pochette de If This Then Dev" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>If This Then Dev</strong>
+        <small>Actif · Français · FR</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/les-cast-codeurs.html">
+      <div class="mini-cover"><img src="https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/27/d4/c2/27d4c27c-6cd5-b27d-de7f-e683c79e5442/mza_6557719921920703431.png/600x600bb.jpg" alt="Pochette de Les Cast Codeurs" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Les Cast Codeurs</strong>
+        <small>Actif · Français · FR</small>
+      </span>
+    </a></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <span>Données enrichies automatiquement · dernière mise à jour 09/11/2026 · <a href="../a-propos.html">méthode</a></span>
+    <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="../feed.xml">RSS</a> · <a href="../api/podcasts.json">API JSON</a></span>
+  </footer>
+</body>
+</html>

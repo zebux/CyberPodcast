@@ -42,8 +42,21 @@ USER_AGENT = (
 HEADERS = {"User-Agent": USER_AGENT, "Accept": "*/*"}
 CACHE_TTL = 24 * 3600
 HTTP_TIMEOUT = 20
+EPISODE_LIMIT = 10
 
 TODAY = datetime.now(timezone.utc).date()
+
+# Liens de plateformes détectés dans les pages officielles et les flux.
+PLATFORM_LINK_PATTERNS: dict[str, str] = {
+    "deezer": r"https?://(?:www\.)?deezer\.com/[^\"'<>\s]*?/show/\d+",
+    "pocket_casts": r"https?://(?:pca\.st|pocketcasts\.com)/[^\"'<>\s]+",
+    "podcast_addict": r"https?://podcastaddict\.com/podcast/[^\"'<>\s]+",
+    "amazon_music": r"https?://music\.amazon\.[^\"'<>\s]+/podcasts/[^\"'<>\s]+",
+    "castbox": r"https?://castbox\.fm/[^\"'<>\s]+",
+    "youtube": r"https?://(?:www\.)?(?:youtube\.com|youtu\.be)/[^\"'<>\s]+",
+    "spotify": r"https?://open\.spotify\.com/show/[^\"'<>\s]+",
+    "apple_podcast": r"https?://podcasts\.apple\.com/[^\"'<>\s]+/podcast/[^\"'<>\s]+",
+}
 
 PLATFORMS: list[tuple[str, tuple[str, ...]]] = [
     ("Ausha", ("ausha.co", "ausha")),
@@ -291,6 +304,14 @@ def normalize_url(url: str | None) -> str | None:
     return url
 
 
+def clean_url(url: str | None) -> str | None:
+    if not url:
+        return None
+    value = html.unescape(str(url)).strip()
+    value = value.rstrip(".,;:)\\\"'")
+    return normalize_url(value)
+
+
 def http_get(url: str, *, timeout: int = HTTP_TIMEOUT) -> requests.Response | None:
     url = normalize_url(url) or url
     try:
@@ -449,10 +470,10 @@ def discover_feed(website: str | None) -> str | None:
     """Cherche le flux RSS officiel depuis le site (autodiscovery + plateformes)."""
     if not website:
         return None
-    response = http_get(website)
-    if response is None or not response.ok:
+    content = fetch_cached(website, "site", ".html")
+    if not content:
         return None
-    text = response.text
+    text = content.decode("utf-8", "ignore")
     candidates: list[str] = []
 
     for tag in re.findall(r"<link[^>]+>", text, re.IGNORECASE):
@@ -617,6 +638,123 @@ def feed_date(entry: Any) -> datetime | None:
     return None
 
 
+def entry_audio_url(entry: Any) -> str | None:
+    for link in entry.get("links", []) or []:
+        if link.get("rel") != "enclosure":
+            continue
+        href = link.get("href")
+        if not href:
+            continue
+        content_type = str(link.get("type") or "").lower()
+        if content_type.startswith("audio") or not content_type:
+            return clean_url(href)
+    return None
+
+
+def extract_episodes(feed_entries: list[Any]) -> list[dict[str, Any]]:
+    episodes: list[dict[str, Any]] = []
+    ordered = sorted(
+        feed_entries,
+        key=lambda item: feed_date(item) or datetime.min.replace(tzinfo=timezone.utc),
+        reverse=True,
+    )
+    for entry in ordered:
+        title = clean_text(entry.get("title"), 200)
+        if not title:
+            continue
+        date = feed_date(entry)
+        url = clean_url(entry.get("link"))
+        if not url:
+            for link in entry.get("links", []) or []:
+                if link.get("rel") == "alternate" and link.get("href"):
+                    url = clean_url(link.get("href"))
+                    break
+        duration = episode_duration(entry)
+        episodes.append(
+            {
+                "title": title,
+                "published": date.date().isoformat() if date else None,
+                "url": url,
+                "audio": entry_audio_url(entry),
+                "duration": round(duration) if duration else None,
+            }
+        )
+        if len(episodes) >= EPISODE_LIMIT:
+            break
+    return episodes
+
+
+def compute_frequency(episodes: list[dict[str, Any]]) -> tuple[str | None, int | None]:
+    dates = sorted(
+        {
+            datetime.strptime(episode["published"], "%Y-%m-%d").date()
+            for episode in episodes
+            if episode.get("published")
+        },
+        reverse=True,
+    )
+    if len(dates) < 2:
+        return None, None
+    gaps = [
+        (newer - older).days
+        for newer, older in zip(dates, dates[1:])
+        if (newer - older).days > 0
+    ]
+    if not gaps:
+        return None, None
+    days = round(statistics.median(gaps[:12]))
+    if days <= 3:
+        frequency = "daily"
+    elif days <= 10:
+        frequency = "weekly"
+    elif days <= 21:
+        frequency = "biweekly"
+    elif days <= 45:
+        frequency = "monthly"
+    elif days <= 120:
+        frequency = "quarterly"
+    else:
+        frequency = "irregular"
+    return frequency, days
+
+
+def feed_image(feed_meta: Any, feed_entries: list[Any]) -> str | None:
+    image = feed_meta.get("image") if hasattr(feed_meta, "get") else None
+    if isinstance(image, dict) and image.get("href"):
+        return clean_url(image.get("href"))
+    for entry in feed_entries:
+        image = entry.get("image") if hasattr(entry, "get") else None
+        if isinstance(image, dict) and image.get("href"):
+            return clean_url(image.get("href"))
+        for link in entry.get("links", []) or []:
+            if str(link.get("rel") or "").lower() == "image" and link.get("href"):
+                return clean_url(link.get("href"))
+    return None
+
+
+def discover_platform_links(
+    website: str | None, feed_meta: Any, feed_entries: list[Any]
+) -> dict[str, str | None]:
+    parts: list[str] = []
+    if website:
+        content = fetch_cached(website, "site", ".html")
+        if content:
+            parts.append(content.decode("utf-8", "ignore"))
+    if hasattr(feed_meta, "get"):
+        parts.append(str(feed_meta.get("link") or ""))
+        parts.append(str(feed_meta.get("generator") or ""))
+    for entry in feed_entries[:5]:
+        parts.append(str(entry.get("link") or ""))
+        for link in entry.get("links", []) or []:
+            parts.append(str(link.get("href") or ""))
+    haystack = " ".join(part for part in parts if part)
+    found: dict[str, str | None] = {}
+    for field, pattern in PLATFORM_LINK_PATTERNS.items():
+        match = re.search(pattern, haystack, re.IGNORECASE)
+        found[field] = clean_url(match.group(0)) if match else None
+    return found
+
+
 def detect_platform(hints: list[str]) -> str | None:
     haystack = " ".join(h for h in hints if h).lower()
     for name, needles in PLATFORMS:
@@ -724,8 +862,23 @@ FALLBACK_FIELDS = (
     "spotify",
     "apple_podcast",
     "linkedin",
+    "deezer",
+    "pocket_casts",
+    "podcast_addict",
+    "amazon_music",
+    "castbox",
+    "image",
+    "author",
     "description",
     "last_episode",
+    "last_episode_title",
+    "last_episode_url",
+    "last_episode_audio",
+    "last_episode_duration",
+    "episodes",
+    "frequency",
+    "frequency_days",
+    "first_seen",
     "episode_count",
     "average_duration",
     "community_rating",
@@ -796,6 +949,16 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
 
     feed_entries = list(feed.entries) if feed and feed.entries else []
 
+    episodes = overrides.get("episodes") or seed.get("episodes") or extract_episodes(feed_entries)
+    if not isinstance(episodes, list):
+        episodes = []
+    latest_episode = episodes[0] if episodes else {}
+    frequency, frequency_days = compute_frequency(episodes)
+    if overrides.get("frequency"):
+        frequency = overrides["frequency"]
+    if overrides.get("frequency_days") is not None:
+        frequency_days = int(overrides["frequency_days"])
+
     last_dt: datetime | None = None
     timed_entries: list[tuple[datetime, float | None]] = []
     for item in feed_entries:
@@ -805,8 +968,31 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
         timed_entries.append((date or datetime.min.replace(tzinfo=timezone.utc), episode_duration(item)))
 
     last_episode = overrides.get("last_episode") or seed.get("last_episode")
+    if not last_episode:
+        last_episode = latest_episode.get("published")
     if last_dt and not overrides.get("last_episode"):
         last_episode = last_dt.date().isoformat()
+
+    last_episode_title = (
+        overrides.get("last_episode_title")
+        or seed.get("last_episode_title")
+        or latest_episode.get("title")
+    )
+    last_episode_url = (
+        overrides.get("last_episode_url")
+        or seed.get("last_episode_url")
+        or latest_episode.get("url")
+    )
+    last_episode_audio = (
+        overrides.get("last_episode_audio")
+        or seed.get("last_episode_audio")
+        or latest_episode.get("audio")
+    )
+    last_episode_duration = (
+        overrides.get("last_episode_duration")
+        or seed.get("last_episode_duration")
+        or latest_episode.get("duration")
+    )
 
     itunes_count = itunes.get("trackCount") if itunes else None
     try:
@@ -824,9 +1010,6 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
         recent_durations = [duration for _, duration in recent if duration]
         if len(recent_durations) >= max(3, len(recent) // 2):
             average_duration = round(statistics.median(recent_durations))
-
-    if website and not url_ok(website):
-        log(f"  ! site invalide: {website}")
 
     description = (
         overrides.get("description")
@@ -856,7 +1039,12 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
         or categories
     )
 
+    discovered_links = discover_platform_links(website, feed_meta, feed_entries)
+    if not apple_url:
+        apple_url = discovered_links.get("apple_podcast")
+
     hints = [rss_url or "", website or "", feed_meta.get("generator", "")]
+    hints.extend(value for value in discovered_links.values() if value)
     if feed_entries:
         hints.append(str(feed_entries[0].get("id", "")))
         for link in feed_entries[0].get("links", []):
@@ -888,9 +1076,26 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
         if rating_count is None:
             rating_count = apple_count
 
-    youtube = overrides.get("youtube") or seed.get("youtube")
-    spotify = overrides.get("spotify") or seed.get("spotify")
+    youtube = (
+        overrides.get("youtube")
+        or seed.get("youtube")
+        or discovered_links.get("youtube")
+    )
+    spotify = (
+        overrides.get("spotify")
+        or seed.get("spotify")
+        or discovered_links.get("spotify")
+    )
     linkedin = overrides.get("linkedin") or seed.get("linkedin")
+    image = overrides.get("image") or seed.get("image") or feed_image(feed_meta, feed_entries)
+    if not image and itunes:
+        image = itunes.get("artworkUrl600") or itunes.get("artworkUrl100")
+    author = (
+        overrides.get("author")
+        or seed.get("author")
+        or feed_author
+        or (itunes or {}).get("artistName")
+    )
 
     result: dict[str, Any] = {
         "id": entry_id,
@@ -907,8 +1112,42 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
         "spotify": normalize_url(spotify),
         "apple_podcast": normalize_url(apple_url),
         "linkedin": normalize_url(linkedin),
+        "deezer": normalize_url(
+            overrides.get("deezer") or seed.get("deezer") or discovered_links.get("deezer")
+        ),
+        "pocket_casts": normalize_url(
+            overrides.get("pocket_casts")
+            or seed.get("pocket_casts")
+            or discovered_links.get("pocket_casts")
+        ),
+        "podcast_addict": normalize_url(
+            overrides.get("podcast_addict")
+            or seed.get("podcast_addict")
+            or discovered_links.get("podcast_addict")
+        ),
+        "amazon_music": normalize_url(
+            overrides.get("amazon_music")
+            or seed.get("amazon_music")
+            or discovered_links.get("amazon_music")
+        ),
+        "castbox": normalize_url(
+            overrides.get("castbox")
+            or seed.get("castbox")
+            or discovered_links.get("castbox")
+        ),
+        "image": normalize_url(image),
+        "author": author,
         "description": description,
         "last_episode": last_episode,
+        "last_episode_title": last_episode_title,
+        "last_episode_url": normalize_url(last_episode_url),
+        "last_episode_audio": normalize_url(last_episode_audio),
+        "last_episode_duration": last_episode_duration,
+        "episodes": episodes,
+        "frequency": frequency,
+        "frequency_days": frequency_days,
+        "first_seen": (previous.get(entry_id) or {}).get("first_seen") or TODAY.isoformat(),
+        "updated_at": TODAY.isoformat(),
         "episode_count": episode_count,
         "average_duration": average_duration,
         "status": status,
@@ -970,7 +1209,7 @@ def merge_duplicates(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 def write_output(entries: list[dict[str, Any]]) -> None:
     payload = {
-        "version": 2,
+        "version": 3,
         "count": len(entries),
         "podcasts": entries,
     }

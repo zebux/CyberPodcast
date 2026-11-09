@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Syntax · CyberPodcast</title>
+  <meta name="description" content="Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like…">
+  <link rel="canonical" href="https://zebux.github.io/CyberPodcast/podcast/syntax.html">
+  <meta name="theme-color" content="#080d1c">
+  <meta property="og:site_name" content="CyberPodcast">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Syntax · CyberPodcast">
+  <meta property="og:description" content="Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like…">
+  <meta property="og:url" content="https://zebux.github.io/CyberPodcast/podcast/syntax.html">
+  <meta property="og:image" content="https://megaphone.imgix.net/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Syntax · CyberPodcast">
+  <meta name="twitter:description" content="Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like…">
+  <meta name="twitter:image" content="https://megaphone.imgix.net/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="CyberPodcast · Derniers épisodes" href="../feed.xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script>
+(function () {
+  try {
+    var stored = localStorage.getItem('cyberpodcast-theme');
+    var theme = stored === 'light' || stored === 'dark'
+      ? stored
+      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.theme = theme;
+  } catch (error) {}
+})();
+</script>
+  <script src="../assets/app.js" defer></script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"PodcastSeries","name":"Syntax","url":"https://zebux.github.io/CyberPodcast/podcast/syntax.html","description":"Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like…","image":"https://megaphone.imgix.net/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress","webFeed":"https://feed.syntax.fm","inLanguage":"en","author":[{"@type":"Person","name":"Wes Bos"},{"@type":"Person","name":"Scott Tolinski"}],"sameAs":["https://syntax.fm/","https://podcasts.apple.com/us/podcast/syntax/id1613894378?uo=4","https://open.spotify.com/show/4kYCRYJ3yK5DQbP5tbfZby?si=bOe7-kl6RnOHapMsVnFWgw","https://www.youtube.com/@syntaxfm"]}</script>
+</head>
+<body class="">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html" aria-label="CyberPodcast, accueil">
+        <span class="brand-mark">CP</span>
+        <span class="brand-text">Cyber<span>Podcast</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a class="nav-link" href="../index.html">Podcasts</a>
+        <a class="nav-link" href="../sujets.html">Sujets</a>
+        <a class="nav-link" href="../statistiques.html">Statistiques</a>
+        <a class="nav-link" href="../a-propos.html">À propos</a>
+        <a class="nav-link" href="../rapport.html">Rapport</a>
+        <a class="nav-link nav-external" href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="detail" id="contenu">
+    <nav class="breadcrumb" aria-label="Fil d’Ariane">
+      <a href="../index.html">Podcasts</a><span>/</span><span>Syntax</span>
+    </nav>
+    <section class="detail-hero">
+      <div class="cover cover-lg"><img src="https://megaphone.imgix.net/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" alt="Pochette de Syntax" decoding="async" referrerpolicy="no-referrer"></div>
+      <div class="detail-intro">
+        <div class="detail-badges"><span class="badge status-active">Actif</span><span class="badge badge-soft">Hebdomadaire (~5 j)</span></div>
+        <h1>Syntax</h1>
+        <p class="detail-hosts">Wes Bos, Scott Tolinski</p>
+        <p class="lead">Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like…</p>
+        <div class="chips"><a class="chip" href="../index.html?topic=D%C3%A9veloppement&amp;category=&amp;status=&amp;language=">Développement</a><a class="chip" href="../index.html?topic=JavaScript&amp;category=&amp;status=&amp;language=">JavaScript</a></div>
+        <div class="detail-actions">
+          <button class="button favorite-btn" type="button" data-id="syntax" aria-pressed="false" aria-label="Ajouter Syntax aux favoris" title="Ajouter aux favoris"><span class="heart">♡</span><span class="favorite-label">Ajouter aux favoris</span></button>
+          <a class="button button-secondary" href="https://feed.syntax.fm" target="_blank" rel="noopener noreferrer">Flux RSS</a>
+          <a class="button button-secondary" href="https://syntax.fm/" target="_blank" rel="noopener noreferrer">Site officiel ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="detail-grid">
+      <section class="panel">
+        <div class="panel-head"><h2>Dernier épisode</h2><span class="muted">09/11/2026</span></div>
+
+        <div class="player-card">
+          <p class="player-title">1054: Reddit Closing it’s Doors</p>
+          <audio id="main-player" controls preload="metadata" src="https://traffic.megaphone.fm/FSI5980748523.mp3"></audio>
+          <a class="link" href="https://syntax.fm/1054" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Voir l’épisode</a>
+        </div>
+        <h2>Épisodes récents</h2>
+        <ol class="episode-list">
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">09/11/2026</span>
+            <h3><a href="https://syntax.fm/1054" target="_blank" rel="noopener noreferrer">1054: Reddit Closing it’s Doors</a></h3>
+          </div>
+          <span class="episode-duration">96 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://traffic.megaphone.fm/FSI5980748523.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">04/11/2026</span>
+            <h3><a href="https://syntax.fm/1053" target="_blank" rel="noopener noreferrer">1053: What’s in Our Home Lab</a></h3>
+          </div>
+          <span class="episode-duration">81 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://traffic.megaphone.fm/FSI3828886334.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">02/11/2026</span>
+            <h3><a href="https://syntax.fm/1052" target="_blank" rel="noopener noreferrer">1052: Github Universe Keynote Recap</a></h3>
+          </div>
+          <span class="episode-duration">39 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://traffic.megaphone.fm/FSI4626542802.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">28/10/2026</span>
+            <h3><a href="https://syntax.fm/1051" target="_blank" rel="noopener noreferrer">1051: Mourning the Death of Code</a></h3>
+          </div>
+          <span class="episode-duration">58 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://traffic.megaphone.fm/FSI5922299313.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">26/10/2026</span>
+            <h3><a href="https://syntax.fm/1050" target="_blank" rel="noopener noreferrer">1050 - Everyone Is Hacking Their TV</a></h3>
+          </div>
+          <span class="episode-duration">80 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://traffic.megaphone.fm/FSI2480265141.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">21/10/2026</span>
+            <h3><a href="https://syntax.fm/1049" target="_blank" rel="noopener noreferrer">1049: WTF is a Software Factory?</a></h3>
+          </div>
+          <span class="episode-duration">58 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://traffic.megaphone.fm/FSI9752067287.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">19/10/2026</span>
+            <h3><a href="https://syntax.fm/1048" target="_blank" rel="noopener noreferrer">1048: Deno Is Dead</a></h3>
+          </div>
+          <span class="episode-duration">100 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://traffic.megaphone.fm/FSI8730245538.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">14/10/2026</span>
+            <h3><a href="https://syntax.fm/1047" target="_blank" rel="noopener noreferrer">1047: Adobe has a big problem</a></h3>
+          </div>
+          <span class="episode-duration">35 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://traffic.megaphone.fm/FSI7349663145.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">12/10/2026</span>
+            <h3><a href="https://syntax.fm/1046" target="_blank" rel="noopener noreferrer">1046: The Pi Updates are insane</a></h3>
+          </div>
+          <span class="episode-duration">100 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://traffic.megaphone.fm/FSI5030969566.mp3"></audio>
+      </li>
+      <li class="episode">
+        <div class="episode-head">
+          <div>
+            <span class="episode-date">07/10/2026</span>
+            <h3><a href="https://syntax.fm/1045" target="_blank" rel="noopener noreferrer">1045: Who can actually max out 5 AI subscriptions?</a></h3>
+          </div>
+          <span class="episode-duration">52 min</span>
+        </div>
+        <audio class="episode-audio" controls preload="none" src="https://traffic.megaphone.fm/FSI3285705008.mp3"></audio>
+      </li></ol>
+      </section>
+      <aside class="panel">
+        <h2>Informations</h2>
+        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>Wes Bos, Scott Tolinski</dd></div><div><dt>Auteur</dt><dd>Wes Bos</dd></div><div><dt>Langue</dt><dd>Anglais · US</dd></div><div><dt>Dernier épisode</dt><dd>09/11/2026</dd></div><div><dt>Rythme</dt><dd>Hebdomadaire (~5 j)</dd></div><div><dt>Épisodes</dt><dd>1 054</dd></div><div><dt>Durée moyenne</dt><dd>66 min</dd></div><div><dt>Note Apple</dt><dd>4.5/5 (72)</dd></div><div><dt>Plateforme</dt><dd>Spotify</dd></div><div><dt>Pays</dt><dd>US</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>09/11/2026</dd></div></dl>
+        <h2>Liens d’écoute</h2>
+        <div class="links"><a class="link link-site" href="https://syntax.fm/" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Site</a><a class="link link-rss" href="https://feed.syntax.fm" target="_blank" rel="noopener noreferrer"><span class="dot"></span>RSS</a><a class="link link-apple" href="https://podcasts.apple.com/us/podcast/syntax/id1613894378?uo=4" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Apple</a><a class="link link-spotify" href="https://open.spotify.com/show/4kYCRYJ3yK5DQbP5tbfZby?si=bOe7-kl6RnOHapMsVnFWgw" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Spotify</a><a class="link link-youtube" href="https://www.youtube.com/@syntaxfm" target="_blank" rel="noopener noreferrer"><span class="dot"></span>YouTube</a><a class="link link-pocketcasts" href="https://pca.st/fmx9" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Pocket Casts</a><a class="link link-amazon" href="https://music.amazon.com/podcasts/3f16a46b-6281-4fc7-99de-380fbeb6d970/syntax---tasty-web-development-treats" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Amazon Music</a></div>
+        <h2>Sujets</h2><div class="chips"><a class="chip" href="../index.html?topic=D%C3%A9veloppement&amp;category=&amp;status=&amp;language=">Développement</a><a class="chip" href="../index.html?topic=JavaScript&amp;category=&amp;status=&amp;language=">JavaScript</a></div>
+        <h2>Tags</h2><div class="tags"><span class="tag">JavaScript</span></div>
+      </aside>
+    </div>
+
+    <section class="related">
+      <h2>À découvrir aussi</h2>
+      <div class="related-grid">
+    <a class="mini-card" href="../podcast/javascript-jabber.html">
+      <div class="mini-cover"><img src="https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/1d6a39759b7b8442bda3dde45332e0a5.jpg" alt="Pochette de JavaScript Jabber" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>JavaScript Jabber</strong>
+        <small>Peu actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/react-podcast.html">
+      <div class="mini-cover"><img src="https://image.simplecastcdn.com/images/bdb43d4d-bd1d-4fbc-bd60-40f1e3299aa3/20f97d0b-6dab-4005-a995-0ab8fc2cf31c/3000x3000/1550288890-artwork.jpg?aid=rss_feed" alt="Pochette de React Podcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>React Podcast</strong>
+        <small>Inactif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/dotnet-rocks.html">
+      <div class="mini-cover"><img src="https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d609b60f7cc16bfd0e6416ce8d5596ec.jpg" alt="Pochette de .NET Rocks!" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>.NET Rocks!</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a>
+    <a class="mini-card" href="../podcast/cppcast.html">
+      <div class="mini-cover"><img src="https://cppcast.com/static/cppcast-logo-square.png" alt="Pochette de CppCast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>CppCast</strong>
+        <small>Actif · Anglais · US</small>
+      </span>
+    </a></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <span>Données enrichies automatiquement · dernière mise à jour 09/11/2026 · <a href="../a-propos.html">méthode</a></span>
+    <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="../feed.xml">RSS</a> · <a href="../api/podcasts.json">API JSON</a></span>
+  </footer>
+</body>
+</html>

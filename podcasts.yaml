@@ -23,6 +23,7 @@ podcasts:
   average_duration: 59
   status: slow
   community_rating: 5.0
+  community_rating_count: 3
   platform: Transistor
   topics:
   - Cloud
@@ -52,6 +53,7 @@ podcasts:
   average_duration: null
   status: active
   community_rating: null
+  community_rating_count: null
   platform: autre
   topics:
   - Cloud
@@ -80,6 +82,7 @@ podcasts:
   average_duration: 16
   status: slow
   community_rating: null
+  community_rating_count: null
   platform: Acast
   topics:
   - Cloud
@@ -110,6 +113,7 @@ podcasts:
   average_duration: 12
   status: archived
   community_rating: null
+  community_rating_count: null
   platform: Anchor
   topics:
   - Cloud
@@ -142,6 +146,7 @@ podcasts:
   average_duration: 21
   status: slow
   community_rating: 4.8
+  community_rating_count: 26
   platform: Acast
   topics:
   - Cloud
@@ -178,6 +183,7 @@ podcasts:
   average_duration: null
   status: active
   community_rating: null
+  community_rating_count: null
   platform: autre
   topics:
   - Cloud
@@ -206,6 +212,7 @@ podcasts:
   average_duration: 22
   status: active
   community_rating: 4.6
+  community_rating_count: 5
   platform: Audiomeans
   topics:
   - Cloud
@@ -233,6 +240,7 @@ podcasts:
   average_duration: 43
   status: active
   community_rating: null
+  community_rating_count: null
   platform: Anchor
   topics:
   - Cloud
@@ -261,6 +269,7 @@ podcasts:
   average_duration: null
   status: active
   community_rating: null
+  community_rating_count: null
   platform: autre
   topics:
   - Cloud
@@ -289,6 +298,7 @@ podcasts:
   average_duration: null
   status: active
   community_rating: null
+  community_rating_count: null
   platform: autre
   topics:
   - DevOps
@@ -317,6 +327,7 @@ podcasts:
   average_duration: 33
   status: active
   community_rating: 4.8
+  community_rating_count: 179
   platform: Libsyn
   topics:
   - Cloud
@@ -346,6 +357,7 @@ podcasts:
   average_duration: 37
   status: active
   community_rating: 4.6
+  community_rating_count: 151
   platform: Buzzsprout
   topics:
   - Cloud
@@ -379,6 +391,7 @@ podcasts:
   average_duration: 41
   status: active
   community_rating: 4.6
+  community_rating_count: 68
   platform: Blubrry
   topics:
   - DevOps
@@ -410,6 +423,7 @@ podcasts:
   average_duration: 60
   status: active
   community_rating: 4.7
+  community_rating_count: 69
   platform: Fireside
   topics:
   - Cloud
@@ -441,6 +455,7 @@ podcasts:
   average_duration: 60
   status: active
   community_rating: null
+  community_rating_count: null
   platform: autre
   topics:
   - Cloud
@@ -472,6 +487,7 @@ podcasts:
   average_duration: 31
   status: active
   community_rating: 4.7
+  community_rating_count: 92
   platform: Transistor
   topics:
   - Cloud
@@ -500,6 +516,7 @@ podcasts:
   average_duration: 32
   status: slow
   community_rating: 4.3
+  community_rating_count: 201
   platform: autre
   topics:
   - Cybersécurité
@@ -529,6 +546,7 @@ podcasts:
   average_duration: 22
   status: slow
   community_rating: 4.6
+  community_rating_count: 44
   platform: FeedBurner
   topics:
   - Cloud
@@ -557,6 +575,7 @@ podcasts:
   average_duration: 35
   status: archived
   community_rating: 4.6
+  community_rating_count: 102
   platform: Libsyn
   topics:
   - Cloud
@@ -586,6 +605,7 @@ podcasts:
   average_duration: 42
   status: active
   community_rating: 5.0
+  community_rating_count: 57
   platform: Anchor
   topics:
   - Cybersécurité
@@ -621,6 +641,7 @@ podcasts:
   average_duration: 45
   status: active
   community_rating: null
+  community_rating_count: null
   platform: autre
   topics:
   - Cloud
@@ -653,6 +674,7 @@ podcasts:
   average_duration: 37
   status: active
   community_rating: 4.8
+  community_rating_count: 26
   platform: autre
   topics:
   - Cloud
@@ -687,6 +709,7 @@ podcasts:
   average_duration: 23
   status: archived
   community_rating: 4.6
+  community_rating_count: 449
   platform: Riverside
   topics:
   - Linux
@@ -720,6 +743,7 @@ podcasts:
   average_duration: 15
   status: archived
   community_rating: 4.5
+  community_rating_count: 202
   platform: Fireside
   topics:
   - Linux
@@ -752,6 +776,7 @@ podcasts:
   average_duration: 58
   status: slow
   community_rating: 4.8
+  community_rating_count: 144
   platform: Fireside
   topics:
   - Reverse Engineering
@@ -781,6 +806,7 @@ podcasts:
   average_duration: null
   status: active
   community_rating: 4.6
+  community_rating_count: 168
   platform: autre
   topics:
   - Linux
@@ -811,6 +837,7 @@ podcasts:
   average_duration: 80
   status: active
   community_rating: 4.5
+  community_rating_count: 293
   platform: Art19
   topics:
   - Linux
@@ -840,6 +867,7 @@ podcasts:
   average_duration: 54
   status: active
   community_rating: 4.6
+  community_rating_count: 38
   platform: Fireside
   topics:
   - Linux
@@ -870,6 +898,7 @@ podcasts:
   average_duration: 36
   status: slow
   community_rating: 5.0
+  community_rating_count: 9
   platform: Ausha
   topics:
   - Cybersécurité
@@ -898,6 +927,7 @@ podcasts:
   average_duration: 10
   status: active
   community_rating: 5.0
+  community_rating_count: 2
   platform: Ausha
   topics:
   - Cybersécurité
@@ -926,6 +956,7 @@ podcasts:
   average_duration: null
   status: active
   community_rating: null
+  community_rating_count: null
   platform: autre
   topics:
   - Cybersécurité
@@ -951,6 +982,7 @@ podcasts:
   average_duration: 37
   status: active
   community_rating: 4.7
+  community_rating_count: 47
   platform: RedCircle
   topics:
   - Cybersécurité
@@ -978,6 +1010,7 @@ podcasts:
   average_duration: 35
   status: active
   community_rating: 5.0
+  community_rating_count: 7
   platform: Ausha
   topics:
   - Cybersécurité
@@ -1005,6 +1038,7 @@ podcasts:
   average_duration: 28
   status: active
   community_rating: 5.0
+  community_rating_count: 4
   platform: autre
   topics:
   - Cybersécurité
@@ -1030,6 +1064,7 @@ podcasts:
   average_duration: null
   status: active
   community_rating: 5.0
+  community_rating_count: 10
   platform: autre
   topics:
   - Cybersécurité
@@ -1055,6 +1090,7 @@ podcasts:
   average_duration: 53
   status: active
   community_rating: 4.8
+  community_rating_count: 23
   platform: Anchor
   topics:
   - Cybersécurité
@@ -1080,6 +1116,7 @@ podcasts:
   average_duration: 82
   status: slow
   community_rating: null
+  community_rating_count: null
   platform: Ausha
   topics:
   - Cybersécurité
@@ -1105,6 +1142,7 @@ podcasts:
   average_duration: 22
   status: active
   community_rating: 4.5
+  community_rating_count: 4
   platform: Ausha
   topics:
   - Cybersécurité
@@ -1133,6 +1171,7 @@ podcasts:
   average_duration: 27
   status: active
   community_rating: 5.0
+  community_rating_count: 1
   platform: Ausha
   topics:
   - Cybersécurité
@@ -1160,6 +1199,7 @@ podcasts:
   average_duration: 30
   status: active
   community_rating: 4.8
+  community_rating_count: 31
   platform: Ausha
   topics:
   - Cybersécurité
@@ -1188,6 +1228,7 @@ podcasts:
   average_duration: 37
   status: active
   community_rating: null
+  community_rating_count: null
   platform: Acast
   topics:
   - Cybersécurité
@@ -1223,6 +1264,7 @@ podcasts:
   average_duration: 17
   status: archived
   community_rating: 5.0
+  community_rating_count: 119
   platform: autre
   topics:
   - Cybersécurité
@@ -1250,6 +1292,7 @@ podcasts:
   average_duration: 45
   status: archived
   community_rating: null
+  community_rating_count: null
   platform: Ausha
   topics:
   - Cybersécurité
@@ -1279,6 +1322,7 @@ podcasts:
   average_duration: 4
   status: slow
   community_rating: null
+  community_rating_count: null
   platform: Acast
   topics:
   - Cybersécurité
@@ -1308,6 +1352,7 @@ podcasts:
   average_duration: 29
   status: active
   community_rating: 4.7
+  community_rating_count: 34
   platform: Audiomeans
   topics:
   - Cybersécurité
@@ -1358,6 +1403,7 @@ podcasts:
   average_duration: 27
   status: active
   community_rating: null
+  community_rating_count: null
   platform: Audiomeans
   topics:
   - Cybersécurité
@@ -1390,6 +1436,7 @@ podcasts:
   average_duration: 55
   status: active
   community_rating: 5.0
+  community_rating_count: 4
   platform: Ausha
   topics:
   - Cybersécurité
@@ -1415,6 +1462,7 @@ podcasts:
   average_duration: 30
   status: active
   community_rating: 4.8
+  community_rating_count: 218
   platform: Blubrry
   topics:
   - Cybersécurité
@@ -1441,6 +1489,7 @@ podcasts:
   average_duration: null
   status: active
   community_rating: 4.9
+  community_rating_count: 16
   platform: autre
   topics:
   - Cybersécurité
@@ -1467,6 +1516,7 @@ podcasts:
   average_duration: 37
   status: slow
   community_rating: 5.0
+  community_rating_count: 7
   platform: Acast
   topics:
   - Cybersécurité
@@ -1500,6 +1550,7 @@ podcasts:
   average_duration: 44
   status: active
   community_rating: 5.0
+  community_rating_count: 2
   platform: autre
   topics:
   - Cybersécurité
@@ -1526,6 +1577,7 @@ podcasts:
   average_duration: 32
   status: active
   community_rating: 4.7
+  community_rating_count: 21
   platform: Acast
   topics:
   - Cybersécurité
@@ -1563,6 +1615,7 @@ podcasts:
   average_duration: null
   status: active
   community_rating: 4.9
+  community_rating_count: 62
   platform: autre
   topics:
   - Cybersécurité
@@ -1589,6 +1642,7 @@ podcasts:
   average_duration: 34
   status: active
   community_rating: 4.7
+  community_rating_count: 9
   platform: Ausha
   topics:
   - Cybersécurité
@@ -1616,6 +1670,7 @@ podcasts:
   average_duration: null
   status: active
   community_rating: null
+  community_rating_count: null
   platform: autre
   topics:
   - Cybersécurité
@@ -1642,6 +1697,7 @@ podcasts:
   average_duration: null
   status: archived
   community_rating: null
+  community_rating_count: null
   platform: Anchor
   topics:
   - Cybersécurité
@@ -1669,6 +1725,7 @@ podcasts:
   average_duration: 12
   status: slow
   community_rating: null
+  community_rating_count: null
   platform: Anchor
   topics:
   - Cybersécurité
@@ -1695,6 +1752,7 @@ podcasts:
   average_duration: 64
   status: archived
   community_rating: 5.0
+  community_rating_count: 17
   platform: Acast
   topics:
   - Cybersécurité
@@ -1735,6 +1793,7 @@ podcasts:
   average_duration: null
   status: archived
   community_rating: 4.8
+  community_rating_count: 75
   platform: autre
   topics:
   - Cybersécurité
@@ -1760,6 +1819,7 @@ podcasts:
   average_duration: 35
   status: slow
   community_rating: 4.8
+  community_rating_count: 5
   platform: autre
   topics:
   - Cybersécurité
@@ -1785,6 +1845,7 @@ podcasts:
   average_duration: 33
   status: archived
   community_rating: 5.0
+  community_rating_count: 5
   platform: autre
   topics:
   - Cybersécurité
@@ -1822,6 +1883,7 @@ podcasts:
   average_duration: 32
   status: archived
   community_rating: 4.8
+  community_rating_count: 22
   platform: Acast
   topics:
   - Cybersécurité
@@ -1852,6 +1914,7 @@ podcasts:
   average_duration: 45
   status: archived
   community_rating: null
+  community_rating_count: null
   platform: Anchor
   topics:
   - Cybersécurité
@@ -1880,6 +1943,7 @@ podcasts:
   average_duration: 61
   status: active
   community_rating: 4.8
+  community_rating_count: 174
   platform: Audiomeans
   topics:
   - Développement
@@ -1913,6 +1977,7 @@ podcasts:
   average_duration: 72
   status: active
   community_rating: 4.8
+  community_rating_count: 121
   platform: Libsyn
   topics:
   - Développement
@@ -1940,6 +2005,7 @@ podcasts:
   average_duration: 65
   status: slow
   community_rating: null
+  community_rating_count: null
   platform: Ausha
   topics:
   - Développement
@@ -1970,6 +2036,7 @@ podcasts:
   average_duration: 86
   status: active
   community_rating: 4.6
+  community_rating_count: 14
   platform: Audiomeans
   topics:
   - Développement
@@ -2011,6 +2078,7 @@ podcasts:
   average_duration: 85
   status: active
   community_rating: 5.0
+  community_rating_count: 30
   platform: Zencastr
   topics:
   - Développement
@@ -2046,6 +2114,7 @@ podcasts:
   average_duration: 66
   status: active
   community_rating: 4.5
+  community_rating_count: 72
   platform: Megaphone
   topics:
   - Développement
@@ -2074,6 +2143,7 @@ podcasts:
   average_duration: 5
   status: archived
   community_rating: 4.9
+  community_rating_count: 931
   platform: Libsyn
   topics:
   - Développement
@@ -2104,6 +2174,7 @@ podcasts:
   average_duration: 53
   status: active
   community_rating: 4.4
+  community_rating_count: 622
   platform: Transistor
   topics:
   - Développement
@@ -2134,6 +2205,7 @@ podcasts:
   average_duration: 106
   status: active
   community_rating: 4.7
+  community_rating_count: 292
   platform: autre
   topics:
   - Open Source
@@ -2171,6 +2243,7 @@ podcasts:
   average_duration: 62
   status: active
   community_rating: 4.8
+  community_rating_count: 106
   platform: Transistor
   topics:
   - Développement
@@ -2199,6 +2272,7 @@ podcasts:
   average_duration: 58
   status: active
   community_rating: 4.6
+  community_rating_count: 246
   platform: Spreaker
   topics:
   - Développement
@@ -2226,6 +2300,7 @@ podcasts:
   average_duration: 33
   status: active
   community_rating: 4.7
+  community_rating_count: 212
   platform: autre
   topics:
   - Développement
@@ -2252,6 +2327,7 @@ podcasts:
   average_duration: 66
   status: active
   community_rating: 4.8
+  community_rating_count: 587
   platform: autre
   topics:
   - Python
@@ -2278,6 +2354,7 @@ podcasts:
   average_duration: 54
   status: active
   community_rating: 4.7
+  community_rating_count: 144
   platform: autre
   topics:
   - Open Source
@@ -2310,6 +2387,7 @@ podcasts:
   average_duration: 66
   status: slow
   community_rating: 4.9
+  community_rating_count: 34
   platform: autre
   topics:
   - Kubernetes
@@ -2345,6 +2423,7 @@ podcasts:
   average_duration: 69
   status: slow
   community_rating: 4.4
+  community_rating_count: 233
   platform: Spreaker
   topics:
   - Développement
@@ -2371,6 +2450,7 @@ podcasts:
   average_duration: 58
   status: archived
   community_rating: 4.6
+  community_rating_count: 71
   platform: Simplecast
   topics:
   - Développement
@@ -2402,6 +2482,7 @@ podcasts:
   average_duration: 53
   status: active
   community_rating: 4.0
+  community_rating_count: 16
   platform: Spreaker
   topics:
   - Développement
@@ -2430,6 +2511,7 @@ podcasts:
   average_duration: 60
   status: active
   community_rating: null
+  community_rating_count: null
   platform: Podhome
   topics:
   - IA
@@ -2457,6 +2539,7 @@ podcasts:
   average_duration: 47
   status: active
   community_rating: 4.3
+  community_rating_count: 202
   platform: Transistor
   topics:
   - IA
@@ -2490,8 +2573,10 @@ podcasts:
   average_duration: 63
   status: active
   community_rating: null
+  community_rating_count: null
   platform: Substack
   topics:
+  - IA
   - LLM
   tags:
   - LLM
@@ -2516,6 +2601,7 @@ podcasts:
   average_duration: 57
   status: active
   community_rating: null
+  community_rating_count: null
   platform: Megaphone
   topics:
   - IA
@@ -2545,6 +2631,7 @@ podcasts:
   average_duration: 54
   status: active
   community_rating: 4.6
+  community_rating_count: 146
   platform: Podhome
   topics:
   - Data
@@ -2572,6 +2659,7 @@ podcasts:
   average_duration: 47
   status: archived
   community_rating: null
+  community_rating_count: null
   platform: Buzzsprout
   topics:
   - Développement
@@ -2612,6 +2700,7 @@ podcasts:
   average_duration: 33
   status: active
   community_rating: 4.8
+  community_rating_count: 293
   platform: autre
   topics:
   - Développement
@@ -2650,6 +2739,7 @@ podcasts:
   average_duration: 55
   status: active
   community_rating: 5.0
+  community_rating_count: 32
   platform: Simplecast
   topics:
   - Développement
@@ -2693,6 +2783,7 @@ podcasts:
   average_duration: 70
   status: slow
   community_rating: null
+  community_rating_count: null
   platform: autre
   topics:
   - DevSecOps

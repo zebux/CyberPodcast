@@ -70,11 +70,14 @@ def format_duration(value: int | float | None) -> str:
         return html_lib.escape(str(value))
 
 
-def format_rating(value: int | float | None) -> str:
+def format_rating(value: int | float | None, count: int | None = None) -> str:
     if value is None:
         return "—"
     try:
-        return f"{float(value):.1f} / 5"
+        rating = f"{float(value):.1f}/5"
+        if count is not None:
+            rating += f" ({int(count)})"
+        return rating
     except (TypeError, ValueError):
         return html_lib.escape(str(value))
 
@@ -123,7 +126,8 @@ def card_html(podcast: dict[str, Any]) -> str:
     average_duration = podcast.get("average_duration")
     average_duration_text = format_duration(average_duration)
     rating = podcast.get("community_rating")
-    rating_text = format_rating(rating)
+    rating_count = podcast.get("community_rating_count")
+    rating_text = format_rating(rating, rating_count)
     platform = podcast.get("platform") or "autre"
     platform_text = "Autre" if platform == "autre" else platform
 

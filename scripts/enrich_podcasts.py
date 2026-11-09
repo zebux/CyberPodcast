@@ -317,16 +317,16 @@ def fetch_cached(url: str, kind: str, suffix: str) -> bytes | None:
     return response.content
 
 
-def apple_community_rating(url: str | None) -> float | None:
+def apple_community_rating(url: str | None) -> tuple[float | None, int | None]:
     if not url:
-        return None
+        return None, None
     content = fetch_cached(url, "apple", ".html")
     if not content:
-        return None
+        return None, None
     text = content.decode("utf-8", "ignore")
     patterns = (
-        r'"aggregateRating"\s*:\s*\{[^{}]*?"ratingValue"\s*:\s*([0-9.]+)[^{}]*?"reviewCount"\s*:\s*(\d+)',
-        r'"aggregateRating"\s*:\s*\{[^{}]*?"reviewCount"\s*:\s*(\d+)[^{}]*?"ratingValue"\s*:\s*([0-9.]+)',
+        r'"aggregateRating"\s*:\s*\{[^{}]*?"ratingValue"\s*:\s*([0-9.]+)[^{}]*?"(?:reviewCount|ratingCount)"\s*:\s*(\d+)',
+        r'"aggregateRating"\s*:\s*\{[^{}]*?"(?:reviewCount|ratingCount)"\s*:\s*(\d+)[^{}]*?"ratingValue"\s*:\s*([0-9.]+)',
     )
     for index, pattern in enumerate(patterns):
         match = re.search(pattern, text)
@@ -339,10 +339,10 @@ def apple_community_rating(url: str | None) -> float | None:
         if count <= 0:
             continue
         try:
-            return round(float(value), 1)
+            return round(float(value), 1), count
         except ValueError:
-            return None
-    return None
+            return None, None
+    return None, None
 
 
 def url_ok(url: str | None) -> bool:
@@ -729,6 +729,7 @@ FALLBACK_FIELDS = (
     "episode_count",
     "average_duration",
     "community_rating",
+    "community_rating_count",
     "platform",
     "hosts",
     "topics",
@@ -877,8 +878,15 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
         status = overrides["status"]
 
     rating = overrides.get("community_rating") or seed.get("community_rating")
-    if rating is None:
-        rating = apple_community_rating(apple_url)
+    rating_count = overrides.get("community_rating_count") or seed.get(
+        "community_rating_count"
+    )
+    if apple_url and (rating is None or rating_count is None):
+        apple_rating, apple_count = apple_community_rating(apple_url)
+        if rating is None:
+            rating = apple_rating
+        if rating_count is None:
+            rating_count = apple_count
 
     youtube = overrides.get("youtube") or seed.get("youtube")
     spotify = overrides.get("spotify") or seed.get("spotify")
@@ -905,6 +913,9 @@ def enrich_one(seed: dict[str, Any], curated: dict[str, Any], previous: dict[str
         "average_duration": average_duration,
         "status": status,
         "community_rating": float(rating) if rating is not None else None,
+        "community_rating_count": (
+            int(rating_count) if rating_count is not None else None
+        ),
         "platform": platform,
         "topics": topics,
         "tags": tags,

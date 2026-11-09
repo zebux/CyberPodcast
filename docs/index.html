@@ -80,41 +80,6 @@
       background-clip: text;
       color: transparent;
     }
-    .lede {
-      max-width: 760px;
-      margin: 0;
-      color: var(--muted);
-      font-size: clamp(1rem, 1.5vw, 1.12rem);
-    }
-    .stats {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 26px;
-    }
-    .stat {
-      min-width: 118px;
-      padding: 13px 16px;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      backdrop-filter: blur(10px);
-    }
-    .stat strong {
-      display: block;
-      font-size: 1.7rem;
-      line-height: 1.1;
-      letter-spacing: -0.03em;
-    }
-    .stat span {
-      display: block;
-      margin-top: 3px;
-      color: var(--muted);
-      font-size: 0.72rem;
-      font-weight: 700;
-      letter-spacing: 0.09em;
-      text-transform: uppercase;
-    }
     .toolbar {
       position: sticky;
       top: 0;
@@ -397,13 +362,6 @@
   <header class="hero">
     <p class="eyebrow">CyberPodcast · Veille podcast</p>
     <h1>Les podcasts <span class="gradient">cyber, cloud &amp; dev</span></h1>
-    <p class="lede">90 podcasts suivis, dont 59 actifs, 16 ralentis et 15 archivés. Données enrichies depuis les flux RSS et Apple Podcasts.</p>
-    <div class="stats">
-      <div class="stat"><strong>90</strong><span>podcasts</span></div>
-      <div class="stat"><strong>59</strong><span>actifs</span></div>
-      <div class="stat"><strong>43</strong><span>catégories</span></div>
-      <div class="stat"><strong>20</strong><span>plateformes</span></div>
-    </div>
   </header>
 
   <section class="toolbar" aria-label="Filtres">
@@ -412,9 +370,9 @@
         <span class="sr-only">Rechercher</span>
         <input id="search" type="search" placeholder="Rechercher un podcast, un sujet, un animateur…" autocomplete="off">
       </label>
-      <select id="filter-category" aria-label="Filtrer par catégorie"><option value="">Toutes les catégories</option><option value=".NET">.NET (1)</option><option value="Administration système">Administration système (1)</option><option value="Angular">Angular (1)</option><option value="Architecture">Architecture (6)</option><option value="Auto-hébergement">Auto-hébergement (1)</option><option value="AWS">AWS (4)</option><option value="Azure">Azure (5)</option><option value="C++">C++ (1)</option><option value="Carrière">Carrière (2)</option><option value="Cloud">Cloud (14)</option><option value="Cloud Native">Cloud Native (3)</option><option value="Cloud Security">Cloud Security (1)</option><option value="CNCF">CNCF (2)</option><option value="Cryptographie">Cryptographie (1)</option><option value="Cybersécurité">Cybersécurité (35)</option><option value="Data">Data (1)</option><option value="DevOps">DevOps (12)</option><option value="Développement">Développement (13)</option><option value="Développement Web">Développement Web (1)</option><option value="GCP">GCP (3)</option><option value="Go">Go (1)</option><option value="GRC">GRC (1)</option><option value="Histoire">Histoire (1)</option><option value="Homelab">Homelab (1)</option><option value="IA">IA (4)</option><option value="Informatique">Informatique (1)</option><option value="Infrastructure">Infrastructure (2)</option><option value="Intelligence Artificielle">Intelligence Artificielle (1)</option><option value="JavaScript">JavaScript (1)</option><option value="Juridique">Juridique (1)</option><option value="Kubernetes">Kubernetes (5)</option><option value="Linux">Linux (6)</option><option value="LLM">LLM (1)</option><option value="Machine Learning">Machine Learning (2)</option><option value="Open Source">Open Source (3)</option><option value="OSINT">OSINT (1)</option><option value="Python">Python (3)</option><option value="Qualité logicielle">Qualité logicielle (1)</option><option value="React">React (1)</option><option value="Réseau">Réseau (1)</option><option value="SRE">SRE (2)</option><option value="Sysadmin">Sysadmin (1)</option><option value="Tech">Tech (1)</option></select>
+      <select id="filter-category" aria-label="Filtrer par catégorie"><option value="">Toutes les catégories</option><option value=".NET">.NET (1)</option><option value="Administration système">Administration système (1)</option><option value="Angular">Angular (1)</option><option value="Architecture">Architecture (6)</option><option value="Auto-hébergement">Auto-hébergement (1)</option><option value="AWS">AWS (4)</option><option value="Azure">Azure (5)</option><option value="C++">C++ (1)</option><option value="Carrière">Carrière (2)</option><option value="Cloud">Cloud (14)</option><option value="Cloud Native">Cloud Native (3)</option><option value="Cloud Security">Cloud Security (1)</option><option value="CNCF">CNCF (2)</option><option value="Cryptographie">Cryptographie (1)</option><option value="Cybersécurité" selected>Cybersécurité (35)</option><option value="Data">Data (1)</option><option value="DevOps">DevOps (12)</option><option value="Développement">Développement (13)</option><option value="Développement Web">Développement Web (1)</option><option value="GCP">GCP (3)</option><option value="Go">Go (1)</option><option value="GRC">GRC (1)</option><option value="Histoire">Histoire (1)</option><option value="Homelab">Homelab (1)</option><option value="IA">IA (4)</option><option value="Informatique">Informatique (1)</option><option value="Infrastructure">Infrastructure (2)</option><option value="Intelligence Artificielle">Intelligence Artificielle (1)</option><option value="JavaScript">JavaScript (1)</option><option value="Juridique">Juridique (1)</option><option value="Kubernetes">Kubernetes (5)</option><option value="Linux">Linux (6)</option><option value="LLM">LLM (1)</option><option value="Machine Learning">Machine Learning (2)</option><option value="Open Source">Open Source (3)</option><option value="OSINT">OSINT (1)</option><option value="Python">Python (3)</option><option value="Qualité logicielle">Qualité logicielle (1)</option><option value="React">React (1)</option><option value="Réseau">Réseau (1)</option><option value="SRE">SRE (2)</option><option value="Sysadmin">Sysadmin (1)</option><option value="Tech">Tech (1)</option></select>
       <select id="filter-status" aria-label="Filtrer par statut"><option value="">Tous les statuts</option><option value="active">Actif (59)</option><option value="slow">Ralenti (16)</option><option value="archived">Archivé (15)</option></select>
-      <select id="filter-language" aria-label="Filtrer par langue"><option value="">Toutes les langues</option><option value="en">Anglais (42)</option><option value="fr">Français (48)</option></select>
+      <select id="filter-language" aria-label="Filtrer par langue"><option value="">Toutes les langues</option><option value="en">Anglais (42)</option><option value="fr" selected>Français (48)</option></select>
       <select id="filter-platform" aria-label="Filtrer par plateforme"><option value="">Toutes les plateformes</option><option value="Acast">Acast (8)</option><option value="Anchor">Anchor (7)</option><option value="Art19">Art19 (1)</option><option value="Audiomeans">Audiomeans (5)</option><option value="Ausha">Ausha (11)</option><option value="autre">Autre (27)</option><option value="Blubrry">Blubrry (2)</option><option value="Buzzsprout">Buzzsprout (2)</option><option value="FeedBurner">FeedBurner (1)</option><option value="Fireside">Fireside (4)</option><option value="Libsyn">Libsyn (4)</option><option value="Megaphone">Megaphone (2)</option><option value="Podhome">Podhome (2)</option><option value="RedCircle">RedCircle (1)</option><option value="Riverside">Riverside (1)</option><option value="Simplecast">Simplecast (2)</option><option value="Spreaker">Spreaker (3)</option><option value="Substack">Substack (1)</option><option value="Transistor">Transistor (5)</option><option value="Zencastr">Zencastr (1)</option></select>
       <select id="sort" aria-label="Trier">
         <option value="name">Nom (A–Z)</option>
@@ -1711,6 +1669,8 @@
       const count = document.getElementById('count');
       const empty = document.getElementById('empty');
       const statusOrder = { active: 0, slow: 1, archived: 2 };
+      const defaultCategory = 'Cybersécurité';
+      const defaultLanguage = 'fr';
 
       function normalize(value) {
         return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
@@ -1765,9 +1725,9 @@
 
       reset.addEventListener('click', function () {
         search.value = '';
-        category.value = '';
+        category.value = defaultCategory;
         status.value = '';
-        language.value = '';
+        language.value = defaultLanguage;
         platform.value = '';
         sort.value = 'name';
         apply();

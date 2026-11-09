@@ -28,6 +28,9 @@ LANGUAGE_LABELS = {
     "en": "Anglais",
 }
 
+DEFAULT_CATEGORY = "Cybersécurité"
+DEFAULT_LANGUAGE = "fr"
+
 
 def escape(value: Any) -> str:
     return html_lib.escape("" if value is None else str(value), quote=True)
@@ -209,16 +212,24 @@ def build_options(
     labels: dict[str, str] | None = None,
     counts: Counter[str] | None = None,
     empty_label: str = "Tous",
+    selected: str | None = None,
 ) -> str:
     labels = labels or {}
     counts = counts or Counter()
-    options = [f'<option value="">{html_lib.escape(empty_label)}</option>']
+
+    def selected_attr(value: str) -> str:
+        return " selected" if selected is not None and value == selected else ""
+
+    options = [
+        f'<option value=""{selected_attr("")}>{html_lib.escape(empty_label)}</option>'
+    ]
     for value in values:
         label = labels.get(value, value)
         count = counts.get(value)
         suffix = f" ({count})" if count is not None else ""
         options.append(
-            f'<option value="{escape(value)}">{html_lib.escape(label)}{suffix}</option>'
+            f'<option value="{escape(value)}"{selected_attr(value)}>'
+            f"{html_lib.escape(label)}{suffix}</option>"
         )
     return "".join(options)
 
@@ -233,7 +244,6 @@ def render() -> None:
     total = len(podcasts)
     status_counts = Counter(podcast.get("status") or "archived" for podcast in podcasts)
     active = status_counts.get("active", 0)
-    slow = status_counts.get("slow", 0)
     archived = status_counts.get("archived", 0)
 
     categories = sorted(
@@ -268,7 +278,10 @@ def render() -> None:
 
     cards = "\n".join(card_html(podcast) for podcast in podcasts)
     category_options = build_options(
-        categories, counts=category_counts, empty_label="Toutes les catégories"
+        categories,
+        counts=category_counts,
+        empty_label="Toutes les catégories",
+        selected=DEFAULT_CATEGORY,
     )
     status_options = build_options(
         ["active", "slow", "archived"],
@@ -281,6 +294,7 @@ def render() -> None:
         labels=LANGUAGE_LABELS,
         counts=language_counts,
         empty_label="Toutes les langues",
+        selected=DEFAULT_LANGUAGE,
     )
     platform_options = build_options(
         platforms,
@@ -292,10 +306,6 @@ def render() -> None:
     latest_episode = max(
         (podcast.get("last_episode") for podcast in podcasts if podcast.get("last_episode")),
         default=None,
-    )
-    lede = (
-        f"{total} podcasts suivis, dont {active} actifs, {slow} ralentis et "
-        f"{archived} archivés. Données enrichies depuis les flux RSS et Apple Podcasts."
     )
 
     template = r"""<!doctype html>
@@ -379,41 +389,6 @@ def render() -> None:
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
-    }
-    .lede {
-      max-width: 760px;
-      margin: 0;
-      color: var(--muted);
-      font-size: clamp(1rem, 1.5vw, 1.12rem);
-    }
-    .stats {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 26px;
-    }
-    .stat {
-      min-width: 118px;
-      padding: 13px 16px;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      backdrop-filter: blur(10px);
-    }
-    .stat strong {
-      display: block;
-      font-size: 1.7rem;
-      line-height: 1.1;
-      letter-spacing: -0.03em;
-    }
-    .stat span {
-      display: block;
-      margin-top: 3px;
-      color: var(--muted);
-      font-size: 0.72rem;
-      font-weight: 700;
-      letter-spacing: 0.09em;
-      text-transform: uppercase;
     }
     .toolbar {
       position: sticky;
@@ -697,13 +672,6 @@ def render() -> None:
   <header class="hero">
     <p class="eyebrow">CyberPodcast · Veille podcast</p>
     <h1>Les podcasts <span class="gradient">cyber, cloud &amp; dev</span></h1>
-    <p class="lede">{{LEDE}}</p>
-    <div class="stats">
-      <div class="stat"><strong>{{TOTAL}}</strong><span>podcasts</span></div>
-      <div class="stat"><strong>{{ACTIVE}}</strong><span>actifs</span></div>
-      <div class="stat"><strong>{{CATEGORY_COUNT}}</strong><span>catégories</span></div>
-      <div class="stat"><strong>{{PLATFORM_COUNT}}</strong><span>plateformes</span></div>
-    </div>
   </header>
 
   <section class="toolbar" aria-label="Filtres">
@@ -752,6 +720,8 @@ def render() -> None:
       const count = document.getElementById('count');
       const empty = document.getElementById('empty');
       const statusOrder = { active: 0, slow: 1, archived: 2 };
+      const defaultCategory = 'Cybersécurité';
+      const defaultLanguage = 'fr';
 
       function normalize(value) {
         return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
@@ -806,9 +776,9 @@ def render() -> None:
 
       reset.addEventListener('click', function () {
         search.value = '';
-        category.value = '';
+        category.value = defaultCategory;
         status.value = '';
-        language.value = '';
+        language.value = defaultLanguage;
         platform.value = '';
         sort.value = 'name';
         apply();
@@ -830,12 +800,9 @@ def render() -> None:
 """
 
     replacements = {
-        "{{LEDE}}": html_lib.escape(lede),
         "{{TOTAL}}": str(total),
         "{{ACTIVE}}": str(active),
         "{{ARCHIVED}}": str(archived),
-        "{{CATEGORY_COUNT}}": str(len(categories)),
-        "{{PLATFORM_COUNT}}": str(len(platforms)),
         "{{CATEGORY_OPTIONS}}": category_options,
         "{{STATUS_OPTIONS}}": status_options,
         "{{LANGUAGE_OPTIONS}}": language_options,

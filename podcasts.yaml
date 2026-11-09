@@ -2576,7 +2576,6 @@ podcasts:
   community_rating_count: null
   platform: Substack
   topics:
-  - IA
   - LLM
   tags:
   - LLM

@@ -4922,12 +4922,22 @@ podcasts:
   image: https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj
   author: CyberPodcast
   description: CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet…
-  last_episode: '2026-11-09'
-  last_episode_title: 'OWASP AI Security 12 | Paper Breakdown #12 | OWASP AI Security | CyberPodcast'
-  last_episode_url: https://www.youtube.com/watch?v=QWTG9MrjD9k
+  last_episode: '2026-11-10'
+  last_episode_title: 'How math shatters dark networks | Tor Network Attacks #24 | CyberPodcast'
+  last_episode_url: https://www.youtube.com/watch?v=5z7avN-AIro
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: 'How math shatters dark networks | Tor Network Attacks #24 | CyberPodcast'
+    published: '2026-11-10'
+    url: https://www.youtube.com/watch?v=5z7avN-AIro
+    audio: null
+    duration: null
+  - title: Alice’s Secure Connection Hijacked via Tor HTTP Attack
+    published: '2026-11-10'
+    url: https://www.youtube.com/shorts/dF7VdGKoWDs
+    audio: null
+    duration: null
   - title: 'OWASP AI Security 12 | Paper Breakdown #12 | OWASP AI Security | CyberPodcast'
     published: '2026-11-09'
     url: https://www.youtube.com/watch?v=QWTG9MrjD9k
@@ -4966,16 +4976,6 @@ podcasts:
   - title: Tor's Mathematical Chain | CyberPodcast
     published: '2026-11-05'
     url: https://www.youtube.com/shorts/eY8pRu436DA
-    audio: null
-    duration: null
-  - title: '57KB/s: Is Anyone a Threat to Tor? 🛡️'
-    published: '2026-11-04'
-    url: https://www.youtube.com/shorts/Rr-mctQmkng
-    audio: null
-    duration: null
-  - title: 'How packet sizes identify Tor traffic | Tor Network Attacks #23 | CyberPodcast'
-    published: '2026-11-03'
-    url: https://www.youtube.com/watch?v=z0cooVYMr3g
     audio: null
     duration: null
   frequency: daily

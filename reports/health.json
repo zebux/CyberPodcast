@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-10T12:45:56.036314+00:00",
+  "generated_at": "2026-11-10T14:24:26.626729+00:00",
   "mode": "network",
-  "duration_seconds": 9.03,
+  "duration_seconds": 18.06,
   "summary": {
-    "total": 90,
-    "ok": 90,
+    "total": 91,
+    "ok": 91,
     "warning": 0,
     "error": 0,
-    "missing": 27,
-    "checked_urls": 332
+    "missing": 28,
+    "checked_urls": 335
   },
   "podcasts": [
     {
@@ -1296,6 +1296,29 @@
         "audio": {
           "status": "unchecked",
           "url": "https://anchor.fm/s/119e32f0/podcast/play/9013158/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fproduction%2F2019-11-15%2F38760896-44100-2-7e8e411c6de1b.mp3"
+        }
+      }
+    },
+    {
+      "id": "cyberpodcast-official",
+      "name": "CyberPodcast",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://music.youtube.com/@cyberpodcast-official"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCq-pOpFcME3ziyCCt0pSXdQ"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj"
+        },
+        "audio": {
+          "status": "missing",
+          "url": null
         }
       }
     },

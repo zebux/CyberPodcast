@@ -55,6 +55,7 @@ podcasts:
     host: "L'Ours"
     status: active
     website: https://dialogues-imaginaires.net/
+    podcast_addict: https://podcastaddict.com/podcast/dialogues-imaginaires-du-monde-merveilleux-de-la-cyber/5932799
 
   - id: french-connection
     name: "French Connection"
@@ -72,6 +73,7 @@ podcasts:
     host: "Martial Puygrenier"
     status: active
     website: https://anchor.fm/hacknspeak
+    podcast_addict: https://podcastaddict.com/podcast/hack-n-speak/3209696
     platform: Anchor
 
   - id: hacktback-cybertalk
@@ -90,6 +92,7 @@ podcasts:
     host: "InCyber News"
     status: active
     website: https://incyber.org/
+    podcast_addict: https://podcastaddict.com/podcast/incyber-voices/5783052
     skip_rss_discovery: true
 
   - id: la-box-du-rssi
@@ -118,6 +121,7 @@ podcasts:
       - "Manon Desplat"
       - "Léa Le Pezron"
     status: active
+    podcast_addict: https://podcastaddict.com/podcast/la-matrice-a-bugge/4499602
 
   - id: la-robe-numerique
     name: "La Robe Numérique"
@@ -126,6 +130,7 @@ podcasts:
     host: "Oriana Labruyère"
     status: active
     website: https://www.larobenumerique.com/podcast
+    podcast_addict: https://podcastaddict.com/podcast/podcast-la-robe-numerique/5867036
     description: Podcast qui explore les enjeux juridiques et sociétaux du numérique et de la cybersécurité.
 
   - id: la-tangente
@@ -134,6 +139,7 @@ podcasts:
     language: fr
     host: "Luckas Bosch"
     status: active
+    podcast_addict: https://podcastaddict.com/podcast/la-tangente/3516212
     spotify: https://open.spotify.com/show/0WBMbK4frOLnBIApsZSw8w
 
   - id: le-dejargonneur-cyber
@@ -143,6 +149,7 @@ podcasts:
     host: "CLUSIF"
     status: active
     website: https://shows.acast.com/le-dejargonneur-cyber
+    podcast_addict: https://podcastaddict.com/podcast/le-dejargonneur-cyber/5687423
     platform: Acast
 
   - id: le-monde-de-la-cyber
@@ -179,6 +186,7 @@ podcasts:
     host: "NoLimitSecu"
     status: active
     website: https://www.nolimitsecu.fr/
+    podcast_addict: https://podcastaddict.com/podcast/nolimitsecu/509653
 
   - id: objectif-cyber
     name: "Objectif Cyber"
@@ -190,6 +198,7 @@ podcasts:
     skip_rss_discovery: true
     description: Podcast Capgemini consacré à la cybersécurité et aux enjeux cyber des entreprises.
     apple_podcast: https://podcasts.apple.com/fr/podcast/objectif-tech/id1597450554?uo=4
+    podcast_addict: https://podcastaddict.com/podcast/objectif-tech/3702085
 
   - id: on-dit-chiffrer
     name: "On dit chiffrer"
@@ -199,6 +208,7 @@ podcasts:
     status: active
     rss: https://feeds.acast.com/public/shows/on-dit-chiffrer
     platform: Acast
+    podcast_addict: https://podcastaddict.com/podcast/onditchiffrer/4993297
 
   - id: polysecure
     name: "PolySécure"
@@ -218,6 +228,7 @@ podcasts:
       - "Nabil Diab"
       - "Raphaël Ellouz"
     status: active
+    podcast_addict: https://podcastaddict.com/podcast/purple-voice/5901611
 
   - id: radiocsirt
     name: "RadioCSIRT"
@@ -226,6 +237,7 @@ podcasts:
     host: "Marc-Frédéric Gomez"
     status: active
     website: https://www.radiocsirt.org/
+    podcast_addict: https://podcastaddict.com/podcast/radiocsirt/5496892
     description: Podcast consacré aux CSIRT, à la réponse à incident et à la cybersécurité opérationnelle.
 
   - id: riskintel-media
@@ -254,7 +266,21 @@ podcasts:
     language: fr
     host: "Florian Maury"
     status: active
+    podcast_addict: https://podcastaddict.com/podcast/yakafokon/4774919
     spotify: https://open.spotify.com/show/77AVXD1a6ysbJiua5jDpZr
+
+  - id: cyberpodcast-official
+    name: "CyberPodcast"
+    category: ["Cybersécurité"]
+    language: en
+    status: active
+    website: https://music.youtube.com/@cyberpodcast-official
+    rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCq-pOpFcME3ziyCCt0pSXdQ
+    youtube: https://www.youtube.com/@cyberpodcast-official
+    platform: YouTube
+    skip_itunes: true
+    image: https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj
+    description: "CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet accessible look into the cybersecurity landscape."
 
   - id: diginov
     name: "Diginov"
@@ -262,6 +288,7 @@ podcasts:
     language: fr
     status: archived
     apple_podcast: https://podcasts.apple.com/fr/podcast/diginov/id1731261927
+    podcast_addict: https://podcastaddict.com/podcast/diginov/5130792
     linkedin: https://fr.linkedin.com/in/sylvanush
     hosts:
       - Sylvanus Hougbekey
@@ -273,6 +300,7 @@ podcasts:
     category: ["Cybersécurité"]
     language: fr
     status: archived
+    podcast_addict: https://podcastaddict.com/podcast/hackstock/7322208
 
   - id: le-comptoir-secu
     name: "Le Comptoir Sécu"
@@ -280,6 +308,7 @@ podcasts:
     language: fr
     status: archived
     website: https://www.comptoirsecu.fr/
+    podcast_addict: https://podcastaddict.com/podcast/le-comptoir-secu/2002462
     hosts:
       - Justin Ganivet
       - Morgan Hotonnier
@@ -293,6 +322,7 @@ podcasts:
     category: ["Cybersécurité"]
     language: fr
     status: archived
+    podcast_addict: https://podcastaddict.com/podcast/les-chiens-de-garde/3588010
     spotify: https://open.spotify.com/show/3mESEykdPUxhkrMWVd3iNl
     country: CA
 
@@ -302,6 +332,7 @@ podcasts:
     language: fr
     status: archived
     website: https://les-minutes-cyber.lepodcast.fr/
+    podcast_addict: https://podcastaddict.com/podcast/les-minutes-cyber/4603868
     hosts:
       - Kedros Cybersécurité
 
@@ -310,6 +341,7 @@ podcasts:
     category: ["Cybersécurité"]
     language: fr
     status: archived
+    podcast_addict: https://podcastaddict.com/podcast/no-log/3179763
     hosts:
       - Véronique Loquet
 
@@ -320,6 +352,7 @@ podcasts:
     status: archived
     spotify: https://open.spotify.com/show/4WjF4NReXClnfL0Lsev95p
     website: https://osintfr.com/en/home/
+    podcast_addict: https://podcastaddict.com/podcast/osint-origins-the-podcast-by-osint-fr-osintfrcom/3753339
     rss: https://anchor.fm/s/6d2d3288/podcast/rss
     youtube: https://www.youtube.com/channel/UCTkCTxPPRMzdjhaKkn_4PiQ
     platform: Anchor

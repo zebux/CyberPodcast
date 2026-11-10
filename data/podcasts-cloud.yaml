@@ -8,6 +8,7 @@
     status: active
     website: https://dtk.p7t.tech/
     apple_podcast: https://podcasts.apple.com/fr/podcast/dans-ton-kube/id1438233899
+    podcast_addict: https://podcastaddict.com/podcast/dans-ton-kube/2187607
     hosts:
       - Guilhem Lettron
 
@@ -46,6 +47,7 @@
       - GCP
     language: fr
     status: active
+    podcast_addict: https://podcastaddict.com/podcast/we-speak-cloud/2716970
     hosts:
       - WeScale
 
@@ -58,6 +60,7 @@
     language: fr
     status: active
     website: https://www.compagnons-devops.fr
+    podcast_addict: https://podcastaddict.com/podcast/radio-devops/2527715
     linkedin: https://www.linkedin.com/in/cchaudier
     hosts:
       - Christophe Chaudier
@@ -80,6 +83,7 @@
       - Cloud
     language: fr
     status: active
+    podcast_addict: https://podcastaddict.com/podcast/les-tetes-dans-le-cloud/4361233
 
   - id: cloud-cafe
     name: "ITQ Private Cloud Café"
@@ -91,6 +95,7 @@
     website: https://podcasters.spotify.com/pod/show/itq4
     rss: https://anchor.fm/s/108b1f810/podcast/rss
     apple_podcast: https://podcasts.apple.com/fr/podcast/itq-private-cloud-caf%C3%A9/id1835939834?uo=4
+    podcast_addict: https://podcastaddict.com/podcast/itq-private-cloud-cafe/6121750
     platform: Anchor
     hosts:
       - ITQ
@@ -129,6 +134,7 @@
       - Kaslin Fields
     rss: https://kubernetespodcast.com/feeds/audio.xml
     apple_podcast: https://podcasts.apple.com/us/podcast/kubernetes-podcast-from-google/id1370049232
+    podcast_addict: https://podcastaddict.com/podcast/kubernetes-podcast-from-google/4163686
     spotify: https://open.spotify.com/show/0AsnxlMtXRUEeZkIO0ScpJ
 
   - id: the-cloudcast
@@ -145,6 +151,7 @@
     rss: https://rss.buzzsprout.com/3195.rss
     platform: Buzzsprout
     apple_podcast: https://podcasts.apple.com/us/podcast/the-enterprise-ai-show/id417826820?uo=4
+    podcast_addict: https://podcastaddict.com/podcast/the-enterprise-ai-show/6172543
 
   - id: arrested-devops
     name: "Arrested DevOps"
@@ -153,6 +160,7 @@
     language: en
     status: active
     website: https://www.arresteddevops.com/
+    podcast_addict: https://podcastaddict.com/podcast/arrested-devops/509259
     hosts:
       - Matt Stratton
       - Trevor Hess
@@ -167,6 +175,7 @@
     language: en
     status: active
     website: https://www.softwaredefinedtalk.com/
+    podcast_addict: https://podcastaddict.com/podcast/software-defined-talk/2246023
     hosts:
       - Brandon Whichard
       - Matt Ray
@@ -181,6 +190,7 @@
     language: en
     status: active
     website: https://packetpushers.net/
+    podcast_addict: https://podcastaddict.com/podcast/heavy-networking/2230332
     hosts:
       - Greg Ferro
       - Ethan Banks
@@ -194,6 +204,7 @@
     language: en
     status: active
     website: https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/
+    podcast_addict: https://podcastaddict.com/podcast/screaming-in-the-cloud/2350509
     hosts:
       - Corey Quinn
     rss: https://feeds.transistor.fm/screaming-in-the-cloud
@@ -207,6 +218,7 @@
     language: en
     status: active
     website: https://aws.amazon.com/podcasts/aws-podcast/
+    podcast_addict: https://podcastaddict.com/podcast/aws-podcast/2007949
     hosts:
       - Simon Elisha
 
@@ -217,6 +229,7 @@
     language: en
     status: active
     website: https://www.azpodcast.com/
+    podcast_addict: https://podcastaddict.com/podcast/the-azure-podcast/431021
     hosts:
       - Evan Basalik
       - Sujit D'Mello
@@ -230,6 +243,7 @@
     language: en
     status: active
     website: https://www.gcppodcast.com/
+    podcast_addict: https://podcastaddict.com/podcast/google-cloud-platform-podcast/3731780
     hosts:
       - Mark Mirchandani
       - Stephanie Wong
@@ -244,6 +258,7 @@
     language: en
     status: active
     website: https://cloudsecuritypodcast.tv/
+    podcast_addict: https://podcastaddict.com/podcast/cloud-security-podcast/2502382
     hosts:
       - Ashish Rajan
 
@@ -255,6 +270,7 @@
     language: en
     status: active
     website: https://daytwocloud.io/
+    podcast_addict: https://podcastaddict.com/podcast/day-two-devops/2360859
     hosts:
       - Ned Bellavance
       - Ethan Banks
@@ -266,6 +282,7 @@
       - Cloud
     language: en
     status: active
+    podcast_addict: https://podcastaddict.com/podcast/heavy-strategy/3138365
     hosts:
       - Johna Till Johnson
       - Ned Bellavance
@@ -279,6 +296,7 @@
     language: en
     status: archived
     website: https://www.redhat.com/en/command-line-heroes
+    podcast_addict: https://podcastaddict.com/podcast/command-line-heroes/7257723
     hosts:
       - Saron Yitbarek
 
@@ -291,6 +309,7 @@
     language: en
     status: active
     website: https://linuxactionnews.com/
+    podcast_addict: https://podcastaddict.com/podcast/linux-action-news/2245714
     hosts:
       - Chris Fisher
       - Wes Payne
@@ -305,6 +324,7 @@
     language: en
     status: active
     website: https://selfhosted.show/
+    podcast_addict: https://podcastaddict.com/podcast/self-hosted/2424835
     hosts:
       - Alex Kretzschmar
       - Chris Fisher
@@ -317,6 +337,7 @@
     language: en
     status: active
     website: https://latenightlinux.com/
+    podcast_addict: https://podcastaddict.com/podcast/late-night-linux-family-all-episodes/2161382
     hosts:
       - Joe Ressington
     country: UK
@@ -330,6 +351,7 @@
     language: en
     status: active
     website: https://linuxunplugged.com/
+    podcast_addict: https://podcastaddict.com/podcast/linux-unplugged/5006542
     hosts:
       - Chris Fisher
       - Wes Payne
@@ -342,5 +364,6 @@
     language: en
     status: active
     website: https://asknoahshow.com/
+    podcast_addict: https://podcastaddict.com/podcast/ask-noah-show/2371275
     hosts:
       - Noah Chelliah

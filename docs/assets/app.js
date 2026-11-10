@@ -153,6 +153,8 @@
     var reset = document.getElementById('reset');
     var emptyReset = document.getElementById('empty-reset');
     var favoritesToggle = document.getElementById('favorites-toggle');
+    var filtersToggle = document.getElementById('filters-toggle');
+    var toolbar = document.querySelector('.toolbar');
     var count = document.getElementById('count');
     var activeFilters = document.getElementById('active-filters');
     var empty = document.getElementById('empty');
@@ -328,6 +330,13 @@
       favoritesToggle.addEventListener('click', function () {
         favoritesOnly = !favoritesOnly;
         apply();
+      });
+    }
+
+    if (filtersToggle && toolbar) {
+      filtersToggle.addEventListener('click', function () {
+        var open = toolbar.classList.toggle('is-filters-open');
+        filtersToggle.setAttribute('aria-expanded', String(open));
       });
     }
 

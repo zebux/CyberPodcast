@@ -1,5 +1,5 @@
 version: 3
-count: 90
+count: 91
 podcasts:
 - id: dans-ton-kube
   name: Dans ton Kube
@@ -19,7 +19,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/dans-ton-kube/2187607
   amazon_music: https://music.amazon.com/podcasts/c60beab4-b590-47e1-8447-5b12849be7da
   castbox: null
   image: https://img.transistorcdn.com/K_rGqnKPX2xo7L3Vc1m36JDb4VmbWhKSS1eyj6xcr4k/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/Lzg0MzgvMTU4NDEw/NzIzMS1hcnR3b3Jr/LmpwZw.jpg
@@ -257,7 +257,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/we-speak-cloud/2716970
   amazon_music: null
   castbox: null
   image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2876723/2876723-1582139974029-82bc558fd2d02.jpg
@@ -346,7 +346,7 @@ podcasts:
   linkedin: https://www.linkedin.com/in/cchaudier
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/radio-devops/2527715
   amazon_music: null
   castbox: null
   image: https://assets.pippa.io/shows/5df7c112b9e5bf6d176cbfcb/1657530546008-7697d8bbde29ec27533f0e6bf6e813bf.jpeg
@@ -494,7 +494,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/les-tetes-dans-le-cloud/4361233
   amazon_music: null
   castbox: null
   image: https://static.audiomeans.fr/img/podcast/6d33de64-9124-475c-9be7-b4a249107108.jpg
@@ -588,7 +588,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/itq-private-cloud-cafe/6121750
   amazon_music: null
   castbox: null
   image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/44308484/44308484-1756284540431-0f8013780193.jpg
@@ -748,7 +748,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/kubernetes-podcast-from-google/4163686
   amazon_music: null
   castbox: null
   image: https://static.libsyn.com/p/assets/a/3/a/a/a3aa4f08236059f5e55e3c100dce7605/NewKPodRoboWhite-20240924-1zwoxpn1sl.png
@@ -844,7 +844,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/the-enterprise-ai-show/6172543
   amazon_music: null
   castbox: null
   image: https://storage.buzzsprout.com/qy0q4u4tgdaume7dfehgpznhwhn0?.jpg
@@ -944,7 +944,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/VqEP
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/arrested-devops/509259
   amazon_music: null
   castbox: null
   image: https://www.arresteddevops.com/img/ado-podcast-logo.png
@@ -1042,7 +1042,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/iyMn
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/software-defined-talk/2246023
   amazon_music: null
   castbox: https://castbox.fm/channel/Software-Defined-Talk-id2121983
   image: https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/9/9b74150b-3553-49dc-8332-f89bbbba9f92/cover.jpg?v=1
@@ -1140,7 +1140,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/heavy-networking/2230332
   amazon_music: null
   castbox: null
   image: https://static.feedpress.com/logo/packetpushersweeklypodcast-653bc236a0040.png
@@ -1238,7 +1238,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/screaming-in-the-cloud/2350509
   amazon_music: null
   castbox: null
   image: https://img.transistorcdn.com/sjY7QBiTinCDr8X80gOsgDaM4fMY0WuZn87UxNTh6Fw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzE0OTQvMTU4Mzg2/OTQ4My1hcnR3b3Jr/LmpwZw.jpg
@@ -1333,7 +1333,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: https://pocketcasts.com/podcasts/f4d1adb0-ccd1-0131-2dc0-723c91aeae46
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/aws-podcast/2007949
   amazon_music: https://music.amazon.com/podcasts/f39a0207-53db-4023-89ca-1c2dad589e60/aws-podcast
   castbox: https://castbox.fm/channel/AWS-Podcast-id4071354?country=us
   image: http://d3gih7jbfe3jlq.cloudfront.net/AWS-Podcast-Title-Art.jpg
@@ -1429,7 +1429,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/the-azure-podcast/431021
   amazon_music: https://music.amazon.com/podcasts/b4e13f4c-4b08-4451-931e-8304220e5670/the-azure-podcast
   castbox: null
   image: http://azpodcast.blob.core.windows.net/artifacts/PodcastArtwork.jpg
@@ -1524,7 +1524,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/google-cloud-platform-podcast/3731780
   amazon_music: null
   castbox: null
   image: https://static.libsyn.com/p/assets/3/c/3/b/3c3b13ac1fc67854e5bbc093207a2619/logo_large.png
@@ -1620,7 +1620,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/cloud-security-podcast/2502382
   amazon_music: null
   castbox: null
   image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/2749242/2749242-1702414932410-4a0a63fceb0f9.jpg
@@ -1722,7 +1722,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/1496
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/day-two-devops/2360859
   amazon_music: null
   castbox: null
   image: https://static.feedpress.com/logo/day2cloud-669fc5e024d4b.jpg
@@ -1821,7 +1821,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/bkgauel2
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/heavy-strategy/3138365
   amazon_music: null
   castbox: null
   image: https://static.feedpress.com/logo/heavystrategy-65738ff49c606.png
@@ -1922,7 +1922,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/command-line-heroes/7257723
   amazon_music: null
   castbox: null
   image: https://hosting-media.riverside.com/media/imports/podcasts/985a8bcc-7937-4ce0-9e5f-8bfb400c6a5f/english.jpg
@@ -2022,7 +2022,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: http://pca.st/QL3r
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/linux-action-news/2245714
   amazon_music: null
   castbox: https://castbox.fm/channel/Linux-Action-News-id2126174?country=us
   image: https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/d/dec90738-e640-45e5-b375-4573052f4bf4/cover.jpg?v=6
@@ -2121,7 +2121,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/BiYL8e
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/self-hosted/2424835
   amazon_music: null
   castbox: https://castbox.fm/channel/Self-Hosted-id2294827?country=us
   image: https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/7/7296e34a-2697-479a-adfb-ad32329dd0b0/cover.jpg?v=2
@@ -2217,7 +2217,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/late-night-linux-family-all-episodes/2161382
   amazon_music: null
   castbox: null
   image: http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg
@@ -2314,7 +2314,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: http://pca.st/itunes/687598126
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/linux-unplugged/5006542
   amazon_music: null
   castbox: https://castbox.fm/channel/LINUX-Unplugged-id2120644?country=us
   image: https://assets.fireside.fm/file/fireside-images/podcasts/images/f/f31a453c-fa15-491f-8618-3f71f1d565e5/cover.jpg
@@ -2410,7 +2410,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/ask-noah-show/2371275
   amazon_music: null
   castbox: null
   image: https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/3/305e3275-6919-4ed2-9ca1-b21e0cf904b2/cover.jpg?v=1
@@ -2912,7 +2912,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/dialogues-imaginaires-du-monde-merveilleux-de-la-cyber/5932799
   amazon_music: null
   castbox: null
   image: https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c9/5b/55/c95b5597-50c9-0782-1e3e-cdf045e61b58/mza_18086194992061792353.jpeg/600x600bb.jpg
@@ -3071,7 +3071,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/hack-n-speak/3209696
   amazon_music: https://music.amazon.fr/podcasts/1d6345a2-c622-4a4c-a88e-580226369a69/hack'n-speak
   castbox: null
   image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/11201062/11201062-1610393629389-b04e93ff7d159.jpg
@@ -3255,7 +3255,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/incyber-voices/5783052
   amazon_music: null
   castbox: null
   image: https://image.ausha.co/mM7ZhfN5GuTKl9gFnhdSYBRB8na4g43fR5lii8vv_1400x1400.jpeg?t=1743355614
@@ -3539,7 +3539,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/la-matrice-a-bugge/4499602
   amazon_music: null
   castbox: null
   image: https://assets.pippa.io/shows/cover/1674833453387-607221ff6e38325df8065612bd1abca8.jpeg
@@ -3641,7 +3641,7 @@ podcasts:
   linkedin: null
   deezer: https://www.deezer.com/fr/show/2264002
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/podcast-la-robe-numerique/5867036
   amazon_music: null
   castbox: null
   image: https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/55/4b/ec/554becb4-b057-ca98-67b5-5518814b7ec8/mza_14204533298284299946.jpeg/600x600bb.jpg
@@ -3735,7 +3735,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/la-tangente/3516212
   amazon_music: null
   castbox: null
   image: https://image.ausha.co/wyd3CbdkCzbFKMP1cdebiIww2gYp6RQokQXChnOH_1400x1400.jpeg?t=1706379884
@@ -3831,7 +3831,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/le-dejargonneur-cyber/5687423
   amazon_music: null
   castbox: null
   image: https://assets.pippa.io/shows/cover/1739180298323-3b459660-3eba-49c7-97d7-2aae5b298beb.jpeg
@@ -4200,7 +4200,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/nolimitsecu/509653
   amazon_music: null
   castbox: null
   image: http://ftp.nolimitsecu.fr/nolimitsecu-1400.jpg
@@ -4293,7 +4293,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/objectif-tech/3702085
   amazon_music: null
   castbox: null
   image: null
@@ -4336,7 +4336,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/onditchiffrer/4993297
   amazon_music: null
   castbox: null
   image: https://assets.pippa.io/shows/65b3645785ae6700165ec9c3/1709377594422-1bdb4bce3db353a24d44550626d861f9.jpeg
@@ -4529,7 +4529,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/purple-voice/5901611
   amazon_music: null
   castbox: null
   image: https://assets.pippa.io/shows/68065b0838088415692025d0/1747755289075-f4e0b9fd-013e-4117-8209-c4eff33cd129.jpeg
@@ -4633,7 +4633,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/radiocsirt/5496892
   amazon_music: null
   castbox: null
   image: https://www.radiocsirt.org/wp-content/uploads/2022/10/cropped-cropped-Radio-CSIRT-logo-2-2-32x32.png
@@ -4863,7 +4863,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/yakafokon/4774919
   amazon_music: null
   castbox: null
   image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/2855804/2855804-1576411623692-f840da1e2e64f.jpg
@@ -4900,6 +4900,100 @@ podcasts:
   tags:
   - Society & Culture
   - Personal Journals
+- id: cyberpodcast-official
+  name: CyberPodcast
+  category:
+  - Cybersécurité
+  language: en
+  country: US
+  hosts:
+  - CyberPodcast
+  website: https://music.youtube.com/@cyberpodcast-official
+  rss: https://www.youtube.com/feeds/videos.xml?channel_id=UCq-pOpFcME3ziyCCt0pSXdQ
+  youtube: https://www.youtube.com/@cyberpodcast-official
+  spotify: null
+  apple_podcast: null
+  linkedin: null
+  deezer: null
+  pocket_casts: null
+  podcast_addict: null
+  amazon_music: null
+  castbox: null
+  image: https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj
+  author: CyberPodcast
+  description: CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet…
+  last_episode: '2026-11-09'
+  last_episode_title: 'OWASP AI Security 12 | Paper Breakdown #12 | OWASP AI Security | CyberPodcast'
+  last_episode_url: https://www.youtube.com/watch?v=QWTG9MrjD9k
+  last_episode_audio: null
+  last_episode_duration: null
+  episodes:
+  - title: 'OWASP AI Security 12 | Paper Breakdown #12 | OWASP AI Security | CyberPodcast'
+    published: '2026-11-09'
+    url: https://www.youtube.com/watch?v=QWTG9MrjD9k
+    audio: null
+    duration: null
+  - title: Tor Network Flawed? HTTP Attacks Exposed!
+    published: '2026-11-09'
+    url: https://www.youtube.com/shorts/dB_zpL4Jlqo
+    audio: null
+    duration: null
+  - title: 'TOR Privacy Flaw: HTTP Attack Exposed'
+    published: '2026-11-08'
+    url: https://www.youtube.com/shorts/t2-Ecv8eYhc
+    audio: null
+    duration: null
+  - title: Tor Network Vulnerability Explained
+    published: '2026-11-07'
+    url: https://www.youtube.com/shorts/aYrl1iuYFxc
+    audio: null
+    duration: null
+  - title: One Cell Error Crashes Tor Circuit
+    published: '2026-11-06'
+    url: https://www.youtube.com/shorts/z1uSovpvh5o
+    audio: null
+    duration: null
+  - title: 'Securing LLMs: OWASP Guide Insights | Podcast #11 | OWASP AI Security | CyberPodcast'
+    published: '2026-11-06'
+    url: https://www.youtube.com/watch?v=aWP73BeghP0
+    audio: null
+    duration: null
+  - title: 'Statistical Disclosure Attacks: Breaking Mix Network Anonymity | Paper Breakdown #19 | CyberPodcast'
+    published: '2026-11-05'
+    url: https://www.youtube.com/watch?v=TacZF5jx6eI
+    audio: null
+    duration: null
+  - title: Tor's Mathematical Chain | CyberPodcast
+    published: '2026-11-05'
+    url: https://www.youtube.com/shorts/eY8pRu436DA
+    audio: null
+    duration: null
+  - title: '57KB/s: Is Anyone a Threat to Tor? 🛡️'
+    published: '2026-11-04'
+    url: https://www.youtube.com/shorts/Rr-mctQmkng
+    audio: null
+    duration: null
+  - title: 'How packet sizes identify Tor traffic | Tor Network Attacks #23 | CyberPodcast'
+    published: '2026-11-03'
+    url: https://www.youtube.com/watch?v=z0cooVYMr3g
+    audio: null
+    duration: null
+  frequency: daily
+  frequency_days: 1
+  first_seen: '2026-11-10'
+  updated_at: '2026-11-10'
+  episode_count: 15
+  average_duration: null
+  status: active
+  community_rating: null
+  community_rating_count: null
+  platform: YouTube
+  topics:
+  - Cybersécurité
+  - Pentest
+  - Red Team
+  tags:
+  - Cybersécurité
 - id: diginov
   name: Diginov
   category:
@@ -4917,7 +5011,7 @@ podcasts:
   linkedin: https://fr.linkedin.com/in/sylvanush
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/diginov/5130792
   amazon_music: null
   castbox: null
   image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/38168938/38168938-1687036282239-1922430875c63.jpg
@@ -5010,7 +5104,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/f0UL
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/hackstock/7322208
   amazon_music: null
   castbox: null
   image: https://assets.pippa.io/shows/cover/1701442099641-dd2998d93e5d0f1d2eeb2e61d8b81b38.jpeg
@@ -5117,7 +5211,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/le-comptoir-secu/2002462
   amazon_music: null
   castbox: null
   image: https://www.comptoirsecu.fr//images/logo.big.jpg
@@ -5209,7 +5303,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/les-chiens-de-garde/3588010
   amazon_music: null
   castbox: null
   image: https://crypto.quebec/podcastgen/images/itunes_image.jpg
@@ -5301,7 +5395,7 @@ podcasts:
   linkedin: null
   deezer: https://www.deezer.com/fr/show/1000238445
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/les-minutes-cyber/4603868
   amazon_music: null
   castbox: null
   image: https://uploads.podcloud.fr/uploads/covers/30/4c/304cd4963c078adb249ca360121f12229def1bd9.jpg
@@ -5380,7 +5474,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/no-log/3179763
   amazon_music: null
   castbox: null
   image: https://assets.pippa.io/shows/5fb64f222168d75055c38951/1605783678412-6dca764f07691ad7086669825ddc8a33.jpeg
@@ -5462,7 +5556,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/osint-origins-the-podcast-by-osint-fr-osintfrcom/3753339
   amazon_music: null
   castbox: null
   image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/18216786/18216786-1639693892918-6cd8225debf16.jpg
@@ -5547,7 +5641,7 @@ podcasts:
   linkedin: null
   deezer: https://www.deezer.com/fr/show/396442
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/ifttd-if-this-then-dev/3681499
   amazon_music: null
   castbox: null
   image: https://static.audiomeans.fr/img/podcast/b0f6c0ee-41d3-4406-9d0c-7ef45174c4b8.jpg
@@ -5647,7 +5741,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/les-cast-codeurs-podcast/1895806
   amazon_music: null
   castbox: null
   image: https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/27/d4/c2/27d4c27c-6cd5-b27d-de7f-e683c79e5442/mza_6557719921920703431.png/600x600bb.jpg
@@ -5838,7 +5932,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/tech-cafe-tech-ia/4395457
   amazon_music: null
   castbox: null
   image: https://static.audiomeans.fr/img/podcast/6babef68-0aa0-4a2a-879a-97ff3bd55131.jpg
@@ -6048,7 +6142,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/fmx9
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/syntax-tasty-web-development-treats/4770078
   amazon_music: https://music.amazon.com/podcasts/3f16a46b-6281-4fc7-99de-380fbeb6d970/syntax---tasty-web-development-treats
   castbox: null
   image: https://megaphone.imgix.net/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
@@ -6143,7 +6237,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/coding-blocks/2043175
   amazon_music: null
   castbox: null
   image: http://www.codingblocks.net/wp-content/uploads/powerpress/codingblocks-itunes.jpg
@@ -6240,7 +6334,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/software-engineering-daily/1853288
   amazon_music: null
   castbox: null
   image: https://softwareengineeringdaily.com/wp-content/uploads/2026/07/sed_logo_2026.png
@@ -6337,7 +6431,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/the-changelog-software-development-open-source/3549974
   amazon_music: null
   castbox: null
   image: https://cdn.changelog.com/static/images/podcasts/podcast-original-f16d0363067166f241d080ee2e2d4a28.png
@@ -6536,7 +6630,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/net-rocks/4060877
   amazon_music: null
   castbox: null
   image: https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d609b60f7cc16bfd0e6416ce8d5596ec.jpg
@@ -6630,7 +6724,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/python-bytes/4332541
   amazon_music: null
   castbox: null
   image: https://cdn.pythonbytes.fm/static/img/podcast-theme-img_3000.jpg
@@ -6723,7 +6817,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/talk-python-to-me/1657479
   amazon_music: null
   castbox: null
   image: https://cdn-podcast.talkpython.fm/static/img/talk-python-3000.jpg
@@ -6915,7 +7009,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/go-time-golang-software-engineering/1790327
   amazon_music: null
   castbox: null
   image: https://cdn.changelog.com/uploads/covers/go-time-original.png?v=63725770357
@@ -7017,7 +7111,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/javascript-jabber/5004233
   amazon_music: https://music.amazon.com/podcasts/98a7426c-dbef-4f01-8838-160caaea2a70/javascript-jabber
   castbox: null
   image: https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/1d6a39759b7b8442bda3dde45332e0a5.jpg
@@ -7110,7 +7204,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/react-podcast/2968222
   amazon_music: null
   castbox: null
   image: https://image.simplecastcdn.com/images/bdb43d4d-bd1d-4fbc-bd60-40f1e3299aa3/20f97d0b-6dab-4005-a995-0ab8fc2cf31c/3000x3000/1550288890-artwork.jpg?aid=rss_feed
@@ -7303,7 +7397,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/itunes/1626358243
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/ai-engineering-podcast/5205514
   amazon_music: https://music.amazon.com/podcasts/6df56b82-1715-42a8-8234-c6d93f271e5b/the-machine-learning-podcast
   castbox: https://castbox.fm/vic/1626358243
   image: https://assets.podhome.fm/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557211890591941ai_engineering_podcast_logo.jpg
@@ -7397,7 +7491,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/itunes/1406537385
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/practical-ai/5689090
   amazon_music: null
   castbox: null
   image: https://img.transistorcdn.com/WMlp2ug34XB6LDJ3-vnzti_-_y144LUlFW0Xzzn3fss/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wMTZi/ZWJmNWIwNDdmYTcw/NGJjMTExZjNjZmYy/M2ZjNS5wbmc.jpg
@@ -7497,7 +7591,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/latent-space-the-ai-engineer-podcast/7325446
   amazon_music: null
   castbox: null
   image: https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818
@@ -7686,7 +7780,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/itunes/1193040557
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/data-engineering-podcast/5189884
   amazon_music: https://music.amazon.com/podcasts/4c60afdb-050c-49de-9053-ffcaeaa9fcb7/data-engineering-podcast
   castbox: https://castbox.fm/vic/1193040557
   image: https://assets.podhome.fm/f6ff0caa-931b-4c08-bfdd-08dc7f5cd336/638557928872209534cover.jpg
@@ -7780,7 +7874,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/software-developers-journey/6499903
   amazon_music: null
   castbox: null
   image: https://storage.buzzsprout.com/0osjnkhcanlx3md9p4ozc3bqjyhb?.jpg
@@ -7887,7 +7981,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/soft-skills-engineering/1758221
   amazon_music: null
   castbox: null
   image: https://download.softskills.audio/sse-cover-art.png
@@ -8102,7 +8196,7 @@ podcasts:
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/ship-it-cloud-sre-platform-engineering/3363499
   amazon_music: null
   castbox: null
   image: https://cdn.changelog.com/uploads/covers/ship-it-original.png?v=63787880447

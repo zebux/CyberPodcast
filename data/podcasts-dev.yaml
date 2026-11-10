@@ -6,6 +6,7 @@
     language: fr
     status: active
     website: https://ifttd.io/
+    podcast_addict: https://podcastaddict.com/podcast/ifttd-if-this-then-dev/3681499
     hosts:
       - Bruno Soulez
 
@@ -16,6 +17,7 @@
     language: fr
     status: active
     website: https://lescastcodeurs.com/
+    podcast_addict: https://podcastaddict.com/podcast/les-cast-codeurs-podcast/1895806
     hosts:
       - Guillaume Laforge
       - Arnaud Héritier
@@ -46,6 +48,7 @@
     website: https://techcafe.fr
     rss: https://feeds.audiomeans.fr/feed/d6ddb849-3100-43b2-91a5-93f54fe4c4b5.xml
     apple_podcast: https://podcasts.apple.com/us/podcast/tech-caf%C3%A9-tech-ia/id916491698?uo=4
+    podcast_addict: https://podcastaddict.com/podcast/tech-cafe-tech-ia/4395457
     platform: Audiomeans
     hosts:
       - Guillaume Vendé
@@ -69,6 +72,7 @@
     language: en
     status: active
     website: https://syntax.fm/
+    podcast_addict: https://podcastaddict.com/podcast/syntax-tasty-web-development-treats/4770078
     youtube: https://www.youtube.com/@syntaxfm
     hosts:
       - Wes Bos
@@ -81,6 +85,7 @@
     language: en
     status: active
     website: https://www.codingblocks.net/
+    podcast_addict: https://podcastaddict.com/podcast/coding-blocks/2043175
     hosts:
       - Allen Underwood
       - Michael Outlaw
@@ -94,6 +99,7 @@
     language: en
     status: active
     website: https://softwareengineeringdaily.com/
+    podcast_addict: https://podcastaddict.com/podcast/software-engineering-daily/1853288
     hosts:
       - Jeff Meyerson
 
@@ -110,6 +116,7 @@
       - Jerod Santo
     rss: https://changelog.com/podcast/feed
     apple_podcast: https://podcasts.apple.com/us/podcast/the-changelog-software-development-open-source/id341623264
+    podcast_addict: https://podcastaddict.com/podcast/the-changelog-software-development-open-source/3549974
 
   - id: cppcast
     name: "CppCast"
@@ -131,6 +138,7 @@
     language: en
     status: active
     website: https://www.dotnetrocks.com/
+    podcast_addict: https://podcastaddict.com/podcast/net-rocks/4060877
     hosts:
       - Carl Franklin
       - Richard Campbell
@@ -144,6 +152,7 @@
     language: en
     status: active
     website: https://pythonbytes.fm/
+    podcast_addict: https://podcastaddict.com/podcast/python-bytes/4332541
     hosts:
       - Michael Kennedy
       - Brian Okken
@@ -155,6 +164,7 @@
     language: en
     status: active
     website: https://talkpython.fm/
+    podcast_addict: https://podcastaddict.com/podcast/talk-python-to-me/1657479
     hosts:
       - Michael Kennedy
 
@@ -175,6 +185,7 @@
     language: en
     status: active
     website: https://changelog.com/gotime
+    podcast_addict: https://podcastaddict.com/podcast/go-time-golang-software-engineering/1790327
     hosts:
       - Mat Ryer
       - Johnny Boursiquot
@@ -196,6 +207,7 @@
     language: en
     status: active
     website: https://javascriptjabber.com/
+    podcast_addict: https://podcastaddict.com/podcast/javascript-jabber/5004233
     hosts:
       - Charles Max Wood
 
@@ -206,6 +218,7 @@
     language: en
     status: active
     website: https://reactpodcast.com/
+    podcast_addict: https://podcastaddict.com/podcast/react-podcast/2968222
     hosts:
       - Michael Chan
     rss: https://feeds.simplecast.com/JoR28o79
@@ -236,6 +249,7 @@
     language: en
     status: active
     website: https://aiengineeringpodcast.com/
+    podcast_addict: https://podcastaddict.com/podcast/ai-engineering-podcast/5205514
 
   - id: practical-ai
     name: "Practical AI"
@@ -244,6 +258,7 @@
     language: en
     status: active
     website: https://changelog.com/practicalai
+    podcast_addict: https://podcastaddict.com/podcast/practical-ai/5689090
     hosts:
       - Daniel Whitenack
       - Chris Benson
@@ -257,6 +272,7 @@
     language: en
     status: active
     website: https://www.latent.space/
+    podcast_addict: https://podcastaddict.com/podcast/latent-space-the-ai-engineer-podcast/7325446
     hosts:
       - swyx
       - Alessio Fanelli
@@ -285,6 +301,7 @@
     hosts:
       - Tobias Macey
     apple_podcast: https://podcasts.apple.com/us/podcast/data-engineering-podcast/id1193040557
+    podcast_addict: https://podcastaddict.com/podcast/data-engineering-podcast/5189884
     spotify: https://open.spotify.com/show/2iLvljRGVVIGlJshT5vNDS
 
   - id: command-line-heroes
@@ -295,6 +312,7 @@
     language: en
     status: archived
     website: https://www.redhat.com/en/command-line-heroes
+    podcast_addict: https://podcastaddict.com/podcast/command-line-heroes/7257723
     hosts:
       - Saron Yitbarek
 
@@ -306,6 +324,7 @@
     language: en
     status: active
     website: https://devjourney.info/
+    podcast_addict: https://podcastaddict.com/podcast/software-developers-journey/6499903
 
   - id: soft-skills-engineering
     name: "Soft Skills Engineering"
@@ -315,6 +334,7 @@
     language: en
     status: active
     website: https://softskills.audio/
+    podcast_addict: https://podcastaddict.com/podcast/soft-skills-engineering/1758221
     hosts:
       - Dave Smith
       - Jamison Dance
@@ -338,6 +358,7 @@
     language: en
     status: active
     website: https://changelog.com/shipit
+    podcast_addict: https://podcastaddict.com/podcast/ship-it-cloud-sre-platform-engineering/3363499
     hosts:
       - Justin Searls
       - Adam Stacoviak

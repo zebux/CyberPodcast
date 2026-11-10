@@ -377,6 +377,7 @@ def podcast_card(podcast: dict[str, Any], root: str = "") -> str:
       <a class="button button-small" href="{detail_url}">Détails</a>
       {link_pill("Site", website, "site")}
       {link_pill("Apple", podcast.get("apple_podcast"), "apple")}
+      {link_pill("Podcast Addict", podcast.get("podcast_addict"), "podcastaddict")}
       {link_pill("Spotify", podcast.get("spotify"), "spotify")}
       {link_pill("YouTube", podcast.get("youtube"), "youtube")}
     </div>
@@ -638,21 +639,24 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
           <span class="sr-only">Rechercher</span>
           <input id="search" type="search" placeholder="Rechercher un podcast, un sujet, un animateur…" autocomplete="off">
         </label>
-        <select id="filter-category" aria-label="Filtrer par catégorie">{category_options}</select>
-        <select id="filter-status" aria-label="Filtrer par statut">{status_options}</select>
-        <select id="filter-language" aria-label="Filtrer par langue">{language_options}</select>
-        <select id="filter-platform" aria-label="Filtrer par plateforme">{platform_options}</select>
-        <select id="sort" aria-label="Trier">
-          <option value="name">Nom (A–Z)</option>
-          <option value="last">Dernier épisode</option>
-          <option value="episodes">Nombre d’épisodes</option>
-          <option value="rating">Note Apple</option>
-          <option value="duration">Durée moyenne</option>
-          <option value="recent">Ajout récent</option>
-          <option value="status">Statut</option>
-        </select>
-        <button id="favorites-toggle" type="button" aria-pressed="false">Favoris</button>
-        <button id="reset" type="button">Réinitialiser</button>
+        <button class="filters-toggle" id="filters-toggle" type="button" aria-expanded="false" aria-controls="filters-panel">Filtres</button>
+        <div class="filters-panel" id="filters-panel">
+          <select id="filter-category" aria-label="Filtrer par catégorie">{category_options}</select>
+          <select id="filter-status" aria-label="Filtrer par statut">{status_options}</select>
+          <select id="filter-language" aria-label="Filtrer par langue">{language_options}</select>
+          <select id="filter-platform" aria-label="Filtrer par plateforme">{platform_options}</select>
+          <select id="sort" aria-label="Trier">
+            <option value="name">Nom (A–Z)</option>
+            <option value="last">Dernier épisode</option>
+            <option value="episodes">Nombre d’épisodes</option>
+            <option value="rating">Note Apple</option>
+            <option value="duration">Durée moyenne</option>
+            <option value="recent">Ajout récent</option>
+            <option value="status">Statut</option>
+          </select>
+          <button id="favorites-toggle" type="button" aria-pressed="false">Favoris</button>
+          <button id="reset" type="button">Réinitialiser</button>
+        </div>
       </div>
       <div class="topic-bar" aria-label="Filtrer par sujet">
         <span class="topic-label">Sujets</span>

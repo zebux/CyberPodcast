@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-11-10T12:45:56.145323+00:00",
-  "total": 90,
-  "total_episodes": 24567,
-  "with_rss": 83,
-  "with_image": 83,
+  "generated_at": "2026-11-10T14:20:06.875577+00:00",
+  "total": 91,
+  "total_episodes": 24582,
+  "with_rss": 84,
+  "with_image": 84,
   "with_audio": 81,
   "rated": 68,
   "average_rating": 4.74,
   "by_status": {
     "slow": 16,
-    "active": 59,
+    "active": 60,
     "archived": 15
   },
   "by_language": {
     "fr": 47,
-    "en": 43
+    "en": 44
   },
   "by_platform": {
     "Spotify": 31,
@@ -29,6 +29,7 @@
     "Ausha": 11,
     "RedCircle": 1,
     "Blubrry": 1,
+    "YouTube": 1,
     "Spreaker": 2,
     "Simplecast": 2,
     "Substack": 1
@@ -47,7 +48,7 @@
     "LLM": 2,
     "Carrière": 4,
     "Réseau": 2,
-    "Cybersécurité": 37,
+    "Cybersécurité": 38,
     "Cloud Security": 1,
     "Architecture": 7,
     "Linux": 6,
@@ -60,8 +61,8 @@
     "Développement": 22,
     "Malware": 1,
     "Cryptographie": 1,
-    "Pentest": 1,
-    "Red Team": 1,
+    "Pentest": 2,
+    "Red Team": 2,
     "Blue Team": 1,
     "DFIR": 1,
     "OSINT": 2,
@@ -98,7 +99,7 @@
     "Homelab": 1,
     "Auto-hébergement": 1,
     "Administration système": 1,
-    "Cybersécurité": 35,
+    "Cybersécurité": 36,
     "GRC": 1,
     "Juridique": 1,
     "Cryptographie": 1,

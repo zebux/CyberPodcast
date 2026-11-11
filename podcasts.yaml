@@ -84,7 +84,7 @@ podcasts:
   frequency: irregular
   frequency_days: 338
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 11
   average_duration: 59
   status: slow
@@ -130,7 +130,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: null
   average_duration: null
   status: active
@@ -225,7 +225,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 97
   average_duration: 16
   status: slow
@@ -312,7 +312,7 @@ podcasts:
   frequency: weekly
   frequency_days: 8
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 8
   average_duration: 12
   status: archived
@@ -411,7 +411,7 @@ podcasts:
   frequency: monthly
   frequency_days: 22
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 142
   average_duration: 21
   status: slow
@@ -464,7 +464,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: null
   average_duration: null
   status: active
@@ -500,12 +500,17 @@ podcasts:
   image: https://static.audiomeans.fr/img/podcast/6d33de64-9124-475c-9be7-b4a249107108.jpg
   author: Expertime
   description: Les Têtes Dans Le Cloud, un condensé de news tech fortement influencé par l'écosystème Microsoft et animé par des passionnés ! Hébergé par Audiomeans. Visitez…
-  last_episode: '2026-11-05'
-  last_episode_title: 'Power BI 2.0 : ça n''aura plus rien à voir ! (+ Nouveautés Dataflow Gen II)'
+  last_episode: '2026-11-10'
+  last_episode_title: '[EP.36] Microsoft AI Harness, PowerPoint Interractif, Alerte Fabric, Modele de Decision & Humanisme'
   last_episode_url: null
-  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/e290b824-17c2-4d26-a4b2-2970888d8618.mp3?_=1791878882
-  last_episode_duration: 24
+  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/74208cc7-f605-41a8-a592-53bab59d8736.mp3?_=1794214456
+  last_episode_duration: 81
   episodes:
+  - title: '[EP.36] Microsoft AI Harness, PowerPoint Interractif, Alerte Fabric, Modele de Decision & Humanisme'
+    published: '2026-11-10'
+    url: null
+    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/74208cc7-f605-41a8-a592-53bab59d8736.mp3?_=1794214456
+    duration: 81
   - title: 'Power BI 2.0 : ça n''aura plus rien à voir ! (+ Nouveautés Dataflow Gen II)'
     published: '2026-11-05'
     url: null
@@ -551,16 +556,11 @@ podcasts:
     url: null
     audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/2af1ae1d-76ba-4973-9b31-50bc8360a90f.mp3?_=1782722762
     duration: 23
-  - title: Est-ce Que Les IA Sont Nos Amis ? (non, pas toujours)
-    published: '2026-08-03'
-    url: null
-    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/5a4b7aad-da24-461a-a890-3330261ea6d5.mp3?_=1781165917
-    duration: 6
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 221
+  updated_at: '2026-11-11'
+  episode_count: 222
   average_duration: 22
   status: active
   community_rating: 4.6
@@ -628,7 +628,7 @@ podcasts:
   frequency: quarterly
   frequency_days: 61
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 5
   average_duration: 43
   status: active
@@ -673,7 +673,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: null
   average_duration: null
   status: active
@@ -718,7 +718,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: null
   average_duration: null
   status: active
@@ -813,7 +813,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 272
   average_duration: 33
   status: active
@@ -850,12 +850,17 @@ podcasts:
   image: https://storage.buzzsprout.com/qy0q4u4tgdaume7dfehgpznhwhn0?.jpg
   author: Massive Studios
   description: The Enterprise AI Show explores the AI journey for Enterprise companies around the world. [formerly The Cloudcast] As the AI revolution moves from experimentation to execution, The Enterprise AI Show…
-  last_episode: '2026-11-08'
-  last_episode_title: 'Claude, Make Me Rich: Finding Anthropic’s Next Giant Market'
+  last_episode: '2026-11-11'
+  last_episode_title: 'AI’s Netflix Moment: What Early Cloud Teaches Us About the Next Phase'
   last_episode_url: null
-  last_episode_audio: https://www.buzzsprout.com/3195/episodes/20070300-claude-make-me-rich-finding-anthropic-s-next-giant-market.mp3
-  last_episode_duration: 29
+  last_episode_audio: https://www.buzzsprout.com/3195/episodes/20106552-ai-s-netflix-moment-what-early-cloud-teaches-us-about-the-next-phase.mp3
+  last_episode_duration: 22
   episodes:
+  - title: 'AI’s Netflix Moment: What Early Cloud Teaches Us About the Next Phase'
+    published: '2026-11-11'
+    url: null
+    audio: https://www.buzzsprout.com/3195/episodes/20106552-ai-s-netflix-moment-what-early-cloud-teaches-us-about-the-next-phase.mp3
+    duration: 22
   - title: 'Claude, Make Me Rich: Finding Anthropic’s Next Giant Market'
     published: '2026-11-08'
     url: null
@@ -901,16 +906,11 @@ podcasts:
     url: null
     audio: https://www.buzzsprout.com/3195/episodes/19921034-the-new-new-kingmakers-agents-developers-and-the-future-of-software-with-stephen-o-grady.mp3
     duration: 43
-  - title: AI News for End of September 2026
-    published: '2026-10-04'
-    url: null
-    audio: https://www.buzzsprout.com/3195/episodes/19904932-ai-news-for-end-of-september-2026.mp3
-    duration: 35
   frequency: weekly
   frequency_days: 4
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 1113
+  updated_at: '2026-11-11'
+  episode_count: 1114
   average_duration: 37
   status: active
   community_rating: 4.6
@@ -1009,7 +1009,7 @@ podcasts:
   frequency: monthly
   frequency_days: 27
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 210
   average_duration: 41
   status: active
@@ -1107,7 +1107,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 544
   average_duration: 60
   status: active
@@ -1205,7 +1205,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 250
   average_duration: 60
   status: active
@@ -1303,7 +1303,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 682
   average_duration: 31
   status: active
@@ -1398,7 +1398,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 622
   average_duration: 32
   status: slow
@@ -1494,7 +1494,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 102
   average_duration: 22
   status: slow
@@ -1589,7 +1589,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 21
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 335
   average_duration: 35
   status: archived
@@ -1685,7 +1685,7 @@ podcasts:
   frequency: weekly
   frequency_days: 8
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 365
   average_duration: 42
   status: active
@@ -1787,7 +1787,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 250
   average_duration: 45
   status: active
@@ -1827,12 +1827,17 @@ podcasts:
   image: https://static.feedpress.com/logo/heavystrategy-65738ff49c606.png
   author: Packet Pushers
   description: From technology to workplace culture, from geopolitical trends to economics, Heavy Strategy debates pivotal questions in enterprise IT. Hosts Greg Ferro and Johna Till Johnson bring their technical…
-  last_episode: '2026-10-27'
-  last_episode_title: 'HS148: Expertise, Layoffs, AI, and You'
-  last_episode_url: https://feeds.packetpushers.net/link/22503/17507730/hs148-expertise-layoffs-ai-and-you
-  last_episode_audio: https://feeds.packetpushers.net/link/22503/17507731/HS148.mp3
-  last_episode_duration: 39
+  last_episode: '2026-11-10'
+  last_episode_title: 'HS149: Satcos Vs. Telcos: Who Wins?'
+  last_episode_url: https://feeds.packetpushers.net/link/22503/17521669/hs149-satcos-vs-telcos-who-wins
+  last_episode_audio: https://feeds.packetpushers.net/link/22503/17521670/HS149.mp3
+  last_episode_duration: 46
   episodes:
+  - title: 'HS149: Satcos Vs. Telcos: Who Wins?'
+    published: '2026-11-10'
+    url: https://feeds.packetpushers.net/link/22503/17521669/hs149-satcos-vs-telcos-who-wins
+    audio: https://feeds.packetpushers.net/link/22503/17521670/HS149.mp3
+    duration: 46
   - title: 'HS148: Expertise, Layoffs, AI, and You'
     published: '2026-10-27'
     url: https://feeds.packetpushers.net/link/22503/17507730/hs148-expertise-layoffs-ai-and-you
@@ -1878,17 +1883,12 @@ podcasts:
     url: https://feeds.packetpushers.net/link/22503/17422271/hs140-ai-and-technical-debt-boon-or-bane
     audio: https://feeds.packetpushers.net/link/22503/17422272/HS140.mp3
     duration: 42
-  - title: 'HS139: When “One Cloud to Rule Them All” is NOT the Answer: Regionalization'
-    published: '2026-08-04'
-    url: https://feeds.packetpushers.net/link/22503/17403166/hs139-when-one-cloud-to-rule-them-all-is-not-the-answer-regionalization
-    audio: https://feeds.packetpushers.net/link/22503/17403167/HS139.mp3
-    duration: 34
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 149
-  average_duration: 37
+  updated_at: '2026-11-11'
+  episode_count: 150
+  average_duration: 38
   status: active
   community_rating: 4.8
   community_rating_count: 26
@@ -1987,7 +1987,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 77
   average_duration: 23
   status: archived
@@ -2087,7 +2087,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 300
   average_duration: 15
   status: archived
@@ -2186,7 +2186,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 151
   average_duration: 58
   status: slow
@@ -2223,12 +2223,17 @@ podcasts:
   image: http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg
   author: Late Night Linux
   description: Podcast britannique d'actualité Linux, open source et administration système.
-  last_episode: '2026-11-06'
-  last_episode_title: Linux After Dark – Episode 134
-  last_episode_url: https://latenightlinux.com/linux-after-dark-episode-134/
+  last_episode: '2026-11-09'
+  last_episode_title: Late Night Linux – Episode 411
+  last_episode_url: https://latenightlinux.com/late-night-linux-episode-411/
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: Late Night Linux – Episode 411
+    published: '2026-11-09'
+    url: https://latenightlinux.com/late-night-linux-episode-411/
+    audio: null
+    duration: null
   - title: Linux After Dark – Episode 134
     published: '2026-11-06'
     url: https://latenightlinux.com/linux-after-dark-episode-134/
@@ -2274,16 +2279,11 @@ podcasts:
     url: https://latenightlinux.com/2-5-admins-322/
     audio: null
     duration: null
-  - title: Late Night Linux – Episode 408
-    published: '2026-10-20'
-    url: https://latenightlinux.com/late-night-linux-episode-408/
-    audio: null
-    duration: null
   frequency: daily
   frequency_days: 2
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 1053
+  updated_at: '2026-11-11'
+  episode_count: 1054
   average_duration: null
   status: active
   community_rating: 4.6
@@ -2379,7 +2379,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 692
   average_duration: 80
   status: active
@@ -2475,7 +2475,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 512
   average_duration: 54
   status: active
@@ -2557,7 +2557,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 21
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 7
   average_duration: 36
   status: slow
@@ -2652,7 +2652,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 86
   average_duration: 10
   status: active
@@ -2697,7 +2697,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: null
   average_duration: null
   status: active
@@ -2789,7 +2789,7 @@ podcasts:
   frequency: quarterly
   frequency_days: 63
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 77
   average_duration: 37
   status: active
@@ -2883,7 +2883,7 @@ podcasts:
   frequency: quarterly
   frequency_days: 49
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 52
   average_duration: 35
   status: active
@@ -2952,7 +2952,7 @@ podcasts:
   frequency: irregular
   frequency_days: 222
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 5
   average_duration: 28
   status: active
@@ -3044,7 +3044,7 @@ podcasts:
   frequency: weekly
   frequency_days: 10
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 299
   average_duration: null
   status: active
@@ -3136,7 +3136,7 @@ podcasts:
   frequency: monthly
   frequency_days: 36
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 58
   average_duration: 53
   status: active
@@ -3228,7 +3228,7 @@ podcasts:
   frequency: weekly
   frequency_days: 9
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 51
   average_duration: 82
   status: slow
@@ -3320,7 +3320,7 @@ podcasts:
   frequency: monthly
   frequency_days: 23
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 23
   average_duration: 22
   status: active
@@ -3356,12 +3356,17 @@ podcasts:
   image: https://image.ausha.co/UmjONms2O6yvvssNOdEXazwTxejnYcft1pZ3DXuw_1400x1400.jpeg?t=1768305932
   author: Fabrice Bourdelon
   description: La Box du RSSI est un podcast 🎙️ dédié à la cybersécurité pour les TPE, PME et ETI. Je suis ravi de vous accueillir dans cet espace où nous allons partager, échanger et surtout VULGARISER les…
-  last_episode: '2026-10-21'
-  last_episode_title: '#058 - SAISON 3 - EP.07 - MICHAEL BENOIT'
-  last_episode_url: https://podcast.ausha.co/laboxdurssi/058
-  last_episode_audio: https://audio.ausha.co/bllN16SOJvNz.mp3?t=1792500131
-  last_episode_duration: 30
+  last_episode: '2026-11-11'
+  last_episode_title: '#059 - SAISON 3 - EP.08 - PAUL KREMER'
+  last_episode_url: https://podcast.ausha.co/laboxdurssi/059
+  last_episode_audio: https://audio.ausha.co/VdW7pswM3jML.mp3?t=1794386000
+  last_episode_duration: 24
   episodes:
+  - title: '#059 - SAISON 3 - EP.08 - PAUL KREMER'
+    published: '2026-11-11'
+    url: https://podcast.ausha.co/laboxdurssi/059
+    audio: https://audio.ausha.co/VdW7pswM3jML.mp3?t=1794386000
+    duration: 24
   - title: '#058 - SAISON 3 - EP.07 - MICHAEL BENOIT'
     published: '2026-10-21'
     url: https://podcast.ausha.co/laboxdurssi/058
@@ -3407,16 +3412,11 @@ podcasts:
     url: https://podcast.ausha.co/laboxdurssi/050
     audio: https://audio.ausha.co/VdW7psgA6pDD.mp3?t=1780586464
     duration: 20
-  - title: '#049 - SAISON 2 - EP.10 - NEL VERDIER'
-    published: '2026-05-30'
-    url: https://podcast.ausha.co/laboxdurssi/049
-    audio: https://audio.ausha.co/E0R6ESYExqW1.mp3?t=1780129656
-    duration: 23
   frequency: weekly
-  frequency_days: 7
+  frequency_days: 9
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 59
+  updated_at: '2026-11-11'
+  episode_count: 60
   average_duration: 27
   status: active
   community_rating: 5.0
@@ -3509,7 +3509,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 84
   average_duration: 30
   status: active
@@ -3604,7 +3604,7 @@ podcasts:
   frequency: irregular
   frequency_days: 124
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 13
   average_duration: 37
   status: active
@@ -3637,7 +3637,7 @@ podcasts:
   rss: https://www.larobenumerique.com/podcast?format=rss
   youtube: null
   spotify: https://open.spotify.com/show/5tqzDrgPUwfIW5FvBEq17s?si=08a6f1c7fc8d46e5
-  apple_podcast: https://podcasts.apple.com/fr/podcast/la-robe-num%C3%A9rique/id1549703033?uo=4
+  apple_podcast: https://podcasts.apple.com/fr/podcast/la-robe-num%C3%A9rique/id1549703033
   linkedin: null
   deezer: https://www.deezer.com/fr/show/2264002
   pocket_casts: null
@@ -3706,8 +3706,8 @@ podcasts:
   frequency: monthly
   frequency_days: 22
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 123
+  updated_at: '2026-11-11'
+  episode_count: 20
   average_duration: 17
   status: archived
   community_rating: 5.0
@@ -3800,7 +3800,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 32
   average_duration: 45
   status: archived
@@ -3891,7 +3891,7 @@ podcasts:
   frequency: monthly
   frequency_days: 30
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 9
   average_duration: 4
   status: slow
@@ -3928,12 +3928,17 @@ podcasts:
   image: https://static.audiomeans.fr/img/podcast/b5e0e495-d53d-4e3f-bf27-29a1b92815bc.jpg
   author: Leslie Fornero
   description: Le podcast qui vous emmène à la découverte du monde de la cybersécurité.
-  last_episode: '2026-11-03'
-  last_episode_title: '#38 Donner une identité aux agents IA pour garder le contrôle - Zscaler'
+  last_episode: '2026-11-10'
+  last_episode_title: '[Tour de France Cyber #8] Se préparer à la cyberattaque, de la réglementation à l''IA - Montpellier'
   last_episode_url: null
-  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/3ce1d910-c6f7-46a9-9e78-baeea7f48c80.mp3?_=1792071745
-  last_episode_duration: 56
+  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/0092ac1a-3b9a-4eb6-89cd-d8116583d750.mp3?_=1793265993
+  last_episode_duration: 37
   episodes:
+  - title: '[Tour de France Cyber #8] Se préparer à la cyberattaque, de la réglementation à l''IA - Montpellier'
+    published: '2026-11-10'
+    url: null
+    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/0092ac1a-3b9a-4eb6-89cd-d8116583d750.mp3?_=1793265993
+    duration: 37
   - title: '#38 Donner une identité aux agents IA pour garder le contrôle - Zscaler'
     published: '2026-11-03'
     url: null
@@ -3979,17 +3984,12 @@ podcasts:
     url: null
     audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/31b19652-6504-4f73-809c-dae193a432ce.mp3?_=1782470804
     duration: 51
-  - title: 'REDIFFUSION [Cyber & Défense : Mini-série #5] Crises hybrides : quand la crise cyber s’invite sur le terrain'
-    published: '2026-08-11'
-    url: null
-    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/7f576762-c83e-48f2-8ffb-0cdd07489fe1.mp3?_=1782470526
-    duration: 22
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 135
-  average_duration: 29
+  updated_at: '2026-11-11'
+  episode_count: 136
+  average_duration: 34
   status: active
   community_rating: 4.7
   community_rating_count: 34
@@ -4074,7 +4074,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 4
   average_duration: 27
   status: active
@@ -4173,7 +4173,7 @@ podcasts:
   frequency: quarterly
   frequency_days: 51
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 16
   average_duration: 55
   status: active
@@ -4209,13 +4209,13 @@ podcasts:
   last_episode: '2026-11-08'
   last_episode_title: 'IA : la cybersécurité change de dimension !'
   last_episode_url: https://www.nolimitsecu.fr/ia-la-cybersecurite-change-de-dimension/
-  last_episode_audio: https://media.blubrry.com/3898091/www.nolimitsecu.fr/wp-content/uploads/NoLimitSecu-557-IA-la-cybersécurite-change-de-dimension.mp3
+  last_episode_audio: https://media.blubrry.com/3898091/www.nolimitsecu.fr/wp-content/uploads/NoLimitSecu-557-IA-la-cybersecurite-change-de-dimension.mp3
   last_episode_duration: 5
   episodes:
   - title: 'IA : la cybersécurité change de dimension !'
     published: '2026-11-08'
     url: https://www.nolimitsecu.fr/ia-la-cybersecurite-change-de-dimension/
-    audio: https://media.blubrry.com/3898091/www.nolimitsecu.fr/wp-content/uploads/NoLimitSecu-557-IA-la-cybersécurite-change-de-dimension.mp3
+    audio: https://media.blubrry.com/3898091/www.nolimitsecu.fr/wp-content/uploads/NoLimitSecu-557-IA-la-cybersecurite-change-de-dimension.mp3
     duration: 5
   - title: RETEX du CERT-FR sur les violations de données applicatives
     published: '2026-11-01'
@@ -4265,7 +4265,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 302
   average_duration: 30
   status: active
@@ -4308,7 +4308,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: null
   average_duration: null
   status: active
@@ -4401,7 +4401,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 26
   average_duration: 37
   status: slow
@@ -4432,7 +4432,7 @@ podcasts:
   rss: https://polysecure.ca/general_feed.xml
   youtube: https://www.youtube.com/@polysecurepodcast
   spotify: https://open.spotify.com/show/2Aal9u7zflmLOEpzhJ5uvu
-  apple_podcast: https://podcasts.apple.com/fr/podcast/polys%C3%A9cure-podcast/id1561084634?uo=4
+  apple_podcast: https://podcasts.apple.com/ca/podcast/polysecure-podcast/id1561084634
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/piz8zozv
@@ -4442,12 +4442,17 @@ podcasts:
   image: https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/28/3f/f1/283ff12a-8b1d-f1b1-c2e8-e5edb093574c/mza_8980461369952681688.jpg/600x600bb.jpg
   author: Nicolas-Loïc Fortin et tous les collaborateurs (info@polysecure.ca)
   description: Podcast québécois sur la cybersécurité, la vie privée et la sécurité des organisations.
-  last_episode: '2026-11-09'
-  last_episode_title: Actu - 08 novembre 2026
-  last_episode_url: https://polysecure.ca/posts/episode-0x868.html
-  last_episode_audio: https://polysecure.ca/episodes/PolySecure-0x364.m4a
-  last_episode_duration: 63
+  last_episode: '2026-11-10'
+  last_episode_title: Teknik - Clés privées GitHub App
+  last_episode_url: https://polysecure.ca/posts/episode-0x869.html
+  last_episode_audio: https://polysecure.ca/episodes/PolySecure-0x365.m4a
+  last_episode_duration: 42
   episodes:
+  - title: Teknik - Clés privées GitHub App
+    published: '2026-11-10'
+    url: https://polysecure.ca/posts/episode-0x869.html
+    audio: https://polysecure.ca/episodes/PolySecure-0x365.m4a
+    duration: 42
   - title: Actu - 08 novembre 2026
     published: '2026-11-09'
     url: https://polysecure.ca/posts/episode-0x868.html
@@ -4493,20 +4498,15 @@ podcasts:
     url: https://polysecure.ca/posts/episode-0x860.html
     audio: https://polysecure.ca/episodes/PolySecure-0x35C.m4a
     duration: 52
-  - title: PME - Piqûre de rappel ou l'importance d'entretenir son site web
-    published: '2026-10-23'
-    url: https://polysecure.ca/posts/episode-0x859.html
-    audio: https://polysecure.ca/episodes/PolySecure-0x35B.m4a
-    duration: 44
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 867
+  updated_at: '2026-11-11'
+  episode_count: 868
   average_duration: 44
   status: active
   community_rating: 5.0
-  community_rating_count: 2
+  community_rating_count: 7
   platform: Spotify
   topics:
   - Cybersécurité
@@ -4594,7 +4594,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 20
   average_duration: 32
   status: active
@@ -4603,20 +4603,8 @@ podcasts:
   platform: Acast
   topics:
   - Cybersécurité
-  - Pentest
-  - Red Team
-  - Blue Team
   tags:
-  - cybersecurity
-  - redteam
-  - blueteam
-  - Detection
-  - prévention
-  - Offensif
-  - Pentest
-  - Technology
-  - News
-  - Tech News
+  - Cybersécurité
 - id: radiocsirt
   name: RadioCSIRT
   category:
@@ -4639,12 +4627,17 @@ podcasts:
   image: https://www.radiocsirt.org/wp-content/uploads/2022/10/cropped-cropped-Radio-CSIRT-logo-2-2-32x32.png
   author: Marc Frédéric GOMEZ
   description: Podcast consacré aux CSIRT, à la réponse à incident et à la cybersécurité opérationnelle.
-  last_episode: '2026-10-11'
-  last_episode_title: CVE indisponible le 11 Octobre 2026
-  last_episode_url: https://www.radiocsirt.org/cve-indisponible-le-11-octobre-2026/
+  last_episode: '2026-11-10'
+  last_episode_title: Ep.796 – Outlook, Patch Tuesday de novembre – Flash info du mardi 10 novembre 2026
+  last_episode_url: https://www.radiocsirt.org/ep-796-outlook-patch-tuesday-de-novembre-flash-info-du-mardi-10-novembre-2026/
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: Ep.796 – Outlook, Patch Tuesday de novembre – Flash info du mardi 10 novembre 2026
+    published: '2026-11-10'
+    url: https://www.radiocsirt.org/ep-796-outlook-patch-tuesday-de-novembre-flash-info-du-mardi-10-novembre-2026/
+    audio: null
+    duration: null
   - title: CVE indisponible le 11 Octobre 2026
     published: '2026-10-11'
     url: https://www.radiocsirt.org/cve-indisponible-le-11-octobre-2026/
@@ -4690,16 +4683,11 @@ podcasts:
     url: https://www.radiocsirt.org/newsletter-radiocsirt-n31/
     audio: null
     duration: null
-  - title: NewsLetter RadioCSIRT N°30
-    published: '2025-09-27'
-    url: https://www.radiocsirt.org/newsletter-radiocsirt-n30/
-    audio: null
-    duration: null
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 798
+  updated_at: '2026-11-11'
+  episode_count: 800
   average_duration: null
   status: active
   community_rating: 4.9
@@ -4791,7 +4779,7 @@ podcasts:
   frequency: weekly
   frequency_days: 6
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 190
   average_duration: 34
   status: active
@@ -4835,7 +4823,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: null
   average_duration: null
   status: active
@@ -4888,7 +4876,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 2
   average_duration: null
   status: archived
@@ -4981,7 +4969,7 @@ podcasts:
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-10'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 15
   average_duration: null
   status: active
@@ -5076,10 +5064,10 @@ podcasts:
   frequency: monthly
   frequency_days: 41
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 21
   average_duration: 12
-  status: slow
+  status: archived
   community_rating: null
   community_rating_count: null
   platform: Anchor
@@ -5087,7 +5075,7 @@ podcasts:
   - Cybersécurité
   - Cloud
   tags:
-  - Technology
+  - Cybersécurité
 - id: hackstock
   name: Hackstock
   category:
@@ -5169,7 +5157,7 @@ podcasts:
   frequency: quarterly
   frequency_days: 100
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 15
   average_duration: 64
   status: archived
@@ -5276,7 +5264,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 100
   average_duration: null
   status: archived
@@ -5368,7 +5356,7 @@ podcasts:
   frequency: monthly
   frequency_days: 44
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 60
   average_duration: 35
   status: slow
@@ -5435,7 +5423,7 @@ podcasts:
   frequency: monthly
   frequency_days: 35
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 5
   average_duration: 33
   status: archived
@@ -5524,7 +5512,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 7
   average_duration: 32
   status: archived
@@ -5611,7 +5599,7 @@ podcasts:
   frequency: quarterly
   frequency_days: 71
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 8
   average_duration: 45
   status: archived
@@ -5647,12 +5635,17 @@ podcasts:
   image: https://static.audiomeans.fr/img/podcast/b0f6c0ee-41d3-4406-9d0c-7ef45174c4b8.jpg
   author: Bruno Soulez | Orso Media
   description: 'If This Then Dev, c''est le podcast D.E.V : Différent, Extraordinaire et Visionnaire. Un podcast qui veut résoudre le problème avant de passer au dev. Chaque semaine Bruno Soulez reçoit un expert pour…'
-  last_episode: '2026-11-09'
-  last_episode_title: '#237.diff - Exotec: Une reine et une armée de robots avec Sophie Paquereau'
-  last_episode_url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/237-3130cbe7b951
-  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/9e7c0f1d-cfb3-4c63-81e3-3130cbe7b951.mp3?_=1794142829
-  last_episode_duration: 65
+  last_episode: '2026-11-11'
+  last_episode_title: '#384.src - Usine logicielle 100% AI: Qui réveille-t-on quand l''usine prend feu ? avec Nikolay Rodionov'
+  last_episode_url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/384-3680913dce53
+  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/2d2ae4ea-acb6-4ff5-883b-3680913dce53.mp3?_=1794315645
+  last_episode_duration: 62
   episodes:
+  - title: '#384.src - Usine logicielle 100% AI: Qui réveille-t-on quand l''usine prend feu ? avec Nikolay Rodionov'
+    published: '2026-11-11'
+    url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/384-3680913dce53
+    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/2d2ae4ea-acb6-4ff5-883b-3680913dce53.mp3?_=1794315645
+    duration: 62
   - title: '#237.diff - Exotec: Une reine et une armée de robots avec Sophie Paquereau'
     published: '2026-11-09'
     url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/237-3130cbe7b951
@@ -5668,11 +5661,6 @@ podcasts:
     url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/383-5fb716849506
     audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/1c3c40a5-bd08-49fd-bdaa-5fb716849506.mp3?_=1793710900
     duration: 60
-  - title: '#358.exe - DevSecOps: Pourquoi l''automatisation ne sauvera pas (toute seule) la sécu par Florian Bruniaux'
-    published: '2026-10-30'
-    url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/358-c0fb9bb02c67
-    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/733f8263-ed68-47d2-aa36-c0fb9bb02c67.mp3?_=1793278876
-    duration: 21
   - title: '#382.src - Rapprocher la CI: L''IA a 20x la cadence, nos CI doivent suivre avec Yves Brissaud'
     published: '2026-10-28'
     url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/382-032793d4d61c
@@ -5706,8 +5694,8 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 761
+  updated_at: '2026-11-11'
+  episode_count: 762
   average_duration: 61
   status: active
   community_rating: 4.8
@@ -5806,7 +5794,7 @@ podcasts:
   frequency: monthly
   frequency_days: 32
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 363
   average_duration: 72
   status: active
@@ -5831,7 +5819,7 @@ podcasts:
   rss: https://feed.ausha.co/aOeG3uNw2QrW
   youtube: https://www.youtube.com/channel/UCQZ9fN69sDNl1oItZmn7dAw
   spotify: https://open.spotify.com/show/0btVq1hBSKAgsLTuSFecLO
-  apple_podcast: https://podcasts.apple.com/fr/podcast/la-cave/id1562020575?uo=4
+  apple_podcast: https://podcasts.apple.com/fr/podcast/la-cave/id1788778471
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/y1g74mgc
@@ -5900,12 +5888,12 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 18
   average_duration: 65
   status: slow
-  community_rating: null
-  community_rating_count: null
+  community_rating: 4.7
+  community_rating_count: 14
   platform: Ausha
   topics:
   - Développement
@@ -5938,12 +5926,17 @@ podcasts:
   image: https://static.audiomeans.fr/img/podcast/6babef68-0aa0-4a2a-879a-97ff3bd55131.jpg
   author: Guillaume Vendé
   description: 'Tech Café : votre veille sur les nouvelles technologies chaque semaine'
-  last_episode: '2026-11-08'
-  last_episode_title: L’IA nous fait gagner du temps. Pour quoi faire ? (interview Duduf)
-  last_episode_url: https://techcafe.fr/lia-nous-fait-gagner-du-temps-pour-quoi-faire-interview-duduf/
-  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/4b14fdb4-aa33-4f0a-82c5-61514fe7927e.mp3?_=1794072971
-  last_episode_duration: 108
+  last_episode: '2026-11-11'
+  last_episode_title: Le kiki de Jensen Huang gouverne le monde
+  last_episode_url: https://techcafe.fr/le-kiki-de-jensen-huang-gouverne-le-monde/
+  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/34345859-1ef6-4234-96bb-c1f3d5f135e4.mp3?_=1794348402
+  last_episode_duration: 95
   episodes:
+  - title: Le kiki de Jensen Huang gouverne le monde
+    published: '2026-11-11'
+    url: https://techcafe.fr/le-kiki-de-jensen-huang-gouverne-le-monde/
+    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/34345859-1ef6-4234-96bb-c1f3d5f135e4.mp3?_=1794348402
+    duration: 95
   - title: L’IA nous fait gagner du temps. Pour quoi faire ? (interview Duduf)
     published: '2026-11-08'
     url: https://techcafe.fr/lia-nous-fait-gagner-du-temps-pour-quoi-faire-interview-duduf/
@@ -5989,16 +5982,11 @@ podcasts:
     url: https://techcafe.fr/apple-homeview-microsoft-surface-les-maths-face-a-lia/
     audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/b58e9b9f-f6ec-4883-a9ce-9ac185448870.mp3?_=1791930698
     duration: 87
-  - title: Les IA passent le test de Turing avec Facetime
-    published: '2026-10-10'
-    url: https://techcafe.fr/les-ia-passent-le-test-de-turing-avec-facetime/
-    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/e782215e-65db-4f93-ad16-7dd3d3f35dc7.mp3?_=1791451474
-    duration: 81
   frequency: daily
   frequency_days: 3
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 558
+  updated_at: '2026-11-11'
+  episode_count: 559
   average_duration: 86
   status: active
   community_rating: 4.6
@@ -6105,7 +6093,7 @@ podcasts:
   frequency: monthly
   frequency_days: 30
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 108
   average_duration: 85
   status: active
@@ -6207,7 +6195,7 @@ podcasts:
   frequency: weekly
   frequency_days: 5
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 1054
   average_duration: 66
   status: active
@@ -6302,7 +6290,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 242
   average_duration: 5
   status: archived
@@ -6340,12 +6328,17 @@ podcasts:
   image: https://softwareengineeringdaily.com/wp-content/uploads/2026/07/sed_logo_2026.png
   author: Software Engineering Daily
   description: Technical interviews about software topics.
-  last_episode: '2026-11-05'
-  last_episode_title: 'SED News: PHP’s Megabug, a Hidden Mic at OpenAI, and Dead AI Products'
-  last_episode_url: https://softwareengineeringdaily.com/podcasts/sed-news-phps-megabug-a-hidden-mic-at-openai-and-dead-ai-products/
-  last_episode_audio: https://media.transistor.fm/605f45df/3cd65c7b.mp3
-  last_episode_duration: 54
+  last_episode: '2026-11-10'
+  last_episode_title: GitLab and the Evolution of DevSecOps
+  last_episode_url: https://softwareengineeringdaily.com/podcasts/gitlab-and-the-evolution-of-devsecops/
+  last_episode_audio: https://media.transistor.fm/8853df30/6292762a.mp3
+  last_episode_duration: 56
   episodes:
+  - title: GitLab and the Evolution of DevSecOps
+    published: '2026-11-10'
+    url: https://softwareengineeringdaily.com/podcasts/gitlab-and-the-evolution-of-devsecops/
+    audio: https://media.transistor.fm/8853df30/6292762a.mp3
+    duration: 56
   - title: 'SED News: PHP’s Megabug, a Hidden Mic at OpenAI, and Dead AI Products'
     published: '2026-11-05'
     url: https://softwareengineeringdaily.com/podcasts/sed-news-phps-megabug-a-hidden-mic-at-openai-and-dead-ai-products/
@@ -6391,15 +6384,10 @@ podcasts:
     url: https://softwareengineeringdaily.com/podcasts/steve-jobs-in-exile/
     audio: https://media.transistor.fm/a50a1c6b/151276f7.mp3
     duration: 122
-  - title: Security in the Age of Instant Exploits
-    published: '2026-10-06'
-    url: https://softwareengineeringdaily.com/podcasts/security-in-the-age-of-instant-exploits/
-    audio: https://media.transistor.fm/ffe3cc9d/4c1fc403.mp3
-    duration: 50
-  frequency: daily
-  frequency_days: 2
+  frequency: weekly
+  frequency_days: 5
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 104
   average_duration: 53
   status: active
@@ -6496,7 +6484,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 13
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 1018
   average_duration: 106
   status: active
@@ -6531,7 +6519,7 @@ podcasts:
   rss: https://cppcast.com/feed.rss
   youtube: null
   spotify: https://open.spotify.com/show/3NPVzS05lvJLv3ovgF3OAP
-  apple_podcast: https://podcasts.apple.com/us/podcast/cppcast/id968703120?uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/cppcast/id968703120
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/2onqeys1
@@ -6600,7 +6588,7 @@ podcasts:
   frequency: monthly
   frequency_days: 28
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 412
   average_duration: 62
   status: active
@@ -6695,7 +6683,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 2021
   average_duration: 58
   status: active
@@ -6730,12 +6718,17 @@ podcasts:
   image: https://cdn.pythonbytes.fm/static/img/podcast-theme-img_3000.jpg
   author: Michael Kennedy
   description: Developer headlines delivered directly to your earbuds
-  last_episode: '2026-11-03'
-  last_episode_title: '#503 It’s not 85% HTML'
-  last_episode_url: https://pythonbytes.fm/episodes/show/503/it-s-not-85-html
-  last_episode_audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/503/it-s-not-85-html.mp3
+  last_episode: '2026-11-10'
+  last_episode_title: '#504 Who turned the GIL back on?'
+  last_episode_url: https://pythonbytes.fm/episodes/show/504/who-turned-the-gil-back-on
+  last_episode_audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/504/who-turned-the-gil-back-on.mp3
   last_episode_duration: 30
   episodes:
+  - title: '#504 Who turned the GIL back on?'
+    published: '2026-11-10'
+    url: https://pythonbytes.fm/episodes/show/504/who-turned-the-gil-back-on
+    audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/504/who-turned-the-gil-back-on.mp3
+    duration: 30
   - title: '#503 It’s not 85% HTML'
     published: '2026-11-03'
     url: https://pythonbytes.fm/episodes/show/503/it-s-not-85-html
@@ -6781,16 +6774,11 @@ podcasts:
     url: https://pythonbytes.fm/episodes/show/495/banned
     audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/495/banned.mp3
     duration: 28
-  - title: '#494 Python Wrapture'
-    published: '2026-09-01'
-    url: https://pythonbytes.fm/episodes/show/494/python-wrapture
-    audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/494/python-wrapture.mp3
-    duration: 29
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 503
+  updated_at: '2026-11-11'
+  episode_count: 504
   average_duration: 33
   status: active
   community_rating: 4.7
@@ -6882,7 +6870,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 567
   average_duration: 66
   status: active
@@ -6906,7 +6894,7 @@ podcasts:
   rss: https://realpython.com/podcasts/rpp/feed
   youtube: https://www.youtube.com/@realpython/podcasts
   spotify: https://open.spotify.com/show/41Av6Rq81LfOT3Volz7W9D
-  apple_podcast: https://podcasts.apple.com/us/podcast/the-real-python-podcast/id1501905538?uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/feed/id1501905538
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/itunes/1501905538
@@ -6975,7 +6963,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 319
   average_duration: 54
   status: active
@@ -7074,7 +7062,7 @@ podcasts:
   frequency: weekly
   frequency_days: 9
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 347
   average_duration: 66
   status: slow
@@ -7176,7 +7164,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 738
   average_duration: 69
   status: slow
@@ -7269,7 +7257,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 123
   average_duration: 58
   status: archived
@@ -7367,7 +7355,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 308
   average_duration: 53
   status: active
@@ -7462,7 +7450,7 @@ podcasts:
   frequency: weekly
   frequency_days: 10
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 82
   average_duration: 60
   status: active
@@ -7556,7 +7544,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 381
   average_duration: 47
   status: active
@@ -7585,7 +7573,7 @@ podcasts:
   - Alessio Fanelli
   website: https://www.latent.space/
   rss: https://api.substack.com/feed/podcast/1084089.rss
-  youtube: https://www.youtube.com/watch?v=dpY7YzZo4kE
+  youtube: https://www.youtube.com/watch?v=bdIoODXsu8k
   spotify: https://open.spotify.com/show/2p7zZVwVF6Yk0Zsb4QmT7t
   apple_podcast: https://podcasts.apple.com/us/podcast/latent-space-the-ai-engineer-podcast/id1674008350
   linkedin: null
@@ -7656,7 +7644,7 @@ podcasts:
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 295
   average_duration: 63
   status: active
@@ -7690,12 +7678,17 @@ podcasts:
   image: https://megaphone.imgix.net/podcasts/35230150-ee98-11eb-ad1a-b38cbabcd053/image/TWIML_AI_Podcast_Official_Cover_Art_1400px.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
   author: TWIML
   description: Machine learning and artificial intelligence are dramatically changing the way businesses operate and people live. The TWIML AI Podcast brings the top minds and ideas from the world of ML and AI to a…
-  last_episode: '2026-11-03'
-  last_episode_title: 'Can AI Invent or Just Help Scientists Work Faster? with Richard Socher - #783'
-  last_episode_url: https://twimlai.com/podcast/twimlai/can-ai-invent-just-help-scientists-work-faster
-  last_episode_audio: https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN7947684039.mp3
-  last_episode_duration: 49
+  last_episode: '2026-11-10'
+  last_episode_title: 'Canva Is Tackling AI Design’s Most Frustrating Problem with Stefano Corazza- #784'
+  last_episode_url: https://twimlai.com/podcast/twimlai/canva-tackling-ai-designs-most-frustrating-problem
+  last_episode_audio: https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN8451107730.mp3
+  last_episode_duration: 58
   episodes:
+  - title: 'Canva Is Tackling AI Design’s Most Frustrating Problem with Stefano Corazza- #784'
+    published: '2026-11-10'
+    url: https://twimlai.com/podcast/twimlai/canva-tackling-ai-designs-most-frustrating-problem
+    audio: https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN8451107730.mp3
+    duration: 58
   - title: 'Can AI Invent or Just Help Scientists Work Faster? with Richard Socher - #783'
     published: '2026-11-03'
     url: https://twimlai.com/podcast/twimlai/can-ai-invent-just-help-scientists-work-faster
@@ -7741,16 +7734,11 @@ podcasts:
     url: https://twimlai.com/podcast/twimlai/world-models-future-spatial-ai
     audio: https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN6378358457.mp3
     duration: 66
-  - title: 'Why the Next AI Breakthrough May Come from Physics with Max Welling - #774'
-    published: '2026-08-26'
-    url: https://twimlai.com/podcast/twimlai/why-next-ai-breakthrough-may-come-physics
-    audio: https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN6316777640.mp3
-    duration: 58
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 801
+  updated_at: '2026-11-11'
+  episode_count: 802
   average_duration: 57
   status: active
   community_rating: 4.7
@@ -7845,7 +7833,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 13
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 521
   average_duration: 54
   status: active
@@ -7870,7 +7858,7 @@ podcasts:
   rss: https://feeds.buzzsprout.com/190346.rss
   youtube: null
   spotify: null
-  apple_podcast: https://podcasts.apple.com/us/podcast/the-developers-journey/id1832805533?uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/developers-journey/id1079113167?mt=2&uo=4
   linkedin: null
   deezer: null
   pocket_casts: null
@@ -7939,12 +7927,12 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 296
   average_duration: 47
   status: archived
-  community_rating: null
-  community_rating_count: null
+  community_rating: 5.0
+  community_rating_count: 19
   platform: Buzzsprout
   topics:
   - Développement
@@ -7987,12 +7975,17 @@ podcasts:
   image: https://download.softskills.audio/sse-cover-art.png
   author: Jamison Dance and Dave Smith
   description: It takes more than great code to be a great engineer. Soft Skills Engineering is a weekly advice podcast for software developers about the non-technical stuff that goes into being a great software…
-  last_episode: '2026-11-02'
-  last_episode_title: 'Episode 537: Is my ADHD affecting my work and my startup got acquired'
-  last_episode_url: https://softskills.audio/2026/11/02/episode-537-is-my-adhd-affecting-my-work-and-my-startup-got-acquired/
-  last_episode_audio: https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-537.mp3?source=rss
-  last_episode_duration: 34
+  last_episode: '2026-11-09'
+  last_episode_title: 'Episode 538: toxic manager or low impact project and over-staffed?'
+  last_episode_url: https://softskills.audio/2026/11/09/episode-538-toxic-manager-or-low-impact-project-and-over-staffed/
+  last_episode_audio: https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-538.mp3?source=rss
+  last_episode_duration: 31
   episodes:
+  - title: 'Episode 538: toxic manager or low impact project and over-staffed?'
+    published: '2026-11-09'
+    url: https://softskills.audio/2026/11/09/episode-538-toxic-manager-or-low-impact-project-and-over-staffed/
+    audio: https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-538.mp3?source=rss
+    duration: 31
   - title: 'Episode 537: Is my ADHD affecting my work and my startup got acquired'
     published: '2026-11-02'
     url: https://softskills.audio/2026/11/02/episode-537-is-my-adhd-affecting-my-work-and-my-startup-got-acquired/
@@ -8038,16 +8031,11 @@ podcasts:
     url: https://softskills.audio/2026/09/07/episode-529-zoom-calls-on-my-open-floor-plan-and-laconic-staff-engineer/
     audio: https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-529.mp3?source=rss
     duration: 34
-  - title: 'Episode 528: Sleepy family software business and leaving after an acquisition'
-    published: '2026-08-31'
-    url: https://softskills.audio/2026/08/31/episode-528-sleepy-family-software-business-and-leaving-after-an-acquisition/
-    audio: https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-528.mp3?source=rss
-    duration: 34
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
-  episode_count: 538
+  updated_at: '2026-11-11'
+  episode_count: 539
   average_duration: 33
   status: active
   community_rating: 4.8
@@ -8082,7 +8070,7 @@ podcasts:
   rss: https://feeds.simplecast.com/7y1CbAbN
   youtube: https://www.youtube.com/playlist?list=PLV-fn3HlNVWG0Z9LOrH3tdFBs-2VlLSVg
   spotify: https://open.spotify.com/show/6Ah6xxZ04VQBqjBB5ZU0Ll
-  apple_podcast: https://podcasts.apple.com/us/podcast/maintainable/id1459893010?uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/maintainable/id1459893010
   linkedin: null
   deezer: null
   pocket_casts: null
@@ -8151,7 +8139,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 236
   average_duration: 55
   status: active
@@ -8261,7 +8249,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-10'
+  updated_at: '2026-11-11'
   episode_count: 136
   average_duration: 70
   status: slow

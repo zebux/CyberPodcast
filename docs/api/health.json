@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11T11:57:57.341686+00:00",
+  "generated_at": "2026-11-12T12:51:53.585645+00:00",
   "mode": "network",
-  "duration_seconds": 17.34,
+  "duration_seconds": 16.97,
   "summary": {
     "total": 91,
     "ok": 91,
@@ -168,7 +168,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/74208cc7-f605-41a8-a592-53bab59d8736.mp3?_=1794214456"
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/dea68586-0c07-4dfc-a151-6122776942e0.mp3?_=1791878766"
         }
       }
     },
@@ -306,7 +306,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode210.mp3"
+          "url": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode211.mp3"
         }
       }
     },
@@ -1180,7 +1180,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://polysecure.ca/episodes/PolySecure-0x365.m4a"
+          "url": "https://polysecure.ca/episodes/PolySecure-0x366.m4a"
         }
       }
     },
@@ -1594,7 +1594,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://redirect.zencastr.com/r/episode/6ab60273bf988ba185897271/size/204379348/audio-files/619e48a9649c44004c5a44e8/3e08490f-8717-4cfd-a747-e8a8e8136d3e.mp3"
+          "url": "https://redirect.zencastr.com/r/episode/6af467448c1a66c7f3b4d06d/size/143602708/audio-files/619e48a9649c44004c5a44e8/bc1af60a-04ab-4753-a485-fa7071078f99.mp3"
         }
       }
     },
@@ -1617,7 +1617,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://traffic.megaphone.fm/FSI5980748523.mp3"
+          "url": "https://traffic.megaphone.fm/FSI3647670844.mp3"
         }
       }
     },
@@ -1663,7 +1663,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://media.transistor.fm/8853df30/6292762a.mp3"
+          "url": "https://media.transistor.fm/3f1bbc6b/58868328.mp3"
         }
       }
     },
@@ -1732,7 +1732,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76101431/dotnetrocks_2027_the_future_we_were_promised_geek_out.mp3"
+          "url": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76101432/dotnetrocks_2028_modern_mentorship_main.mp3"
         }
       }
     },
@@ -1893,7 +1893,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76050794/rainer_murat_final.mp3"
+          "url": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76293049/ben_final_podcast.mp3"
         }
       }
     },

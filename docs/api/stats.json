@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-11T11:57:57.451536+00:00",
+  "generated_at": "2026-11-12T12:51:53.690696+00:00",
   "total": 91,
-  "total_episodes": 24493,
+  "total_episodes": 24535,
   "with_rss": 84,
   "with_image": 84,
   "with_audio": 81,
-  "rated": 70,
-  "average_rating": 4.74,
+  "rated": 71,
+  "average_rating": 4.72,
   "by_status": {
-    "slow": 15,
+    "slow": 16,
     "active": 60,
-    "archived": 16
+    "archived": 15
   },
   "by_language": {
     "fr": 47,
@@ -61,10 +61,11 @@
     "Développement": 22,
     "Malware": 1,
     "Cryptographie": 1,
+    "Pentest": 2,
+    "Red Team": 2,
+    "Blue Team": 1,
     "DFIR": 1,
     "OSINT": 2,
-    "Pentest": 1,
-    "Red Team": 1,
     "Java": 1,
     "JavaScript": 3,
     "C++": 1,
@@ -121,5 +122,5 @@
     "Carrière": 2,
     "Qualité logicielle": 1
   },
-  "latest_episode": "2026-11-11"
+  "latest_episode": "2026-11-12"
 }

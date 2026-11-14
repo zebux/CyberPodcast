@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13T12:21:25.161663+00:00",
+  "generated_at": "2026-11-14T11:36:16.680389+00:00",
   "mode": "network",
-  "duration_seconds": 12.11,
+  "duration_seconds": 17.5,
   "summary": {
     "total": 91,
     "ok": 91,
@@ -329,7 +329,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/2d7d31e0-6e43-4602-92a5-e4a99838c6e9.mp3"
+          "url": "https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/3cd4583e-0689-4571-a8ff-1f6dd453224d.mp3"
         }
       }
     },
@@ -352,7 +352,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://feeds.packetpushers.net/link/12486/17516765/HN850.mp3"
+          "url": "https://feeds.packetpushers.net/link/12486/17523938/HN851.mp3"
         }
       }
     },
@@ -467,7 +467,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/10fb9928/podcast/play/128805943/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F435910796-44100-2-d2f67b5993a6e.mp3"
+          "url": "https://anchor.fm/s/10fb9928/podcast/play/129345159/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-12%2F436609594-44100-2-6c0fa1aa098c18.mp3"
         }
       }
     },
@@ -697,7 +697,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.ausha.co/ewnKeF6VQ3Km.mp3?t=1793879099"
+          "url": "https://audio.ausha.co/RD6knC7GaMEV.mp3?t=1794235710"
         }
       }
     },
@@ -812,7 +812,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://securite.fm/episodes/FrenchConnectionPodcast-Episode0x301.mp3"
+          "url": "https://securite.fm/episodes/FrenchConnectionPodcast-Episode0x303.mp3"
         }
       }
     },
@@ -1038,7 +1038,7 @@
         },
         "image": {
           "status": "unchecked",
-          "url": "https://static.audiomeans.fr/img/podcast/b5e0e495-d53d-4e3f-bf27-29a1b92815bc.jpg"
+          "url": "https://static.audiomeans.fr/img/podcast/5f659943-7058-46e8-952e-199f7aeaa798.jpg"
         },
         "audio": {
           "status": "unchecked",
@@ -1249,7 +1249,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.ausha.co/KwM65h7gG0eD.mp3?t=1794220305"
+          "url": "https://audio.ausha.co/oRWn7jF7J1zR.mp3?t=1794490848"
         }
       }
     },
@@ -1502,7 +1502,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/2d2ae4ea-acb6-4ff5-883b-3680913dce53.mp3?_=1794315645"
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/a1a2f062-9387-43eb-ab07-60d955870338.mp3?_=1794488441"
         }
       }
     },
@@ -1686,7 +1686,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/689/the-changelog-689.mp3"
+          "url": "https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/690/the-changelog-690.mp3"
         }
       }
     },
@@ -1801,7 +1801,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E318_03_Nathan_Goldbaum.430cadd3c2d9.mp3"
+          "url": "https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E319_02_Tim_Schilling.cd5cf31e5515.mp3"
         }
       }
     },
@@ -1939,7 +1939,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/1b301bdc/b7154aa0.mp3"
+          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/58a69653/1bd19fd9.mp3"
         }
       }
     },

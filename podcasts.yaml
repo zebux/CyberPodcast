@@ -84,7 +84,7 @@ podcasts:
   frequency: irregular
   frequency_days: 338
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 11
   average_duration: 59
   status: slow
@@ -130,7 +130,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: null
   average_duration: null
   status: active
@@ -225,7 +225,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 97
   average_duration: 16
   status: slow
@@ -312,7 +312,7 @@ podcasts:
   frequency: weekly
   frequency_days: 8
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 8
   average_duration: 12
   status: archived
@@ -411,7 +411,7 @@ podcasts:
   frequency: monthly
   frequency_days: 22
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 142
   average_duration: 21
   status: slow
@@ -464,7 +464,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: null
   average_duration: null
   status: active
@@ -559,7 +559,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 223
   average_duration: 22
   status: active
@@ -628,7 +628,7 @@ podcasts:
   frequency: quarterly
   frequency_days: 61
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 5
   average_duration: 43
   status: active
@@ -673,7 +673,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: null
   average_duration: null
   status: active
@@ -718,7 +718,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: null
   average_duration: null
   status: active
@@ -813,7 +813,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 272
   average_duration: 33
   status: active
@@ -909,7 +909,7 @@ podcasts:
   frequency: weekly
   frequency_days: 4
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 1114
   average_duration: 37
   status: active
@@ -1009,7 +1009,7 @@ podcasts:
   frequency: monthly
   frequency_days: 27
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 211
   average_duration: 40
   status: active
@@ -1048,12 +1048,17 @@ podcasts:
   image: https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/9/9b74150b-3553-49dc-8332-f89bbbba9f92/cover.jpg?v=1
   author: Software Defined Talk LLC
   description: A podcast about Enterprise Software and Cloud Computing that doesn't take itself too seriously.
-  last_episode: '2026-11-06'
-  last_episode_title: 'Episode 597: Our APIs Are Still Bad: Rethinking APIs for the Agent Era with Sterling Chin'
-  last_episode_url: https://www.softwaredefinedtalk.com/597
-  last_episode_audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/2d7d31e0-6e43-4602-92a5-e4a99838c6e9.mp3
-  last_episode_duration: 63
+  last_episode: '2026-11-13'
+  last_episode_title: 'Episode 598: Protect the Tortillas at All Costs'
+  last_episode_url: https://www.softwaredefinedtalk.com/598
+  last_episode_audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/3cd4583e-0689-4571-a8ff-1f6dd453224d.mp3
+  last_episode_duration: 68
   episodes:
+  - title: 'Episode 598: Protect the Tortillas at All Costs'
+    published: '2026-11-13'
+    url: https://www.softwaredefinedtalk.com/598
+    audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/3cd4583e-0689-4571-a8ff-1f6dd453224d.mp3
+    duration: 68
   - title: 'Episode 597: Our APIs Are Still Bad: Rethinking APIs for the Agent Era with Sterling Chin'
     published: '2026-11-06'
     url: https://www.softwaredefinedtalk.com/597
@@ -1099,16 +1104,11 @@ podcasts:
     url: https://www.softwaredefinedtalk.com/589
     audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/cc5a65e3-35f6-46a5-8267-fd18b9497748.mp3
     duration: 58
-  - title: 'Episode 588: Check Your Bank Accounts'
-    published: '2026-09-04'
-    url: https://www.softwaredefinedtalk.com/588
-    audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/62dbf4fd-2557-44de-9371-70b7455fbdeb.mp3
-    duration: 56
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
-  episode_count: 544
+  updated_at: '2026-11-14'
+  episode_count: 545
   average_duration: 60
   status: active
   community_rating: 4.7
@@ -1146,12 +1146,17 @@ podcasts:
   image: https://static.feedpress.com/logo/packetpushersweeklypodcast-653bc236a0040.png
   author: Packet Pushers
   description: Heavy Networking is an unabashedly nerdy dive into all things networking. On air since 2010, it’s the flagship show of the Packet Pushers podcast network.
-  last_episode: '2026-11-06'
-  last_episode_title: 'HN850: AWS Takes a Unique Approach to AI Fabrics (Sponsored)'
-  last_episode_url: https://packetpushers.net/podcasts/heavy-networking/hn850-aws-takes-a-unique-approach-to-ai-fabrics-sponsored/
-  last_episode_audio: https://feeds.packetpushers.net/link/12486/17516765/HN850.mp3
-  last_episode_duration: 53
+  last_episode: '2026-11-13'
+  last_episode_title: 'HN851: Inside the Certified Kubernetes Network Engineer (CKNE) Program'
+  last_episode_url: https://packetpushers.net/podcasts/heavy-networking/hn851-inside-the-certified-kubernetes-network-engineer-ckne-program/
+  last_episode_audio: https://feeds.packetpushers.net/link/12486/17523938/HN851.mp3
+  last_episode_duration: 56
   episodes:
+  - title: 'HN851: Inside the Certified Kubernetes Network Engineer (CKNE) Program'
+    published: '2026-11-13'
+    url: https://packetpushers.net/podcasts/heavy-networking/hn851-inside-the-certified-kubernetes-network-engineer-ckne-program/
+    audio: https://feeds.packetpushers.net/link/12486/17523938/HN851.mp3
+    duration: 56
   - title: 'HN850: AWS Takes a Unique Approach to AI Fabrics (Sponsored)'
     published: '2026-11-06'
     url: https://packetpushers.net/podcasts/heavy-networking/hn850-aws-takes-a-unique-approach-to-ai-fabrics-sponsored/
@@ -1197,15 +1202,10 @@ podcasts:
     url: https://packetpushers.net/podcasts/heavy-networking/hn842-how-network-engineers-can-prepare-for-a-post-quantum-world/
     audio: https://feeds.packetpushers.net/link/12486/17466259/HN842.mp3
     duration: 73
-  - title: 'HN841: HPE Melds Apstra and Mist for Self-Driving Data Center Networks (Sponsored)'
-    published: '2026-09-11'
-    url: https://packetpushers.net/podcasts/heavy-networking/hn841-hpe-melds-apstra-and-mist-for-self-driving-data-center-networks-sponsored/
-    audio: https://feeds.packetpushers.net/link/12486/17445533/HN841.mp3
-    duration: 59
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 250
   average_duration: 60
   status: active
@@ -1303,7 +1303,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 682
   average_duration: 31
   status: active
@@ -1398,12 +1398,12 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 622
   average_duration: 32
   status: slow
   community_rating: 4.3
-  community_rating_count: 201
+  community_rating_count: 202
   platform: Spotify
   topics:
   - Cybersécurité
@@ -1494,7 +1494,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 102
   average_duration: 22
   status: slow
@@ -1589,7 +1589,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 21
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 335
   average_duration: 35
   status: archived
@@ -1626,12 +1626,17 @@ podcasts:
   image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/2749242/2749242-1702414932410-4a0a63fceb0f9.jpg
   author: TechRiot.io
   description: Learn Cloud Security in Public Cloud and for AI systems, the unbiased way from CyberSecurity Experts solving challenges at Cloud Scale. We are honest because we are not owned by Cloud Service…
-  last_episode: '2026-11-05'
-  last_episode_title: Pentesting AWS Security Agent
-  last_episode_url: https://podcasters.spotify.com/pod/show/cloudsecuritypodcast/episodes/Pentesting-AWS-Security-Agent-e3rpbjn
-  last_episode_audio: https://anchor.fm/s/10fb9928/podcast/play/128805943/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F435910796-44100-2-d2f67b5993a6e.mp3
-  last_episode_duration: 39
+  last_episode: '2026-11-12'
+  last_episode_title: How to Scale Cloud Security with Auto-Remediation
+  last_episode_url: https://podcasters.spotify.com/pod/show/cloudsecuritypodcast/episodes/How-to-Scale-Cloud-Security-with-Auto-Remediation-e3s9q67
+  last_episode_audio: https://anchor.fm/s/10fb9928/podcast/play/129345159/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-12%2F436609594-44100-2-6c0fa1aa098c18.mp3
+  last_episode_duration: 43
   episodes:
+  - title: How to Scale Cloud Security with Auto-Remediation
+    published: '2026-11-12'
+    url: https://podcasters.spotify.com/pod/show/cloudsecuritypodcast/episodes/How-to-Scale-Cloud-Security-with-Auto-Remediation-e3s9q67
+    audio: https://anchor.fm/s/10fb9928/podcast/play/129345159/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-12%2F436609594-44100-2-6c0fa1aa098c18.mp3
+    duration: 43
   - title: Pentesting AWS Security Agent
     published: '2026-11-05'
     url: https://podcasters.spotify.com/pod/show/cloudsecuritypodcast/episodes/Pentesting-AWS-Security-Agent-e3rpbjn
@@ -1677,17 +1682,12 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/cloudsecuritypodcast/episodes/Shadow-AI--Sandbox-Escapes-Why-You-Need-an-Agentic-Control-Plane-e3niod5
     audio: https://anchor.fm/s/10fb9928/podcast/play/124395365/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-18%2F430078301-44100-2-e2c10fef2471.mp3
     duration: 32
-  - title: How Adobe Uses AI Agents for building a WAF Pipeline?
-    published: '2026-08-04'
-    url: https://podcasters.spotify.com/pod/show/cloudsecuritypodcast/episodes/How-Adobe-Uses-AI-Agents-for-building-a-WAF-Pipeline-e3msljq
-    audio: https://anchor.fm/s/10fb9928/podcast/play/123671610/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-7-3%2F429091783-44100-2-4e7c15ecfb54b.mp3
-    duration: 47
   frequency: weekly
-  frequency_days: 8
+  frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
-  episode_count: 365
-  average_duration: 42
+  updated_at: '2026-11-14'
+  episode_count: 366
+  average_duration: 43
   status: active
   community_rating: 5.0
   community_rating_count: 57
@@ -1787,7 +1787,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 250
   average_duration: 45
   status: active
@@ -1886,7 +1886,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 150
   average_duration: 38
   status: active
@@ -1987,7 +1987,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 77
   average_duration: 23
   status: archived
@@ -2087,7 +2087,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 300
   average_duration: 15
   status: archived
@@ -2186,7 +2186,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 151
   average_duration: 58
   status: slow
@@ -2223,12 +2223,22 @@ podcasts:
   image: http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg
   author: Late Night Linux
   description: Podcast britannique d'actualité Linux, open source et administration système.
-  last_episode: '2026-11-11'
-  last_episode_title: Ask The Hosts – Episode 42
-  last_episode_url: https://latenightlinux.com/ath42/
+  last_episode: '2026-11-13'
+  last_episode_title: Hybrid Cloud Show – Episode 69
+  last_episode_url: https://latenightlinux.com/hcs69/
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: Hybrid Cloud Show – Episode 69
+    published: '2026-11-13'
+    url: https://latenightlinux.com/hcs69/
+    audio: null
+    duration: null
+  - title: '2.5 Admins 325: Fmail'
+    published: '2026-11-12'
+    url: https://latenightlinux.com/2-5-admins-325/
+    audio: null
+    duration: null
   - title: Ask The Hosts – Episode 42
     published: '2026-11-11'
     url: https://latenightlinux.com/ath42/
@@ -2269,21 +2279,11 @@ podcasts:
     url: https://latenightlinux.com/2-5-admins-323/
     audio: null
     duration: null
-  - title: Late Night Linux – Episode 409
-    published: '2026-10-26'
-    url: https://latenightlinux.com/late-night-linux-episode-409/
-    audio: null
-    duration: null
-  - title: Linux After Dark – Episode 133
-    published: '2026-10-23'
-    url: https://latenightlinux.com/linux-after-dark-episode-133/
-    audio: null
-    duration: null
   frequency: daily
   frequency_days: 2
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
-  episode_count: 1055
+  updated_at: '2026-11-14'
+  episode_count: 1057
   average_duration: null
   status: active
   community_rating: 4.6
@@ -2379,7 +2379,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 692
   average_duration: 80
   status: active
@@ -2475,7 +2475,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 512
   average_duration: 54
   status: active
@@ -2557,7 +2557,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 21
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 7
   average_duration: 36
   status: slow
@@ -2593,12 +2593,17 @@ podcasts:
   image: https://image.ausha.co/BqMWpfXoRipRMZuXDqqGiqhQrdDTNVXVvaeZMeQS_1400x1400.jpeg?t=1784635470
   author: Fabrice De Paepe
   description: 🔐 Normes. Risques. Gouvernance. Sans prise de tête. Bienvenue dans Compliance Without Coma®, le podcast qui parle de sécurité de l’information, de conformité, de risques et de normes… sans jargon et…
-  last_episode: '2026-11-06'
-  last_episode_title: Pourquoi sécuriser l’ OT ? Cybersécurité, risques et continuité des activités | EP85
-  last_episode_url: https://podcast.ausha.co/compliance-without-coma/pourquoi-securiser-l-ot-cybersecurite-risques-et-continuite-des-activites-ep85
-  last_episode_audio: https://audio.ausha.co/ewnKeF6VQ3Km.mp3?t=1793879099
-  last_episode_duration: 21
+  last_episode: '2026-11-13'
+  last_episode_title: Vous avez les clés de votre voiture, mais qui a les droits administrateur | EP86
+  last_episode_url: https://podcast.ausha.co/compliance-without-coma/vous-avez-les-cles-de-votre-voiture-mais-qui-a-les-droits-administrateur-ep86
+  last_episode_audio: https://audio.ausha.co/RD6knC7GaMEV.mp3?t=1794235710
+  last_episode_duration: 9
   episodes:
+  - title: Vous avez les clés de votre voiture, mais qui a les droits administrateur | EP86
+    published: '2026-11-13'
+    url: https://podcast.ausha.co/compliance-without-coma/vous-avez-les-cles-de-votre-voiture-mais-qui-a-les-droits-administrateur-ep86
+    audio: https://audio.ausha.co/RD6knC7GaMEV.mp3?t=1794235710
+    duration: 9
   - title: Pourquoi sécuriser l’ OT ? Cybersécurité, risques et continuité des activités | EP85
     published: '2026-11-06'
     url: https://podcast.ausha.co/compliance-without-coma/pourquoi-securiser-l-ot-cybersecurite-risques-et-continuite-des-activites-ep85
@@ -2644,16 +2649,11 @@ podcasts:
     url: https://podcast.ausha.co/compliance-without-coma/pourquoi-votre-cybersecurite-echoue-alors-que-vous-avez-investi-des-milliers-d-euros-ep77
     audio: https://audio.ausha.co/8POkVIjqjr8W.mp3?t=1788954823
     duration: 8
-  - title: Un CIO voulait supprimer HTTPS… une décision qui aurait pu coûter très cher | EP76
-    published: '2026-09-04'
-    url: https://podcast.ausha.co/compliance-without-coma/un-cio-voulait-supprimer-https-une-decision-qui-aurait-pu-couter-tres-cher-ep76
-    audio: https://audio.ausha.co/5Aw9nIPMvD84.mp3?t=1788161142
-    duration: 12
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
-  episode_count: 86
+  updated_at: '2026-11-14'
+  episode_count: 87
   average_duration: 10
   status: active
   community_rating: 5.0
@@ -2697,7 +2697,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: null
   average_duration: null
   status: active
@@ -2789,7 +2789,7 @@ podcasts:
   frequency: quarterly
   frequency_days: 63
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 77
   average_duration: 37
   status: active
@@ -2883,7 +2883,7 @@ podcasts:
   frequency: quarterly
   frequency_days: 49
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 52
   average_duration: 35
   status: active
@@ -2952,7 +2952,7 @@ podcasts:
   frequency: irregular
   frequency_days: 222
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 5
   average_duration: 28
   status: active
@@ -2985,12 +2985,17 @@ podcasts:
   image: https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/80/9a/b1/809ab1c6-7f0b-a53c-8c29-2eb9fe2c8419/mza_11876107571718736518.png/600x600bb.jpg
   author: Hackfest Communication (info@hackfest.ca)
   description: Podcast francophone de Sécurité FM sur la cybersécurité et les enjeux du numérique.
-  last_episode: '2026-10-06'
-  last_episode_title: Épisode 0x301
-  last_episode_url: https://securite.fm/hebdo/2026/10/06/Episode-0x301.html
-  last_episode_audio: https://securite.fm/episodes/FrenchConnectionPodcast-Episode0x301.mp3
-  last_episode_duration: null
+  last_episode: '2026-11-10'
+  last_episode_title: Épisode 0x303
+  last_episode_url: https://securite.fm/live/2026/11/10/Episode-0x303.html
+  last_episode_audio: https://securite.fm/episodes/FrenchConnectionPodcast-Episode0x303.mp3
+  last_episode_duration: 87
   episodes:
+  - title: Épisode 0x303
+    published: '2026-11-10'
+    url: https://securite.fm/live/2026/11/10/Episode-0x303.html
+    audio: https://securite.fm/episodes/FrenchConnectionPodcast-Episode0x303.mp3
+    duration: 87
   - title: Épisode 0x301
     published: '2026-10-06'
     url: https://securite.fm/hebdo/2026/10/06/Episode-0x301.html
@@ -3036,16 +3041,11 @@ podcasts:
     url: https://securite.fm/hebdo/2026/05/09/Episode-0x294.html
     audio: https://securite.fm/episodes/FrenchConnectionPodcast-Episode0x294.mp3
     duration: 70
-  - title: Épisode 0x292
-    published: '2026-04-17'
-    url: https://securite.fm/hebdo/2026/04/17/episode-x0292.html
-    audio: https://securite.fm/episodes/FrenchConnectionPodcast-Episode0x292.mp3
-    duration: null
   frequency: weekly
   frequency_days: 10
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
-  episode_count: 299
+  updated_at: '2026-11-14'
+  episode_count: 300
   average_duration: null
   status: active
   community_rating: 5.0
@@ -3136,7 +3136,7 @@ podcasts:
   frequency: monthly
   frequency_days: 36
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 58
   average_duration: 53
   status: active
@@ -3228,7 +3228,7 @@ podcasts:
   frequency: weekly
   frequency_days: 9
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 51
   average_duration: 82
   status: slow
@@ -3320,7 +3320,7 @@ podcasts:
   frequency: monthly
   frequency_days: 23
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 23
   average_duration: 22
   status: active
@@ -3415,7 +3415,7 @@ podcasts:
   frequency: weekly
   frequency_days: 9
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 60
   average_duration: 27
   status: active
@@ -3509,7 +3509,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 84
   average_duration: 30
   status: active
@@ -3604,7 +3604,7 @@ podcasts:
   frequency: irregular
   frequency_days: 124
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 13
   average_duration: 37
   status: active
@@ -3706,7 +3706,7 @@ podcasts:
   frequency: monthly
   frequency_days: 22
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 123
   average_duration: 17
   status: archived
@@ -3800,7 +3800,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 32
   average_duration: 45
   status: archived
@@ -3891,7 +3891,7 @@ podcasts:
   frequency: monthly
   frequency_days: 30
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 9
   average_duration: 4
   status: slow
@@ -3917,7 +3917,7 @@ podcasts:
   website: https://www.lemondedelacyber.com
   rss: https://feeds.audiomeans.fr/feed/7962208c-987b-4d10-8e9a-104d0d77851a.xml
   youtube: https://www.youtube.com/@LeMondedelaCyber
-  spotify: https://open.spotify.com/show/0uNuF41uZYwwik1AW6hOSM?si=0ce088c13e2440b2
+  spotify: https://open.spotify.com/show/0uNuF41uZYwwik1AW6hOSM
   apple_podcast: https://podcasts.apple.com/fr/podcast/le-monde-de-la-cyber/id1648909847?uo=4
   linkedin: null
   deezer: null
@@ -3925,7 +3925,7 @@ podcasts:
   podcast_addict: https://podcastaddict.com/podcast/4110724
   amazon_music: null
   castbox: null
-  image: https://static.audiomeans.fr/img/podcast/b5e0e495-d53d-4e3f-bf27-29a1b92815bc.jpg
+  image: https://static.audiomeans.fr/img/podcast/5f659943-7058-46e8-952e-199f7aeaa798.jpg
   author: Leslie Fornero
   description: Le podcast qui vous emmène à la découverte du monde de la cybersécurité.
   last_episode: '2026-11-10'
@@ -3987,7 +3987,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 136
   average_duration: 34
   status: active
@@ -4074,7 +4074,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 4
   average_duration: 27
   status: active
@@ -4173,7 +4173,7 @@ podcasts:
   frequency: quarterly
   frequency_days: 51
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 16
   average_duration: 55
   status: active
@@ -4265,8 +4265,8 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
-  episode_count: 302
+  updated_at: '2026-11-14'
+  episode_count: 300
   average_duration: 30
   status: active
   community_rating: 4.8
@@ -4308,7 +4308,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: null
   average_duration: null
   status: active
@@ -4401,7 +4401,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 26
   average_duration: 37
   status: slow
@@ -4501,7 +4501,7 @@ podcasts:
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 869
   average_duration: 44
   status: active
@@ -4594,7 +4594,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 20
   average_duration: 32
   status: active
@@ -4698,8 +4698,8 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
-  episode_count: 801
+  updated_at: '2026-11-14'
+  episode_count: 802
   average_duration: null
   status: active
   community_rating: 4.9
@@ -4732,12 +4732,17 @@ podcasts:
   image: https://image.ausha.co/c3yW5F56nIhAY9CDNIzAvfwemve0u3qpH8ZClSNI_1400x1400.jpeg?t=1736074692
   author: Maya Douadi
   description: De la cybersécurité aux affrontements économiques, en passant par les stratégies d’espionnage et les défis liés aux technologies disruptives, Riskintel Media décortique des thématiques complexes pour…
-  last_episode: '2026-11-09'
-  last_episode_title: Comment sécuriser l'usage des IA agentiques au travail ?
-  last_episode_url: https://podcast.ausha.co/riskintel-media/comment-securiser-l-usage-des-ia-agentiques-au-travail
-  last_episode_audio: https://audio.ausha.co/KwM65h7gG0eD.mp3?t=1794220305
-  last_episode_duration: 59
+  last_episode: '2026-11-12'
+  last_episode_title: On ne peut plus rien dire en France ? Vers la fin de la liberté d'expression ? Le débat
+  last_episode_url: https://podcast.ausha.co/riskintel-media/on-ne-peut-plus-rien-dire-en-france-vers-la-fin-de-la-liberte-d-expression-le-debat
+  last_episode_audio: https://audio.ausha.co/oRWn7jF7J1zR.mp3?t=1794490848
+  last_episode_duration: 78
   episodes:
+  - title: On ne peut plus rien dire en France ? Vers la fin de la liberté d'expression ? Le débat
+    published: '2026-11-12'
+    url: https://podcast.ausha.co/riskintel-media/on-ne-peut-plus-rien-dire-en-france-vers-la-fin-de-la-liberte-d-expression-le-debat
+    audio: https://audio.ausha.co/oRWn7jF7J1zR.mp3?t=1794490848
+    duration: 78
   - title: Comment sécuriser l'usage des IA agentiques au travail ?
     published: '2026-11-09'
     url: https://podcast.ausha.co/riskintel-media/comment-securiser-l-usage-des-ia-agentiques-au-travail
@@ -4783,16 +4788,11 @@ podcasts:
     url: https://podcast.ausha.co/riskintel-media/certificats-numeriques-la-bombe-a-retardement-des-entreprises
     audio: https://audio.ausha.co/gd5nDTLk1gq0.mp3?t=1790150790
     duration: 21
-  - title: 'Cybersécurité des PME/ETI : pourquoi tout miser sur des experts 100 % français'
-    published: '2026-09-22'
-    url: https://podcast.ausha.co/riskintel-media/cybersecurite-des-pme-eti-pourquoi-tout-miser-sur-des-experts-100-francais
-    audio: https://audio.ausha.co/kkXNpuka6YLN.mp3?t=1790069832
-    duration: 41
   frequency: weekly
   frequency_days: 6
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
-  episode_count: 190
+  updated_at: '2026-11-14'
+  episode_count: 191
   average_duration: 34
   status: active
   community_rating: 4.7
@@ -4835,7 +4835,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: null
   average_duration: null
   status: active
@@ -4888,7 +4888,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 2
   average_duration: null
   status: archived
@@ -4922,12 +4922,32 @@ podcasts:
   image: https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj
   author: CyberPodcast
   description: CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet…
-  last_episode: '2026-11-11'
-  last_episode_title: HTTP Attack Unveils Tor Anonymity
-  last_episode_url: https://www.youtube.com/shorts/jXKFushCxAI
+  last_episode: '2026-11-13'
+  last_episode_title: 'OWASP Top10: Deepfake Fraud on the Rise'
+  last_episode_url: https://www.youtube.com/shorts/_-Saez5bLrM
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: 'OWASP Top10: Deepfake Fraud on the Rise'
+    published: '2026-11-13'
+    url: https://www.youtube.com/shorts/_-Saez5bLrM
+    audio: null
+    duration: null
+  - title: 'Securing Third-Party MCP Servers with OWASP Guide | Podcast #12 | OWASP AI Security | CyberPodcast'
+    published: '2026-11-13'
+    url: https://www.youtube.com/watch?v=drI-7PXHkrc
+    audio: null
+    duration: null
+  - title: 'OWASP Top10 for LLM: Deepfake Defense Guide'
+    published: '2026-11-12'
+    url: https://www.youtube.com/shorts/sfaF9uqfxnw
+    audio: null
+    duration: null
+  - title: 'Catching Malicious Tor Exit Nodes: The Spoiled Onions Study | Paper Breakdown #20 | CyberPodcast'
+    published: '2026-11-12'
+    url: https://www.youtube.com/watch?v=ss6IMOA6zAA
+    audio: null
+    duration: null
   - title: HTTP Attack Unveils Tor Anonymity
     published: '2026-11-11'
     url: https://www.youtube.com/shorts/jXKFushCxAI
@@ -4958,30 +4978,10 @@ podcasts:
     url: https://www.youtube.com/shorts/t2-Ecv8eYhc
     audio: null
     duration: null
-  - title: Tor Network Vulnerability Explained
-    published: '2026-11-07'
-    url: https://www.youtube.com/shorts/aYrl1iuYFxc
-    audio: null
-    duration: null
-  - title: One Cell Error Crashes Tor Circuit
-    published: '2026-11-06'
-    url: https://www.youtube.com/shorts/z1uSovpvh5o
-    audio: null
-    duration: null
-  - title: 'Securing LLMs: OWASP Guide Insights | Podcast #11 | OWASP AI Security | CyberPodcast'
-    published: '2026-11-06'
-    url: https://www.youtube.com/watch?v=aWP73BeghP0
-    audio: null
-    duration: null
-  - title: 'Statistical Disclosure Attacks: Breaking Mix Network Anonymity | Paper Breakdown #19 | CyberPodcast'
-    published: '2026-11-05'
-    url: https://www.youtube.com/watch?v=TacZF5jx6eI
-    audio: null
-    duration: null
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-10'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 15
   average_duration: null
   status: active
@@ -5076,7 +5076,7 @@ podcasts:
   frequency: monthly
   frequency_days: 41
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 21
   average_duration: 12
   status: slow
@@ -5169,7 +5169,7 @@ podcasts:
   frequency: quarterly
   frequency_days: 100
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 15
   average_duration: 64
   status: archived
@@ -5276,7 +5276,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 100
   average_duration: null
   status: archived
@@ -5368,7 +5368,7 @@ podcasts:
   frequency: monthly
   frequency_days: 44
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 60
   average_duration: 35
   status: slow
@@ -5435,7 +5435,7 @@ podcasts:
   frequency: monthly
   frequency_days: 35
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 5
   average_duration: 33
   status: archived
@@ -5524,7 +5524,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 7
   average_duration: 32
   status: archived
@@ -5611,7 +5611,7 @@ podcasts:
   frequency: quarterly
   frequency_days: 71
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 8
   average_duration: 45
   status: archived
@@ -5647,12 +5647,17 @@ podcasts:
   image: https://static.audiomeans.fr/img/podcast/b0f6c0ee-41d3-4406-9d0c-7ef45174c4b8.jpg
   author: Bruno Soulez | Orso Media
   description: 'If This Then Dev, c''est le podcast D.E.V : Différent, Extraordinaire et Visionnaire. Un podcast qui veut résoudre le problème avant de passer au dev. Chaque semaine Bruno Soulez reçoit un expert pour…'
-  last_episode: '2026-11-11'
-  last_episode_title: '#384.src - Usine logicielle 100% AI: Qui réveille-t-on quand l''usine prend feu ? avec Nikolay Rodionov'
-  last_episode_url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/384-3680913dce53
-  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/2d2ae4ea-acb6-4ff5-883b-3680913dce53.mp3?_=1794315645
-  last_episode_duration: 62
+  last_episode: '2026-11-13'
+  last_episode_title: '#362.exe - Le LEAN à l''ère de l''IA: Réapprendre à produire du code (vraiment) Lean avec l''IA par Jordan Nourry'
+  last_episode_url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/362-60d955870338
+  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/a1a2f062-9387-43eb-ab07-60d955870338.mp3?_=1794488441
+  last_episode_duration: 15
   episodes:
+  - title: '#362.exe - Le LEAN à l''ère de l''IA: Réapprendre à produire du code (vraiment) Lean avec l''IA par Jordan Nourry'
+    published: '2026-11-13'
+    url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/362-60d955870338
+    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/a1a2f062-9387-43eb-ab07-60d955870338.mp3?_=1794488441
+    duration: 15
   - title: '#384.src - Usine logicielle 100% AI: Qui réveille-t-on quand l''usine prend feu ? avec Nikolay Rodionov'
     published: '2026-11-11'
     url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/384-3680913dce53
@@ -5698,16 +5703,11 @@ podcasts:
     url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/-378-faec7756bbd7
     audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/44d3561f-a515-4e23-9ca1-faec7756bbd7.mp3?_=1790683283
     duration: 51
-  - title: '#377.src - DBT: Pourquoi dbt est devenu le standard (avec ses qualités et défauts) avec Jeremy Cohen'
-    published: '2026-09-23'
-    url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/-377-8d0382d0be15
-    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/495563fb-1354-4dfd-8b0f-8d0382d0be15.mp3?_=1790078494
-    duration: 52
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
-  episode_count: 762
+  updated_at: '2026-11-14'
+  episode_count: 763
   average_duration: 61
   status: active
   community_rating: 4.8
@@ -5806,7 +5806,7 @@ podcasts:
   frequency: monthly
   frequency_days: 32
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 363
   average_duration: 72
   status: active
@@ -5900,7 +5900,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 18
   average_duration: 65
   status: slow
@@ -5926,7 +5926,7 @@ podcasts:
   - Guillaume Poggiaspalla
   website: https://techcafe.fr
   rss: https://feeds.audiomeans.fr/feed/d6ddb849-3100-43b2-91a5-93f54fe4c4b5.xml
-  youtube: https://www.youtube.com/watch?v=K10pmz2DdsI
+  youtube: https://www.youtube.com/watch?v=BjL3wG3oCEw
   spotify: https://open.spotify.com/show/1MidB71rbYIRDIrcej073j
   apple_podcast: https://podcasts.apple.com/us/podcast/tech-caf%C3%A9-tech-ia/id916491698?uo=4
   linkedin: null
@@ -5997,7 +5997,7 @@ podcasts:
   frequency: daily
   frequency_days: 3
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 559
   average_duration: 86
   status: active
@@ -6105,7 +6105,7 @@ podcasts:
   frequency: monthly
   frequency_days: 35
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 109
   average_duration: 86
   status: active
@@ -6207,7 +6207,7 @@ podcasts:
   frequency: daily
   frequency_days: 2
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 1055
   average_duration: 66
   status: active
@@ -6302,7 +6302,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 242
   average_duration: 5
   status: archived
@@ -6360,7 +6360,7 @@ podcasts:
     published: '2026-11-05'
     url: https://softwareengineeringdaily.com/podcasts/sed-news-phps-megabug-a-hidden-mic-at-openai-and-dead-ai-products/
     audio: https://media.transistor.fm/605f45df/3cd65c7b.mp3
-    duration: 54
+    duration: 55
   - title: Demis Hassabis and the Race to Build AI with Sebastian Mallaby
     published: '2026-11-03'
     url: https://softwareengineeringdaily.com/podcasts/demis-hassabis-and-the-race-to-build-ai-with-sebastian-mallaby/
@@ -6399,7 +6399,7 @@ podcasts:
   frequency: daily
   frequency_days: 2
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 104
   average_duration: 52
   status: active
@@ -6437,12 +6437,17 @@ podcasts:
   image: https://cdn.changelog.com/static/images/podcasts/podcast-original-f16d0363067166f241d080ee2e2d4a28.png
   author: Changelog Media
   description: Software's best weekly news brief, deep technical interviews & talk show.
-  last_episode: '2026-11-04'
-  last_episode_title: We now have Kerr’s Law (Interview)
-  last_episode_url: https://changelog.com/podcast/689
-  last_episode_audio: https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/689/the-changelog-689.mp3
-  last_episode_duration: 147
+  last_episode: '2026-11-13'
+  last_episode_title: All your packages are belong to us (Interview)
+  last_episode_url: https://changelog.com/podcast/690
+  last_episode_audio: https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/690/the-changelog-690.mp3
+  last_episode_duration: 140
   episodes:
+  - title: All your packages are belong to us (Interview)
+    published: '2026-11-13'
+    url: https://changelog.com/podcast/690
+    audio: https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/690/the-changelog-690.mp3
+    duration: 140
   - title: We now have Kerr’s Law (Interview)
     published: '2026-11-04'
     url: https://changelog.com/podcast/689
@@ -6488,16 +6493,11 @@ podcasts:
     url: https://changelog.com/podcast/681
     audio: https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/681/the-changelog-681.mp3
     duration: 115
-  - title: Automation at the speed of Swamp (Friends)
-    published: '2026-05-13'
-    url: https://changelog.com/friends/130
-    audio: https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/friends/130/changelog--friends-130.mp3
-    duration: 146
   frequency: biweekly
   frequency_days: 13
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
-  episode_count: 1018
+  updated_at: '2026-11-14'
+  episode_count: 1019
   average_duration: 106
   status: active
   community_rating: 4.7
@@ -6600,7 +6600,7 @@ podcasts:
   frequency: monthly
   frequency_days: 28
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 412
   average_duration: 62
   status: active
@@ -6695,7 +6695,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 2022
   average_duration: 58
   status: active
@@ -6789,7 +6789,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 504
   average_duration: 33
   status: active
@@ -6882,7 +6882,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 567
   average_duration: 66
   status: active
@@ -6916,12 +6916,17 @@ podcasts:
   image: https://files.realpython.com/media/real-python-logo-square.28474fda9228.png
   author: Real Python
   description: A weekly Python podcast hosted by Christopher Bailey with interviews, coding tips, and conversation with guests from the Python community. The show covers a wide range of topics including Python…
-  last_episode: '2026-11-06'
-  last_episode_title: 'Free-Threaded Python: Why Python Devs Should Know About the ABI'
-  last_episode_url: https://realpython.com/podcasts/rpp/318/
-  last_episode_audio: https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E318_03_Nathan_Goldbaum.430cadd3c2d9.mp3
-  last_episode_duration: 68
+  last_episode: '2026-11-13'
+  last_episode_title: Mentoring Developers Beyond the Code With Tim Schilling
+  last_episode_url: https://realpython.com/podcasts/rpp/319/
+  last_episode_audio: https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E319_02_Tim_Schilling.cd5cf31e5515.mp3
+  last_episode_duration: 69
   episodes:
+  - title: Mentoring Developers Beyond the Code With Tim Schilling
+    published: '2026-11-13'
+    url: https://realpython.com/podcasts/rpp/319/
+    audio: https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E319_02_Tim_Schilling.cd5cf31e5515.mp3
+    duration: 69
   - title: 'Free-Threaded Python: Why Python Devs Should Know About the ABI'
     published: '2026-11-06'
     url: https://realpython.com/podcasts/rpp/318/
@@ -6967,17 +6972,12 @@ podcasts:
     url: https://realpython.com/podcasts/rpp/310/
     audio: https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E310_02_Den_Odell.df6778d7f7a6.mp3
     duration: 77
-  - title: Exploring Complex Systems & Maintainable Data Science Pipelines
-    published: '2026-08-28'
-    url: https://realpython.com/podcasts/rpp/309/
-    audio: https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E309_02_PyCoders.46f5efbbee30.mp3
-    duration: 41
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 320
-  average_duration: 54
+  average_duration: 58
   status: active
   community_rating: 4.7
   community_rating_count: 144
@@ -7074,7 +7074,7 @@ podcasts:
   frequency: weekly
   frequency_days: 9
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 347
   average_duration: 66
   status: slow
@@ -7176,7 +7176,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 738
   average_duration: 69
   status: slow
@@ -7269,7 +7269,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 123
   average_duration: 58
   status: archived
@@ -7367,7 +7367,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 309
   average_duration: 53
   status: active
@@ -7462,7 +7462,7 @@ podcasts:
   frequency: weekly
   frequency_days: 10
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 82
   average_duration: 60
   status: active
@@ -7497,12 +7497,17 @@ podcasts:
   image: https://img.transistorcdn.com/WMlp2ug34XB6LDJ3-vnzti_-_y144LUlFW0Xzzn3fss/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wMTZi/ZWJmNWIwNDdmYTcw/NGJjMTExZjNjZmYy/M2ZjNS5wbmc.jpg
   author: Daniel Whitenack and Chris Benson
   description: Making artificial intelligence practical, productive & accessible to everyone.
-  last_episode: '2026-11-05'
-  last_episode_title: Abundant Intelligence at the Midwest AI Summit Part 2
-  last_episode_url: https://share.transistor.fm/s/1b301bdc
-  last_episode_audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/1b301bdc/b7154aa0.mp3
-  last_episode_duration: 48
+  last_episode: '2026-11-13'
+  last_episode_title: Implementing Federated Learning to enhance Agentic AI
+  last_episode_url: https://share.transistor.fm/s/58a69653
+  last_episode_audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/58a69653/1bd19fd9.mp3
+  last_episode_duration: 44
   episodes:
+  - title: Implementing Federated Learning to enhance Agentic AI
+    published: '2026-11-13'
+    url: https://share.transistor.fm/s/58a69653
+    audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/58a69653/1bd19fd9.mp3
+    duration: 44
   - title: Abundant Intelligence at the Midwest AI Summit Part 2
     published: '2026-11-05'
     url: https://share.transistor.fm/s/1b301bdc
@@ -7548,16 +7553,11 @@ podcasts:
     url: https://share.transistor.fm/s/72586f97
     audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/72586f97/42471284.mp3
     duration: 56
-  - title: Less about Models; More about Architecture
-    published: '2026-09-03'
-    url: https://share.transistor.fm/s/ec79b4ac
-    audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/ec79b4ac/efba87b4.mp3
-    duration: 46
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
-  episode_count: 381
+  updated_at: '2026-11-14'
+  episode_count: 382
   average_duration: 47
   status: active
   community_rating: 4.3
@@ -7656,7 +7656,7 @@ podcasts:
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 295
   average_duration: 63
   status: active
@@ -7749,7 +7749,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 802
   average_duration: 57
   status: active
@@ -7845,12 +7845,12 @@ podcasts:
   frequency: biweekly
   frequency_days: 13
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 521
   average_duration: 54
   status: active
-  community_rating: 4.6
-  community_rating_count: 146
+  community_rating: 4.5
+  community_rating_count: 147
   platform: Spotify
   topics:
   - Data
@@ -7939,7 +7939,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 296
   average_duration: 47
   status: archived
@@ -8046,7 +8046,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 539
   average_duration: 33
   status: active
@@ -8151,7 +8151,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 236
   average_duration: 55
   status: active
@@ -8261,7 +8261,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-13'
+  updated_at: '2026-11-14'
   episode_count: 136
   average_duration: 70
   status: slow

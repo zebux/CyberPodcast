@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-16T21:04:20.832705+00:00",
+  "generated_at": "2026-11-16T21:28:40.115527+00:00",
   "mode": "network",
-  "duration_seconds": 14.57,
+  "duration_seconds": 19.66,
   "summary": {
     "total": 92,
     "ok": 92,
     "warning": 0,
     "error": 0,
-    "missing": 25,
-    "checked_urls": 342
+    "missing": 24,
+    "checked_urls": 343
   },
   "podcasts": [
     {
@@ -1241,15 +1241,15 @@
         },
         "rss": {
           "status": "unchecked",
-          "url": "https://www.radiocsirt.org/feed/"
+          "url": "https://feeds.podcastics.com/podcastics/podcasts/rss/7830_715fc0df79e689d2aaf12925f9e0b427.rss"
         },
         "image": {
           "status": "unchecked",
-          "url": "https://www.radiocsirt.org/wp-content/uploads/2022/10/cropped-cropped-Radio-CSIRT-logo-2-2-32x32.png"
+          "url": "https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png"
         },
         "audio": {
-          "status": "missing",
-          "url": null
+          "status": "unchecked",
+          "url": "https://track.podcastics.com/7830/439934.mp3"
         }
       }
     },

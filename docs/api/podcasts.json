@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "generated_at": "2026-11-16T21:04:20.925181+00:00",
-=======
-  "generated_at": "2026-11-16T21:14:29.925310+00:00",
->>>>>>> f61d7b0 (fix: repair RadioCSIRT RSS feed and artwork)
+  "generated_at": "2026-11-16T21:28:40.231598+00:00",
   "site": "https://zebux.github.io/CyberPodcast/",
   "count": 92,
   "podcasts": [
@@ -10423,11 +10419,11 @@
       "frequency_days": 7,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-16",
-      "episode_count": 540,
+      "episode_count": 539,
       "average_duration": 33,
       "status": "active",
       "community_rating": 4.8,
-      "community_rating_count": 294,
+      "community_rating_count": 293,
       "platform": "Spotify",
       "topics": [
         "Développement",

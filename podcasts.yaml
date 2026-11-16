@@ -8199,11 +8199,11 @@ podcasts:
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-16'
-  episode_count: 540
+  episode_count: 539
   average_duration: 33
   status: active
   community_rating: 4.8
-  community_rating_count: 294
+  community_rating_count: 293
   platform: Spotify
   topics:
   - Développement

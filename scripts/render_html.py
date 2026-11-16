@@ -447,7 +447,7 @@ def layout(
     json_ld: dict[str, Any] | None = None,
 ) -> str:
     page_url = canonical(canonical_path) if canonical_path else SITE_URL + "/"
-    image_url = image or f"{SITE_URL}/assets/icon.svg"
+    image_url = image or f"{SITE_URL}/assets/logo.png"
     structured = ""
     if json_ld:
         structured = f'<script type="application/ld+json">{json_safe(json_ld)}</script>'
@@ -470,7 +470,9 @@ def layout(
   <meta name="twitter:title" content="{esc(title)}">
   <meta name="twitter:description" content="{esc(description)}">
   <meta name="twitter:image" content="{esc(image_url)}">
-  <link rel="icon" href="{root}assets/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="{root}favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="{root}assets/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="{root}assets/apple-touch-icon.png">
   <link rel="manifest" href="{root}manifest.webmanifest">
   <link rel="alternate" type="application/rss+xml" title="CyberPodcast · Derniers épisodes" href="{root}feed.xml">
   <link rel="stylesheet" href="{root}assets/style.css">
@@ -484,8 +486,7 @@ def layout(
   <header class="site-header">
     <div class="site-header-inner">
       <a class="brand" href="{root}index.html" aria-label="CyberPodcast, accueil">
-        <span class="brand-mark">CP</span>
-        <span class="brand-text">Cyber<span>Podcast</span></span>
+        <img class="brand-logo" src="{root}assets/logo.png" alt="CyberPodcast" width="370" height="277">
       </a>
       <nav class="nav-links" aria-label="Navigation principale">
         <a class="nav-link" href="{root}index.html">Podcasts</a>
@@ -893,7 +894,7 @@ def detail_page(podcast: dict[str, Any], podcasts: list[dict[str, Any]]) -> str:
         "name": name,
         "url": canonical(f"podcast/{entry_id}.html"),
         "description": description,
-        "image": podcast.get("image") or f"{SITE_URL}/assets/icon.svg",
+        "image": podcast.get("image") or f"{SITE_URL}/assets/icon-512.png",
         "webFeed": podcast.get("rss"),
         "inLanguage": podcast.get("language") or "fr",
         "author": [
@@ -1318,11 +1319,17 @@ def render() -> None:
                 "theme_color": "#080d1c",
                 "icons": [
                     {
-                        "src": "assets/icon.svg",
-                        "sizes": "any",
-                        "type": "image/svg+xml",
+                        "src": "assets/icon-192.png",
+                        "sizes": "192x192",
+                        "type": "image/png",
                         "purpose": "any",
-                    }
+                    },
+                    {
+                        "src": "assets/icon-512.png",
+                        "sizes": "512x512",
+                        "type": "image/png",
+                        "purpose": "any",
+                    },
                 ],
             },
             ensure_ascii=False,

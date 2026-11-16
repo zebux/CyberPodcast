@@ -242,7 +242,10 @@ podcasts:
     host: "Marc-Frédéric Gomez"
     status: active
     website: https://www.radiocsirt.org/
+    rss: https://feeds.podcastics.com/podcastics/podcasts/rss/7830_715fc0df79e689d2aaf12925f9e0b427.rss
+    apple_podcast: https://podcasts.apple.com/fr/podcast/radiocsirt/id1763090000
     podcast_addict: https://podcastaddict.com/podcast/radiocsirt/5496892
+    image: https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png
     description: Podcast consacré aux CSIRT, à la réponse à incident et à la cybersécurité opérationnelle.
 
   - id: riskintel-media

@@ -4774,90 +4774,93 @@ podcasts:
   hosts:
   - Marc-Frédéric Gomez
   website: https://www.radiocsirt.org/
-  rss: https://www.radiocsirt.org/feed/
+  rss: https://feeds.podcastics.com/podcastics/podcasts/rss/7830_715fc0df79e689d2aaf12925f9e0b427.rss
   youtube: null
   spotify: null
-  apple_podcast: https://podcasts.apple.com/fr/podcast/radiocsirt/id1763090000?uo=4
+  apple_podcast: https://podcasts.apple.com/fr/podcast/radiocsirt/id1763090000
   linkedin: null
   deezer: null
   pocket_casts: null
   podcast_addict: https://podcastaddict.com/podcast/radiocsirt/5496892
   amazon_music: null
   castbox: null
-  image: https://www.radiocsirt.org/wp-content/uploads/2022/10/cropped-cropped-Radio-CSIRT-logo-2-2-32x32.png
+  image: https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png
   author: Marc Frédéric GOMEZ
   description: Podcast consacré aux CSIRT, à la réponse à incident et à la cybersécurité opérationnelle.
-  last_episode: '2026-11-10'
-  last_episode_title: Ep.796 – Outlook, Patch Tuesday de novembre – Flash info du mardi 10 novembre 2026
-  last_episode_url: https://www.radiocsirt.org/ep-796-outlook-patch-tuesday-de-novembre-flash-info-du-mardi-10-novembre-2026/
-  last_episode_audio: null
-  last_episode_duration: null
+  last_episode: '2026-11-16'
+  last_episode_title: Ep.802 - LiteLLM, Kerberos - Flash info du lundi 16 novembre 2026
+  last_episode_url: https://www.radiocsirt.org/podcast/ep-802-litellm-kerberos-flash-info-du-lundi-16-novembre-2026/
+  last_episode_audio: https://track.podcastics.com/7830/439934.mp3
+  last_episode_duration: 15
   episodes:
-  - title: Ep.796 – Outlook, Patch Tuesday de novembre – Flash info du mardi 10 novembre 2026
+  - title: Ep.802 - LiteLLM, Kerberos - Flash info du lundi 16 novembre 2026
+    published: '2026-11-16'
+    url: https://www.radiocsirt.org/podcast/ep-802-litellm-kerberos-flash-info-du-lundi-16-novembre-2026/
+    audio: https://track.podcastics.com/7830/439934.mp3
+    duration: 15
+  - title: Ep.801 - SectopRat, FaceStealer, Europol TorNado - Flash info du 15 novembre 2026
+    published: '2026-11-15'
+    url: https://www.radiocsirt.org/podcast/ep-801-sectoprat-facestealer-europol-tornado-flash-info-15-novembre-2026/
+    audio: https://track.podcastics.com/7830/439794.mp3
+    duration: 10
+  - title: 'Ep.800 Épisode spécial : SIFT 2026, Claude et MCP pour le forensic d''un poste Windows 11'
+    published: '2026-11-15'
+    url: https://www.radiocsirt.org/podcast/ep-800-episode-special-sift-2026-claude-et-mcp-pour-le-forensic-dun-poste-windows-11/
+    audio: https://track.podcastics.com/7830/439792.mp3
+    duration: 67
+  - title: Ep.799 - Check Point, UnrealIRCd - Flash info du vendredi 13 novembre 2026
+    published: '2026-11-13'
+    url: https://www.radiocsirt.org/podcast/ep-799-check-point-unrealircd-flash-info-du-vendredi-13-novembre-2026/
+    audio: https://track.podcastics.com/7830/439730.mp3
+    duration: 12
+  - title: Ep.798 - OpenSSH, FreeSWITCH, ANSSI - Flash info du jeudi 12 novembre 2026
+    published: '2026-11-12'
+    url: https://www.radiocsirt.org/podcast/ep-798-openssh-freeswitch-anssi-flash-info-du-jeudi-12-novembre-2026/
+    audio: https://track.podcastics.com/7830/439498.mp3
+    duration: 12
+  - title: Ep.797 - Barracuda ESG, N-able N-central - Flash info du mercredi 11 novembre 2026
+    published: '2026-11-11'
+    url: https://www.radiocsirt.org/podcast/ep-797-barracuda-esg-n-able-n-central-flash-info-du-mercredi-11-novembre-2026/
+    audio: https://track.podcastics.com/7830/439335.mp3
+    duration: 11
+  - title: Ep.796 - Outlook, Patch Tuesday de novembre - Flash info du mardi 10 novembre 2026
     published: '2026-11-10'
     url: https://www.radiocsirt.org/ep-796-outlook-patch-tuesday-de-novembre-flash-info-du-mardi-10-novembre-2026/
-    audio: null
-    duration: null
-  - title: CVE indisponible le 11 Octobre 2026
-    published: '2026-10-11'
-    url: https://www.radiocsirt.org/cve-indisponible-le-11-octobre-2026/
-    audio: null
-    duration: null
-  - title: Newsletter RadioCSIRT N°38
-    published: '2025-11-23'
-    url: https://www.radiocsirt.org/newsletter-radiocsirt-n38/
-    audio: null
-    duration: null
-  - title: Newsletter RadioCSIRT N°37
-    published: '2025-11-15'
-    url: https://www.radiocsirt.org/newsletter-radiocsirt-n37/
-    audio: null
-    duration: null
-  - title: Newsletter RadioCSIRT N°36
-    published: '2025-11-09'
-    url: https://www.radiocsirt.org/newsletter-radiocsirt-n36/
-    audio: null
-    duration: null
-  - title: Newsletter RadioCSIRT N°35
-    published: '2025-11-02'
-    url: https://www.radiocsirt.org/newsletter-n35/
-    audio: null
-    duration: null
-  - title: NewsLetter RadioCSIRT N°34
-    published: '2025-10-25'
-    url: https://www.radiocsirt.org/newsletter-radiocsirt-n34/
-    audio: null
-    duration: null
-  - title: NewsLetter RadioCSIRT N°33
-    published: '2025-10-18'
-    url: https://www.radiocsirt.org/newsletter-radiocsirt-n33/
-    audio: null
-    duration: null
-  - title: NewsLetter RadioCSIRT N°32
-    published: '2025-10-11'
-    url: https://www.radiocsirt.org/newsletter-radiocsirt-n32/
-    audio: null
-    duration: null
-  - title: NewsLetter RadioCSIRT N°31
-    published: '2025-10-04'
-    url: https://www.radiocsirt.org/newsletter-radiocsirt-n31/
-    audio: null
-    duration: null
-  frequency: weekly
-  frequency_days: 7
+    audio: https://track.podcastics.com/7830/439257.mp3
+    duration: 13
+  - title: Ep.795 - Iran, Shahid Kaveh, C4 et CERT-FR - Épisode spécial du lundi 9 novembre 2026
+    published: '2026-11-09'
+    url: https://www.radiocsirt.org/podcast/ep-795-iran-shahid-kaveh-c4-et-cert-fr-episode-special-du-lundi-9-novembre-2026/
+    audio: https://track.podcastics.com/7830/439097.mp3
+    duration: 11
+  - title: Ep.794 - ARTEX, Storm-0940, Vapor Panda - Épisode spécial du 7 novembre 2026
+    published: '2026-11-08'
+    url: https://www.radiocsirt.org/podcast/ep-794-artex-storm-0940-vapor-panda-flash-info-du-dimanche-7-novembre-2026/
+    audio: https://track.podcastics.com/7830/438967.mp3
+    duration: 21
+  - title: Ep.793 - RadioCSIRT Flash Info du samedi 7 novembre 2026
+    published: '2026-11-07'
+    url: https://www.radiocsirt.org/podcast/ep-793-radiocsirt-flash-info-du-samedi-7-novembre-2026/
+    audio: https://track.podcastics.com/7830/438897.mp3
+    duration: 13
+  frequency: daily
+  frequency_days: 1
   first_seen: '2026-11-09'
   updated_at: '2026-11-16'
-  episode_count: 805
-  average_duration: null
+  episode_count: 806
+  average_duration: 14
   status: active
   community_rating: 4.9
   community_rating_count: 62
-  platform: autre
+  platform: Podcastics
   topics:
   - Cybersécurité
   - DFIR
   tags:
-  - Cybersécurité
+  - News
+  - Tech News
+  - Technology
+  - Daily News
 - id: riskintel-media
   name: Riskintel Média
   category:
@@ -8196,11 +8199,11 @@ podcasts:
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-16'
-  episode_count: 539
+  episode_count: 540
   average_duration: 33
   status: active
   community_rating: 4.8
-  community_rating_count: 293
+  community_rating_count: 294
   platform: Spotify
   topics:
   - Développement

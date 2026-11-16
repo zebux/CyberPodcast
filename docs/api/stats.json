@@ -1,10 +1,14 @@
 {
+<<<<<<< HEAD
   "generated_at": "2026-11-16T21:04:20.925181+00:00",
+=======
+  "generated_at": "2026-11-16T21:14:29.925310+00:00",
+>>>>>>> f61d7b0 (fix: repair RadioCSIRT RSS feed and artwork)
   "total": 92,
-  "total_episodes": 25826,
+  "total_episodes": 25828,
   "with_rss": 86,
   "with_image": 86,
-  "with_audio": 83,
+  "with_audio": 84,
   "rated": 71,
   "average_rating": 4.73,
   "by_status": {
@@ -18,7 +22,7 @@
   },
   "by_platform": {
     "Spotify": 31,
-    "autre": 14,
+    "autre": 13,
     "Acast": 8,
     "Anchor": 9,
     "Audiomeans": 3,
@@ -29,6 +33,7 @@
     "Ausha": 11,
     "RedCircle": 1,
     "Blubrry": 1,
+    "Podcastics": 1,
     "YouTube": 1,
     "Spreaker": 2,
     "Simplecast": 2,

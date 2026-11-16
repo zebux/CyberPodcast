@@ -166,9 +166,7 @@ code {
 .brand-logo {
   display: block;
   width: auto;
-  height: 44px;
-  border-radius: 10px;
-  background: #fff;
+  height: 34px;
 }
 .brand-mark {
   display: inline-grid;
@@ -1059,7 +1057,7 @@ td a { color: var(--accent); text-decoration: none; }
     padding: 8px 12px;
   }
   .brand { flex: 0 0 auto; gap: 8px; font-size: 0.95rem; }
-  .brand-logo { height: 34px; border-radius: 8px; }
+  .brand-logo { height: 28px; }
   .brand-mark { width: 30px; height: 30px; border-radius: 8px; font-size: 0.66rem; }
   .nav-links {
     flex: 1 1 auto;

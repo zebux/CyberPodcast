@@ -486,7 +486,7 @@ def layout(
   <header class="site-header">
     <div class="site-header-inner">
       <a class="brand" href="{root}index.html" aria-label="CyberPodcast, accueil">
-        <img class="brand-logo" src="{root}assets/logo.png" alt="CyberPodcast" width="370" height="277">
+        <img class="brand-logo" src="{root}assets/logo.png" alt="CyberPodcast" width="512" height="436">
       </a>
       <nav class="nav-links" aria-label="Navigation principale">
         <a class="nav-link" href="{root}index.html">Podcasts</a>

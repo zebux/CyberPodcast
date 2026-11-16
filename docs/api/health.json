@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-16T20:19:38.523289+00:00",
+  "generated_at": "2026-11-16T20:51:20.668428+00:00",
   "mode": "network",
-  "duration_seconds": 11.42,
+  "duration_seconds": 19.88,
   "summary": {
-    "total": 91,
-    "ok": 91,
+    "total": 92,
+    "ok": 92,
     "warning": 0,
     "error": 0,
     "missing": 25,
-    "checked_urls": 338
+    "checked_urls": 342
   },
   "podcasts": [
     {
@@ -652,6 +652,29 @@
         "audio": {
           "status": "unchecked",
           "url": "https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/827dad28-5f10-401c-8dd8-0d16c1a837ba.mp3"
+        }
+      }
+    },
+    {
+      "id": "le-centre-de-gravite",
+      "name": "Le centre de gravité",
+      "status": "ok",
+      "checks": {
+        "site": {
+          "status": "unchecked",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray"
+        },
+        "rss": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/11065f6ec/podcast/rss"
+        },
+        "image": {
+          "status": "unchecked",
+          "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg"
+        },
+        "audio": {
+          "status": "unchecked",
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129541342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F5353d64d-5e0a-867d-3b96-f9b4156b7808.mp3"
         }
       }
     },

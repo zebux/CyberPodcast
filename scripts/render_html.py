@@ -503,6 +503,8 @@ def layout(
     <span>Données enrichies automatiquement · dernière mise à jour {GENERATED_AT.strftime("%d/%m/%Y")} · <a href="{root}a-propos.html">méthode</a></span>
     <span><a href="{REPO_URL}" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="{root}feed.xml">RSS</a> · <a href="{root}api/podcasts.json">API JSON</a></span>
   </footer>
+  <script data-goatcounter="https://zebux.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>'''
 

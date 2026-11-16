@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-15T12:02:20.703955+00:00",
+  "generated_at": "2026-11-16T12:19:04.067475+00:00",
   "total": 91,
-  "total_episodes": 23901,
-  "with_rss": 84,
-  "with_image": 84,
-  "with_audio": 81,
+  "total_episodes": 23911,
+  "with_rss": 85,
+  "with_image": 85,
+  "with_audio": 82,
   "rated": 71,
   "average_rating": 4.73,
   "by_status": {
-    "slow": 16,
-    "active": 61,
+    "slow": 17,
+    "active": 60,
     "archived": 14
   },
   "by_language": {
@@ -18,9 +18,9 @@
   },
   "by_platform": {
     "Spotify": 31,
-    "autre": 15,
+    "autre": 14,
     "Acast": 8,
-    "Anchor": 7,
+    "Anchor": 8,
     "Audiomeans": 3,
     "Libsyn": 4,
     "Buzzsprout": 2,

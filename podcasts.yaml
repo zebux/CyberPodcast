@@ -2667,7 +2667,7 @@ podcasts:
   - Education
   - Self-Improvement
 - id: cyberpunkcompany
-  name: CyberPunkCompany
+  name: LONG INT*
   category:
   - Cybersécurité
   language: fr
@@ -2675,39 +2675,89 @@ podcasts:
   hosts:
   - Tixlegeek
   website: https://cyberpunk.company/
-  rss: null
-  youtube: null
+  rss: https://anchor.fm/s/109627744/podcast/rss
+  youtube: https://www.youtube.com/playlist?list=PLWJEFrUcB_aRSG1sitydbvT9ipSzoioYd
   spotify: https://open.spotify.com/show/6hrcsJTfyJfaIoh4vx14qd
   apple_podcast: null
   linkedin: null
   deezer: null
   pocket_casts: null
-  podcast_addict: null
+  podcast_addict: https://podcastaddict.com/podcast/long-int/6595572
   amazon_music: null
   castbox: null
-  image: null
-  author: null
-  description: Podcast de Tixlegeek consacré au hacking, à la cybersécurité et à la culture geek.
-  last_episode: null
-  last_episode_title: null
-  last_episode_url: null
-  last_episode_audio: null
-  last_episode_duration: null
-  episodes: []
-  frequency: null
-  frequency_days: null
+  image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/44424153/44424153-1758101817759-0fd9f9c829487.jpg
+  author: Tixlegeek
+  description: LONG INT* (CyberPunkCompany), le podcast où Tixlegeek s'intéresse aux humains derrière les hackers et les nerds francophones.
+  last_episode: '2025-11-29'
+  last_episode_title: '[LONG INT*] MrJack/Frenchkey pirate la planète (Crochetage, Intrusion physique, et hacking mécanique)'
+  last_episode_url: https://podcasters.spotify.com/pod/show/tixlegeek/episodes/LONG-INT-MrJackFrenchkey-pirate-la-plante-Crochetage--Intrusion-physique--et-hacking-mcanique-e3bkoib
+  last_episode_audio: https://anchor.fm/s/109627744/podcast/play/111878155/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-29%2F413408967-44100-2-d908e831c49cf.mp3
+  last_episode_duration: 109
+  episodes:
+  - title: '[LONG INT*] MrJack/Frenchkey pirate la planète (Crochetage, Intrusion physique, et hacking mécanique)'
+    published: '2025-11-29'
+    url: https://podcasters.spotify.com/pod/show/tixlegeek/episodes/LONG-INT-MrJackFrenchkey-pirate-la-plante-Crochetage--Intrusion-physique--et-hacking-mcanique-e3bkoib
+    audio: https://anchor.fm/s/109627744/podcast/play/111878155/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-29%2F413408967-44100-2-d908e831c49cf.mp3
+    duration: 109
+  - title: '[LONG INT*] lefinnois/denis bodor pirate la planète (Embarqué, hack, et hacking passionnel)'
+    published: '2025-11-23'
+    url: https://podcasters.spotify.com/pod/show/tixlegeek/episodes/LONG-INT-lefinnoisdenis-bodor-pirate-la-plante-Embarqu--hack--et-hacking-passionnel-e3bbsjq
+    audio: https://anchor.fm/s/109627744/podcast/play/111587386/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-23%2F413008541-44100-2-08b693a70529.mp3
+    duration: 103
+  - title: '[LONG INT*] Rancune pirate la planète (Électronique, robotique, et giffle avec un tabouret)'
+    published: '2025-11-13'
+    url: https://podcasters.spotify.com/pod/show/tixlegeek/episodes/LONG-INT-Rancune-pirate-la-plante-lectronique--robotique--et-giffle-avec-un-tabouret-e3atufh
+    audio: https://anchor.fm/s/109627744/podcast/play/111130545/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-13%2F412411814-44100-2-45f945a255876.mp3
+    duration: 104
+  - title: '[LONG INT*] Fixou pirate la planète (Electronique, I.T., et téléphone dans la baignoire)'
+    published: '2025-10-30'
+    url: https://podcasters.spotify.com/pod/show/tixlegeek/episodes/LONG-INT-Fixou-pirate-la-plante-Electronique--I-T---et-tlphone-dans-la-baignoire-e3a9301
+    audio: https://anchor.fm/s/109627744/podcast/play/110447041/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-30%2F410277292-44100-2-2a5cf0bff2887.mp3
+    duration: 92
+  - title: '[LONG INT*] Laluka pirate la planète (Cybersec, pentest, et Vol Libre)'
+    published: '2025-10-23'
+    url: https://podcasters.spotify.com/pod/show/tixlegeek/episodes/LONG-INT-Laluka-pirate-la-plante-Cybersec--pentest--et-Vol-Libre-e39ultb
+    audio: https://anchor.fm/s/109627744/podcast/play/110105963/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-23%2F409830149-44100-2-f74a61567ee1a.mp3
+    duration: 69
+  - title: '[LONG INT*] Fluxius pirate la planète (Cybersec, HF, et britney spears)'
+    published: '2025-10-15'
+    url: https://podcasters.spotify.com/pod/show/tixlegeek/episodes/LONG-INT-Fluxius-pirate-la-plante-Cybersec--HF--et-britney-spears-e39ieqp
+    audio: https://anchor.fm/s/109627744/podcast/play/109705497/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-15%2F409305752-44100-2-ffb0e7fc2be02.mp3
+    duration: 89
+  - title: '[LONG INT*] Y0no pirate la planète (Cybersec, punkrock et nains de jardins)'
+    published: '2025-10-08'
+    url: https://podcasters.spotify.com/pod/show/tixlegeek/episodes/LONG-INT-Y0no-pirate-la-plante-Cybersec--punkrock-et-nains-de-jardins-e398isl
+    audio: https://anchor.fm/s/109627744/podcast/play/109381973/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-8%2F408882068-44100-2-d84103d9353a5.mp3
+    duration: 85
+  - title: '[LONG INT*] Virtualabs pirate la planète (Reverse, C, hack,...)'
+    published: '2025-10-01'
+    url: https://podcasters.spotify.com/pod/show/tixlegeek/episodes/LONG-INT-Virtualabs-pirate-la-plante-Reverse--C--hack-e38ur24
+    audio: https://anchor.fm/s/109627744/podcast/play/109062660/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-1%2F408466709-44100-2-7412c6e1bc68b.mp3
+    duration: 88
+  - title: '[LONG INT*] Yorzian pirate la planète (Retro, IA, ...)'
+    published: '2025-09-24'
+    url: https://podcasters.spotify.com/pod/show/tixlegeek/episodes/LONG-INT-Yorzian-pirate-la-plante-Retro--IA-e38ir2q
+    audio: https://anchor.fm/s/109627744/podcast/play/108669466/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-22%2F407956700-44100-2-68d0038c30043.mp3
+    duration: 104
+  - title: '[LONG INT *] 7h30th3r0n3 pirate la planète (EvilM5, ...)'
+    published: '2025-09-16'
+    url: https://podcasters.spotify.com/pod/show/tixlegeek/episodes/LONG-INT--7h30th3r0n3-pirate-la-plante-EvilM5-e388ll3
+    audio: https://anchor.fm/s/109627744/podcast/play/108336227/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-15%2F407527050-44100-2-7fe5611816094.mp3
+    duration: 87
+  frequency: weekly
+  frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-15'
-  episode_count: null
-  average_duration: null
-  status: active
+  updated_at: '2026-11-16'
+  episode_count: 10
+  average_duration: 90
+  status: slow
   community_rating: null
   community_rating_count: null
-  platform: autre
+  platform: Anchor
   topics:
   - Cybersécurité
   tags:
-  - Cybersécurité
+  - Technology
 - id: cybersecurite-all-day
   name: Cybersécurité All Day
   category:
@@ -4203,7 +4253,7 @@ podcasts:
   podcast_addict: https://podcastaddict.com/podcast/nolimitsecu/509653
   amazon_music: null
   castbox: null
-  image: http://ftp.nolimitsecu.fr/nolimitsecu-1400.jpg
+  image: https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/60/ce/8f/60ce8f21-4939-c2af-6d81-7d86a460e5f2/mza_7503302632113938466.jpg/600x600bb.jpg
   author: NoLimitSecu
   description: Le podcast Francophone hebdomadaire dédié à la cybersécurité
   last_episode: '2026-11-08'

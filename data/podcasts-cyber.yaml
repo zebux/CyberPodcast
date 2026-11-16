@@ -22,14 +22,18 @@ podcasts:
     platform: Ausha
 
   - id: cyberpunkcompany
-    name: "CyberPunkCompany"
+    name: "LONG INT*"
     category: ["Cybersécurité"]
     language: fr
     host: "Tixlegeek"
     status: active
+    rss: https://anchor.fm/s/109627744/podcast/rss
     spotify: https://open.spotify.com/show/6hrcsJTfyJfaIoh4vx14qd
+    youtube: https://www.youtube.com/playlist?list=PLWJEFrUcB_aRSG1sitydbvT9ipSzoioYd
+    podcast_addict: https://podcastaddict.com/podcast/long-int/6595572
     website: https://cyberpunk.company/
-    description: Podcast de Tixlegeek consacré au hacking, à la cybersécurité et à la culture geek.
+    description: "LONG INT* (CyberPunkCompany), le podcast où Tixlegeek s'intéresse aux humains derrière les hackers et les nerds francophones."
+    platform: Anchor
 
   - id: cybersecurite-all-day
     name: "Cybersécurité All Day"
@@ -187,6 +191,7 @@ podcasts:
     status: active
     website: https://www.nolimitsecu.fr/
     podcast_addict: https://podcastaddict.com/podcast/nolimitsecu/509653
+    image: https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/60/ce/8f/60ce8f21-4939-c2af-6d81-7d86a460e5f2/mza_7503302632113938466.jpg/600x600bb.jpg
 
   - id: objectif-cyber
     name: "Objectif Cyber"

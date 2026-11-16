@@ -10,7 +10,7 @@ Site : https://zebux.github.io/CyberPodcast/
 - Favoris stockés localement dans le navigateur, sans compte ni cookie.
 - Lecteur audio intégré pour le dernier épisode, lecteur global sur l'annuaire et liste des épisodes récents.
 - Fiches détaillées par podcast avec liens d'écoute, métadonnées, sujets, tags et podcasts proches.
-- Pages secondaires : sujets, statistiques, à propos et rapport de santé.
+- Pages secondaires : sujets, statistiques et à propos.
 - SEO statique : sitemap, robots.txt, flux RSS, JSON-LD, Open Graph et Twitter Cards.
 - API JSON publique : `docs/api/podcasts.json`, `docs/api/stats.json`, `docs/api/health.json`.
 - Thème clair/sombre avec préférence système et mémorisation locale.

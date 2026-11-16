@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T20:19:38.642735+00:00",
+  "generated_at": "2026-11-16T20:45:48.126861+00:00",
   "site": "https://zebux.github.io/CyberPodcast/",
-  "count": 91,
+  "count": 92,
   "podcasts": [
     {
       "id": "dans-ton-kube",
@@ -3146,6 +3146,131 @@
         "Tech News",
         "Education",
         "How To"
+      ]
+    },
+    {
+      "id": "le-centre-de-gravite",
+      "name": "Le centre de gravité",
+      "category": [
+        "Cloud",
+        "IA",
+        "Tech"
+      ],
+      "language": "fr",
+      "country": "FR",
+      "hosts": [
+        "Franck Dubray"
+      ],
+      "website": "https://podcasters.spotify.com/pod/show/franck-dubray",
+      "rss": "https://anchor.fm/s/11065f6ec/podcast/rss",
+      "youtube": "https://www.youtube.com/@Franck.Dubray/podcasts",
+      "spotify": "https://open.spotify.com/show/76HwZTwRwWEYzhooS6x6hU",
+      "apple_podcast": "https://podcasts.apple.com/us/podcast/le-centre-de-gravit%C3%A9/id1890252052",
+      "linkedin": null,
+      "deezer": null,
+      "pocket_casts": null,
+      "podcast_addict": null,
+      "amazon_music": null,
+      "castbox": null,
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg",
+      "author": "Franck Dubray - Dragonfly",
+      "description": "Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.",
+      "last_episode": "2026-11-16",
+      "last_episode_title": "RAG et BM25 : l'agent documentaire fait-il vraiment mieux ?",
+      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/RAG-et-BM25--lagent-documentaire-fait-il-vraiment-mieux-e3sfpou",
+      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/129541342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F5353d64d-5e0a-867d-3b96-f9b4156b7808.mp3",
+      "last_episode_duration": 7,
+      "episodes": [
+        {
+          "title": "RAG et BM25 : l'agent documentaire fait-il vraiment mieux ?",
+          "published": "2026-11-16",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/RAG-et-BM25--lagent-documentaire-fait-il-vraiment-mieux-e3sfpou",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129541342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F5353d64d-5e0a-867d-3b96-f9b4156b7808.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Chine : 2 800 mines transformées en laboratoire industriel ?",
+          "published": "2026-11-16",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Chine--2-800-mines-transformes-en-laboratoire-industriel-e3sdsn8",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129478824/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2Fd59d3abd-7c4c-7c1b-8901-ea68baf689e5.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Caf et Linux : un OS propriétaire est-il vraiment souverain ?",
+          "published": "2026-11-16",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Caf-et-Linux--un-OS-propritaire-est-il-vraiment-souverain-e3scf98",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129432296/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F3e6a2e96-5da8-1583-065e-4921bd072ad1.mp3",
+          "duration": 7
+        },
+        {
+          "title": "ChatGPT Wallet : valider le paiement ou choisir l’achat ?",
+          "published": "2026-11-16",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/ChatGPT-Wallet--valider-le-paiement-ou-choisir-lachat-e3scf6i",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129432210/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F189acde9-df3f-9477-dadf-275669e8c5a1.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Agents de code : pourquoi élaguer 94 % de leur mémoire ?",
+          "published": "2026-11-16",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Agents-de-code--pourquoi-laguer-94--de-leur-mmoire-e3scf40",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129432128/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F9da8868d-f0ae-bd6c-bab7-a50a55858d58.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Puces automobiles : Nexperia et STMicro alertent sur l’éviction",
+          "published": "2026-11-16",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Puces-automobiles--Nexperia-et-STMicro-alertent-sur-lviction-e3scerf",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129431855/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F19e49396-b16a-029c-b835-1f2b2d277c87.mp3",
+          "duration": 8
+        },
+        {
+          "title": "Digital Fairness Act : la fin du design commercial libre ?",
+          "published": "2026-11-16",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Digital-Fairness-Act--la-fin-du-design-commercial-libre-e3sb03r",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129383995/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-13%2F759c951e-5286-223c-70bc-f7d04a11b84b.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Dossier médical : quand une IA résume les notes d'une autre",
+          "published": "2026-11-16",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Dossier-mdical--quand-une-IA-rsume-les-notes-dune-autre-e3sb00m",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129383894/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-13%2F4bdbbc70-4617-ba6f-8b5a-75ae77107122.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Gemini 4 Hydrogen : coder les règles ou déléguer au modèle ?",
+          "published": "2026-11-16",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Gemini-4-Hydrogen--coder-les-rgles-ou-dlguer-au-modle-e3savu7",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129383815/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-13%2F8bc24ed3-98ba-0755-5a09-9b2292c111f7.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Verlaine, l'angle mort des IA",
+          "published": "2026-11-16",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Verlaine--langle-mort-des-IA-e3pqqc3",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/126756675/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2F40444523-852f-d50f-df55-93ab1355b548.mp3",
+          "duration": 19
+        }
+      ],
+      "frequency": null,
+      "frequency_days": null,
+      "first_seen": "2026-11-16",
+      "updated_at": "2026-11-16",
+      "episode_count": 1190,
+      "average_duration": 7,
+      "status": "active",
+      "community_rating": null,
+      "community_rating_count": null,
+      "platform": "Anchor",
+      "topics": [
+        "Cloud",
+        "IA",
+        "Tech"
+      ],
+      "tags": [
+        "Cloud",
+        "IA",
+        "Tech"
       ]
     },
     {
@@ -9799,6 +9924,7 @@
       "community_rating_count": 108,
       "platform": "Substack",
       "topics": [
+        "IA",
         "LLM"
       ],
       "tags": [
@@ -10290,11 +10416,11 @@
       "frequency_days": 7,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-16",
-      "episode_count": 539,
+      "episode_count": 540,
       "average_duration": 33,
       "status": "active",
       "community_rating": 4.8,
-      "community_rating_count": 293,
+      "community_rating_count": 294,
       "platform": "Spotify",
       "topics": [
         "Développement",

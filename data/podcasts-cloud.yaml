@@ -367,3 +367,29 @@
     podcast_addict: https://podcastaddict.com/podcast/ask-noah-show/2371275
     hosts:
       - Noah Chelliah
+
+  - id: le-centre-de-gravite
+    name: "Le centre de gravité"
+    category:
+      - Cloud
+      - IA
+      - Tech
+    language: fr
+    status: active
+    website: https://podcasters.spotify.com/pod/show/franck-dubray
+    rss: https://anchor.fm/s/11065f6ec/podcast/rss
+    spotify: https://open.spotify.com/show/76HwZTwRwWEYzhooS6x6hU
+    apple_podcast: https://podcasts.apple.com/us/podcast/le-centre-de-gravit%C3%A9/id1890252052
+    youtube: https://www.youtube.com/@Franck.Dubray/podcasts
+    platform: Anchor
+    hosts:
+      - Franck Dubray
+    description: "Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire."
+    topics:
+      - Cloud
+      - IA
+      - Tech
+    tags:
+      - Cloud
+      - IA
+      - Tech

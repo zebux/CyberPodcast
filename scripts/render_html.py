@@ -7,7 +7,6 @@ Produit :
   - docs/sujets.html              exploration par sujet
   - docs/statistiques.html        chiffres clés
   - docs/a-propos.html            présentation du projet
-  - docs/rapport.html             rapport de santé des liens
   - docs/api/*.json               données publiques
   - docs/sitemap.xml, robots.txt, feed.xml, 404.html
 """
@@ -493,7 +492,6 @@ def layout(
         <a class="nav-link" href="{root}sujets.html">Sujets</a>
         <a class="nav-link" href="{root}statistiques.html">Statistiques</a>
         <a class="nav-link" href="{root}a-propos.html">À propos</a>
-        <a class="nav-link" href="{root}rapport.html">Rapport</a>
         <a class="nav-link nav-external" href="{REPO_URL}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
         <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
       </nav>
@@ -642,16 +640,9 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
     body = f'''
   <main id="contenu">
     <section class="hero">
-      <p class="eyebrow">Annuaire automatisé · {esc(fmt_date(updated))}</p>
+      <p class="eyebrow">{esc(fmt_date(updated))}</p>
       <h1>Les podcasts <span class="gradient">cyber, cloud &amp; dev</span></h1>
-      <p class="lead">Découvrez, filtrez et écoutez les meilleurs podcasts francophones et internationaux sur la cybersécurité, le cloud et le développement. Données enrichies depuis les flux RSS, Apple Podcasts et les sites officiels.</p>
-      <div class="stats-strip">
-        <div class="stat"><strong>{stats["total"]}</strong><span>podcasts</span></div>
-        <div class="stat"><strong>{stats["by_status"].get("active", 0)}</strong><span>actifs</span></div>
-        <div class="stat"><strong>{fmt_number(stats["total_episodes"])}</strong><span>épisodes référencés</span></div>
-        <div class="stat"><strong>{len(languages)}</strong><span>langues</span></div>
-        <div class="stat"><strong>{stats["with_audio"]}</strong><span>écoute directe</span></div>
-      </div>
+      <p class="lead">Découvrez et écoutez les meilleurs francophones (et parfois internationaux) sur la cybersécurité, le cloud et le développement.</p>
     </section>
 
     <section class="toolbar" aria-label="Filtres">
@@ -1044,7 +1035,7 @@ def about_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
         <li>Un workflow GitHub Actions contrôle la santé des liens, régénère le site et publie GitHub Pages.</li>
       </ol>
       <h2>Automatisation</h2>
-      <p>Le workflow tourne chaque jour. Il récupère les nouveautés, met à jour les notes et les derniers épisodes, produit un rapport de santé et redéploie le site. Les erreurs réseau ne bloquent pas la publication : les données précédentes servent de repli.</p>
+      <p>Le workflow tourne chaque jour. Il récupère les nouveautés, met à jour les notes et les derniers épisodes, contrôle la santé des liens et redéploie le site. Les erreurs réseau ne bloquent pas la publication : les données précédentes servent de repli.</p>
       <h2>Contribuer</h2>
       <p>Une erreur, un podcast manquant, un flux cassé ? Ouvrez une <a href="{REPO_URL}/issues" target="_blank" rel="noopener noreferrer">issue</a> ou proposez une correction dans <code>data/podcasts-*.yaml</code>. Les liens officiels et les flux vérifiés sont prioritaires.</p>
       <h2>Transparence</h2>
@@ -1052,7 +1043,7 @@ def about_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
     </section>
     <section class="panel">
       <h2>Stack technique</h2>
-      <p>Python, PyYAML, requests, feedparser, HTML/CSS/JavaScript vanilla, GitHub Actions et GitHub Pages. Aucun framework front, aucun tracker, aucune dépendance runtime.</p>
+      <p>Python, PyYAML, requests, feedparser, HTML/CSS/JavaScript vanilla, GitHub Actions et GitHub Pages. Aucun framework front, aucun tracker, aucune dépendance runtime. Le site a été vibecodé avec cette stack.</p>
     </section>
   </main>'''
     return layout(
@@ -1060,111 +1051,6 @@ def about_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
         description="Découvrez la méthode, les sources et l’automatisation du projet CyberPodcast.",
         body=body,
         canonical_path="a-propos.html",
-    )
-
-
-def health_badge(result: dict[str, Any]) -> str:
-    status = result.get("status") or "unknown"
-    labels = {
-        "ok": "OK",
-        "warning": "Vigilance",
-        "error": "Erreur",
-        "missing": "Absent",
-        "unchecked": "Non vérifié",
-    }
-    label = labels.get(status, status)
-    title = result.get("error") or result.get("http") or result.get("url") or ""
-    return f'<span class="health-badge health-{esc(status)}" title="{esc(title)}">{esc(label)}</span>'
-
-
-def basic_health(podcasts: list[dict[str, Any]]) -> dict[str, Any]:
-    rows = []
-    for podcast in podcasts:
-        checks = {}
-        for key, field in (
-            ("site", "website"),
-            ("rss", "rss"),
-            ("image", "image"),
-            ("audio", "last_episode_audio"),
-        ):
-            checks[key] = {
-                "status": "unchecked" if podcast.get(field) else "missing",
-                "url": podcast.get(field),
-            }
-        rows.append(
-            {
-                "id": podcast.get("id"),
-                "name": podcast.get("name"),
-                "status": "ok",
-                "checks": checks,
-            }
-        )
-    return {
-        "generated_at": GENERATED_AT.isoformat(),
-        "summary": {
-            "total": len(podcasts),
-            "ok": len(podcasts),
-            "warning": 0,
-            "error": 0,
-            "missing": 0,
-        },
-        "podcasts": rows,
-        "mode": "basic",
-    }
-
-
-def report_page(report: dict[str, Any] | None, podcasts: list[dict[str, Any]]) -> str:
-    report = report or basic_health(podcasts)
-    summary = report.get("summary") or {}
-    rows = []
-    check_labels = {"site": "Site", "rss": "RSS", "image": "Image", "audio": "Audio"}
-    for item in report.get("podcasts") or []:
-        checks = item.get("checks") or {}
-        check_cells = "".join(
-            f"<td>{health_badge(checks.get(key) or {'status': 'unchecked'})}</td>"
-            for key in ("site", "rss", "image", "audio")
-        )
-        overall = item.get("status") or "unknown"
-        rows.append(
-            f'<tr><td><a href="podcast/{esc(item.get("id"))}.html">{esc(item.get("name") or item.get("id"))}</a></td>'
-            f'<td><span class="health-badge health-{esc(overall)}">{esc(overall)}</span></td>'
-            f"{check_cells}</tr>"
-        )
-    mode_note = (
-        '<p class="notice">Rapport complet généré par <code>scripts/check_health.py</code>.</p>'
-        if report.get("mode") != "basic"
-        else '<p class="notice">Rapport de secours : lancez <code>python scripts/check_health.py</code> pour vérifier les liens en direct.</p>'
-    )
-    body = f'''
-  <main class="page" id="contenu">
-    <header class="page-header">
-      <p class="eyebrow">Qualité des données</p>
-      <h1>Rapport de <span class="gradient">santé</span></h1>
-      <p class="lead">Vérification des sites, flux RSS, pochettes et fichiers audio. Dernier contrôle : {esc(report.get("generated_at", "—"))}.</p>
-    </header>
-    <section class="stats-grid">
-      <div class="stat-card"><strong>{summary.get("total", len(podcasts))}</strong><span>podcasts</span></div>
-      <div class="stat-card"><strong>{summary.get("ok", 0)}</strong><span>sans erreur</span></div>
-      <div class="stat-card"><strong>{summary.get("warning", 0)}</strong><span>vigilances</span></div>
-      <div class="stat-card"><strong>{summary.get("error", 0)}</strong><span>erreurs</span></div>
-      <div class="stat-card"><strong>{summary.get("missing", 0)}</strong><span>liens absents</span></div>
-    </section>
-    {mode_note}
-    <section class="panel table-panel">
-      <h2>Détail par podcast</h2>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th>Podcast</th><th>Global</th><th>Site</th><th>RSS</th><th>Image</th><th>Audio</th></tr></thead>
-          <tbody>{"".join(rows)}</tbody>
-        </table>
-      </div>
-    </section>
-  </main>'''
-    return layout(
-        title="Rapport de santé · CyberPodcast",
-        description="Rapport de vérification des liens, flux RSS, images et fichiers audio du catalogue CyberPodcast.",
-        body=body,
-        canonical_path="rapport.html",
     )
 
 
@@ -1231,7 +1117,6 @@ def sitemap_xml(podcasts: list[dict[str, Any]]) -> str:
         "sujets.html",
         "statistiques.html",
         "a-propos.html",
-        "rapport.html",
     ] + [f'podcast/{podcast.get("id")}.html' for podcast in podcasts]
     lastmod = TODAY.isoformat()
     urls = "".join(
@@ -1278,7 +1163,6 @@ def render() -> None:
     write(OUTPUT_DIR / "sujets.html", topics_page(podcasts))
     write(OUTPUT_DIR / "statistiques.html", stats_page(podcasts, stats))
     write(OUTPUT_DIR / "a-propos.html", about_page(podcasts, stats))
-    write(OUTPUT_DIR / "rapport.html", report_page(health, podcasts))
     write(OUTPUT_DIR / "404.html", not_found_page())
 
     api_dir = OUTPUT_DIR / "api"

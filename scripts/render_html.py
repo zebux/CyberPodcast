@@ -61,6 +61,7 @@ FREQUENCY_LABELS = {
 DEFAULT_CATEGORY = "Cybersécurité"
 DEFAULT_LANGUAGE = "fr"
 DEFAULT_STATUS = "active"
+DEFAULT_SORT = "last"
 
 THEME_INIT = """<script>
 (function () {
@@ -631,7 +632,7 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
             "language": DEFAULT_LANGUAGE,
             "status": DEFAULT_STATUS,
             "platform": "",
-            "sort": "name",
+            "sort": DEFAULT_SORT,
         },
         "total": len(podcasts),
     }
@@ -659,7 +660,7 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
           <select id="filter-platform" aria-label="Filtrer par plateforme">{platform_options}</select>
           <select id="sort" aria-label="Trier">
             <option value="name">Nom (A–Z)</option>
-            <option value="last">Dernier épisode</option>
+            <option value="last" selected>Dernier épisode</option>
             <option value="episodes">Nombre d’épisodes</option>
             <option value="rating">Note Apple</option>
             <option value="duration">Durée moyenne</option>

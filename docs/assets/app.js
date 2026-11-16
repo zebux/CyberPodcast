@@ -140,7 +140,7 @@
       language: 'fr',
       status: 'active',
       platform: '',
-      sort: 'name'
+      sort: 'last'
     }, config.defaults || {});
 
     var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
@@ -290,10 +290,10 @@
 
     function resetFilters() {
       search.value = '';
-      category.value = defaults.category;
-      status.value = defaults.status;
-      language.value = defaults.language;
-      platform.value = defaults.platform;
+      category.value = '';
+      status.value = '';
+      language.value = '';
+      platform.value = '';
       sort.value = defaults.sort;
       selectedTopics.clear();
       favoritesOnly = false;

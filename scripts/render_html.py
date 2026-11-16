@@ -206,6 +206,26 @@ def podcast_links(podcast: dict[str, Any]) -> str:
     return rendered or '<span class="muted">Aucun lien vérifié.</span>'
 
 
+def detail_platform_links(podcast: dict[str, Any]) -> str:
+    links = [
+        ("Apple Podcasts", podcast.get("apple_podcast"), "apple"),
+        ("Spotify", podcast.get("spotify"), "spotify"),
+        ("YouTube", podcast.get("youtube"), "youtube"),
+        ("Deezer", podcast.get("deezer"), "deezer"),
+        ("Pocket Casts", podcast.get("pocket_casts"), "pocketcasts"),
+        ("Podcast Addict", podcast.get("podcast_addict"), "podcastaddict"),
+        ("Amazon Music", podcast.get("amazon_music"), "amazon"),
+        ("Castbox", podcast.get("castbox"), "castbox"),
+        ("LinkedIn", podcast.get("linkedin"), "linkedin"),
+    ]
+    return "".join(
+        f'<a class="button button-secondary link-{css}" href="{esc(url)}" target="_blank" '
+        f'rel="noopener noreferrer"><span class="dot"></span>{html_lib.escape(label)}</a>'
+        for label, url, css in links
+        if url
+    )
+
+
 def cover_html(podcast: dict[str, Any], css: str = "cover", lazy: bool = True) -> str:
     name = podcast.get("name") or podcast.get("id") or "Podcast"
     image = podcast.get("image")
@@ -839,6 +859,7 @@ def detail_page(podcast: dict[str, Any], podcasts: list[dict[str, Any]]) -> str:
           {favorite_button(podcast, "Ajouter aux favoris", "button favorite-btn")}
           {f'<a class="button button-secondary" href="{esc(podcast.get("rss"))}" target="_blank" rel="noopener noreferrer">Flux RSS</a>' if podcast.get("rss") else ''}
           {f'<a class="button button-secondary" href="{esc(podcast.get("website"))}" target="_blank" rel="noopener noreferrer">Site officiel ↗</a>' if podcast.get("website") else ''}
+          {detail_platform_links(podcast)}
         </div>
       </div>
     </section>

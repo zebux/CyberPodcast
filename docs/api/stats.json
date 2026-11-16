@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T12:19:04.067475+00:00",
+  "generated_at": "2026-11-16T12:41:06.009169+00:00",
   "total": 91,
-  "total_episodes": 23911,
+  "total_episodes": 24636,
   "with_rss": 85,
   "with_image": 85,
   "with_audio": 82,
@@ -9,8 +9,8 @@
   "average_rating": 4.73,
   "by_status": {
     "slow": 17,
-    "active": 60,
-    "archived": 14
+    "active": 59,
+    "archived": 15
   },
   "by_language": {
     "fr": 47,
@@ -44,7 +44,7 @@
     "GCP": 3,
     "Terraform": 1,
     "Ansible": 1,
-    "IA": 10,
+    "IA": 9,
     "LLM": 2,
     "Carrière": 4,
     "Réseau": 2,
@@ -61,10 +61,11 @@
     "Développement": 22,
     "Malware": 1,
     "Cryptographie": 1,
+    "Pentest": 2,
+    "Red Team": 2,
+    "Blue Team": 1,
     "DFIR": 1,
     "OSINT": 2,
-    "Pentest": 1,
-    "Red Team": 1,
     "Java": 1,
     "JavaScript": 3,
     "C++": 1,
@@ -121,5 +122,5 @@
     "Carrière": 2,
     "Qualité logicielle": 1
   },
-  "latest_episode": "2026-11-15"
+  "latest_episode": "2026-11-16"
 }

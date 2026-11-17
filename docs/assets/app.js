@@ -161,8 +161,11 @@
     }
 
     search.value = params.get('q') || '';
-    topic.value = paramOr('topic', defaults.topic) ||
-      params.get('category') || (params.get('topics') || '').split(',')[0] || '';
+    var topicParam = params.get('topic');
+    if (topicParam === null) {
+      topicParam = params.get('category') || (params.get('topics') || '').split(',')[0] || null;
+    }
+    topic.value = topicParam === null ? defaults.topic : topicParam;
     status.value = paramOr('status', defaults.status);
     language.value = paramOr('language', defaults.language);
     sort.value = params.get('sort') || defaults.sort;
@@ -170,7 +173,7 @@
     function syncUrl() {
       var next = new URLSearchParams();
       if (search.value.trim()) next.set('q', search.value.trim());
-      if (topic.value) next.set('topic', topic.value);
+      if (topic.value && topic.value !== defaults.topic) next.set('topic', topic.value);
       if (status.value !== defaults.status) next.set('status', status.value);
       if (language.value !== defaults.language) next.set('language', language.value);
       if (sort.value !== defaults.sort) next.set('sort', sort.value);
@@ -276,8 +279,63 @@
     apply();
   }
 
+  function initEpisodes() {
+    var list = document.getElementById('episode-list');
+    if (!list) return;
+
+    var config = window.CYBERPODCAST_EPISODES_CONFIG || {};
+    var defaults = Object.assign({ topic: 'Cybersécurité', language: 'fr' }, config.defaults || {});
+    var items = Array.prototype.slice.call(list.querySelectorAll('.episode-feed-item'));
+    var topic = document.getElementById('episode-topic');
+    var language = document.getElementById('episode-language');
+    var count = document.getElementById('episode-count');
+    var params = new URLSearchParams(window.location.search);
+
+    function paramOr(name, fallback) {
+      return params.has(name) ? (params.get(name) || '') : fallback;
+    }
+
+    topic.value = paramOr('topic', defaults.topic);
+    language.value = paramOr('language', defaults.language);
+
+    function syncUrl() {
+      var next = new URLSearchParams();
+      if (topic.value && topic.value !== defaults.topic) next.set('topic', topic.value);
+      if (language.value && language.value !== defaults.language) next.set('language', language.value);
+      var query = next.toString();
+      var url = window.location.pathname + (query ? '?' + query : '') + window.location.hash;
+      try {
+        window.history.replaceState(null, '', url);
+      } catch (error) {}
+    }
+
+    function apply() {
+      var selectedTopic = topic.value;
+      var selectedLanguage = language.value;
+      var visible = 0;
+      items.forEach(function (item) {
+        var topics = (item.dataset.topics || '').split('|');
+        var matches =
+          (!selectedTopic || topics.indexOf(selectedTopic) !== -1) &&
+          (!selectedLanguage || item.dataset.language === selectedLanguage);
+        item.hidden = !matches;
+        if (matches) visible += 1;
+      });
+      if (count) count.textContent = visible + ' épisode' + (visible > 1 ? 's' : '');
+      syncUrl();
+    }
+
+    [topic, language].forEach(function (element) {
+      element.addEventListener('input', apply);
+      element.addEventListener('change', apply);
+    });
+
+    apply();
+  }
+
   initTheme();
   initFavorites();
   initPlayer();
   initIndex();
+  initEpisodes();
 })();

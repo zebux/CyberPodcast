@@ -61,10 +61,14 @@
       <h1>Les 20 derniers <span class="gradient">épisodes publiés</span></h1>
       <p class="lead">Une sélection chronologique des épisodes les plus récents publiés dans les flux RSS référencés, tous podcasts confondus.</p>
     </header>
+    <div class="episode-filters" aria-label="Filtres des épisodes">
+      <select id="episode-topic" aria-label="Filtrer les épisodes par sujet ou catégorie"><option value="">Tous les sujets</option><option value="Administration système">Administration système (1)</option><option value="Architecture">Architecture (1)</option><option value="Carrière">Carrière (2)</option><option value="Cloud">Cloud (11)</option><option value="Cybersécurité" selected>Cybersécurité (4)</option><option value="DevOps">DevOps (2)</option><option value="DFIR">DFIR (1)</option><option value="Développement">Développement (2)</option><option value="IA">IA (12)</option><option value="Linux">Linux (2)</option><option value="LLM">LLM (1)</option><option value="Open Source">Open Source (1)</option><option value="Pentest">Pentest (2)</option><option value="Python">Python (1)</option><option value="Red Team">Red Team (2)</option><option value="Tech">Tech (10)</option></select>
+      <select id="episode-language" aria-label="Filtrer les épisodes par langue"><option value="">Toutes les langues</option><option value="en">Anglais (8)</option><option value="fr" selected>Français (12)</option></select>
+    </div>
     <section class="panel">
-      <div class="panel-head"><h2>À écouter maintenant</h2><span class="muted">20 épisodes</span></div>
-      <ol class="episode-list episode-feed">
-      <li class="episode episode-feed-item">
+      <div class="panel-head"><h2>À écouter maintenant</h2><span class="muted" id="episode-count">2 épisodes</span></div>
+      <ol class="episode-list episode-feed" id="episode-list">
+      <li class="episode episode-feed-item" hidden data-topics="Développement|Architecture" data-language="en">
         <span class="episode-rank">01</span>
         <a class="episode-cover" href="podcast/software-engineering-daily.html"><div class="mini-cover"><img src="https://softwareengineeringdaily.com/wp-content/uploads/2026/07/sed_logo_2026.png" alt="Pochette de Software Engineering Daily" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -76,7 +80,7 @@
         </div>
         <span class="episode-duration">54 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Linux|Open Source|Administration système" data-language="en">
         <span class="episode-rank">02</span>
         <a class="episode-cover" href="podcast/late-night-linux.html"><div class="mini-cover"><img src="http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg" alt="Pochette de Late Night Linux" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -88,7 +92,7 @@
         </div>
         <span class="episode-duration">—</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Python|IA" data-language="en">
         <span class="episode-rank">03</span>
         <a class="episode-cover" href="podcast/talk-python.html"><div class="mini-cover"><img src="https://cdn-podcast.talkpython.fm/static/img/talk-python-3000.jpg" alt="Pochette de Talk Python To Me" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -100,7 +104,7 @@
         </div>
         <span class="episode-duration">63 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Développement|Carrière" data-language="en">
         <span class="episode-rank">04</span>
         <a class="episode-cover" href="podcast/soft-skills-engineering.html"><div class="mini-cover"><img src="https://download.softskills.audio/sse-cover-art.png" alt="Pochette de Soft Skills Engineering" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -112,7 +116,7 @@
         </div>
         <span class="episode-duration">35 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" data-topics="Cybersécurité|DFIR" data-language="fr">
         <span class="episode-rank">05</span>
         <a class="episode-cover" href="podcast/radiocsirt.html"><div class="mini-cover"><img src="https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png" alt="Pochette de RadioCSIRT" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -124,7 +128,7 @@
         </div>
         <span class="episode-duration">15 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Linux|DevOps" data-language="en">
         <span class="episode-rank">06</span>
         <a class="episode-cover" href="podcast/linux-unplugged.html"><div class="mini-cover"><img src="https://assets.fireside.fm/file/fireside-images/podcasts/images/f/f31a453c-fa15-491f-8618-3f71f1d565e5/cover.jpg" alt="Pochette de Linux Unplugged" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -136,7 +140,7 @@
         </div>
         <span class="episode-duration">101 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
         <span class="episode-rank">07</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -148,7 +152,7 @@
         </div>
         <span class="episode-duration">19 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
         <span class="episode-rank">08</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -160,7 +164,7 @@
         </div>
         <span class="episode-duration">7 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
         <span class="episode-rank">09</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -172,7 +176,7 @@
         </div>
         <span class="episode-duration">8 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
         <span class="episode-rank">10</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -184,7 +188,7 @@
         </div>
         <span class="episode-duration">7 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
         <span class="episode-rank">11</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -196,7 +200,7 @@
         </div>
         <span class="episode-duration">7 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
         <span class="episode-rank">12</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -208,7 +212,7 @@
         </div>
         <span class="episode-duration">7 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
         <span class="episode-rank">13</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -220,7 +224,7 @@
         </div>
         <span class="episode-duration">7 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
         <span class="episode-rank">14</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -232,7 +236,7 @@
         </div>
         <span class="episode-duration">7 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
         <span class="episode-rank">15</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -244,7 +248,7 @@
         </div>
         <span class="episode-duration">7 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
         <span class="episode-rank">16</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -256,7 +260,7 @@
         </div>
         <span class="episode-duration">7 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" data-topics="Cybersécurité" data-language="fr">
         <span class="episode-rank">17</span>
         <a class="episode-cover" href="podcast/cyber-grand-mere.html"><div class="mini-cover"><img src="https://image.ausha.co/cJQ9LKJiAcfpKunRWM315F8VlE6graB8HmNIG00y_1400x1400.jpeg?t=1656144902" alt="Pochette de La cybersécurité expliquée à ma grand-mère" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -268,7 +272,7 @@
         </div>
         <span class="episode-duration">32 min</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Cybersécurité|Pentest|Red Team" data-language="en">
         <span class="episode-rank">18</span>
         <a class="episode-cover" href="podcast/cyberpodcast-official.html"><div class="mini-cover"><img src="https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj" alt="Pochette de CyberPodcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -280,7 +284,7 @@
         </div>
         <span class="episode-duration">—</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Cybersécurité|Pentest|Red Team" data-language="en">
         <span class="episode-rank">19</span>
         <a class="episode-cover" href="podcast/cyberpodcast-official.html"><div class="mini-cover"><img src="https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj" alt="Pochette de CyberPodcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -292,7 +296,7 @@
         </div>
         <span class="episode-duration">—</span>
       </li>
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|DevOps|IA|LLM|Carrière" data-language="en">
         <span class="episode-rank">20</span>
         <a class="episode-cover" href="podcast/the-cloudcast.html"><div class="mini-cover"><img src="https://storage.buzzsprout.com/qy0q4u4tgdaume7dfehgpznhwhn0?.jpg" alt="Pochette de The Cloudcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
@@ -306,6 +310,7 @@
       </li></ol>
     </section>
   </main>
+  <script>window.CYBERPODCAST_EPISODES_CONFIG = {"defaults":{"topic":"Cybersécurité","language":"fr"}};</script>
   <footer class="footer">
     <span>Données enrichies automatiquement · dernière mise à jour 17/11/2026 · <a href="a-propos.html">méthode</a></span>
     <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="feed.xml">RSS</a> · <a href="api/podcasts.json">API JSON</a></span>

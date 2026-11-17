@@ -827,6 +827,13 @@ button:focus-visible {
   font-weight: 700;
 }
 .episode-audio { width: 100%; height: 32px; margin-top: 8px; }
+.episode-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-bottom: 14px;
+}
+.episode-filters select { max-width: 280px; }
 .episode-feed { gap: 12px; }
 .episode-feed-item {
   display: grid;

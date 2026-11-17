@@ -83,6 +83,7 @@ PROMO_PATTERNS = (
     r"\bDécouvrez notre site\b[^.!?]*[.!?]?",
 )
 
+DEFAULT_TOPIC = "Cybersécurité"
 DEFAULT_LANGUAGE = "fr"
 DEFAULT_STATUS = "active"
 DEFAULT_SORT = "last"
@@ -716,14 +717,19 @@ def latest_episode_date(podcasts: list[dict[str, Any]]) -> str:
     )
 
 
-def taxonomy_options(podcasts: list[dict[str, Any]]) -> str:
+def taxonomy_options(podcasts: list[dict[str, Any]], selected: str | None = None) -> str:
     counts = Counter(
         topic
         for podcast in podcasts
         for topic in podcast_taxonomy(podcast)
     )
     values = sorted(counts, key=str.casefold)
-    return build_options(values, counts=counts, empty_label="Sujets / catégories")
+    return build_options(
+        values,
+        counts=counts,
+        empty_label="Sujets / catégories",
+        selected=selected,
+    )
 
 
 def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
@@ -736,7 +742,7 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
     )
 
     cards = "\n".join(podcast_card(podcast) for podcast in podcasts)
-    taxonomy_select = taxonomy_options(podcasts)
+    taxonomy_select = taxonomy_options(podcasts, selected=DEFAULT_TOPIC)
     status_options = build_options(
         ["active", "slow", "archived"],
         labels=STATUS_LABELS,
@@ -755,7 +761,7 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
         "defaults": {
             "language": DEFAULT_LANGUAGE,
             "status": DEFAULT_STATUS,
-            "topic": "",
+            "topic": DEFAULT_TOPIC,
             "sort": DEFAULT_SORT,
         },
         "total": len(podcasts),
@@ -907,7 +913,26 @@ def recent_episodes(podcasts: list[dict[str, Any]], limit: int = 20) -> list[tup
 
 def latest_episodes_page(podcasts: list[dict[str, Any]]) -> str:
     rows = recent_episodes(podcasts, 20)
+    topic_counts: Counter[str] = Counter()
+    language_counts: Counter[str] = Counter()
+    for _, podcast, _ in rows:
+        topic_counts.update(podcast_taxonomy(podcast))
+        language_counts.update([podcast.get("language") or "??"])
+    topic_options = build_options(
+        sorted(topic_counts, key=str.casefold),
+        counts=topic_counts,
+        empty_label="Tous les sujets",
+        selected=DEFAULT_TOPIC,
+    )
+    language_options = build_options(
+        sorted(language_counts, key=str.casefold),
+        labels=LANGUAGE_LABELS,
+        counts=language_counts,
+        empty_label="Toutes les langues",
+        selected=DEFAULT_LANGUAGE,
+    )
     items = []
+    default_count = 0
     for index, (published, podcast, episode) in enumerate(rows, 1):
         entry_id = str(podcast.get("id") or "")
         podcast_url = f"podcast/{esc(entry_id)}.html"
@@ -924,9 +949,15 @@ def latest_episodes_page(podcasts: list[dict[str, Any]]) -> str:
             if audio
             else ""
         )
+        taxonomy = podcast_taxonomy(podcast)
+        language = podcast.get("language") or ""
+        default_visible = DEFAULT_TOPIC in taxonomy and language == DEFAULT_LANGUAGE
+        if default_visible:
+            default_count += 1
+        hidden_attr = "" if default_visible else " hidden"
         topics = topic_chips(podcast, 3)
         items.append(f'''
-      <li class="episode episode-feed-item">
+      <li class="episode episode-feed-item"{hidden_attr} data-topics="{esc("|".join(taxonomy))}" data-language="{esc(language)}">
         <span class="episode-rank">{index:02d}</span>
         <a class="episode-cover" href="{podcast_url}">{cover_html(podcast, "mini-cover")}</a>
         <div class="episode-feed-body">
@@ -947,11 +978,16 @@ def latest_episodes_page(podcasts: list[dict[str, Any]]) -> str:
       <h1>Les 20 derniers <span class="gradient">épisodes publiés</span></h1>
       <p class="lead">Une sélection chronologique des épisodes les plus récents publiés dans les flux RSS référencés, tous podcasts confondus.</p>
     </header>
+    <div class="episode-filters" aria-label="Filtres des épisodes">
+      <select id="episode-topic" aria-label="Filtrer les épisodes par sujet ou catégorie">{topic_options}</select>
+      <select id="episode-language" aria-label="Filtrer les épisodes par langue">{language_options}</select>
+    </div>
     <section class="panel">
-      <div class="panel-head"><h2>À écouter maintenant</h2><span class="muted">{len(rows)} épisodes</span></div>
-      <ol class="episode-list episode-feed">{episodes_html}</ol>
+      <div class="panel-head"><h2>À écouter maintenant</h2><span class="muted" id="episode-count">{default_count} épisode{'s' if default_count != 1 else ''}</span></div>
+      <ol class="episode-list episode-feed" id="episode-list">{episodes_html}</ol>
     </section>
-  </main>'''
+  </main>
+  <script>window.CYBERPODCAST_EPISODES_CONFIG = {json_safe({"defaults": {"topic": DEFAULT_TOPIC, "language": DEFAULT_LANGUAGE}})};</script>'''
     return layout(
         title="Derniers épisodes · CyberPodcast",
         description="Les 20 derniers épisodes publiés par les podcasts cyber, cloud et développement référencés sur CyberPodcast.",

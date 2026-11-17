@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "17 4 * * *"
   workflow_dispatch:
+    inputs:
+      clear_cache:
+        description: 'Vider le cache HTTP avant l’enrichissement'
+        required: false
+        default: false
+        type: boolean
   push:
     branches: [main]
     paths:
@@ -47,7 +53,14 @@ jobs:
             podcast-http-cache-
 
       - name: Enrich podcasts
-        run: python scripts/enrich_podcasts.py
+        env:
+          CLEAR_CACHE: ${{ inputs.clear_cache }}
+        run: |
+          if [ "$CLEAR_CACHE" = "true" ]; then
+            python scripts/enrich_podcasts.py --clear-cache
+          else
+            python scripts/enrich_podcasts.py
+          fi
 
       - name: Check links health
         run: python scripts/check_health.py

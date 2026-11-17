@@ -64,6 +64,8 @@ python scripts/check_health.py --skip-network
 python scripts/render_html.py
 ```
 
+Pour forcer le rechargement des flux RSS, utilisez `python scripts/enrich_podcasts.py --clear-cache`. Sur GitHub, lancez **Actions → Enrich podcasts → Run workflow** en cochant **Vider le cache HTTP avant l’enrichissement**. Le cache normal conserve les réponses 24 h ; cette option est utile lorsqu’un épisode visible sur le flux officiel n’apparaît pas encore.
+
 ## Ajouter ou corriger un podcast
 
 1. Ajouter ou compléter l'entrée dans le fichier source adapté (`data/podcasts-cyber.yaml`, `-cloud` ou `-dev`). Les champs vérifiés manuellement (site officiel, flux RSS, lien Apple, description, animateurs, pays, plateforme) y sont prioritaires.

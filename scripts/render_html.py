@@ -4,6 +4,7 @@
 Produit :
   - docs/index.html               annuaire filtrable
   - docs/podcast/<id>.html        fiches détaillées
+  - docs/episodes.html            derniers épisodes publiés
   - docs/sujets.html              exploration par sujet
   - docs/statistiques.html        chiffres clés
   - docs/a-propos.html            présentation du projet
@@ -52,13 +53,36 @@ LANGUAGE_LABELS = {
 FREQUENCY_LABELS = {
     "daily": "Quotidien",
     "weekly": "Hebdomadaire",
-    "biweekly": "Bimensuel",
+    "biweekly": "Toutes les 2 semaines",
     "monthly": "Mensuel",
+    "bimonthly": "Tous les 2 mois",
     "quarterly": "Trimestriel",
     "irregular": "Irrégulier",
 }
 
-DEFAULT_CATEGORY = "Cybersécurité"
+FREQUENCY_THRESHOLDS = "≤ 2 j : Quotidien · 3–10 j : Hebdomadaire · 11–17 j : Toutes les 2 semaines · 18–45 j : Mensuel · 46–90 j : Tous les 2 mois · 91–120 j : Trimestriel · > 120 j : Irrégulier"
+
+LISTENING_LABELS = {
+    "apple_podcast": "Apple Podcasts",
+    "spotify": "Spotify",
+    "youtube": "YouTube",
+    "deezer": "Deezer",
+    "pocket_casts": "Pocket Casts",
+    "podcast_addict": "Podcast Addict",
+    "amazon_music": "Amazon Music",
+    "castbox": "Castbox",
+}
+
+PROMO_PATTERNS = (
+    r"\bHébergé par\b[^.!?]*[.!?]?",
+    r"\bHosted by\b[^.!?]*[.!?]?",
+    r"\bVisitez\b[^.!?]*[.!?]?",
+    r"\bVisit\b[^.!?]*[.!?]?",
+    r"\bLearn more\b[^.!?]*[.!?]?",
+    r"\bEn savoir plus\b[^.!?]*[.!?]?",
+    r"\bDécouvrez notre site\b[^.!?]*[.!?]?",
+)
+
 DEFAULT_LANGUAGE = "fr"
 DEFAULT_STATUS = "active"
 DEFAULT_SORT = "last"
@@ -112,7 +136,7 @@ def fmt_duration(value: int | float | None) -> str:
 
 
 def fmt_rating(value: int | float | None, count: int | None = None) -> str:
-    if value is None:
+    if value is None or (count is not None and int(count or 0) < 5):
         return "—"
     try:
         rating = f"{float(value):.1f}/5"
@@ -121,6 +145,82 @@ def fmt_rating(value: int | float | None, count: int | None = None) -> str:
         return rating
     except (TypeError, ValueError):
         return html_lib.escape(str(value))
+
+
+def has_rating(podcast: dict[str, Any]) -> bool:
+    return (
+        podcast.get("community_rating") is not None
+        and int(podcast.get("community_rating_count") or 0) >= 5
+    )
+
+
+def clean_description(value: Any, limit: int = 240) -> str:
+    text_value = re.sub(r"<[^>]+>", " ", "" if value is None else str(value))
+    text_value = html_lib.unescape(text_value)
+    text_value = re.sub(r"\s+", " ", text_value).strip()
+    if not text_value:
+        return ""
+    for pattern in PROMO_PATTERNS:
+        text_value = re.sub(pattern, " ", text_value, flags=re.IGNORECASE)
+    text_value = re.sub(r"\s+", " ", text_value).strip(" ,;:-")
+    if not text_value:
+        return ""
+    if len(text_value) <= limit:
+        return text_value
+
+    sentences = re.split(r"(?<=[.!?])\s+", text_value[: limit + 80])
+    kept: list[str] = []
+    for sentence in sentences:
+        candidate = " ".join(kept + [sentence])
+        if len(candidate) > limit and kept:
+            break
+        kept.append(sentence)
+        if len(candidate) >= limit * 0.6 and sentence.endswith((".", "!", "?")):
+            break
+    cut = " ".join(kept)
+    if len(cut) <= limit and len(cut) < len(text_value):
+        return cut
+    prefix = text_value[:limit]
+    if " " in prefix:
+        prefix = prefix.rsplit(" ", 1)[0]
+    return prefix.rstrip(" ,;:-") + "…"
+
+
+def podcast_taxonomy(podcast: dict[str, Any]) -> list[str]:
+    values = [str(value) for value in (podcast.get("topics") or []) if value]
+    values.extend(str(value) for value in (podcast.get("category") or []) if value)
+    return dedupe_preserve(values)
+
+
+def dedupe_preserve(values: list[str]) -> list[str]:
+    seen: set[str] = set()
+    result: list[str] = []
+    for value in values:
+        key = value.casefold()
+        if key not in seen:
+            seen.add(key)
+            result.append(value)
+    return result
+
+
+def hosting_platform(podcast: dict[str, Any]) -> str | None:
+    value = podcast.get("hosting_platform") or podcast.get("platform")
+    if not value or str(value).casefold() in {"autre", "other"}:
+        return None
+    if str(value) in set(LISTENING_LABELS.values()):
+        return None
+    return str(value)
+
+
+def listening_platforms(podcast: dict[str, Any]) -> list[str]:
+    configured = podcast.get("listening_platforms")
+    if isinstance(configured, list) and configured:
+        return [str(value) for value in configured if value]
+    return [
+        label
+        for field, label in LISTENING_LABELS.items()
+        if podcast.get(field)
+    ]
 
 
 def language_text(podcast: dict[str, Any]) -> str:
@@ -309,9 +409,7 @@ def topic_url(topic: str) -> str:
 
 
 def topic_chips(podcast: dict[str, Any], limit: int = 6) -> str:
-    topics = [str(topic) for topic in (podcast.get("topics") or []) if topic]
-    if not topics:
-        topics = [str(category) for category in (podcast.get("category") or []) if category]
+    topics = podcast_taxonomy(podcast)
     if not topics:
         return ""
     shown = topics[:limit]
@@ -397,31 +495,27 @@ def podcast_card(podcast: dict[str, Any], root: str = "") -> str:
             f'rel="noopener noreferrer" title="Ouvrir le site officiel" aria-label="Site officiel">↗</a>'
         )
 
-    categories = [str(category) for category in (podcast.get("category") or []) if category]
-    category_chips = "".join(
-        f'<span class="chip chip-category">{html_lib.escape(category)}</span>'
-        for category in categories[:3]
-    )
-    if not category_chips:
-        category_chips = '<span class="chip">—</span>'
-
-    hosts = [str(host) for host in (podcast.get("hosts") or []) if host]
+    hosts = [str(value) for value in (podcast.get("hosts") or []) if value]
     hosts_text = ", ".join(hosts) or podcast.get("author") or "—"
     last_episode = podcast.get("last_episode")
     last_episode_title = podcast.get("last_episode_title")
     rating = podcast.get("community_rating")
     rating_count = podcast.get("community_rating_count")
-    platform = podcast.get("platform") or "autre"
+    host = hosting_platform(podcast) or "autre"
+    listens = listening_platforms(podcast)
 
     meta_items = [
         ("Animateurs", hosts_text, False),
         ("Langue", language_text(podcast), False),
+        ("Hébergeur", host if host != "autre" else "Autre", False),
+        ("Écoute", ", ".join(listens) if listens else "—", False),
         ("Dernier épisode", fmt_date(last_episode), True),
         ("Rythme", frequency_text(podcast), False),
         ("Épisodes", fmt_number(podcast.get("episode_count")), False),
         ("Durée moyenne", fmt_duration(podcast.get("average_duration")), False),
-        ("Note Apple", fmt_rating(rating, rating_count), False),
     ]
+    if has_rating(podcast):
+        meta_items.append(("Note Apple", fmt_rating(rating, rating_count), False))
 
     def card_meta_item(label: str, value: Any, strong: bool) -> str:
         rendered = html_lib.escape(str(value))
@@ -431,27 +525,25 @@ def podcast_card(podcast: dict[str, Any], root: str = "") -> str:
 
     meta_html = "".join(card_meta_item(*item) for item in meta_items)
 
-    description = podcast.get("description") or ""
+    description = clean_description(podcast.get("description"), 220)
     description_html = (
         f'<p class="description">{html_lib.escape(description)}</p>'
         if description
         else '<p class="description muted">Pas de description.</p>'
     )
 
-    topics = podcast.get("topics") or []
-    tags = podcast.get("tags") or []
-    topics_text = "|".join(str(topic) for topic in topics)
-    categories_text = "|".join(categories)
+    taxonomy = podcast_taxonomy(podcast)
+    topics_text = "|".join(taxonomy)
+    listens_text = "|".join(listens)
     audio = podcast.get("last_episode_audio") or ""
 
     return f'''
-<article class="card" data-id="{esc(entry_id)}" data-name="{esc(name)}" data-search="{esc(search_text(podcast))}" data-category="{esc(categories_text)}" data-topics="{esc(topics_text)}" data-status="{esc(podcast.get("status") or "archived")}" data-language="{esc(podcast.get("language") or "")}" data-platform="{esc(platform)}" data-last="{esc(last_episode or "")}" data-episodes="{esc(podcast.get("episode_count") or 0)}" data-rating="{esc(rating if rating is not None else 0)}" data-duration="{esc(podcast.get("average_duration") or 0)}" data-first-seen="{esc(podcast.get("first_seen") or "")}" data-audio="{esc(audio)}" data-title="{esc(name + (" — " + last_episode_title if last_episode_title else ""))}">
+<article class="card" data-id="{esc(entry_id)}" data-name="{esc(name)}" data-search="{esc(search_text(podcast))}" data-topics="{esc(topics_text)}" data-status="{esc(podcast.get("status") or "archived")}" data-language="{esc(podcast.get("language") or "")}" data-host="{esc(host)}" data-listen="{esc(listens_text)}" data-last="{esc(last_episode or "")}" data-episodes="{esc(podcast.get("episode_count") or 0)}" data-rating="{esc(rating if has_rating(podcast) else 0)}" data-duration="{esc(podcast.get("average_duration") or 0)}" data-first-seen="{esc(podcast.get("first_seen") or "")}" data-audio="{esc(audio)}" data-title="{esc(name + (" — " + last_episode_title if last_episode_title else ""))}">
   <div class="card-cover">{cover_html(podcast, "cover")}</div>
   <div class="card-body">
     <div class="card-head">
       <div class="card-heading">
         <h2 class="card-title">{title}</h2>
-        <div class="chips">{category_chips}</div>
       </div>
       {status_badge(podcast)}
     </div>
@@ -468,7 +560,6 @@ def podcast_card(podcast: dict[str, Any], root: str = "") -> str:
       {link_pill("Spotify", podcast.get("spotify"), "spotify")}
       {link_pill("YouTube", podcast.get("youtube"), "youtube")}
     </div>
-    {tag_html(podcast, 8)}
   </div>
 </article>'''
 
@@ -557,6 +648,7 @@ def layout(
       </a>
       <nav class="nav-links" aria-label="Navigation principale">
         <a class="nav-link" href="/">Podcasts</a>
+        <a class="nav-link" href="{root}episodes.html">Épisodes</a>
         <a class="nav-link" href="{root}sujets.html">Sujets</a>
         <a class="nav-link" href="{root}statistiques.html">Statistiques</a>
         <a class="nav-link" href="{root}a-propos.html">À propos</a>
@@ -579,23 +671,21 @@ def layout(
 def build_stats(podcasts: list[dict[str, Any]]) -> dict[str, Any]:
     status_counts = Counter(podcast.get("status") or "archived" for podcast in podcasts)
     language_counts = Counter(podcast.get("language") or "??" for podcast in podcasts)
-    platform_counts = Counter(podcast.get("platform") or "autre" for podcast in podcasts)
-    topic_counts = Counter(
-        str(topic)
-        for podcast in podcasts
-        for topic in (podcast.get("topics") or [])
-        if topic
+    host_counts = Counter(
+        host for host in (hosting_platform(podcast) for podcast in podcasts) if host
     )
-    category_counts = Counter(
-        str(category)
+    listen_counts = Counter(
+        value for podcast in podcasts for value in listening_platforms(podcast)
+    )
+    topic_counts = Counter(
+        topic
         for podcast in podcasts
-        for category in (podcast.get("category") or [])
-        if category
+        for topic in podcast_taxonomy(podcast)
     )
     ratings = [
         float(podcast["community_rating"])
         for podcast in podcasts
-        if podcast.get("community_rating") is not None
+        if has_rating(podcast)
     ]
     return {
         "generated_at": GENERATED_AT.isoformat(),
@@ -608,9 +698,10 @@ def build_stats(podcasts: list[dict[str, Any]]) -> dict[str, Any]:
         "average_rating": round(statistics.mean(ratings), 2) if ratings else None,
         "by_status": dict(status_counts),
         "by_language": dict(language_counts),
-        "by_platform": dict(platform_counts),
+        "by_host": dict(host_counts),
+        "by_listening_platform": dict(listen_counts),
+        "by_taxonomy": dict(topic_counts),
         "by_topic": dict(topic_counts),
-        "by_category": dict(category_counts),
         "latest_episode": max(
             (podcast.get("last_episode") for podcast in podcasts if podcast.get("last_episode")),
             default=None,
@@ -627,10 +718,9 @@ def latest_episode_date(podcasts: list[dict[str, Any]]) -> str:
 
 def topic_buttons(podcasts: list[dict[str, Any]]) -> str:
     counts = Counter(
-        str(topic)
+        topic
         for podcast in podcasts
-        for topic in (podcast.get("topics") or [])
-        if topic
+        for topic in podcast_taxonomy(podcast)
     )
     return "".join(
         f'<button class="topic-chip" type="button" data-topic-filter="{esc(topic)}" '
@@ -640,26 +730,20 @@ def topic_buttons(podcasts: list[dict[str, Any]]) -> str:
 
 
 def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
-    categories = sorted(
-        {
-            str(category)
-            for podcast in podcasts
-            for category in (podcast.get("category") or [])
-            if category
-        },
+    hosts = sorted(
+        {host for host in (hosting_platform(podcast) for podcast in podcasts) if host},
         key=str.casefold,
     )
-    category_counts = Counter(
-        str(category)
-        for podcast in podcasts
-        for category in (podcast.get("category") or [])
-        if category
+    host_counts = Counter(
+        host for host in (hosting_platform(podcast) for podcast in podcasts) if host
     )
-    platforms = sorted(
-        {podcast.get("platform") or "autre" for podcast in podcasts},
+    listen_values = sorted(
+        {value for podcast in podcasts for value in listening_platforms(podcast)},
         key=str.casefold,
     )
-    platform_counts = Counter(podcast.get("platform") or "autre" for podcast in podcasts)
+    listen_counts = Counter(
+        value for podcast in podcasts for value in listening_platforms(podcast)
+    )
     languages = sorted(
         {podcast.get("language") for podcast in podcasts if podcast.get("language")},
         key=str.casefold,
@@ -669,11 +753,15 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
     )
 
     cards = "\n".join(podcast_card(podcast) for podcast in podcasts)
-    category_options = build_options(
-        categories,
-        counts=category_counts,
-        empty_label="Toutes les catégories",
-        selected=DEFAULT_CATEGORY,
+    host_options = build_options(
+        hosts,
+        counts=host_counts,
+        empty_label="Tous les hébergeurs",
+    )
+    listen_options = build_options(
+        listen_values,
+        counts=listen_counts,
+        empty_label="Toutes les plateformes d’écoute",
     )
     status_options = build_options(
         ["active", "slow", "archived"],
@@ -689,18 +777,12 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
         empty_label="Toutes les langues",
         selected=DEFAULT_LANGUAGE,
     )
-    platform_options = build_options(
-        platforms,
-        labels={"autre": "Autre"},
-        counts=platform_counts,
-        empty_label="Toutes les plateformes",
-    )
     config = {
         "defaults": {
-            "category": DEFAULT_CATEGORY,
             "language": DEFAULT_LANGUAGE,
             "status": DEFAULT_STATUS,
-            "platform": "",
+            "host": "",
+            "listen": "",
             "sort": DEFAULT_SORT,
         },
         "total": len(podcasts),
@@ -723,10 +805,10 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
         </label>
         <button class="filters-toggle" id="filters-toggle" type="button" aria-expanded="false" aria-controls="filters-panel">Filtres</button>
         <div class="filters-panel" id="filters-panel">
-          <select id="filter-category" aria-label="Filtrer par catégorie">{category_options}</select>
+          <select id="filter-host" aria-label="Filtrer par hébergeur">{host_options}</select>
+          <select id="filter-listen" aria-label="Filtrer par plateforme d’écoute">{listen_options}</select>
           <select id="filter-status" aria-label="Filtrer par statut">{status_options}</select>
           <select id="filter-language" aria-label="Filtrer par langue">{language_options}</select>
-          <select id="filter-platform" aria-label="Filtrer par plateforme">{platform_options}</select>
           <select id="sort" aria-label="Trier">
             <option value="name">Nom (A–Z)</option>
             <option value="last" selected>Dernier épisode</option>
@@ -739,8 +821,8 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
           <button id="reset" type="button">Réinitialiser</button>
         </div>
       </div>
-      <div class="topic-bar" aria-label="Filtrer par sujet">
-        <span class="topic-label">Sujets</span>
+      <div class="topic-bar" aria-label="Filtrer par taxonomie">
+        <span class="topic-label">Taxonomie</span>
         {topic_buttons(podcasts)}
       </div>
     </section>
@@ -784,7 +866,9 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
 
 def meta_items(podcast: dict[str, Any]) -> list[tuple[str, str]]:
     hosts = ", ".join(str(host) for host in (podcast.get("hosts") or []) if host)
-    return [
+    host = hosting_platform(podcast)
+    listens = listening_platforms(podcast)
+    items = [
         ("Animateurs", hosts or podcast.get("author") or "—"),
         ("Auteur", podcast.get("author") or "—"),
         ("Langue", language_text(podcast)),
@@ -792,12 +876,15 @@ def meta_items(podcast: dict[str, Any]) -> list[tuple[str, str]]:
         ("Rythme", frequency_text(podcast)),
         ("Épisodes", fmt_number(podcast.get("episode_count"))),
         ("Durée moyenne", fmt_duration(podcast.get("average_duration"))),
-        ("Note Apple", fmt_rating(podcast.get("community_rating"), podcast.get("community_rating_count"))),
-        ("Plateforme", "Autre" if (podcast.get("platform") or "autre") == "autre" else str(podcast.get("platform"))),
+        ("Hébergeur", host or "Autre"),
+        ("Plateformes d’écoute", ", ".join(listens) if listens else "—"),
         ("Pays", podcast.get("country") or "—"),
         ("Ajouté le", fmt_date(podcast.get("first_seen"))),
         ("Mis à jour le", fmt_date(podcast.get("updated_at"))),
     ]
+    if has_rating(podcast):
+        items.insert(7, ("Note Apple", fmt_rating(podcast.get("community_rating"), podcast.get("community_rating_count"))))
+    return items
 
 
 def episode_html(episode: dict[str, Any], index: int) -> str:
@@ -827,6 +914,88 @@ def episode_html(episode: dict[str, Any], index: int) -> str:
         </div>
         {audio_html}
       </li>'''
+
+
+def recent_episodes(podcasts: list[dict[str, Any]], limit: int = 20) -> list[tuple[str, dict[str, Any], dict[str, Any]]]:
+    rows: list[tuple[str, dict[str, Any], dict[str, Any]]] = []
+    for podcast in podcasts:
+        for episode in podcast.get("episodes") or []:
+            if not isinstance(episode, dict):
+                continue
+            published = str(episode.get("published") or "")
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", published):
+                continue
+            rows.append((published, podcast, episode))
+    rows.sort(
+        key=lambda item: (
+            item[0],
+            str(item[1].get("name") or "").casefold(),
+            str(item[2].get("title") or "").casefold(),
+        ),
+        reverse=True,
+    )
+    return rows[:limit]
+
+
+def latest_episodes_page(podcasts: list[dict[str, Any]]) -> str:
+    rows = recent_episodes(podcasts, 20)
+    items = []
+    for index, (published, podcast, episode) in enumerate(rows, 1):
+        entry_id = str(podcast.get("id") or "")
+        podcast_url = f"podcast/{esc(entry_id)}.html"
+        title = str(episode.get("title") or "Épisode sans titre")
+        episode_url = episode.get("url")
+        title_html = (
+            f'<a href="{esc(episode_url)}" target="_blank" rel="noopener noreferrer">{html_lib.escape(title)}</a>'
+            if episode_url
+            else html_lib.escape(title)
+        )
+        audio = episode.get("audio")
+        audio_html = (
+            f'<audio class="episode-audio" controls preload="none" src="{esc(audio)}"></audio>'
+            if audio
+            else ""
+        )
+        topics = topic_chips(podcast, 3)
+        items.append(f'''
+      <li class="episode episode-feed-item">
+        <span class="episode-rank">{index:02d}</span>
+        <a class="episode-cover" href="{podcast_url}">{cover_html(podcast, "mini-cover")}</a>
+        <div class="episode-feed-body">
+          <span class="episode-date">{esc(fmt_date(published))}</span>
+          <h3>{title_html}</h3>
+          <a class="episode-podcast" href="{podcast_url}">{html_lib.escape(podcast.get("name") or entry_id)}</a>
+          {topics}
+          {audio_html}
+        </div>
+        <span class="episode-duration">{esc(fmt_duration(episode.get("duration")))}</span>
+      </li>''')
+    episodes_html = "".join(items) or '<li class="muted">Aucun épisode publié pour le moment.</li>'
+    newest = rows[0][0] if rows else ""
+    body = f'''
+  <main class="page" id="contenu">
+    <header class="page-header">
+      <p class="eyebrow">{esc(fmt_date(newest))}</p>
+      <h1>Les 20 derniers <span class="gradient">épisodes publiés</span></h1>
+      <p class="lead">Une sélection chronologique des épisodes les plus récents publiés dans les flux RSS référencés, tous podcasts confondus.</p>
+    </header>
+    <section class="panel">
+      <div class="panel-head"><h2>À écouter maintenant</h2><span class="muted">{len(rows)} épisodes</span></div>
+      <ol class="episode-list episode-feed">{episodes_html}</ol>
+    </section>
+  </main>'''
+    return layout(
+        title="Derniers épisodes · CyberPodcast",
+        description="Les 20 derniers épisodes publiés par les podcasts cyber, cloud et développement référencés sur CyberPodcast.",
+        body=body,
+        canonical_path="episodes.html",
+        json_ld={
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Derniers épisodes · CyberPodcast",
+            "url": canonical("episodes.html"),
+        },
+    )
 
 
 def related_podcasts(podcast: dict[str, Any], podcasts: list[dict[str, Any]], limit: int = 4) -> list[dict[str, Any]]:
@@ -868,7 +1037,7 @@ def detail_page(podcast: dict[str, Any], podcasts: list[dict[str, Any]]) -> str:
     entry_id = str(podcast.get("id"))
     name = podcast.get("name") or entry_id
     root = "../"
-    description = podcast.get("description") or f"Fiche du podcast {name} sur CyberPodcast."
+    description = clean_description(podcast.get("description"), 800) or f"Fiche du podcast {name} sur CyberPodcast."
     episodes = [episode for episode in (podcast.get("episodes") or []) if isinstance(episode, dict)]
     last_audio = podcast.get("last_episode_audio") or (episodes[0].get("audio") if episodes else None)
     last_title = podcast.get("last_episode_title") or (episodes[0].get("title") if episodes else None)
@@ -1013,8 +1182,8 @@ def bar_list(counter: Counter[str], total: int, label_func: Any = None, limit: i
 def topics_page(podcasts: list[dict[str, Any]]) -> str:
     topic_map: dict[str, list[dict[str, Any]]] = {}
     for podcast in podcasts:
-        for topic in podcast.get("topics") or []:
-            topic_map.setdefault(str(topic), []).append(podcast)
+        for topic in podcast_taxonomy(podcast):
+            topic_map.setdefault(topic, []).append(podcast)
     cards = []
     for topic, items in sorted(topic_map.items(), key=lambda item: (-len(item[1]), item[0].casefold())):
         top = sorted(
@@ -1054,9 +1223,9 @@ def topics_page(podcasts: list[dict[str, Any]]) -> str:
 def stats_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
     status_counts = Counter(stats["by_status"])
     language_counts = Counter(stats["by_language"])
-    platform_counts = Counter(stats["by_platform"])
-    topic_counts = Counter(stats["by_topic"])
-    category_counts = Counter(stats["by_category"])
+    host_counts = Counter(stats["by_host"])
+    listen_counts = Counter(stats["by_listening_platform"])
+    topic_counts = Counter(stats["by_taxonomy"])
     total = stats["total"]
     rating = stats["average_rating"]
     rating_text = f"{rating:.2f}/5" if rating is not None else "—"
@@ -1078,9 +1247,9 @@ def stats_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
     <div class="charts-grid">
       <section class="panel"><h2>Statuts</h2>{bar_list(status_counts, total, lambda value: status_label(value))}</section>
       <section class="panel"><h2>Langues</h2>{bar_list(language_counts, total, lambda value: LANGUAGE_LABELS.get(value, str(value).upper()))}</section>
-      <section class="panel"><h2>Plateformes</h2>{bar_list(platform_counts, total, lambda value: "Autre" if value == "autre" else value)}</section>
-      <section class="panel"><h2>Catégories</h2>{bar_list(category_counts, total, limit=14)}</section>
-      <section class="panel panel-wide"><h2>Sujets les plus représentés</h2>{bar_list(topic_counts, total, limit=24)}</section>
+      <section class="panel"><h2>Hébergeurs</h2>{bar_list(host_counts, total, limit=14)}</section>
+      <section class="panel"><h2>Plateformes d’écoute</h2>{bar_list(listen_counts, total, limit=14)}</section>
+      <section class="panel panel-wide"><h2>Taxonomie la plus représentée</h2>{bar_list(topic_counts, total, limit=24)}</section>
     </div>
   </main>'''
     return layout(
@@ -1108,6 +1277,8 @@ def about_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
         <li>Le pipeline Python fusionne, déduplique, enrichit et écrit <code>podcasts.yaml</code>.</li>
         <li>Un workflow GitHub Actions contrôle la santé des liens, régénère le site et publie GitHub Pages.</li>
       </ol>
+      <h2>Rythmes de publication</h2>
+      <p>Le rythme est calculé à partir de l’intervalle médian entre les dates de publication des épisodes récents, puis arrondi au nombre de jours entier le plus proche. Seuils utilisés : {FREQUENCY_THRESHOLDS}. Le nombre affiché entre parenthèses est cet intervalle médian, pas une périodicité contractuelle.</p>
       <h2>Automatisation</h2>
       <p>Le workflow tourne chaque jour. Il récupère les nouveautés, met à jour les notes et les derniers épisodes, contrôle la santé des liens et redéploie le site. Les erreurs réseau ne bloquent pas la publication : les données précédentes servent de repli.</p>
       <h2>Contribuer</h2>
@@ -1170,7 +1341,7 @@ def feed_xml(podcasts: list[dict[str, Any]]) -> str:
             f"<link>{xml_escape(link)}</link>"
             f"<guid isPermaLink=\"false\">{xml_escape(guid)}</guid>"
             f"<pubDate>{xml_escape(pub_date)}</pubDate>"
-            f"<description>{xml_escape(podcast.get('description') or '')}</description>"
+            f"<description>{xml_escape(clean_description(podcast.get('description'), 400))}</description>"
             f"{enclosure}</item>"
         )
     return f'''<?xml version="1.0" encoding="UTF-8"?>
@@ -1187,6 +1358,7 @@ def feed_xml(podcasts: list[dict[str, Any]]) -> str:
 def sitemap_xml(podcasts: list[dict[str, Any]]) -> str:
     paths = [
         "",
+        "episodes.html",
         "sujets.html",
         "statistiques.html",
         "a-propos.html",
@@ -1261,6 +1433,7 @@ def render() -> None:
         if not entry_id:
             continue
         write(OUTPUT_DIR / "podcast" / f"{entry_id}.html", detail_page(podcast, podcasts))
+    write(OUTPUT_DIR / "episodes.html", latest_episodes_page(podcasts))
     write(OUTPUT_DIR / "sujets.html", topics_page(podcasts))
     write(OUTPUT_DIR / "statistiques.html", stats_page(podcasts, stats))
     write(OUTPUT_DIR / "a-propos.html", about_page(podcasts, stats))

@@ -88,9 +88,9 @@ podcasts:
   episode_count: 11
   average_duration: 59
   status: slow
-  community_rating: 5.0
-  community_rating_count: 3
-  platform: Spotify
+  community_rating: null
+  community_rating_count: null
+  platform: Transistor
   topics:
   - Cloud
   - Kubernetes
@@ -98,6 +98,13 @@ podcasts:
   tags:
   - Kubernetes
   - CNCF
+  hosting_platform: Transistor
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
+  - Amazon Music
 - id: on-azure-grave
   name: On Azure Grave
   category:
@@ -193,6 +200,10 @@ podcasts:
   - Docker
   tags:
   - Azure
+  hosting_platform: Acast
+  listening_platforms:
+  - Apple Podcasts
+  - YouTube
 - id: wespeakcloud
   name: We Speak Cloud
   category:
@@ -273,7 +284,7 @@ podcasts:
   status: archived
   community_rating: null
   community_rating_count: null
-  platform: Anchor
+  platform: Spotify for Creators
   topics:
   - Cloud
   - AWS
@@ -283,6 +294,11 @@ podcasts:
   - Azure
   - AWS
   - GCP
+  hosting_platform: Spotify for Creators
+  listening_platforms:
+  - Apple Podcasts
+  - YouTube
+  - Podcast Addict
 - id: radio-devops
   name: Radio DevOps
   category:
@@ -388,6 +404,11 @@ podcasts:
   - GitLab
   - CNCF
   - OpenStack
+  hosting_platform: Acast
+  listening_platforms:
+  - Apple Podcasts
+  - YouTube
+  - Podcast Addict
 - id: les-tetes-dans-le-cloud
   name: Les Têtes dans le Cloud
   category:
@@ -410,7 +431,7 @@ podcasts:
   castbox: null
   image: https://static.audiomeans.fr/img/podcast/6d33de64-9124-475c-9be7-b4a249107108.jpg
   author: Expertime
-  description: Les Têtes Dans Le Cloud, un condensé de news tech fortement influencé par l'écosystème Microsoft et animé par des passionnés ! Hébergé par Audiomeans. Visitez…
+  description: Les Têtes Dans Le Cloud, un condensé de news tech fortement influencé par l'écosystème Microsoft et animé par des passionnés !
   last_episode: '2026-11-12'
   last_episode_title: 'Capacité F0 : La Puissance de Fabric sans limite ! (+ Gestion de capacité & Fabric Apps)'
   last_episode_url: null
@@ -482,6 +503,11 @@ podcasts:
   - Azure
   tags:
   - Azure
+  hosting_platform: Audiomeans
+  listening_platforms:
+  - Apple Podcasts
+  - YouTube
+  - Podcast Addict
 - id: cloud-cafe
   name: ITQ Private Cloud Café
   category:
@@ -536,7 +562,7 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/itq4/episodes/Cloud-control-compliance--costs-and-sovereignty-e37cpr1
     audio: https://anchor.fm/s/108b1f810/podcast/play/107423009/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-7-27%2F406380639-44100-2-fb019e50ada7f.mp3
     duration: 45
-  frequency: quarterly
+  frequency: bimonthly
   frequency_days: 61
   first_seen: '2026-11-09'
   updated_at: '2026-11-17'
@@ -545,13 +571,18 @@ podcasts:
   status: active
   community_rating: null
   community_rating_count: null
-  platform: Anchor
+  platform: Spotify for Creators
   topics:
   - Cloud
   - DevOps
   - IA
   tags:
   - CNCF
+  hosting_platform: Spotify for Creators
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Podcast Addict
 - id: kubernetes-podcast
   name: Kubernetes Podcast from Google
   category:
@@ -575,7 +606,7 @@ podcasts:
   castbox: null
   image: https://static.libsyn.com/p/assets/a/3/a/a/a3aa4f08236059f5e55e3c100dce7605/NewKPodRoboWhite-20240924-1zwoxpn1sl.png
   author: Kubernetes Podcast from Google
-  description: A biweekly podcast focused on what's happening in the Kubernetes community hosted by Abdel Sghiouar and Kaslin Fields. We cover Kubernetes, cloud-native applications, and other developments in the…
+  description: A biweekly podcast focused on what's happening in the Kubernetes community We cover Kubernetes, cloud-native applications, and other developments in the…
   last_episode: '2026-09-03'
   last_episode_title: Agent Substrate, with Tim Hockin and Brandon Royal
   last_episode_url: https://e780d51f-f115-44a6-8252-aed9216bb521.libsyn.com/agent-sandbox-with-tim-hockin-and-brandon-royal
@@ -648,6 +679,12 @@ podcasts:
   tags:
   - Kubernetes
   - CNCF
+  hosting_platform: Libsyn
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
 - id: the-cloudcast
   name: The Cloudcast
   category:
@@ -748,6 +785,12 @@ podcasts:
   - LLM
   - OpenAI
   - Anthropic
+  hosting_platform: Buzzsprout
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
 - id: arrested-devops
   name: Arrested DevOps
   category:
@@ -837,13 +880,19 @@ podcasts:
   status: active
   community_rating: 4.6
   community_rating_count: 68
-  platform: Spotify
+  platform: autre
   topics:
   - DevOps
   tags:
   - Technology
   - Software How-To
   - Tech News
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Pocket Casts
+  - Podcast Addict
 - id: software-defined-talk
   name: Software Defined Talk
   category:
@@ -935,7 +984,7 @@ podcasts:
   status: active
   community_rating: 4.7
   community_rating_count: 69
-  platform: Spotify
+  platform: autre
   topics:
   - Cloud
   - Kubernetes
@@ -943,6 +992,14 @@ podcasts:
   - Carrière
   tags:
   - Kubernetes
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
+  - Castbox
 - id: packet-pushers
   name: Packet Pushers
   category:
@@ -1043,6 +1100,10 @@ podcasts:
   - networks
   - IT
   - infrastructure
+  hosting_platform: null
+  listening_platforms:
+  - YouTube
+  - Podcast Addict
 - id: screaming-in-the-cloud
   name: Screaming in the Cloud
   category:
@@ -1138,6 +1199,10 @@ podcasts:
   - DevOps
   tags:
   - AWS
+  hosting_platform: Transistor
+  listening_platforms:
+  - Apple Podcasts
+  - Podcast Addict
 - id: aws-podcast
   name: AWS Podcast
   category:
@@ -1226,13 +1291,21 @@ podcasts:
   status: slow
   community_rating: 4.3
   community_rating_count: 202
-  platform: Spotify
+  platform: autre
   topics:
   - Cybersécurité
   - Cloud
   - AWS
   tags:
   - AWS
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Pocket Casts
+  - Podcast Addict
+  - Amazon Music
+  - Castbox
 - id: azure-podcast
   name: The Azure Podcast
   category:
@@ -1322,12 +1395,19 @@ podcasts:
   status: slow
   community_rating: 4.6
   community_rating_count: 44
-  platform: Spotify
+  platform: FeedBurner
   topics:
   - Cloud
   - Azure
   tags:
   - Azure
+  hosting_platform: FeedBurner
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
+  - Amazon Music
 - id: google-cloud-platform-podcast
   name: Google Cloud Platform Podcast
   category:
@@ -1408,7 +1488,7 @@ podcasts:
     url: https://googlecloudpodcast.libsyn.com/mlai-data-science-for-data-analytics-with-jed-dougherty-and-dan-darnell
     audio: https://traffic.libsyn.com/secure/googlecloudpodcast/Google.Cloud.Platform.Podcast.Episode.327.mp3?dest-id=3174422
     duration: 32
-  frequency: biweekly
+  frequency: monthly
   frequency_days: 21
   first_seen: '2026-11-09'
   updated_at: '2026-11-17'
@@ -1423,6 +1503,12 @@ podcasts:
   - GCP
   tags:
   - GCP
+  hosting_platform: Libsyn
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
 - id: cloud-security-podcast
   name: Cloud Security Podcast
   category:
@@ -1513,7 +1599,7 @@ podcasts:
   status: active
   community_rating: 5.0
   community_rating_count: 57
-  platform: Anchor
+  platform: Spotify for Creators
   topics:
   - Cybersécurité
   - Cloud Security
@@ -1526,6 +1612,12 @@ podcasts:
   - Azure
   - AWS
   - GCP
+  hosting_platform: Spotify for Creators
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
 - id: day-two-cloud
   name: Day Two Cloud
   category:
@@ -1615,7 +1707,7 @@ podcasts:
   status: active
   community_rating: 4.3
   community_rating_count: 17
-  platform: Spotify
+  platform: autre
   topics:
   - Cloud
   - AWS
@@ -1625,6 +1717,13 @@ podcasts:
   tags:
   - Azure
   - AWS
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
 - id: heavy-strategies
   name: Heavy Strategy
   category:
@@ -1714,7 +1813,7 @@ podcasts:
   status: active
   community_rating: 4.8
   community_rating_count: 26
-  platform: Spotify
+  platform: autre
   topics:
   - Cloud
   - Architecture
@@ -1725,6 +1824,13 @@ podcasts:
   - CTO
   - strategy
   - leadership
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
 - id: command-line-heroes
   name: Command Line Heroes
   category:
@@ -1749,7 +1855,7 @@ podcasts:
   castbox: null
   image: https://hosting-media.riverside.com/media/imports/podcasts/985a8bcc-7937-4ce0-9e5f-8bfb400c6a5f/english.jpg
   author: Red Hat
-  description: Hear the epic true tales of how developers, programmers, hackers, geeks, and open source rebels are revolutionizing the technology landscape. Command Line Heroes is an award-winning podcast hosted by…
+  description: Hear the epic true tales of how developers, programmers, hackers, geeks, and open source rebels are revolutionizing the technology landscape. Command Line Heroes is an award-winning podcast
   last_episode: '2022-05-31'
   last_episode_title: All Together Now
   last_episode_url: https://www.redhat.com/en/command-line-heroes/season-9/all-together-now
@@ -1815,7 +1921,7 @@ podcasts:
   status: archived
   community_rating: 4.6
   community_rating_count: 450
-  platform: Spotify
+  platform: Riverside
   topics:
   - Linux
   - DevOps
@@ -1824,6 +1930,12 @@ podcasts:
   tags:
   - Society & Culture
   - Technology
+  hosting_platform: Riverside
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
 - id: linux-action-news
   name: Linux Action News
   category:
@@ -1915,7 +2027,7 @@ podcasts:
   status: archived
   community_rating: 4.5
   community_rating_count: 202
-  platform: Spotify
+  platform: autre
   topics:
   - Linux
   - Open Source
@@ -1924,6 +2036,14 @@ podcasts:
   - Technology
   - News
   - Tech News
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
+  - Castbox
 - id: self-hosted
   name: Self-Hosted
   category:
@@ -2014,7 +2134,7 @@ podcasts:
   status: slow
   community_rating: 4.8
   community_rating_count: 144
-  platform: Spotify
+  platform: autre
   topics:
   - Reverse Engineering
   - Cloud
@@ -2022,6 +2142,14 @@ podcasts:
   - Open Source
   tags:
   - Homelab
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
+  - Castbox
 - id: late-night-linux
   name: Late Night Linux
   category:
@@ -2110,7 +2238,7 @@ podcasts:
   status: active
   community_rating: 4.6
   community_rating_count: 168
-  platform: Spotify
+  platform: autre
   topics:
   - Linux
   - Open Source
@@ -2118,6 +2246,12 @@ podcasts:
   tags:
   - News
   - Tech News
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
 - id: linux-unplugged
   name: Linux Unplugged
   category:
@@ -2207,7 +2341,7 @@ podcasts:
   status: active
   community_rating: 4.5
   community_rating_count: 293
-  platform: Spotify
+  platform: autre
   topics:
   - Linux
   - DevOps
@@ -2215,6 +2349,14 @@ podcasts:
   - Technology
   - News
   - Tech News
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
+  - Castbox
 - id: ask-noah-show
   name: The Ask Noah Show
   category:
@@ -2313,6 +2455,10 @@ podcasts:
   - Tech News
   - Education
   - How To
+  hosting_platform: Fireside
+  listening_platforms:
+  - Apple Podcasts
+  - Podcast Addict
 - id: le-centre-de-gravite
   name: Le centre de gravité
   category:
@@ -2402,7 +2548,7 @@ podcasts:
   status: active
   community_rating: null
   community_rating_count: null
-  platform: Anchor
+  platform: Spotify for Creators
   topics:
   - Cloud
   - IA
@@ -2411,6 +2557,11 @@ podcasts:
   - Cloud
   - IA
   - Tech
+  hosting_platform: Spotify for Creators
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
 - id: cekoica
   name: CéKoiÇa
   category:
@@ -2474,7 +2625,7 @@ podcasts:
     url: https://podcast.ausha.co/consulia-cekoica/consulia-cekoica-episode-1-bienvenue
     audio: https://audio.ausha.co/pJMmlIPYVZe2.mp3?t=1725280639
     duration: 4
-  frequency: biweekly
+  frequency: monthly
   frequency_days: 21
   first_seen: '2026-11-09'
   updated_at: '2026-11-17'
@@ -2490,6 +2641,14 @@ podcasts:
   - Technology
   - News
   - Tech News
+  hosting_platform: Ausha
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Pocket Casts
+  - Podcast Addict
+  - Amazon Music
+  - Castbox
 - id: compliance-without-coma
   name: Compliance Without Coma
   category:
@@ -2576,8 +2735,8 @@ podcasts:
   episode_count: 87
   average_duration: 10
   status: active
-  community_rating: 5.0
-  community_rating_count: 2
+  community_rating: null
+  community_rating_count: null
   platform: Ausha
   topics:
   - Cybersécurité
@@ -2586,6 +2745,14 @@ podcasts:
   - Business
   - Education
   - Self-Improvement
+  hosting_platform: Ausha
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
+  - Amazon Music
+  - Castbox
 - id: cyberpunkcompany
   name: LONG INT*
   category:
@@ -2673,11 +2840,16 @@ podcasts:
   status: slow
   community_rating: null
   community_rating_count: null
-  platform: Anchor
+  platform: Spotify for Creators
   topics:
   - Cybersécurité
   tags:
   - Technology
+  hosting_platform: Spotify for Creators
+  listening_platforms:
+  - Spotify
+  - YouTube
+  - Podcast Addict
 - id: cybersecurite-all-day
   name: Cybersécurité All Day
   category:
@@ -2756,7 +2928,7 @@ podcasts:
     url: https://cybersecuriteallday.fr/
     audio: https://audio4.redcircle.com/episodes/38b57863-ba63-4d97-bbe7-abaa9bb10a53/stream.mp3
     duration: 26
-  frequency: quarterly
+  frequency: bimonthly
   frequency_days: 63
   first_seen: '2026-11-09'
   updated_at: '2026-11-17'
@@ -2772,6 +2944,12 @@ podcasts:
   - Technology
   - News
   - Tech News
+  hosting_platform: RedCircle
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Deezer
+  - Podcast Addict
 - id: dans-loeil-de-la-cyber
   name: Dans l'œil de la cyber
   category:
@@ -2850,7 +3028,7 @@ podcasts:
     url: https://podcast.ausha.co/dans-l-oeil-de-la-cyber/extrait-chatgpt-en-classe-l-avenir-de-l-apprentissage-en-question
     audio: https://audio.ausha.co/bWGzYIV70MR3.mp3?t=1755783397
     duration: 5
-  frequency: quarterly
+  frequency: bimonthly
   frequency_days: 49
   first_seen: '2026-11-09'
   updated_at: '2026-11-17'
@@ -2866,6 +3044,15 @@ podcasts:
   - Technology
   - News
   - Tech News
+  hosting_platform: Ausha
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
+  - Amazon Music
+  - Castbox
 - id: dialogues-imaginaires
   name: Dialogues imaginaires du monde merveilleux de la cyber
   category:
@@ -2926,13 +3113,18 @@ podcasts:
   episode_count: 5
   average_duration: 28
   status: active
-  community_rating: 5.0
-  community_rating_count: 4
-  platform: Spotify
+  community_rating: null
+  community_rating_count: null
+  platform: autre
   topics:
   - Cybersécurité
   tags:
   - Cybersécurité
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Podcast Addict
 - id: french-connection
   name: French Connection
   category:
@@ -3020,11 +3212,20 @@ podcasts:
   status: active
   community_rating: 5.0
   community_rating_count: 10
-  platform: Spotify
+  platform: autre
   topics:
   - Cybersécurité
   tags:
   - Cybersécurité
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Deezer
+  - Pocket Casts
+  - Podcast Addict
+  - Amazon Music
 - id: hacknspeak
   name: Hack'n Speak
   category:
@@ -3112,11 +3313,17 @@ podcasts:
   status: active
   community_rating: 4.8
   community_rating_count: 23
-  platform: Anchor
+  platform: Spotify for Creators
   topics:
   - Cybersécurité
   tags:
   - Technology
+  hosting_platform: Spotify for Creators
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Podcast Addict
+  - Amazon Music
 - id: hacktback-cybertalk
   name: HacktBack CyberTalk
   category:
@@ -3209,6 +3416,11 @@ podcasts:
   - Cybersécurité
   tags:
   - Technology
+  hosting_platform: Ausha
+  listening_platforms:
+  - Spotify
+  - Podcast Addict
+  - Amazon Music
 - id: incyber-voices
   name: InCyber Voices
   category:
@@ -3294,8 +3506,8 @@ podcasts:
   episode_count: 23
   average_duration: 22
   status: active
-  community_rating: 4.5
-  community_rating_count: 4
+  community_rating: null
+  community_rating_count: null
   platform: Ausha
   topics:
   - Cybersécurité
@@ -3304,6 +3516,11 @@ podcasts:
   - News
   - Tech News
   - Technology
+  hosting_platform: Ausha
+  listening_platforms:
+  - Apple Podcasts
+  - YouTube
+  - Podcast Addict
 - id: la-box-du-rssi
   name: La Box du RSSI
   category:
@@ -3389,8 +3606,8 @@ podcasts:
   episode_count: 60
   average_duration: 27
   status: active
-  community_rating: 5.0
-  community_rating_count: 1
+  community_rating: null
+  community_rating_count: null
   platform: Ausha
   topics:
   - Cybersécurité
@@ -3398,6 +3615,13 @@ podcasts:
   - News
   - News Commentary
   - Tech News
+  hosting_platform: Ausha
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
+  - Amazon Music
 - id: cyber-grand-mere
   name: La cybersécurité expliquée à ma grand-mère
   category:
@@ -3492,6 +3716,14 @@ podcasts:
   - Technology
   - Education
   - Self-Improvement
+  hosting_platform: Ausha
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Pocket Casts
+  - Podcast Addict
+  - Amazon Music
+  - Castbox
 - id: la-matrice-a-bugge
   name: La matrice a buggé
   category:
@@ -3594,6 +3826,10 @@ podcasts:
   - Technology
   - Science
   - Social Sciences
+  hosting_platform: Acast
+  listening_platforms:
+  - Apple Podcasts
+  - Podcast Addict
 - id: la-robe-numerique
   name: La Robe Numérique
   category:
@@ -3682,13 +3918,19 @@ podcasts:
   status: archived
   community_rating: 5.0
   community_rating_count: 119
-  platform: Spotify
+  platform: autre
   topics:
   - Cybersécurité
   - Juridique
   tags:
   - Cybersécurité
   - Juridique
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Deezer
+  - Podcast Addict
 - id: la-tangente
   name: La Tangente
   category:
@@ -3785,6 +4027,11 @@ podcasts:
   - Self-Improvement
   - Business
   - Entrepreneurship
+  hosting_platform: Ausha
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Podcast Addict
 - id: le-dejargonneur-cyber
   name: Le Déjargonneur Cyber
   category:
@@ -3876,6 +4123,9 @@ podcasts:
   - Clusif
   - Déjargonneur
   - Technology
+  hosting_platform: Acast
+  listening_platforms:
+  - Podcast Addict
 - id: le-monde-de-la-cyber
   name: Le Monde de la Cyber
   category:
@@ -3963,7 +4213,7 @@ podcasts:
   status: active
   community_rating: 4.7
   community_rating_count: 34
-  platform: Spotify
+  platform: Audiomeans
   topics:
   - Cybersécurité
   - Malware
@@ -3992,6 +4242,13 @@ podcasts:
   - défense
   - France
   - Technology
+  hosting_platform: Audiomeans
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
 - id: les-enfants-de-la-cyber
   name: Les Enfants de la Cyber
   category:
@@ -4062,6 +4319,8 @@ podcasts:
   - technologies
   - Business
   - Technology
+  hosting_platform: Audiomeans
+  listening_platforms: []
 - id: lets-talk-about-sec
   name: Let's Talk About Sec
   category:
@@ -4140,20 +4399,28 @@ podcasts:
     url: https://podcast.ausha.co/let-s-talk-about-sec/bug-bounty-pentest-s-attaquer-pour-mieux-se-defendre
     audio: https://audio.ausha.co/5r3RYCqK1VQE.mp3?t=1728034912
     duration: 58
-  frequency: quarterly
+  frequency: bimonthly
   frequency_days: 51
   first_seen: '2026-11-09'
   updated_at: '2026-11-17'
   episode_count: 16
   average_duration: 55
   status: active
-  community_rating: 5.0
-  community_rating_count: 4
+  community_rating: null
+  community_rating_count: null
   platform: Ausha
   topics:
   - Cybersécurité
   tags:
   - HarfangLab
+  hosting_platform: Ausha
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Pocket Casts
+  - Podcast Addict
+  - Amazon Music
+  - Castbox
 - id: nolimitsecu
   name: NoLimitSecu
   category:
@@ -4247,6 +4514,10 @@ podcasts:
   tags:
   - News
   - Tech News
+  hosting_platform: Blubrry
+  listening_platforms:
+  - Apple Podcasts
+  - Podcast Addict
 - id: on-dit-chiffrer
   name: On dit chiffrer
   category:
@@ -4348,6 +4619,11 @@ podcasts:
   - Technology
   - Education
   - How To
+  hosting_platform: Acast
+  listening_platforms:
+  - Apple Podcasts
+  - YouTube
+  - Podcast Addict
 - id: polysecure
   name: PolySécure
   category:
@@ -4433,13 +4709,22 @@ podcasts:
   episode_count: 869
   average_duration: 44
   status: active
-  community_rating: 5.0
-  community_rating_count: 2
-  platform: Spotify
+  community_rating: null
+  community_rating_count: null
+  platform: autre
   topics:
   - Cybersécurité
   tags:
   - Cybersécurité
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
+  - Amazon Music
+  - Castbox
 - id: purple-voice
   name: Purple Voice
   category:
@@ -4545,6 +4830,10 @@ podcasts:
   - Technology
   - News
   - Tech News
+  hosting_platform: Acast
+  listening_platforms:
+  - Apple Podcasts
+  - Podcast Addict
 - id: radiocsirt
   name: RadioCSIRT
   category:
@@ -4641,6 +4930,10 @@ podcasts:
   - Tech News
   - Technology
   - Daily News
+  hosting_platform: Podcastics
+  listening_platforms:
+  - Apple Podcasts
+  - Podcast Addict
 - id: riskintel-media
   name: Riskintel Média
   category:
@@ -4735,6 +5028,15 @@ podcasts:
   - News
   - Tech News
   - Politics
+  hosting_platform: Ausha
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
+  - Amazon Music
+  - Castbox
 - id: yakafokon
   name: Yakafokon
   category:
@@ -4782,12 +5084,17 @@ podcasts:
   status: archived
   community_rating: null
   community_rating_count: null
-  platform: Anchor
+  platform: Spotify for Creators
   topics:
   - Cybersécurité
   tags:
   - Society & Culture
   - Personal Journals
+  hosting_platform: Spotify for Creators
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Podcast Addict
 - id: cyberpodcast-official
   name: CyberPodcast
   category:
@@ -4875,13 +5182,16 @@ podcasts:
   status: active
   community_rating: null
   community_rating_count: null
-  platform: YouTube
+  platform: autre
   topics:
   - Cybersécurité
   - Pentest
   - Red Team
   tags:
   - Cybersécurité
+  hosting_platform: null
+  listening_platforms:
+  - YouTube
 - id: diginov
   name: Diginov
   category:
@@ -4970,12 +5280,17 @@ podcasts:
   status: slow
   community_rating: null
   community_rating_count: null
-  platform: Anchor
+  platform: Spotify for Creators
   topics:
   - Cybersécurité
   - Cloud
   tags:
   - Technology
+  hosting_platform: Spotify for Creators
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Podcast Addict
 - id: hackstock
   name: Hackstock
   category:
@@ -5078,6 +5393,12 @@ podcasts:
   - Technology
   - News
   - Tech News
+  hosting_platform: Acast
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Pocket Casts
+  - Podcast Addict
 - id: le-comptoir-secu
   name: Le Comptoir Sécu
   category:
@@ -5175,6 +5496,11 @@ podcasts:
   - Cybersécurité
   tags:
   - Cybersécurité
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - YouTube
+  - Podcast Addict
 - id: les-chiens-de-garde
   name: Les Chiens de Garde
   category:
@@ -5267,6 +5593,11 @@ podcasts:
   - Cybersécurité
   tags:
   - Arts
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Podcast Addict
 - id: les-minutes-cyber
   name: Les Minutes Cyber
   category:
@@ -5329,7 +5660,7 @@ podcasts:
   status: archived
   community_rating: 5.0
   community_rating_count: 5
-  platform: Spotify
+  platform: autre
   topics:
   - Cybersécurité
   tags:
@@ -5346,6 +5677,13 @@ podcasts:
   - ISO27005
   - ISO19011
   - Technology
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Deezer
+  - Podcast Addict
 - id: nolog
   name: NOLOG
   category:
@@ -5427,6 +5765,10 @@ podcasts:
   - Technology
   - True Crime
   - Society & Culture
+  hosting_platform: Acast
+  listening_platforms:
+  - Apple Podcasts
+  - Podcast Addict
 - id: osint-origins
   name: OSINT Origins
   category:
@@ -5496,7 +5838,7 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/osint-fr/episodes/OSINT-Origins-1---Jean-Marc-Manachmanhack-e1bqpga
     audio: https://anchor.fm/s/6d2d3288/podcast/play/44966858/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2021-11-16%2F1a8cefd1-1437-5cac-5384-9a99d1635dba.mp3
     duration: 51
-  frequency: quarterly
+  frequency: bimonthly
   frequency_days: 71
   first_seen: '2026-11-09'
   updated_at: '2026-11-17'
@@ -5505,13 +5847,18 @@ podcasts:
   status: archived
   community_rating: null
   community_rating_count: null
-  platform: Anchor
+  platform: Spotify for Creators
   topics:
   - Cybersécurité
   - OSINT
   tags:
   - News
   - Tech News
+  hosting_platform: Spotify for Creators
+  listening_platforms:
+  - Spotify
+  - YouTube
+  - Podcast Addict
 - id: if-this-then-dev
   name: If This Then Dev
   category:
@@ -5600,7 +5947,7 @@ podcasts:
   status: active
   community_rating: 4.8
   community_rating_count: 174
-  platform: Spotify
+  platform: Audiomeans
   topics:
   - Développement
   - Architecture
@@ -5609,6 +5956,13 @@ podcasts:
   - technology
   - computer programming
   - dev
+  hosting_platform: Audiomeans
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Deezer
+  - Podcast Addict
 - id: les-cast-codeurs
   name: Les Cast Codeurs
   category:
@@ -5706,6 +6060,11 @@ podcasts:
   - Java
   tags:
   - Java
+  hosting_platform: Libsyn
+  listening_platforms:
+  - Apple Podcasts
+  - YouTube
+  - Podcast Addict
 - id: la-cave
   name: La Cave
   category:
@@ -5802,6 +6161,15 @@ podcasts:
   - Technology
   - News
   - Tech News
+  hosting_platform: Ausha
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
+  - Amazon Music
+  - Castbox
 - id: tech-cafe
   name: Tech Café
   category:
@@ -5882,7 +6250,7 @@ podcasts:
     url: https://techcafe.fr/apple-homeview-microsoft-surface-les-maths-face-a-lia/
     audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/b58e9b9f-f6ec-4883-a9ce-9ac185448870.mp3?_=1791930698
     duration: 87
-  frequency: daily
+  frequency: weekly
   frequency_days: 3
   first_seen: '2026-11-09'
   updated_at: '2026-11-17'
@@ -5911,6 +6279,12 @@ podcasts:
   - News
   - Politics
   - Tech News
+  hosting_platform: Audiomeans
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
 - id: developer-voice
   name: Developer Voices
   category:
@@ -5999,7 +6373,7 @@ podcasts:
   status: active
   community_rating: 5.0
   community_rating_count: 30
-  platform: Spotify
+  platform: Zencastr
   topics:
   - Développement
   - Architecture
@@ -6013,6 +6387,14 @@ podcasts:
   - Technology
   - News
   - Tech News
+  hosting_platform: Zencastr
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
+  - Castbox
 - id: syntax
   name: Syntax
   category:
@@ -6101,12 +6483,20 @@ podcasts:
   status: active
   community_rating: 4.5
   community_rating_count: 72
-  platform: Spotify
+  platform: autre
   topics:
   - Développement
   - JavaScript
   tags:
   - JavaScript
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
+  - Amazon Music
 - id: coding-blocks
   name: Coding Blocks
   category:
@@ -6205,6 +6595,10 @@ podcasts:
   - How To
   - Business
   - Careers
+  hosting_platform: Libsyn
+  listening_platforms:
+  - Apple Podcasts
+  - Podcast Addict
 - id: software-engineering-daily
   name: Software Engineering Daily
   category:
@@ -6293,7 +6687,7 @@ podcasts:
   status: active
   community_rating: 4.4
   community_rating_count: 622
-  platform: Spotify
+  platform: autre
   topics:
   - Développement
   - Architecture
@@ -6301,6 +6695,12 @@ podcasts:
   - News
   - Tech News
   - Technology
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
 - id: changelog
   name: The Changelog
   category:
@@ -6405,6 +6805,11 @@ podcasts:
   - change log
   - software engineering
   - Technology
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - YouTube
+  - Podcast Addict
 - id: cppcast
   name: CppCast
   category:
@@ -6494,12 +6899,18 @@ podcasts:
   status: active
   community_rating: 4.8
   community_rating_count: 106
-  platform: Spotify
+  platform: autre
   topics:
   - Développement
   - C++
   tags:
   - C++
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Pocket Casts
+  - Podcast Addict
 - id: dotnet-rocks
   name: .NET Rocks!
   category:
@@ -6595,6 +7006,10 @@ podcasts:
   - .NET
   tags:
   - .NET
+  hosting_platform: Spreaker
+  listening_platforms:
+  - Apple Podcasts
+  - Podcast Addict
 - id: python-bytes
   name: Python Bytes
   category:
@@ -6689,6 +7104,10 @@ podcasts:
   - Python
   tags:
   - Python
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Podcast Addict
 - id: talk-python
   name: Talk Python To Me
   category:
@@ -6782,6 +7201,10 @@ podcasts:
   - IA
   tags:
   - Python
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Podcast Addict
 - id: real-python
   name: Real Python Podcast
   category:
@@ -6803,7 +7226,7 @@ podcasts:
   castbox: https://castbox.fm/vic/1501905538
   image: https://files.realpython.com/media/real-python-logo-square.28474fda9228.png
   author: Real Python
-  description: A weekly Python podcast hosted by Christopher Bailey with interviews, coding tips, and conversation with guests from the Python community. The show covers a wide range of topics including Python…
+  description: A weekly Python podcast The show covers a wide range of topics including Python…
   last_episode: '2026-11-13'
   last_episode_title: Mentoring Developers Beyond the Code With Tim Schilling
   last_episode_url: https://realpython.com/podcasts/rpp/319/
@@ -6869,7 +7292,7 @@ podcasts:
   status: active
   community_rating: 4.7
   community_rating_count: 144
-  platform: Spotify
+  platform: autre
   topics:
   - Open Source
   - Développement
@@ -6877,6 +7300,14 @@ podcasts:
   - Data
   tags:
   - Python
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
+  - Castbox
 - id: go-time
   name: Go Time
   category:
@@ -6983,6 +7414,11 @@ podcasts:
   - Docker
   - Go
   - CNCF
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - YouTube
+  - Podcast Addict
 - id: javascript-jabber
   name: JavaScript Jabber
   category:
@@ -7070,12 +7506,19 @@ podcasts:
   status: slow
   community_rating: 4.4
   community_rating_count: 233
-  platform: Spotify
+  platform: autre
   topics:
   - Développement
   - JavaScript
   tags:
   - JavaScript
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
+  - Amazon Music
 - id: react-podcast
   name: React Podcast
   category:
@@ -7171,6 +7614,10 @@ podcasts:
   tags:
   - JavaScript
   - React
+  hosting_platform: Simplecast
+  listening_platforms:
+  - Apple Podcasts
+  - Podcast Addict
 - id: angular-show
   name: The Angular Show
   category:
@@ -7268,6 +7715,11 @@ podcasts:
   - IA
   tags:
   - Angular
+  hosting_platform: Spreaker
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
 - id: ai-engineering
   name: The AI Engineering Podcast
   category:
@@ -7356,12 +7808,20 @@ podcasts:
   status: active
   community_rating: 4.4
   community_rating_count: 7
-  platform: Spotify
+  platform: Podhome
   topics:
   - IA
   tags:
   - Technology
   - Education
+  hosting_platform: Podhome
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Pocket Casts
+  - Podcast Addict
+  - Amazon Music
+  - Castbox
 - id: practical-ai
   name: Practical AI
   category:
@@ -7450,7 +7910,7 @@ podcasts:
   status: active
   community_rating: 4.3
   community_rating_count: 202
-  platform: Spotify
+  platform: autre
   topics:
   - IA
   tags:
@@ -7461,6 +7921,13 @@ podcasts:
   - artificial intelligence
   - neural networks
   - computer vision
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
 - id: latent-space
   name: Latent Space
   category:
@@ -7556,6 +8023,12 @@ podcasts:
   - LLM
   tags:
   - LLM
+  hosting_platform: Substack
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
 - id: twiml
   name: This Week in Machine Learning & AI
   category:
@@ -7644,7 +8117,7 @@ podcasts:
   status: active
   community_rating: 4.7
   community_rating_count: 427
-  platform: Spotify
+  platform: Megaphone
   topics:
   - IA
   tags:
@@ -7652,6 +8125,14 @@ podcasts:
   - News
   - Tech News
   - Science
+  hosting_platform: Megaphone
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Pocket Casts
+  - Podcast Addict
+  - Castbox
 - id: data-engineering-podcast
   name: Data Engineering Podcast
   category:
@@ -7740,12 +8221,20 @@ podcasts:
   status: active
   community_rating: 4.5
   community_rating_count: 147
-  platform: Spotify
+  platform: Podhome
   topics:
   - Data
   tags:
   - Technology
   - Education
+  hosting_platform: Podhome
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - Pocket Casts
+  - Podcast Addict
+  - Amazon Music
+  - Castbox
 - id: devjourney
   name: Developer Journey
   category:
@@ -7852,6 +8341,10 @@ podcasts:
   - Education
   - Business
   - Careers
+  hosting_platform: Buzzsprout
+  listening_platforms:
+  - Apple Podcasts
+  - Podcast Addict
 - id: soft-skills-engineering
   name: Soft Skills Engineering
   category:
@@ -7941,7 +8434,7 @@ podcasts:
   status: active
   community_rating: 4.8
   community_rating_count: 293
-  platform: Spotify
+  platform: autre
   topics:
   - Développement
   - Carrière
@@ -7958,6 +8451,12 @@ podcasts:
   - job interviews
   - Technology
   - Business
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
 - id: maintainable
   name: Maintainable
   category:
@@ -8066,6 +8565,13 @@ podcasts:
   - Technology
   - Business
   - Careers
+  hosting_platform: Simplecast
+  listening_platforms:
+  - Apple Podcasts
+  - Spotify
+  - YouTube
+  - Podcast Addict
+  - Amazon Music
 - id: ship-it
   name: Ship It!
   category:
@@ -8166,3 +8672,8 @@ podcasts:
   tags:
   - Kubernetes
   - CNCF
+  hosting_platform: null
+  listening_platforms:
+  - Apple Podcasts
+  - YouTube
+  - Podcast Addict

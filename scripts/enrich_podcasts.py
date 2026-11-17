@@ -66,7 +66,7 @@ PLATFORMS: list[tuple[str, tuple[str, ...]]] = [
     ("RSS.com", ("rss.com",)),
     ("Simplecast", ("simplecast.com",)),
     ("RedCircle", ("redcircle.com",)),
-    ("Anchor", ("anchor.fm",)),
+    ("Spotify for Creators", ("anchor.fm", "spotifyforcreators")),
     ("Spotify", ("spotify.com", "spotifycdn.com", "pscdn.co")),
     ("Captivate", ("captivate.fm",)),
     ("Megaphone", ("megaphone.fm",)),
@@ -88,6 +88,46 @@ PLATFORMS: list[tuple[str, tuple[str, ...]]] = [
     ("Deezer", ("deezer.com",)),
     ("Castbox", ("castbox.fm",)),
     ("Substack", ("substack.com", "substackcdn.com")),
+]
+
+HOSTING_PLATFORMS: list[tuple[str, tuple[str, ...]]] = [
+    ("Spotify for Creators", ("anchor.fm", "spotifyforcreators", "spotify for creators")),
+    ("Ausha", ("ausha.co",)),
+    ("Acast", ("acast.com",)),
+    ("Podbean", ("podbean.com",)),
+    ("Buzzsprout", ("buzzsprout.com",)),
+    ("Libsyn", ("libsyn.com",)),
+    ("RSS.com", ("rss.com",)),
+    ("Simplecast", ("simplecast.com",)),
+    ("RedCircle", ("redcircle.com",)),
+    ("Captivate", ("captivate.fm",)),
+    ("Megaphone", ("megaphone.fm",)),
+    ("Transistor", ("transistor.fm",)),
+    ("Fireside", ("fireside.fm",)),
+    ("Audiomeans", ("audiomeans.fr",)),
+    ("Spreaker", ("spreaker.com", "pwop.com")),
+    ("Zencastr", ("zencastr.com",)),
+    ("Podhome", ("podhome.fm",)),
+    ("Riverside", ("riverside.com",)),
+    ("FeedBurner", ("feedburner.com",)),
+    ("Podigee", ("podigee.io",)),
+    ("Castos", ("castos.com",)),
+    ("Blubrry", ("blubrry.com",)),
+    ("Art19", ("art19.com",)),
+    ("Omny", ("omny.fm",)),
+    ("Podcastics", ("podcastics.com",)),
+    ("Substack", ("substack.com", "substackcdn.com")),
+]
+
+LISTENING_PLATFORMS: list[tuple[str, str]] = [
+    ("apple_podcast", "Apple Podcasts"),
+    ("spotify", "Spotify"),
+    ("youtube", "YouTube"),
+    ("deezer", "Deezer"),
+    ("pocket_casts", "Pocket Casts"),
+    ("podcast_addict", "Podcast Addict"),
+    ("amazon_music", "Amazon Music"),
+    ("castbox", "Castbox"),
 ]
 
 # Sujets normalisés (vocabulaire contrôlé) : mot-clé -> sujet.
@@ -247,6 +287,46 @@ def clean_text(value: Any, limit: int = 200) -> str | None:
     return cut.rstrip(" ,;:-") + "…"
 
 
+PROMO_SENTENCE_PATTERNS = (
+    r"\bHébergé par\b[^.!?]*[.!?]?",
+    r"\bHosted by\b[^.!?]*[.!?]?",
+    r"\bVisitez\b[^.!?]*[.!?]?",
+    r"\bVisit\b[^.!?]*[.!?]?",
+    r"\bLearn more\b[^.!?]*[.!?]?",
+    r"\bEn savoir plus\b[^.!?]*[.!?]?",
+)
+
+
+def clean_description(value: Any, limit: int = 260) -> str | None:
+    text_value = clean_text(value, 2000)
+    if not text_value:
+        return None
+    for pattern in PROMO_SENTENCE_PATTERNS:
+        text_value = re.sub(pattern, " ", text_value, flags=re.IGNORECASE)
+    text_value = re.sub(r"\s+", " ", text_value).strip(" ,;:-")
+    if not text_value:
+        return None
+    if len(text_value) <= limit:
+        return text_value
+
+    sentences = re.split(r"(?<=[.!?])\s+", text_value[: limit + 80])
+    kept: list[str] = []
+    for sentence in sentences:
+        candidate = " ".join(kept + [sentence])
+        if len(candidate) > limit and kept:
+            break
+        kept.append(sentence)
+        if len(candidate) >= limit * 0.6 and sentence.endswith((".", "!", "?")):
+            break
+    cut = " ".join(kept)
+    if len(cut) <= limit and len(cut) < len(text_value):
+        return cut
+    prefix = text_value[:limit]
+    if " " in prefix:
+        prefix = prefix.rsplit(" ", 1)[0]
+    return prefix.rstrip(" ,;:-") + "…"
+
+
 def as_list(value: Any) -> list[str]:
     if value is None:
         return []
@@ -356,7 +436,7 @@ def apple_community_rating(url: str | None) -> tuple[float | None, int | None]:
             value, count = match.group(1), int(match.group(2))
         else:
             count, value = int(match.group(1)), match.group(2)
-        if count <= 0:
+        if count < 5:
             continue
         try:
             return round(float(value), 1), count
@@ -683,6 +763,24 @@ def extract_episodes(feed_entries: list[Any]) -> list[dict[str, Any]]:
     return episodes
 
 
+def classify_frequency(days: int | float | None) -> str | None:
+    if days is None:
+        return None
+    if days <= 2:
+        return "daily"
+    if days <= 10:
+        return "weekly"
+    if days <= 17:
+        return "biweekly"
+    if days <= 45:
+        return "monthly"
+    if days <= 90:
+        return "bimonthly"
+    if days <= 120:
+        return "quarterly"
+    return "irregular"
+
+
 def compute_frequency(episodes: list[dict[str, Any]]) -> tuple[str | None, int | None]:
     dates = sorted(
         {
@@ -702,19 +800,7 @@ def compute_frequency(episodes: list[dict[str, Any]]) -> tuple[str | None, int |
     if not gaps:
         return None, None
     days = round(statistics.median(gaps[:12]))
-    if days <= 3:
-        frequency = "daily"
-    elif days <= 10:
-        frequency = "weekly"
-    elif days <= 21:
-        frequency = "biweekly"
-    elif days <= 45:
-        frequency = "monthly"
-    elif days <= 120:
-        frequency = "quarterly"
-    else:
-        frequency = "irregular"
-    return frequency, days
+    return classify_frequency(days), days
 
 
 def feed_image(feed_meta: Any, feed_entries: list[Any]) -> str | None:
@@ -760,6 +846,22 @@ def detect_platform(hints: list[str]) -> str | None:
         if any(needle in haystack for needle in needles):
             return name
     return None
+
+
+def detect_hosting_platform(rss_url: str | None, generator: str | None = None) -> str | None:
+    haystack = " ".join(filter(None, [rss_url or "", generator or ""])).lower()
+    for name, needles in HOSTING_PLATFORMS:
+        if any(needle in haystack for needle in needles):
+            return name
+    return None
+
+
+def detect_listening_platforms(links: dict[str, str | None]) -> list[str]:
+    return [
+        label
+        for field, label in LISTENING_PLATFORMS
+        if links.get(field)
+    ]
 
 
 _KEYWORD_PATTERNS: dict[str, re.Pattern[str]] = {}
@@ -874,6 +976,8 @@ FALLBACK_FIELDS = (
     "community_rating",
     "community_rating_count",
     "platform",
+    "hosting_platform",
+    "listening_platforms",
     "hosts",
     "topics",
     "tags",
@@ -990,7 +1094,7 @@ def enrich_one(seed: dict[str, Any], previous: dict[str, Any]) -> dict[str, Any]
         or clean_text(feed_meta.get("summary"))
         or clean_text(feed_meta.get("description"))
     )
-    description = clean_text(description)
+    description = clean_description(description)
 
     categories = dedupe(as_list(seed.get("category")))
     feed_categories = [c.get("term", "") for c in feed_meta.get("tags", []) if isinstance(c, dict)]
@@ -1013,13 +1117,22 @@ def enrich_one(seed: dict[str, Any], previous: dict[str, Any]) -> dict[str, Any]
     if not apple_url:
         apple_url = discovered_links.get("apple_podcast")
 
-    hints = [rss_url or "", website or "", feed_meta.get("generator", "")]
-    hints.extend(value for value in discovered_links.values() if value)
-    if feed_entries:
-        hints.append(str(feed_entries[0].get("id", "")))
-        for link in feed_entries[0].get("links", []):
-            hints.append(link.get("href", ""))
-    platform = seed.get("platform") or detect_platform(hints) or "autre"
+    generator = str(feed_meta.get("generator") or "")
+    hosting_platform = (
+        seed.get("hosting_platform")
+        or detect_hosting_platform(rss_url, generator)
+        or detect_hosting_platform(seed.get("rss"), generator)
+        or detect_platform([rss_url or "", generator])
+    )
+    if hosting_platform in {"Spotify", "YouTube", "Deezer", "Castbox"}:
+        hosting_platform = seed.get("platform") if seed.get("platform") not in {"Spotify", "YouTube", "Deezer", "Castbox", "autre"} else None
+    if hosting_platform == "Anchor":
+        hosting_platform = "Spotify for Creators"
+    listening_platforms = dedupe(
+        as_list(seed.get("listening_platforms"))
+        or detect_listening_platforms(discovered_links)
+    )
+    platform = hosting_platform or "autre"
 
     feed_author = feed_meta.get("author")
     if not feed_author:
@@ -1037,6 +1150,9 @@ def enrich_one(seed: dict[str, Any], previous: dict[str, Any]) -> dict[str, Any]
             rating = apple_rating
         if rating_count is None:
             rating_count = apple_count
+    if rating_count is not None and int(rating_count) < 5:
+        rating = None
+        rating_count = None
 
     youtube = seed.get("youtube") or discovered_links.get("youtube")
     spotify = seed.get("spotify") or discovered_links.get("spotify")
@@ -1099,6 +1215,8 @@ def enrich_one(seed: dict[str, Any], previous: dict[str, Any]) -> dict[str, Any]
             int(rating_count) if rating_count is not None else None
         ),
         "platform": platform,
+        "hosting_platform": hosting_platform,
+        "listening_platforms": listening_platforms,
         "topics": topics,
         "tags": tags,
     }

@@ -134,19 +134,19 @@
 
     var config = window.CYBERPODCAST_CONFIG || {};
     var defaults = Object.assign({
-      category: 'Cybersécurité',
       language: 'fr',
       status: 'active',
-      platform: '',
+      host: '',
+      listen: '',
       sort: 'last'
     }, config.defaults || {});
 
     var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
     var search = document.getElementById('search');
-    var category = document.getElementById('filter-category');
+    var host = document.getElementById('filter-host');
+    var listen = document.getElementById('filter-listen');
     var status = document.getElementById('filter-status');
     var language = document.getElementById('filter-language');
-    var platform = document.getElementById('filter-platform');
     var sort = document.getElementById('sort');
     var reset = document.getElementById('reset');
     var emptyReset = document.getElementById('empty-reset');
@@ -165,14 +165,16 @@
     }
 
     search.value = params.get('q') || '';
-    category.value = paramOr('category', defaults.category);
+    host.value = paramOr('host', defaults.host);
+    listen.value = paramOr('listen', defaults.listen);
     status.value = paramOr('status', defaults.status);
     language.value = paramOr('language', defaults.language);
-    platform.value = paramOr('platform', defaults.platform);
     sort.value = params.get('sort') || defaults.sort;
     params.getAll('topic').forEach(function (topic) {
       if (topic) selectedTopics.add(topic);
     });
+    var legacyCategory = params.get('category');
+    if (legacyCategory) selectedTopics.add(legacyCategory);
     var topicList = params.get('topics');
     if (topicList) {
       topicList.split(',').forEach(function (topic) {
@@ -180,9 +182,28 @@
       });
     }
 
+    function baseMatch(card, query, selectedStatus, selectedLanguage, selectedHost, selectedListen) {
+      return (!query || normalize(card.dataset.search).includes(query)) &&
+        (!selectedStatus || card.dataset.status === selectedStatus) &&
+        (!selectedLanguage || card.dataset.language === selectedLanguage) &&
+        (!selectedHost || card.dataset.host === selectedHost) &&
+        (!selectedListen || (card.dataset.listen || '').split('|').includes(selectedListen));
+    }
+
     function syncTopicButtons() {
+      var query = normalize(search.value.trim());
+      var counts = {};
+      cards.forEach(function (card) {
+        if (!baseMatch(card, query, status.value, language.value, host.value, listen.value)) return;
+        (card.dataset.topics || '').split('|').filter(Boolean).forEach(function (topic) {
+          counts[topic] = (counts[topic] || 0) + 1;
+        });
+      });
       topicButtons.forEach(function (button) {
-        var active = selectedTopics.has(button.dataset.topicFilter || '');
+        var topic = button.dataset.topicFilter || '';
+        var active = selectedTopics.has(topic);
+        var span = button.querySelector('span');
+        if (span) span.textContent = String(counts[topic] || 0);
         button.classList.toggle('is-active', active);
         button.setAttribute('aria-pressed', String(active));
       });
@@ -191,10 +212,10 @@
     function syncUrl() {
       var next = new URLSearchParams();
       if (search.value.trim()) next.set('q', search.value.trim());
-      if (category.value !== defaults.category) next.set('category', category.value);
       if (status.value !== defaults.status) next.set('status', status.value);
       if (language.value !== defaults.language) next.set('language', language.value);
-      if (platform.value) next.set('platform', platform.value);
+      if (host.value) next.set('host', host.value);
+      if (listen.value) next.set('listen', listen.value);
       if (sort.value !== defaults.sort) next.set('sort', sort.value);
       selectedTopics.forEach(function (topic) { next.append('topic', topic); });
       var query = next.toString();
@@ -206,20 +227,15 @@
 
     function apply() {
       var query = normalize(search.value.trim());
-      var selectedCategory = category.value;
       var selectedStatus = status.value;
       var selectedLanguage = language.value;
-      var selectedPlatform = platform.value;
+      var selectedHost = host.value;
+      var selectedListen = listen.value;
       var visible = new Set();
 
       cards.forEach(function (card) {
         var cardTopics = (card.dataset.topics || '').split('|').filter(Boolean);
-        var matches =
-          (!query || normalize(card.dataset.search).includes(query)) &&
-          (!selectedCategory || (card.dataset.category || '').split('|').includes(selectedCategory)) &&
-          (!selectedStatus || card.dataset.status === selectedStatus) &&
-          (!selectedLanguage || card.dataset.language === selectedLanguage) &&
-          (!selectedPlatform || card.dataset.platform === selectedPlatform) &&
+        var matches = baseMatch(card, query, selectedStatus, selectedLanguage, selectedHost, selectedListen) &&
           (!selectedTopics.size || cardTopics.some(function (topic) { return selectedTopics.has(topic); }));
         if (matches) visible.add(card);
       });
@@ -251,11 +267,11 @@
       count.textContent = n + ' podcast' + (n > 1 ? 's' : '');
       var filters = [];
       if (query) filters.push('recherche « ' + search.value.trim() + ' »');
-      if (selectedCategory) filters.push(selectedCategory);
+      if (selectedHost) filters.push('hébergeur : ' + selectedHost);
+      if (selectedListen) filters.push('écoute : ' + selectedListen);
       if (selectedStatus) filters.push(statusLabel(selectedStatus));
       if (selectedLanguage) filters.push(languageLabel(selectedLanguage));
-      if (selectedPlatform) filters.push(selectedPlatform === 'autre' ? 'Autre' : selectedPlatform);
-      if (selectedTopics.size) filters.push('sujets : ' + Array.from(selectedTopics).join(', '));
+      if (selectedTopics.size) filters.push('taxonomie : ' + Array.from(selectedTopics).join(', '));
       activeFilters.textContent = filters.length ? filters.join(' · ') : 'tous les podcasts';
       empty.hidden = n !== 0;
       syncTopicButtons();
@@ -272,17 +288,17 @@
 
     function resetFilters() {
       search.value = '';
-      category.value = '';
+      host.value = '';
+      listen.value = '';
       status.value = '';
       language.value = '';
-      platform.value = '';
       sort.value = defaults.sort;
       selectedTopics.clear();
       apply();
       search.focus();
     }
 
-    [search, category, status, language, platform, sort].forEach(function (element) {
+    [search, host, listen, status, language, sort].forEach(function (element) {
       element.addEventListener('input', apply);
       element.addEventListener('change', apply);
     });
@@ -290,11 +306,9 @@
     topicButtons.forEach(function (button) {
       button.addEventListener('click', function () {
         var topic = button.dataset.topicFilter || '';
-        if (!selectedTopics.size && !search.value.trim() && !platform.value &&
-            category.value === defaults.category &&
+        if (!selectedTopics.size && !search.value.trim() && !host.value && !listen.value &&
             status.value === defaults.status &&
             language.value === defaults.language) {
-          category.value = '';
           status.value = '';
           language.value = '';
         }

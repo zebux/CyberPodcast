@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T08:21:18.560041+00:00",
+  "generated_at": "2026-11-17T12:49:35.356525+00:00",
   "site": "https://cyberpodcast.fr/",
   "count": 86,
   "podcasts": [
@@ -114,9 +114,9 @@
       "episode_count": 11,
       "average_duration": 59,
       "status": "slow",
-      "community_rating": 5.0,
-      "community_rating_count": 3,
-      "platform": "Spotify",
+      "community_rating": null,
+      "community_rating_count": null,
+      "platform": "Transistor",
       "topics": [
         "Cloud",
         "Kubernetes",
@@ -125,6 +125,14 @@
       "tags": [
         "Kubernetes",
         "CNCF"
+      ],
+      "hosting_platform": "Transistor",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict",
+        "Amazon Music"
       ]
     },
     {
@@ -247,6 +255,11 @@
       ],
       "tags": [
         "Azure"
+      ],
+      "hosting_platform": "Acast",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "YouTube"
       ]
     },
     {
@@ -349,7 +362,7 @@
       "status": "archived",
       "community_rating": null,
       "community_rating_count": null,
-      "platform": "Anchor",
+      "platform": "Spotify for Creators",
       "topics": [
         "Cloud",
         "AWS",
@@ -360,6 +373,12 @@
         "Azure",
         "AWS",
         "GCP"
+      ],
+      "hosting_platform": "Spotify for Creators",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -492,6 +511,12 @@
         "GitLab",
         "CNCF",
         "OpenStack"
+      ],
+      "hosting_platform": "Acast",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -519,7 +544,7 @@
       "castbox": null,
       "image": "https://static.audiomeans.fr/img/podcast/6d33de64-9124-475c-9be7-b4a249107108.jpg",
       "author": "Expertime",
-      "description": "Les Têtes Dans Le Cloud, un condensé de news tech fortement influencé par l'écosystème Microsoft et animé par des passionnés ! Hébergé par Audiomeans. Visitez…",
+      "description": "Les Têtes Dans Le Cloud, un condensé de news tech fortement influencé par l'écosystème Microsoft et animé par des passionnés !",
       "last_episode": "2026-11-12",
       "last_episode_title": "Capacité F0 : La Puissance de Fabric sans limite ! (+ Gestion de capacité & Fabric Apps)",
       "last_episode_url": null,
@@ -613,6 +638,12 @@
       ],
       "tags": [
         "Azure"
+      ],
+      "hosting_platform": "Audiomeans",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -683,7 +714,7 @@
           "duration": 45
         }
       ],
-      "frequency": "quarterly",
+      "frequency": "bimonthly",
       "frequency_days": 61,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-17",
@@ -692,7 +723,7 @@
       "status": "active",
       "community_rating": null,
       "community_rating_count": null,
-      "platform": "Anchor",
+      "platform": "Spotify for Creators",
       "topics": [
         "Cloud",
         "DevOps",
@@ -700,6 +731,12 @@
       ],
       "tags": [
         "CNCF"
+      ],
+      "hosting_platform": "Spotify for Creators",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Podcast Addict"
       ]
     },
     {
@@ -728,7 +765,7 @@
       "castbox": null,
       "image": "https://static.libsyn.com/p/assets/a/3/a/a/a3aa4f08236059f5e55e3c100dce7605/NewKPodRoboWhite-20240924-1zwoxpn1sl.png",
       "author": "Kubernetes Podcast from Google",
-      "description": "A biweekly podcast focused on what's happening in the Kubernetes community hosted by Abdel Sghiouar and Kaslin Fields. We cover Kubernetes, cloud-native applications, and other developments in the…",
+      "description": "A biweekly podcast focused on what's happening in the Kubernetes community We cover Kubernetes, cloud-native applications, and other developments in the…",
       "last_episode": "2026-09-03",
       "last_episode_title": "Agent Substrate, with Tim Hockin and Brandon Royal",
       "last_episode_url": "https://e780d51f-f115-44a6-8252-aed9216bb521.libsyn.com/agent-sandbox-with-tim-hockin-and-brandon-royal",
@@ -823,6 +860,13 @@
       "tags": [
         "Kubernetes",
         "CNCF"
+      ],
+      "hosting_platform": "Libsyn",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -950,6 +994,13 @@
         "LLM",
         "OpenAI",
         "Anthropic"
+      ],
+      "hosting_platform": "Buzzsprout",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -1065,7 +1116,7 @@
       "status": "active",
       "community_rating": 4.6,
       "community_rating_count": 68,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "DevOps"
       ],
@@ -1073,6 +1124,13 @@
         "Technology",
         "Software How-To",
         "Tech News"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Pocket Casts",
+        "Podcast Addict"
       ]
     },
     {
@@ -1190,7 +1248,7 @@
       "status": "active",
       "community_rating": 4.7,
       "community_rating_count": 69,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Cloud",
         "Kubernetes",
@@ -1199,6 +1257,15 @@
       ],
       "tags": [
         "Kubernetes"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Castbox"
       ]
     },
     {
@@ -1326,6 +1393,11 @@
         "networks",
         "IT",
         "infrastructure"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -1448,6 +1520,11 @@
       ],
       "tags": [
         "AWS"
+      ],
+      "hosting_platform": "Transistor",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Podcast Addict"
       ]
     },
     {
@@ -1562,7 +1639,7 @@
       "status": "slow",
       "community_rating": 4.3,
       "community_rating_count": 202,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Cybersécurité",
         "Cloud",
@@ -1570,6 +1647,15 @@
       ],
       "tags": [
         "AWS"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Amazon Music",
+        "Castbox"
       ]
     },
     {
@@ -1685,13 +1771,21 @@
       "status": "slow",
       "community_rating": 4.6,
       "community_rating_count": 44,
-      "platform": "Spotify",
+      "platform": "FeedBurner",
       "topics": [
         "Cloud",
         "Azure"
       ],
       "tags": [
         "Azure"
+      ],
+      "hosting_platform": "FeedBurner",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict",
+        "Amazon Music"
       ]
     },
     {
@@ -1798,7 +1892,7 @@
           "duration": 32
         }
       ],
-      "frequency": "biweekly",
+      "frequency": "monthly",
       "frequency_days": 21,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-17",
@@ -1814,6 +1908,13 @@
       ],
       "tags": [
         "GCP"
+      ],
+      "hosting_platform": "Libsyn",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -1930,7 +2031,7 @@
       "status": "active",
       "community_rating": 5.0,
       "community_rating_count": 57,
-      "platform": "Anchor",
+      "platform": "Spotify for Creators",
       "topics": [
         "Cybersécurité",
         "Cloud Security",
@@ -1944,6 +2045,13 @@
         "Azure",
         "AWS",
         "GCP"
+      ],
+      "hosting_platform": "Spotify for Creators",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -2059,7 +2167,7 @@
       "status": "active",
       "community_rating": 4.3,
       "community_rating_count": 17,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Cloud",
         "AWS",
@@ -2070,6 +2178,14 @@
       "tags": [
         "Azure",
         "AWS"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict"
       ]
     },
     {
@@ -2185,7 +2301,7 @@
       "status": "active",
       "community_rating": 4.8,
       "community_rating_count": 26,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Cloud",
         "Architecture"
@@ -2197,6 +2313,14 @@
         "CTO",
         "strategy",
         "leadership"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict"
       ]
     },
     {
@@ -2226,7 +2350,7 @@
       "castbox": null,
       "image": "https://hosting-media.riverside.com/media/imports/podcasts/985a8bcc-7937-4ce0-9e5f-8bfb400c6a5f/english.jpg",
       "author": "Red Hat",
-      "description": "Hear the epic true tales of how developers, programmers, hackers, geeks, and open source rebels are revolutionizing the technology landscape. Command Line Heroes is an award-winning podcast hosted by…",
+      "description": "Hear the epic true tales of how developers, programmers, hackers, geeks, and open source rebels are revolutionizing the technology landscape. Command Line Heroes is an award-winning podcast",
       "last_episode": "2022-05-31",
       "last_episode_title": "All Together Now",
       "last_episode_url": "https://www.redhat.com/en/command-line-heroes/season-9/all-together-now",
@@ -2313,7 +2437,7 @@
       "status": "archived",
       "community_rating": 4.6,
       "community_rating_count": 450,
-      "platform": "Spotify",
+      "platform": "Riverside",
       "topics": [
         "Linux",
         "DevOps",
@@ -2323,6 +2447,13 @@
       "tags": [
         "Society & Culture",
         "Technology"
+      ],
+      "hosting_platform": "Riverside",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -2440,7 +2571,7 @@
       "status": "archived",
       "community_rating": 4.5,
       "community_rating_count": 202,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Linux",
         "Open Source",
@@ -2450,6 +2581,15 @@
         "Technology",
         "News",
         "Tech News"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Castbox"
       ]
     },
     {
@@ -2566,7 +2706,7 @@
       "status": "slow",
       "community_rating": 4.8,
       "community_rating_count": 144,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Reverse Engineering",
         "Cloud",
@@ -2575,6 +2715,15 @@
       ],
       "tags": [
         "Homelab"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Castbox"
       ]
     },
     {
@@ -2689,7 +2838,7 @@
       "status": "active",
       "community_rating": 4.6,
       "community_rating_count": 168,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Linux",
         "Open Source",
@@ -2698,6 +2847,13 @@
       "tags": [
         "News",
         "Tech News"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -2813,7 +2969,7 @@
       "status": "active",
       "community_rating": 4.5,
       "community_rating_count": 293,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Linux",
         "DevOps"
@@ -2822,6 +2978,15 @@
         "Technology",
         "News",
         "Tech News"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Castbox"
       ]
     },
     {
@@ -2947,6 +3112,11 @@
         "Tech News",
         "Education",
         "How To"
+      ],
+      "hosting_platform": "Fireside",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Podcast Addict"
       ]
     },
     {
@@ -3062,7 +3232,7 @@
       "status": "active",
       "community_rating": null,
       "community_rating_count": null,
-      "platform": "Anchor",
+      "platform": "Spotify for Creators",
       "topics": [
         "Cloud",
         "IA",
@@ -3072,6 +3242,12 @@
         "Cloud",
         "IA",
         "Tech"
+      ],
+      "hosting_platform": "Spotify for Creators",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube"
       ]
     },
     {
@@ -3155,7 +3331,7 @@
           "duration": 4
         }
       ],
-      "frequency": "biweekly",
+      "frequency": "monthly",
       "frequency_days": 21,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-17",
@@ -3172,6 +3348,15 @@
         "Technology",
         "News",
         "Tech News"
+      ],
+      "hosting_platform": "Ausha",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Amazon Music",
+        "Castbox"
       ]
     },
     {
@@ -3284,8 +3469,8 @@
       "episode_count": 87,
       "average_duration": 10,
       "status": "active",
-      "community_rating": 5.0,
-      "community_rating_count": 2,
+      "community_rating": null,
+      "community_rating_count": null,
       "platform": "Ausha",
       "topics": [
         "Cybersécurité",
@@ -3295,6 +3480,15 @@
         "Business",
         "Education",
         "Self-Improvement"
+      ],
+      "hosting_platform": "Ausha",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict",
+        "Amazon Music",
+        "Castbox"
       ]
     },
     {
@@ -3408,12 +3602,18 @@
       "status": "slow",
       "community_rating": null,
       "community_rating_count": null,
-      "platform": "Anchor",
+      "platform": "Spotify for Creators",
       "topics": [
         "Cybersécurité"
       ],
       "tags": [
         "Technology"
+      ],
+      "hosting_platform": "Spotify for Creators",
+      "listening_platforms": [
+        "Spotify",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -3518,7 +3718,7 @@
           "duration": 26
         }
       ],
-      "frequency": "quarterly",
+      "frequency": "bimonthly",
       "frequency_days": 63,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-17",
@@ -3535,6 +3735,13 @@
         "Technology",
         "News",
         "Tech News"
+      ],
+      "hosting_platform": "RedCircle",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Deezer",
+        "Podcast Addict"
       ]
     },
     {
@@ -3639,7 +3846,7 @@
           "duration": 5
         }
       ],
-      "frequency": "quarterly",
+      "frequency": "bimonthly",
       "frequency_days": 49,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-17",
@@ -3656,6 +3863,16 @@
         "Technology",
         "News",
         "Tech News"
+      ],
+      "hosting_platform": "Ausha",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Amazon Music",
+        "Castbox"
       ]
     },
     {
@@ -3732,14 +3949,20 @@
       "episode_count": 5,
       "average_duration": 28,
       "status": "active",
-      "community_rating": 5.0,
-      "community_rating_count": 4,
-      "platform": "Spotify",
+      "community_rating": null,
+      "community_rating_count": null,
+      "platform": "autre",
       "topics": [
         "Cybersécurité"
       ],
       "tags": [
         "Cybersécurité"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Podcast Addict"
       ]
     },
     {
@@ -3853,12 +4076,22 @@
       "status": "active",
       "community_rating": 5.0,
       "community_rating_count": 10,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Cybersécurité"
       ],
       "tags": [
         "Cybersécurité"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Deezer",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Amazon Music"
       ]
     },
     {
@@ -3972,12 +4205,19 @@
       "status": "active",
       "community_rating": 4.8,
       "community_rating_count": 23,
-      "platform": "Anchor",
+      "platform": "Spotify for Creators",
       "topics": [
         "Cybersécurité"
       ],
       "tags": [
         "Technology"
+      ],
+      "hosting_platform": "Spotify for Creators",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Podcast Addict",
+        "Amazon Music"
       ]
     },
     {
@@ -4097,6 +4337,12 @@
       ],
       "tags": [
         "Technology"
+      ],
+      "hosting_platform": "Ausha",
+      "listening_platforms": [
+        "Spotify",
+        "Podcast Addict",
+        "Amazon Music"
       ]
     },
     {
@@ -4208,8 +4454,8 @@
       "episode_count": 23,
       "average_duration": 22,
       "status": "active",
-      "community_rating": 4.5,
-      "community_rating_count": 4,
+      "community_rating": null,
+      "community_rating_count": null,
       "platform": "Ausha",
       "topics": [
         "Cybersécurité",
@@ -4219,6 +4465,12 @@
         "News",
         "Tech News",
         "Technology"
+      ],
+      "hosting_platform": "Ausha",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -4330,8 +4582,8 @@
       "episode_count": 60,
       "average_duration": 27,
       "status": "active",
-      "community_rating": 5.0,
-      "community_rating_count": 1,
+      "community_rating": null,
+      "community_rating_count": null,
       "platform": "Ausha",
       "topics": [
         "Cybersécurité"
@@ -4340,6 +4592,14 @@
         "News",
         "News Commentary",
         "Tech News"
+      ],
+      "hosting_platform": "Ausha",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict",
+        "Amazon Music"
       ]
     },
     {
@@ -4461,6 +4721,15 @@
         "Technology",
         "Education",
         "Self-Improvement"
+      ],
+      "hosting_platform": "Ausha",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Amazon Music",
+        "Castbox"
       ]
     },
     {
@@ -4590,6 +4859,11 @@
         "Technology",
         "Science",
         "Social Sciences"
+      ],
+      "hosting_platform": "Acast",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Podcast Addict"
       ]
     },
     {
@@ -4704,7 +4978,7 @@
       "status": "archived",
       "community_rating": 5.0,
       "community_rating_count": 119,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Cybersécurité",
         "Juridique"
@@ -4712,6 +4986,13 @@
       "tags": [
         "Cybersécurité",
         "Juridique"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Deezer",
+        "Podcast Addict"
       ]
     },
     {
@@ -4835,6 +5116,12 @@
         "Self-Improvement",
         "Business",
         "Entrepreneurship"
+      ],
+      "hosting_platform": "Ausha",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Podcast Addict"
       ]
     },
     {
@@ -4951,6 +5238,10 @@
         "Clusif",
         "Déjargonneur",
         "Technology"
+      ],
+      "hosting_platform": "Acast",
+      "listening_platforms": [
+        "Podcast Addict"
       ]
     },
     {
@@ -5064,7 +5355,7 @@
       "status": "active",
       "community_rating": 4.7,
       "community_rating_count": 34,
-      "platform": "Spotify",
+      "platform": "Audiomeans",
       "topics": [
         "Cybersécurité",
         "Malware"
@@ -5094,6 +5385,14 @@
         "défense",
         "France",
         "Technology"
+      ],
+      "hosting_platform": "Audiomeans",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict"
       ]
     },
     {
@@ -5179,7 +5478,9 @@
         "technologies",
         "Business",
         "Technology"
-      ]
+      ],
+      "hosting_platform": "Audiomeans",
+      "listening_platforms": []
     },
     {
       "id": "lets-talk-about-sec",
@@ -5283,21 +5584,30 @@
           "duration": 58
         }
       ],
-      "frequency": "quarterly",
+      "frequency": "bimonthly",
       "frequency_days": 51,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-17",
       "episode_count": 16,
       "average_duration": 55,
       "status": "active",
-      "community_rating": 5.0,
-      "community_rating_count": 4,
+      "community_rating": null,
+      "community_rating_count": null,
       "platform": "Ausha",
       "topics": [
         "Cybersécurité"
       ],
       "tags": [
         "HarfangLab"
+      ],
+      "hosting_platform": "Ausha",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Amazon Music",
+        "Castbox"
       ]
     },
     {
@@ -5418,6 +5728,11 @@
       "tags": [
         "News",
         "Tech News"
+      ],
+      "hosting_platform": "Blubrry",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Podcast Addict"
       ]
     },
     {
@@ -5546,6 +5861,12 @@
         "Technology",
         "Education",
         "How To"
+      ],
+      "hosting_platform": "Acast",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -5657,14 +5978,24 @@
       "episode_count": 869,
       "average_duration": 44,
       "status": "active",
-      "community_rating": 5.0,
-      "community_rating_count": 2,
-      "platform": "Spotify",
+      "community_rating": null,
+      "community_rating_count": null,
+      "platform": "autre",
       "topics": [
         "Cybersécurité"
       ],
       "tags": [
         "Cybersécurité"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Amazon Music",
+        "Castbox"
       ]
     },
     {
@@ -5797,6 +6128,11 @@
         "Technology",
         "News",
         "Tech News"
+      ],
+      "hosting_platform": "Acast",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Podcast Addict"
       ]
     },
     {
@@ -5920,6 +6256,11 @@
         "Tech News",
         "Technology",
         "Daily News"
+      ],
+      "hosting_platform": "Podcastics",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Podcast Addict"
       ]
     },
     {
@@ -6041,6 +6382,16 @@
         "News",
         "Tech News",
         "Politics"
+      ],
+      "hosting_platform": "Ausha",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Amazon Music",
+        "Castbox"
       ]
     },
     {
@@ -6098,13 +6449,19 @@
       "status": "archived",
       "community_rating": null,
       "community_rating_count": null,
-      "platform": "Anchor",
+      "platform": "Spotify for Creators",
       "topics": [
         "Cybersécurité"
       ],
       "tags": [
         "Society & Culture",
         "Personal Journals"
+      ],
+      "hosting_platform": "Spotify for Creators",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Podcast Addict"
       ]
     },
     {
@@ -6218,7 +6575,7 @@
       "status": "active",
       "community_rating": null,
       "community_rating_count": null,
-      "platform": "YouTube",
+      "platform": "autre",
       "topics": [
         "Cybersécurité",
         "Pentest",
@@ -6226,6 +6583,10 @@
       ],
       "tags": [
         "Cybersécurité"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "YouTube"
       ]
     },
     {
@@ -6340,13 +6701,19 @@
       "status": "slow",
       "community_rating": null,
       "community_rating_count": null,
-      "platform": "Anchor",
+      "platform": "Spotify for Creators",
       "topics": [
         "Cybersécurité",
         "Cloud"
       ],
       "tags": [
         "Technology"
+      ],
+      "hosting_platform": "Spotify for Creators",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Podcast Addict"
       ]
     },
     {
@@ -6476,6 +6843,13 @@
         "Technology",
         "News",
         "Tech News"
+      ],
+      "hosting_platform": "Acast",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Pocket Casts",
+        "Podcast Addict"
       ]
     },
     {
@@ -6600,6 +6974,12 @@
       ],
       "tags": [
         "Cybersécurité"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -6719,6 +7099,12 @@
       ],
       "tags": [
         "Arts"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Podcast Addict"
       ]
     },
     {
@@ -6797,7 +7183,7 @@
       "status": "archived",
       "community_rating": 5.0,
       "community_rating_count": 5,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Cybersécurité"
       ],
@@ -6815,6 +7201,14 @@
         "ISO27005",
         "ISO19011",
         "Technology"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Deezer",
+        "Podcast Addict"
       ]
     },
     {
@@ -6917,6 +7311,11 @@
         "Technology",
         "True Crime",
         "Society & Culture"
+      ],
+      "hosting_platform": "Acast",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Podcast Addict"
       ]
     },
     {
@@ -7008,7 +7407,7 @@
           "duration": 51
         }
       ],
-      "frequency": "quarterly",
+      "frequency": "bimonthly",
       "frequency_days": 71,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-17",
@@ -7017,7 +7416,7 @@
       "status": "archived",
       "community_rating": null,
       "community_rating_count": null,
-      "platform": "Anchor",
+      "platform": "Spotify for Creators",
       "topics": [
         "Cybersécurité",
         "OSINT"
@@ -7025,6 +7424,12 @@
       "tags": [
         "News",
         "Tech News"
+      ],
+      "hosting_platform": "Spotify for Creators",
+      "listening_platforms": [
+        "Spotify",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -7139,7 +7544,7 @@
       "status": "active",
       "community_rating": 4.8,
       "community_rating_count": 174,
-      "platform": "Spotify",
+      "platform": "Audiomeans",
       "topics": [
         "Développement",
         "Architecture"
@@ -7149,6 +7554,14 @@
         "technology",
         "computer programming",
         "dev"
+      ],
+      "hosting_platform": "Audiomeans",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Deezer",
+        "Podcast Addict"
       ]
     },
     {
@@ -7273,6 +7686,12 @@
       ],
       "tags": [
         "Java"
+      ],
+      "hosting_platform": "Libsyn",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -7396,6 +7815,16 @@
         "Technology",
         "News",
         "Tech News"
+      ],
+      "hosting_platform": "Ausha",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Amazon Music",
+        "Castbox"
       ]
     },
     {
@@ -7502,7 +7931,7 @@
           "duration": 87
         }
       ],
-      "frequency": "daily",
+      "frequency": "weekly",
       "frequency_days": 3,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-17",
@@ -7532,6 +7961,13 @@
         "News",
         "Politics",
         "Tech News"
+      ],
+      "hosting_platform": "Audiomeans",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -7646,7 +8082,7 @@
       "status": "active",
       "community_rating": 5.0,
       "community_rating_count": 30,
-      "platform": "Spotify",
+      "platform": "Zencastr",
       "topics": [
         "Développement",
         "Architecture"
@@ -7661,6 +8097,15 @@
         "Technology",
         "News",
         "Tech News"
+      ],
+      "hosting_platform": "Zencastr",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Castbox"
       ]
     },
     {
@@ -7775,13 +8220,22 @@
       "status": "active",
       "community_rating": 4.5,
       "community_rating_count": 72,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Développement",
         "JavaScript"
       ],
       "tags": [
         "JavaScript"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Amazon Music"
       ]
     },
     {
@@ -7907,6 +8361,11 @@
         "How To",
         "Business",
         "Careers"
+      ],
+      "hosting_platform": "Libsyn",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Podcast Addict"
       ]
     },
     {
@@ -8021,7 +8480,7 @@
       "status": "active",
       "community_rating": 4.4,
       "community_rating_count": 622,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Développement",
         "Architecture"
@@ -8030,6 +8489,13 @@
         "News",
         "Tech News",
         "Technology"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -8161,6 +8627,12 @@
         "change log",
         "software engineering",
         "Technology"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -8276,13 +8748,20 @@
       "status": "active",
       "community_rating": 4.8,
       "community_rating_count": 106,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Développement",
         "C++"
       ],
       "tags": [
         "C++"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Pocket Casts",
+        "Podcast Addict"
       ]
     },
     {
@@ -8405,6 +8884,11 @@
       ],
       "tags": [
         ".NET"
+      ],
+      "hosting_platform": "Spreaker",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Podcast Addict"
       ]
     },
     {
@@ -8526,6 +9010,11 @@
       ],
       "tags": [
         "Python"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Podcast Addict"
       ]
     },
     {
@@ -8646,6 +9135,11 @@
       ],
       "tags": [
         "Python"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Podcast Addict"
       ]
     },
     {
@@ -8672,7 +9166,7 @@
       "castbox": "https://castbox.fm/vic/1501905538",
       "image": "https://files.realpython.com/media/real-python-logo-square.28474fda9228.png",
       "author": "Real Python",
-      "description": "A weekly Python podcast hosted by Christopher Bailey with interviews, coding tips, and conversation with guests from the Python community. The show covers a wide range of topics including Python…",
+      "description": "A weekly Python podcast The show covers a wide range of topics including Python…",
       "last_episode": "2026-11-13",
       "last_episode_title": "Mentoring Developers Beyond the Code With Tim Schilling",
       "last_episode_url": "https://realpython.com/podcasts/rpp/319/",
@@ -8759,7 +9253,7 @@
       "status": "active",
       "community_rating": 4.7,
       "community_rating_count": 144,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Open Source",
         "Développement",
@@ -8768,6 +9262,15 @@
       ],
       "tags": [
         "Python"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Castbox"
       ]
     },
     {
@@ -8901,6 +9404,12 @@
         "Docker",
         "Go",
         "CNCF"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -9014,13 +9523,21 @@
       "status": "slow",
       "community_rating": 4.4,
       "community_rating_count": 233,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Développement",
         "JavaScript"
       ],
       "tags": [
         "JavaScript"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict",
+        "Amazon Music"
       ]
     },
     {
@@ -9143,6 +9660,11 @@
       "tags": [
         "JavaScript",
         "React"
+      ],
+      "hosting_platform": "Simplecast",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Podcast Addict"
       ]
     },
     {
@@ -9267,6 +9789,12 @@
       ],
       "tags": [
         "Angular"
+      ],
+      "hosting_platform": "Spreaker",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube"
       ]
     },
     {
@@ -9381,13 +9909,22 @@
       "status": "active",
       "community_rating": 4.4,
       "community_rating_count": 7,
-      "platform": "Spotify",
+      "platform": "Podhome",
       "topics": [
         "IA"
       ],
       "tags": [
         "Technology",
         "Education"
+      ],
+      "hosting_platform": "Podhome",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Amazon Music",
+        "Castbox"
       ]
     },
     {
@@ -9502,7 +10039,7 @@
       "status": "active",
       "community_rating": 4.3,
       "community_rating_count": 202,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "IA"
       ],
@@ -9514,6 +10051,14 @@
         "artificial intelligence",
         "neural networks",
         "computer vision"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict"
       ]
     },
     {
@@ -9636,6 +10181,13 @@
       ],
       "tags": [
         "LLM"
+      ],
+      "hosting_platform": "Substack",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -9750,7 +10302,7 @@
       "status": "active",
       "community_rating": 4.7,
       "community_rating_count": 427,
-      "platform": "Spotify",
+      "platform": "Megaphone",
       "topics": [
         "IA"
       ],
@@ -9759,6 +10311,15 @@
         "News",
         "Tech News",
         "Science"
+      ],
+      "hosting_platform": "Megaphone",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Castbox"
       ]
     },
     {
@@ -9873,13 +10434,22 @@
       "status": "active",
       "community_rating": 4.5,
       "community_rating_count": 147,
-      "platform": "Spotify",
+      "platform": "Podhome",
       "topics": [
         "Data"
       ],
       "tags": [
         "Technology",
         "Education"
+      ],
+      "hosting_platform": "Podhome",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "Pocket Casts",
+        "Podcast Addict",
+        "Amazon Music",
+        "Castbox"
       ]
     },
     {
@@ -10013,6 +10583,11 @@
         "Education",
         "Business",
         "Careers"
+      ],
+      "hosting_platform": "Buzzsprout",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Podcast Addict"
       ]
     },
     {
@@ -10128,7 +10703,7 @@
       "status": "active",
       "community_rating": 4.8,
       "community_rating_count": 293,
-      "platform": "Spotify",
+      "platform": "autre",
       "topics": [
         "Développement",
         "Carrière"
@@ -10146,6 +10721,13 @@
         "job interviews",
         "Technology",
         "Business"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict"
       ]
     },
     {
@@ -10281,6 +10863,14 @@
         "Technology",
         "Business",
         "Careers"
+      ],
+      "hosting_platform": "Simplecast",
+      "listening_platforms": [
+        "Apple Podcasts",
+        "Spotify",
+        "YouTube",
+        "Podcast Addict",
+        "Amazon Music"
       ]
     },
     {
@@ -10408,6 +10998,12 @@
       "tags": [
         "Kubernetes",
         "CNCF"
+      ],
+      "hosting_platform": null,
+      "listening_platforms": [
+        "Apple Podcasts",
+        "YouTube",
+        "Podcast Addict"
       ]
     }
   ]

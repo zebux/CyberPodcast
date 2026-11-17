@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T08:21:18.431012+00:00",
+  "generated_at": "2026-11-17T12:53:30.487879+00:00",
   "mode": "network",
-  "duration_seconds": 9.71,
+  "duration_seconds": 18.39,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -739,7 +739,7 @@
         },
         "image": {
           "status": "unchecked",
-          "url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/80/9a/b1/809ab1c6-7f0b-a53c-8c29-2eb9fe2c8419/mza_11876107571718736518.png/600x600bb.jpg"
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7e/e0/98/7ee098da-d542-a497-af84-003408b51418/mza_17549359862406947922.jpg/600x600bb.jpg"
         },
         "audio": {
           "status": "unchecked",
@@ -1548,7 +1548,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://media.transistor.fm/3f1bbc6b/58868328.mp3"
+          "url": "https://media.transistor.fm/50acc20a/0fdf3086.mp3"
         }
       }
     },
@@ -1663,7 +1663,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/talkpython.fm/episodes/download/568/cloudflare-python-workers.mp3?v=2"
+          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/talkpython.fm/episodes/download/569/connecting-agents-to-data-via-mcp-cli-and-more.mp3?v=2"
         }
       }
     },
@@ -1939,7 +1939,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-538.mp3?source=rss"
+          "url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-539.mp3?source=rss"
         }
       }
     },

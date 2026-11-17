@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-17T12:49:35.356525+00:00",
+  "generated_at": "2026-11-17T12:53:30.581863+00:00",
   "total": 86,
-  "total_episodes": 25827,
+  "total_episodes": 25830,
   "with_rss": 86,
   "with_image": 86,
   "with_audio": 84,
   "rated": 63,
-  "average_rating": 4.71,
+  "average_rating": 4.7,
   "by_status": {
     "slow": 17,
     "archived": 15,
@@ -17,15 +17,15 @@
     "en": 43
   },
   "by_host": {
-    "Transistor": 2,
+    "Transistor": 3,
     "Acast": 8,
     "Spotify for Creators": 9,
     "Audiomeans": 5,
-    "Libsyn": 4,
+    "Libsyn": 5,
     "Buzzsprout": 2,
+    "Fireside": 4,
     "FeedBurner": 1,
     "Riverside": 1,
-    "Fireside": 1,
     "Ausha": 11,
     "RedCircle": 1,
     "Blubrry": 1,
@@ -38,13 +38,13 @@
     "Megaphone": 1
   },
   "by_listening_platform": {
-    "Apple Podcasts": 79,
-    "Spotify": 58,
-    "YouTube": 52,
-    "Podcast Addict": 81,
+    "Apple Podcasts": 52,
+    "Spotify": 57,
+    "YouTube": 55,
     "Amazon Music": 20,
     "Pocket Casts": 26,
     "Castbox": 18,
+    "Podcast Addict": 37,
     "Deezer": 5
   },
   "by_taxonomy": {
@@ -159,5 +159,5 @@
     "Qualité logicielle": 1,
     "DevSecOps": 1
   },
-  "latest_episode": "2026-11-16"
+  "latest_episode": "2026-11-17"
 }

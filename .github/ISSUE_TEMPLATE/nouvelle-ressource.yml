@@ -1,0 +1,104 @@
+name: Nouvelle ressource
+about: Proposer un podcast ou une ressource à ajouter à l’annuaire
+title: '[Ressource] '
+labels: ['ressource']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de proposer une nouvelle ressource.
+
+        Avant de continuer, vérifiez qu’elle n’existe pas déjà dans l’annuaire ou dans les issues ouvertes. Les liens officiels et les flux RSS vérifiés sont prioritaires.
+  - type: input
+    id: nom
+    attributes:
+      label: Nom de la ressource
+      description: Nom public exact, tel qu’affiché par le podcast ou le site.
+      placeholder: RadioCSIRT
+    validations:
+      required: true
+  - type: input
+    id: identifiant
+    attributes:
+      label: Identifiant souhaité
+      description: Minuscules, chiffres et tirets uniquement, en kebab-case. Il doit rester stable.
+      placeholder: radio-csirt
+    validations:
+      required: true
+  - type: dropdown
+    id: fichier
+    attributes:
+      label: Fichier source pressenti
+      options:
+        - data/podcasts-cyber.yaml
+        - data/podcasts-cloud.yaml
+        - data/podcasts-dev.yaml
+        - Je ne sais pas
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Site officiel
+      description: URL publique et officielle de la ressource.
+      placeholder: https://exemple.fr
+    validations:
+      required: true
+  - type: input
+    id: rss
+    attributes:
+      label: Flux RSS
+      description: URL du flux RSS si elle existe. Fortement recommandé.
+      placeholder: https://exemple.fr/feed.xml
+  - type: input
+    id: plateformes
+    attributes:
+      label: Plateformes d’écoute
+      description: Apple Podcasts, Spotify, YouTube, Podcast Addict, etc. Une URL par ligne.
+  - type: input
+    id: categories
+    attributes:
+      label: Catégories ou sujets
+      description: Séparez les valeurs par des virgules.
+      placeholder: Cybersécurité, DFIR, Blue Team
+    validations:
+      required: true
+  - type: dropdown
+    id: langue
+    attributes:
+      label: Langue principale
+      options:
+        - fr
+        - en
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Animatrice, animateur ou organisation
+      placeholder: NoLimitSecu
+  - type: textarea
+    id: description
+    attributes:
+      label: Description courte
+      description: Deux ou trois phrases factuelles, sans slogan promotionnel.
+    validations:
+      required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: Pourquoi cette ressource ?
+      description: Intérêt pour la communauté, actualité du podcast, contexte si la publication est arrêtée.
+  - type: checkboxes
+    id: criteres
+    attributes:
+      label: Critères vérifiés
+      options:
+        - label: J’ai vérifié l’absence de doublon dans l’annuaire et les issues
+          required: true
+        - label: La ressource est publique et consultable sans accès privé
+          required: true
+        - label: Les liens fournis sont officiels et accessibles
+          required: true
+        - label: Le contenu n’est ni illégal, ni haineux, ni trompeur
+          required: true

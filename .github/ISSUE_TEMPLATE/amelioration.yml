@@ -1,0 +1,68 @@
+name: Amélioration
+about: Proposer une évolution du site, des données ou du pipeline
+title: '[Amélioration] '
+labels: ['amélioration']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de décrire l’amélioration souhaitée et le problème qu’elle résout.
+
+        Consultez aussi la page [Contribuer](https://cyberpodcast.fr/contribuer.html) et le guide [CONTRIBUTING.md](https://github.com/zebux/CyberPodcast/blob/main/CONTRIBUTING.md).
+  - type: textarea
+    id: probleme
+    attributes:
+      label: Problème ou limite actuelle
+      description: Que manque-t-il aujourd’hui ? À qui cela profiterait-il ?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution proposée
+      description: Décrivez le changement souhaité, y compris l’interface ou le fichier concerné.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives envisagées
+      description: Indiquez les autres options que vous avez considérées et pourquoi vous les écartez.
+  - type: dropdown
+    id: portee
+    attributes:
+      label: Portée estimée
+      options:
+        - Faible
+        - Moyenne
+        - Importante
+        - Je ne sais pas
+    validations:
+      required: true
+  - type: dropdown
+    id: zone
+    attributes:
+      label: Zone concernée
+      options:
+        - Interface du site
+        - Données YAML
+        - Enrichissement Python
+        - GitHub Actions
+        - Documentation
+        - Autre
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Souhaitez-vous contribuer ?
+      description: Indiquez si vous êtes prêt à proposer une pull request et sur quoi vous pouvez aider.
+  - type: checkboxes
+    id: criteres
+    attributes:
+      label: Vérifications
+      options:
+        - label: J’ai vérifié qu’une issue similaire n’existe pas déjà
+          required: true
+        - label: La proposition reste compatible avec un site statique sans serveur
+          required: false

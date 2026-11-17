@@ -1,0 +1,70 @@
+name: Lien cassé
+about: Signaler un site, un flux RSS ou un lien d’écoute qui ne fonctionne plus
+title: '[Lien cassé] '
+labels: ['lien-cassé']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de signaler le lien cassé avec le plus de précisions possible.
+
+        Pour une vulnérabilité de sécurité, n’utilisez pas cette issue : suivez [SECURITY.md](https://github.com/zebux/CyberPodcast/blob/main/SECURITY.md).
+  - type: input
+    id: url
+    attributes:
+      label: URL cassée
+      description: Copiez l’URL exacte telle que présente sur le site.
+      placeholder: https://exemple.fr/feed.xml
+    validations:
+      required: true
+  - type: input
+    id: podcast
+    attributes:
+      label: Podcast concerné
+      description: Nom ou identifiant de la fiche, si le lien vient d’un annuaire.
+      placeholder: RadioCSIRT
+  - type: input
+    id: page
+    attributes:
+      label: Page concernée
+      description: URL de la page CyberPodcast où le lien apparaît.
+      placeholder: https://cyberpodcast.fr/podcast/radiocsirt.html
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type de lien
+      options:
+        - Site officiel
+        - Flux RSS
+        - Apple Podcasts
+        - Spotify
+        - YouTube
+        - Audio
+        - Autre
+    validations:
+      required: true
+  - type: input
+    id: erreur
+    attributes:
+      label: Erreur observée
+      description: Code HTTP, message du navigateur ou comportement constaté.
+      placeholder: 404 Not Found
+  - type: input
+    id: correctif
+    attributes:
+      label: Nouvelle URL proposée
+      description: Laissez vide si vous n’en connaissez pas.
+  - type: textarea
+    id: contexte
+    attributes:
+      label: Contexte supplémentaire
+      description: Date du contrôle, navigateur, captures d’écran ou redirection éventuelle.
+  - type: checkboxes
+    id: criteres
+    attributes:
+      label: Vérifications
+      options:
+        - label: J’ai réessayé le lien au moins une fois
+          required: true
+        - label: J’ai vérifié qu’il ne s’agit pas d’un problème de sécurité
+          required: true

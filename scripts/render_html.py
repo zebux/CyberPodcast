@@ -8,6 +8,7 @@ Produit :
   - docs/sujets.html              exploration par sujet
   - docs/statistiques.html        chiffres clés
   - docs/a-propos.html            présentation du projet
+  - docs/contribuer.html          guide de contribution
   - docs/api/*.json               données publiques
   - docs/sitemap.xml, robots.txt, feed.xml, 404.html
 """
@@ -654,6 +655,7 @@ def layout(
         <a class="nav-link" href="{root}sujets.html">Sujets</a>
         <a class="nav-link" href="{root}statistiques.html">Statistiques</a>
         <a class="nav-link" href="{root}a-propos.html">À propos</a>
+        <a class="nav-link nav-cta" href="{root}contribuer.html">Proposer un podcast</a>
         <a class="nav-link nav-external" href="{REPO_URL}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
         <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" aria-label="Activer le thème clair" title="Activer le thème clair">Clair</button>
       </nav>
@@ -1304,6 +1306,84 @@ def about_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
     )
 
 
+def contribute_page() -> str:
+    issue_url = f"{REPO_URL}/issues/new?template=nouvelle-ressource.yml"
+    pr_url = f"{REPO_URL}/compare"
+    guide_url = f"{REPO_URL}/blob/main/CONTRIBUTING.md"
+    security_url = f"{REPO_URL}/blob/main/SECURITY.md"
+    body = f'''
+  <main class="page prose" id="contenu">
+    <header class="page-header">
+      <p class="eyebrow">Contribuer</p>
+      <h1>Proposer un podcast ou <span class="gradient">une ressource</span></h1>
+      <p class="lead">Un podcast manque, un lien est mort, une fiche mérite une correction ? La contribution passe par GitHub : ouvrez une issue guidée ou envoyez une pull request. Les liens officiels et les flux vérifiés sont toujours prioritaires.</p>
+      <div class="prose-actions">
+        <a class="button" href="{issue_url}" target="_blank" rel="noopener noreferrer">Proposer une ressource sur GitHub</a>
+        <a class="button button-secondary" href="{pr_url}" target="_blank" rel="noopener noreferrer">Ouvrir une pull request</a>
+      </div>
+    </header>
+    <section class="panel">
+      <h2>Critères de sélection</h2>
+      <ul>
+        <li>Le sujet principal est la cybersécurité, le cloud, le développement ou un sujet adjacent clairement utile à la communauté.</li>
+        <li>La ressource est publique, consultable sans accès privé et dispose d’un site officiel ou d’un flux RSS stable.</li>
+        <li>Le podcast est actif ou récemment actif ; un arrêt de publication peut être accepté si l’intérêt historique est expliqué.</li>
+        <li>Il n’existe pas déjà de fiche ou d’issue ouverte pour la même ressource.</li>
+        <li>Le contenu n’est ni illégal, ni haineux, ni trompeur, et les liens d’écoute renvoient vers les plateformes officielles.</li>
+      </ul>
+      <h2>Format attendu</h2>
+      <p>Ajoutez une entrée dans le fichier source adapté : <code>data/podcasts-cyber.yaml</code>, <code>data/podcasts-cloud.yaml</code> ou <code>data/podcasts-dev.yaml</code>. Ne modifiez pas <code>podcasts.yaml</code> ni <code>docs/</code> à la main : ils sont générés par le pipeline.</p>
+      <pre><code>  - id: mon-podcast
+    name: "Mon Podcast"
+    category: ["Cybersécurité", "Blue Team"]
+    language: fr
+    host: "Prénom Nom"
+    status: active
+    website: https://exemple.fr
+    rss: https://exemple.fr/feed.xml
+    apple_podcast: https://podcasts.apple.com/...
+    description: "Description courte et factuelle du podcast."
+    platform: Ausha</code></pre>
+      <h2>Champs obligatoires</h2>
+      <ul>
+        <li><code>id</code> : identifiant unique en kebab-case, en minuscules et sans accent.</li>
+        <li><code>name</code> : nom public exact de la ressource.</li>
+        <li><code>category</code> : au moins une catégorie, par exemple <code>Cybersécurité</code>, <code>Cloud</code> ou <code>Développement</code>.</li>
+        <li><code>language</code> : <code>fr</code> ou <code>en</code>.</li>
+        <li><code>website</code> ou <code>rss</code> : au moins une source vérifiable ; le flux RSS est fortement recommandé.</li>
+      </ul>
+      <p>Les champs <code>host</code>, <code>status</code>, <code>spotify</code>, <code>youtube</code>, <code>description</code> et <code>platform</code> sont facultatifs mais améliorent la fiche générée.</p>
+    </section>
+    <section class="panel">
+      <h2>Ouvrir une issue</h2>
+      <p>Utilisez le modèle <strong>Nouvelle ressource</strong> et joignez les liens officiels, la catégorie, la langue et l’éventuel flux RSS. Pour un lien mort ou une erreur, choisissez le modèle <strong>Lien cassé</strong> ou <strong>Bug</strong> afin que le problème soit routé correctement.</p>
+      <p><a class="button" href="{issue_url}" target="_blank" rel="noopener noreferrer">Proposer une ressource sur GitHub</a></p>
+      <h2>Proposer une pull request</h2>
+      <p>Forkuez le dépôt, créez une branche courte, modifiez uniquement le fichier <code>data/podcasts-*.yaml</code> concerné, puis lancez les vérifications locales :</p>
+      <pre><code>python scripts/enrich_podcasts.py
+python scripts/check_health.py
+python scripts/render_html.py</code></pre>
+      <p>Ouvrez ensuite la pull request avec le modèle fourni. Les fichiers générés doivent être inclus s’ils changent après le rendu.</p>
+      <h2>Règles et sécurité</h2>
+      <p>Le guide complet est dans <a href="{guide_url}" target="_blank" rel="noopener noreferrer">CONTRIBUTING.md</a>. Pour signaler une vulnérabilité, suivez <a href="{security_url}" target="_blank" rel="noopener noreferrer">SECURITY.md</a> et n’exposez jamais de détails exploitables dans une issue publique.</p>
+    </section>
+    <section class="panel">
+      <h2>Prêt à contribuer ?</h2>
+      <p>Une proposition claire, même minimale, est toujours utile. Merci de garder les liens officiels à jour et de respecter le code de conduite du projet.</p>
+      <div class="prose-actions">
+        <a class="button" href="{issue_url}" target="_blank" rel="noopener noreferrer">Proposer une ressource sur GitHub</a>
+        <a class="button button-secondary" href="{guide_url}" target="_blank" rel="noopener noreferrer">Lire le guide de contribution</a>
+      </div>
+    </section>
+  </main>'''
+    return layout(
+        title="Contribuer · CyberPodcast",
+        description="Proposez un podcast ou une ressource à CyberPodcast : critères de sélection, format YAML, issues et pull requests.",
+        body=body,
+        canonical_path="contribuer.html",
+    )
+
+
 def not_found_page() -> str:
     body = '''
   <main class="page not-found" id="contenu">
@@ -1367,6 +1447,7 @@ def sitemap_xml(podcasts: list[dict[str, Any]]) -> str:
         "sujets.html",
         "statistiques.html",
         "a-propos.html",
+        "contribuer.html",
     ] + [f'podcast/{podcast.get("id")}.html' for podcast in podcasts]
     lastmod = TODAY.isoformat()
     urls = "".join(
@@ -1442,6 +1523,7 @@ def render() -> None:
     write(OUTPUT_DIR / "sujets.html", topics_page(podcasts))
     write(OUTPUT_DIR / "statistiques.html", stats_page(podcasts, stats))
     write(OUTPUT_DIR / "a-propos.html", about_page(podcasts, stats))
+    write(OUTPUT_DIR / "contribuer.html", contribute_page())
     write(OUTPUT_DIR / "404.html", not_found_page())
 
     api_dir = OUTPUT_DIR / "api"

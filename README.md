@@ -10,7 +10,7 @@ Site : https://cyberpodcast.fr/
 - Favoris stockés localement dans le navigateur, sans compte ni cookie.
 - Lecteur audio intégré pour le dernier épisode, lecteur global sur l'annuaire et liste des épisodes récents.
 - Fiches détaillées par podcast avec liens d'écoute, métadonnées, sujets, tags et podcasts proches.
-- Pages secondaires : sujets, statistiques et à propos.
+- Pages secondaires : sujets, statistiques, à propos et contribuer.
 - SEO statique : sitemap, robots.txt, flux RSS, JSON-LD, Open Graph et Twitter Cards.
 - API JSON publique : `docs/api/podcasts.json`, `docs/api/stats.json`, `docs/api/health.json`.
 - Thème clair/sombre avec préférence système et mémorisation locale.
@@ -27,6 +27,9 @@ scripts/render_html.py       génération complète du site statique
 podcasts.yaml            base enrichie version 3
 docs/                    site publié par GitHub Pages
 reports/health.json      dernier rapport de santé
+.github/                 modèles d’issues et de pull request, workflows
+CONTRIBUTING.md          guide de contribution
+SECURITY.md              divulgation responsable
 ```
 
 Le workflow GitHub Actions tourne chaque jour : enrichissement, contrôle santé, rendu, validation, commit et déploiement GitHub Pages.
@@ -69,6 +72,12 @@ python scripts/render_html.py
 Les champs absents sont enrichis depuis le site officiel, le flux RSS et Apple Podcasts. En cas d'échec réseau, les valeurs de la dernière exécution sont conservées.
 
 ## Contribuer
+
+- Page publique : https://cyberpodcast.fr/contribuer.html
+- Guide complet : [CONTRIBUTING.md](CONTRIBUTING.md) — critères d’acceptation, conventions, structure, pull requests et code de conduite.
+- Sécurité : [SECURITY.md](SECURITY.md) — divulgation responsable des vulnérabilités.
+- Signalements guidés : [nouvelle ressource](https://github.com/zebux/CyberPodcast/issues/new?template=nouvelle-ressource.yml), [lien cassé](https://github.com/zebux/CyberPodcast/issues/new?template=lien-casse.yml), [bug](https://github.com/zebux/CyberPodcast/issues/new?template=bug.yml) ou [amélioration](https://github.com/zebux/CyberPodcast/issues/new?template=amelioration.yml).
+- Pull requests : [modèle de PR](.github/PULL_REQUEST_TEMPLATE.md).
 
 Une erreur, un flux cassé, un podcast manquant ? Ouvrez une issue ou proposez une correction directement dans le fichier source adapté (`data/podcasts-*.yaml`). Les liens officiels et les flux vérifiés sont prioritaires.
 

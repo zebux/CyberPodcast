@@ -1,0 +1,74 @@
+name: Bug
+about: Signaler un dysfonctionnement du site ou du pipeline
+title: '[Bug] '
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de décrire le problème de façon reproductible.
+
+        Pour une vulnérabilité de sécurité, utilisez [SECURITY.md](https://github.com/zebux/CyberPodcast/blob/main/SECURITY.md) plutôt que cette issue.
+  - type: textarea
+    id: resume
+    attributes:
+      label: Résumé du bug
+      description: Une ou deux phrases suffisent.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL concernée
+      placeholder: https://cyberpodcast.fr/episodes.html
+    validations:
+      required: true
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Étapes de reproduction
+      description: Numérotez chaque action, y compris les filtres utilisés.
+      placeholder: |
+        1. Ouvrir la page des épisodes
+        2. Sélectionner un sujet
+        3. Observer le résultat
+    validations:
+      required: true
+  - type: textarea
+    id: attendu
+    attributes:
+      label: Résultat attendu
+    validations:
+      required: true
+  - type: textarea
+    id: obtenu
+    attributes:
+      label: Résultat obtenu
+    validations:
+      required: true
+  - type: input
+    id: environnement
+    attributes:
+      label: Environnement
+      description: Navigateur, version, système d’exploitation, thème clair ou sombre.
+      placeholder: Firefox 140 · Linux · thème sombre
+  - type: textarea
+    id: console
+    attributes:
+      label: Erreurs console
+      description: Collez les messages d’erreur JavaScript si vous en voyez.
+      render: shell
+  - type: textarea
+    id: captures
+    attributes:
+      label: Captures d’écran
+      description: Ajoutez des captures si elles aident à comprendre le problème.
+  - type: checkboxes
+    id: criteres
+    attributes:
+      label: Vérifications
+      options:
+        - label: J’ai rechargé la page et essayé avec un filtre différent
+          required: true
+        - label: J’ai vérifié qu’il ne s’agit pas d’un simple lien cassé
+          required: false

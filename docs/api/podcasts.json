@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T06:16:24.959916+00:00",
-  "site": "https://zebux.github.io/CyberPodcast/",
+  "generated_at": "2026-11-17T08:17:14.081644+00:00",
+  "site": "https://cyberpodcast.fr/",
   "count": 86,
   "podcasts": [
     {
@@ -139,7 +139,7 @@
       "hosts": [
         "Arnaud Morvillier"
       ],
-      "website": "https://shows.acast.com/on-azure-grave-onag",
+      "website": null,
       "rss": "https://feeds.acast.com/public/shows/on-azure-grave-onag",
       "youtube": "https://www.youtube.com/@grow-unaA",
       "spotify": null,
@@ -627,9 +627,8 @@
       "hosts": [
         "ITQ"
       ],
-      "website": "https://podcasters.spotify.com/pod/show/itq4",
       "rss": "https://anchor.fm/s/108b1f810/podcast/rss",
-      "youtube": "http://www.youtube.com/c/spotifyforcreators",
+      "youtube": null,
       "spotify": "https://open.spotify.com/show/2uHmmm3l004zce2xSxAcrG",
       "apple_podcast": "https://podcasts.apple.com/fr/podcast/itq-private-cloud-caf%C3%A9/id1835939834?uo=4",
       "linkedin": null,
@@ -700,7 +699,8 @@
       ],
       "tags": [
         "CNCF"
-      ]
+      ],
+      "website": null
     },
     {
       "id": "kubernetes-podcast",
@@ -1464,7 +1464,7 @@
       ],
       "website": "https://aws.amazon.com/podcasts/aws-podcast/",
       "rss": "https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss",
-      "youtube": "https://www.youtube.com/iframe_api",
+      "youtube": null,
       "spotify": "https://open.spotify.com/show/363iMcjThX5KNpfSHPRAjj",
       "apple_podcast": "https://podcasts.apple.com/us/podcast/aws-podcast/id1122785133?uo=4",
       "linkedin": null,
@@ -2962,7 +2962,7 @@
       "hosts": [
         "Franck Dubray"
       ],
-      "website": "https://podcasters.spotify.com/pod/show/franck-dubray",
+      "website": null,
       "rss": "https://anchor.fm/s/11065f6ec/podcast/rss",
       "youtube": "https://www.youtube.com/@Franck.Dubray/podcasts",
       "spotify": "https://open.spotify.com/show/76HwZTwRwWEYzhooS6x6hU",
@@ -3085,7 +3085,7 @@
       "hosts": [
         "Romain Rousseau"
       ],
-      "website": "https://podcast.ausha.co/consulia-cekoica",
+      "website": null,
       "rss": "https://feed.ausha.co/VLezJt6PxXDZ",
       "youtube": null,
       "spotify": "https://open.spotify.com/show/43Bc0bOL2IXc7gycfXkGmF",
@@ -3186,7 +3186,7 @@
       "hosts": [
         "Fabrice De Paepe"
       ],
-      "website": "https://podcast.ausha.co/compliance-without-coma",
+      "website": null,
       "rss": "https://feed.ausha.co/DEzWetYgJnD2",
       "youtube": "https://www.youtube.com/channel/UCd0NPBi7F6XdCmBUFUYRjXA",
       "spotify": "https://open.spotify.com/show/73rT4qSCdNDq3fiambhIC1",
@@ -3548,7 +3548,7 @@
       "hosts": [
         "Gatewatcher"
       ],
-      "website": "https://podcast.ausha.co/dans-l-oeil-de-la-cyber",
+      "website": null,
       "rss": "https://feed.ausha.co/BxpxZc2aQMrl",
       "youtube": "https://www.youtube.com/channel/UC0oNjS8u8sYl4mH_YlycE1A",
       "spotify": "https://open.spotify.com/show/5AA4H4YspoRu4MZ4K0QRld",
@@ -3872,9 +3872,8 @@
       "hosts": [
         "Martial Puygrenier"
       ],
-      "website": "https://anchor.fm/hacknspeak",
       "rss": "https://anchor.fm/s/435c0d58/podcast/rss",
-      "youtube": "http://www.youtube.com/c/spotifyforcreators",
+      "youtube": null,
       "spotify": "https://open.spotify.com/show/2lwA1WLVqnYvnlc7WkV3yU",
       "apple_podcast": "https://podcasts.apple.com/fr/podcast/hackn-speak/id1548697084?uo=4",
       "linkedin": null,
@@ -3978,7 +3977,8 @@
       ],
       "tags": [
         "Technology"
-      ]
+      ],
+      "website": null
     },
     {
       "id": "hacktback-cybertalk",
@@ -3991,7 +3991,7 @@
       "hosts": [
         "HacktBack"
       ],
-      "website": "https://podcast.ausha.co/cybertalk",
+      "website": null,
       "rss": "https://feed.ausha.co/KwvdxtwwlYdV",
       "youtube": null,
       "spotify": "https://open.spotify.com/show/1AhyLRwWlw2IlL0ZKXD6MC",
@@ -4232,7 +4232,7 @@
       "hosts": [
         "Fabrice Bourdelon"
       ],
-      "website": "https://podcast.ausha.co/laboxdurssi",
+      "website": null,
       "rss": "https://feed.ausha.co/w0k5QHz3QkrR",
       "youtube": "https://www.youtube.com/channel/UCdecLkxzZkSpo62fMi5si_w",
       "spotify": "https://open.spotify.com/show/5F2QpT6yV3EIJio8GM2FKD",
@@ -4353,7 +4353,7 @@
       "hosts": [
         "Nicolas Remarck"
       ],
-      "website": "https://smartlink.ausha.co/la-cyber-securite-expliquee-a-ma-grand-mere",
+      "website": null,
       "rss": "https://feed.ausha.co/7zMxQFOPzR9O",
       "youtube": null,
       "spotify": "https://open.spotify.com/show/1439exqfoRXuar3aFvdsLM",
@@ -4475,7 +4475,7 @@
         "Manon Desplat",
         "Léa Le Pezron"
       ],
-      "website": "https://shows.acast.com/la-matrice-a-bugge",
+      "website": null,
       "rss": "https://feeds.acast.com/public/shows/63d3ee76c552d9001143c7c9",
       "youtube": null,
       "spotify": null,
@@ -4725,7 +4725,7 @@
       "hosts": [
         "Luckas Bosch"
       ],
-      "website": "https://podcast.ausha.co/cafecompas",
+      "website": null,
       "rss": "https://feed.ausha.co/yOraMCxd0ezj",
       "youtube": null,
       "spotify": "https://open.spotify.com/show/0WBMbK4frOLnBIApsZSw8w",
@@ -4848,7 +4848,7 @@
       "hosts": [
         "CLUSIF"
       ],
-      "website": "https://shows.acast.com/le-dejargonneur-cyber",
+      "website": null,
       "rss": "https://feeds.acast.com/public/shows/le-dejargonneur-cyber",
       "youtube": null,
       "spotify": null,
@@ -5108,7 +5108,7 @@
         "Franck Rouxel",
         "Julien Merali"
       ],
-      "website": "https://smartlinks.audiomeans.fr/l/les-enfants-de-la-cyber-0f28787e",
+      "website": null,
       "rss": "https://feeds.audiomeans.fr/feed/0f28787e-2a00-4dd5-9503-96e824efbacf.xml",
       "youtube": null,
       "spotify": null,
@@ -5192,7 +5192,7 @@
       "hosts": [
         "HarfangLab"
       ],
-      "website": "https://podcast.ausha.co/let-s-talk-about-sec",
+      "website": null,
       "rss": "https://feed.ausha.co/v3PX6h8ljxv6",
       "youtube": null,
       "spotify": "https://open.spotify.com/show/4JA4JciDdINq3pU4IPS0px",
@@ -5432,7 +5432,7 @@
       "hosts": [
         "OnDitChiffrer"
       ],
-      "website": "https://shows.acast.com/on-dit-chiffrer",
+      "website": null,
       "rss": "https://feeds.acast.com/public/shows/on-dit-chiffrer",
       "youtube": "https://www.youtube.com/watch?v=FKPrlnD8iyY",
       "spotify": null,
@@ -5679,7 +5679,6 @@
         "Nabil Diab",
         "Raphaël Ellouz"
       ],
-      "website": "https://feeds.acast.com/public/shows/purple-voice",
       "rss": "https://feeds.acast.com/public/shows/68065b0838088415692025d0",
       "youtube": null,
       "spotify": null,
@@ -5797,7 +5796,8 @@
         "Technology",
         "News",
         "Tech News"
-      ]
+      ],
+      "website": null
     },
     {
       "id": "radiocsirt",
@@ -5933,7 +5933,7 @@
       "hosts": [
         "Yasmine Douadi"
       ],
-      "website": "https://podcast.ausha.co/riskintel-media",
+      "website": null,
       "rss": "https://feed.ausha.co/rjLzeUqpJDe1",
       "youtube": "https://www.youtube.com/channel/UCXJD3SRk4B2iUQU1LFx8ujg",
       "spotify": "https://open.spotify.com/show/0NlmbXu4yRkL98Ji1wkNHI",
@@ -6118,7 +6118,7 @@
       "hosts": [
         "CyberPodcast"
       ],
-      "website": "https://music.youtube.com/@cyberpodcast-official",
+      "website": null,
       "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCq-pOpFcME3ziyCCt0pSXdQ",
       "youtube": "https://www.youtube.com/@cyberpodcast-official",
       "spotify": null,
@@ -6240,9 +6240,8 @@
         "Sylvanus Hougbekey",
         "Madena-Esso Kao"
       ],
-      "website": "https://podcasters.spotify.com/pod/show/diginovbymadenasylvanus",
       "rss": "https://anchor.fm/s/e419c3e8/podcast/rss",
-      "youtube": "http://www.youtube.com/c/spotifyforcreators",
+      "youtube": null,
       "spotify": "https://open.spotify.com/show/5gSdlmgOPdpVX3FB3RTIVR",
       "apple_podcast": "https://podcasts.apple.com/fr/podcast/diginov/id1731261927",
       "linkedin": "https://fr.linkedin.com/in/sylvanush",
@@ -6347,7 +6346,8 @@
       ],
       "tags": [
         "Technology"
-      ]
+      ],
+      "website": null
     },
     {
       "id": "hackstock",
@@ -6828,7 +6828,6 @@
       "hosts": [
         "Véronique Loquet"
       ],
-      "website": "https://twitter.com/NologPodcast",
       "rss": "https://feeds.acast.com/public/shows/no-log",
       "youtube": null,
       "spotify": null,
@@ -6917,7 +6916,8 @@
         "Technology",
         "True Crime",
         "Society & Culture"
-      ]
+      ],
+      "website": null
     },
     {
       "id": "osint-origins",
@@ -7287,7 +7287,7 @@
       "hosts": [
         "Pascal Maria"
       ],
-      "website": "https://podcast.ausha.co/lacave",
+      "website": null,
       "rss": "https://feed.ausha.co/aOeG3uNw2QrW",
       "youtube": "https://www.youtube.com/channel/UCQZ9fN69sDNl1oItZmn7dAw",
       "spotify": "https://open.spotify.com/show/0btVq1hBSKAgsLTuSFecLO",

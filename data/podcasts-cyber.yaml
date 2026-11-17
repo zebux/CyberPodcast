@@ -76,7 +76,7 @@ podcasts:
     language: fr
     host: "Martial Puygrenier"
     status: active
-    website: https://anchor.fm/hacknspeak
+    rss: https://anchor.fm/s/435c0d58/podcast/rss
     podcast_addict: https://podcastaddict.com/podcast/hack-n-speak/3209696
     platform: Anchor
 
@@ -221,6 +221,7 @@ podcasts:
       - "Nabil Diab"
       - "Raphaël Ellouz"
     status: active
+    rss: https://feeds.acast.com/public/shows/68065b0838088415692025d0
     podcast_addict: https://podcastaddict.com/podcast/purple-voice/5901611
 
   - id: radiocsirt
@@ -275,6 +276,7 @@ podcasts:
     category: ["Cybersécurité"]
     language: fr
     status: archived
+    rss: https://anchor.fm/s/e419c3e8/podcast/rss
     apple_podcast: https://podcasts.apple.com/fr/podcast/diginov/id1731261927
     podcast_addict: https://podcastaddict.com/podcast/diginov/5130792
     linkedin: https://fr.linkedin.com/in/sylvanush
@@ -329,6 +331,7 @@ podcasts:
     category: ["Cybersécurité"]
     language: fr
     status: archived
+    rss: https://feeds.acast.com/public/shows/no-log
     podcast_addict: https://podcastaddict.com/podcast/no-log/3179763
     hosts:
       - Véronique Loquet

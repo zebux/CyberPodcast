@@ -22,7 +22,7 @@ from datetime import date, datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 from xml.sax.saxutils import escape as xml_escape, quoteattr
 
 import yaml
@@ -32,7 +32,7 @@ SOURCE = ROOT / "podcasts.yaml"
 REPORTS_DIR = ROOT / "reports"
 OUTPUT_DIR = ROOT / "docs"
 ASSETS_DIR = OUTPUT_DIR / "assets"
-SITE_URL = "https://zebux.github.io/CyberPodcast"
+BASE_URL = "https://cyberpodcast.fr"
 REPO_URL = "https://github.com/zebux/CyberPodcast"
 GENERATED_AT = datetime.now(timezone.utc)
 TODAY = GENERATED_AT.date()
@@ -152,11 +152,76 @@ def initials(name: str) -> str:
 
 
 def canonical(path: str = "") -> str:
-    return f"{SITE_URL}/{path.lstrip('/')}"
+    return f"{BASE_URL}/{path.lstrip('/')}"
 
 
 def url_for(path: str, root: str = "") -> str:
     return f"{root}{path.lstrip('/')}"
+
+
+BLOCKED_SITE_HOSTS = {
+    "anchor.fm",
+    "facebook.com",
+    "feed.ausha.co",
+    "feeds.acast.com",
+    "instagram.com",
+    "linkedin.com",
+    "music.youtube.com",
+    "open.spotify.com",
+    "podcast.ausha.co",
+    "podcasters.spotify.com",
+    "shows.acast.com",
+    "smartlink.ausha.co",
+    "smartlinks.audiomeans.fr",
+    "tiktok.com",
+    "twitter.com",
+    "x.com",
+    "youtube.com",
+    "youtu.be",
+}
+BLOCKED_YOUTUBE_MARKERS = ("iframe_api", "spotifyforcreators")
+
+
+def valid_http_url(url: Any) -> str | None:
+    if not url:
+        return None
+    value = str(url).strip()
+    parsed = urlparse(value)
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return None
+    return value
+
+
+def official_website(url: Any) -> str | None:
+    value = valid_http_url(url)
+    if not value:
+        return None
+    parsed = urlparse(value)
+    host = parsed.netloc.lower().removeprefix("www.")
+    path = parsed.path.lower()
+    if host in BLOCKED_SITE_HOSTS or host.startswith(("feed.", "feeds.")):
+        return None
+    if path.endswith((".atom", ".rss", ".xml")) or re.search(r"/(?:feed|rss)(?:/|$)", path):
+        return None
+    return value
+
+
+def youtube_link(url: Any) -> str | None:
+    value = valid_http_url(url)
+    if not value:
+        return None
+    host = urlparse(value).netloc.lower().removeprefix("www.")
+    if host not in {"youtube.com", "youtu.be"}:
+        return None
+    if any(marker in value.lower() for marker in BLOCKED_YOUTUBE_MARKERS):
+        return None
+    return value
+
+
+def sanitize_podcast_links(podcasts: list[dict[str, Any]]) -> None:
+    for podcast in podcasts:
+        podcast["website"] = official_website(podcast.get("website"))
+        podcast["youtube"] = youtube_link(podcast.get("youtube"))
 
 
 def json_safe(value: Any) -> str:
@@ -239,7 +304,11 @@ def cover_html(podcast: dict[str, Any], css: str = "cover", lazy: bool = True) -
     )
 
 
-def topic_chips(podcast: dict[str, Any], root: str = "", limit: int = 6) -> str:
+def topic_url(topic: str) -> str:
+    return f"/?topic={quote(topic, safe='')}"
+
+
+def topic_chips(podcast: dict[str, Any], limit: int = 6) -> str:
     topics = [str(topic) for topic in (podcast.get("topics") or []) if topic]
     if not topics:
         topics = [str(category) for category in (podcast.get("category") or []) if category]
@@ -247,8 +316,7 @@ def topic_chips(podcast: dict[str, Any], root: str = "", limit: int = 6) -> str:
         return ""
     shown = topics[:limit]
     chips = "".join(
-        f'<a class="chip" href="{root}index.html?topic={quote(topic, safe="")}&amp;category=&amp;status=&amp;language=">'
-        f"{html_lib.escape(topic)}</a>"
+        f'<a class="chip" href="{esc(topic_url(topic))}">{html_lib.escape(topic)}</a>'
         for topic in shown
     )
     if len(topics) > len(shown):
@@ -389,7 +457,7 @@ def podcast_card(podcast: dict[str, Any], root: str = "") -> str:
     </div>
     {description_html}
     <dl class="meta">{meta_html}</dl>
-    {topic_chips(podcast, root, 5)}
+    {topic_chips(podcast, 5)}
     <div class="card-actions">
       {play_button(podcast)}
       {favorite_button(podcast)}
@@ -445,8 +513,8 @@ def layout(
     body_class: str = "",
     json_ld: dict[str, Any] | None = None,
 ) -> str:
-    page_url = canonical(canonical_path) if canonical_path else SITE_URL + "/"
-    image_url = image or f"{SITE_URL}/assets/logo.png"
+    page_url = canonical(canonical_path) if canonical_path else BASE_URL + "/"
+    image_url = image or f"{BASE_URL}/assets/logo.png"
     structured = ""
     if json_ld:
         structured = f'<script type="application/ld+json">{json_safe(json_ld)}</script>'
@@ -484,11 +552,11 @@ def layout(
   <a class="skip-link" href="#contenu">Aller au contenu</a>
   <header class="site-header">
     <div class="site-header-inner">
-      <a class="brand" href="{root}index.html" aria-label="CyberPodcast, accueil">
+      <a class="brand" href="/" aria-label="CyberPodcast, accueil">
         <img class="brand-logo" src="{root}assets/logo.png" alt="CyberPodcast" width="512" height="436">
       </a>
       <nav class="nav-links" aria-label="Navigation principale">
-        <a class="nav-link" href="{root}index.html">Podcasts</a>
+        <a class="nav-link" href="/">Podcasts</a>
         <a class="nav-link" href="{root}sujets.html">Sujets</a>
         <a class="nav-link" href="{root}statistiques.html">Statistiques</a>
         <a class="nav-link" href="{root}a-propos.html">À propos</a>
@@ -668,7 +736,6 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
             <option value="recent">Ajout récent</option>
             <option value="status">Statut</option>
           </select>
-          <button id="favorites-toggle" type="button" aria-pressed="false">Favoris</button>
           <button id="reset" type="button">Réinitialiser</button>
         </div>
       </div>
@@ -704,11 +771,11 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "CyberPodcast",
-            "url": SITE_URL + "/",
+            "url": BASE_URL + "/",
             "description": "Annuaire de podcasts cybersécurité, cloud et développement.",
             "potentialAction": {
                 "@type": "SearchAction",
-                "target": f"{SITE_URL}/index.html?q={{search_term_string}}",
+                "target": f"{BASE_URL}/?q={{search_term_string}}",
                 "query-input": "required name=search_term_string",
             },
         },
@@ -840,12 +907,12 @@ def detail_page(podcast: dict[str, Any], podcasts: list[dict[str, Any]]) -> str:
     related = related_podcasts(podcast, podcasts)
     related_html = "".join(mini_card(other, root) for other in related) or '<p class="muted">Aucun podcast proche pour le moment.</p>'
     tags = tag_html(podcast, 20)
-    topics = topic_chips(podcast, root, 20)
+    topics = topic_chips(podcast, 20)
 
     body = f'''
   <main class="detail" id="contenu">
     <nav class="breadcrumb" aria-label="Fil d’Ariane">
-      <a href="{root}index.html">Podcasts</a><span>/</span><span>{esc(name)}</span>
+      <a href="/">Podcasts</a><span>/</span><span>{esc(name)}</span>
     </nav>
     <section class="detail-hero">
       {cover_html(podcast, "cover cover-lg", lazy=False)}
@@ -892,7 +959,7 @@ def detail_page(podcast: dict[str, Any], podcasts: list[dict[str, Any]]) -> str:
         "name": name,
         "url": canonical(f"podcast/{entry_id}.html"),
         "description": description,
-        "image": podcast.get("image") or f"{SITE_URL}/assets/icon-512.png",
+        "image": podcast.get("image") or f"{BASE_URL}/assets/icon-512.png",
         "webFeed": podcast.get("rss"),
         "inLanguage": podcast.get("language") or "fr",
         "author": [
@@ -960,7 +1027,7 @@ def topics_page(podcasts: list[dict[str, Any]]) -> str:
         names = " · ".join(html_lib.escape(str(podcast.get("name"))) for podcast in top)
         cards.append(
             f'''
-      <a class="topic-card" href="index.html?topic={quote(topic, safe="")}&amp;category=&amp;status=&amp;language=">
+      <a class="topic-card" href="{esc(topic_url(topic))}">
         <span class="topic-count">{len(items)} podcast{"s" if len(items) > 1 else ""}</span>
         <h2>{html_lib.escape(topic)}</h2>
         <p>{names}</p>
@@ -1067,7 +1134,7 @@ def not_found_page() -> str:
     <p class="eyebrow">Erreur 404</p>
     <h1>Cette page n’existe <span class="gradient">pas encore</span></h1>
     <p class="lead">Le podcast ou la page demandée est introuvable. Revenez à l’annuaire pour continuer l’exploration.</p>
-    <a class="button" href="index.html">Retour aux podcasts</a>
+    <a class="button" href="/">Retour aux podcasts</a>
   </main>'''
     return layout(
         title="Page introuvable · CyberPodcast",
@@ -1109,7 +1176,7 @@ def feed_xml(podcasts: list[dict[str, Any]]) -> str:
     return f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
 <title>CyberPodcast · Derniers épisodes</title>
-<link>{SITE_URL}/</link>
+<link>{BASE_URL}/</link>
 <description>Les derniers épisodes des podcasts cybersécurité, cloud et développement référencés par CyberPodcast.</description>
 <language>fr</language>
 <lastBuildDate>{format_datetime(GENERATED_AT)}</lastBuildDate>
@@ -1120,7 +1187,6 @@ def feed_xml(podcasts: list[dict[str, Any]]) -> str:
 def sitemap_xml(podcasts: list[dict[str, Any]]) -> str:
     paths = [
         "",
-        "index.html",
         "sujets.html",
         "statistiques.html",
         "a-propos.html",
@@ -1147,6 +1213,7 @@ def render() -> None:
     podcasts = payload.get("podcasts") or []
     if not podcasts:
         raise SystemExit(f"Aucun podcast dans {SOURCE}")
+    sanitize_podcast_links(podcasts)
 
     known_ids = {str(podcast.get("id")) for podcast in podcasts if podcast.get("id")}
     stats = build_stats(podcasts)
@@ -1205,7 +1272,7 @@ def render() -> None:
         json.dumps(
             {
                 "generated_at": GENERATED_AT.isoformat(),
-                "site": SITE_URL + "/",
+                "site": BASE_URL + "/",
                 "count": len(podcasts),
                 "podcasts": podcasts,
             },
@@ -1227,7 +1294,7 @@ def render() -> None:
     write(OUTPUT_DIR / "sitemap.xml", sitemap_xml(podcasts))
     write(
         OUTPUT_DIR / "robots.txt",
-        f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n",
+        f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n",
     )
     write(
         OUTPUT_DIR / "manifest.webmanifest",
@@ -1236,8 +1303,8 @@ def render() -> None:
                 "name": "CyberPodcast",
                 "short_name": "CyberPodcast",
                 "description": "Annuaire de podcasts cybersécurité, cloud et développement.",
-                "start_url": "/CyberPodcast/",
-                "scope": "/CyberPodcast/",
+                "start_url": "/",
+                "scope": "/",
                 "display": "standalone",
                 "background_color": "#080d1c",
                 "theme_color": "#080d1c",

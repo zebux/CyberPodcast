@@ -2,7 +2,7 @@
 
 Annuaire statique de podcasts francophones et internationaux consacrés à la cybersécurité, au cloud et au développement.
 
-Site : https://zebux.github.io/CyberPodcast/
+Site : https://cyberpodcast.fr/
 
 ## Fonctionnalités
 

@@ -291,11 +291,6 @@ button {
   white-space: nowrap;
 }
 button:hover { background: var(--card-strong); }
-#favorites-toggle.is-active {
-  color: #06101f;
-  background: var(--accent);
-  border-color: var(--accent);
-}
 input[type="search"]:focus,
 select:focus,
 button:focus-visible {

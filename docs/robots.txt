@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://zebux.github.io/CyberPodcast/sitemap.xml
+Sitemap: https://cyberpodcast.fr/sitemap.xml

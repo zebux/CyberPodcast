@@ -150,7 +150,6 @@
     var sort = document.getElementById('sort');
     var reset = document.getElementById('reset');
     var emptyReset = document.getElementById('empty-reset');
-    var favoritesToggle = document.getElementById('favorites-toggle');
     var filtersToggle = document.getElementById('filters-toggle');
     var toolbar = document.querySelector('.toolbar');
     var count = document.getElementById('count');
@@ -159,7 +158,6 @@
     var topicButtons = Array.prototype.slice.call(document.querySelectorAll('[data-topic-filter]'));
     var statusOrder = { active: 0, slow: 1, archived: 2 };
     var selectedTopics = new Set();
-    var favoritesOnly = false;
     var params = new URLSearchParams(window.location.search);
 
     function paramOr(name, fallback) {
@@ -172,7 +170,6 @@
     language.value = paramOr('language', defaults.language);
     platform.value = paramOr('platform', defaults.platform);
     sort.value = params.get('sort') || defaults.sort;
-    favoritesOnly = params.get('favorites') === '1' || params.get('favorites') === 'true';
     params.getAll('topic').forEach(function (topic) {
       if (topic) selectedTopics.add(topic);
     });
@@ -191,14 +188,6 @@
       });
     }
 
-    function syncFavoritesToggle() {
-      if (!favoritesToggle) return;
-      var total = readFavorites().size;
-      favoritesToggle.textContent = 'Favoris' + (total ? ' (' + total + ')' : '');
-      favoritesToggle.setAttribute('aria-pressed', String(favoritesOnly));
-      favoritesToggle.classList.toggle('is-active', favoritesOnly);
-    }
-
     function syncUrl() {
       var next = new URLSearchParams();
       if (search.value.trim()) next.set('q', search.value.trim());
@@ -208,7 +197,6 @@
       if (platform.value) next.set('platform', platform.value);
       if (sort.value !== defaults.sort) next.set('sort', sort.value);
       selectedTopics.forEach(function (topic) { next.append('topic', topic); });
-      if (favoritesOnly) next.set('favorites', '1');
       var query = next.toString();
       var url = window.location.pathname + (query ? '?' + query : '') + window.location.hash;
       try {
@@ -222,7 +210,6 @@
       var selectedStatus = status.value;
       var selectedLanguage = language.value;
       var selectedPlatform = platform.value;
-      var favorites = readFavorites();
       var visible = new Set();
 
       cards.forEach(function (card) {
@@ -233,8 +220,7 @@
           (!selectedStatus || card.dataset.status === selectedStatus) &&
           (!selectedLanguage || card.dataset.language === selectedLanguage) &&
           (!selectedPlatform || card.dataset.platform === selectedPlatform) &&
-          (!selectedTopics.size || cardTopics.some(function (topic) { return selectedTopics.has(topic); })) &&
-          (!favoritesOnly || favorites.has(card.dataset.id || ''));
+          (!selectedTopics.size || cardTopics.some(function (topic) { return selectedTopics.has(topic); }));
         if (matches) visible.add(card);
       });
 
@@ -270,11 +256,9 @@
       if (selectedLanguage) filters.push(languageLabel(selectedLanguage));
       if (selectedPlatform) filters.push(selectedPlatform === 'autre' ? 'Autre' : selectedPlatform);
       if (selectedTopics.size) filters.push('sujets : ' + Array.from(selectedTopics).join(', '));
-      if (favoritesOnly) filters.push('favoris');
       activeFilters.textContent = filters.length ? filters.join(' · ') : 'tous les podcasts';
       empty.hidden = n !== 0;
       syncTopicButtons();
-      syncFavoritesToggle();
       syncUrl();
     }
 
@@ -294,7 +278,6 @@
       platform.value = '';
       sort.value = defaults.sort;
       selectedTopics.clear();
-      favoritesOnly = false;
       apply();
       search.focus();
     }
@@ -324,13 +307,6 @@
       });
     });
 
-    if (favoritesToggle) {
-      favoritesToggle.addEventListener('click', function () {
-        favoritesOnly = !favoritesOnly;
-        apply();
-      });
-    }
-
     if (filtersToggle && toolbar) {
       filtersToggle.addEventListener('click', function () {
         var open = toolbar.classList.toggle('is-filters-open');
@@ -348,13 +324,7 @@
       }
     });
 
-    document.addEventListener('cyberpodcast:favoriteschange', function () {
-      syncFavoritesToggle();
-      if (favoritesOnly) apply();
-    });
-
     syncTopicButtons();
-    syncFavoritesToggle();
     apply();
   }
 

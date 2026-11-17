@@ -76,9 +76,7 @@
     if (theme !== 'light' && theme !== 'dark') {
       try {
         var stored = localStorage.getItem(THEME_KEY);
-        theme = stored === 'light' || stored === 'dark'
-          ? stored
-          : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        theme = stored === 'light' || stored === 'dark' ? stored : 'dark';
       } catch (error) {
         theme = 'dark';
       }

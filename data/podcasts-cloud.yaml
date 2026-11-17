@@ -12,20 +12,6 @@
     hosts:
       - Guilhem Lettron
 
-  - id: les-compagnons-du-devops
-    name: "Les Compagnons du DevOps"
-    category:
-      - DevOps
-      - Cloud
-    language: fr
-    status: active
-    youtube: https://www.youtube.com/c/lescompagnonsdudevops
-    website: https://www.compagnons-devops.fr
-    hosts:
-      - Christophe Chaudier
-    skip_rss_discovery: true
-    description: 'Chaîne et podcast de la communauté francophone Les Compagnons du DevOps : cloud, Kubernetes et infrastructure as code.'
-
   - id: on-azure-grave
     name: "On Azure Grave"
     category:
@@ -67,15 +53,6 @@
     rss: https://feeds.acast.com/public/shows/radio-devops
     platform: Acast
 
-  - id: kubernetes-podcast-fr
-    name: "Kubernetes Podcast FR"
-    category:
-      - Kubernetes
-      - Cloud Native
-    language: fr
-    status: active
-    description: Podcast francophone dédié à Kubernetes et aux technologies cloud native.
-
   - id: les-tetes-dans-le-cloud
     name: "Les Têtes dans le Cloud"
     category:
@@ -99,27 +76,6 @@
     platform: Anchor
     hosts:
       - ITQ
-
-  - id: cloud-native-fr
-    name: "Cloud Native FR"
-    category:
-      - Kubernetes
-      - CNCF
-      - DevOps
-    language: fr
-    status: active
-    description: Podcast francophone sur le cloud native, Kubernetes et les pratiques DevOps.
-
-  - id: devops-tribe
-    name: "DevOps Tribe"
-    category:
-      - DevOps
-      - SRE
-    language: en
-    status: active
-    skip_itunes: true
-    skip_rss_discovery: true
-    description: Podcast en anglais consacré au DevOps et à la fiabilité des systèmes (SRE).
 
   - id: kubernetes-podcast
     name: "Kubernetes Podcast from Google"

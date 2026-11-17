@@ -3,12 +3,12 @@
   "mode": "network",
   "duration_seconds": 19.66,
   "summary": {
-    "total": 92,
-    "ok": 92,
+    "total": 86,
+    "ok": 86,
     "warning": 0,
     "error": 0,
-    "missing": 24,
-    "checked_urls": 343
+    "missing": 2,
+    "checked_urls": 342
   },
   "podcasts": [
     {
@@ -31,29 +31,6 @@
         "audio": {
           "status": "unchecked",
           "url": "https://media.transistor.fm/3420634c/09462586.mp3"
-        }
-      }
-    },
-    {
-      "id": "les-compagnons-du-devops",
-      "name": "Les Compagnons du DevOps",
-      "status": "ok",
-      "checks": {
-        "site": {
-          "status": "unchecked",
-          "url": "https://www.compagnons-devops.fr"
-        },
-        "rss": {
-          "status": "missing",
-          "url": null
-        },
-        "image": {
-          "status": "missing",
-          "url": null
-        },
-        "audio": {
-          "status": "missing",
-          "url": null
         }
       }
     },
@@ -127,29 +104,6 @@
       }
     },
     {
-      "id": "kubernetes-podcast-fr",
-      "name": "Kubernetes Podcast FR",
-      "status": "ok",
-      "checks": {
-        "site": {
-          "status": "missing",
-          "url": null
-        },
-        "rss": {
-          "status": "missing",
-          "url": null
-        },
-        "image": {
-          "status": "missing",
-          "url": null
-        },
-        "audio": {
-          "status": "missing",
-          "url": null
-        }
-      }
-    },
-    {
       "id": "les-tetes-dans-le-cloud",
       "name": "Les Têtes dans le Cloud",
       "status": "ok",
@@ -192,52 +146,6 @@
         "audio": {
           "status": "unchecked",
           "url": "https://anchor.fm/s/108b1f810/podcast/play/128757849/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-4%2F435849256-44100-2-bda7ffaf90ac1.mp3"
-        }
-      }
-    },
-    {
-      "id": "cloud-native-fr",
-      "name": "Cloud Native FR",
-      "status": "ok",
-      "checks": {
-        "site": {
-          "status": "missing",
-          "url": null
-        },
-        "rss": {
-          "status": "missing",
-          "url": null
-        },
-        "image": {
-          "status": "missing",
-          "url": null
-        },
-        "audio": {
-          "status": "missing",
-          "url": null
-        }
-      }
-    },
-    {
-      "id": "devops-tribe",
-      "name": "DevOps Tribe",
-      "status": "ok",
-      "checks": {
-        "site": {
-          "status": "missing",
-          "url": null
-        },
-        "rss": {
-          "status": "missing",
-          "url": null
-        },
-        "image": {
-          "status": "missing",
-          "url": null
-        },
-        "audio": {
-          "status": "missing",
-          "url": null
         }
       }
     },
@@ -1139,29 +1047,6 @@
       }
     },
     {
-      "id": "objectif-cyber",
-      "name": "Objectif Cyber",
-      "status": "ok",
-      "checks": {
-        "site": {
-          "status": "unchecked",
-          "url": "https://www.capgemini.com/fr-fr/perspectives/publications/podcast-objectif-tech/objectif-cyber/"
-        },
-        "rss": {
-          "status": "missing",
-          "url": null
-        },
-        "image": {
-          "status": "missing",
-          "url": null
-        },
-        "audio": {
-          "status": "missing",
-          "url": null
-        }
-      }
-    },
-    {
       "id": "on-dit-chiffrer",
       "name": "On dit chiffrer",
       "status": "ok",
@@ -1273,29 +1158,6 @@
         "audio": {
           "status": "unchecked",
           "url": "https://audio.ausha.co/oRWn7jF7J1zR.mp3?t=1794490848"
-        }
-      }
-    },
-    {
-      "id": "source-ouverte",
-      "name": "Source Ouverte",
-      "status": "ok",
-      "checks": {
-        "site": {
-          "status": "missing",
-          "url": null
-        },
-        "rss": {
-          "status": "missing",
-          "url": null
-        },
-        "image": {
-          "status": "missing",
-          "url": null
-        },
-        "audio": {
-          "status": "missing",
-          "url": null
         }
       }
     },

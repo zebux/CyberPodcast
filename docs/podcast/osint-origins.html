@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,9 +27,7 @@
 (function () {
   try {
     var stored = localStorage.getItem('cyberpodcast-theme');
-    var theme = stored === 'light' || stored === 'dark'
-      ? stored
-      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    var theme = stored === 'light' || stored === 'dark' ? stored : 'dark';
     document.documentElement.dataset.theme = theme;
   } catch (error) {}
 })();
@@ -79,13 +77,7 @@
 
     <div class="detail-grid">
       <section class="panel">
-        <div class="panel-head"><h2>Dernier épisode</h2><span class="muted">10/12/2023</span></div>
 
-        <div class="player-card">
-          <p class="player-title">OSINT Origins #8 - Thomas Roccia / _fr0gger</p>
-          <audio id="main-player" controls preload="metadata" src="https://anchor.fm/s/6d2d3288/podcast/play/79834760/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2023-11-10%2F67525b6f-edb8-eb82-422c-6cd0958d7122.mp3"></audio>
-          <a class="link" href="https://podcasters.spotify.com/pod/show/osint-fr/episodes/OSINT-Origins-8---Thomas-Roccia--_fr0gger-e2d2s68" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Voir l’épisode</a>
-        </div>
         <h2>Épisodes récents</h2>
         <ol class="episode-list">
       <li class="episode">
@@ -171,7 +163,7 @@
       </section>
       <aside class="panel">
         <h2>Informations</h2>
-        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>Sylvain Hajri</dd></div><div><dt>Auteur</dt><dd>OSINT-FR</dd></div><div><dt>Langue</dt><dd>Français · FR</dd></div><div><dt>Dernier épisode</dt><dd>10/12/2023</dd></div><div><dt>Rythme</dt><dd>Trimestriel (~71 j)</dd></div><div><dt>Épisodes</dt><dd>8</dd></div><div><dt>Durée moyenne</dt><dd>45 min</dd></div><div><dt>Note Apple</dt><dd>—</dd></div><div><dt>Plateforme</dt><dd>Anchor</dd></div><div><dt>Pays</dt><dd>FR</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>16/11/2026</dd></div></dl>
+        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>Sylvain Hajri</dd></div><div><dt>Auteur</dt><dd>OSINT-FR</dd></div><div><dt>Langue</dt><dd>Français · FR</dd></div><div><dt>Dernier épisode</dt><dd>10/12/2023</dd></div><div><dt>Rythme</dt><dd>Trimestriel (~71 j)</dd></div><div><dt>Épisodes</dt><dd>8</dd></div><div><dt>Durée moyenne</dt><dd>45 min</dd></div><div><dt>Note Apple</dt><dd>—</dd></div><div><dt>Plateforme</dt><dd>Anchor</dd></div><div><dt>Pays</dt><dd>FR</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>17/11/2026</dd></div></dl>
         <h2>Liens d’écoute</h2>
         <div class="links"><a class="link link-site" href="https://osintfr.com/en/home/" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Site</a><a class="link link-rss" href="https://anchor.fm/s/6d2d3288/podcast/rss" target="_blank" rel="noopener noreferrer"><span class="dot"></span>RSS</a><a class="link link-spotify" href="https://open.spotify.com/show/4WjF4NReXClnfL0Lsev95p" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Spotify</a><a class="link link-youtube" href="https://www.youtube.com/channel/UCTkCTxPPRMzdjhaKkn_4PiQ" target="_blank" rel="noopener noreferrer"><span class="dot"></span>YouTube</a><a class="link link-podcastaddict" href="https://podcastaddict.com/podcast/osint-origins-the-podcast-by-osint-fr-osintfrcom/3753339" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Podcast Addict</a></div>
         <h2>Sujets</h2><div class="chips"><a class="chip" href="../index.html?topic=Cybers%C3%A9curit%C3%A9&amp;category=&amp;status=&amp;language=">Cybersécurité</a><a class="chip" href="../index.html?topic=OSINT&amp;category=&amp;status=&amp;language=">OSINT</a></div>
@@ -182,13 +174,6 @@
     <section class="related">
       <h2>À découvrir aussi</h2>
       <div class="related-grid">
-    <a class="mini-card" href="../podcast/source-ouverte.html">
-      <div class="mini-cover cover-placeholder" aria-hidden="true"><span>SO</span></div>
-      <span class="mini-body">
-        <strong>Source Ouverte</strong>
-        <small>Actif · Français · FR</small>
-      </span>
-    </a>
     <a class="mini-card" href="../podcast/compliance-without-coma.html">
       <div class="mini-cover"><img src="https://image.ausha.co/BqMWpfXoRipRMZuXDqqGiqhQrdDTNVXVvaeZMeQS_1400x1400.jpeg?t=1784635470" alt="Pochette de Compliance Without Coma" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
       <span class="mini-body">
@@ -209,11 +194,18 @@
         <strong>Cybersécurité All Day</strong>
         <small>Actif · Français · FR</small>
       </span>
+    </a>
+    <a class="mini-card" href="../podcast/dans-loeil-de-la-cyber.html">
+      <div class="mini-cover"><img src="https://image.ausha.co/ZhBXHkkoSaY6hQTwfE13kxJNfOyoGJEZj5jl4x13_1400x1400.jpeg?t=1701792440" alt="Pochette de Dans l&#x27;œil de la cyber" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>
+      <span class="mini-body">
+        <strong>Dans l&#x27;œil de la cyber</strong>
+        <small>Actif · Français · FR</small>
+      </span>
     </a></div>
     </section>
   </main>
   <footer class="footer">
-    <span>Données enrichies automatiquement · dernière mise à jour 16/11/2026 · <a href="../a-propos.html">méthode</a></span>
+    <span>Données enrichies automatiquement · dernière mise à jour 17/11/2026 · <a href="../a-propos.html">méthode</a></span>
     <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="../feed.xml">RSS</a> · <a href="../api/podcasts.json">API JSON</a></span>
   </footer>
   <script data-goatcounter="https://zebux.goatcounter.com/count"

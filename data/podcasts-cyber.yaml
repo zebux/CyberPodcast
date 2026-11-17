@@ -193,18 +193,6 @@ podcasts:
     podcast_addict: https://podcastaddict.com/podcast/nolimitsecu/509653
     image: https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/60/ce/8f/60ce8f21-4939-c2af-6d81-7d86a460e5f2/mza_7503302632113938466.jpg/600x600bb.jpg
 
-  - id: objectif-cyber
-    name: "Objectif Cyber"
-    category: ["Cybersécurité"]
-    language: fr
-    host: "Capgemini"
-    status: active
-    website: https://www.capgemini.com/fr-fr/perspectives/publications/podcast-objectif-tech/objectif-cyber/
-    skip_rss_discovery: true
-    description: Podcast Capgemini consacré à la cybersécurité et aux enjeux cyber des entreprises.
-    apple_podcast: https://podcasts.apple.com/fr/podcast/objectif-tech/id1597450554?uo=4
-    podcast_addict: https://podcastaddict.com/podcast/objectif-tech/3702085
-
   - id: on-dit-chiffrer
     name: "On dit chiffrer"
     category: ["Cybersécurité", "Cryptographie"]
@@ -259,14 +247,6 @@ podcasts:
     platform: Ausha
     hosts:
       - Yasmine Douadi
-
-  - id: source-ouverte
-    name: "Source Ouverte"
-    category: ["Cybersécurité"]
-    language: fr
-    host: "Cigref"
-    status: active
-    description: Podcast du Cigref sur l'intelligence collective, l'OSINT et la gestion de crise.
 
   - id: yakafokon
     name: "Yakafokon"

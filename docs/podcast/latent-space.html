@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,9 +27,7 @@
 (function () {
   try {
     var stored = localStorage.getItem('cyberpodcast-theme');
-    var theme = stored === 'light' || stored === 'dark'
-      ? stored
-      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    var theme = stored === 'light' || stored === 'dark' ? stored : 'dark';
     document.documentElement.dataset.theme = theme;
   } catch (error) {}
 })();
@@ -79,13 +77,7 @@
 
     <div class="detail-grid">
       <section class="panel">
-        <div class="panel-head"><h2>Dernier épisode</h2><span class="muted">10/11/2026</span></div>
 
-        <div class="player-card">
-          <p class="player-title">Designing for Agents — Zeno Rocha, Resend</p>
-          <audio id="main-player" controls preload="metadata" src="https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1c6f7-44d3-72a3-8e65-ffcfae742084/01a1c6f7-4605-726f-ac19-31f9b1763da0.mp3"></audio>
-          <a class="link" href="https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/designing_for_agents_zeno_rocha_resend" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Voir l’épisode</a>
-        </div>
         <h2>Épisodes récents</h2>
         <ol class="episode-list">
       <li class="episode">
@@ -191,7 +183,7 @@
       </section>
       <aside class="panel">
         <h2>Informations</h2>
-        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>swyx, Alessio Fanelli</dd></div><div><dt>Auteur</dt><dd>Latent.Space</dd></div><div><dt>Langue</dt><dd>Anglais · US</dd></div><div><dt>Dernier épisode</dt><dd>10/11/2026</dd></div><div><dt>Rythme</dt><dd>Quotidien (~1 j)</dd></div><div><dt>Épisodes</dt><dd>297</dd></div><div><dt>Durée moyenne</dt><dd>70 min</dd></div><div><dt>Note Apple</dt><dd>4.5/5 (108)</dd></div><div><dt>Plateforme</dt><dd>Substack</dd></div><div><dt>Pays</dt><dd>US</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>16/11/2026</dd></div></dl>
+        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>swyx, Alessio Fanelli</dd></div><div><dt>Auteur</dt><dd>Latent.Space</dd></div><div><dt>Langue</dt><dd>Anglais · US</dd></div><div><dt>Dernier épisode</dt><dd>10/11/2026</dd></div><div><dt>Rythme</dt><dd>Quotidien (~1 j)</dd></div><div><dt>Épisodes</dt><dd>297</dd></div><div><dt>Durée moyenne</dt><dd>70 min</dd></div><div><dt>Note Apple</dt><dd>4.5/5 (108)</dd></div><div><dt>Plateforme</dt><dd>Substack</dd></div><div><dt>Pays</dt><dd>US</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>17/11/2026</dd></div></dl>
         <h2>Liens d’écoute</h2>
         <div class="links"><a class="link link-site" href="https://www.latent.space/" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Site</a><a class="link link-rss" href="https://api.substack.com/feed/podcast/1084089.rss" target="_blank" rel="noopener noreferrer"><span class="dot"></span>RSS</a><a class="link link-apple" href="https://podcasts.apple.com/us/podcast/latent-space-the-ai-engineer-podcast/id1674008350" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Apple</a><a class="link link-spotify" href="https://open.spotify.com/show/2p7zZVwVF6Yk0Zsb4QmT7t" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Spotify</a><a class="link link-youtube" href="https://www.youtube.com/watch?v=bdIoODXsu8k" target="_blank" rel="noopener noreferrer"><span class="dot"></span>YouTube</a><a class="link link-podcastaddict" href="https://podcastaddict.com/podcast/latent-space-the-ai-engineer-podcast/7325446" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Podcast Addict</a></div>
         <h2>Sujets</h2><div class="chips"><a class="chip" href="../index.html?topic=IA&amp;category=&amp;status=&amp;language=">IA</a><a class="chip" href="../index.html?topic=LLM&amp;category=&amp;status=&amp;language=">LLM</a></div>
@@ -233,7 +225,7 @@
     </section>
   </main>
   <footer class="footer">
-    <span>Données enrichies automatiquement · dernière mise à jour 16/11/2026 · <a href="../a-propos.html">méthode</a></span>
+    <span>Données enrichies automatiquement · dernière mise à jour 17/11/2026 · <a href="../a-propos.html">méthode</a></span>
     <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="../feed.xml">RSS</a> · <a href="../api/podcasts.json">API JSON</a></span>
   </footer>
   <script data-goatcounter="https://zebux.goatcounter.com/count"

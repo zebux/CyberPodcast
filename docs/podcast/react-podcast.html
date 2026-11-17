@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,9 +27,7 @@
 (function () {
   try {
     var stored = localStorage.getItem('cyberpodcast-theme');
-    var theme = stored === 'light' || stored === 'dark'
-      ? stored
-      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    var theme = stored === 'light' || stored === 'dark' ? stored : 'dark';
     document.documentElement.dataset.theme = theme;
   } catch (error) {}
 })();
@@ -79,13 +77,7 @@
 
     <div class="detail-grid">
       <section class="panel">
-        <div class="panel-head"><h2>Dernier épisode</h2><span class="muted">17/12/2020</span></div>
 
-        <div class="player-card">
-          <p class="player-title">123: Cassidy Williams on Dreams and Disasters in 2020</p>
-          <audio id="main-player" controls preload="metadata" src="https://cdn.simplecast.com/audio/bdb43d4d-bd1d-4fbc-bd60-40f1e3299aa3/episodes/a6363455-0a0e-460f-8074-75f4f5e84775/audio/620d2586-389b-44c7-80ad-25703fd52094/default_tc.mp3?aid=rss_feed&amp;feed=JoR28o79"></audio>
-          <a class="link" href="http://reactpodcast.com/" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Voir l’épisode</a>
-        </div>
         <h2>Épisodes récents</h2>
         <ol class="episode-list">
       <li class="episode">
@@ -191,7 +183,7 @@
       </section>
       <aside class="panel">
         <h2>Informations</h2>
-        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>Michael Chan</dd></div><div><dt>Auteur</dt><dd>Spec</dd></div><div><dt>Langue</dt><dd>Anglais · US</dd></div><div><dt>Dernier épisode</dt><dd>17/12/2020</dd></div><div><dt>Rythme</dt><dd>Hebdomadaire (~7 j)</dd></div><div><dt>Épisodes</dt><dd>123</dd></div><div><dt>Durée moyenne</dt><dd>58 min</dd></div><div><dt>Note Apple</dt><dd>4.6/5 (71)</dd></div><div><dt>Plateforme</dt><dd>Simplecast</dd></div><div><dt>Pays</dt><dd>US</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>16/11/2026</dd></div></dl>
+        <dl class="meta meta-large"><div><dt>Animateurs</dt><dd>Michael Chan</dd></div><div><dt>Auteur</dt><dd>Spec</dd></div><div><dt>Langue</dt><dd>Anglais · US</dd></div><div><dt>Dernier épisode</dt><dd>17/12/2020</dd></div><div><dt>Rythme</dt><dd>Hebdomadaire (~7 j)</dd></div><div><dt>Épisodes</dt><dd>123</dd></div><div><dt>Durée moyenne</dt><dd>58 min</dd></div><div><dt>Note Apple</dt><dd>4.6/5 (71)</dd></div><div><dt>Plateforme</dt><dd>Simplecast</dd></div><div><dt>Pays</dt><dd>US</dd></div><div><dt>Ajouté le</dt><dd>09/11/2026</dd></div><div><dt>Mis à jour le</dt><dd>17/11/2026</dd></div></dl>
         <h2>Liens d’écoute</h2>
         <div class="links"><a class="link link-site" href="https://reactpodcast.com/" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Site</a><a class="link link-rss" href="https://feeds.simplecast.com/JoR28o79" target="_blank" rel="noopener noreferrer"><span class="dot"></span>RSS</a><a class="link link-apple" href="https://podcasts.apple.com/us/podcast/react-podcast/id1341969432?uo=4" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Apple</a><a class="link link-podcastaddict" href="https://podcastaddict.com/podcast/react-podcast/2968222" target="_blank" rel="noopener noreferrer"><span class="dot"></span>Podcast Addict</a></div>
         <h2>Sujets</h2><div class="chips"><a class="chip" href="../index.html?topic=D%C3%A9veloppement&amp;category=&amp;status=&amp;language=">Développement</a><a class="chip" href="../index.html?topic=JavaScript&amp;category=&amp;status=&amp;language=">JavaScript</a><a class="chip" href="../index.html?topic=React&amp;category=&amp;status=&amp;language=">React</a></div>
@@ -233,7 +225,7 @@
     </section>
   </main>
   <footer class="footer">
-    <span>Données enrichies automatiquement · dernière mise à jour 16/11/2026 · <a href="../a-propos.html">méthode</a></span>
+    <span>Données enrichies automatiquement · dernière mise à jour 17/11/2026 · <a href="../a-propos.html">méthode</a></span>
     <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="../feed.xml">RSS</a> · <a href="../api/podcasts.json">API JSON</a></span>
   </footer>
   <script data-goatcounter="https://zebux.goatcounter.com/count"

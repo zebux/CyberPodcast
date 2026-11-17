@@ -67,9 +67,7 @@ THEME_INIT = """<script>
 (function () {
   try {
     var stored = localStorage.getItem('cyberpodcast-theme');
-    var theme = stored === 'light' || stored === 'dark'
-      ? stored
-      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    var theme = stored === 'light' || stored === 'dark' ? stored : 'dark';
     document.documentElement.dataset.theme = theme;
   } catch (error) {}
 })();
@@ -346,23 +344,24 @@ def podcast_card(podcast: dict[str, Any], root: str = "") -> str:
     rating = podcast.get("community_rating")
     rating_count = podcast.get("community_rating_count")
     platform = podcast.get("platform") or "autre"
-    platform_text = "Autre" if platform == "autre" else str(platform)
 
     meta_items = [
-        ("Animateurs", hosts_text),
-        ("Langue", language_text(podcast)),
-        ("Dernier épisode", fmt_date(last_episode)),
-        ("Rythme", frequency_text(podcast)),
-        ("Épisodes", fmt_number(podcast.get("episode_count"))),
-        ("Durée moyenne", fmt_duration(podcast.get("average_duration"))),
-        ("Note Apple", fmt_rating(rating, rating_count)),
-        ("Plateforme", platform_text),
+        ("Animateurs", hosts_text, False),
+        ("Langue", language_text(podcast), False),
+        ("Dernier épisode", fmt_date(last_episode), True),
+        ("Rythme", frequency_text(podcast), False),
+        ("Épisodes", fmt_number(podcast.get("episode_count")), False),
+        ("Durée moyenne", fmt_duration(podcast.get("average_duration")), False),
+        ("Note Apple", fmt_rating(rating, rating_count), False),
     ]
-    meta_html = "".join(
-        f'<div><dt>{html_lib.escape(label)}</dt>'
-        f'<dd title="{esc(value)}">{html_lib.escape(str(value))}</dd></div>'
-        for label, value in meta_items
-    )
+
+    def card_meta_item(label: str, value: Any, strong: bool) -> str:
+        rendered = html_lib.escape(str(value))
+        if strong:
+            rendered = f"<strong>{rendered}</strong>"
+        return f'<div><dt>{html_lib.escape(label)}</dt><dd title="{esc(value)}">{rendered}</dd></div>'
+
+    meta_html = "".join(card_meta_item(*item) for item in meta_items)
 
     description = podcast.get("description") or ""
     description_html = (
@@ -452,7 +451,7 @@ def layout(
     if json_ld:
         structured = f'<script type="application/ld+json">{json_safe(json_ld)}</script>'
     return f'''<!doctype html>
-<html lang="fr">
+<html lang="fr" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -828,6 +827,12 @@ def detail_page(podcast: dict[str, Any], podcasts: list[dict[str, Any]]) -> str:
     if not episodes_html:
         episodes_html = '<li class="muted">Aucun épisode récent détecté dans le flux.</li>'
 
+    latest_html = ""
+    if not episodes:
+        latest_html = f'''
+        <div class="panel-head"><h2>Dernier épisode</h2>{f'<span class="muted">{esc(fmt_date(podcast.get("last_episode")))}</span>' if podcast.get("last_episode") else ''}</div>
+        {player}'''
+
     meta_html = "".join(
         f'<div><dt>{html_lib.escape(label)}</dt><dd>{html_lib.escape(value)}</dd></div>'
         for label, value in meta_items(podcast)
@@ -861,8 +866,7 @@ def detail_page(podcast: dict[str, Any], podcasts: list[dict[str, Any]]) -> str:
 
     <div class="detail-grid">
       <section class="panel">
-        <div class="panel-head"><h2>Dernier épisode</h2>{f'<span class="muted">{esc(fmt_date(podcast.get("last_episode")))}</span>' if podcast.get("last_episode") else ''}</div>
-        {player}
+        {latest_html}
         <h2>Épisodes récents</h2>
         <ol class="episode-list">{episodes_html}</ol>
       </section>
@@ -1144,6 +1148,7 @@ def render() -> None:
     if not podcasts:
         raise SystemExit(f"Aucun podcast dans {SOURCE}")
 
+    known_ids = {str(podcast.get("id")) for podcast in podcasts if podcast.get("id")}
     stats = build_stats(podcasts)
     health = None
     health_path = REPORTS_DIR / "health.json"
@@ -1152,6 +1157,32 @@ def render() -> None:
             health = json.loads(health_path.read_text(encoding="utf-8"))
         except (OSError, ValueError):
             health = None
+    if health is not None and isinstance(health.get("podcasts"), list):
+        rows = [
+            row
+            for row in health["podcasts"]
+            if str(row.get("id")) in known_ids
+        ]
+        health["podcasts"] = rows
+        checked_urls = {
+            str(check.get("url"))
+            for row in rows
+            for check in (row.get("checks") or {}).values()
+            if check.get("status") != "missing" and check.get("url")
+        }
+        health["summary"] = {
+            "total": len(rows),
+            "ok": sum(1 for row in rows if row.get("status") == "ok"),
+            "warning": sum(1 for row in rows if row.get("status") == "warning"),
+            "error": sum(1 for row in rows if row.get("status") == "error"),
+            "missing": sum(
+                1
+                for row in rows
+                for check in (row.get("checks") or {}).values()
+                if check.get("status") == "missing"
+            ),
+            "checked_urls": len(checked_urls),
+        }
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     ASSETS_DIR.mkdir(parents=True, exist_ok=True)
@@ -1185,6 +1216,12 @@ def render() -> None:
     write(api_dir / "stats.json", json.dumps(stats, ensure_ascii=False, indent=2))
     if health is not None:
         write(api_dir / "health.json", json.dumps(health, ensure_ascii=False, indent=2))
+
+    podcast_dir = OUTPUT_DIR / "podcast"
+    if podcast_dir.exists():
+        for path in podcast_dir.glob("*.html"):
+            if path.stem not in known_ids:
+                path.unlink()
 
     write(OUTPUT_DIR / "feed.xml", feed_xml(podcasts))
     write(OUTPUT_DIR / "sitemap.xml", sitemap_xml(podcasts))

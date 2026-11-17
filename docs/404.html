@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,9 +27,7 @@
 (function () {
   try {
     var stored = localStorage.getItem('cyberpodcast-theme');
-    var theme = stored === 'light' || stored === 'dark'
-      ? stored
-      : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    var theme = stored === 'light' || stored === 'dark' ? stored : 'dark';
     document.documentElement.dataset.theme = theme;
   } catch (error) {}
 })();
@@ -63,7 +61,7 @@
     <a class="button" href="index.html">Retour aux podcasts</a>
   </main>
   <footer class="footer">
-    <span>Données enrichies automatiquement · dernière mise à jour 16/11/2026 · <a href="a-propos.html">méthode</a></span>
+    <span>Données enrichies automatiquement · dernière mise à jour 17/11/2026 · <a href="a-propos.html">méthode</a></span>
     <span><a href="https://github.com/zebux/CyberPodcast" target="_blank" rel="noopener noreferrer">Code source</a> · <a href="feed.xml">RSS</a> · <a href="api/podcasts.json">API JSON</a></span>
   </footer>
   <script data-goatcounter="https://zebux.goatcounter.com/count"

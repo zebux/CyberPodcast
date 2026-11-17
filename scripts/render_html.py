@@ -716,34 +716,17 @@ def latest_episode_date(podcasts: list[dict[str, Any]]) -> str:
     )
 
 
-def topic_buttons(podcasts: list[dict[str, Any]]) -> str:
+def taxonomy_options(podcasts: list[dict[str, Any]]) -> str:
     counts = Counter(
         topic
         for podcast in podcasts
         for topic in podcast_taxonomy(podcast)
     )
-    return "".join(
-        f'<button class="topic-chip" type="button" data-topic-filter="{esc(topic)}" '
-        f'aria-pressed="false">{html_lib.escape(topic)} <span>{count}</span></button>'
-        for topic, count in sorted(counts.items(), key=lambda item: (-item[1], item[0].casefold()))
-    )
+    values = sorted(counts, key=str.casefold)
+    return build_options(values, counts=counts, empty_label="Sujets / catégories")
 
 
 def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
-    hosts = sorted(
-        {host for host in (hosting_platform(podcast) for podcast in podcasts) if host},
-        key=str.casefold,
-    )
-    host_counts = Counter(
-        host for host in (hosting_platform(podcast) for podcast in podcasts) if host
-    )
-    listen_values = sorted(
-        {value for podcast in podcasts for value in listening_platforms(podcast)},
-        key=str.casefold,
-    )
-    listen_counts = Counter(
-        value for podcast in podcasts for value in listening_platforms(podcast)
-    )
     languages = sorted(
         {podcast.get("language") for podcast in podcasts if podcast.get("language")},
         key=str.casefold,
@@ -753,16 +736,7 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
     )
 
     cards = "\n".join(podcast_card(podcast) for podcast in podcasts)
-    host_options = build_options(
-        hosts,
-        counts=host_counts,
-        empty_label="Tous les hébergeurs",
-    )
-    listen_options = build_options(
-        listen_values,
-        counts=listen_counts,
-        empty_label="Toutes les plateformes d’écoute",
-    )
+    taxonomy_select = taxonomy_options(podcasts)
     status_options = build_options(
         ["active", "slow", "archived"],
         labels=STATUS_LABELS,
@@ -781,8 +755,7 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
         "defaults": {
             "language": DEFAULT_LANGUAGE,
             "status": DEFAULT_STATUS,
-            "host": "",
-            "listen": "",
+            "topic": "",
             "sort": DEFAULT_SORT,
         },
         "total": len(podcasts),
@@ -805,8 +778,7 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
         </label>
         <button class="filters-toggle" id="filters-toggle" type="button" aria-expanded="false" aria-controls="filters-panel">Filtres</button>
         <div class="filters-panel" id="filters-panel">
-          <select id="filter-host" aria-label="Filtrer par hébergeur">{host_options}</select>
-          <select id="filter-listen" aria-label="Filtrer par plateforme d’écoute">{listen_options}</select>
+          <select id="filter-topic" aria-label="Filtrer par sujets ou catégories">{taxonomy_select}</select>
           <select id="filter-status" aria-label="Filtrer par statut">{status_options}</select>
           <select id="filter-language" aria-label="Filtrer par langue">{language_options}</select>
           <select id="sort" aria-label="Trier">
@@ -820,10 +792,6 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
           </select>
           <button id="reset" type="button">Réinitialiser</button>
         </div>
-      </div>
-      <div class="topic-bar" aria-label="Filtrer par taxonomie">
-        <span class="topic-label">Taxonomie</span>
-        {topic_buttons(podcasts)}
       </div>
     </section>
 

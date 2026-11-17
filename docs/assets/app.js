@@ -136,15 +136,13 @@
     var defaults = Object.assign({
       language: 'fr',
       status: 'active',
-      host: '',
-      listen: '',
+      topic: '',
       sort: 'last'
     }, config.defaults || {});
 
     var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
     var search = document.getElementById('search');
-    var host = document.getElementById('filter-host');
-    var listen = document.getElementById('filter-listen');
+    var topic = document.getElementById('filter-topic');
     var status = document.getElementById('filter-status');
     var language = document.getElementById('filter-language');
     var sort = document.getElementById('sort');
@@ -155,9 +153,7 @@
     var count = document.getElementById('count');
     var activeFilters = document.getElementById('active-filters');
     var empty = document.getElementById('empty');
-    var topicButtons = Array.prototype.slice.call(document.querySelectorAll('[data-topic-filter]'));
     var statusOrder = { active: 0, slow: 1, archived: 2 };
-    var selectedTopics = new Set();
     var params = new URLSearchParams(window.location.search);
 
     function paramOr(name, fallback) {
@@ -165,59 +161,19 @@
     }
 
     search.value = params.get('q') || '';
-    host.value = paramOr('host', defaults.host);
-    listen.value = paramOr('listen', defaults.listen);
+    topic.value = paramOr('topic', defaults.topic) ||
+      params.get('category') || (params.get('topics') || '').split(',')[0] || '';
     status.value = paramOr('status', defaults.status);
     language.value = paramOr('language', defaults.language);
     sort.value = params.get('sort') || defaults.sort;
-    params.getAll('topic').forEach(function (topic) {
-      if (topic) selectedTopics.add(topic);
-    });
-    var legacyCategory = params.get('category');
-    if (legacyCategory) selectedTopics.add(legacyCategory);
-    var topicList = params.get('topics');
-    if (topicList) {
-      topicList.split(',').forEach(function (topic) {
-        if (topic) selectedTopics.add(topic);
-      });
-    }
-
-    function baseMatch(card, query, selectedStatus, selectedLanguage, selectedHost, selectedListen) {
-      return (!query || normalize(card.dataset.search).includes(query)) &&
-        (!selectedStatus || card.dataset.status === selectedStatus) &&
-        (!selectedLanguage || card.dataset.language === selectedLanguage) &&
-        (!selectedHost || card.dataset.host === selectedHost) &&
-        (!selectedListen || (card.dataset.listen || '').split('|').includes(selectedListen));
-    }
-
-    function syncTopicButtons() {
-      var query = normalize(search.value.trim());
-      var counts = {};
-      cards.forEach(function (card) {
-        if (!baseMatch(card, query, status.value, language.value, host.value, listen.value)) return;
-        (card.dataset.topics || '').split('|').filter(Boolean).forEach(function (topic) {
-          counts[topic] = (counts[topic] || 0) + 1;
-        });
-      });
-      topicButtons.forEach(function (button) {
-        var topic = button.dataset.topicFilter || '';
-        var active = selectedTopics.has(topic);
-        var span = button.querySelector('span');
-        if (span) span.textContent = String(counts[topic] || 0);
-        button.classList.toggle('is-active', active);
-        button.setAttribute('aria-pressed', String(active));
-      });
-    }
 
     function syncUrl() {
       var next = new URLSearchParams();
       if (search.value.trim()) next.set('q', search.value.trim());
+      if (topic.value) next.set('topic', topic.value);
       if (status.value !== defaults.status) next.set('status', status.value);
       if (language.value !== defaults.language) next.set('language', language.value);
-      if (host.value) next.set('host', host.value);
-      if (listen.value) next.set('listen', listen.value);
       if (sort.value !== defaults.sort) next.set('sort', sort.value);
-      selectedTopics.forEach(function (topic) { next.append('topic', topic); });
       var query = next.toString();
       var url = window.location.pathname + (query ? '?' + query : '') + window.location.hash;
       try {
@@ -227,16 +183,18 @@
 
     function apply() {
       var query = normalize(search.value.trim());
+      var selectedTopic = topic.value;
       var selectedStatus = status.value;
       var selectedLanguage = language.value;
-      var selectedHost = host.value;
-      var selectedListen = listen.value;
       var visible = new Set();
 
       cards.forEach(function (card) {
         var cardTopics = (card.dataset.topics || '').split('|').filter(Boolean);
-        var matches = baseMatch(card, query, selectedStatus, selectedLanguage, selectedHost, selectedListen) &&
-          (!selectedTopics.size || cardTopics.some(function (topic) { return selectedTopics.has(topic); }));
+        var matches =
+          (!query || normalize(card.dataset.search).includes(query)) &&
+          (!selectedTopic || cardTopics.indexOf(selectedTopic) !== -1) &&
+          (!selectedStatus || card.dataset.status === selectedStatus) &&
+          (!selectedLanguage || card.dataset.language === selectedLanguage);
         if (matches) visible.add(card);
       });
 
@@ -267,14 +225,11 @@
       count.textContent = n + ' podcast' + (n > 1 ? 's' : '');
       var filters = [];
       if (query) filters.push('recherche « ' + search.value.trim() + ' »');
-      if (selectedHost) filters.push('hébergeur : ' + selectedHost);
-      if (selectedListen) filters.push('écoute : ' + selectedListen);
+      if (selectedTopic) filters.push('sujet : ' + selectedTopic);
       if (selectedStatus) filters.push(statusLabel(selectedStatus));
       if (selectedLanguage) filters.push(languageLabel(selectedLanguage));
-      if (selectedTopics.size) filters.push('taxonomie : ' + Array.from(selectedTopics).join(', '));
       activeFilters.textContent = filters.length ? filters.join(' · ') : 'tous les podcasts';
       empty.hidden = n !== 0;
-      syncTopicButtons();
       syncUrl();
     }
 
@@ -288,37 +243,17 @@
 
     function resetFilters() {
       search.value = '';
-      host.value = '';
-      listen.value = '';
+      topic.value = '';
       status.value = '';
       language.value = '';
       sort.value = defaults.sort;
-      selectedTopics.clear();
       apply();
       search.focus();
     }
 
-    [search, host, listen, status, language, sort].forEach(function (element) {
+    [search, topic, status, language, sort].forEach(function (element) {
       element.addEventListener('input', apply);
       element.addEventListener('change', apply);
-    });
-
-    topicButtons.forEach(function (button) {
-      button.addEventListener('click', function () {
-        var topic = button.dataset.topicFilter || '';
-        if (!selectedTopics.size && !search.value.trim() && !host.value && !listen.value &&
-            status.value === defaults.status &&
-            language.value === defaults.language) {
-          status.value = '';
-          language.value = '';
-        }
-        if (selectedTopics.has(topic)) {
-          selectedTopics.delete(topic);
-        } else {
-          selectedTopics.add(topic);
-        }
-        apply();
-      });
     });
 
     if (filtersToggle && toolbar) {
@@ -338,7 +273,6 @@
       }
     });
 
-    syncTopicButtons();
     apply();
   }
 

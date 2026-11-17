@@ -198,11 +198,11 @@ code {
 .nav-link:hover { color: var(--text); background: var(--chip-bg); }
 .nav-external { color: var(--accent); }
 .nav-cta {
-  color: #06101f;
-  background: var(--accent);
-  border: 1px solid var(--accent);
+  color: var(--muted);
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
 }
-.nav-cta:hover { color: #06101f; background: var(--accent); filter: brightness(1.08); }
+.nav-cta:hover { color: var(--text); background: var(--card-strong); }
 .theme-toggle {
   height: 36px;
   margin-left: 4px;
@@ -918,6 +918,18 @@ button:focus-visible {
   gap: 9px;
   margin-top: 18px;
 }
+.prose-actions .button {
+  color: var(--accent);
+  background: transparent;
+  border-color: var(--accent);
+}
+.prose-actions .button:hover { color: #06101f; background: var(--accent); }
+.prose-actions .button-secondary {
+  color: var(--text);
+  background: var(--link-bg);
+  border-color: var(--border);
+}
+.prose-actions .button-secondary:hover { color: var(--text); background: var(--card-strong); }
 .prose pre {
   overflow-x: auto;
   padding: 14px;

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T06:13:09.138756+00:00",
+  "generated_at": "2026-11-17T06:16:24.959916+00:00",
   "site": "https://zebux.github.io/CyberPodcast/",
   "count": 86,
   "podcasts": [
@@ -10123,11 +10123,11 @@
       "frequency_days": 7,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-17",
-      "episode_count": 540,
+      "episode_count": 539,
       "average_duration": 33,
       "status": "active",
       "community_rating": 4.8,
-      "community_rating_count": 294,
+      "community_rating_count": 293,
       "platform": "Spotify",
       "topics": [
         "Développement",

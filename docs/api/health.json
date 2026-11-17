@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T20:09:31.157287+00:00",
+  "generated_at": "2026-11-17T22:14:07.891418+00:00",
   "mode": "network",
-  "duration_seconds": 14.51,
+  "duration_seconds": 18.57,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -168,7 +168,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://traffic.libsyn.com/secure/e780d51f-f115-44a6-8252-aed9216bb521/KPOD272.mp3?dest-id=3486674"
+          "url": "https://traffic.libsyn.com/secure/e780d51f-f115-44a6-8252-aed9216bb521/KPOD273.mp3?dest-id=3486674"
         }
       }
     },
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129541342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F5353d64d-5e0a-867d-3b96-f9b4156b7808.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129610511/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2Fdf0dec73-d54c-e0ca-bb7b-6678544d0524.mp3"
         }
       }
     },
@@ -835,7 +835,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.ausha.co/VdW7pswM3jML.mp3?t=1794386000"
+          "url": "https://audio.ausha.co/wEGn6FLe525v.mp3?t=1794939672"
         }
       }
     },
@@ -1410,7 +1410,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://traffic.libsyn.com/lescastcodeurs/LesCastCodeurs-Episode-344.mp3"
+          "url": "https://traffic.libsyn.com/lescastcodeurs/LesCastCodeurs-Episode-345.mp3"
         }
       }
     },
@@ -1724,7 +1724,7 @@
         },
         "rss": {
           "status": "unchecked",
-          "url": "https://javascriptjabber.com/feed"
+          "url": "https://javascriptjabber.com/rss"
         },
         "image": {
           "status": "unchecked",

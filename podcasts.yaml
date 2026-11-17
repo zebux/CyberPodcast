@@ -599,12 +599,17 @@ podcasts:
   image: https://static.libsyn.com/p/assets/a/3/a/a/a3aa4f08236059f5e55e3c100dce7605/NewKPodRoboWhite-20240924-1zwoxpn1sl.png
   author: Kubernetes Podcast from Google
   description: A biweekly podcast focused on what's happening in the Kubernetes community We cover Kubernetes, cloud-native applications, and other developments in the…
-  last_episode: '2026-09-03'
-  last_episode_title: Agent Substrate, with Tim Hockin and Brandon Royal
-  last_episode_url: https://e780d51f-f115-44a6-8252-aed9216bb521.libsyn.com/agent-sandbox-with-tim-hockin-and-brandon-royal
-  last_episode_audio: https://traffic.libsyn.com/secure/e780d51f-f115-44a6-8252-aed9216bb521/KPOD272.mp3?dest-id=3486674
-  last_episode_duration: 48
+  last_episode: '2026-11-17'
+  last_episode_title: Pod Autoscaling and Resource Management, with Adrian Moisey and Jakub Pawełczak
+  last_episode_url: https://e780d51f-f115-44a6-8252-aed9216bb521.libsyn.com/pod-autoscaling-and-resource-management-with-adrian-moisey-and-jakub-paweczak
+  last_episode_audio: https://traffic.libsyn.com/secure/e780d51f-f115-44a6-8252-aed9216bb521/KPOD273.mp3?dest-id=3486674
+  last_episode_duration: 34
   episodes:
+  - title: Pod Autoscaling and Resource Management, with Adrian Moisey and Jakub Pawełczak
+    published: '2026-11-17'
+    url: https://e780d51f-f115-44a6-8252-aed9216bb521.libsyn.com/pod-autoscaling-and-resource-management-with-adrian-moisey-and-jakub-paweczak
+    audio: https://traffic.libsyn.com/secure/e780d51f-f115-44a6-8252-aed9216bb521/KPOD273.mp3?dest-id=3486674
+    duration: 34
   - title: Agent Substrate, with Tim Hockin and Brandon Royal
     published: '2026-09-03'
     url: https://e780d51f-f115-44a6-8252-aed9216bb521.libsyn.com/agent-sandbox-with-tim-hockin-and-brandon-royal
@@ -650,17 +655,12 @@ podcasts:
     url: https://e780d51f-f115-44a6-8252-aed9216bb521.libsyn.com/kubernetes-135-timbernetes-with-drew-hagen
     audio: https://traffic.libsyn.com/secure/e780d51f-f115-44a6-8252-aed9216bb521/KPOD264.mp3?dest-id=3486674
     duration: 29
-  - title: Kubernetes AI Conformance, with Janet Kuo
-    published: '2025-12-17'
-    url: https://e780d51f-f115-44a6-8252-aed9216bb521.libsyn.com/kubernetes-ai-conformance-with-janet-kuo
-    audio: https://traffic.libsyn.com/secure/e780d51f-f115-44a6-8252-aed9216bb521/KPOD263.mp3?dest-id=3486674
-    duration: 18
   frequency: biweekly
-  frequency_days: 14
+  frequency_days: 16
   first_seen: '2026-11-09'
   updated_at: '2026-11-17'
-  episode_count: 272
-  average_duration: 33
+  episode_count: 273
+  average_duration: 34
   status: active
   community_rating: 4.8
   community_rating_count: 179
@@ -2454,67 +2454,67 @@ podcasts:
   image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
-  last_episode: '2026-11-16'
-  last_episode_title: 'RAG et BM25 : l''agent documentaire fait-il vraiment mieux ?'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/RAG-et-BM25--lagent-documentaire-fait-il-vraiment-mieux-e3sfpou
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129541342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F5353d64d-5e0a-867d-3b96-f9b4156b7808.mp3
+  last_episode: '2026-11-17'
+  last_episode_title: 'LMArena : gagner 45 places sans toucher au modèle ?'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LMArena--gagner-45-places-sans-toucher-au-modle-e3shtaf
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129610511/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2Fdf0dec73-d54c-e0ca-bb7b-6678544d0524.mp3
   last_episode_duration: 7
   episodes:
-  - title: 'RAG et BM25 : l''agent documentaire fait-il vraiment mieux ?'
-    published: '2026-11-16'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/RAG-et-BM25--lagent-documentaire-fait-il-vraiment-mieux-e3sfpou
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129541342/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-16%2F5353d64d-5e0a-867d-3b96-f9b4156b7808.mp3
+  - title: 'LMArena : gagner 45 places sans toucher au modèle ?'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LMArena--gagner-45-places-sans-toucher-au-modle-e3shtaf
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610511/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2Fdf0dec73-d54c-e0ca-bb7b-6678544d0524.mp3
     duration: 7
-  - title: 'Chine : 2 800 mines transformées en laboratoire industriel ?'
-    published: '2026-11-16'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Chine--2-800-mines-transformes-en-laboratoire-industriel-e3sdsn8
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129478824/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2Fd59d3abd-7c4c-7c1b-8901-ea68baf689e5.mp3
+  - title: 'Synthesis Smuggling : quand un brouillon d’e-mail fuit votre profil'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Synthesis-Smuggling--quand-un-brouillon-de-mail-fuit-votre-profil-e3sht8b
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610443/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F14577863-66c7-bf6e-1669-e3c9613cf089.mp3
     duration: 7
-  - title: 'Caf et Linux : un OS propriétaire est-il vraiment souverain ?'
-    published: '2026-11-16'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Caf-et-Linux--un-OS-propritaire-est-il-vraiment-souverain-e3scf98
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129432296/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F3e6a2e96-5da8-1583-065e-4921bd072ad1.mp3
+  - title: 'Open source et « slop » : faut-il fermer l''accès aux dépôts ?'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Open-source-et--slop---faut-il-fermer-laccs-aux-dpts-e3sht6i
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610386/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F5e97891b-23ee-0854-755f-e19c0e8c27a6.mp3
     duration: 7
-  - title: 'ChatGPT Wallet : valider le paiement ou choisir l’achat ?'
-    published: '2026-11-16'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/ChatGPT-Wallet--valider-le-paiement-ou-choisir-lachat-e3scf6i
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129432210/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F189acde9-df3f-9477-dadf-275669e8c5a1.mp3
+  - title: 'Shanghai : valoriser les données ou orienter la science ?'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shanghai--valoriser-les-donnes-ou-orienter-la-science-e3sht4l
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610325/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F0c68662f-17c9-60f5-91c1-85fd4ef08eb6.mp3
     duration: 7
-  - title: 'Agents de code : pourquoi élaguer 94 % de leur mémoire ?'
-    published: '2026-11-16'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Agents-de-code--pourquoi-laguer-94--de-leur-mmoire-e3scf40
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129432128/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F9da8868d-f0ae-bd6c-bab7-a50a55858d58.mp3
-    duration: 7
-  - title: 'Puces automobiles : Nexperia et STMicro alertent sur l’éviction'
-    published: '2026-11-16'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Puces-automobiles--Nexperia-et-STMicro-alertent-sur-lviction-e3scerf
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129431855/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-14%2F19e49396-b16a-029c-b835-1f2b2d277c87.mp3
+  - title: 'Cloud et puces IA : quand l’hébergeur devient douanier'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Cloud-et-puces-IA--quand-lhbergeur-devient-douanier-e3sht35
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610277/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F698fd03a-3d93-05fa-2ef3-73782878ebb4.mp3
     duration: 8
-  - title: 'Digital Fairness Act : la fin du design commercial libre ?'
-    published: '2026-11-16'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Digital-Fairness-Act--la-fin-du-design-commercial-libre-e3sb03r
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129383995/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-13%2F759c951e-5286-223c-70bc-f7d04a11b84b.mp3
+  - title: 'AI Act : les bacs à sable aident-ils vraiment les startups ?'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/AI-Act--les-bacs--sable-aident-ils-vraiment-les-startups-e3se37l
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129485493/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F6dc335af-0f70-b207-592f-3d26e3703f66.mp3
     duration: 7
-  - title: 'Dossier médical : quand une IA résume les notes d''une autre'
-    published: '2026-11-16'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Dossier-mdical--quand-une-IA-rsume-les-notes-dune-autre-e3sb00m
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129383894/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-13%2F4bdbbc70-4617-ba6f-8b5a-75ae77107122.mp3
+  - title: 'Cursor & Claude Code : le piège du cache empoisonné'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Cursor--Claude-Code--le-pige-du-cache-empoisonn-e3se2qm
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129485078/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2Fbec08a1d-7b82-e812-35be-1fceb34943cf.mp3
     duration: 7
-  - title: 'Gemini 4 Hydrogen : coder les règles ou déléguer au modèle ?'
-    published: '2026-11-16'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Gemini-4-Hydrogen--coder-les-rgles-ou-dlguer-au-modle-e3savu7
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129383815/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-13%2F8bc24ed3-98ba-0755-5a09-9b2292c111f7.mp3
+  - title: 'Megaspeed : restreindre les exportations avant le procès ?'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Megaspeed--restreindre-les-exportations-avant-le-procs-e3se2p0
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129485024/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F3e7e2740-fd6a-8357-a6ab-407eed5a5bfa.mp3
+    duration: 8
+  - title: 'ScreenConnect et SCKit : quand le support IT propage l''attaque'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/ScreenConnect-et-SCKit--quand-le-support-IT-propage-lattaque-e3sdspq
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129478906/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F91dcea66-1670-094d-2bc4-ce16a0493a69.mp3
     duration: 7
-  - title: Verlaine, l'angle mort des IA
-    published: '2026-11-16'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Verlaine--langle-mort-des-IA-e3pqqc3
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/126756675/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2F40444523-852f-d50f-df55-93ab1355b548.mp3
-    duration: 19
+  - title: Hugo, l'angle mort des IA
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Hugo--langle-mort-des-IA-e3pqqi8
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/126756872/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2Fca55d04a-5771-4be9-dc0e-692be99b99d2.mp3
+    duration: 22
   frequency: null
   frequency_days: null
   first_seen: '2026-11-16'
   updated_at: '2026-11-17'
-  episode_count: 1190
+  episode_count: 1200
   average_duration: 7
   status: active
   community_rating: null
@@ -3508,12 +3508,17 @@ podcasts:
   image: https://image.ausha.co/UmjONms2O6yvvssNOdEXazwTxejnYcft1pZ3DXuw_1400x1400.jpeg?t=1768305932
   author: Fabrice Bourdelon
   description: La Box du RSSI est un podcast 🎙️ dédié à la cybersécurité pour les TPE, PME et ETI. Je suis ravi de vous accueillir dans cet espace où nous allons partager, échanger et surtout VULGARISER les…
-  last_episode: '2026-11-11'
-  last_episode_title: '#059 - SAISON 3 - EP.08 - PAUL KREMER'
-  last_episode_url: https://podcast.ausha.co/laboxdurssi/059
-  last_episode_audio: https://audio.ausha.co/VdW7pswM3jML.mp3?t=1794386000
-  last_episode_duration: 24
+  last_episode: '2026-11-17'
+  last_episode_title: '#060 - SAISON 3 - EP.09 - LUDOVIC LECOMTE'
+  last_episode_url: https://podcast.ausha.co/laboxdurssi/060
+  last_episode_audio: https://audio.ausha.co/wEGn6FLe525v.mp3?t=1794939672
+  last_episode_duration: 27
   episodes:
+  - title: '#060 - SAISON 3 - EP.09 - LUDOVIC LECOMTE'
+    published: '2026-11-17'
+    url: https://podcast.ausha.co/laboxdurssi/060
+    audio: https://audio.ausha.co/wEGn6FLe525v.mp3?t=1794939672
+    duration: 27
   - title: '#059 - SAISON 3 - EP.08 - PAUL KREMER'
     published: '2026-11-11'
     url: https://podcast.ausha.co/laboxdurssi/059
@@ -3559,16 +3564,11 @@ podcasts:
     url: https://podcast.ausha.co/laboxdurssi/051
     audio: https://audio.ausha.co/1PZL1SAPD1Nd.mp3?t=1781504433
     duration: 23
-  - title: '#050 - SAISON 2 - EP.12 - DAVID BIREAU'
-    published: '2026-06-04'
-    url: https://podcast.ausha.co/laboxdurssi/050
-    audio: https://audio.ausha.co/VdW7psgA6pDD.mp3?t=1780586464
-    duration: 20
   frequency: weekly
-  frequency_days: 9
+  frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-17'
-  episode_count: 60
+  episode_count: 61
   average_duration: 27
   status: active
   community_rating: null
@@ -5078,12 +5078,22 @@ podcasts:
   image: https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj
   author: CyberPodcast
   description: CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet accessible look into the cybersecurity landscape.
-  last_episode: '2026-11-16'
-  last_episode_title: 'OWASP GenAI COMPASS Playbook | Paper Breakdown #13 | OWASP AI Security | CyberPodcast'
-  last_episode_url: https://www.youtube.com/watch?v=7MlHoZgxWGY
+  last_episode: '2026-11-17'
+  last_episode_title: 'OWASP Top10 for LLM: Deepfake Preparedness'
+  last_episode_url: https://www.youtube.com/shorts/yWxlEi7Mf7A
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: 'OWASP Top10 for LLM: Deepfake Preparedness'
+    published: '2026-11-17'
+    url: https://www.youtube.com/shorts/yWxlEi7Mf7A
+    audio: null
+    duration: null
+  - title: 'How the Navy Engineered Onion Routing | Tor Network Attacks #25 | CyberPodcast'
+    published: '2026-11-17'
+    url: https://www.youtube.com/watch?v=dYWxLp3hnjI
+    audio: null
+    duration: null
   - title: 'OWASP GenAI COMPASS Playbook | Paper Breakdown #13 | OWASP AI Security | CyberPodcast'
     published: '2026-11-16'
     url: https://www.youtube.com/watch?v=7MlHoZgxWGY
@@ -5122,16 +5132,6 @@ podcasts:
   - title: 'Catching Malicious Tor Exit Nodes: The Spoiled Onions Study | Paper Breakdown #20 | CyberPodcast'
     published: '2026-11-12'
     url: https://www.youtube.com/watch?v=ss6IMOA6zAA
-    audio: null
-    duration: null
-  - title: HTTP Attack Unveils Tor Anonymity
-    published: '2026-11-11'
-    url: https://www.youtube.com/shorts/jXKFushCxAI
-    audio: null
-    duration: null
-  - title: 'How math shatters dark networks | Tor Network Attacks #24 | CyberPodcast'
-    published: '2026-11-10'
-    url: https://www.youtube.com/watch?v=5z7avN-AIro
     audio: null
     duration: null
   frequency: daily
@@ -5931,7 +5931,7 @@ podcasts:
   - Antonio Goncalves
   website: https://lescastcodeurs.com/
   rss: https://lescastcodeurs.com/feed.atom
-  youtube: https://www.youtube.com/watch?v=9nHvt7nX3bU
+  youtube: https://www.youtube.com/watch?v=a5M62DyWImM
   spotify: null
   apple_podcast: https://podcasts.apple.com/fr/podcast/les-cast-codeurs-podcast/id312239675?uo=4
   linkedin: null
@@ -5943,12 +5943,17 @@ podcasts:
   image: https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/27/d4/c2/27d4c27c-6cd5-b27d-de7f-e683c79e5442/mza_6557719921920703431.png/600x600bb.jpg
   author: Les Cast Codeurs (commentaire@lescastcodeurs.com)
   description: Les Cast Codeurs est un podcast en français de, par et pour les développeurs. Prenez connaissance des dernières nouvelles de la sphère Java et du développement en général. Plongez sur un sujet précis…
-  last_episode: '2026-10-19'
-  last_episode_title: LCC 344 - Feature flags - 2^n raisons de ne pas dormir la nuit
-  last_episode_url: https://lescastcodeurs.com/2026/10/20/lcc-344-feature-flags-2n-raisons-de-ne-pas-dormir-la-nuit/
-  last_episode_audio: https://traffic.libsyn.com/lescastcodeurs/LesCastCodeurs-Episode-344.mp3
-  last_episode_duration: 61
+  last_episode: '2026-11-16'
+  last_episode_title: LCC 345 - Rust in peace, Java ressuscite
+  last_episode_url: https://lescastcodeurs.com/2026/11/17/lcc-345-rust-in-peace-java-ressuscite/
+  last_episode_audio: https://traffic.libsyn.com/lescastcodeurs/LesCastCodeurs-Episode-345.mp3
+  last_episode_duration: 68
   episodes:
+  - title: LCC 345 - Rust in peace, Java ressuscite
+    published: '2026-11-16'
+    url: https://lescastcodeurs.com/2026/11/17/lcc-345-rust-in-peace-java-ressuscite/
+    audio: https://traffic.libsyn.com/lescastcodeurs/LesCastCodeurs-Episode-345.mp3
+    duration: 68
   - title: LCC 344 - Feature flags - 2^n raisons de ne pas dormir la nuit
     published: '2026-10-19'
     url: https://lescastcodeurs.com/2026/10/20/lcc-344-feature-flags-2n-raisons-de-ne-pas-dormir-la-nuit/
@@ -5994,17 +5999,12 @@ podcasts:
     url: https://lescastcodeurs.com/2026/02/06/lcc-336-interview-kotlin-avec-arnaud-giuliani/
     audio: https://traffic.libsyn.com/lescastcodeurs/LesCastCodeurs-Episode-336.mp3
     duration: 86
-  - title: LCC 335 - 200 terminaux en prod vendredi
-    published: '2026-01-15'
-    url: https://lescastcodeurs.com/2026/01/16/lcc-335-200-terminaux-en-prod-vendredi/
-    audio: https://traffic.libsyn.com/lescastcodeurs/LesCastCodeurs-Episode-335.mp3
-    duration: 78
   frequency: monthly
   frequency_days: 32
   first_seen: '2026-11-09'
   updated_at: '2026-11-17'
-  episode_count: 363
-  average_duration: 72
+  episode_count: 364
+  average_duration: 71
   status: active
   community_rating: 4.8
   community_rating_count: 121
@@ -7371,7 +7371,7 @@ podcasts:
   hosts:
   - Charles Max Wood
   website: https://javascriptjabber.com/
-  rss: https://javascriptjabber.com/feed
+  rss: https://javascriptjabber.com/rss
   youtube: https://www.youtube.com/playlist?list=PLJesql-aSfX4bg83Xuq_0QZs6MLSyklkq
   spotify: https://open.spotify.com/show/6xpiit8aJmwDHk1rKdxmri
   apple_podcast: https://podcasts.apple.com/us/podcast/javascript-jabber/id496893300?uo=4
@@ -7878,7 +7878,7 @@ podcasts:
   - Alessio Fanelli
   website: https://www.latent.space/
   rss: https://api.substack.com/feed/podcast/1084089.rss
-  youtube: https://www.youtube.com/watch?v=bdIoODXsu8k
+  youtube: https://www.youtube.com/watch?v=8cGfJOU3AlQ
   spotify: https://open.spotify.com/show/2p7zZVwVF6Yk0Zsb4QmT7t
   apple_podcast: https://podcasts.apple.com/us/podcast/latent-space-the-ai-engineer-podcast/id1674008350
   linkedin: null
@@ -7962,7 +7962,6 @@ podcasts:
   - Spotify
   - YouTube
   topics:
-  - IA
   - LLM
   tags:
   - LLM

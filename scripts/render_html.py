@@ -87,6 +87,7 @@ DEFAULT_TOPIC = "Cybersécurité"
 DEFAULT_LANGUAGE = "fr"
 DEFAULT_STATUS = "active"
 DEFAULT_SORT = "last"
+EPISODE_LIMIT = 100
 
 THEME_INIT = """<script>
 (function () {
@@ -912,7 +913,7 @@ def recent_episodes(podcasts: list[dict[str, Any]], limit: int = 20) -> list[tup
 
 
 def latest_episodes_page(podcasts: list[dict[str, Any]]) -> str:
-    rows = recent_episodes(podcasts, 20)
+    rows = recent_episodes(podcasts, EPISODE_LIMIT)
     topic_counts: Counter[str] = Counter()
     language_counts: Counter[str] = Counter()
     for _, podcast, _ in rows:
@@ -975,7 +976,7 @@ def latest_episodes_page(podcasts: list[dict[str, Any]]) -> str:
   <main class="page" id="contenu">
     <header class="page-header">
       <p class="eyebrow">{esc(fmt_date(newest))}</p>
-      <h1>Les 20 derniers <span class="gradient">épisodes publiés</span></h1>
+      <h1>Les {EPISODE_LIMIT} derniers <span class="gradient">épisodes publiés</span></h1>
       <p class="lead">Une sélection chronologique des épisodes les plus récents publiés dans les flux RSS référencés, tous podcasts confondus.</p>
     </header>
     <div class="episode-filters" aria-label="Filtres des épisodes">
@@ -990,7 +991,7 @@ def latest_episodes_page(podcasts: list[dict[str, Any]]) -> str:
   <script>window.CYBERPODCAST_EPISODES_CONFIG = {json_safe({"defaults": {"topic": DEFAULT_TOPIC, "language": DEFAULT_LANGUAGE}})};</script>'''
     return layout(
         title="Derniers épisodes · CyberPodcast",
-        description="Les 20 derniers épisodes publiés par les podcasts cyber, cloud et développement référencés sur CyberPodcast.",
+        description=f"Les {EPISODE_LIMIT} derniers épisodes publiés par les podcasts cyber, cloud et développement référencés sur CyberPodcast.",
         body=body,
         canonical_path="episodes.html",
         json_ld={

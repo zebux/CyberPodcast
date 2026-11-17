@@ -491,8 +491,9 @@ podcasts:
   country: US
   hosts:
   - ITQ
+  website: https://podcasters.spotify.com/pod/show/itq4
   rss: https://anchor.fm/s/108b1f810/podcast/rss
-  youtube: null
+  youtube: http://www.youtube.com/c/spotifyforcreators
   spotify: https://open.spotify.com/show/2uHmmm3l004zce2xSxAcrG
   apple_podcast: https://podcasts.apple.com/fr/podcast/itq-private-cloud-caf%C3%A9/id1835939834?uo=4
   linkedin: null
@@ -1148,7 +1149,7 @@ podcasts:
   - Simon Elisha
   website: https://aws.amazon.com/podcasts/aws-podcast/
   rss: https://d3gih7jbfe3jlq.cloudfront.net/aws-podcast.rss
-  youtube: null
+  youtube: https://www.youtube.com/iframe_api
   spotify: https://open.spotify.com/show/363iMcjThX5KNpfSHPRAjj
   apple_podcast: https://podcasts.apple.com/us/podcast/aws-podcast/id1122785133?uo=4
   linkedin: null
@@ -3032,6 +3033,7 @@ podcasts:
   country: FR
   hosts:
   - Martial Puygrenier
+  website: https://twitter.com/mpgn_x64
   rss: https://anchor.fm/s/435c0d58/podcast/rss
   youtube: null
   spotify: https://open.spotify.com/show/2lwA1WLVqnYvnlc7WkV3yU
@@ -4447,6 +4449,7 @@ podcasts:
   hosts:
   - Nabil Diab
   - Raphaël Ellouz
+  website: https://feeds.acast.com/public/shows/purple-voice
   rss: https://feeds.acast.com/public/shows/68065b0838088415692025d0
   youtube: null
   spotify: null
@@ -4888,8 +4891,9 @@ podcasts:
   hosts:
   - Sylvanus Hougbekey
   - Madena-Esso Kao
+  website: https://podcasters.spotify.com/pod/show/diginovbymadenasylvanus
   rss: https://anchor.fm/s/e419c3e8/podcast/rss
-  youtube: null
+  youtube: http://www.youtube.com/c/spotifyforcreators
   spotify: https://open.spotify.com/show/5gSdlmgOPdpVX3FB3RTIVR
   apple_podcast: https://podcasts.apple.com/fr/podcast/diginov/id1731261927
   linkedin: https://fr.linkedin.com/in/sylvanush
@@ -5350,6 +5354,7 @@ podcasts:
   country: FR
   hosts:
   - Véronique Loquet
+  website: https://twitter.com/NologPodcast
   rss: https://feeds.acast.com/public/shows/no-log
   youtube: null
   spotify: null

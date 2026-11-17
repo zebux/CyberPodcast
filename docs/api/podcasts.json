@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T08:17:14.081644+00:00",
+  "generated_at": "2026-11-17T08:21:18.560041+00:00",
   "site": "https://cyberpodcast.fr/",
   "count": 86,
   "podcasts": [
@@ -627,6 +627,7 @@
       "hosts": [
         "ITQ"
       ],
+      "website": null,
       "rss": "https://anchor.fm/s/108b1f810/podcast/rss",
       "youtube": null,
       "spotify": "https://open.spotify.com/show/2uHmmm3l004zce2xSxAcrG",
@@ -699,8 +700,7 @@
       ],
       "tags": [
         "CNCF"
-      ],
-      "website": null
+      ]
     },
     {
       "id": "kubernetes-podcast",
@@ -3872,6 +3872,7 @@
       "hosts": [
         "Martial Puygrenier"
       ],
+      "website": null,
       "rss": "https://anchor.fm/s/435c0d58/podcast/rss",
       "youtube": null,
       "spotify": "https://open.spotify.com/show/2lwA1WLVqnYvnlc7WkV3yU",
@@ -3977,8 +3978,7 @@
       ],
       "tags": [
         "Technology"
-      ],
-      "website": null
+      ]
     },
     {
       "id": "hacktback-cybertalk",
@@ -5679,6 +5679,7 @@
         "Nabil Diab",
         "Raphaël Ellouz"
       ],
+      "website": null,
       "rss": "https://feeds.acast.com/public/shows/68065b0838088415692025d0",
       "youtube": null,
       "spotify": null,
@@ -5796,8 +5797,7 @@
         "Technology",
         "News",
         "Tech News"
-      ],
-      "website": null
+      ]
     },
     {
       "id": "radiocsirt",
@@ -6240,6 +6240,7 @@
         "Sylvanus Hougbekey",
         "Madena-Esso Kao"
       ],
+      "website": null,
       "rss": "https://anchor.fm/s/e419c3e8/podcast/rss",
       "youtube": null,
       "spotify": "https://open.spotify.com/show/5gSdlmgOPdpVX3FB3RTIVR",
@@ -6346,8 +6347,7 @@
       ],
       "tags": [
         "Technology"
-      ],
-      "website": null
+      ]
     },
     {
       "id": "hackstock",
@@ -6828,6 +6828,7 @@
       "hosts": [
         "Véronique Loquet"
       ],
+      "website": null,
       "rss": "https://feeds.acast.com/public/shows/no-log",
       "youtube": null,
       "spotify": null,
@@ -6916,8 +6917,7 @@
         "Technology",
         "True Crime",
         "Society & Culture"
-      ],
-      "website": null
+      ]
     },
     {
       "id": "osint-origins",

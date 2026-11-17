@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T22:14:07.891418+00:00",
+  "generated_at": "2026-11-17T22:42:09.446619+00:00",
   "mode": "network",
-  "duration_seconds": 18.57,
+  "duration_seconds": 16.5,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -1724,7 +1724,7 @@
         },
         "rss": {
           "status": "unchecked",
-          "url": "https://javascriptjabber.com/rss"
+          "url": "https://javascriptjabber.com/feed"
         },
         "image": {
           "status": "unchecked",
@@ -1847,7 +1847,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1c6f7-44d3-72a3-8e65-ffcfae742084/01a1c6f7-4605-726f-ac19-31f9b1763da0.mp3"
+          "url": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1e632-c02d-7e1d-84cb-b3d9453f63eb/01a1e632-c136-7f19-ba30-c3bc167811bd.mp3"
         }
       }
     },

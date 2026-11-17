@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T22:39:13.712202+00:00",
+  "generated_at": "2026-11-17T22:42:09.538876+00:00",
   "site": "https://cyberpodcast.fr/",
   "count": 86,
   "podcasts": [
@@ -9367,7 +9367,7 @@
         "Charles Max Wood"
       ],
       "website": "https://javascriptjabber.com/",
-      "rss": "https://javascriptjabber.com/rss",
+      "rss": "https://javascriptjabber.com/feed",
       "youtube": "https://www.youtube.com/playlist?list=PLJesql-aSfX4bg83Xuq_0QZs6MLSyklkq",
       "spotify": "https://open.spotify.com/show/6xpiit8aJmwDHk1rKdxmri",
       "apple_podcast": "https://podcasts.apple.com/us/podcast/javascript-jabber/id496893300?uo=4",
@@ -10026,12 +10026,19 @@
       "image": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818",
       "author": "Latent.Space",
       "description": "The main Latent Space podcast: AI engineering, Forward Deployed Engineering, AI for science, and ⚡ Lightning episodes. Other feeds: Engineering and FDE: https://podcast.latent.space/eng.xml; Science…",
-      "last_episode": "2026-11-10",
-      "last_episode_title": "Designing for Agents — Zeno Rocha, Resend",
-      "last_episode_url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/designing_for_agents_zeno_rocha_resend",
-      "last_episode_audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1c6f7-44d3-72a3-8e65-ffcfae742084/01a1c6f7-4605-726f-ac19-31f9b1763da0.mp3",
-      "last_episode_duration": 86,
+      "last_episode": "2026-11-16",
+      "last_episode_title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+      "last_episode_url": "https://latent.space/p/bfl",
+      "last_episode_audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1e632-c02d-7e1d-84cb-b3d9453f63eb/01a1e632-c136-7f19-ba30-c3bc167811bd.mp3",
+      "last_episode_duration": 98,
       "episodes": [
+        {
+          "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+          "published": "2026-11-16",
+          "url": "https://latent.space/p/bfl",
+          "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1e632-c02d-7e1d-84cb-b3d9453f63eb/01a1e632-c136-7f19-ba30-c3bc167811bd.mp3",
+          "duration": 98
+        },
         {
           "title": "Designing for Agents — Zeno Rocha, Resend",
           "published": "2026-11-10",
@@ -10094,21 +10101,14 @@
           "url": "https://latent.space/p/arca",
           "audio": "https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a18ea6-9508-712c-b5ff-54536059aced/01a18eb9-7b8e-7f04-b56a-8580cdb8c207.mp3",
           "duration": 26
-        },
-        {
-          "title": "⚡ Building ChatGPT for Finance — Joseph Kim, OpenAI's Head of Financial Services",
-          "published": "2026-10-31",
-          "url": "https://www.youtube.com/watch?v=v-d1WTqIULs",
-          "audio": "https://podcast.latent.space/audio/v-d1WTqIULs.m4a",
-          "duration": 28
         }
       ],
       "frequency": "daily",
       "frequency_days": 1,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-17",
-      "episode_count": 297,
-      "average_duration": 70,
+      "episode_count": 298,
+      "average_duration": 72,
       "status": "active",
       "community_rating": 4.5,
       "community_rating_count": 108,
@@ -10120,6 +10120,7 @@
         "YouTube"
       ],
       "topics": [
+        "IA",
         "LLM"
       ],
       "tags": [

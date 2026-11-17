@@ -769,12 +769,13 @@ def index_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
         },
         "total": len(podcasts),
     }
-    updated = latest_episode_date(podcasts)
+    updated = GENERATED_AT.strftime("%d/%m/%Y")
+    updated_time = GENERATED_AT.strftime("%H:%M UTC")
 
     body = f'''
   <main id="contenu">
     <section class="hero">
-      <p class="eyebrow">{esc(fmt_date(updated))}</p>
+      <p class="eyebrow">{updated} · {updated_time}</p>
       <h1>Les podcasts <span class="gradient">cyber, cloud &amp; dev</span></h1>
       <p class="lead">Découvrez et écoutez les meilleurs francophones (et parfois internationaux) sur la cybersécurité, le cloud et le développement.</p>
     </section>
@@ -1287,7 +1288,7 @@ def about_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
       <h2>Rythmes de publication</h2>
       <p>Le rythme est calculé à partir de l’intervalle médian entre les dates de publication des épisodes récents, puis arrondi au nombre de jours entier le plus proche. Seuils utilisés : {FREQUENCY_THRESHOLDS}. Le nombre affiché entre parenthèses est cet intervalle médian, pas une périodicité contractuelle.</p>
       <h2>Automatisation</h2>
-      <p>Le workflow tourne chaque jour. Il récupère les nouveautés, met à jour les notes et les derniers épisodes, contrôle la santé des liens et redéploie le site. Les erreurs réseau ne bloquent pas la publication : les données précédentes servent de repli.</p>
+      <p>Le workflow tourne trois fois par jour. Il récupère les nouveautés, met à jour les notes et les derniers épisodes, contrôle la santé des liens et redéploie le site. Les erreurs réseau ne bloquent pas la publication : les données précédentes servent de repli.</p>
       <h2>Contribuer</h2>
       <p>Une erreur, un podcast manquant, un flux cassé ? Ouvrez une <a href="{REPO_URL}/issues" target="_blank" rel="noopener noreferrer">issue</a> ou proposez une correction dans <code>data/podcasts-*.yaml</code>. Les liens officiels et les flux vérifiés sont prioritaires.</p>
       <h2>Transparence</h2>
@@ -1307,42 +1308,47 @@ def about_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
 
 
 def contribute_page() -> str:
-    issue_url = f"{REPO_URL}/issues/new?template=nouvelle-ressource.yml"
-    pr_url = f"{REPO_URL}/compare"
-    guide_url = f"{REPO_URL}/blob/main/CONTRIBUTING.md"
-    security_url = f"{REPO_URL}/blob/main/SECURITY.md"
+    email = "cyberpodcast@zebux.org"
+    mail_url = f"mailto:{email}?subject=Proposition%20de%20podcast%20-%20CyberPodcast"
     body = f'''
   <main class="page prose" id="contenu">
     <header class="page-header">
       <p class="eyebrow">Contribuer</p>
       <h1>Proposer un podcast ou <span class="gradient">une ressource</span></h1>
-      <p class="lead">Un podcast manque, un lien est mort, une fiche mérite une correction ? La contribution passe par GitHub : ouvrez une issue guidée ou envoyez une pull request. Les liens officiels et les flux vérifiés sont toujours prioritaires.</p>
+      <p class="lead">Un podcast manque ou une fiche mérite une correction ? Envoyez votre proposition par e-mail à <a href="mailto:{email}">{email}</a>. Les liens officiels et les flux vérifiés sont toujours prioritaires.</p>
       <div class="prose-actions">
-        <a class="button" href="{issue_url}" target="_blank" rel="noopener noreferrer">Proposer une ressource sur GitHub</a>
-        <a class="button button-secondary" href="{pr_url}" target="_blank" rel="noopener noreferrer">Ouvrir une pull request</a>
+        <a class="button" href="{mail_url}">Envoyer une proposition par e-mail</a>
       </div>
     </header>
+    <section class="panel">
+      <h2>Comment proposer une ressource</h2>
+      <ol>
+        <li>Vérifiez les critères de sélection ci-dessous.</li>
+        <li>Préparez le format attendu avec les champs obligatoires.</li>
+        <li>Envoyez le tout à <a href="mailto:{email}">{email}</a> en précisant le nom de la ressource dans l’objet.</li>
+      </ol>
+    </section>
     <section class="panel">
       <h2>Critères de sélection</h2>
       <ul>
         <li>Le sujet principal est la cybersécurité, le cloud, le développement ou un sujet adjacent clairement utile à la communauté.</li>
         <li>La ressource est publique, consultable sans accès privé et dispose d’un site officiel ou d’un flux RSS stable.</li>
-        <li>Le podcast est actif ou récemment actif ; un arrêt de publication peut être accepté si l’intérêt historique est expliqué.</li>
-        <li>Il n’existe pas déjà de fiche ou d’issue ouverte pour la même ressource.</li>
+        <li>Le podcast est actif ou récemment actif ; un arrêt de publication peut être accepté si l’intérêt historique est explicitement justifié.</li>
+        <li>Il n’existe pas déjà de fiche pour la même ressource.</li>
         <li>Le contenu n’est ni illégal, ni haineux, ni trompeur, et les liens d’écoute renvoient vers les plateformes officielles.</li>
       </ul>
       <h2>Format attendu</h2>
-      <p>Ajoutez une entrée dans le fichier source adapté : <code>data/podcasts-cyber.yaml</code>, <code>data/podcasts-cloud.yaml</code> ou <code>data/podcasts-dev.yaml</code>. Ne modifiez pas <code>podcasts.yaml</code> ni <code>docs/</code> à la main : ils sont générés par le pipeline.</p>
+      <p>Voici le format attendu pour une proposition. Vous pouvez copier ce modèle directement dans votre e-mail :</p>
       <pre><code>  - id: mon-podcast
-    name: "Mon Podcast"
-    category: ["Cybersécurité", "Blue Team"]
+    name: 'Mon Podcast'
+    category: ['Cybersécurité', 'Blue Team']
     language: fr
-    host: "Prénom Nom"
+    host: 'Prénom Nom'
     status: active
     website: https://exemple.fr
     rss: https://exemple.fr/feed.xml
     apple_podcast: https://podcasts.apple.com/...
-    description: "Description courte et factuelle du podcast."
+    description: 'Description courte et factuelle du podcast.'
     platform: Ausha</code></pre>
       <h2>Champs obligatoires</h2>
       <ul>
@@ -1355,33 +1361,20 @@ def contribute_page() -> str:
       <p>Les champs <code>host</code>, <code>status</code>, <code>spotify</code>, <code>youtube</code>, <code>description</code> et <code>platform</code> sont facultatifs mais améliorent la fiche générée.</p>
     </section>
     <section class="panel">
-      <h2>Ouvrir une issue</h2>
-      <p>Utilisez le modèle <strong>Nouvelle ressource</strong> et joignez les liens officiels, la catégorie, la langue et l’éventuel flux RSS. Pour un lien mort ou une erreur, choisissez le modèle <strong>Lien cassé</strong> ou <strong>Bug</strong> afin que le problème soit routé correctement.</p>
-      <p><a class="button" href="{issue_url}" target="_blank" rel="noopener noreferrer">Proposer une ressource sur GitHub</a></p>
-      <h2>Proposer une pull request</h2>
-      <p>Forkuez le dépôt, créez une branche courte, modifiez uniquement le fichier <code>data/podcasts-*.yaml</code> concerné, puis lancez les vérifications locales :</p>
-      <pre><code>python scripts/enrich_podcasts.py
-python scripts/check_health.py
-python scripts/render_html.py</code></pre>
-      <p>Ouvrez ensuite la pull request avec le modèle fourni. Les fichiers générés doivent être inclus s’ils changent après le rendu.</p>
-      <h2>Règles et sécurité</h2>
-      <p>Le guide complet est dans <a href="{guide_url}" target="_blank" rel="noopener noreferrer">CONTRIBUTING.md</a>. Pour signaler une vulnérabilité, suivez <a href="{security_url}" target="_blank" rel="noopener noreferrer">SECURITY.md</a> et n’exposez jamais de détails exploitables dans une issue publique.</p>
-    </section>
-    <section class="panel">
-      <h2>Prêt à contribuer ?</h2>
-      <p>Une proposition claire, même minimale, est toujours utile. Merci de garder les liens officiels à jour et de respecter le code de conduite du projet.</p>
+      <h2>Envoyer la proposition</h2>
+      <p>Copiez le modèle ci-dessus, ajoutez vos liens officiels et envoyez le tout à <a href="mailto:{email}">{email}</a>. La ressource sera vérifiée avant ajout à l’annuaire.</p>
       <div class="prose-actions">
-        <a class="button" href="{issue_url}" target="_blank" rel="noopener noreferrer">Proposer une ressource sur GitHub</a>
-        <a class="button button-secondary" href="{guide_url}" target="_blank" rel="noopener noreferrer">Lire le guide de contribution</a>
+        <a class="button" href="{mail_url}">Écrire à {email}</a>
       </div>
     </section>
   </main>'''
     return layout(
         title="Contribuer · CyberPodcast",
-        description="Proposez un podcast ou une ressource à CyberPodcast : critères de sélection, format YAML, issues et pull requests.",
+        description="Proposez un podcast ou une ressource à CyberPodcast : critères de sélection, format attendu et champs obligatoires.",
         body=body,
         canonical_path="contribuer.html",
     )
+
 
 
 def not_found_page() -> str:

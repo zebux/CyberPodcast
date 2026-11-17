@@ -32,7 +32,7 @@ CONTRIBUTING.md          guide de contribution
 SECURITY.md              divulgation responsable
 ```
 
-Le workflow GitHub Actions tourne chaque jour : enrichissement, contrôle santé, rendu, validation, commit et déploiement GitHub Pages.
+Le workflow GitHub Actions tourne trois fois par jour : enrichissement, contrôle santé, rendu, validation, commit et déploiement GitHub Pages.
 
 ## Modèle de données
 

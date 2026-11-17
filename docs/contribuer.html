@@ -4,18 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contribuer · CyberPodcast</title>
-  <meta name="description" content="Proposez un podcast ou une ressource à CyberPodcast : critères de sélection, format YAML, issues et pull requests.">
+  <meta name="description" content="Proposez un podcast ou une ressource à CyberPodcast : critères de sélection, format attendu et champs obligatoires.">
   <link rel="canonical" href="https://cyberpodcast.fr/contribuer.html">
   <meta name="theme-color" content="#080d1c">
   <meta property="og:site_name" content="CyberPodcast">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Contribuer · CyberPodcast">
-  <meta property="og:description" content="Proposez un podcast ou une ressource à CyberPodcast : critères de sélection, format YAML, issues et pull requests.">
+  <meta property="og:description" content="Proposez un podcast ou une ressource à CyberPodcast : critères de sélection, format attendu et champs obligatoires.">
   <meta property="og:url" content="https://cyberpodcast.fr/contribuer.html">
   <meta property="og:image" content="https://cyberpodcast.fr/assets/logo.png">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Contribuer · CyberPodcast">
-  <meta name="twitter:description" content="Proposez un podcast ou une ressource à CyberPodcast : critères de sélection, format YAML, issues et pull requests.">
+  <meta name="twitter:description" content="Proposez un podcast ou une ressource à CyberPodcast : critères de sélection, format attendu et champs obligatoires.">
   <meta name="twitter:image" content="https://cyberpodcast.fr/assets/logo.png">
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
@@ -60,33 +60,40 @@
     <header class="page-header">
       <p class="eyebrow">Contribuer</p>
       <h1>Proposer un podcast ou <span class="gradient">une ressource</span></h1>
-      <p class="lead">Un podcast manque, un lien est mort, une fiche mérite une correction ? La contribution passe par GitHub : ouvrez une issue guidée ou envoyez une pull request. Les liens officiels et les flux vérifiés sont toujours prioritaires.</p>
+      <p class="lead">Un podcast manque ou une fiche mérite une correction ? Envoyez votre proposition par e-mail à <a href="mailto:cyberpodcast@zebux.org">cyberpodcast@zebux.org</a>. Les liens officiels et les flux vérifiés sont toujours prioritaires.</p>
       <div class="prose-actions">
-        <a class="button" href="https://github.com/zebux/CyberPodcast/issues/new?template=nouvelle-ressource.yml" target="_blank" rel="noopener noreferrer">Proposer une ressource sur GitHub</a>
-        <a class="button button-secondary" href="https://github.com/zebux/CyberPodcast/compare" target="_blank" rel="noopener noreferrer">Ouvrir une pull request</a>
+        <a class="button" href="mailto:cyberpodcast@zebux.org?subject=Proposition%20de%20podcast%20-%20CyberPodcast">Envoyer une proposition par e-mail</a>
       </div>
     </header>
+    <section class="panel">
+      <h2>Comment proposer une ressource</h2>
+      <ol>
+        <li>Vérifiez les critères de sélection ci-dessous.</li>
+        <li>Préparez le format attendu avec les champs obligatoires.</li>
+        <li>Envoyez le tout à <a href="mailto:cyberpodcast@zebux.org">cyberpodcast@zebux.org</a> en précisant le nom de la ressource dans l’objet.</li>
+      </ol>
+    </section>
     <section class="panel">
       <h2>Critères de sélection</h2>
       <ul>
         <li>Le sujet principal est la cybersécurité, le cloud, le développement ou un sujet adjacent clairement utile à la communauté.</li>
         <li>La ressource est publique, consultable sans accès privé et dispose d’un site officiel ou d’un flux RSS stable.</li>
-        <li>Le podcast est actif ou récemment actif ; un arrêt de publication peut être accepté si l’intérêt historique est expliqué.</li>
-        <li>Il n’existe pas déjà de fiche ou d’issue ouverte pour la même ressource.</li>
+        <li>Le podcast est actif ou récemment actif ; un arrêt de publication peut être accepté si l’intérêt historique est explicitement justifié.</li>
+        <li>Il n’existe pas déjà de fiche pour la même ressource.</li>
         <li>Le contenu n’est ni illégal, ni haineux, ni trompeur, et les liens d’écoute renvoient vers les plateformes officielles.</li>
       </ul>
       <h2>Format attendu</h2>
-      <p>Ajoutez une entrée dans le fichier source adapté : <code>data/podcasts-cyber.yaml</code>, <code>data/podcasts-cloud.yaml</code> ou <code>data/podcasts-dev.yaml</code>. Ne modifiez pas <code>podcasts.yaml</code> ni <code>docs/</code> à la main : ils sont générés par le pipeline.</p>
+      <p>Voici le format attendu pour une proposition. Vous pouvez copier ce modèle directement dans votre e-mail :</p>
       <pre><code>  - id: mon-podcast
-    name: "Mon Podcast"
-    category: ["Cybersécurité", "Blue Team"]
+    name: 'Mon Podcast'
+    category: ['Cybersécurité', 'Blue Team']
     language: fr
-    host: "Prénom Nom"
+    host: 'Prénom Nom'
     status: active
     website: https://exemple.fr
     rss: https://exemple.fr/feed.xml
     apple_podcast: https://podcasts.apple.com/...
-    description: "Description courte et factuelle du podcast."
+    description: 'Description courte et factuelle du podcast.'
     platform: Ausha</code></pre>
       <h2>Champs obligatoires</h2>
       <ul>
@@ -99,24 +106,10 @@
       <p>Les champs <code>host</code>, <code>status</code>, <code>spotify</code>, <code>youtube</code>, <code>description</code> et <code>platform</code> sont facultatifs mais améliorent la fiche générée.</p>
     </section>
     <section class="panel">
-      <h2>Ouvrir une issue</h2>
-      <p>Utilisez le modèle <strong>Nouvelle ressource</strong> et joignez les liens officiels, la catégorie, la langue et l’éventuel flux RSS. Pour un lien mort ou une erreur, choisissez le modèle <strong>Lien cassé</strong> ou <strong>Bug</strong> afin que le problème soit routé correctement.</p>
-      <p><a class="button" href="https://github.com/zebux/CyberPodcast/issues/new?template=nouvelle-ressource.yml" target="_blank" rel="noopener noreferrer">Proposer une ressource sur GitHub</a></p>
-      <h2>Proposer une pull request</h2>
-      <p>Forkuez le dépôt, créez une branche courte, modifiez uniquement le fichier <code>data/podcasts-*.yaml</code> concerné, puis lancez les vérifications locales :</p>
-      <pre><code>python scripts/enrich_podcasts.py
-python scripts/check_health.py
-python scripts/render_html.py</code></pre>
-      <p>Ouvrez ensuite la pull request avec le modèle fourni. Les fichiers générés doivent être inclus s’ils changent après le rendu.</p>
-      <h2>Règles et sécurité</h2>
-      <p>Le guide complet est dans <a href="https://github.com/zebux/CyberPodcast/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">CONTRIBUTING.md</a>. Pour signaler une vulnérabilité, suivez <a href="https://github.com/zebux/CyberPodcast/blob/main/SECURITY.md" target="_blank" rel="noopener noreferrer">SECURITY.md</a> et n’exposez jamais de détails exploitables dans une issue publique.</p>
-    </section>
-    <section class="panel">
-      <h2>Prêt à contribuer ?</h2>
-      <p>Une proposition claire, même minimale, est toujours utile. Merci de garder les liens officiels à jour et de respecter le code de conduite du projet.</p>
+      <h2>Envoyer la proposition</h2>
+      <p>Copiez le modèle ci-dessus, ajoutez vos liens officiels et envoyez le tout à <a href="mailto:cyberpodcast@zebux.org">cyberpodcast@zebux.org</a>. La ressource sera vérifiée avant ajout à l’annuaire.</p>
       <div class="prose-actions">
-        <a class="button" href="https://github.com/zebux/CyberPodcast/issues/new?template=nouvelle-ressource.yml" target="_blank" rel="noopener noreferrer">Proposer une ressource sur GitHub</a>
-        <a class="button button-secondary" href="https://github.com/zebux/CyberPodcast/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">Lire le guide de contribution</a>
+        <a class="button" href="mailto:cyberpodcast@zebux.org?subject=Proposition%20de%20podcast%20-%20CyberPodcast">Écrire à cyberpodcast@zebux.org</a>
       </div>
     </section>
   </main>

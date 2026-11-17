@@ -2,7 +2,7 @@ name: Enrich podcasts
 
 on:
   schedule:
-    - cron: "17 4 * * *"
+    - cron: "17 4,12,20 * * *"
   workflow_dispatch:
     inputs:
       clear_cache:

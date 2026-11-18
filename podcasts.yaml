@@ -2454,42 +2454,12 @@ podcasts:
   image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
-  last_episode: '2026-11-18'
-  last_episode_title: 'Fireworks AI : quand la R&D expose données et poids de modèles'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fireworks-AI--quand-la-RD-expose-donnes-et-poids-de-modles-e3shtg9
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129610697/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F5f58fc7f-f4e8-d4c7-4785-5a1c2504ecba.mp3
+  last_episode: '2026-11-17'
+  last_episode_title: 'LMArena : gagner 45 places sans toucher au modèle ?'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LMArena--gagner-45-places-sans-toucher-au-modle-e3shtaf
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129610511/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2Fdf0dec73-d54c-e0ca-bb7b-6678544d0524.mp3
   last_episode_duration: 7
   episodes:
-  - title: 'Fireworks AI : quand la R&D expose données et poids de modèles'
-    published: '2026-11-18'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fireworks-AI--quand-la-RD-expose-donnes-et-poids-de-modles-e3shtg9
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610697/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F5f58fc7f-f4e8-d4c7-4785-5a1c2504ecba.mp3
-    duration: 7
-  - title: 'United Airlines bloque les agents : sécurité ou contrôle ?'
-    published: '2026-11-18'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/United-Airlines-bloque-les-agents--scurit-ou-contrle-e3shtei
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610642/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F22efcfc0-e330-5179-ea9f-ea4d41d23647.mp3
-    duration: 7
-  - title: 'Embeddings et ChatGPT : l’illusion de la pensée unique ?'
-    published: '2026-11-18'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Embeddings-et-ChatGPT--lillusion-de-la-pense-unique-e3shtce
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610574/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F42eae84e-32da-713b-1d7a-4268a68f6d79.mp3
-    duration: 8
-  - title: 'Modèles multimodaux : le piège caché du raisonnement en texte seul'
-    published: '2026-11-18'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Modles-multimodaux--le-pige-cach-du-raisonnement-en-texte-seul-e3se4ud
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129487245/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2Fa56764a4-f94f-a7ae-6e83-c898f8e135cf.mp3
-    duration: 7
-  - title: 'Migration cloud à risque : 12 ou 18 mois pour sortir ?'
-    published: '2026-11-18'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Migration-cloud--risque--12-ou-18-mois-pour-sortir-e3se4bc
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129486636/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F71f3364d-944f-26b2-e304-0bc949e255e6.mp3
-    duration: 7
-  - title: Baudelaire, l'angle mort des IA
-    published: '2026-11-18'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Baudelaire--langle-mort-des-IA-e3pqrks
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/126757980/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2F53752851-cb61-415c-e02a-f4de2bf49de4.mp3
-    duration: 20
   - title: 'LMArena : gagner 45 places sans toucher au modèle ?'
     published: '2026-11-17'
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LMArena--gagner-45-places-sans-toucher-au-modle-e3shtaf
@@ -2510,6 +2480,36 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shanghai--valoriser-les-donnes-ou-orienter-la-science-e3sht4l
     audio: https://anchor.fm/s/11065f6ec/podcast/play/129610325/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F0c68662f-17c9-60f5-91c1-85fd4ef08eb6.mp3
     duration: 7
+  - title: 'Cloud et puces IA : quand l’hébergeur devient douanier'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Cloud-et-puces-IA--quand-lhbergeur-devient-douanier-e3sht35
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610277/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F698fd03a-3d93-05fa-2ef3-73782878ebb4.mp3
+    duration: 8
+  - title: 'AI Act : les bacs à sable aident-ils vraiment les startups ?'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/AI-Act--les-bacs--sable-aident-ils-vraiment-les-startups-e3se37l
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129485493/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F6dc335af-0f70-b207-592f-3d26e3703f66.mp3
+    duration: 7
+  - title: 'Cursor & Claude Code : le piège du cache empoisonné'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Cursor--Claude-Code--le-pige-du-cache-empoisonn-e3se2qm
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129485078/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2Fbec08a1d-7b82-e812-35be-1fceb34943cf.mp3
+    duration: 7
+  - title: 'Megaspeed : restreindre les exportations avant le procès ?'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Megaspeed--restreindre-les-exportations-avant-le-procs-e3se2p0
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129485024/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F3e7e2740-fd6a-8357-a6ab-407eed5a5bfa.mp3
+    duration: 8
+  - title: 'ScreenConnect et SCKit : quand le support IT propage l''attaque'
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/ScreenConnect-et-SCKit--quand-le-support-IT-propage-lattaque-e3sdspq
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129478906/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F91dcea66-1670-094d-2bc4-ce16a0493a69.mp3
+    duration: 7
+  - title: Hugo, l'angle mort des IA
+    published: '2026-11-17'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Hugo--langle-mort-des-IA-e3pqqi8
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/126756872/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2Fca55d04a-5771-4be9-dc0e-692be99b99d2.mp3
+    duration: 22
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
@@ -7962,7 +7962,6 @@ podcasts:
   - Spotify
   - YouTube
   topics:
-  - IA
   - LLM
   tags:
   - LLM

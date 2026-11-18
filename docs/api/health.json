@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T13:05:59.603623+00:00",
+  "generated_at": "2026-11-18T14:18:13.139165+00:00",
   "mode": "network",
-  "duration_seconds": 16.33,
+  "duration_seconds": 17.17,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -191,7 +191,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://www.buzzsprout.com/3195/episodes/20124143-ai-news-mid-november-2026.mp3"
+          "url": "https://www.buzzsprout.com/3195/episodes/20124283-build-the-machine-that-builds-the-machine-with-adam-jacob.mp3"
         }
       }
     },
@@ -214,7 +214,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode211.mp3"
+          "url": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode216.mp3"
         }
       }
     },
@@ -559,7 +559,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/827dad28-5f10-401c-8dd8-0d16c1a837ba.mp3"
+          "url": "https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/aec09a42-41a9-43c0-978a-f88af903da3b.mp3"
         }
       }
     },
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129610511/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2Fdf0dec73-d54c-e0ca-bb7b-6678544d0524.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129610697/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F5f58fc7f-f4e8-d4c7-4785-5a1c2504ecba.mp3"
         }
       }
     },
@@ -1134,7 +1134,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://track.podcastics.com/7830/439934.mp3"
+          "url": "https://track.podcastics.com/7830/440111.mp3"
         }
       }
     },
@@ -1387,7 +1387,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/a1a2f062-9387-43eb-ab07-60d955870338.mp3?_=1794488441"
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/1ebca351-8f11-461b-9acf-0e842b5cd5a9.mp3?_=1794920431"
         }
       }
     },
@@ -1456,7 +1456,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/34345859-1ef6-4234-96bb-c1f3d5f135e4.mp3?_=1794348402"
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/442c1310-80af-4583-9c16-83cf1c15f192.mp3?_=1794956895"
         }
       }
     },
@@ -1502,7 +1502,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://traffic.megaphone.fm/FSI3647670844.mp3"
+          "url": "https://traffic.megaphone.fm/FSI7047632099.mp3"
         }
       }
     },
@@ -1640,7 +1640,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/504/who-turned-the-gil-back-on.mp3"
+          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/505/introducing-diskcache-oxide.mp3"
         }
       }
     },
@@ -1870,7 +1870,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN8451107730.mp3"
+          "url": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN1029197842.mp3"
         }
       }
     },

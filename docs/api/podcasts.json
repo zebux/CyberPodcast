@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T13:05:59.713299+00:00",
+  "generated_at": "2026-11-18T14:18:13.231001+00:00",
   "site": "https://cyberpodcast.fr/",
   "count": 86,
   "podcasts": [
@@ -886,12 +886,19 @@
       "image": "https://storage.buzzsprout.com/qy0q4u4tgdaume7dfehgpznhwhn0?.jpg",
       "author": "Massive Studios",
       "description": "The Enterprise AI Show explores the AI journey for Enterprise companies around the world. [formerly The Cloudcast] As the AI revolution moves from experimentation to execution, The Enterprise AI Show…",
-      "last_episode": "2026-11-15",
-      "last_episode_title": "AI News - Mid-November 2026",
+      "last_episode": "2026-11-18",
+      "last_episode_title": "Build the Machine That Builds the Machine with Adam Jacob",
       "last_episode_url": null,
-      "last_episode_audio": "https://www.buzzsprout.com/3195/episodes/20124143-ai-news-mid-november-2026.mp3",
-      "last_episode_duration": 46,
+      "last_episode_audio": "https://www.buzzsprout.com/3195/episodes/20124283-build-the-machine-that-builds-the-machine-with-adam-jacob.mp3",
+      "last_episode_duration": 50,
       "episodes": [
+        {
+          "title": "Build the Machine That Builds the Machine with Adam Jacob",
+          "published": "2026-11-18",
+          "url": null,
+          "audio": "https://www.buzzsprout.com/3195/episodes/20124283-build-the-machine-that-builds-the-machine-with-adam-jacob.mp3",
+          "duration": 50
+        },
         {
           "title": "AI News - Mid-November 2026",
           "published": "2026-11-15",
@@ -954,21 +961,14 @@
           "url": null,
           "audio": "https://www.buzzsprout.com/3195/episodes/19980899-ai-news-mid-october-2026.mp3",
           "duration": 36
-        },
-        {
-          "title": "A Cloud Nobody Owns: Sovereign Infrastructure for the Agent Era with Dominic Williams",
-          "published": "2026-10-12",
-          "url": null,
-          "audio": "https://www.buzzsprout.com/3195/episodes/19945153-a-cloud-nobody-owns-sovereign-infrastructure-for-the-agent-era-with-dominic-williams.mp3",
-          "duration": 42
         }
       ],
       "frequency": "weekly",
-      "frequency_days": 4,
+      "frequency_days": 3,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-18",
-      "episode_count": 1115,
-      "average_duration": 38,
+      "episode_count": 1116,
+      "average_duration": 40,
       "status": "active",
       "community_rating": 4.6,
       "community_rating_count": 151,
@@ -1019,12 +1019,19 @@
       "image": "https://www.arresteddevops.com/img/ado-podcast-logo.png",
       "author": "Matt Stratton",
       "description": "There's always DevOps in the Banana Stand",
-      "last_episode": "2026-11-11",
-      "last_episode_title": "Modern Backups with Gilles Chehade",
-      "last_episode_url": "https://www.arresteddevops.com/modern-backups/",
-      "last_episode_audio": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode211.mp3",
-      "last_episode_duration": 30,
+      "last_episode": "2026-11-18",
+      "last_episode_title": "Marketing Ships to Production with Stephan Schmidt and Tanya Higgins",
+      "last_episode_url": "https://www.arresteddevops.com/marketing-ships-to-production/",
+      "last_episode_audio": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode216.mp3",
+      "last_episode_duration": 33,
       "episodes": [
+        {
+          "title": "Marketing Ships to Production with Stephan Schmidt and Tanya Higgins",
+          "published": "2026-11-18",
+          "url": "https://www.arresteddevops.com/marketing-ships-to-production/",
+          "audio": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode216.mp3",
+          "duration": 33
+        },
         {
           "title": "Modern Backups with Gilles Chehade",
           "published": "2026-11-11",
@@ -1087,21 +1094,14 @@
           "url": "https://www.arresteddevops.com/using-ai/",
           "audio": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode203.mp3",
           "duration": 40
-        },
-        {
-          "title": "Open Communities with Andrew Zigler",
-          "published": "2024-02-01",
-          "url": "https://www.arresteddevops.com/open-communities/",
-          "audio": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode202.mp3",
-          "duration": 35
         }
       ],
       "frequency": "monthly",
-      "frequency_days": 27,
+      "frequency_days": 22,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-18",
-      "episode_count": 211,
-      "average_duration": 40,
+      "episode_count": 212,
+      "average_duration": 39,
       "status": "active",
       "community_rating": 4.6,
       "community_rating_count": 68,
@@ -2986,12 +2986,26 @@
       "image": "https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/3/305e3275-6919-4ed2-9ca1-b21e0cf904b2/cover.jpg?v=1",
       "author": "Noah J. Chelliah",
       "description": "The community centered show where you are the content!",
-      "last_episode": "2026-11-04",
-      "last_episode_title": "Episode 513: Ask Noah Show 513",
-      "last_episode_url": "https://podcast.asknoahshow.com/513",
-      "last_episode_audio": "https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/827dad28-5f10-401c-8dd8-0d16c1a837ba.mp3",
-      "last_episode_duration": 54,
+      "last_episode": "2026-11-17",
+      "last_episode_title": "Episode 515: Ask Noah Show 515",
+      "last_episode_url": "https://podcast.asknoahshow.com/515",
+      "last_episode_audio": "https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/aec09a42-41a9-43c0-978a-f88af903da3b.mp3",
+      "last_episode_duration": 75,
       "episodes": [
+        {
+          "title": "Episode 515: Ask Noah Show 515",
+          "published": "2026-11-17",
+          "url": "https://podcast.asknoahshow.com/515",
+          "audio": "https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/aec09a42-41a9-43c0-978a-f88af903da3b.mp3",
+          "duration": 75
+        },
+        {
+          "title": "Episode 514: Ask Noah Show 514",
+          "published": "2026-11-11",
+          "url": "https://podcast.asknoahshow.com/514",
+          "audio": "https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/1d2d8ea6-cd76-4437-bfb8-f4ead5064495.mp3",
+          "duration": 53
+        },
         {
           "title": "Episode 513: Ask Noah Show 513",
           "published": "2026-11-04",
@@ -3047,27 +3061,13 @@
           "url": "https://podcast.asknoahshow.com/506",
           "audio": "https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/218f69fc-4901-4193-9eda-e6c3322fed26.mp3",
           "duration": 54
-        },
-        {
-          "title": "Ask Noah Show 505",
-          "published": "2026-09-08",
-          "url": "https://podcast.asknoahshow.com/505",
-          "audio": "https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/de67d181-e087-435a-b5c2-6d4d1216f828.mp3",
-          "duration": 54
-        },
-        {
-          "title": "Ask Noah Show 504",
-          "published": "2026-09-02",
-          "url": "https://podcast.asknoahshow.com/504",
-          "audio": "https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/061bfb42-9777-48df-bf25-07359095c7b5.mp3",
-          "duration": 54
         }
       ],
       "frequency": "weekly",
       "frequency_days": 7,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-18",
-      "episode_count": 512,
+      "episode_count": 514,
       "average_duration": 54,
       "status": "active",
       "community_rating": 4.6,
@@ -3117,12 +3117,54 @@
       "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg",
       "author": "Franck Dubray - Dragonfly",
       "description": "Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.",
-      "last_episode": "2026-11-17",
-      "last_episode_title": "LMArena : gagner 45 places sans toucher au modèle ?",
-      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LMArena--gagner-45-places-sans-toucher-au-modle-e3shtaf",
-      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610511/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2Fdf0dec73-d54c-e0ca-bb7b-6678544d0524.mp3",
+      "last_episode": "2026-11-18",
+      "last_episode_title": "Fireworks AI : quand la R&D expose données et poids de modèles",
+      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fireworks-AI--quand-la-RD-expose-donnes-et-poids-de-modles-e3shtg9",
+      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610697/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F5f58fc7f-f4e8-d4c7-4785-5a1c2504ecba.mp3",
       "last_episode_duration": 7,
       "episodes": [
+        {
+          "title": "Fireworks AI : quand la R&D expose données et poids de modèles",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fireworks-AI--quand-la-RD-expose-donnes-et-poids-de-modles-e3shtg9",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610697/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F5f58fc7f-f4e8-d4c7-4785-5a1c2504ecba.mp3",
+          "duration": 7
+        },
+        {
+          "title": "United Airlines bloque les agents : sécurité ou contrôle ?",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/United-Airlines-bloque-les-agents--scurit-ou-contrle-e3shtei",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610642/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F22efcfc0-e330-5179-ea9f-ea4d41d23647.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Embeddings et ChatGPT : l’illusion de la pensée unique ?",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Embeddings-et-ChatGPT--lillusion-de-la-pense-unique-e3shtce",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610574/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F42eae84e-32da-713b-1d7a-4268a68f6d79.mp3",
+          "duration": 8
+        },
+        {
+          "title": "Modèles multimodaux : le piège caché du raisonnement en texte seul",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Modles-multimodaux--le-pige-cach-du-raisonnement-en-texte-seul-e3se4ud",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129487245/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2Fa56764a4-f94f-a7ae-6e83-c898f8e135cf.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Migration cloud à risque : 12 ou 18 mois pour sortir ?",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Migration-cloud--risque--12-ou-18-mois-pour-sortir-e3se4bc",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129486636/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F71f3364d-944f-26b2-e304-0bc949e255e6.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Baudelaire, l'angle mort des IA",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Baudelaire--langle-mort-des-IA-e3pqrks",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/126757980/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2F53752851-cb61-415c-e02a-f4de2bf49de4.mp3",
+          "duration": 20
+        },
         {
           "title": "LMArena : gagner 45 places sans toucher au modèle ?",
           "published": "2026-11-17",
@@ -3150,55 +3192,13 @@
           "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shanghai--valoriser-les-donnes-ou-orienter-la-science-e3sht4l",
           "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610325/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F0c68662f-17c9-60f5-91c1-85fd4ef08eb6.mp3",
           "duration": 7
-        },
-        {
-          "title": "Cloud et puces IA : quand l’hébergeur devient douanier",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Cloud-et-puces-IA--quand-lhbergeur-devient-douanier-e3sht35",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610277/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F698fd03a-3d93-05fa-2ef3-73782878ebb4.mp3",
-          "duration": 8
-        },
-        {
-          "title": "AI Act : les bacs à sable aident-ils vraiment les startups ?",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/AI-Act--les-bacs--sable-aident-ils-vraiment-les-startups-e3se37l",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129485493/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F6dc335af-0f70-b207-592f-3d26e3703f66.mp3",
-          "duration": 7
-        },
-        {
-          "title": "Cursor & Claude Code : le piège du cache empoisonné",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Cursor--Claude-Code--le-pige-du-cache-empoisonn-e3se2qm",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129485078/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2Fbec08a1d-7b82-e812-35be-1fceb34943cf.mp3",
-          "duration": 7
-        },
-        {
-          "title": "Megaspeed : restreindre les exportations avant le procès ?",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Megaspeed--restreindre-les-exportations-avant-le-procs-e3se2p0",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129485024/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F3e7e2740-fd6a-8357-a6ab-407eed5a5bfa.mp3",
-          "duration": 8
-        },
-        {
-          "title": "ScreenConnect et SCKit : quand le support IT propage l'attaque",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/ScreenConnect-et-SCKit--quand-le-support-IT-propage-lattaque-e3sdspq",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129478906/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F91dcea66-1670-094d-2bc4-ce16a0493a69.mp3",
-          "duration": 7
-        },
-        {
-          "title": "Hugo, l'angle mort des IA",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Hugo--langle-mort-des-IA-e3pqqi8",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/126756872/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2Fca55d04a-5771-4be9-dc0e-692be99b99d2.mp3",
-          "duration": 22
         }
       ],
-      "frequency": null,
-      "frequency_days": null,
+      "frequency": "daily",
+      "frequency_days": 1,
       "first_seen": "2026-11-16",
       "updated_at": "2026-11-18",
-      "episode_count": 1200,
+      "episode_count": 1206,
       "average_duration": 7,
       "status": "active",
       "community_rating": null,
@@ -6121,12 +6121,19 @@
       "image": "https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png",
       "author": "Marc Frédéric GOMEZ",
       "description": "Podcast consacré aux CSIRT, à la réponse à incident et à la cybersécurité opérationnelle.",
-      "last_episode": "2026-11-16",
-      "last_episode_title": "Ep.802 - LiteLLM, Kerberos - Flash info du lundi 16 novembre 2026",
-      "last_episode_url": "https://www.radiocsirt.org/podcast/ep-802-litellm-kerberos-flash-info-du-lundi-16-novembre-2026/",
-      "last_episode_audio": "https://track.podcastics.com/7830/439934.mp3",
-      "last_episode_duration": 15,
+      "last_episode": "2026-11-17",
+      "last_episode_title": "Ep.803 - httpx, OPTIMJACK - Flash info du mardi 17 novembre 2026",
+      "last_episode_url": "https://www.radiocsirt.org/podcast/ep-803-httpx-optimjack-flash-info-du-mardi-17-novembre-2026/",
+      "last_episode_audio": "https://track.podcastics.com/7830/440111.mp3",
+      "last_episode_duration": 12,
       "episodes": [
+        {
+          "title": "Ep.803 - httpx, OPTIMJACK - Flash info du mardi 17 novembre 2026",
+          "published": "2026-11-17",
+          "url": "https://www.radiocsirt.org/podcast/ep-803-httpx-optimjack-flash-info-du-mardi-17-novembre-2026/",
+          "audio": "https://track.podcastics.com/7830/440111.mp3",
+          "duration": 12
+        },
         {
           "title": "Ep.802 - LiteLLM, Kerberos - Flash info du lundi 16 novembre 2026",
           "published": "2026-11-16",
@@ -6189,20 +6196,13 @@
           "url": "https://www.radiocsirt.org/podcast/ep-794-artex-storm-0940-vapor-panda-flash-info-du-dimanche-7-novembre-2026/",
           "audio": "https://track.podcastics.com/7830/438967.mp3",
           "duration": 21
-        },
-        {
-          "title": "Ep.793 - RadioCSIRT Flash Info du samedi 7 novembre 2026",
-          "published": "2026-11-07",
-          "url": "https://www.radiocsirt.org/podcast/ep-793-radiocsirt-flash-info-du-samedi-7-novembre-2026/",
-          "audio": "https://track.podcastics.com/7830/438897.mp3",
-          "duration": 13
         }
       ],
       "frequency": "daily",
       "frequency_days": 1,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-18",
-      "episode_count": 806,
+      "episode_count": 807,
       "average_duration": 14,
       "status": "active",
       "community_rating": 4.9,
@@ -6450,12 +6450,19 @@
       "image": "https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj",
       "author": "CyberPodcast",
       "description": "CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet accessible look into the cybersecurity landscape.",
-      "last_episode": "2026-11-17",
-      "last_episode_title": "OWASP Top10 for LLM: Deepfake Preparedness",
-      "last_episode_url": "https://www.youtube.com/shorts/yWxlEi7Mf7A",
+      "last_episode": "2026-11-18",
+      "last_episode_title": "How Deep Learning Changes Voice Cloning",
+      "last_episode_url": "https://www.youtube.com/shorts/L7qjjVCOtbk",
       "last_episode_audio": null,
       "last_episode_duration": null,
       "episodes": [
+        {
+          "title": "How Deep Learning Changes Voice Cloning",
+          "published": "2026-11-18",
+          "url": "https://www.youtube.com/shorts/L7qjjVCOtbk",
+          "audio": null,
+          "duration": null
+        },
         {
           "title": "OWASP Top10 for LLM: Deepfake Preparedness",
           "published": "2026-11-17",
@@ -6516,13 +6523,6 @@
           "title": "OWASP Top10 for LLM: Deepfake Defense Guide",
           "published": "2026-11-12",
           "url": "https://www.youtube.com/shorts/sfaF9uqfxnw",
-          "audio": null,
-          "duration": null
-        },
-        {
-          "title": "Catching Malicious Tor Exit Nodes: The Spoiled Onions Study | Paper Breakdown #20 | CyberPodcast",
-          "published": "2026-11-12",
-          "url": "https://www.youtube.com/watch?v=ss6IMOA6zAA",
           "audio": null,
           "duration": null
         }
@@ -7413,12 +7413,19 @@
       "image": "https://static.audiomeans.fr/img/podcast/b0f6c0ee-41d3-4406-9d0c-7ef45174c4b8.jpg",
       "author": "Bruno Soulez | Orso Media",
       "description": "If This Then Dev, c'est le podcast D.E.V : Différent, Extraordinaire et Visionnaire. Un podcast qui veut résoudre le problème avant de passer au dev. Chaque semaine Bruno Soulez reçoit un expert pour…",
-      "last_episode": "2026-11-13",
-      "last_episode_title": "#362.exe - Le LEAN à l'ère de l'IA: Réapprendre à produire du code (vraiment) Lean avec l'IA par Jordan Nourry",
-      "last_episode_url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/362-60d955870338",
-      "last_episode_audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/a1a2f062-9387-43eb-ab07-60d955870338.mp3?_=1794488441",
-      "last_episode_duration": 15,
+      "last_episode": "2026-11-18",
+      "last_episode_title": "#385.src - AT Protocol: Décentraliser son identité numérique avec Julien Wittouck",
+      "last_episode_url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/385-0e842b5cd5a9",
+      "last_episode_audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/1ebca351-8f11-461b-9acf-0e842b5cd5a9.mp3?_=1794920431",
+      "last_episode_duration": 64,
       "episodes": [
+        {
+          "title": "#385.src - AT Protocol: Décentraliser son identité numérique avec Julien Wittouck",
+          "published": "2026-11-18",
+          "url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/385-0e842b5cd5a9",
+          "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/1ebca351-8f11-461b-9acf-0e842b5cd5a9.mp3?_=1794920431",
+          "duration": 64
+        },
         {
           "title": "#362.exe - Le LEAN à l'ère de l'IA: Réapprendre à produire du code (vraiment) Lean avec l'IA par Jordan Nourry",
           "published": "2026-11-13",
@@ -7481,20 +7488,13 @@
           "url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/-378-faec7756bbd7",
           "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/44d3561f-a515-4e23-9ca1-faec7756bbd7.mp3?_=1790683283",
           "duration": 51
-        },
-        {
-          "title": "#377.src - DBT: Pourquoi dbt est devenu le standard (avec ses qualités et défauts) avec Jeremy Cohen",
-          "published": "2026-09-23",
-          "url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/-377-8d0382d0be15",
-          "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/495563fb-1354-4dfd-8b0f-8d0382d0be15.mp3?_=1790078494",
-          "duration": 52
         }
       ],
       "frequency": "weekly",
       "frequency_days": 7,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-18",
-      "episode_count": 763,
+      "episode_count": 764,
       "average_duration": 61,
       "status": "active",
       "community_rating": 4.8,
@@ -7794,7 +7794,7 @@
       ],
       "website": "https://techcafe.fr",
       "rss": "https://feeds.audiomeans.fr/feed/d6ddb849-3100-43b2-91a5-93f54fe4c4b5.xml",
-      "youtube": "https://www.youtube.com/watch?v=BjL3wG3oCEw",
+      "youtube": "https://www.youtube.com/watch?v=WPBImZnR2iA",
       "spotify": "https://open.spotify.com/show/1MidB71rbYIRDIrcej073j",
       "apple_podcast": "https://podcasts.apple.com/us/podcast/tech-caf%C3%A9-tech-ia/id916491698?uo=4",
       "linkedin": null,
@@ -7806,12 +7806,19 @@
       "image": "https://static.audiomeans.fr/img/podcast/6babef68-0aa0-4a2a-879a-97ff3bd55131.jpg",
       "author": "Guillaume Vendé",
       "description": "Tech Café : votre veille sur les nouvelles technologies chaque semaine",
-      "last_episode": "2026-11-11",
-      "last_episode_title": "Le kiki de Jensen Huang gouverne le monde",
-      "last_episode_url": "https://techcafe.fr/le-kiki-de-jensen-huang-gouverne-le-monde/",
-      "last_episode_audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/34345859-1ef6-4234-96bb-c1f3d5f135e4.mp3?_=1794348402",
-      "last_episode_duration": 95,
+      "last_episode": "2026-11-18",
+      "last_episode_title": "Nvidia sans Jensen Huang",
+      "last_episode_url": "https://techcafe.fr/nvidia-sans-jensen-huang/",
+      "last_episode_audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/442c1310-80af-4583-9c16-83cf1c15f192.mp3?_=1794956895",
+      "last_episode_duration": 85,
       "episodes": [
+        {
+          "title": "Nvidia sans Jensen Huang",
+          "published": "2026-11-18",
+          "url": "https://techcafe.fr/nvidia-sans-jensen-huang/",
+          "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/442c1310-80af-4583-9c16-83cf1c15f192.mp3?_=1794956895",
+          "duration": 85
+        },
         {
           "title": "Le kiki de Jensen Huang gouverne le monde",
           "published": "2026-11-11",
@@ -7874,20 +7881,13 @@
           "url": "https://techcafe.fr/la-chose-robot-une-main-autonome-flippante/",
           "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/e6fb05f0-e25a-4e4c-bba5-48412be5ef6b.mp3?_=1792077985",
           "duration": 76
-        },
-        {
-          "title": "Apple HomeView, Microsoft Surface, les maths face à l'IA",
-          "published": "2026-10-14",
-          "url": "https://techcafe.fr/apple-homeview-microsoft-surface-les-maths-face-a-lia/",
-          "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/b58e9b9f-f6ec-4883-a9ce-9ac185448870.mp3?_=1791930698",
-          "duration": 87
         }
       ],
       "frequency": "weekly",
       "frequency_days": 3,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-18",
-      "episode_count": 559,
+      "episode_count": 560,
       "average_duration": 86,
       "status": "active",
       "community_rating": 4.6,
@@ -8084,12 +8084,19 @@
       "image": "https://megaphone.imgix.net/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
       "author": "Wes Bos",
       "description": "Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like…",
-      "last_episode": "2026-11-11",
-      "last_episode_title": "1055: What the hell is going on with GitHub?",
-      "last_episode_url": "https://syntax.fm/1055",
-      "last_episode_audio": "https://traffic.megaphone.fm/FSI3647670844.mp3",
-      "last_episode_duration": 31,
+      "last_episode": "2026-11-18",
+      "last_episode_title": "1056: Convince us that Effect.ts is good",
+      "last_episode_url": "https://syntax.fm/1056",
+      "last_episode_audio": "https://traffic.megaphone.fm/FSI7047632099.mp3",
+      "last_episode_duration": 51,
       "episodes": [
+        {
+          "title": "1056: Convince us that Effect.ts is good",
+          "published": "2026-11-18",
+          "url": "https://syntax.fm/1056",
+          "audio": "https://traffic.megaphone.fm/FSI7047632099.mp3",
+          "duration": 51
+        },
         {
           "title": "1055: What the hell is going on with GitHub?",
           "published": "2026-11-11",
@@ -8152,21 +8159,14 @@
           "url": "https://syntax.fm/1047",
           "audio": "https://traffic.megaphone.fm/FSI7349663145.mp3",
           "duration": 35
-        },
-        {
-          "title": "1046: The Pi Updates are insane",
-          "published": "2026-10-12",
-          "url": "https://syntax.fm/1046",
-          "audio": "https://traffic.megaphone.fm/FSI5030969566.mp3",
-          "duration": 100
         }
       ],
-      "frequency": "daily",
-      "frequency_days": 2,
+      "frequency": "weekly",
+      "frequency_days": 5,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-18",
-      "episode_count": 1055,
-      "average_duration": 66,
+      "episode_count": 1056,
+      "average_duration": 59,
       "status": "active",
       "community_rating": 4.5,
       "community_rating_count": 72,
@@ -8862,12 +8862,19 @@
       "image": "https://cdn.pythonbytes.fm/static/img/podcast-theme-img_3000.jpg",
       "author": "Michael Kennedy",
       "description": "Developer headlines delivered directly to your earbuds",
-      "last_episode": "2026-11-10",
-      "last_episode_title": "#504 Who turned the GIL back on?",
-      "last_episode_url": "https://pythonbytes.fm/episodes/show/504/who-turned-the-gil-back-on",
-      "last_episode_audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/504/who-turned-the-gil-back-on.mp3",
-      "last_episode_duration": 30,
+      "last_episode": "2026-11-17",
+      "last_episode_title": "#505 Introducing diskcache-oxide",
+      "last_episode_url": "https://pythonbytes.fm/episodes/show/505/introducing-diskcache-oxide",
+      "last_episode_audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/505/introducing-diskcache-oxide.mp3",
+      "last_episode_duration": 40,
       "episodes": [
+        {
+          "title": "#505 Introducing diskcache-oxide",
+          "published": "2026-11-17",
+          "url": "https://pythonbytes.fm/episodes/show/505/introducing-diskcache-oxide",
+          "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/505/introducing-diskcache-oxide.mp3",
+          "duration": 40
+        },
         {
           "title": "#504 Who turned the GIL back on?",
           "published": "2026-11-10",
@@ -8930,20 +8937,13 @@
           "url": "https://pythonbytes.fm/episodes/show/496/a-lake-house-in-seattle",
           "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/496/a-lake-house-in-seattle.mp3",
           "duration": 33
-        },
-        {
-          "title": "#495 Banned",
-          "published": "2026-09-08",
-          "url": "https://pythonbytes.fm/episodes/show/495/banned",
-          "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/495/banned.mp3",
-          "duration": 28
         }
       ],
       "frequency": "weekly",
       "frequency_days": 7,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-18",
-      "episode_count": 504,
+      "episode_count": 505,
       "average_duration": 33,
       "status": "active",
       "community_rating": 4.7,
@@ -10153,12 +10153,19 @@
       "image": "https://megaphone.imgix.net/podcasts/35230150-ee98-11eb-ad1a-b38cbabcd053/image/TWIML_AI_Podcast_Official_Cover_Art_1400px.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
       "author": "TWIML",
       "description": "Machine learning and artificial intelligence are dramatically changing the way businesses operate and people live. The TWIML AI Podcast brings the top minds and ideas from the world of ML and AI to a…",
-      "last_episode": "2026-11-10",
-      "last_episode_title": "Canva Is Tackling AI Design’s Most Frustrating Problem with Stefano Corazza- #784",
-      "last_episode_url": "https://twimlai.com/podcast/twimlai/canva-tackling-ai-designs-most-frustrating-problem",
-      "last_episode_audio": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN8451107730.mp3",
+      "last_episode": "2026-11-17",
+      "last_episode_title": "Buying Tokens vs Building an AI Factory with Sadeepa Wijesekara - #785",
+      "last_episode_url": "https://twimlai.com/podcast/twimlai/buying-tokens-vs-building-ai-factory",
+      "last_episode_audio": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN1029197842.mp3",
       "last_episode_duration": 58,
       "episodes": [
+        {
+          "title": "Buying Tokens vs Building an AI Factory with Sadeepa Wijesekara - #785",
+          "published": "2026-11-17",
+          "url": "https://twimlai.com/podcast/twimlai/buying-tokens-vs-building-ai-factory",
+          "audio": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN1029197842.mp3",
+          "duration": 58
+        },
         {
           "title": "Canva Is Tackling AI Design’s Most Frustrating Problem with Stefano Corazza- #784",
           "published": "2026-11-10",
@@ -10221,20 +10228,13 @@
           "url": "https://twimlai.com/podcast/twimlai/do-ai-tokenomics-matter-more-than-model-benchmarks",
           "audio": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN2214331662.mp3",
           "duration": 59
-        },
-        {
-          "title": "World Models and the Future of Spatial AI with Justin Johnson - #775",
-          "published": "2026-09-01",
-          "url": "https://twimlai.com/podcast/twimlai/world-models-future-spatial-ai",
-          "audio": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN6378358457.mp3",
-          "duration": 66
         }
       ],
       "frequency": "weekly",
       "frequency_days": 7,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-18",
-      "episode_count": 802,
+      "episode_count": 803,
       "average_duration": 57,
       "status": "active",
       "community_rating": 4.7,

@@ -2,13 +2,13 @@ name: Enrich podcasts
 
 on:
   schedule:
-    - cron: "17 4,12,20 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
     inputs:
       clear_cache:
-        description: 'Vider le cache HTTP avant l’enrichissement'
+        description: 'Vider le cache HTTP avant l’enrichissement (activé par défaut)'
         required: false
-        default: false
+        default: true
         type: boolean
   push:
     branches: [main]
@@ -54,7 +54,7 @@ jobs:
 
       - name: Enrich podcasts
         env:
-          CLEAR_CACHE: ${{ inputs.clear_cache }}
+          CLEAR_CACHE: ${{ github.event_name != 'workflow_dispatch' || inputs.clear_cache }}
         run: |
           if [ "$CLEAR_CACHE" = "true" ]; then
             python scripts/enrich_podcasts.py --clear-cache

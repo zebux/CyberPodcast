@@ -32,7 +32,7 @@ CONTRIBUTING.md          guide de contribution
 SECURITY.md              divulgation responsable
 ```
 
-Le workflow GitHub Actions tourne trois fois par jour : enrichissement, contrôle santé, rendu, validation, commit et déploiement GitHub Pages.
+Le workflow GitHub Actions tourne toutes les 30 minutes : enrichissement, contrôle santé, rendu, validation, commit et déploiement GitHub Pages.
 
 ## Modèle de données
 
@@ -64,7 +64,7 @@ python scripts/check_health.py --skip-network
 python scripts/render_html.py
 ```
 
-Pour forcer le rechargement des flux RSS, utilisez `python scripts/enrich_podcasts.py --clear-cache`. Sur GitHub, lancez **Actions → Enrich podcasts → Run workflow** en cochant **Vider le cache HTTP avant l’enrichissement**. Le cache normal conserve les réponses 24 h ; cette option est utile lorsqu’un épisode visible sur le flux officiel n’apparaît pas encore.
+Le cache HTTP est vidé par défaut à chaque exécution du workflow GitHub Actions. L’option **Vider le cache HTTP avant l’enrichissement** est activée par défaut lors d’un **Actions → Enrich podcasts → Run workflow** ; décochez-la uniquement pour tester avec le cache. En local, utilisez `python scripts/enrich_podcasts.py --clear-cache`.
 
 ## Ajouter ou corriger un podcast
 

@@ -1288,7 +1288,7 @@ def about_page(podcasts: list[dict[str, Any]], stats: dict[str, Any]) -> str:
       <h2>Rythmes de publication</h2>
       <p>Le rythme est calculé à partir de l’intervalle médian entre les dates de publication des épisodes récents, puis arrondi au nombre de jours entier le plus proche. Seuils utilisés : {FREQUENCY_THRESHOLDS}. Le nombre affiché entre parenthèses est cet intervalle médian, pas une périodicité contractuelle.</p>
       <h2>Automatisation</h2>
-      <p>Le workflow tourne trois fois par jour. Il récupère les nouveautés, met à jour les notes et les derniers épisodes, contrôle la santé des liens et redéploie le site. Les erreurs réseau ne bloquent pas la publication : les données précédentes servent de repli.</p>
+      <p>Le workflow tourne toutes les 30 minutes. Il récupère les nouveautés, met à jour les notes et les derniers épisodes, contrôle la santé des liens et redéploie le site. Les erreurs réseau ne bloquent pas la publication : les données précédentes servent de repli.</p>
       <h2>Contribuer</h2>
       <p>Une erreur, un podcast manquant, un flux cassé ? Ouvrez une <a href="{REPO_URL}/issues" target="_blank" rel="noopener noreferrer">issue</a> ou proposez une correction dans <code>data/podcasts-*.yaml</code>. Les liens officiels et les flux vérifiés sont prioritaires.</p>
       <h2>Transparence</h2>

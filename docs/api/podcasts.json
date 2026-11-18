@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T14:52:07.270348+00:00",
+  "generated_at": "2026-11-18T22:28:55.770593+00:00",
   "site": "https://cyberpodcast.fr/",
   "count": 86,
   "podcasts": [
@@ -2061,12 +2061,19 @@
       "image": "https://static.feedpress.com/logo/day2cloud-669fc5e024d4b.jpg",
       "author": "Packet Pushers",
       "description": "Dive deep into the challenges of cloud operations on this weekly podcast for IT pros & DevOps engineers.",
-      "last_episode": "2026-11-04",
-      "last_episode_title": "D2DO318: Navigating Open-Source Model Providers",
-      "last_episode_url": "https://packetpushers.net/podcasts/day-two-devops/d2do318-navigating-open-source-model-providers/",
-      "last_episode_audio": "https://feeds.packetpushers.net/link/20975/17515361/D2DO318.mp3",
-      "last_episode_duration": 43,
+      "last_episode": "2026-11-18",
+      "last_episode_title": "D2DO319: Global API Deployment and Migration",
+      "last_episode_url": "https://packetpushers.net/podcasts/day-two-devops/d2do319-global-api-deployment-and-migration/",
+      "last_episode_audio": "https://feeds.packetpushers.net/link/20975/17527225/D2DO319.mp3",
+      "last_episode_duration": 37,
       "episodes": [
+        {
+          "title": "D2DO319: Global API Deployment and Migration",
+          "published": "2026-11-18",
+          "url": "https://packetpushers.net/podcasts/day-two-devops/d2do319-global-api-deployment-and-migration/",
+          "audio": "https://feeds.packetpushers.net/link/20975/17527225/D2DO319.mp3",
+          "duration": 37
+        },
         {
           "title": "D2DO318: Navigating Open-Source Model Providers",
           "published": "2026-11-04",
@@ -2129,13 +2136,6 @@
           "url": "https://packetpushers.net/podcasts/day-two-devops/d2do310-developing-efficient-ai-workflows/",
           "audio": "https://feeds.packetpushers.net/link/20975/17416439/D2DO310.mp3",
           "duration": 42
-        },
-        {
-          "title": "D2DO309: Packet Pushers Assemble! Bridging the Telemetry Divide",
-          "published": "2026-07-29",
-          "url": "https://packetpushers.net/podcasts/day-two-devops/d2do309-packet-pushers-assemble-bridging-the-telemetry-divide/",
-          "audio": "https://feeds.packetpushers.net/link/20975/17392980/D2DO309.mp3",
-          "duration": 58
         }
       ],
       "frequency": "biweekly",
@@ -3117,88 +3117,88 @@
       "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg",
       "author": "Franck Dubray - Dragonfly",
       "description": "Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.",
-      "last_episode": "2026-11-17",
-      "last_episode_title": "LMArena : gagner 45 places sans toucher au modèle ?",
-      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LMArena--gagner-45-places-sans-toucher-au-modle-e3shtaf",
-      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610511/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2Fdf0dec73-d54c-e0ca-bb7b-6678544d0524.mp3",
+      "last_episode": "2026-11-18",
+      "last_episode_title": "Optimizely piraté : faut-il bannir l’A/B testing du paiement ?",
+      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Optimizely-pirat--faut-il-bannir-lAB-testing-du-paiement-e3sk8p2",
+      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/129687778/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F19592c6d-8a60-b360-5038-60ed588d0c8b.mp3",
       "last_episode_duration": 7,
       "episodes": [
+        {
+          "title": "Optimizely piraté : faut-il bannir l’A/B testing du paiement ?",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Optimizely-pirat--faut-il-bannir-lAB-testing-du-paiement-e3sk8p2",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129687778/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F19592c6d-8a60-b360-5038-60ed588d0c8b.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Plumbline (Amazon) : quand la loss ment sur l'entraînement",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Plumbline-Amazon--quand-la-loss-ment-sur-lentranement-e3shv9h",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129612529/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2Fa88ffa73-55fa-17ac-c3e8-c68deca81860.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Agents autonomes : qui peut supprimer leurs 87 500 mots de règles ?",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Agents-autonomes--qui-peut-supprimer-leurs-87-500-mots-de-rgles-e3shtip",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610777/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2Ffa35da9f-8cb8-a3e0-9659-7bb8341daf4b.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Fireworks AI : quand la R&D expose données et poids de modèles",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fireworks-AI--quand-la-RD-expose-donnes-et-poids-de-modles-e3shtg9",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610697/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F5f58fc7f-f4e8-d4c7-4785-5a1c2504ecba.mp3",
+          "duration": 7
+        },
+        {
+          "title": "United Airlines bloque les agents : sécurité ou contrôle ?",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/United-Airlines-bloque-les-agents--scurit-ou-contrle-e3shtei",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610642/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F22efcfc0-e330-5179-ea9f-ea4d41d23647.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Embeddings et ChatGPT : l’illusion de la pensée unique ?",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Embeddings-et-ChatGPT--lillusion-de-la-pense-unique-e3shtce",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610574/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F42eae84e-32da-713b-1d7a-4268a68f6d79.mp3",
+          "duration": 8
+        },
+        {
+          "title": "Modèles multimodaux : le piège caché du raisonnement en texte seul",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Modles-multimodaux--le-pige-cach-du-raisonnement-en-texte-seul-e3se4ud",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129487245/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2Fa56764a4-f94f-a7ae-6e83-c898f8e135cf.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Migration cloud à risque : 12 ou 18 mois pour sortir ?",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Migration-cloud--risque--12-ou-18-mois-pour-sortir-e3se4bc",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129486636/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F71f3364d-944f-26b2-e304-0bc949e255e6.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Baudelaire, l'angle mort des IA",
+          "published": "2026-11-18",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Baudelaire--langle-mort-des-IA-e3pqrks",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/126757980/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2F53752851-cb61-415c-e02a-f4de2bf49de4.mp3",
+          "duration": 20
+        },
         {
           "title": "LMArena : gagner 45 places sans toucher au modèle ?",
           "published": "2026-11-17",
           "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LMArena--gagner-45-places-sans-toucher-au-modle-e3shtaf",
           "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610511/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2Fdf0dec73-d54c-e0ca-bb7b-6678544d0524.mp3",
           "duration": 7
-        },
-        {
-          "title": "Synthesis Smuggling : quand un brouillon d’e-mail fuit votre profil",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Synthesis-Smuggling--quand-un-brouillon-de-mail-fuit-votre-profil-e3sht8b",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610443/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F14577863-66c7-bf6e-1669-e3c9613cf089.mp3",
-          "duration": 7
-        },
-        {
-          "title": "Open source et « slop » : faut-il fermer l'accès aux dépôts ?",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Open-source-et--slop---faut-il-fermer-laccs-aux-dpts-e3sht6i",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610386/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F5e97891b-23ee-0854-755f-e19c0e8c27a6.mp3",
-          "duration": 7
-        },
-        {
-          "title": "Shanghai : valoriser les données ou orienter la science ?",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shanghai--valoriser-les-donnes-ou-orienter-la-science-e3sht4l",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610325/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F0c68662f-17c9-60f5-91c1-85fd4ef08eb6.mp3",
-          "duration": 7
-        },
-        {
-          "title": "Cloud et puces IA : quand l’hébergeur devient douanier",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Cloud-et-puces-IA--quand-lhbergeur-devient-douanier-e3sht35",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129610277/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F698fd03a-3d93-05fa-2ef3-73782878ebb4.mp3",
-          "duration": 8
-        },
-        {
-          "title": "AI Act : les bacs à sable aident-ils vraiment les startups ?",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/AI-Act--les-bacs--sable-aident-ils-vraiment-les-startups-e3se37l",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129485493/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F6dc335af-0f70-b207-592f-3d26e3703f66.mp3",
-          "duration": 7
-        },
-        {
-          "title": "Cursor & Claude Code : le piège du cache empoisonné",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Cursor--Claude-Code--le-pige-du-cache-empoisonn-e3se2qm",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129485078/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2Fbec08a1d-7b82-e812-35be-1fceb34943cf.mp3",
-          "duration": 7
-        },
-        {
-          "title": "Megaspeed : restreindre les exportations avant le procès ?",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Megaspeed--restreindre-les-exportations-avant-le-procs-e3se2p0",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129485024/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F3e7e2740-fd6a-8357-a6ab-407eed5a5bfa.mp3",
-          "duration": 8
-        },
-        {
-          "title": "ScreenConnect et SCKit : quand le support IT propage l'attaque",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/ScreenConnect-et-SCKit--quand-le-support-IT-propage-lattaque-e3sdspq",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129478906/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F91dcea66-1670-094d-2bc4-ce16a0493a69.mp3",
-          "duration": 7
-        },
-        {
-          "title": "Hugo, l'angle mort des IA",
-          "published": "2026-11-17",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Hugo--langle-mort-des-IA-e3pqqi8",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/126756872/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2Fca55d04a-5771-4be9-dc0e-692be99b99d2.mp3",
-          "duration": 22
         }
       ],
       "frequency": "daily",
       "frequency_days": 1,
       "first_seen": "2026-11-16",
       "updated_at": "2026-11-18",
-      "episode_count": 1206,
+      "episode_count": 1209,
       "average_duration": 7,
       "status": "active",
       "community_rating": null,
@@ -6121,12 +6121,19 @@
       "image": "https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png",
       "author": "Marc Frédéric GOMEZ",
       "description": "Podcast consacré aux CSIRT, à la réponse à incident et à la cybersécurité opérationnelle.",
-      "last_episode": "2026-11-17",
-      "last_episode_title": "Ep.803 - httpx, OPTIMJACK - Flash info du mardi 17 novembre 2026",
-      "last_episode_url": "https://www.radiocsirt.org/podcast/ep-803-httpx-optimjack-flash-info-du-mardi-17-novembre-2026/",
-      "last_episode_audio": "https://track.podcastics.com/7830/440111.mp3",
-      "last_episode_duration": 12,
+      "last_episode": "2026-11-18",
+      "last_episode_title": "Ep.804 • Oracle CSPU de novembre 2026 : 655 correctifs",
+      "last_episode_url": "https://www.radiocsirt.org/podcast/ep-804-oracle-cspu-de-novembre-2026-655-correctifs/",
+      "last_episode_audio": "https://track.podcastics.com/7830/440232.mp3",
+      "last_episode_duration": 44,
       "episodes": [
+        {
+          "title": "Ep.804 • Oracle CSPU de novembre 2026 : 655 correctifs",
+          "published": "2026-11-18",
+          "url": "https://www.radiocsirt.org/podcast/ep-804-oracle-cspu-de-novembre-2026-655-correctifs/",
+          "audio": "https://track.podcastics.com/7830/440232.mp3",
+          "duration": 44
+        },
         {
           "title": "Ep.803 - httpx, OPTIMJACK - Flash info du mardi 17 novembre 2026",
           "published": "2026-11-17",
@@ -6189,20 +6196,13 @@
           "url": "https://www.radiocsirt.org/podcast/ep-795-iran-shahid-kaveh-c4-et-cert-fr-episode-special-du-lundi-9-novembre-2026/",
           "audio": "https://track.podcastics.com/7830/439097.mp3",
           "duration": 11
-        },
-        {
-          "title": "Ep.794 - ARTEX, Storm-0940, Vapor Panda - Épisode spécial du 7 novembre 2026",
-          "published": "2026-11-08",
-          "url": "https://www.radiocsirt.org/podcast/ep-794-artex-storm-0940-vapor-panda-flash-info-du-dimanche-7-novembre-2026/",
-          "audio": "https://track.podcastics.com/7830/438967.mp3",
-          "duration": 21
         }
       ],
       "frequency": "daily",
       "frequency_days": 1,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-18",
-      "episode_count": 807,
+      "episode_count": 808,
       "average_duration": 14,
       "status": "active",
       "community_rating": 4.9,
@@ -8472,12 +8472,19 @@
       "image": "https://cdn.changelog.com/static/images/podcasts/podcast-original-f16d0363067166f241d080ee2e2d4a28.png",
       "author": "Changelog Media",
       "description": "Software's best weekly news brief, deep technical interviews & talk show.",
-      "last_episode": "2026-11-13",
-      "last_episode_title": "All your packages are belong to us (Interview)",
-      "last_episode_url": "https://changelog.com/podcast/690",
-      "last_episode_audio": "https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/690/the-changelog-690.mp3",
-      "last_episode_duration": 140,
+      "last_episode": "2026-11-18",
+      "last_episode_title": "Orbin' with Amp (Interview)",
+      "last_episode_url": "https://changelog.com/podcast/691",
+      "last_episode_audio": "https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/691/the-changelog-691.mp3",
+      "last_episode_duration": 84,
       "episodes": [
+        {
+          "title": "Orbin' with Amp (Interview)",
+          "published": "2026-11-18",
+          "url": "https://changelog.com/podcast/691",
+          "audio": "https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/691/the-changelog-691.mp3",
+          "duration": 84
+        },
         {
           "title": "All your packages are belong to us (Interview)",
           "published": "2026-11-13",
@@ -8540,20 +8547,13 @@
           "url": "https://changelog.com/podcast/682",
           "audio": "https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/682/the-changelog-682.mp3",
           "duration": 106
-        },
-        {
-          "title": "MCP on Code Mode (Interview)",
-          "published": "2026-05-15",
-          "url": "https://changelog.com/podcast/681",
-          "audio": "https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/681/the-changelog-681.mp3",
-          "duration": 115
         }
       ],
-      "frequency": "biweekly",
-      "frequency_days": 13,
+      "frequency": "weekly",
+      "frequency_days": 9,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-18",
-      "episode_count": 1019,
+      "episode_count": 1020,
       "average_duration": 106,
       "status": "active",
       "community_rating": 4.7,

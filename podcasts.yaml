@@ -2147,12 +2147,17 @@ podcasts:
   image: http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg
   author: Late Night Linux
   description: Podcast britannique d'actualité Linux, open source et administration système.
-  last_episode: '2026-11-17'
-  last_episode_title: Late Night Linux – Episode 412
-  last_episode_url: https://latenightlinux.com/late-night-linux-episode-412/
+  last_episode: '2026-11-19'
+  last_episode_title: '2.5 Admins 326: *sshole'
+  last_episode_url: https://latenightlinux.com/2-5-admins-326/
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: '2.5 Admins 326: *sshole'
+    published: '2026-11-19'
+    url: https://latenightlinux.com/2-5-admins-326/
+    audio: null
+    duration: null
   - title: Late Night Linux – Episode 412
     published: '2026-11-17'
     url: https://latenightlinux.com/late-night-linux-episode-412/
@@ -2198,16 +2203,11 @@ podcasts:
     url: https://latenightlinux.com/late-night-linux-episode-410/
     audio: null
     duration: null
-  - title: Linux Dev Time – Episode 162
-    published: '2026-11-01'
-    url: https://latenightlinux.com/linux-dev-time-episode-162/
-    audio: null
-    duration: null
   frequency: daily
   frequency_days: 2
   first_seen: '2026-11-09'
   updated_at: '2026-11-19'
-  episode_count: 1059
+  episode_count: 1060
   average_duration: null
   status: active
   community_rating: 4.6
@@ -2455,11 +2455,21 @@ podcasts:
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
   last_episode: '2026-11-19'
-  last_episode_title: 'Audit d''agents IA : quand le résumé détruit la preuve'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Audit-dagents-IA--quand-le-rsum-dtruit-la-preuve-e3sk71h
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129686001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fb3cb40bb-6cf3-67bc-78a8-e7d198eadf97.mp3
+  last_episode_title: 'Responsabilité IA : l''avocat à l''amende, le cabinet non sanctionné'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Responsabilit-IA--lavocat--lamende--le-cabinet-non-sanctionn-e3sk76a
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129686154/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fe23b91da-b53d-d8bd-2a8c-dbba06ec55c8.mp3
   last_episode_duration: 7
   episodes:
+  - title: 'Responsabilité IA : l''avocat à l''amende, le cabinet non sanctionné'
+    published: '2026-11-19'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Responsabilit-IA--lavocat--lamende--le-cabinet-non-sanctionn-e3sk76a
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129686154/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fe23b91da-b53d-d8bd-2a8c-dbba06ec55c8.mp3
+    duration: 7
+  - title: 'Stanford et l''IA à l''école : gagner du temps ou vraiment apprendre ?'
+    published: '2026-11-19'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Stanford-et-lIA--lcole--gagner-du-temps-ou-vraiment-apprendre-e3sk74i
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129686098/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F64e89930-8cd7-dc60-24b2-8303e0cbb472.mp3
+    duration: 7
   - title: 'Audit d''agents IA : quand le résumé détruit la preuve'
     published: '2026-11-19'
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Audit-dagents-IA--quand-le-rsum-dtruit-la-preuve-e3sk71h
@@ -2500,21 +2510,11 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fireworks-AI--quand-la-RD-expose-donnes-et-poids-de-modles-e3shtg9
     audio: https://anchor.fm/s/11065f6ec/podcast/play/129610697/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F5f58fc7f-f4e8-d4c7-4785-5a1c2504ecba.mp3
     duration: 7
-  - title: 'United Airlines bloque les agents : sécurité ou contrôle ?'
-    published: '2026-11-18'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/United-Airlines-bloque-les-agents--scurit-ou-contrle-e3shtei
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610642/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F22efcfc0-e330-5179-ea9f-ea4d41d23647.mp3
-    duration: 7
-  - title: 'Embeddings et ChatGPT : l’illusion de la pensée unique ?'
-    published: '2026-11-18'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Embeddings-et-ChatGPT--lillusion-de-la-pense-unique-e3shtce
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610574/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F42eae84e-32da-713b-1d7a-4268a68f6d79.mp3
-    duration: 8
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
   updated_at: '2026-11-19'
-  episode_count: 1213
+  episode_count: 1215
   average_duration: 7
   status: active
   community_rating: null
@@ -4097,7 +4097,7 @@ podcasts:
   country: FR
   hosts:
   - Leslie Fornero
-  website: https://www.lemondedelacyber.com
+  website: https://www.cyberlia.fr
   rss: https://feeds.audiomeans.fr/feed/7962208c-987b-4d10-8e9a-104d0d77851a.xml
   youtube: https://www.youtube.com/@LeMondedelaCyber
   spotify: https://open.spotify.com/show/0uNuF41uZYwwik1AW6hOSM
@@ -5078,12 +5078,22 @@ podcasts:
   image: https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj
   author: CyberPodcast
   description: CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet accessible look into the cybersecurity landscape.
-  last_episode: '2026-11-18'
-  last_episode_title: How Deep Learning Changes Voice Cloning
-  last_episode_url: https://www.youtube.com/shorts/L7qjjVCOtbk
+  last_episode: '2026-11-19'
+  last_episode_title: 'Stealthy Traffic Analysis Can Break Tor Anonymity | Paper Breakdown #21 | CyberPodcast'
+  last_episode_url: https://www.youtube.com/watch?v=0zHWdWsg--0
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: 'Stealthy Traffic Analysis Can Break Tor Anonymity | Paper Breakdown #21 | CyberPodcast'
+    published: '2026-11-19'
+    url: https://www.youtube.com/watch?v=0zHWdWsg--0
+    audio: null
+    duration: null
+  - title: 'OWASP Top10 for LLM: Deepfake Detection Vulnerabilities'
+    published: '2026-11-19'
+    url: https://www.youtube.com/shorts/VFWtv1EGMXQ
+    audio: null
+    duration: null
   - title: How Deep Learning Changes Voice Cloning
     published: '2026-11-18'
     url: https://www.youtube.com/shorts/L7qjjVCOtbk
@@ -5122,16 +5132,6 @@ podcasts:
   - title: 'OWASP Top10: Deepfake Fraud on the Rise'
     published: '2026-11-13'
     url: https://www.youtube.com/shorts/_-Saez5bLrM
-    audio: null
-    duration: null
-  - title: 'Securing Third-Party MCP Servers with OWASP Guide | Podcast #12 | OWASP AI Security | CyberPodcast'
-    published: '2026-11-13'
-    url: https://www.youtube.com/watch?v=drI-7PXHkrc
-    audio: null
-    duration: null
-  - title: 'OWASP Top10 for LLM: Deepfake Defense Guide'
-    published: '2026-11-12'
-    url: https://www.youtube.com/shorts/sfaF9uqfxnw
     audio: null
     duration: null
   frequency: daily
@@ -7673,7 +7673,7 @@ podcasts:
   rss: https://serve.podhome.fm/rss/c9abdd38-a5dc-5eb2-96fd-f833f93208a7
   youtube: null
   spotify: https://open.spotify.com/show/19KSYTTB5DTEb2z5Q3qiTh
-  apple_podcast: https://podcasts.apple.com/us/podcast/ai-engineering-podcast/id1877957479?uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/ai-engineering-podcast/id1626358243?uo=4
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/itunes/1626358243
@@ -8519,7 +8519,7 @@ podcasts:
   rss: https://changelog.com/shipit/feed
   youtube: https://www.youtube.com/playlist?list=PLCzseuA9sYrfJ2K8hqF60FnnAzxJKjU4o
   spotify: null
-  apple_podcast: https://podcasts.apple.com/us/podcast/ship-it/id1803383466?uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/the-ship-it-show/id1532437983?uo=4
   linkedin: null
   deezer: null
   pocket_casts: null
@@ -8592,8 +8592,8 @@ podcasts:
   episode_count: 136
   average_duration: 70
   status: slow
-  community_rating: null
-  community_rating_count: null
+  community_rating: 4.9
+  community_rating_count: 39
   platform: autre
   hosting_platform: null
   listening_platforms:

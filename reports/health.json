@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T12:23:02.837994+00:00",
+  "generated_at": "2026-11-19T20:55:05.320611+00:00",
   "mode": "network",
-  "duration_seconds": 10.25,
+  "duration_seconds": 7.82,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129686001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fb3cb40bb-6cf3-67bc-78a8-e7d198eadf97.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129686154/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fe23b91da-b53d-d8bd-2a8c-dbba06ec55c8.mp3"
         }
       }
     },
@@ -961,7 +961,7 @@
       "checks": {
         "site": {
           "status": "unchecked",
-          "url": "https://www.lemondedelacyber.com"
+          "url": "https://www.cyberlia.fr"
         },
         "rss": {
           "status": "unchecked",

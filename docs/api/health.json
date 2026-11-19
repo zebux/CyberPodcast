@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T03:45:49.531588+00:00",
+  "generated_at": "2026-11-19T12:23:02.837994+00:00",
   "mode": "network",
-  "duration_seconds": 8.26,
+  "duration_seconds": 10.25,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -122,7 +122,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/dea68586-0c07-4dfc-a151-6122776942e0.mp3?_=1791878766"
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/90ae5bd6-9a6d-4b59-9fb8-465c7a5f1f34.mp3?_=1791878803"
         }
       }
     },
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129687778/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F19592c6d-8a60-b360-5038-60ed588d0c8b.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129686001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fb3cb40bb-6cf3-67bc-78a8-e7d198eadf97.mp3"
         }
       }
     },
@@ -624,7 +624,7 @@
         },
         "image": {
           "status": "unchecked",
-          "url": "https://image.ausha.co/BqMWpfXoRipRMZuXDqqGiqhQrdDTNVXVvaeZMeQS_1400x1400.jpeg?t=1784635470"
+          "url": "https://image.ausha.co/hNH1ZYD9kDdqrWgFHAufGnZUjq7wpZN8gNVJdajQ_1400x1400.jpeg?t=1795087059"
         },
         "audio": {
           "status": "unchecked",
@@ -1548,7 +1548,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://media.transistor.fm/50acc20a/0fdf3086.mp3"
+          "url": "https://media.transistor.fm/81856baa/00172ed9.mp3"
         }
       }
     },
@@ -1617,7 +1617,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76101432/dotnetrocks_2028_modern_mentorship_main.mp3"
+          "url": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76356116/dotnetrocks_2029_owasp_top_ten_and_asp_net_core.mp3"
         }
       }
     },
@@ -1824,7 +1824,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/58a69653/1bd19fd9.mp3"
+          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/bb4dad17/16dab0bd.mp3"
         }
       }
     },

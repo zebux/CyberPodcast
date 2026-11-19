@@ -426,12 +426,17 @@ podcasts:
   image: https://static.audiomeans.fr/img/podcast/6d33de64-9124-475c-9be7-b4a249107108.jpg
   author: Expertime
   description: Les Têtes Dans Le Cloud, un condensé de news tech fortement influencé par l'écosystème Microsoft et animé par des passionnés !
-  last_episode: '2026-11-12'
-  last_episode_title: 'Capacité F0 : La Puissance de Fabric sans limite ! (+ Gestion de capacité & Fabric Apps)'
+  last_episode: '2026-11-19'
+  last_episode_title: 'Fabric Policies : Gouvernance et Sécurité Maximale (+ Deployment Plan)'
   last_episode_url: null
-  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/dea68586-0c07-4dfc-a151-6122776942e0.mp3?_=1791878766
-  last_episode_duration: 31
+  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/90ae5bd6-9a6d-4b59-9fb8-465c7a5f1f34.mp3?_=1791878803
+  last_episode_duration: 21
   episodes:
+  - title: 'Fabric Policies : Gouvernance et Sécurité Maximale (+ Deployment Plan)'
+    published: '2026-11-19'
+    url: null
+    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/90ae5bd6-9a6d-4b59-9fb8-465c7a5f1f34.mp3?_=1791878803
+    duration: 21
   - title: 'Capacité F0 : La Puissance de Fabric sans limite ! (+ Gestion de capacité & Fabric Apps)'
     published: '2026-11-12'
     url: null
@@ -477,16 +482,11 @@ podcasts:
     url: null
     audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/dbb9fbf3-da75-44fe-b5d5-0e3476a16bb4.mp3?_=1782724499
     duration: 10
-  - title: LA REVOLUTION Github Copilot App (ne ratez pas le train)
-    published: '2026-08-17'
-    url: null
-    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/0178c612-6b23-4c5d-8649-47e7dfe95b12.mp3?_=1782723545
-    duration: 17
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-19'
-  episode_count: 223
+  episode_count: 224
   average_duration: 22
   status: active
   community_rating: 4.6
@@ -2454,12 +2454,32 @@ podcasts:
   image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
-  last_episode: '2026-11-18'
-  last_episode_title: 'Optimizely piraté : faut-il bannir l’A/B testing du paiement ?'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Optimizely-pirat--faut-il-bannir-lAB-testing-du-paiement-e3sk8p2
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129687778/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F19592c6d-8a60-b360-5038-60ed588d0c8b.mp3
+  last_episode: '2026-11-19'
+  last_episode_title: 'Audit d''agents IA : quand le résumé détruit la preuve'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Audit-dagents-IA--quand-le-rsum-dtruit-la-preuve-e3sk71h
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129686001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fb3cb40bb-6cf3-67bc-78a8-e7d198eadf97.mp3
   last_episode_duration: 7
   episodes:
+  - title: 'Audit d''agents IA : quand le résumé détruit la preuve'
+    published: '2026-11-19'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Audit-dagents-IA--quand-le-rsum-dtruit-la-preuve-e3sk71h
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129686001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fb3cb40bb-6cf3-67bc-78a8-e7d198eadf97.mp3
+    duration: 7
+  - title: 'Getty vs Stability : l''importation de modèles face au droit d''auteur'
+    published: '2026-11-19'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Getty-vs-Stability--limportation-de-modles-face-au-droit-dauteur-e3sk6v9
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129685929/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F321e964d-9f85-d912-831c-646157816061.mp3
+    duration: 7
+  - title: 'HUMAIN : pourquoi financer le réseau avant les GPU ?'
+    published: '2026-11-19'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/HUMAIN--pourquoi-financer-le-rseau-avant-les-GPU-e3si31m
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129616374/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F0f47ba5b-cf45-3616-aa7a-eaf5297b3243.mp3
+    duration: 7
+  - title: 'Sade : L''angle mort des IA'
+    published: '2026-11-19'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Sade--Langle-mort-des-IA-e3q02ve
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/126929326/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F63e5cb39-b9e5-16aa-9907-7e6f15dd5d3b.mp3
+    duration: 20
   - title: 'Optimizely piraté : faut-il bannir l’A/B testing du paiement ?'
     published: '2026-11-18'
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Optimizely-pirat--faut-il-bannir-lAB-testing-du-paiement-e3sk8p2
@@ -2490,31 +2510,11 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Embeddings-et-ChatGPT--lillusion-de-la-pense-unique-e3shtce
     audio: https://anchor.fm/s/11065f6ec/podcast/play/129610574/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F42eae84e-32da-713b-1d7a-4268a68f6d79.mp3
     duration: 8
-  - title: 'Modèles multimodaux : le piège caché du raisonnement en texte seul'
-    published: '2026-11-18'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Modles-multimodaux--le-pige-cach-du-raisonnement-en-texte-seul-e3se4ud
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129487245/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2Fa56764a4-f94f-a7ae-6e83-c898f8e135cf.mp3
-    duration: 7
-  - title: 'Migration cloud à risque : 12 ou 18 mois pour sortir ?'
-    published: '2026-11-18'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Migration-cloud--risque--12-ou-18-mois-pour-sortir-e3se4bc
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129486636/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-15%2F71f3364d-944f-26b2-e304-0bc949e255e6.mp3
-    duration: 7
-  - title: Baudelaire, l'angle mort des IA
-    published: '2026-11-18'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Baudelaire--langle-mort-des-IA-e3pqrks
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/126757980/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-3%2F53752851-cb61-415c-e02a-f4de2bf49de4.mp3
-    duration: 20
-  - title: 'LMArena : gagner 45 places sans toucher au modèle ?'
-    published: '2026-11-17'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LMArena--gagner-45-places-sans-toucher-au-modle-e3shtaf
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610511/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2Fdf0dec73-d54c-e0ca-bb7b-6678544d0524.mp3
-    duration: 7
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
   updated_at: '2026-11-19'
-  episode_count: 1209
+  episode_count: 1213
   average_duration: 7
   status: active
   community_rating: null
@@ -2639,7 +2639,7 @@ podcasts:
   podcast_addict: https://podcastaddict.com/podcast/compliance-without-coma/5837176
   amazon_music: https://music.amazon.com/podcasts/ddd6669c-dd33-40c3-8d78-c838991b2f6c
   castbox: https://castbox.fm/channel/id6577569?utm_campaign=ex_share_ch\u0026utm_medium=exlink
-  image: https://image.ausha.co/BqMWpfXoRipRMZuXDqqGiqhQrdDTNVXVvaeZMeQS_1400x1400.jpeg?t=1784635470
+  image: https://image.ausha.co/hNH1ZYD9kDdqrWgFHAufGnZUjq7wpZN8gNVJdajQ_1400x1400.jpeg?t=1795087059
   author: Fabrice De Paepe
   description: 🔐 Normes. Risques. Gouvernance. Sans prise de tête. Bienvenue dans Compliance Without Coma®, le podcast qui parle de sécurité de l’information, de conformité, de risques et de normes… sans jargon et…
   last_episode: '2026-11-13'
@@ -6570,12 +6570,17 @@ podcasts:
   image: https://softwareengineeringdaily.com/wp-content/uploads/2026/07/sed_logo_2026.png
   author: Software Engineering Daily
   description: Technical interviews about software topics.
-  last_episode: '2026-11-17'
-  last_episode_title: The Technical Interview Is Broken
-  last_episode_url: https://softwareengineeringdaily.com/podcasts/the-technical-interview-is-broken/
-  last_episode_audio: https://media.transistor.fm/50acc20a/0fdf3086.mp3
-  last_episode_duration: 54
+  last_episode: '2026-11-19'
+  last_episode_title: The Rise of the Software Factories
+  last_episode_url: https://softwareengineeringdaily.com/podcasts/the-rise-of-the-software-factories/
+  last_episode_audio: https://media.transistor.fm/81856baa/00172ed9.mp3
+  last_episode_duration: 36
   episodes:
+  - title: The Rise of the Software Factories
+    published: '2026-11-19'
+    url: https://softwareengineeringdaily.com/podcasts/the-rise-of-the-software-factories/
+    audio: https://media.transistor.fm/81856baa/00172ed9.mp3
+    duration: 36
   - title: The Technical Interview Is Broken
     published: '2026-11-17'
     url: https://softwareengineeringdaily.com/podcasts/the-technical-interview-is-broken/
@@ -6621,13 +6626,8 @@ podcasts:
     url: https://softwareengineeringdaily.com/podcasts/physical-ai-at-nvidia/
     audio: https://media.transistor.fm/331da62b/f57cbddf.mp3
     duration: 57
-  - title: Software Verification in the Age of Coding Agents
-    published: '2026-10-15'
-    url: https://softwareengineeringdaily.com/podcasts/software-verification-in-the-age-of-coding-agents/
-    audio: https://media.transistor.fm/33953bfb/d0a75431.mp3
-    duration: 47
-  frequency: weekly
-  frequency_days: 5
+  frequency: daily
+  frequency_days: 2
   first_seen: '2026-11-09'
   updated_at: '2026-11-19'
   episode_count: 104
@@ -6880,12 +6880,17 @@ podcasts:
   image: https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d609b60f7cc16bfd0e6416ce8d5596ec.jpg
   author: Carl Franklin
   description: .NET Rocks! is an Internet Audio Talk Show for Microsoft .NET Developers.
-  last_episode: '2026-11-12'
-  last_episode_title: Modern Mentorship with Ethan Winer
-  last_episode_url: https://www.spreaker.com/episode/modern-mentorship-with-ethan-winer--76101432
-  last_episode_audio: https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76101432/dotnetrocks_2028_modern_mentorship_main.mp3
-  last_episode_duration: 51
+  last_episode: '2026-11-19'
+  last_episode_title: OWASP Top Ten and ASP.NET Core with Anders Abel
+  last_episode_url: https://www.spreaker.com/episode/owasp-top-ten-and-asp-net-core-with-anders-abel--76356116
+  last_episode_audio: https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76356116/dotnetrocks_2029_owasp_top_ten_and_asp_net_core.mp3
+  last_episode_duration: 49
   episodes:
+  - title: OWASP Top Ten and ASP.NET Core with Anders Abel
+    published: '2026-11-19'
+    url: https://www.spreaker.com/episode/owasp-top-ten-and-asp-net-core-with-anders-abel--76356116
+    audio: https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76356116/dotnetrocks_2029_owasp_top_ten_and_asp_net_core.mp3
+    duration: 49
   - title: Modern Mentorship with Ethan Winer
     published: '2026-11-12'
     url: https://www.spreaker.com/episode/modern-mentorship-with-ethan-winer--76101432
@@ -6931,17 +6936,12 @@ podcasts:
     url: https://www.spreaker.com/episode/post-quantum-crypto-with-michael-howard--74930440
     audio: https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74930440/dotnetrocks_2020_post_quantum_crypto.mp3
     duration: 66
-  - title: Numerics.NET with Jeffrey Sax
-    published: '2026-09-09'
-    url: https://www.spreaker.com/episode/numerics-net-with-jeffrey-sax--74930438
-    audio: https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/74930438/dotnetrocks_2019_numerics_dot_net.mp3
-    duration: 65
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-19'
-  episode_count: 2022
-  average_duration: 58
+  episode_count: 2023
+  average_duration: 57
   status: active
   community_rating: 4.6
   community_rating_count: 246
@@ -7139,7 +7139,7 @@ podcasts:
   average_duration: 65
   status: active
   community_rating: 4.8
-  community_rating_count: 587
+  community_rating_count: 586
   platform: autre
   hosting_platform: null
   listening_platforms:
@@ -7784,12 +7784,17 @@ podcasts:
   image: https://img.transistorcdn.com/WMlp2ug34XB6LDJ3-vnzti_-_y144LUlFW0Xzzn3fss/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wMTZi/ZWJmNWIwNDdmYTcw/NGJjMTExZjNjZmYy/M2ZjNS5wbmc.jpg
   author: Daniel Whitenack and Chris Benson
   description: Making artificial intelligence practical, productive & accessible to everyone.
-  last_episode: '2026-11-13'
-  last_episode_title: Implementing Federated Learning to enhance Agentic AI
-  last_episode_url: https://share.transistor.fm/s/58a69653
-  last_episode_audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/58a69653/1bd19fd9.mp3
-  last_episode_duration: 44
+  last_episode: '2026-11-19'
+  last_episode_title: Building Human-Centered AI
+  last_episode_url: https://share.transistor.fm/s/bb4dad17
+  last_episode_audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/bb4dad17/16dab0bd.mp3
+  last_episode_duration: 45
   episodes:
+  - title: Building Human-Centered AI
+    published: '2026-11-19'
+    url: https://share.transistor.fm/s/bb4dad17
+    audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/bb4dad17/16dab0bd.mp3
+    duration: 45
   - title: Implementing Federated Learning to enhance Agentic AI
     published: '2026-11-13'
     url: https://share.transistor.fm/s/58a69653
@@ -7835,16 +7840,11 @@ podcasts:
     url: https://share.transistor.fm/s/66185604
     audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/66185604/d94b5158.mp3
     duration: 55
-  - title: Computer-Use Agents and the Future of the Agentic Internet
-    published: '2026-09-10'
-    url: https://share.transistor.fm/s/72586f97
-    audio: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/72586f97/42471284.mp3
-    duration: 56
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-19'
-  episode_count: 382
+  episode_count: 383
   average_duration: 47
   status: active
   community_rating: 4.3

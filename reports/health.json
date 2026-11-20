@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-20T01:59:26.940102+00:00",
+  "generated_at": "2026-11-20T09:38:46.924866+00:00",
   "mode": "network",
-  "duration_seconds": 10.16,
+  "duration_seconds": 7.91,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -237,7 +237,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/3cd4583e-0689-4571-a8ff-1f6dd453224d.mp3"
+          "url": "https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/524daddc-e373-44f4-b45f-70eb85be96c0.mp3"
         }
       }
     },
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129686154/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fe23b91da-b53d-d8bd-2a8c-dbba06ec55c8.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129685849/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F2ad869e8-faa4-0db3-2e09-442a14f71c41.mp3"
         }
       }
     },
@@ -628,7 +628,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.ausha.co/RD6knC7GaMEV.mp3?t=1794235710"
+          "url": "https://audio.ausha.co/l2eKRClQKJpl.mp3?t=1795084948"
         }
       }
     },
@@ -1134,7 +1134,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://track.podcastics.com/7830/440232.mp3"
+          "url": "https://track.podcastics.com/7830/440382.mp3"
         }
       }
     },
@@ -1387,7 +1387,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/1ebca351-8f11-461b-9acf-0e842b5cd5a9.mp3?_=1794920431"
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/c87ad1ee-c3c1-4a4a-b813-6e8e07e7ad53.mp3?_=1795093235"
         }
       }
     },

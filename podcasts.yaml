@@ -907,12 +907,17 @@ podcasts:
   image: https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/9/9b74150b-3553-49dc-8332-f89bbbba9f92/cover.jpg?v=1
   author: Software Defined Talk LLC
   description: A podcast about Enterprise Software and Cloud Computing that doesn't take itself too seriously.
-  last_episode: '2026-11-13'
-  last_episode_title: 'Episode 598: Protect the Tortillas at All Costs'
-  last_episode_url: https://www.softwaredefinedtalk.com/598
-  last_episode_audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/3cd4583e-0689-4571-a8ff-1f6dd453224d.mp3
-  last_episode_duration: 68
+  last_episode: '2026-11-20'
+  last_episode_title: 'Episode 599: Innovator vs Operator'
+  last_episode_url: https://www.softwaredefinedtalk.com/599
+  last_episode_audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/524daddc-e373-44f4-b45f-70eb85be96c0.mp3
+  last_episode_duration: 55
   episodes:
+  - title: 'Episode 599: Innovator vs Operator'
+    published: '2026-11-20'
+    url: https://www.softwaredefinedtalk.com/599
+    audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/524daddc-e373-44f4-b45f-70eb85be96c0.mp3
+    duration: 55
   - title: 'Episode 598: Protect the Tortillas at All Costs'
     published: '2026-11-13'
     url: https://www.softwaredefinedtalk.com/598
@@ -958,17 +963,12 @@ podcasts:
     url: https://www.softwaredefinedtalk.com/590
     audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/e986e313-5a09-434c-9ad9-8ffc8398b6d1.mp3
     duration: 53
-  - title: 'Episode 589: He''s the Heel'
-    published: '2026-09-11'
-    url: https://www.softwaredefinedtalk.com/589
-    audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/cc5a65e3-35f6-46a5-8267-fd18b9497748.mp3
-    duration: 58
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-20'
-  episode_count: 545
-  average_duration: 60
+  episode_count: 546
+  average_duration: 59
   status: active
   community_rating: 4.7
   community_rating_count: 69
@@ -2454,12 +2454,22 @@ podcasts:
   image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
-  last_episode: '2026-11-19'
-  last_episode_title: 'Responsabilité IA : l''avocat à l''amende, le cabinet non sanctionné'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Responsabilit-IA--lavocat--lamende--le-cabinet-non-sanctionn-e3sk76a
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129686154/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fe23b91da-b53d-d8bd-2a8c-dbba06ec55c8.mp3
-  last_episode_duration: 7
+  last_episode: '2026-11-20'
+  last_episode_title: 'Sycophantie des LLM : faut-il plaire ou dire vrai ?'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Sycophantie-des-LLM--faut-il-plaire-ou-dire-vrai-e3sk6sp
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129685849/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F2ad869e8-faa4-0db3-2e09-442a14f71c41.mp3
+  last_episode_duration: 8
   episodes:
+  - title: 'Sycophantie des LLM : faut-il plaire ou dire vrai ?'
+    published: '2026-11-20'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Sycophantie-des-LLM--faut-il-plaire-ou-dire-vrai-e3sk6sp
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129685849/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F2ad869e8-faa4-0db3-2e09-442a14f71c41.mp3
+    duration: 8
+  - title: Ronsard, l'angle mort des IA
+    published: '2026-11-20'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Ronsard--langle-mort-des-IA-e3q031p
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/126929401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Ffdfd8c7e-4d13-23d0-45f2-053d4103a3e4.mp3
+    duration: 21
   - title: 'Responsabilité IA : l''avocat à l''amende, le cabinet non sanctionné'
     published: '2026-11-19'
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Responsabilit-IA--lavocat--lamende--le-cabinet-non-sanctionn-e3sk76a
@@ -2500,21 +2510,11 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Plumbline-Amazon--quand-la-loss-ment-sur-lentranement-e3shv9h
     audio: https://anchor.fm/s/11065f6ec/podcast/play/129612529/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2Fa88ffa73-55fa-17ac-c3e8-c68deca81860.mp3
     duration: 7
-  - title: 'Agents autonomes : qui peut supprimer leurs 87 500 mots de règles ?'
-    published: '2026-11-18'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Agents-autonomes--qui-peut-supprimer-leurs-87-500-mots-de-rgles-e3shtip
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610777/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2Ffa35da9f-8cb8-a3e0-9659-7bb8341daf4b.mp3
-    duration: 7
-  - title: 'Fireworks AI : quand la R&D expose données et poids de modèles'
-    published: '2026-11-18'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fireworks-AI--quand-la-RD-expose-donnes-et-poids-de-modles-e3shtg9
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129610697/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F5f58fc7f-f4e8-d4c7-4785-5a1c2504ecba.mp3
-    duration: 7
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
   updated_at: '2026-11-20'
-  episode_count: 1215
+  episode_count: 1217
   average_duration: 7
   status: active
   community_rating: null
@@ -2642,12 +2642,17 @@ podcasts:
   image: https://image.ausha.co/hNH1ZYD9kDdqrWgFHAufGnZUjq7wpZN8gNVJdajQ_1400x1400.jpeg?t=1795087059
   author: Fabrice De Paepe
   description: 🔐 Normes. Risques. Gouvernance. Sans prise de tête. Bienvenue dans Compliance Without Coma®, le podcast qui parle de sécurité de l’information, de conformité, de risques et de normes… sans jargon et…
-  last_episode: '2026-11-13'
-  last_episode_title: Vous avez les clés de votre voiture, mais qui a les droits administrateur | EP86
-  last_episode_url: https://podcast.ausha.co/compliance-without-coma/vous-avez-les-cles-de-votre-voiture-mais-qui-a-les-droits-administrateur-ep86
-  last_episode_audio: https://audio.ausha.co/RD6knC7GaMEV.mp3?t=1794235710
-  last_episode_duration: 9
+  last_episode: '2026-11-20'
+  last_episode_title: Une tentative de fraude au président par Microsoft Teams | EP87
+  last_episode_url: https://podcast.ausha.co/compliance-without-coma/une-tentative-de-fraude-au-president-par-microsoft-teams-ep87
+  last_episode_audio: https://audio.ausha.co/l2eKRClQKJpl.mp3?t=1795084948
+  last_episode_duration: 6
   episodes:
+  - title: Une tentative de fraude au président par Microsoft Teams | EP87
+    published: '2026-11-20'
+    url: https://podcast.ausha.co/compliance-without-coma/une-tentative-de-fraude-au-president-par-microsoft-teams-ep87
+    audio: https://audio.ausha.co/l2eKRClQKJpl.mp3?t=1795084948
+    duration: 6
   - title: Vous avez les clés de votre voiture, mais qui a les droits administrateur | EP86
     published: '2026-11-13'
     url: https://podcast.ausha.co/compliance-without-coma/vous-avez-les-cles-de-votre-voiture-mais-qui-a-les-droits-administrateur-ep86
@@ -2693,17 +2698,12 @@ podcasts:
     url: https://podcast.ausha.co/compliance-without-coma/pourquoi-tout-le-monde-confond-politique-standard-et-procedure-ep-78
     audio: https://audio.ausha.co/zrNKLT11Y6KY.mp3?t=1789553090
     duration: 9
-  - title: Pourquoi votre cybersécurité échoue… alors que vous avez investi des milliers d’euros | EP77
-    published: '2026-09-11'
-    url: https://podcast.ausha.co/compliance-without-coma/pourquoi-votre-cybersecurite-echoue-alors-que-vous-avez-investi-des-milliers-d-euros-ep77
-    audio: https://audio.ausha.co/8POkVIjqjr8W.mp3?t=1788954823
-    duration: 8
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-20'
-  episode_count: 87
-  average_duration: 10
+  episode_count: 88
+  average_duration: 9
   status: active
   community_rating: null
   community_rating_count: null
@@ -4813,12 +4813,17 @@ podcasts:
   image: https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png
   author: Marc Frédéric GOMEZ
   description: Podcast consacré aux CSIRT, à la réponse à incident et à la cybersécurité opérationnelle.
-  last_episode: '2026-11-18'
-  last_episode_title: 'Ep.804 • Oracle CSPU de novembre 2026 : 655 correctifs'
-  last_episode_url: https://www.radiocsirt.org/podcast/ep-804-oracle-cspu-de-novembre-2026-655-correctifs/
-  last_episode_audio: https://track.podcastics.com/7830/440232.mp3
-  last_episode_duration: 44
+  last_episode: '2026-11-19'
+  last_episode_title: Ep.805 - VMware vCenter, KEV de la CISA - Flash info du jeudi 19 novembre 2026
+  last_episode_url: https://www.radiocsirt.org/podcast/ep-805-vmware-vcenter-kev-de-la-cisa-flash-info-du-jeudi-19-novembre-2026/
+  last_episode_audio: https://track.podcastics.com/7830/440382.mp3
+  last_episode_duration: 14
   episodes:
+  - title: Ep.805 - VMware vCenter, KEV de la CISA - Flash info du jeudi 19 novembre 2026
+    published: '2026-11-19'
+    url: https://www.radiocsirt.org/podcast/ep-805-vmware-vcenter-kev-de-la-cisa-flash-info-du-jeudi-19-novembre-2026/
+    audio: https://track.podcastics.com/7830/440382.mp3
+    duration: 14
   - title: 'Ep.804 • Oracle CSPU de novembre 2026 : 655 correctifs'
     published: '2026-11-18'
     url: https://www.radiocsirt.org/podcast/ep-804-oracle-cspu-de-novembre-2026-655-correctifs/
@@ -4864,16 +4869,11 @@ podcasts:
     url: https://www.radiocsirt.org/ep-796-outlook-patch-tuesday-de-novembre-flash-info-du-mardi-10-novembre-2026/
     audio: https://track.podcastics.com/7830/439257.mp3
     duration: 13
-  - title: Ep.795 - Iran, Shahid Kaveh, C4 et CERT-FR - Épisode spécial du lundi 9 novembre 2026
-    published: '2026-11-09'
-    url: https://www.radiocsirt.org/podcast/ep-795-iran-shahid-kaveh-c4-et-cert-fr-episode-special-du-lundi-9-novembre-2026/
-    audio: https://track.podcastics.com/7830/439097.mp3
-    duration: 11
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-09'
   updated_at: '2026-11-20'
-  episode_count: 808
+  episode_count: 809
   average_duration: 14
   status: active
   community_rating: 4.9
@@ -5833,12 +5833,17 @@ podcasts:
   image: https://static.audiomeans.fr/img/podcast/b0f6c0ee-41d3-4406-9d0c-7ef45174c4b8.jpg
   author: Bruno Soulez | Orso Media
   description: 'If This Then Dev, c''est le podcast D.E.V : Différent, Extraordinaire et Visionnaire. Un podcast qui veut résoudre le problème avant de passer au dev. Chaque semaine Bruno Soulez reçoit un expert pour…'
-  last_episode: '2026-11-18'
-  last_episode_title: '#385.src - AT Protocol: Décentraliser son identité numérique avec Julien Wittouck'
-  last_episode_url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/385-0e842b5cd5a9
-  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/1ebca351-8f11-461b-9acf-0e842b5cd5a9.mp3?_=1794920431
-  last_episode_duration: 64
+  last_episode: '2026-11-20'
+  last_episode_title: '#360.exe - Docker Sandbox: Sécuriser les agents IA sans ralentir les devs par Quentin de Quelen'
+  last_episode_url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/360-6e8e07e7ad53
+  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/c87ad1ee-c3c1-4a4a-b813-6e8e07e7ad53.mp3?_=1795093235
+  last_episode_duration: 15
   episodes:
+  - title: '#360.exe - Docker Sandbox: Sécuriser les agents IA sans ralentir les devs par Quentin de Quelen'
+    published: '2026-11-20'
+    url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/360-6e8e07e7ad53
+    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/c87ad1ee-c3c1-4a4a-b813-6e8e07e7ad53.mp3?_=1795093235
+    duration: 15
   - title: '#385.src - AT Protocol: Décentraliser son identité numérique avec Julien Wittouck'
     published: '2026-11-18'
     url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/385-0e842b5cd5a9
@@ -5884,16 +5889,11 @@ podcasts:
     url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/379-2117b12ab830
     audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/a66ae0ae-9d90-450d-b3d6-2117b12ab830.mp3?_=1791288070
     duration: 78
-  - title: '#378.ad - Renforcer la donnée: La donnée, grande oubliée du multicloud avec Christophe Francois'
-    published: '2026-09-30'
-    url: https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/-378-faec7756bbd7
-    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/44d3561f-a515-4e23-9ca1-faec7756bbd7.mp3?_=1790683283
-    duration: 51
   frequency: weekly
-  frequency_days: 7
+  frequency_days: 5
   first_seen: '2026-11-09'
   updated_at: '2026-11-20'
-  episode_count: 764
+  episode_count: 765
   average_duration: 61
   status: active
   community_rating: 4.8

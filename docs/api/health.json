@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T20:55:05.320611+00:00",
+  "generated_at": "2026-11-20T01:59:26.940102+00:00",
   "mode": "network",
-  "duration_seconds": 7.82,
+  "duration_seconds": 10.16,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -915,19 +915,19 @@
       "checks": {
         "site": {
           "status": "unchecked",
-          "url": "https://podcast.ausha.co/cafecompas"
+          "url": "https://linktr.ee/0xbochi"
         },
         "rss": {
           "status": "unchecked",
-          "url": "https://feed.ausha.co/yOraMCxd0ezj"
+          "url": "https://anchor.fm/s/eeae065c/podcast/rss"
         },
         "image": {
           "status": "unchecked",
-          "url": "https://image.ausha.co/wyd3CbdkCzbFKMP1cdebiIww2gYp6RQokQXChnOH_1400x1400.jpeg?t=1706379884"
+          "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39943823/82e24d6697d21773.jpeg"
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.ausha.co/BnvA1Iqvxd4q.mp3?t=1693147694"
+          "url": "https://anchor.fm/s/eeae065c/podcast/play/117295888/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-22%2F420523717-44100-2-d3fa7d0234e71.mp3"
         }
       }
     },

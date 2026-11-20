@@ -1011,12 +1011,17 @@ podcasts:
   image: https://static.feedpress.com/logo/packetpushersweeklypodcast-653bc236a0040.png
   author: Packet Pushers
   description: Heavy Networking is an unabashedly nerdy dive into all things networking. On air since 2010, it’s the flagship show of the Packet Pushers podcast network.
-  last_episode: '2026-11-13'
-  last_episode_title: 'HN851: Inside the Certified Kubernetes Network Engineer (CKNE) Program'
-  last_episode_url: https://packetpushers.net/podcasts/heavy-networking/hn851-inside-the-certified-kubernetes-network-engineer-ckne-program/
-  last_episode_audio: https://feeds.packetpushers.net/link/12486/17523938/HN851.mp3
-  last_episode_duration: 56
+  last_episode: '2026-11-20'
+  last_episode_title: 'HN852: Agentic AI Operations Merge with HPE’s Self-Driving Network (Sponsored)'
+  last_episode_url: https://packetpushers.net/podcasts/heavy-networking/hn852-agentic-ai-operations-merge-with-hpes-self-driving-network-sponsored/
+  last_episode_audio: https://feeds.packetpushers.net/link/12486/17536299/HN852.mp3
+  last_episode_duration: 47
   episodes:
+  - title: 'HN852: Agentic AI Operations Merge with HPE’s Self-Driving Network (Sponsored)'
+    published: '2026-11-20'
+    url: https://packetpushers.net/podcasts/heavy-networking/hn852-agentic-ai-operations-merge-with-hpes-self-driving-network-sponsored/
+    audio: https://feeds.packetpushers.net/link/12486/17536299/HN852.mp3
+    duration: 47
   - title: 'HN851: Inside the Certified Kubernetes Network Engineer (CKNE) Program'
     published: '2026-11-13'
     url: https://packetpushers.net/podcasts/heavy-networking/hn851-inside-the-certified-kubernetes-network-engineer-ckne-program/
@@ -1062,11 +1067,6 @@ podcasts:
     url: https://packetpushers.net/podcasts/heavy-networking/hn843-from-network-engineer-to-network-architect-with-kevin-nanns/
     audio: https://feeds.packetpushers.net/link/12486/17473478/HN843.mp3
     duration: 59
-  - title: 'HN842: How Network Engineers Can Prepare for a Post-Quantum World'
-    published: '2026-09-18'
-    url: https://packetpushers.net/podcasts/heavy-networking/hn842-how-network-engineers-can-prepare-for-a-post-quantum-world/
-    audio: https://feeds.packetpushers.net/link/12486/17466259/HN842.mp3
-    duration: 73
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
@@ -1275,7 +1275,7 @@ podcasts:
   average_duration: 32
   status: slow
   community_rating: 4.3
-  community_rating_count: 202
+  community_rating_count: 201
   platform: autre
   hosting_platform: null
   listening_platforms:
@@ -1898,7 +1898,7 @@ podcasts:
   average_duration: 23
   status: archived
   community_rating: 4.6
-  community_rating_count: 450
+  community_rating_count: 449
   platform: Riverside
   hosting_platform: Riverside
   listening_platforms:
@@ -2147,12 +2147,17 @@ podcasts:
   image: http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg
   author: Late Night Linux
   description: Podcast britannique d'actualité Linux, open source et administration système.
-  last_episode: '2026-11-19'
-  last_episode_title: '2.5 Admins 326: *sshole'
-  last_episode_url: https://latenightlinux.com/2-5-admins-326/
+  last_episode: '2026-11-20'
+  last_episode_title: Linux After Dark – Episode 135
+  last_episode_url: https://latenightlinux.com/linux-after-dark-episode-135/
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: Linux After Dark – Episode 135
+    published: '2026-11-20'
+    url: https://latenightlinux.com/linux-after-dark-episode-135/
+    audio: null
+    duration: null
   - title: '2.5 Admins 326: *sshole'
     published: '2026-11-19'
     url: https://latenightlinux.com/2-5-admins-326/
@@ -2198,16 +2203,11 @@ podcasts:
     url: https://latenightlinux.com/2-5-admins-324/
     audio: null
     duration: null
-  - title: Late Night Linux – Episode 410
-    published: '2026-11-03'
-    url: https://latenightlinux.com/late-night-linux-episode-410/
-    audio: null
-    duration: null
   frequency: daily
   frequency_days: 2
   first_seen: '2026-11-09'
   updated_at: '2026-11-20'
-  episode_count: 1060
+  episode_count: 1061
   average_duration: null
   status: active
   community_rating: 4.6
@@ -5074,12 +5074,22 @@ podcasts:
   image: https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj
   author: CyberPodcast
   description: CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet accessible look into the cybersecurity landscape.
-  last_episode: '2026-11-19'
-  last_episode_title: 'Stealthy Traffic Analysis Can Break Tor Anonymity | Paper Breakdown #21 | CyberPodcast'
-  last_episode_url: https://www.youtube.com/watch?v=0zHWdWsg--0
+  last_episode: '2026-11-20'
+  last_episode_title: 'Why Deepfakes Work: Amygdala Hijack Explained'
+  last_episode_url: https://www.youtube.com/shorts/KD1S8aggYeU
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: 'Why Deepfakes Work: Amygdala Hijack Explained'
+    published: '2026-11-20'
+    url: https://www.youtube.com/shorts/KD1S8aggYeU
+    audio: null
+    duration: null
+  - title: 'OWASP GenAI COMPASS RunBook 1.0 | Podcast #13 | OWASP AI Security | CyberPodcast'
+    published: '2026-11-20'
+    url: https://www.youtube.com/watch?v=Sz7ZSHRDeaw
+    audio: null
+    duration: null
   - title: 'Stealthy Traffic Analysis Can Break Tor Anonymity | Paper Breakdown #21 | CyberPodcast'
     published: '2026-11-19'
     url: https://www.youtube.com/watch?v=0zHWdWsg--0
@@ -5118,16 +5128,6 @@ podcasts:
   - title: 'OWASP Top10 for LLM: Deepfake Defense Guide | Paper Breakdown #1'
     published: '2026-11-15'
     url: https://www.youtube.com/shorts/pf2FkQ3ADNU
-    audio: null
-    duration: null
-  - title: 'OWASP Top10 for LLM: Deepfake Defense with Low-Tech Solutions'
-    published: '2026-11-14'
-    url: https://www.youtube.com/shorts/GR0b8yajGrE
-    audio: null
-    duration: null
-  - title: 'OWASP Top10: Deepfake Fraud on the Rise'
-    published: '2026-11-13'
-    url: https://www.youtube.com/shorts/_-Saez5bLrM
     audio: null
     duration: null
   frequency: daily
@@ -7874,7 +7874,7 @@ podcasts:
   - Alessio Fanelli
   website: https://www.latent.space/
   rss: https://api.substack.com/feed/podcast/1084089.rss
-  youtube: https://www.youtube.com/watch?v=8cGfJOU3AlQ
+  youtube: https://www.youtube.com/watch?v=wX8nDtGIfYA
   spotify: https://open.spotify.com/show/2p7zZVwVF6Yk0Zsb4QmT7t
   apple_podcast: https://podcasts.apple.com/us/podcast/latent-space-the-ai-engineer-podcast/id1674008350
   linkedin: null
@@ -7886,12 +7886,22 @@ podcasts:
   image: https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818
   author: Latent.Space
   description: 'The main Latent Space podcast: AI engineering, Forward Deployed Engineering, AI for science, and ⚡ Lightning episodes. Other feeds: Engineering and FDE: https://podcast.latent.space/eng.xml; Science…'
-  last_episode: '2026-11-16'
-  last_episode_title: Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs
-  last_episode_url: https://latent.space/p/bfl
-  last_episode_audio: https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1e632-c02d-7e1d-84cb-b3d9453f63eb/01a1e632-c136-7f19-ba30-c3bc167811bd.mp3
-  last_episode_duration: 98
+  last_episode: '2026-11-19'
+  last_episode_title: Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO
+  last_episode_url: https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/scaling_linear_s_gtm_to_100m_arr_cristina_cordova_coo
+  last_episode_audio: https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1f60c-1b1f-791d-ab17-93dc95925d0f/01a1f60c-1d13-7e51-8f68-58af8c020059.mp3
+  last_episode_duration: 84
   episodes:
+  - title: Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO
+    published: '2026-11-19'
+    url: https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/scaling_linear_s_gtm_to_100m_arr_cristina_cordova_coo
+    audio: https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a1f60c-1b1f-791d-ab17-93dc95925d0f/01a1f60c-1d13-7e51-8f68-58af8c020059.mp3
+    duration: 84
+  - title: '⚡️Anthropic: Know Before You IPO — Tanay Jaipuria, Wing VC'
+    published: '2026-11-18'
+    url: https://www.youtube.com/watch?v=wX8nDtGIfYA
+    audio: https://podcast.latent.space/audio/wX8nDtGIfYA.m4a
+    duration: 54
   - title: Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs
     published: '2026-11-16'
     url: https://latent.space/p/bfl
@@ -7932,22 +7942,12 @@ podcasts:
     url: https://www.youtube.com/watch?v=LL0YmIyBKSU
     audio: https://podcast.latent.space/audio/LL0YmIyBKSU.m4a
     duration: 35
-  - title: Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora
-    published: '2026-11-02'
-    url: https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora
-    audio: https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a19df0-34a3-7307-96fc-48928908772b/01a19df0-35e0-7c61-90cc-3a37c8983d85.mp3
-    duration: 67
-  - title: Using Agents for Long-Horizon Financial Work — Aman Singh, Arca
-    published: '2026-10-31'
-    url: https://latent.space/p/arca
-    audio: https://podcasts.beehiiv.com/3967c1f2-cb97-4eb0-a5c0-21a1d2579408/01a15fdf-0e93-7e1a-880d-d73752a1f915/01a18ea6-9508-712c-b5ff-54536059aced/01a18eb9-7b8e-7f04-b56a-8580cdb8c207.mp3
-    duration: 26
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-09'
   updated_at: '2026-11-20'
-  episode_count: 298
-  average_duration: 72
+  episode_count: 300
+  average_duration: 70
   status: active
   community_rating: 4.5
   community_rating_count: 108
@@ -7958,6 +7958,7 @@ podcasts:
   - Spotify
   - YouTube
   topics:
+  - IA
   - LLM
   tags:
   - LLM

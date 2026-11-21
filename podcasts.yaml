@@ -2455,11 +2455,36 @@ podcasts:
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
   last_episode: '2026-11-21'
-  last_episode_title: Shakespeare, l'angle mort des IA
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shakespeare--langle-mort-des-IA-e3q033d
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/126929453/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Fdabc3b6b-c536-5e0c-d939-bde0039c5fd6.mp3
-  last_episode_duration: 24
+  last_episode_title: 'MAI Code 2 : le modèle à 5 % du prix peut-il déplacer la rente ?'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/MAI-Code-2--le-modle--5--du-prix-peut-il-dplacer-la-rente-e3spe05
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129856965/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F8ad5758c-833c-106e-9af4-e72afe6398ac.mp3
+  last_episode_duration: 7
   episodes:
+  - title: 'MAI Code 2 : le modèle à 5 % du prix peut-il déplacer la rente ?'
+    published: '2026-11-21'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/MAI-Code-2--le-modle--5--du-prix-peut-il-dplacer-la-rente-e3spe05
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129856965/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F8ad5758c-833c-106e-9af4-e72afe6398ac.mp3
+    duration: 7
+  - title: 'OpenAI : que cachent les 5,7 journées d’agents par chercheur ?'
+    published: '2026-11-21'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenAI--que-cachent-les-5-7-journes-dagents-par-chercheur-e3sogfb
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129826731/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2F4c29b1f6-5644-3a4f-3428-a226b31f4ce0.mp3
+    duration: 7
+  - title: 'CNIL : 61 sanctions anonymes, punir plus sans nommer ?'
+    published: '2026-11-21'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/CNIL--61-sanctions-anonymes--punir-plus-sans-nommer-e3sogc5
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129826629/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2Fe33b76b1-4f5c-a6aa-8e4d-b1ac9b0c779d.mp3
+    duration: 7
+  - title: 'Fugaku suspendu : redémarrer le calcul ou purger les clés ?'
+    published: '2026-11-21'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fugaku-suspendu--redmarrer-le-calcul-ou-purger-les-cls-e3sog72
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129826466/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2Fc625beda-ff7c-df23-aba6-25af7d7669da.mp3
+    duration: 8
+  - title: 'FrontierML et Opus 5.5 : meilleur agent ou meilleur budget ?'
+    published: '2026-11-21'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/FrontierML-et-Opus-5-5--meilleur-agent-ou-meilleur-budget-e3sog43
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129826371/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2F2b55abc6-2991-4a51-d2cc-7262200c1606.mp3
+    duration: 7
   - title: Shakespeare, l'angle mort des IA
     published: '2026-11-21'
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shakespeare--langle-mort-des-IA-e3q033d
@@ -2485,36 +2510,11 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Ronsard--langle-mort-des-IA-e3q031p
     audio: https://anchor.fm/s/11065f6ec/podcast/play/126929401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Ffdfd8c7e-4d13-23d0-45f2-053d4103a3e4.mp3
     duration: 21
-  - title: 'Responsabilité IA : l''avocat à l''amende, le cabinet non sanctionné'
-    published: '2026-11-19'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Responsabilit-IA--lavocat--lamende--le-cabinet-non-sanctionn-e3sk76a
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129686154/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fe23b91da-b53d-d8bd-2a8c-dbba06ec55c8.mp3
-    duration: 7
-  - title: 'Stanford et l''IA à l''école : gagner du temps ou vraiment apprendre ?'
-    published: '2026-11-19'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Stanford-et-lIA--lcole--gagner-du-temps-ou-vraiment-apprendre-e3sk74i
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129686098/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F64e89930-8cd7-dc60-24b2-8303e0cbb472.mp3
-    duration: 7
-  - title: 'Audit d''agents IA : quand le résumé détruit la preuve'
-    published: '2026-11-19'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Audit-dagents-IA--quand-le-rsum-dtruit-la-preuve-e3sk71h
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129686001/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2Fb3cb40bb-6cf3-67bc-78a8-e7d198eadf97.mp3
-    duration: 7
-  - title: 'Getty vs Stability : l''importation de modèles face au droit d''auteur'
-    published: '2026-11-19'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Getty-vs-Stability--limportation-de-modles-face-au-droit-dauteur-e3sk6v9
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129685929/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F321e964d-9f85-d912-831c-646157816061.mp3
-    duration: 7
-  - title: 'HUMAIN : pourquoi financer le réseau avant les GPU ?'
-    published: '2026-11-19'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/HUMAIN--pourquoi-financer-le-rseau-avant-les-GPU-e3si31m
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129616374/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F0f47ba5b-cf45-3616-aa7a-eaf5297b3243.mp3
-    duration: 7
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
   updated_at: '2026-11-21'
-  episode_count: 1220
+  episode_count: 1225
   average_duration: 7
   status: active
   community_rating: null
@@ -5074,12 +5074,17 @@ podcasts:
   image: https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj
   author: CyberPodcast
   description: CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet accessible look into the cybersecurity landscape.
-  last_episode: '2026-11-20'
-  last_episode_title: 'Why Deepfakes Work: Amygdala Hijack Explained'
-  last_episode_url: https://www.youtube.com/shorts/KD1S8aggYeU
+  last_episode: '2026-11-21'
+  last_episode_title: 'OWASP Top10 for LLM: Deepfake Preparedness'
+  last_episode_url: https://www.youtube.com/shorts/tAXBhBgKGH4
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: 'OWASP Top10 for LLM: Deepfake Preparedness'
+    published: '2026-11-21'
+    url: https://www.youtube.com/shorts/tAXBhBgKGH4
+    audio: null
+    duration: null
   - title: 'Why Deepfakes Work: Amygdala Hijack Explained'
     published: '2026-11-20'
     url: https://www.youtube.com/shorts/KD1S8aggYeU
@@ -5123,11 +5128,6 @@ podcasts:
   - title: 'Deepfake Job Interviews: How Cybercriminals Hack Remote Work'
     published: '2026-11-16'
     url: https://www.youtube.com/shorts/FP9C5BfXDqI
-    audio: null
-    duration: null
-  - title: 'OWASP Top10 for LLM: Deepfake Defense Guide | Paper Breakdown #1'
-    published: '2026-11-15'
-    url: https://www.youtube.com/shorts/pf2FkQ3ADNU
     audio: null
     duration: null
   frequency: daily

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-20T18:11:04.575543+00:00",
+  "generated_at": "2026-11-21T00:06:43.581574+00:00",
   "mode": "network",
-  "duration_seconds": 7.85,
+  "duration_seconds": 5.93,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129685849/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F2ad869e8-faa4-0db3-2e09-442a14f71c41.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129826544/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2F1ef34193-597a-aff8-d979-a10dda4e1453.mp3"
         }
       }
     },
@@ -1134,7 +1134,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://track.podcastics.com/7830/440382.mp3"
+          "url": "https://track.podcastics.com/7830/440481.mp3"
         }
       }
     },
@@ -1571,7 +1571,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/691/the-changelog-691.mp3"
+          "url": "https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/692/the-changelog-692.mp3"
         }
       }
     },

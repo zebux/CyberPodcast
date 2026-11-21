@@ -2455,11 +2455,41 @@ podcasts:
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
   last_episode: '2026-11-21'
-  last_episode_title: 'MAI Code 2 : le modèle à 5 % du prix peut-il déplacer la rente ?'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/MAI-Code-2--le-modle--5--du-prix-peut-il-dplacer-la-rente-e3spe05
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129856965/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F8ad5758c-833c-106e-9af4-e72afe6398ac.mp3
-  last_episode_duration: 7
+  last_episode_title: 'Workday et continuité SaaS : la garantie européenne tient-elle ?'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Workday-et-continuit-SaaS--la-garantie-europenne-tient-elle-e3sprbo
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129870648/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F1d87a1c0-6eb0-70c9-47a7-13f9271c8e40.mp3
+  last_episode_duration: 8
   episodes:
+  - title: 'Workday et continuité SaaS : la garantie européenne tient-elle ?'
+    published: '2026-11-21'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Workday-et-continuit-SaaS--la-garantie-europenne-tient-elle-e3sprbo
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129870648/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F1d87a1c0-6eb0-70c9-47a7-13f9271c8e40.mp3
+    duration: 8
+  - title: 'Santé mentale et chatbots : créer une passerelle de soins ?'
+    published: '2026-11-21'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Sant-mentale-et-chatbots--crer-une-passerelle-de-soins-e3spkuv
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129864095/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F3f33bc33-7e4a-5137-1e1d-796672b09b69.mp3
+    duration: 7
+  - title: 'Modèles chinois (Qwen) : le piège de l''affichage obligatoire ?'
+    published: '2026-11-21'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Modles-chinois-Qwen--le-pige-de-laffichage-obligatoire-e3spktj
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129864051/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fe3d2c23b-0a1d-90e1-d8a2-a620a6846221.mp3
+    duration: 7
+  - title: 'Claude Opus, Gemini : −50 points d’articles jugés acceptables'
+    published: '2026-11-21'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Claude-Opus--Gemini--50-points-darticles-jugs-acceptables-e3spkpa
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129863914/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fb3b87c4a-bc93-a303-4e87-a47c7be779bf.mp3
+    duration: 8
+  - title: 'Génome de modèle : pourquoi copier échoue à faire évoluer'
+    published: '2026-11-21'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Gnome-de-modle--pourquoi-copier-choue--faire-voluer-e3spkij
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129863699/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F21c0dc75-2582-7d41-85a0-b14d3468fa23.mp3
+    duration: 8
+  - title: 'Data centers en Oregon : payer son réseau ne suffit plus'
+    published: '2026-11-21'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Data-centers-en-Oregon--payer-son-rseau-ne-suffit-plus-e3spkh2
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129863650/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fc8a341dc-a691-4442-1cca-16ff8e926b90.mp3
+    duration: 7
   - title: 'MAI Code 2 : le modèle à 5 % du prix peut-il déplacer la rente ?'
     published: '2026-11-21'
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/MAI-Code-2--le-modle--5--du-prix-peut-il-dplacer-la-rente-e3spe05
@@ -2480,41 +2510,11 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fugaku-suspendu--redmarrer-le-calcul-ou-purger-les-cls-e3sog72
     audio: https://anchor.fm/s/11065f6ec/podcast/play/129826466/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2Fc625beda-ff7c-df23-aba6-25af7d7669da.mp3
     duration: 8
-  - title: 'FrontierML et Opus 5.5 : meilleur agent ou meilleur budget ?'
-    published: '2026-11-21'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/FrontierML-et-Opus-5-5--meilleur-agent-ou-meilleur-budget-e3sog43
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129826371/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2F2b55abc6-2991-4a51-d2cc-7262200c1606.mp3
-    duration: 7
-  - title: Shakespeare, l'angle mort des IA
-    published: '2026-11-21'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shakespeare--langle-mort-des-IA-e3q033d
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/126929453/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Fdabc3b6b-c536-5e0c-d939-bde0039c5fd6.mp3
-    duration: 24
-  - title: 'Java4Shell (CVE-2026-114938) : quand le CPU dicte la faille'
-    published: '2026-11-20'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Java4Shell-CVE-2026-114938--quand-le-CPU-dicte-la-faille-e3sog9g
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129826544/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2F1ef34193-597a-aff8-d979-a10dda4e1453.mp3
-    duration: 8
-  - title: 'IPO Anthropic : 97,6 % de capital neuf achètent-ils du temps ?'
-    published: '2026-11-20'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/IPO-Anthropic--97-6--de-capital-neuf-achtent-ils-du-temps-e3sog24
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129826308/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2Fc970c0ce-46ef-e5fd-34cd-eb9ee6bd1517.mp3
-    duration: 7
-  - title: 'Sycophantie des LLM : faut-il plaire ou dire vrai ?'
-    published: '2026-11-20'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Sycophantie-des-LLM--faut-il-plaire-ou-dire-vrai-e3sk6sp
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129685849/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-18%2F2ad869e8-faa4-0db3-2e09-442a14f71c41.mp3
-    duration: 8
-  - title: Ronsard, l'angle mort des IA
-    published: '2026-11-20'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Ronsard--langle-mort-des-IA-e3q031p
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/126929401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Ffdfd8c7e-4d13-23d0-45f2-053d4103a3e4.mp3
-    duration: 21
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
   updated_at: '2026-11-21'
-  episode_count: 1225
+  episode_count: 1231
   average_duration: 7
   status: active
   community_rating: null

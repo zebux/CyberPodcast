@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T00:06:43.678771+00:00",
+  "generated_at": "2026-11-21T07:33:33.199162+00:00",
   "site": "https://cyberpodcast.fr/",
   "count": 86,
   "podcasts": [
@@ -3117,12 +3117,19 @@
       "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg",
       "author": "Franck Dubray - Dragonfly",
       "description": "Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.",
-      "last_episode": "2026-11-20",
-      "last_episode_title": "Java4Shell (CVE-2026-114938) : quand le CPU dicte la faille",
-      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Java4Shell-CVE-2026-114938--quand-le-CPU-dicte-la-faille-e3sog9g",
-      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/129826544/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2F1ef34193-597a-aff8-d979-a10dda4e1453.mp3",
-      "last_episode_duration": 8,
+      "last_episode": "2026-11-21",
+      "last_episode_title": "Shakespeare, l'angle mort des IA",
+      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shakespeare--langle-mort-des-IA-e3q033d",
+      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/126929453/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Fdabc3b6b-c536-5e0c-d939-bde0039c5fd6.mp3",
+      "last_episode_duration": 24,
       "episodes": [
+        {
+          "title": "Shakespeare, l'angle mort des IA",
+          "published": "2026-11-21",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shakespeare--langle-mort-des-IA-e3q033d",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/126929453/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Fdabc3b6b-c536-5e0c-d939-bde0039c5fd6.mp3",
+          "duration": 24
+        },
         {
           "title": "Java4Shell (CVE-2026-114938) : quand le CPU dicte la faille",
           "published": "2026-11-20",
@@ -3185,20 +3192,13 @@
           "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/HUMAIN--pourquoi-financer-le-rseau-avant-les-GPU-e3si31m",
           "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129616374/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-17%2F0f47ba5b-cf45-3616-aa7a-eaf5297b3243.mp3",
           "duration": 7
-        },
-        {
-          "title": "Sade : L'angle mort des IA",
-          "published": "2026-11-19",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Sade--Langle-mort-des-IA-e3q02ve",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/126929326/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F63e5cb39-b9e5-16aa-9907-7e6f15dd5d3b.mp3",
-          "duration": 20
         }
       ],
       "frequency": "daily",
       "frequency_days": 1,
       "first_seen": "2026-11-16",
       "updated_at": "2026-11-21",
-      "episode_count": 1219,
+      "episode_count": 1220,
       "average_duration": 7,
       "status": "active",
       "community_rating": null,
@@ -7444,13 +7444,6 @@
           "duration": 62
         },
         {
-          "title": "#237.diff - Exotec: Une reine et une armée de robots avec Sophie Paquereau",
-          "published": "2026-11-09",
-          "url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/237-3130cbe7b951",
-          "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/9e7c0f1d-cfb3-4c63-81e3-3130cbe7b951.mp3?_=1794142829",
-          "duration": 65
-        },
-        {
           "title": "#383.src - Contexte Engineering: Dresser ses agents IA avec Florian Bruniaux",
           "published": "2026-11-04",
           "url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/383-5fb716849506",
@@ -7484,10 +7477,17 @@
           "url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/379-2117b12ab830",
           "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/a66ae0ae-9d90-450d-b3d6-2117b12ab830.mp3?_=1791288070",
           "duration": 78
+        },
+        {
+          "title": "#378.ad - Renforcer la donnée: La donnée, grande oubliée du multicloud avec Christophe Francois",
+          "published": "2026-09-30",
+          "url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/-378-faec7756bbd7",
+          "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/44d3561f-a515-4e23-9ca1-faec7756bbd7.mp3?_=1790683283",
+          "duration": 51
         }
       ],
       "frequency": "weekly",
-      "frequency_days": 5,
+      "frequency_days": 7,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-21",
       "episode_count": 765,
@@ -7802,12 +7802,19 @@
       "image": "https://static.audiomeans.fr/img/podcast/6babef68-0aa0-4a2a-879a-97ff3bd55131.jpg",
       "author": "Guillaume Vendé",
       "description": "Tech Café : votre veille sur les nouvelles technologies chaque semaine",
-      "last_episode": "2026-11-18",
-      "last_episode_title": "Nvidia sans Jensen Huang",
-      "last_episode_url": "https://techcafe.fr/nvidia-sans-jensen-huang/",
-      "last_episode_audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/442c1310-80af-4583-9c16-83cf1c15f192.mp3?_=1794956895",
+      "last_episode": "2026-11-21",
+      "last_episode_title": "L'IA étale sa science",
+      "last_episode_url": "https://techcafe.fr/lia-etale-sa-science/",
+      "last_episode_audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/95213e79-3ffa-45e6-8b29-2afeea0572f9.mp3?_=1795177971",
       "last_episode_duration": 85,
       "episodes": [
+        {
+          "title": "L'IA étale sa science",
+          "published": "2026-11-21",
+          "url": "https://techcafe.fr/lia-etale-sa-science/",
+          "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/95213e79-3ffa-45e6-8b29-2afeea0572f9.mp3?_=1795177971",
+          "duration": 85
+        },
         {
           "title": "Nvidia sans Jensen Huang",
           "published": "2026-11-18",
@@ -7870,20 +7877,13 @@
           "url": "https://podcasts.audiomeans.fr/les-merveilleuses-tribus-du-net-1a736cfc/1-les-fans-de-chats-partie-1-1ef734ec",
           "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/b184577d-2972-45f4-bb90-22427012d9cc.mp3?_=1792165859",
           "duration": 40
-        },
-        {
-          "title": "La Chose-robot : une main autonome flippante",
-          "published": "2026-10-17",
-          "url": "https://techcafe.fr/la-chose-robot-une-main-autonome-flippante/",
-          "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/e6fb05f0-e25a-4e4c-bba5-48412be5ef6b.mp3?_=1792077985",
-          "duration": 76
         }
       ],
       "frequency": "weekly",
       "frequency_days": 3,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-21",
-      "episode_count": 560,
+      "episode_count": 561,
       "average_duration": 86,
       "status": "active",
       "community_rating": 4.6,
@@ -10116,7 +10116,6 @@
         "YouTube"
       ],
       "topics": [
-        "IA",
         "LLM"
       ],
       "tags": [
@@ -10234,7 +10233,7 @@
       "average_duration": 57,
       "status": "active",
       "community_rating": 4.7,
-      "community_rating_count": 427,
+      "community_rating_count": 428,
       "platform": "Megaphone",
       "hosting_platform": "Megaphone",
       "listening_platforms": [

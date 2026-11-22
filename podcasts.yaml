@@ -2454,12 +2454,27 @@ podcasts:
   image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
-  last_episode: '2026-11-21'
-  last_episode_title: 'Workday et continuité SaaS : la garantie européenne tient-elle ?'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Workday-et-continuit-SaaS--la-garantie-europenne-tient-elle-e3sprbo
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129870648/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F1d87a1c0-6eb0-70c9-47a7-13f9271c8e40.mp3
-  last_episode_duration: 8
+  last_episode: '2026-11-22'
+  last_episode_title: 'Portland veut geler ses achats d’IA : prudence ou rente ?'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Portland-veut-geler-ses-achats-dIA--prudence-ou-rente-e3spl1r
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129864187/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F9825f54d-3220-0247-2af4-e89b923ef478.mp3
+  last_episode_duration: 7
   episodes:
+  - title: 'Portland veut geler ses achats d’IA : prudence ou rente ?'
+    published: '2026-11-22'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Portland-veut-geler-ses-achats-dIA--prudence-ou-rente-e3spl1r
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129864187/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F9825f54d-3220-0247-2af4-e89b923ef478.mp3
+    duration: 7
+  - title: 'OpenAI et Le Figaro : le piège des accords solo pour la presse ?'
+    published: '2026-11-22'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenAI-et-Le-Figaro--le-pige-des-accords-solo-pour-la-presse-e3spkra
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129863978/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Feadb2f4a-3643-ce31-51fc-e570e43849a0.mp3
+    duration: 7
+  - title: Racine, l'angle mort des IA
+    published: '2026-11-22'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Racine--langle-mort-des-IA-e3q035v
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/126929535/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F217a0eec-c1a5-dbe8-515f-347c529bce9e.mp3
+    duration: 22
   - title: 'Workday et continuité SaaS : la garantie européenne tient-elle ?'
     published: '2026-11-21'
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Workday-et-continuit-SaaS--la-garantie-europenne-tient-elle-e3sprbo
@@ -2495,26 +2510,11 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/MAI-Code-2--le-modle--5--du-prix-peut-il-dplacer-la-rente-e3spe05
     audio: https://anchor.fm/s/11065f6ec/podcast/play/129856965/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F8ad5758c-833c-106e-9af4-e72afe6398ac.mp3
     duration: 7
-  - title: 'OpenAI : que cachent les 5,7 journées d’agents par chercheur ?'
-    published: '2026-11-21'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenAI--que-cachent-les-5-7-journes-dagents-par-chercheur-e3sogfb
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129826731/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2F4c29b1f6-5644-3a4f-3428-a226b31f4ce0.mp3
-    duration: 7
-  - title: 'CNIL : 61 sanctions anonymes, punir plus sans nommer ?'
-    published: '2026-11-21'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/CNIL--61-sanctions-anonymes--punir-plus-sans-nommer-e3sogc5
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129826629/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2Fe33b76b1-4f5c-a6aa-8e4d-b1ac9b0c779d.mp3
-    duration: 7
-  - title: 'Fugaku suspendu : redémarrer le calcul ou purger les clés ?'
-    published: '2026-11-21'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fugaku-suspendu--redmarrer-le-calcul-ou-purger-les-cls-e3sog72
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129826466/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-20%2Fc625beda-ff7c-df23-aba6-25af7d7669da.mp3
-    duration: 8
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
   updated_at: '2026-11-22'
-  episode_count: 1231
+  episode_count: 1234
   average_duration: 7
   status: active
   community_rating: null
@@ -4593,7 +4593,7 @@ podcasts:
   rss: https://polysecure.ca/general_feed.xml
   youtube: https://www.youtube.com/@polysecurepodcast
   spotify: https://open.spotify.com/show/2Aal9u7zflmLOEpzhJ5uvu
-  apple_podcast: https://podcasts.apple.com/ca/podcast/polysecure-podcast/id1561084634
+  apple_podcast: https://podcasts.apple.com/fr/podcast/polys%C3%A9cure-podcast/id1561084634?uo=4
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/piz8zozv
@@ -7770,7 +7770,7 @@ podcasts:
   rss: https://changelog.com/practicalai/feed
   youtube: https://www.youtube.com/@practicalai_show
   spotify: https://open.spotify.com/show/1LaCr5TFAgYPK5qHjP3XDp
-  apple_podcast: https://podcasts.apple.com/us/podcast/practical-ai-machine-learning-data-science-llm/id1406537385?uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/practical-ai/id1406537385?uo=4
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/itunes/1406537385
@@ -7958,7 +7958,6 @@ podcasts:
   - Spotify
   - YouTube
   topics:
-  - IA
   - LLM
   tags:
   - LLM

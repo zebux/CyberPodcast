@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T08:32:18.190392+00:00",
+  "generated_at": "2026-11-22T16:35:16.829417+00:00",
   "mode": "network",
-  "duration_seconds": 13.34,
+  "duration_seconds": 7.91,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -191,7 +191,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://www.buzzsprout.com/3195/episodes/20124283-build-the-machine-that-builds-the-machine-with-adam-jacob.mp3"
+          "url": "https://www.buzzsprout.com/3195/episodes/20162653-after-the-anthropic-ipo-doing-the-math-on-ai-s-growth-bet.mp3"
         }
       }
     },
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129864187/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F9825f54d-3220-0247-2af4-e89b923ef478.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129902691/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fd30a43a3-cb4b-548f-0bf0-6f412417af4b.mp3"
         }
       }
     },

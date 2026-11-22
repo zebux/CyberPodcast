@@ -699,12 +699,17 @@ podcasts:
   image: https://storage.buzzsprout.com/qy0q4u4tgdaume7dfehgpznhwhn0?.jpg
   author: Massive Studios
   description: The Enterprise AI Show explores the AI journey for Enterprise companies around the world. [formerly The Cloudcast] As the AI revolution moves from experimentation to execution, The Enterprise AI Show…
-  last_episode: '2026-11-18'
-  last_episode_title: Build the Machine That Builds the Machine with Adam Jacob
+  last_episode: '2026-11-22'
+  last_episode_title: 'After the Anthropic IPO: Doing the Math on AI''s Growth Bet'
   last_episode_url: null
-  last_episode_audio: https://www.buzzsprout.com/3195/episodes/20124283-build-the-machine-that-builds-the-machine-with-adam-jacob.mp3
-  last_episode_duration: 50
+  last_episode_audio: https://www.buzzsprout.com/3195/episodes/20162653-after-the-anthropic-ipo-doing-the-math-on-ai-s-growth-bet.mp3
+  last_episode_duration: 32
   episodes:
+  - title: 'After the Anthropic IPO: Doing the Math on AI''s Growth Bet'
+    published: '2026-11-22'
+    url: null
+    audio: https://www.buzzsprout.com/3195/episodes/20162653-after-the-anthropic-ipo-doing-the-math-on-ai-s-growth-bet.mp3
+    duration: 32
   - title: Build the Machine That Builds the Machine with Adam Jacob
     published: '2026-11-18'
     url: null
@@ -750,17 +755,12 @@ podcasts:
     url: null
     audio: https://www.buzzsprout.com/3195/episodes/19994499-never-do-the-same-work-twice-rethinking-ci-for-the-agent-era-with-dan-manges.mp3
     duration: 41
-  - title: AI News - Mid-October 2026
-    published: '2026-10-18'
-    url: null
-    audio: https://www.buzzsprout.com/3195/episodes/19980899-ai-news-mid-october-2026.mp3
-    duration: 36
   frequency: weekly
-  frequency_days: 3
+  frequency_days: 4
   first_seen: '2026-11-09'
   updated_at: '2026-11-22'
-  episode_count: 1116
-  average_duration: 40
+  episode_count: 1117
+  average_duration: 38
   status: active
   community_rating: 4.6
   community_rating_count: 151
@@ -2455,66 +2455,66 @@ podcasts:
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
   last_episode: '2026-11-22'
-  last_episode_title: 'Portland veut geler ses achats d’IA : prudence ou rente ?'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Portland-veut-geler-ses-achats-dIA--prudence-ou-rente-e3spl1r
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129864187/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F9825f54d-3220-0247-2af4-e89b923ef478.mp3
+  last_episode_title: 'LLM et raisonnement : quand une réponse juste cache les autres'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LLM-et-raisonnement--quand-une-rponse-juste-cache-les-autres-e3sqql3
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129902691/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fd30a43a3-cb4b-548f-0bf0-6f412417af4b.mp3
   last_episode_duration: 7
   episodes:
+  - title: 'LLM et raisonnement : quand une réponse juste cache les autres'
+    published: '2026-11-22'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LLM-et-raisonnement--quand-une-rponse-juste-cache-les-autres-e3sqql3
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129902691/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fd30a43a3-cb4b-548f-0bf0-6f412417af4b.mp3
+    duration: 7
+  - title: 'OpenAI, Synopsys, AMD : qui capte la valeur des puces IA ?'
+    published: '2026-11-22'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenAI--Synopsys--AMD--qui-capte-la-valeur-des-puces-IA-e3spo0d
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129867213/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fa94c76d6-ecf7-800d-4e48-f8eae96fccbb.mp3
+    duration: 7
+  - title: 'Anthropic et failles critiques : le piège du délai de 30 jours'
+    published: '2026-11-22'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Anthropic-et-failles-critiques--le-pige-du-dlai-de-30-jours-e3sqo7r
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129900219/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fe09e0c91-aee4-41f6-f1d2-03423cf5becd.mp3
+    duration: 7
+  - title: 'VMware vCenter & Golden SAML : faut-il aller au-delà du patch ?'
+    published: '2026-11-22'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/VMware-vCenter--Golden-SAML--faut-il-aller-au-del-du-patch-e3sqo41
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129900097/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F1d2c211e-9867-86b3-17d2-a49c3751936f.mp3
+    duration: 7
+  - title: 'Assurance IA : vos contrats couvrent-ils vraiment vos pannes ?'
+    published: '2026-11-22'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Assurance-IA--vos-contrats-couvrent-ils-vraiment-vos-pannes-e3spnv5
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129867173/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fa3fbfd2d-c849-1fd2-52eb-7ffeb8f6337f.mp3
+    duration: 8
+  - title: 'Modèles ouverts : qui paiera le prochain entraînement ?'
+    published: '2026-11-22'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Modles-ouverts--qui-paiera-le-prochain-entranement-e3sple4
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129864580/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fbdd4838c-01df-9a66-77a6-82be14530162.mp3
+    duration: 7
+  - title: 'PyPI Agent Framework : secrets exposés avant le 1er import'
+    published: '2026-11-22'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/PyPI-Agent-Framework--secrets-exposs-avant-le-1er-import-e3splcd
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129864525/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F3d669a5e-8d79-d060-13cc-c43453d82f7a.mp3
+    duration: 7
+  - title: 'Modèles du monde et LeCun : le piège du scénario contrefactuel'
+    published: '2026-11-22'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Modles-du-monde-et-LeCun--le-pige-du-scnario-contrefactuel-e3sq0r7
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129876263/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Ff805da33-5593-a24f-4d0f-9afd4a733d67.mp3
+    duration: 7
+  - title: 'Google vs OpenAI : pourquoi la recherche paye moins par requête'
+    published: '2026-11-22'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Google-vs-OpenAI--pourquoi-la-recherche-paye-moins-par-requte-e3spl3a
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129864234/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F04c58223-c820-6f14-9fa5-14e6c737b49c.mp3
+    duration: 7
   - title: 'Portland veut geler ses achats d’IA : prudence ou rente ?'
     published: '2026-11-22'
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Portland-veut-geler-ses-achats-dIA--prudence-ou-rente-e3spl1r
     audio: https://anchor.fm/s/11065f6ec/podcast/play/129864187/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F9825f54d-3220-0247-2af4-e89b923ef478.mp3
     duration: 7
-  - title: 'OpenAI et Le Figaro : le piège des accords solo pour la presse ?'
-    published: '2026-11-22'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenAI-et-Le-Figaro--le-pige-des-accords-solo-pour-la-presse-e3spkra
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129863978/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Feadb2f4a-3643-ce31-51fc-e570e43849a0.mp3
-    duration: 7
-  - title: Racine, l'angle mort des IA
-    published: '2026-11-22'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Racine--langle-mort-des-IA-e3q035v
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/126929535/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F217a0eec-c1a5-dbe8-515f-347c529bce9e.mp3
-    duration: 22
-  - title: 'Workday et continuité SaaS : la garantie européenne tient-elle ?'
-    published: '2026-11-21'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Workday-et-continuit-SaaS--la-garantie-europenne-tient-elle-e3sprbo
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129870648/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F1d87a1c0-6eb0-70c9-47a7-13f9271c8e40.mp3
-    duration: 8
-  - title: 'Santé mentale et chatbots : créer une passerelle de soins ?'
-    published: '2026-11-21'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Sant-mentale-et-chatbots--crer-une-passerelle-de-soins-e3spkuv
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129864095/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F3f33bc33-7e4a-5137-1e1d-796672b09b69.mp3
-    duration: 7
-  - title: 'Modèles chinois (Qwen) : le piège de l''affichage obligatoire ?'
-    published: '2026-11-21'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Modles-chinois-Qwen--le-pige-de-laffichage-obligatoire-e3spktj
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129864051/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fe3d2c23b-0a1d-90e1-d8a2-a620a6846221.mp3
-    duration: 7
-  - title: 'Claude Opus, Gemini : −50 points d’articles jugés acceptables'
-    published: '2026-11-21'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Claude-Opus--Gemini--50-points-darticles-jugs-acceptables-e3spkpa
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129863914/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fb3b87c4a-bc93-a303-4e87-a47c7be779bf.mp3
-    duration: 8
-  - title: 'Génome de modèle : pourquoi copier échoue à faire évoluer'
-    published: '2026-11-21'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Gnome-de-modle--pourquoi-copier-choue--faire-voluer-e3spkij
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129863699/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F21c0dc75-2582-7d41-85a0-b14d3468fa23.mp3
-    duration: 8
-  - title: 'Data centers en Oregon : payer son réseau ne suffit plus'
-    published: '2026-11-21'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Data-centers-en-Oregon--payer-son-rseau-ne-suffit-plus-e3spkh2
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129863650/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fc8a341dc-a691-4442-1cca-16ff8e926b90.mp3
-    duration: 7
-  - title: 'MAI Code 2 : le modèle à 5 % du prix peut-il déplacer la rente ?'
-    published: '2026-11-21'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/MAI-Code-2--le-modle--5--du-prix-peut-il-dplacer-la-rente-e3spe05
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129856965/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F8ad5758c-833c-106e-9af4-e72afe6398ac.mp3
-    duration: 7
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
   updated_at: '2026-11-22'
-  episode_count: 1234
+  episode_count: 1244
   average_duration: 7
   status: active
   community_rating: null
@@ -5074,12 +5074,17 @@ podcasts:
   image: https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj
   author: CyberPodcast
   description: CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet accessible look into the cybersecurity landscape.
-  last_episode: '2026-11-21'
-  last_episode_title: 'OWASP Top10 for LLM: Deepfake Preparedness'
-  last_episode_url: https://www.youtube.com/shorts/tAXBhBgKGH4
+  last_episode: '2026-11-22'
+  last_episode_title: Agentic AI Risks Evolve from Hypothetical to Real Threats
+  last_episode_url: https://www.youtube.com/shorts/ywzVYW5PWmc
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: Agentic AI Risks Evolve from Hypothetical to Real Threats
+    published: '2026-11-22'
+    url: https://www.youtube.com/shorts/ywzVYW5PWmc
+    audio: null
+    duration: null
   - title: 'OWASP Top10 for LLM: Deepfake Preparedness'
     published: '2026-11-21'
     url: https://www.youtube.com/shorts/tAXBhBgKGH4
@@ -5123,11 +5128,6 @@ podcasts:
   - title: 'OWASP GenAI COMPASS Playbook | Paper Breakdown #13 | OWASP AI Security | CyberPodcast'
     published: '2026-11-16'
     url: https://www.youtube.com/watch?v=7MlHoZgxWGY
-    audio: null
-    duration: null
-  - title: 'Deepfake Job Interviews: How Cybercriminals Hack Remote Work'
-    published: '2026-11-16'
-    url: https://www.youtube.com/shorts/FP9C5BfXDqI
     audio: null
     duration: null
   frequency: daily
@@ -7370,7 +7370,7 @@ podcasts:
   rss: https://javascriptjabber.com/feed
   youtube: https://www.youtube.com/playlist?list=PLJesql-aSfX4bg83Xuq_0QZs6MLSyklkq
   spotify: https://open.spotify.com/show/6xpiit8aJmwDHk1rKdxmri
-  apple_podcast: https://podcasts.apple.com/us/podcast/javascript-jabber/id496893300?uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/javascript-jabber/id1237401284?uo=4
   linkedin: null
   deezer: null
   pocket_casts: null
@@ -7443,8 +7443,8 @@ podcasts:
   episode_count: 738
   average_duration: 69
   status: slow
-  community_rating: 4.4
-  community_rating_count: 233
+  community_rating: 3.6
+  community_rating_count: 65
   platform: autre
   hosting_platform: null
   listening_platforms:
@@ -7958,6 +7958,7 @@ podcasts:
   - Spotify
   - YouTube
   topics:
+  - IA
   - LLM
   tags:
   - LLM

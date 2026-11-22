@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T16:35:16.920328+00:00",
+  "generated_at": "2026-11-22T22:17:44.175800+00:00",
   "site": "https://cyberpodcast.fr/",
   "count": 86,
   "podcasts": [
@@ -3118,11 +3118,46 @@
       "author": "Franck Dubray - Dragonfly",
       "description": "Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.",
       "last_episode": "2026-11-22",
-      "last_episode_title": "LLM et raisonnement : quand une réponse juste cache les autres",
-      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LLM-et-raisonnement--quand-une-rponse-juste-cache-les-autres-e3sqql3",
-      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/129902691/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fd30a43a3-cb4b-548f-0bf0-6f412417af4b.mp3",
+      "last_episode_title": "Recherche empirique : 1 755 analyses d'agents contre le chiffre unique",
+      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Recherche-empirique--1-755-analyses-dagents-contre-le-chiffre-unique-e3sqp0r",
+      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/129901019/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F8494af9d-a14d-f5fa-5827-e3e81a1fc13e.mp3",
       "last_episode_duration": 7,
       "episodes": [
+        {
+          "title": "Recherche empirique : 1 755 analyses d'agents contre le chiffre unique",
+          "published": "2026-11-22",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Recherche-empirique--1-755-analyses-dagents-contre-le-chiffre-unique-e3sqp0r",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129901019/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F8494af9d-a14d-f5fa-5827-e3e81a1fc13e.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Agents IA et génération longue : le piège caché du sampling",
+          "published": "2026-11-22",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Agents-IA-et-gnration-longue--le-pige-cach-du-sampling-e3spo93",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129867491/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F60dbf5a9-0e88-0c02-1730-39e28174e226.mp3",
+          "duration": 7
+        },
+        {
+          "title": "OpenRouter : que mesurent vraiment les parts de tokens ?",
+          "published": "2026-11-22",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenRouter--que-mesurent-vraiment-les-parts-de-tokens-e3spo7c",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129867436/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Ff2981c87-7ca3-d289-1cf5-4d8e8b0a670d.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Fournisseurs critiques : auditer le verrouillage ou subir ?",
+          "published": "2026-11-22",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fournisseurs-critiques--auditer-le-verrouillage-ou-subir-e3spo2c",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129867276/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F1ef15e36-d174-23ea-ae6f-7ea12e4b1052.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Cloud souverain : que valent vraiment les 54 milliards d'euros ?",
+          "published": "2026-11-22",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Cloud-souverain--que-valent-vraiment-les-54-milliards-deuros-e3sqqo2",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129902786/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F210bafef-4917-d5f3-9822-bee0715fd9ef.mp3",
+          "duration": 7
+        },
         {
           "title": "LLM et raisonnement : quand une réponse juste cache les autres",
           "published": "2026-11-22",
@@ -3157,48 +3192,13 @@
           "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Assurance-IA--vos-contrats-couvrent-ils-vraiment-vos-pannes-e3spnv5",
           "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129867173/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fa3fbfd2d-c849-1fd2-52eb-7ffeb8f6337f.mp3",
           "duration": 8
-        },
-        {
-          "title": "Modèles ouverts : qui paiera le prochain entraînement ?",
-          "published": "2026-11-22",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Modles-ouverts--qui-paiera-le-prochain-entranement-e3sple4",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129864580/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fbdd4838c-01df-9a66-77a6-82be14530162.mp3",
-          "duration": 7
-        },
-        {
-          "title": "PyPI Agent Framework : secrets exposés avant le 1er import",
-          "published": "2026-11-22",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/PyPI-Agent-Framework--secrets-exposs-avant-le-1er-import-e3splcd",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129864525/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F3d669a5e-8d79-d060-13cc-c43453d82f7a.mp3",
-          "duration": 7
-        },
-        {
-          "title": "Modèles du monde et LeCun : le piège du scénario contrefactuel",
-          "published": "2026-11-22",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Modles-du-monde-et-LeCun--le-pige-du-scnario-contrefactuel-e3sq0r7",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129876263/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Ff805da33-5593-a24f-4d0f-9afd4a733d67.mp3",
-          "duration": 7
-        },
-        {
-          "title": "Google vs OpenAI : pourquoi la recherche paye moins par requête",
-          "published": "2026-11-22",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Google-vs-OpenAI--pourquoi-la-recherche-paye-moins-par-requte-e3spl3a",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129864234/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F04c58223-c820-6f14-9fa5-14e6c737b49c.mp3",
-          "duration": 7
-        },
-        {
-          "title": "Portland veut geler ses achats d’IA : prudence ou rente ?",
-          "published": "2026-11-22",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Portland-veut-geler-ses-achats-dIA--prudence-ou-rente-e3spl1r",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129864187/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F9825f54d-3220-0247-2af4-e89b923ef478.mp3",
-          "duration": 7
         }
       ],
       "frequency": "daily",
       "frequency_days": 1,
       "first_seen": "2026-11-16",
       "updated_at": "2026-11-22",
-      "episode_count": 1244,
+      "episode_count": 1248,
       "average_duration": 7,
       "status": "active",
       "community_rating": null,
@@ -6117,12 +6117,19 @@
       "image": "https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png",
       "author": "Marc Frédéric GOMEZ",
       "description": "Podcast consacré aux CSIRT, à la réponse à incident et à la cybersécurité opérationnelle.",
-      "last_episode": "2026-11-20",
-      "last_episode_title": "Ep.806 - KEV de la CISA, NSA - Flash info du vendredi 20 novembre 2026",
-      "last_episode_url": "https://www.radiocsirt.org/podcast/ep-806-kev-de-la-cisa-nsa-flash-info-du-vendredi-20-novembre-2026/",
-      "last_episode_audio": "https://track.podcastics.com/7830/440481.mp3",
-      "last_episode_duration": 9,
+      "last_episode": "2026-11-21",
+      "last_episode_title": "Ep.807 - Microsoft Entra Connect Health, F5 BIG-IP - Flash info du samedi 21 novembre 2026",
+      "last_episode_url": "https://www.radiocsirt.org/podcast/ep-807-microsoft-entra-connect-health-f5-big-ip-flash-info-du-samedi-21-novembre-2026/",
+      "last_episode_audio": "https://track.podcastics.com/7830/440690.mp3",
+      "last_episode_duration": 12,
       "episodes": [
+        {
+          "title": "Ep.807 - Microsoft Entra Connect Health, F5 BIG-IP - Flash info du samedi 21 novembre 2026",
+          "published": "2026-11-21",
+          "url": "https://www.radiocsirt.org/podcast/ep-807-microsoft-entra-connect-health-f5-big-ip-flash-info-du-samedi-21-novembre-2026/",
+          "audio": "https://track.podcastics.com/7830/440690.mp3",
+          "duration": 12
+        },
         {
           "title": "Ep.806 - KEV de la CISA, NSA - Flash info du vendredi 20 novembre 2026",
           "published": "2026-11-20",
@@ -6185,21 +6192,14 @@
           "url": "https://www.radiocsirt.org/podcast/ep-798-openssh-freeswitch-anssi-flash-info-du-jeudi-12-novembre-2026/",
           "audio": "https://track.podcastics.com/7830/439498.mp3",
           "duration": 12
-        },
-        {
-          "title": "Ep.797 - Barracuda ESG, N-able N-central - Flash info du mercredi 11 novembre 2026",
-          "published": "2026-11-11",
-          "url": "https://www.radiocsirt.org/podcast/ep-797-barracuda-esg-n-able-n-central-flash-info-du-mercredi-11-novembre-2026/",
-          "audio": "https://track.podcastics.com/7830/439335.mp3",
-          "duration": 11
         }
       ],
       "frequency": "daily",
       "frequency_days": 1,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-22",
-      "episode_count": 810,
-      "average_duration": 14,
+      "episode_count": 811,
+      "average_duration": 13,
       "status": "active",
       "community_rating": 4.9,
       "community_rating_count": 62,
@@ -10116,7 +10116,6 @@
         "YouTube"
       ],
       "topics": [
-        "IA",
         "LLM"
       ],
       "tags": [

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-21T21:22:55.163465+00:00",
+  "generated_at": "2026-11-22T01:29:59.367501+00:00",
   "mode": "network",
-  "duration_seconds": 8.85,
+  "duration_seconds": 16.09,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -1088,7 +1088,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://polysecure.ca/episodes/PolySecure-0x366.m4a"
+          "url": "https://polysecure.ca/episodes/PolySecure-0x369.m4a"
         }
       }
     },

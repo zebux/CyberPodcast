@@ -2147,12 +2147,17 @@ podcasts:
   image: http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg
   author: Late Night Linux
   description: Podcast britannique d'actualité Linux, open source et administration système.
-  last_episode: '2026-11-20'
-  last_episode_title: Linux After Dark – Episode 135
-  last_episode_url: https://latenightlinux.com/linux-after-dark-episode-135/
+  last_episode: '2026-11-23'
+  last_episode_title: Late Night Linux – Episode 413
+  last_episode_url: https://latenightlinux.com/late-night-linux-episode-413/
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: Late Night Linux – Episode 413
+    published: '2026-11-23'
+    url: https://latenightlinux.com/late-night-linux-episode-413/
+    audio: null
+    duration: null
   - title: Linux After Dark – Episode 135
     published: '2026-11-20'
     url: https://latenightlinux.com/linux-after-dark-episode-135/
@@ -2198,16 +2203,11 @@ podcasts:
     url: https://latenightlinux.com/linux-after-dark-episode-134/
     audio: null
     duration: null
-  - title: '2.5 Admins 324: Less Canadian'
-    published: '2026-11-05'
-    url: https://latenightlinux.com/2-5-admins-324/
-    audio: null
-    duration: null
   frequency: daily
   frequency_days: 2
   first_seen: '2026-11-09'
   updated_at: '2026-11-23'
-  episode_count: 1061
+  episode_count: 1062
   average_duration: null
   status: active
   community_rating: 4.6
@@ -2455,66 +2455,66 @@ podcasts:
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
   last_episode: '2026-11-23'
-  last_episode_title: 'Scale AI & Sandbagging : le piège des 2 % de faux positifs'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Scale-AI--Sandbagging--le-pige-des-2--de-faux-positifs-e3sq0up
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129876377/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Ff2261d41-2a1f-e229-ea8f-d63464a3516c.mp3
+  last_episode_title: 'Sarvam AI : peut-on être souverain avec des modèles chinois ?'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Sarvam-AI--peut-on-tre-souverain-avec-des-modles-chinois-e3st002
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129973698/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F31ec2a82-2e59-aad5-c513-52bce983d2b2.mp3
   last_episode_duration: 7
   episodes:
-  - title: 'Scale AI & Sandbagging : le piège des 2 % de faux positifs'
+  - title: 'Sarvam AI : peut-on être souverain avec des modèles chinois ?'
     published: '2026-11-23'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Scale-AI--Sandbagging--le-pige-des-2--de-faux-positifs-e3sq0up
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129876377/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Ff2261d41-2a1f-e229-ea8f-d63464a3516c.mp3
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Sarvam-AI--peut-on-tre-souverain-avec-des-modles-chinois-e3st002
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129973698/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F31ec2a82-2e59-aad5-c513-52bce983d2b2.mp3
     duration: 7
-  - title: 'GPT-4o mini à l''hôpital : faut-il signer les sorties par IA ?'
+  - title: 'Agents IA : pourquoi un simple numéro débloque leur débit'
     published: '2026-11-23'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/GPT-4o-mini--lhpital--faut-il-signer-les-sorties-par-IA-e3sr3qf
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129912079/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fbbbdafff-92a1-a506-6eb4-a5dad4eb54b3.mp3
-    duration: 8
-  - title: 'Incidents IA : les grands clients réclament leur droit d''alerte'
-    published: '2026-11-23'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Incidents-IA--les-grands-clients-rclament-leur-droit-dalerte-e3sq0t7
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129876327/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F07e52e1b-07d4-062a-0695-de82b3c6edba.mp3
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Agents-IA--pourquoi-un-simple-numro-dbloque-leur-dbit-e3ssr6a
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129968778/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F76a8ea97-8751-a923-ae2c-335e7cff2f23.mp3
     duration: 7
-  - title: 'Qwen3.5 réécrit ses poids : faut-il figer les modèles ?'
+  - title: 'Assurance et fraude : quand la photo du sinistre ne suffit plus'
     published: '2026-11-23'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Qwen3-5-rcrit-ses-poids--faut-il-figer-les-modles-e3sqs3f
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129904175/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F8a4f24e7-5c0d-196b-ecb8-d3da33e7ea77.mp3
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Assurance-et-fraude--quand-la-photo-du-sinistre-ne-suffit-plus-e3ssr3s
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129968700/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fdf52b051-e857-c5ea-90e7-04d72c281114.mp3
     duration: 7
-  - title: 'xAI vs Californie : faut-il révéler la recette des données ?'
+  - title: 'Reuters : faut-il partager les revenus IA avec les salariés ?'
     published: '2026-11-23'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/xAI-vs-Californie--faut-il-rvler-la-recette-des-donnes-e3sppns
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129868988/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fbd25c491-f740-3c75-38f2-f34dbb0439f8.mp3
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Reuters--faut-il-partager-les-revenus-IA-avec-les-salaris-e3ssdgv
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129954783/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fe079d771-a2c5-09ac-6752-37e4b59e6438.mp3
     duration: 7
-  - title: 'Intel 4004 : pourquoi Busicom a cédé les droits du microprocesseur'
+  - title: 'ARC-AGI-2 : pourquoi le code vérifiable coûte 20 points'
     published: '2026-11-23'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Intel-4004--pourquoi-Busicom-a-cd-les-droits-du-microprocesseur-e3sqp3h
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129901105/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F0373f63e-e277-c074-a8a3-2d09989b45dd.mp3
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/ARC-AGI-2--pourquoi-le-code-vrifiable-cote-20-points-e3sqqif
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129902607/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F275d7289-6ea7-f592-646e-a3c27e2c94cc.mp3
     duration: 7
-  - title: 'Claude Code et Git : le piège des configs exécutables'
+  - title: 'Fret routier et agents vocaux : l''équation des 35 secondes'
     published: '2026-11-23'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Claude-Code-et-Git--le-pige-des-configs-excutables-e3sr3mv
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129911967/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fe92f5088-3dba-4324-3a4c-e7fbbcec9238.mp3
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fret-routier-et-agents-vocaux--lquation-des-35-secondes-e3sq132
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129876514/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F45b8545f-6443-25b4-7eea-3624fb553c84.mp3
     duration: 7
-  - title: Apollinaire, l'angle mort des IA
+  - title: 'Minitel rose, Web adulte : qui a bâti l''économie des plateformes ?'
     published: '2026-11-23'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Apollinaire--langle-mort-des-IA-e3q03jo
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/126929976/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F336f3a4f-2f20-b88b-f9d0-fdafba84db2f.mp3
-    duration: 21
-  - title: 'Recherche empirique : 1 755 analyses d''agents contre le chiffre unique'
-    published: '2026-11-22'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Recherche-empirique--1-755-analyses-dagents-contre-le-chiffre-unique-e3sqp0r
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129901019/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F8494af9d-a14d-f5fa-5827-e3e81a1fc13e.mp3
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Minitel-rose--Web-adulte--qui-a-bti-lconomie-des-plateformes-e3ssdeo
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129954712/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fe5fbc441-62f2-8476-36a1-f9420508b8b6.mp3
     duration: 7
-  - title: 'Agents IA et génération longue : le piège caché du sampling'
-    published: '2026-11-22'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Agents-IA-et-gnration-longue--le-pige-cach-du-sampling-e3spo93
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129867491/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F60dbf5a9-0e88-0c02-1730-39e28174e226.mp3
+  - title: 'LLM-as-a-Judge : pourquoi remplacer le juge par du code piège le tri'
+    published: '2026-11-23'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LLM-as-a-Judge--pourquoi-remplacer-le-juge-par-du-code-pige-le-tri-e3ssdch
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129954641/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fee7808bf-89c3-0a35-3cbc-d19b03681221.mp3
+    duration: 7
+  - title: 'John Deere rachète Orchard : qui contrôle la donnée du verger ?'
+    published: '2026-11-23'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/John-Deere-rachte-Orchard--qui-contrle-la-donne-du-verger-e3sq11t
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129876477/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F6ae0b53e-569b-4d21-eaba-a22572e03847.mp3
+    duration: 7
+  - title: 'Microsoft MAI : maître de ses adaptations, locataire d’Azure ?'
+    published: '2026-11-23'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Microsoft-MAI--matre-de-ses-adaptations--locataire-dAzure-e3sq10n
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129876439/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fa197d76c-8ae3-4286-170e-b39946de8bfe.mp3
     duration: 7
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
   updated_at: '2026-11-23'
-  episode_count: 1256
+  episode_count: 1268
   average_duration: 7
   status: active
   community_rating: null
@@ -4813,12 +4813,17 @@ podcasts:
   image: https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png
   author: Marc Frédéric GOMEZ
   description: Podcast consacré aux CSIRT, à la réponse à incident et à la cybersécurité opérationnelle.
-  last_episode: '2026-11-22'
-  last_episode_title: 'Ep.807 - Fraudes et IA : deepfakes, KYC, LLMjacking - Épisode spécial du dimanche 22 novembre 2026'
-  last_episode_url: https://www.radiocsirt.org/podcast/ep-807-fraudes-et-ia-deepfakes-kyc-llmjacking-ep-special-du-22-novembre-2026/
-  last_episode_audio: https://track.podcastics.com/7830/440707.mp3
-  last_episode_duration: 35
+  last_episode: '2026-11-23'
+  last_episode_title: Ep.807 - Debian, MISP - Flash info du lundi 23 novembre 2026
+  last_episode_url: https://www.radiocsirt.org/podcast/ep-807-debian-misp-flash-info-du-lundi-23-novembre-2026/
+  last_episode_audio: https://track.podcastics.com/7830/440811.mp3
+  last_episode_duration: 14
   episodes:
+  - title: Ep.807 - Debian, MISP - Flash info du lundi 23 novembre 2026
+    published: '2026-11-23'
+    url: https://www.radiocsirt.org/podcast/ep-807-debian-misp-flash-info-du-lundi-23-novembre-2026/
+    audio: https://track.podcastics.com/7830/440811.mp3
+    duration: 14
   - title: 'Ep.807 - Fraudes et IA : deepfakes, KYC, LLMjacking - Épisode spécial du dimanche 22 novembre 2026'
     published: '2026-11-22'
     url: https://www.radiocsirt.org/podcast/ep-807-fraudes-et-ia-deepfakes-kyc-llmjacking-ep-special-du-22-novembre-2026/
@@ -4864,16 +4869,11 @@ podcasts:
     url: https://www.radiocsirt.org/podcast/ep-800-episode-special-sift-2026-claude-et-mcp-pour-le-forensic-dun-poste-windows-11/
     audio: https://track.podcastics.com/7830/439792.mp3
     duration: 67
-  - title: Ep.799 - Check Point, UnrealIRCd - Flash info du vendredi 13 novembre 2026
-    published: '2026-11-13'
-    url: https://www.radiocsirt.org/podcast/ep-799-check-point-unrealircd-flash-info-du-vendredi-13-novembre-2026/
-    audio: https://track.podcastics.com/7830/439730.mp3
-    duration: 12
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-09'
   updated_at: '2026-11-23'
-  episode_count: 812
+  episode_count: 813
   average_duration: 13
   status: active
   community_rating: 4.9
@@ -4913,12 +4913,17 @@ podcasts:
   image: https://image.ausha.co/c3yW5F56nIhAY9CDNIzAvfwemve0u3qpH8ZClSNI_1400x1400.jpeg?t=1736074692
   author: Maya Douadi
   description: De la cybersécurité aux affrontements économiques, en passant par les stratégies d’espionnage et les défis liés aux technologies disruptives, Riskintel Media décortique des thématiques complexes pour…
-  last_episode: '2026-11-12'
-  last_episode_title: On ne peut plus rien dire en France ? Vers la fin de la liberté d'expression ? Le débat
-  last_episode_url: https://podcast.ausha.co/riskintel-media/on-ne-peut-plus-rien-dire-en-france-vers-la-fin-de-la-liberte-d-expression-le-debat
-  last_episode_audio: https://audio.ausha.co/oRWn7jF7J1zR.mp3?t=1794490848
-  last_episode_duration: 78
+  last_episode: '2026-11-23'
+  last_episode_title: 'Cyberattaques : la faille oubliée qui corrompt tout'
+  last_episode_url: https://podcast.ausha.co/riskintel-media/cyberattaques-la-faille-oubliee-qui-corrompt-tout
+  last_episode_audio: https://audio.ausha.co/5rnqeT2lDpP9.mp3?t=1795442159
+  last_episode_duration: 22
   episodes:
+  - title: 'Cyberattaques : la faille oubliée qui corrompt tout'
+    published: '2026-11-23'
+    url: https://podcast.ausha.co/riskintel-media/cyberattaques-la-faille-oubliee-qui-corrompt-tout
+    audio: https://audio.ausha.co/5rnqeT2lDpP9.mp3?t=1795442159
+    duration: 22
   - title: On ne peut plus rien dire en France ? Vers la fin de la liberté d'expression ? Le débat
     published: '2026-11-12'
     url: https://podcast.ausha.co/riskintel-media/on-ne-peut-plus-rien-dire-en-france-vers-la-fin-de-la-liberte-d-expression-le-debat
@@ -4964,16 +4969,11 @@ podcasts:
     url: https://podcast.ausha.co/riskintel-media/souverainete-post-quantique-agents-ia-partir-du-risque-business
     audio: https://audio.ausha.co/dr7RwTVd6V4q.mp3?t=1790583712
     duration: 36
-  - title: 'Certificats numériques : la bombe à retardement des entreprises'
-    published: '2026-09-23'
-    url: https://podcast.ausha.co/riskintel-media/certificats-numeriques-la-bombe-a-retardement-des-entreprises
-    audio: https://audio.ausha.co/gd5nDTLk1gq0.mp3?t=1790150790
-    duration: 21
   frequency: weekly
   frequency_days: 6
   first_seen: '2026-11-09'
   updated_at: '2026-11-23'
-  episode_count: 191
+  episode_count: 192
   average_duration: 34
   status: active
   community_rating: 4.7
@@ -5074,12 +5074,22 @@ podcasts:
   image: https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj
   author: CyberPodcast
   description: CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet accessible look into the cybersecurity landscape.
-  last_episode: '2026-11-22'
-  last_episode_title: Agentic AI Risks Evolve from Hypothetical to Real Threats
-  last_episode_url: https://www.youtube.com/shorts/ywzVYW5PWmc
+  last_episode: '2026-11-23'
+  last_episode_title: 53% of Agent Projects Are Coding Agents | CyberPodcast
+  last_episode_url: https://www.youtube.com/shorts/Yg3jVn25msI
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: 53% of Agent Projects Are Coding Agents | CyberPodcast
+    published: '2026-11-23'
+    url: https://www.youtube.com/shorts/Yg3jVn25msI
+    audio: null
+    duration: null
+  - title: 'OWASP Gen AI Security Framework Breakdown | Paper Breakdown #14 | OWASP AI Security | CyberPodcast'
+    published: '2026-11-23'
+    url: https://www.youtube.com/watch?v=fFG8dkJHVys
+    audio: null
+    duration: null
   - title: Agentic AI Risks Evolve from Hypothetical to Real Threats
     published: '2026-11-22'
     url: https://www.youtube.com/shorts/ywzVYW5PWmc
@@ -5118,16 +5128,6 @@ podcasts:
   - title: 'OWASP Top10 for LLM: Deepfake Preparedness'
     published: '2026-11-17'
     url: https://www.youtube.com/shorts/yWxlEi7Mf7A
-    audio: null
-    duration: null
-  - title: 'How the Navy Engineered Onion Routing | Tor Network Attacks #25 | CyberPodcast'
-    published: '2026-11-17'
-    url: https://www.youtube.com/watch?v=dYWxLp3hnjI
-    audio: null
-    duration: null
-  - title: 'OWASP GenAI COMPASS Playbook | Paper Breakdown #13 | OWASP AI Security | CyberPodcast'
-    published: '2026-11-16'
-    url: https://www.youtube.com/watch?v=7MlHoZgxWGY
     audio: null
     duration: null
   frequency: daily
@@ -5823,7 +5823,7 @@ podcasts:
   rss: https://feeds.audiomeans.fr/feed/03d88297-85c1-475f-a491-a6c7a443ffca.xml
   youtube: https://www.youtube.com/channel/UCsrTQc8637V2oWINnTptb_A
   spotify: https://open.spotify.com/show/7nda7u8PGTU2AfpLZ9ZR9Z
-  apple_podcast: https://podcasts.apple.com/fr/podcast/ifttd-if-this-then-dev/id1471506605
+  apple_podcast: https://podcasts.apple.com/fr/podcast/ifttd-if-this-then-dev/id1471506605?uo=4
   linkedin: null
   deezer: https://www.deezer.com/fr/show/396442
   pocket_casts: null
@@ -6361,15 +6361,20 @@ podcasts:
   podcast_addict: https://podcastaddict.com/podcast/syntax-tasty-web-development-treats/4770078
   amazon_music: https://music.amazon.com/podcasts/3f16a46b-6281-4fc7-99de-380fbeb6d970/syntax---tasty-web-development-treats
   castbox: null
-  image: https://megaphone.imgix.net/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+  image: https://megaphone-images.spotifycdn.com/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
   author: Wes Bos
   description: Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like…
-  last_episode: '2026-11-18'
-  last_episode_title: '1056: Convince us that Effect.ts is good'
-  last_episode_url: https://syntax.fm/1056
-  last_episode_audio: https://traffic.megaphone.fm/FSI7047632099.mp3
-  last_episode_duration: 51
+  last_episode: '2026-11-23'
+  last_episode_title: '1057: Write Once, Deploy Everywhere'
+  last_episode_url: https://syntax.fm/1057
+  last_episode_audio: https://traffic.megaphone.fm/FSI9155658158.mp3
+  last_episode_duration: 72
   episodes:
+  - title: '1057: Write Once, Deploy Everywhere'
+    published: '2026-11-23'
+    url: https://syntax.fm/1057
+    audio: https://traffic.megaphone.fm/FSI9155658158.mp3
+    duration: 72
   - title: '1056: Convince us that Effect.ts is good'
     published: '2026-11-18'
     url: https://syntax.fm/1056
@@ -6415,17 +6420,12 @@ podcasts:
     url: https://syntax.fm/1048
     audio: https://traffic.megaphone.fm/FSI8730245538.mp3
     duration: 100
-  - title: '1047: Adobe has a big problem'
-    published: '2026-10-14'
-    url: https://syntax.fm/1047
-    audio: https://traffic.megaphone.fm/FSI7349663145.mp3
-    duration: 35
   frequency: weekly
   frequency_days: 5
   first_seen: '2026-11-09'
   updated_at: '2026-11-23'
-  episode_count: 1056
-  average_duration: 59
+  episode_count: 1057
+  average_duration: 66
   status: active
   community_rating: 4.5
   community_rating_count: 72
@@ -7958,7 +7958,6 @@ podcasts:
   - Spotify
   - YouTube
   topics:
-  - IA
   - LLM
   tags:
   - LLM
@@ -8300,12 +8299,17 @@ podcasts:
   image: https://download.softskills.audio/sse-cover-art.png
   author: Jamison Dance and Dave Smith
   description: It takes more than great code to be a great engineer. Soft Skills Engineering is a weekly advice podcast for software developers about the non-technical stuff that goes into being a great software…
-  last_episode: '2026-11-16'
-  last_episode_title: 'Episode 539: Why does it take me so long to get tasks done and my team got moved to a different timezone'
-  last_episode_url: https://softskills.audio/2026/11/16/episode-539-why-does-it-take-me-so-long-to-get-tasks-done-and-my-team-got-moved-to-a-different-timezone/
-  last_episode_audio: https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-539.mp3?source=rss
-  last_episode_duration: 35
+  last_episode: '2026-11-23'
+  last_episode_title: 'Episode 540: Truncate bad interviews and how to get promoted in chaos'
+  last_episode_url: https://softskills.audio/2026/11/23/episode-540-truncate-bad-interviews-and-how-to-get-promoted-in-chaos/
+  last_episode_audio: https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-540.mp3?source=rss
+  last_episode_duration: 30
   episodes:
+  - title: 'Episode 540: Truncate bad interviews and how to get promoted in chaos'
+    published: '2026-11-23'
+    url: https://softskills.audio/2026/11/23/episode-540-truncate-bad-interviews-and-how-to-get-promoted-in-chaos/
+    audio: https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-540.mp3?source=rss
+    duration: 30
   - title: 'Episode 539: Why does it take me so long to get tasks done and my team got moved to a different timezone'
     published: '2026-11-16'
     url: https://softskills.audio/2026/11/16/episode-539-why-does-it-take-me-so-long-to-get-tasks-done-and-my-team-got-moved-to-a-different-timezone/
@@ -8351,16 +8355,11 @@ podcasts:
     url: https://softskills.audio/2026/09/21/episode-531-shallow-feedback-and-my-coworker-is-a-huge-sloperator/
     audio: https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-531.mp3?source=rss
     duration: 34
-  - title: 'Episode 530: Product engineering and why does my team never challenge my ideas?'
-    published: '2026-09-14'
-    url: https://softskills.audio/2026/09/14/episode-530-product-engineering-and-why-does-my-team-never-challenge-my-ideas/
-    audio: https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-530.mp3?source=rss
-    duration: 36
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-23'
-  episode_count: 540
+  episode_count: 541
   average_duration: 33
   status: active
   community_rating: 4.8

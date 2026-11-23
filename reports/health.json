@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-23T11:40:37.465286+00:00",
+  "generated_at": "2026-11-23T23:07:50.703879+00:00",
   "mode": "network",
-  "duration_seconds": 12.84,
+  "duration_seconds": 19.56,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129876377/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Ff2261d41-2a1f-e229-ea8f-d63464a3516c.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129973698/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F31ec2a82-2e59-aad5-c513-52bce983d2b2.mp3"
         }
       }
     },
@@ -1134,7 +1134,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://track.podcastics.com/7830/440707.mp3"
+          "url": "https://track.podcastics.com/7830/440811.mp3"
         }
       }
     },
@@ -1157,7 +1157,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.ausha.co/oRWn7jF7J1zR.mp3?t=1794490848"
+          "url": "https://audio.ausha.co/5rnqeT2lDpP9.mp3?t=1795442159"
         }
       }
     },
@@ -1498,11 +1498,11 @@
         },
         "image": {
           "status": "unchecked",
-          "url": "https://megaphone.imgix.net/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+          "url": "https://megaphone-images.spotifycdn.com/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://traffic.megaphone.fm/FSI7047632099.mp3"
+          "url": "https://traffic.megaphone.fm/FSI9155658158.mp3"
         }
       }
     },
@@ -1939,7 +1939,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-539.mp3?source=rss"
+          "url": "https://dts.podtrac.com/redirect.mp3/download.softskills.audio/sse-540.mp3?source=rss"
         }
       }
     },

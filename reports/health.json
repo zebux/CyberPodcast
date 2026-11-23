@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22T22:17:44.056336+00:00",
+  "generated_at": "2026-11-23T02:59:45.752155+00:00",
   "mode": "network",
-  "duration_seconds": 18.89,
+  "duration_seconds": 14.46,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -536,7 +536,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://dts.podtrac.com/redirect.mp3/mgln.ai/e/211/rss.art19.com/episodes/103abf56-1b3d-4f70-a2f0-2f47e90da128.mp3"
+          "url": "https://dts.podtrac.com/redirect.mp3/mgln.ai/e/211/rss.art19.com/episodes/41164051-4b14-4434-ae2b-4dc30085babf.mp3"
         }
       }
     },
@@ -1134,7 +1134,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://track.podcastics.com/7830/440690.mp3"
+          "url": "https://track.podcastics.com/7830/440707.mp3"
         }
       }
     },

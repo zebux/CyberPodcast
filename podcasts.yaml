@@ -426,12 +426,17 @@ podcasts:
   image: https://static.audiomeans.fr/img/podcast/6d33de64-9124-475c-9be7-b4a249107108.jpg
   author: Expertime
   description: Les Têtes Dans Le Cloud, un condensé de news tech fortement influencé par l'écosystème Microsoft et animé par des passionnés !
-  last_episode: '2026-11-19'
-  last_episode_title: 'Fabric Policies : Gouvernance et Sécurité Maximale (+ Deployment Plan)'
+  last_episode: '2026-11-23'
+  last_episode_title: 'IGNITE 2026: Cowork, MS IQ, Autopilot, Code Agents, Business Analytics, Code 2, MAI, Perception...'
   last_episode_url: null
-  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/90ae5bd6-9a6d-4b59-9fb8-465c7a5f1f34.mp3?_=1791878803
-  last_episode_duration: 21
+  last_episode_audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/549fca24-e059-4a8a-83ad-2b8d31f920e1.mp3?_=1795184487
+  last_episode_duration: 100
   episodes:
+  - title: 'IGNITE 2026: Cowork, MS IQ, Autopilot, Code Agents, Business Analytics, Code 2, MAI, Perception...'
+    published: '2026-11-23'
+    url: null
+    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/549fca24-e059-4a8a-83ad-2b8d31f920e1.mp3?_=1795184487
+    duration: 100
   - title: 'Fabric Policies : Gouvernance et Sécurité Maximale (+ Deployment Plan)'
     published: '2026-11-19'
     url: null
@@ -477,16 +482,11 @@ podcasts:
     url: null
     audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/70cffc6c-2d70-4c58-8030-d1d716762ed5.mp3?_=1784707803
     duration: 11
-  - title: Connecter Github et Fabric Pour Respecter la RGPD ?
-    published: '2026-08-24'
-    url: null
-    audio: https://audio.audiomeans.fr/file/EnfpQtbvlS/dbb9fbf3-da75-44fe-b5d5-0e3476a16bb4.mp3?_=1782724499
-    duration: 10
   frequency: weekly
-  frequency_days: 7
+  frequency_days: 5
   first_seen: '2026-11-09'
   updated_at: '2026-11-23'
-  episode_count: 224
+  episode_count: 225
   average_duration: 22
   status: active
   community_rating: 4.6
@@ -2454,12 +2454,52 @@ podcasts:
   image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
-  last_episode: '2026-11-22'
-  last_episode_title: 'Recherche empirique : 1 755 analyses d''agents contre le chiffre unique'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Recherche-empirique--1-755-analyses-dagents-contre-le-chiffre-unique-e3sqp0r
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129901019/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F8494af9d-a14d-f5fa-5827-e3e81a1fc13e.mp3
+  last_episode: '2026-11-23'
+  last_episode_title: 'Scale AI & Sandbagging : le piège des 2 % de faux positifs'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Scale-AI--Sandbagging--le-pige-des-2--de-faux-positifs-e3sq0up
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129876377/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Ff2261d41-2a1f-e229-ea8f-d63464a3516c.mp3
   last_episode_duration: 7
   episodes:
+  - title: 'Scale AI & Sandbagging : le piège des 2 % de faux positifs'
+    published: '2026-11-23'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Scale-AI--Sandbagging--le-pige-des-2--de-faux-positifs-e3sq0up
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129876377/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Ff2261d41-2a1f-e229-ea8f-d63464a3516c.mp3
+    duration: 7
+  - title: 'GPT-4o mini à l''hôpital : faut-il signer les sorties par IA ?'
+    published: '2026-11-23'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/GPT-4o-mini--lhpital--faut-il-signer-les-sorties-par-IA-e3sr3qf
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129912079/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fbbbdafff-92a1-a506-6eb4-a5dad4eb54b3.mp3
+    duration: 8
+  - title: 'Incidents IA : les grands clients réclament leur droit d''alerte'
+    published: '2026-11-23'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Incidents-IA--les-grands-clients-rclament-leur-droit-dalerte-e3sq0t7
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129876327/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F07e52e1b-07d4-062a-0695-de82b3c6edba.mp3
+    duration: 7
+  - title: 'Qwen3.5 réécrit ses poids : faut-il figer les modèles ?'
+    published: '2026-11-23'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Qwen3-5-rcrit-ses-poids--faut-il-figer-les-modles-e3sqs3f
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129904175/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F8a4f24e7-5c0d-196b-ecb8-d3da33e7ea77.mp3
+    duration: 7
+  - title: 'xAI vs Californie : faut-il révéler la recette des données ?'
+    published: '2026-11-23'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/xAI-vs-Californie--faut-il-rvler-la-recette-des-donnes-e3sppns
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129868988/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fbd25c491-f740-3c75-38f2-f34dbb0439f8.mp3
+    duration: 7
+  - title: 'Intel 4004 : pourquoi Busicom a cédé les droits du microprocesseur'
+    published: '2026-11-23'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Intel-4004--pourquoi-Busicom-a-cd-les-droits-du-microprocesseur-e3sqp3h
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129901105/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F0373f63e-e277-c074-a8a3-2d09989b45dd.mp3
+    duration: 7
+  - title: 'Claude Code et Git : le piège des configs exécutables'
+    published: '2026-11-23'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Claude-Code-et-Git--le-pige-des-configs-excutables-e3sr3mv
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129911967/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fe92f5088-3dba-4324-3a4c-e7fbbcec9238.mp3
+    duration: 7
+  - title: Apollinaire, l'angle mort des IA
+    published: '2026-11-23'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Apollinaire--langle-mort-des-IA-e3q03jo
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/126929976/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F336f3a4f-2f20-b88b-f9d0-fdafba84db2f.mp3
+    duration: 21
   - title: 'Recherche empirique : 1 755 analyses d''agents contre le chiffre unique'
     published: '2026-11-22'
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Recherche-empirique--1-755-analyses-dagents-contre-le-chiffre-unique-e3sqp0r
@@ -2470,51 +2510,11 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Agents-IA-et-gnration-longue--le-pige-cach-du-sampling-e3spo93
     audio: https://anchor.fm/s/11065f6ec/podcast/play/129867491/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F60dbf5a9-0e88-0c02-1730-39e28174e226.mp3
     duration: 7
-  - title: 'OpenRouter : que mesurent vraiment les parts de tokens ?'
-    published: '2026-11-22'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenRouter--que-mesurent-vraiment-les-parts-de-tokens-e3spo7c
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129867436/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Ff2981c87-7ca3-d289-1cf5-4d8e8b0a670d.mp3
-    duration: 7
-  - title: 'Fournisseurs critiques : auditer le verrouillage ou subir ?'
-    published: '2026-11-22'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fournisseurs-critiques--auditer-le-verrouillage-ou-subir-e3spo2c
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129867276/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2F1ef15e36-d174-23ea-ae6f-7ea12e4b1052.mp3
-    duration: 7
-  - title: 'Cloud souverain : que valent vraiment les 54 milliards d''euros ?'
-    published: '2026-11-22'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Cloud-souverain--que-valent-vraiment-les-54-milliards-deuros-e3sqqo2
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129902786/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F210bafef-4917-d5f3-9822-bee0715fd9ef.mp3
-    duration: 7
-  - title: 'LLM et raisonnement : quand une réponse juste cache les autres'
-    published: '2026-11-22'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LLM-et-raisonnement--quand-une-rponse-juste-cache-les-autres-e3sqql3
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129902691/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fd30a43a3-cb4b-548f-0bf0-6f412417af4b.mp3
-    duration: 7
-  - title: 'OpenAI, Synopsys, AMD : qui capte la valeur des puces IA ?'
-    published: '2026-11-22'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenAI--Synopsys--AMD--qui-capte-la-valeur-des-puces-IA-e3spo0d
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129867213/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fa94c76d6-ecf7-800d-4e48-f8eae96fccbb.mp3
-    duration: 7
-  - title: 'Anthropic et failles critiques : le piège du délai de 30 jours'
-    published: '2026-11-22'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Anthropic-et-failles-critiques--le-pige-du-dlai-de-30-jours-e3sqo7r
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129900219/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fe09e0c91-aee4-41f6-f1d2-03423cf5becd.mp3
-    duration: 7
-  - title: 'VMware vCenter & Golden SAML : faut-il aller au-delà du patch ?'
-    published: '2026-11-22'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/VMware-vCenter--Golden-SAML--faut-il-aller-au-del-du-patch-e3sqo41
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129900097/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F1d2c211e-9867-86b3-17d2-a49c3751936f.mp3
-    duration: 7
-  - title: 'Assurance IA : vos contrats couvrent-ils vraiment vos pannes ?'
-    published: '2026-11-22'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Assurance-IA--vos-contrats-couvrent-ils-vraiment-vos-pannes-e3spnv5
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129867173/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-21%2Fa3fbfd2d-c849-1fd2-52eb-7ffeb8f6337f.mp3
-    duration: 8
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
   updated_at: '2026-11-23'
-  episode_count: 1248
+  episode_count: 1256
   average_duration: 7
   status: active
   community_rating: null
@@ -4402,12 +4402,17 @@ podcasts:
   image: https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/60/ce/8f/60ce8f21-4939-c2af-6d81-7d86a460e5f2/mza_7503302632113938466.jpg/600x600bb.jpg
   author: NoLimitSecu
   description: Le podcast Francophone hebdomadaire dédié à la cybersécurité
-  last_episode: '2026-11-15'
-  last_episode_title: Agents IA, cybersécurité et confiance
-  last_episode_url: https://www.nolimitsecu.fr/agents-ia-cybersecurite-et-confiance/
-  last_episode_audio: https://media.blubrry.com/3898091/www.nolimitsecu.fr/wp-content/uploads/NoLimitSecu-558-IA-Agentique-et-cybersecurite.mp3
+  last_episode: '2026-11-22'
+  last_episode_title: Anti-manuel de cybersécurité
+  last_episode_url: https://www.nolimitsecu.fr/anti-manuel-de-cybersecurite/
+  last_episode_audio: https://media.blubrry.com/3898091/www.nolimitsecu.fr/wp-content/uploads/NoLimitSecu-559-Anti-manuel-de-cybersecurite.mp3
   last_episode_duration: 5
   episodes:
+  - title: Anti-manuel de cybersécurité
+    published: '2026-11-22'
+    url: https://www.nolimitsecu.fr/anti-manuel-de-cybersecurite/
+    audio: https://media.blubrry.com/3898091/www.nolimitsecu.fr/wp-content/uploads/NoLimitSecu-559-Anti-manuel-de-cybersecurite.mp3
+    duration: 5
   - title: Agents IA, cybersécurité et confiance
     published: '2026-11-15'
     url: https://www.nolimitsecu.fr/agents-ia-cybersecurite-et-confiance/
@@ -4453,17 +4458,12 @@ podcasts:
     url: https://www.nolimitsecu.fr/de-la-creation-dun-organisme-de-certification/
     audio: https://media.blubrry.com/3898091/www.nolimitsecu.fr/wp-content/uploads/NoLimitSecu-550-Centre-Evaluation.mp3
     duration: 39
-  - title: InterCERT France (Juillet 2026)
-    published: '2026-07-27'
-    url: https://www.nolimitsecu.fr/intercert-france-juillet-2026/
-    audio: https://media.blubrry.com/3898091/www.nolimitsecu.fr/wp-content/uploads/NoLimitSecu-549-Intercert-France.mp3
-    duration: 39
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-23'
   episode_count: 302
-  average_duration: 29
+  average_duration: 27
   status: active
   community_rating: 4.8
   community_rating_count: 219
@@ -5823,7 +5823,7 @@ podcasts:
   rss: https://feeds.audiomeans.fr/feed/03d88297-85c1-475f-a491-a6c7a443ffca.xml
   youtube: https://www.youtube.com/channel/UCsrTQc8637V2oWINnTptb_A
   spotify: https://open.spotify.com/show/7nda7u8PGTU2AfpLZ9ZR9Z
-  apple_podcast: https://podcasts.apple.com/fr/podcast/ifttd-if-this-then-dev/id1471506605?uo=4
+  apple_podcast: https://podcasts.apple.com/fr/podcast/ifttd-if-this-then-dev/id1471506605
   linkedin: null
   deezer: https://www.deezer.com/fr/show/396442
   pocket_casts: null
@@ -5897,7 +5897,7 @@ podcasts:
   average_duration: 61
   status: active
   community_rating: 4.8
-  community_rating_count: 174
+  community_rating_count: 175
   platform: Audiomeans
   hosting_platform: Audiomeans
   listening_platforms:
@@ -7370,7 +7370,7 @@ podcasts:
   rss: https://javascriptjabber.com/feed
   youtube: https://www.youtube.com/playlist?list=PLJesql-aSfX4bg83Xuq_0QZs6MLSyklkq
   spotify: https://open.spotify.com/show/6xpiit8aJmwDHk1rKdxmri
-  apple_podcast: https://podcasts.apple.com/us/podcast/javascript-jabber/id496893300?uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/javascript-jabber/id1237401284?uo=4
   linkedin: null
   deezer: null
   pocket_casts: null
@@ -7443,8 +7443,8 @@ podcasts:
   episode_count: 738
   average_duration: 69
   status: slow
-  community_rating: 4.4
-  community_rating_count: 233
+  community_rating: 3.6
+  community_rating_count: 65
   platform: autre
   hosting_platform: null
   listening_platforms:
@@ -7958,6 +7958,7 @@ podcasts:
   - Spotify
   - YouTube
   topics:
+  - IA
   - LLM
   tags:
   - LLM

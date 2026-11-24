@@ -1727,12 +1727,17 @@ podcasts:
   image: https://static.feedpress.com/logo/heavystrategy-65738ff49c606.png
   author: Packet Pushers
   description: From technology to workplace culture, from geopolitical trends to economics, Heavy Strategy debates pivotal questions in enterprise IT. Hosts Greg Ferro and Johna Till Johnson bring their technical…
-  last_episode: '2026-11-10'
-  last_episode_title: 'HS149: Satcos Vs. Telcos: Who Wins?'
-  last_episode_url: https://feeds.packetpushers.net/link/22503/17521669/hs149-satcos-vs-telcos-who-wins
-  last_episode_audio: https://feeds.packetpushers.net/link/22503/17521670/HS149.mp3
+  last_episode: '2026-11-24'
+  last_episode_title: 'HS150: Can AI Shield You From IT Rent-Seekers?'
+  last_episode_url: https://feeds.packetpushers.net/link/22503/17539302/hs150-can-ai-shield-you-from-it-rent-seekers
+  last_episode_audio: https://feeds.packetpushers.net/link/22503/17539303/HS150.mp3
   last_episode_duration: 46
   episodes:
+  - title: 'HS150: Can AI Shield You From IT Rent-Seekers?'
+    published: '2026-11-24'
+    url: https://feeds.packetpushers.net/link/22503/17539302/hs150-can-ai-shield-you-from-it-rent-seekers
+    audio: https://feeds.packetpushers.net/link/22503/17539303/HS150.mp3
+    duration: 46
   - title: 'HS149: Satcos Vs. Telcos: Who Wins?'
     published: '2026-11-10'
     url: https://feeds.packetpushers.net/link/22503/17521669/hs149-satcos-vs-telcos-who-wins
@@ -1778,16 +1783,11 @@ podcasts:
     url: https://feeds.packetpushers.net/link/22503/17436567/hs141-ea-vs-ai
     audio: https://feeds.packetpushers.net/link/22503/17436568/HS141.mp3
     duration: 42
-  - title: 'HS140: AI and Technical Debt – Boon or Bane?'
-    published: '2026-08-18'
-    url: https://feeds.packetpushers.net/link/22503/17422271/hs140-ai-and-technical-debt-boon-or-bane
-    audio: https://feeds.packetpushers.net/link/22503/17422272/HS140.mp3
-    duration: 42
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-24'
-  episode_count: 150
+  episode_count: 151
   average_duration: 38
   status: active
   community_rating: 4.8
@@ -1898,7 +1898,7 @@ podcasts:
   average_duration: 23
   status: archived
   community_rating: 4.6
-  community_rating_count: 449
+  community_rating_count: 450
   platform: Riverside
   hosting_platform: Riverside
   listening_platforms:
@@ -2454,12 +2454,37 @@ podcasts:
   image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
-  last_episode: '2026-11-23'
-  last_episode_title: 'Sarvam AI : peut-on être souverain avec des modèles chinois ?'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Sarvam-AI--peut-on-tre-souverain-avec-des-modles-chinois-e3st002
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129973698/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F31ec2a82-2e59-aad5-c513-52bce983d2b2.mp3
-  last_episode_duration: 7
+  last_episode: '2026-11-24'
+  last_episode_title: 'Copyright, OpenAI et DOJ : la sécurité nationale contre les auteurs ?'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Copyright--OpenAI-et-DOJ--la-scurit-nationale-contre-les-auteurs-e3stcm3
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129986691/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F703eba07-1f64-1a5c-a2e5-f45e398afd6b.mp3
+  last_episode_duration: 8
   episodes:
+  - title: 'Copyright, OpenAI et DOJ : la sécurité nationale contre les auteurs ?'
+    published: '2026-11-24'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Copyright--OpenAI-et-DOJ--la-scurit-nationale-contre-les-auteurs-e3stcm3
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129986691/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F703eba07-1f64-1a5c-a2e5-f45e398afd6b.mp3
+    duration: 8
+  - title: 'CrowdStrike rachète Zscaler : défense unifiée ou verrouillage ?'
+    published: '2026-11-24'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/CrowdStrike-rachte-Zscaler--dfense-unifie-ou-verrouillage-e3stc1p
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129986041/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F238f8fb8-1f9d-a47b-1996-b22ace2ab189.mp3
+    duration: 7
+  - title: 'RL et post-entraînement : pourquoi la récompense ne suffit pas'
+    published: '2026-11-24'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/RL-et-post-entranement--pourquoi-la-rcompense-ne-suffit-pas-e3stbu1
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129985921/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F48ef1853-94d9-e6e9-2ea7-55e233ae6457.mp3
+    duration: 7
+  - title: 'Jensen Huang réintégré : le vrai-faux parallèle avec Sam Altman'
+    published: '2026-11-24'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Jensen-Huang-rintgr--le-vrai-faux-parallle-avec-Sam-Altman-e3stbro
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129985848/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fc2fa84ac-377f-76ed-ce89-5e95cd1253cd.mp3
+    duration: 8
+  - title: Cendrars, l'angle mort des IA
+    published: '2026-11-24'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Cendrars--langle-mort-des-IA-e3q03lo
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/126930040/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Fb18fe1cb-a903-ddbb-fa83-318b7607d80e.mp3
+    duration: 28
   - title: 'Sarvam AI : peut-on être souverain avec des modèles chinois ?'
     published: '2026-11-23'
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Sarvam-AI--peut-on-tre-souverain-avec-des-modles-chinois-e3st002
@@ -2485,36 +2510,11 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/ARC-AGI-2--pourquoi-le-code-vrifiable-cote-20-points-e3sqqif
     audio: https://anchor.fm/s/11065f6ec/podcast/play/129902607/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F275d7289-6ea7-f592-646e-a3c27e2c94cc.mp3
     duration: 7
-  - title: 'Fret routier et agents vocaux : l''équation des 35 secondes'
-    published: '2026-11-23'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Fret-routier-et-agents-vocaux--lquation-des-35-secondes-e3sq132
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129876514/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F45b8545f-6443-25b4-7eea-3624fb553c84.mp3
-    duration: 7
-  - title: 'Minitel rose, Web adulte : qui a bâti l''économie des plateformes ?'
-    published: '2026-11-23'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Minitel-rose--Web-adulte--qui-a-bti-lconomie-des-plateformes-e3ssdeo
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129954712/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fe5fbc441-62f2-8476-36a1-f9420508b8b6.mp3
-    duration: 7
-  - title: 'LLM-as-a-Judge : pourquoi remplacer le juge par du code piège le tri'
-    published: '2026-11-23'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/LLM-as-a-Judge--pourquoi-remplacer-le-juge-par-du-code-pige-le-tri-e3ssdch
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129954641/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fee7808bf-89c3-0a35-3cbc-d19b03681221.mp3
-    duration: 7
-  - title: 'John Deere rachète Orchard : qui contrôle la donnée du verger ?'
-    published: '2026-11-23'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/John-Deere-rachte-Orchard--qui-contrle-la-donne-du-verger-e3sq11t
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129876477/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F6ae0b53e-569b-4d21-eaba-a22572e03847.mp3
-    duration: 7
-  - title: 'Microsoft MAI : maître de ses adaptations, locataire d’Azure ?'
-    published: '2026-11-23'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Microsoft-MAI--matre-de-ses-adaptations--locataire-dAzure-e3sq10n
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129876439/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fa197d76c-8ae3-4286-170e-b39946de8bfe.mp3
-    duration: 7
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
   updated_at: '2026-11-24'
-  episode_count: 1271
+  episode_count: 1273
   average_duration: 7
   status: active
   community_rating: null
@@ -5074,12 +5074,22 @@ podcasts:
   image: https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj
   author: CyberPodcast
   description: CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet accessible look into the cybersecurity landscape.
-  last_episode: '2026-11-23'
-  last_episode_title: 53% of Agent Projects Are Coding Agents | CyberPodcast
-  last_episode_url: https://www.youtube.com/shorts/Yg3jVn25msI
+  last_episode: '2026-11-24'
+  last_episode_title: 'Thirteen Years of Tor Network Attacks | Tor Network Attacks #26 | CyberPodcast'
+  last_episode_url: https://www.youtube.com/watch?v=hz3hkKOLDSE
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: 'Thirteen Years of Tor Network Attacks | Tor Network Attacks #26 | CyberPodcast'
+    published: '2026-11-24'
+    url: https://www.youtube.com/watch?v=hz3hkKOLDSE
+    audio: null
+    duration: null
+  - title: 'AI Safety vs Security: How They Merge in Agentic Systems'
+    published: '2026-11-24'
+    url: https://www.youtube.com/shorts/I-uqlJPmkGg
+    audio: null
+    duration: null
   - title: 53% of Agent Projects Are Coding Agents | CyberPodcast
     published: '2026-11-23'
     url: https://www.youtube.com/shorts/Yg3jVn25msI
@@ -5118,16 +5128,6 @@ podcasts:
   - title: 'OWASP Top10 for LLM: Deepfake Detection Vulnerabilities'
     published: '2026-11-19'
     url: https://www.youtube.com/shorts/VFWtv1EGMXQ
-    audio: null
-    duration: null
-  - title: How Deep Learning Changes Voice Cloning
-    published: '2026-11-18'
-    url: https://www.youtube.com/shorts/L7qjjVCOtbk
-    audio: null
-    duration: null
-  - title: 'OWASP Top10 for LLM: Deepfake Preparedness'
-    published: '2026-11-17'
-    url: https://www.youtube.com/shorts/yWxlEi7Mf7A
     audio: null
     duration: null
   frequency: daily
@@ -6566,12 +6566,17 @@ podcasts:
   image: https://softwareengineeringdaily.com/wp-content/uploads/2026/07/sed_logo_2026.png
   author: Software Engineering Daily
   description: Technical interviews about software topics.
-  last_episode: '2026-11-19'
-  last_episode_title: The Rise of the Software Factories
-  last_episode_url: https://softwareengineeringdaily.com/podcasts/the-rise-of-the-software-factories/
-  last_episode_audio: https://media.transistor.fm/81856baa/00172ed9.mp3
-  last_episode_duration: 36
+  last_episode: '2026-11-24'
+  last_episode_title: Steve Yegge on Building Software Factories
+  last_episode_url: https://softwareengineeringdaily.com/podcasts/steve-yegge-on-building-software-factories/
+  last_episode_audio: https://media.transistor.fm/b159157f/bd5804ae.mp3
+  last_episode_duration: 60
   episodes:
+  - title: Steve Yegge on Building Software Factories
+    published: '2026-11-24'
+    url: https://softwareengineeringdaily.com/podcasts/steve-yegge-on-building-software-factories/
+    audio: https://media.transistor.fm/b159157f/bd5804ae.mp3
+    duration: 60
   - title: The Rise of the Software Factories
     published: '2026-11-19'
     url: https://softwareengineeringdaily.com/podcasts/the-rise-of-the-software-factories/
@@ -6617,13 +6622,8 @@ podcasts:
     url: https://softwareengineeringdaily.com/podcasts/blitzy-and-autonomous-software-development-for-enterprise/
     audio: https://media.transistor.fm/dd637ae2/ead5439c.mp3
     duration: 51
-  - title: Physical AI at NVIDIA
-    published: '2026-10-20'
-    url: https://softwareengineeringdaily.com/podcasts/physical-ai-at-nvidia/
-    audio: https://media.transistor.fm/331da62b/f57cbddf.mp3
-    duration: 57
-  frequency: daily
-  frequency_days: 2
+  frequency: weekly
+  frequency_days: 5
   first_seen: '2026-11-09'
   updated_at: '2026-11-24'
   episode_count: 104
@@ -7370,7 +7370,7 @@ podcasts:
   rss: https://javascriptjabber.com/feed
   youtube: https://www.youtube.com/playlist?list=PLJesql-aSfX4bg83Xuq_0QZs6MLSyklkq
   spotify: https://open.spotify.com/show/6xpiit8aJmwDHk1rKdxmri
-  apple_podcast: https://podcasts.apple.com/us/podcast/javascript-jabber/id1237401284?uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/javascript-jabber/id496893300?uo=4
   linkedin: null
   deezer: null
   pocket_casts: null
@@ -7443,8 +7443,8 @@ podcasts:
   episode_count: 738
   average_duration: 69
   status: slow
-  community_rating: 3.6
-  community_rating_count: 65
+  community_rating: 4.4
+  community_rating_count: 233
   platform: autre
   hosting_platform: null
   listening_platforms:

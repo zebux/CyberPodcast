@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T07:02:17.028741+00:00",
+  "generated_at": "2026-11-24T18:46:15.078147+00:00",
   "mode": "network",
-  "duration_seconds": 9.83,
+  "duration_seconds": 9.71,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -421,7 +421,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://feeds.packetpushers.net/link/22503/17521670/HS149.mp3"
+          "url": "https://feeds.packetpushers.net/link/22503/17539303/HS150.mp3"
         }
       }
     },
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129973698/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F31ec2a82-2e59-aad5-c513-52bce983d2b2.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129986691/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F703eba07-1f64-1a5c-a2e5-f45e398afd6b.mp3"
         }
       }
     },
@@ -1548,7 +1548,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://media.transistor.fm/81856baa/00172ed9.mp3"
+          "url": "https://media.transistor.fm/b159157f/bd5804ae.mp3"
         }
       }
     },

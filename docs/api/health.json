@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-23T23:07:50.703879+00:00",
+  "generated_at": "2026-11-24T07:02:17.028741+00:00",
   "mode": "network",
-  "duration_seconds": 19.56,
+  "duration_seconds": 9.83,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -973,7 +973,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/0092ac1a-3b9a-4eb6-89cd-d8116583d750.mp3?_=1793265993"
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/c11ff815-4e6f-414b-a1bc-4d48697e9567.mp3?_=1794393230"
         }
       }
     },

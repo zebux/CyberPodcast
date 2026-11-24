@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-23T23:07:50.826805+00:00",
+  "generated_at": "2026-11-24T07:02:17.133924+00:00",
   "total": 86,
-  "total_episodes": 25939,
+  "total_episodes": 25943,
   "with_rss": 86,
   "with_image": 86,
   "with_audio": 84,
@@ -159,5 +159,5 @@
     "Qualité logicielle": 1,
     "DevSecOps": 1
   },
-  "latest_episode": "2026-11-23"
+  "latest_episode": "2026-11-24"
 }

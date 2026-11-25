@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T02:54:30.606507+00:00",
+  "generated_at": "2026-11-25T11:57:25.761032+00:00",
   "mode": "network",
-  "duration_seconds": 9.54,
+  "duration_seconds": 10.05,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -191,7 +191,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://www.buzzsprout.com/3195/episodes/20162653-after-the-anthropic-ipo-doing-the-math-on-ai-s-growth-bet.mp3"
+          "url": "https://www.buzzsprout.com/3195/episodes/20178183-price-per-outcome-rethinking-ai-token-spend-with-vitaly-gordon.mp3"
         }
       }
     },
@@ -214,7 +214,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode216.mp3"
+          "url": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode212.mp3"
         }
       }
     },
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129955165/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F7a62fc1b-51c4-d64e-b727-f2fe608dc9cf.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129955231/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fb7617dcf-6e18-dabc-bff4-da26b7702ede.mp3"
         }
       }
     },
@@ -1387,7 +1387,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/c87ad1ee-c3c1-4a4a-b813-6e8e07e7ad53.mp3?_=1795093235"
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/65ceec49-da35-4c8e-b8f7-1d1a7e0f66d5.mp3?_=1795525227"
         }
       }
     },
@@ -1456,7 +1456,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/95213e79-3ffa-45e6-8b29-2afeea0572f9.mp3?_=1795177971"
+          "url": "https://audio.audiomeans.fr/file/EnfpQtbvlS/675cbe89-6641-4b5f-ae6c-5f491ee65f76.mp3?_=1795563564"
         }
       }
     },
@@ -1640,7 +1640,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/505/introducing-diskcache-oxide.mp3"
+          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/506/raft-rust-and-release-day.mp3"
         }
       }
     },

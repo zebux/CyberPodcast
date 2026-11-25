@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T02:54:30.741877+00:00",
+  "generated_at": "2026-11-25T11:57:25.887745+00:00",
   "site": "https://cyberpodcast.fr/",
   "count": 86,
   "podcasts": [
@@ -886,12 +886,19 @@
       "image": "https://storage.buzzsprout.com/qy0q4u4tgdaume7dfehgpznhwhn0?.jpg",
       "author": "Massive Studios",
       "description": "The Enterprise AI Show explores the AI journey for Enterprise companies around the world. [formerly The Cloudcast] As the AI revolution moves from experimentation to execution, The Enterprise AI Show…",
-      "last_episode": "2026-11-22",
-      "last_episode_title": "After the Anthropic IPO: Doing the Math on AI's Growth Bet",
+      "last_episode": "2026-11-25",
+      "last_episode_title": "Price Per Outcome: Rethinking AI Token Spend with Vitaly Gordon",
       "last_episode_url": null,
-      "last_episode_audio": "https://www.buzzsprout.com/3195/episodes/20162653-after-the-anthropic-ipo-doing-the-math-on-ai-s-growth-bet.mp3",
-      "last_episode_duration": 32,
+      "last_episode_audio": "https://www.buzzsprout.com/3195/episodes/20178183-price-per-outcome-rethinking-ai-token-spend-with-vitaly-gordon.mp3",
+      "last_episode_duration": 46,
       "episodes": [
+        {
+          "title": "Price Per Outcome: Rethinking AI Token Spend with Vitaly Gordon",
+          "published": "2026-11-25",
+          "url": null,
+          "audio": "https://www.buzzsprout.com/3195/episodes/20178183-price-per-outcome-rethinking-ai-token-spend-with-vitaly-gordon.mp3",
+          "duration": 46
+        },
         {
           "title": "After the Anthropic IPO: Doing the Math on AI's Growth Bet",
           "published": "2026-11-22",
@@ -954,20 +961,13 @@
           "url": null,
           "audio": "https://www.buzzsprout.com/3195/episodes/20016596-confidence-or-con-the-psychology-of-tech-s-boldest-leaders.mp3",
           "duration": 28
-        },
-        {
-          "title": "Never Do the Same Work Twice: Rethinking CI for the Agent Era with Dan Manges",
-          "published": "2026-10-21",
-          "url": null,
-          "audio": "https://www.buzzsprout.com/3195/episodes/19994499-never-do-the-same-work-twice-rethinking-ci-for-the-agent-era-with-dan-manges.mp3",
-          "duration": 41
         }
       ],
       "frequency": "weekly",
-      "frequency_days": 4,
+      "frequency_days": 3,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-25",
-      "episode_count": 1117,
+      "episode_count": 1118,
       "average_duration": 38,
       "status": "active",
       "community_rating": 4.6,
@@ -1019,12 +1019,19 @@
       "image": "https://www.arresteddevops.com/img/ado-podcast-logo.png",
       "author": "Matt Stratton",
       "description": "There's always DevOps in the Banana Stand",
-      "last_episode": "2026-11-18",
-      "last_episode_title": "Marketing Ships to Production with Stephan Schmidt and Tanya Higgins",
-      "last_episode_url": "https://www.arresteddevops.com/marketing-ships-to-production/",
-      "last_episode_audio": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode216.mp3",
-      "last_episode_duration": 33,
+      "last_episode": "2026-11-25",
+      "last_episode_title": "Just Geeking with Cassidy Williams",
+      "last_episode_url": "https://www.arresteddevops.com/just-geeking/",
+      "last_episode_audio": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode212.mp3",
+      "last_episode_duration": 34,
       "episodes": [
+        {
+          "title": "Just Geeking with Cassidy Williams",
+          "published": "2026-11-25",
+          "url": "https://www.arresteddevops.com/just-geeking/",
+          "audio": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode212.mp3",
+          "duration": 34
+        },
         {
           "title": "Marketing Ships to Production with Stephan Schmidt and Tanya Higgins",
           "published": "2026-11-18",
@@ -1087,20 +1094,13 @@
           "url": "https://www.arresteddevops.com/digging-into-security/",
           "audio": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode204.mp3",
           "duration": 29
-        },
-        {
-          "title": "AI, Ethics, and Empathy with Kat Morgan",
-          "published": "2025-06-03",
-          "url": "https://www.arresteddevops.com/using-ai/",
-          "audio": "https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode203.mp3",
-          "duration": 40
         }
       ],
-      "frequency": "monthly",
-      "frequency_days": 22,
+      "frequency": "biweekly",
+      "frequency_days": 14,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-25",
-      "episode_count": 212,
+      "episode_count": 213,
       "average_duration": 39,
       "status": "active",
       "community_rating": 4.6,
@@ -3117,12 +3117,40 @@
       "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg",
       "author": "Franck Dubray - Dragonfly",
       "description": "Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.",
-      "last_episode": "2026-11-24",
-      "last_episode_title": "Capex IA et inflation : le piège du décalage temporel",
-      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Capex-IA-et-inflation--le-pige-du-dcalage-temporel-e3ssdst",
-      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/129955165/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F7a62fc1b-51c4-d64e-b727-f2fe608dc9cf.mp3",
+      "last_episode": "2026-11-25",
+      "last_episode_title": "Texas Sports Academy : que financent les 6,5 M$ de bons scolaires ?",
+      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Texas-Sports-Academy--que-financent-les-6-5-M-de-bons-scolaires-e3ssduv",
+      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/129955231/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fb7617dcf-6e18-dabc-bff4-da26b7702ede.mp3",
       "last_episode_duration": 7,
       "episodes": [
+        {
+          "title": "Texas Sports Academy : que financent les 6,5 M$ de bons scolaires ?",
+          "published": "2026-11-25",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Texas-Sports-Academy--que-financent-les-6-5-M-de-bons-scolaires-e3ssduv",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129955231/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fb7617dcf-6e18-dabc-bff4-da26b7702ede.mp3",
+          "duration": 7
+        },
+        {
+          "title": "OpenAI : peut-on auditer un labo de l'intérieur ?",
+          "published": "2026-11-25",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenAI--peut-on-auditer-un-labo-de-lintrieur-e3sqru6",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129904006/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fe46a5407-f34d-1355-a811-f219441258f4.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Juges et IA : où s’arrête la simple assistance au tribunal ?",
+          "published": "2026-11-25",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Juges-et-IA--o-sarrte-la-simple-assistance-au-tribunal-e3sqqt8",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129902952/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fa7de9953-1d76-9b1f-e24f-a44ebc20de0f.mp3",
+          "duration": 7
+        },
+        {
+          "title": "Du Bellay, l'angle mort des IA",
+          "published": "2026-11-25",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Du-Bellay--langle-mort-des-IA-e3q03op",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/126930137/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F6a96518d-17ff-3219-0bb0-ab4218369b49.mp3",
+          "duration": 18
+        },
         {
           "title": "Capex IA et inflation : le piège du décalage temporel",
           "published": "2026-11-24",
@@ -3164,41 +3192,13 @@
           "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenAI--pourquoi-ses-rgles-dAPI-verrouillent-lentranement-e3sqsdh",
           "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129904497/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F909d8f9d-f755-a054-2125-63083b1560af.mp3",
           "duration": 7
-        },
-        {
-          "title": "MONAI Label : faut-il séparer annotation et entraînement ?",
-          "published": "2026-11-24",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/MONAI-Label--faut-il-sparer-annotation-et-entranement-e3sqsaj",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129904403/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F32a38469-a526-c7b5-8351-91150172f177.mp3",
-          "duration": 7
-        },
-        {
-          "title": "AWS, Decart et Trainium : acheter la portabilité à 7,5 Md$ ?",
-          "published": "2026-11-24",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/AWS--Decart-et-Trainium--acheter-la-portabilit--7-5-Md-e3sqs7v",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129904319/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fca02c39c-5d14-f5bf-9587-c395a2b1781f.mp3",
-          "duration": 8
-        },
-        {
-          "title": "Essais cliniques et Fujitsu : que disent les 89 % de tri ?",
-          "published": "2026-11-24",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Essais-cliniques-et-Fujitsu--que-disent-les-89--de-tri-e3sqs62",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129904258/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fd050c01b-6c2d-171f-db88-5d812cfaa031.mp3",
-          "duration": 7
-        },
-        {
-          "title": "Justice : faire payer son abonnement IA à la partie perdante ?",
-          "published": "2026-11-24",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Justice--faire-payer-son-abonnement-IA--la-partie-perdante-e3sqqr2",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129902882/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fed1fac83-8eb4-91bc-cb51-4298739ee079.mp3",
-          "duration": 7
         }
       ],
       "frequency": "daily",
       "frequency_days": 1,
       "first_seen": "2026-11-16",
       "updated_at": "2026-11-25",
-      "episode_count": 1284,
+      "episode_count": 1288,
       "average_duration": 7,
       "status": "active",
       "community_rating": null,
@@ -7409,12 +7409,19 @@
       "image": "https://static.audiomeans.fr/img/podcast/b0f6c0ee-41d3-4406-9d0c-7ef45174c4b8.jpg",
       "author": "Bruno Soulez | Orso Media",
       "description": "If This Then Dev, c'est le podcast D.E.V : Différent, Extraordinaire et Visionnaire. Un podcast qui veut résoudre le problème avant de passer au dev. Chaque semaine Bruno Soulez reçoit un expert pour…",
-      "last_episode": "2026-11-20",
-      "last_episode_title": "#360.exe - Docker Sandbox: Sécuriser les agents IA sans ralentir les devs par Quentin de Quelen",
-      "last_episode_url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/360-6e8e07e7ad53",
-      "last_episode_audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/c87ad1ee-c3c1-4a4a-b813-6e8e07e7ad53.mp3?_=1795093235",
-      "last_episode_duration": 15,
+      "last_episode": "2026-11-25",
+      "last_episode_title": "#386.src - ESN AI Native: Remettre l'humain au coeur de l'Agentic Software Factory avec Jordan Nourry",
+      "last_episode_url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/386-1d1a7e0f66d5",
+      "last_episode_audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/65ceec49-da35-4c8e-b8f7-1d1a7e0f66d5.mp3?_=1795525227",
+      "last_episode_duration": 73,
       "episodes": [
+        {
+          "title": "#386.src - ESN AI Native: Remettre l'humain au coeur de l'Agentic Software Factory avec Jordan Nourry",
+          "published": "2026-11-25",
+          "url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/386-1d1a7e0f66d5",
+          "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/65ceec49-da35-4c8e-b8f7-1d1a7e0f66d5.mp3?_=1795525227",
+          "duration": 73
+        },
         {
           "title": "#360.exe - Docker Sandbox: Sécuriser les agents IA sans ralentir les devs par Quentin de Quelen",
           "published": "2026-11-20",
@@ -7477,20 +7484,13 @@
           "url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/-378-faec7756bbd7",
           "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/44d3561f-a515-4e23-9ca1-faec7756bbd7.mp3?_=1790683283",
           "duration": 51
-        },
-        {
-          "title": "#377.src - DBT: Pourquoi dbt est devenu le standard (avec ses qualités et défauts) avec Jeremy Cohen",
-          "published": "2026-09-23",
-          "url": "https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/-377-8d0382d0be15",
-          "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/495563fb-1354-4dfd-8b0f-8d0382d0be15.mp3?_=1790078494",
-          "duration": 52
         }
       ],
       "frequency": "weekly",
       "frequency_days": 7,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-25",
-      "episode_count": 765,
+      "episode_count": 766,
       "average_duration": 61,
       "status": "active",
       "community_rating": 4.8,
@@ -7802,12 +7802,19 @@
       "image": "https://static.audiomeans.fr/img/podcast/6babef68-0aa0-4a2a-879a-97ff3bd55131.jpg",
       "author": "Guillaume Vendé",
       "description": "Tech Café : votre veille sur les nouvelles technologies chaque semaine",
-      "last_episode": "2026-11-21",
-      "last_episode_title": "L'IA étale sa science",
-      "last_episode_url": "https://techcafe.fr/lia-etale-sa-science/",
-      "last_episode_audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/95213e79-3ffa-45e6-8b29-2afeea0572f9.mp3?_=1795177971",
-      "last_episode_duration": 85,
+      "last_episode": "2026-11-25",
+      "last_episode_title": "Saint Jensen revient",
+      "last_episode_url": "https://techcafe.fr/saint-jensen-revient/",
+      "last_episode_audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/675cbe89-6641-4b5f-ae6c-5f491ee65f76.mp3?_=1795563564",
+      "last_episode_duration": 84,
       "episodes": [
+        {
+          "title": "Saint Jensen revient",
+          "published": "2026-11-25",
+          "url": "https://techcafe.fr/saint-jensen-revient/",
+          "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/675cbe89-6641-4b5f-ae6c-5f491ee65f76.mp3?_=1795563564",
+          "duration": 84
+        },
         {
           "title": "L'IA étale sa science",
           "published": "2026-11-21",
@@ -7870,21 +7877,14 @@
           "url": "https://techcafe.fr/gare-aux-recels-diphone/",
           "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/67eb44de-c6d9-412e-87df-d6fd061423ae.mp3?_=1792537296",
           "duration": 97
-        },
-        {
-          "title": "Découvrez \"Les merveilleuses tribus du net\"",
-          "published": "2026-10-19",
-          "url": "https://podcasts.audiomeans.fr/les-merveilleuses-tribus-du-net-1a736cfc/1-les-fans-de-chats-partie-1-1ef734ec",
-          "audio": "https://audio.audiomeans.fr/file/EnfpQtbvlS/b184577d-2972-45f4-bb90-22427012d9cc.mp3?_=1792165859",
-          "duration": 40
         }
       ],
       "frequency": "weekly",
-      "frequency_days": 3,
+      "frequency_days": 4,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-25",
-      "episode_count": 561,
-      "average_duration": 86,
+      "episode_count": 562,
+      "average_duration": 85,
       "status": "active",
       "community_rating": 4.6,
       "community_rating_count": 14,
@@ -8858,12 +8858,19 @@
       "image": "https://cdn.pythonbytes.fm/static/img/podcast-theme-img_3000.jpg",
       "author": "Michael Kennedy",
       "description": "Developer headlines delivered directly to your earbuds",
-      "last_episode": "2026-11-17",
-      "last_episode_title": "#505 Introducing diskcache-oxide",
-      "last_episode_url": "https://pythonbytes.fm/episodes/show/505/introducing-diskcache-oxide",
-      "last_episode_audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/505/introducing-diskcache-oxide.mp3",
-      "last_episode_duration": 40,
+      "last_episode": "2026-11-25",
+      "last_episode_title": "#506 Raft, Rust, and release day",
+      "last_episode_url": "https://pythonbytes.fm/episodes/show/506/raft-rust-and-release-day",
+      "last_episode_audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/506/raft-rust-and-release-day.mp3",
+      "last_episode_duration": 31,
       "episodes": [
+        {
+          "title": "#506 Raft, Rust, and release day",
+          "published": "2026-11-25",
+          "url": "https://pythonbytes.fm/episodes/show/506/raft-rust-and-release-day",
+          "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/506/raft-rust-and-release-day.mp3",
+          "duration": 31
+        },
         {
           "title": "#505 Introducing diskcache-oxide",
           "published": "2026-11-17",
@@ -8926,20 +8933,13 @@
           "url": "https://pythonbytes.fm/episodes/show/497/faster-than-light-profiling",
           "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/497/faster-than-light-profiling.mp3",
           "duration": 27
-        },
-        {
-          "title": "#496 A lake house in Seattle",
-          "published": "2026-09-15",
-          "url": "https://pythonbytes.fm/episodes/show/496/a-lake-house-in-seattle",
-          "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/496/a-lake-house-in-seattle.mp3",
-          "duration": 33
         }
       ],
       "frequency": "weekly",
       "frequency_days": 7,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-25",
-      "episode_count": 505,
+      "episode_count": 506,
       "average_duration": 33,
       "status": "active",
       "community_rating": 4.7,

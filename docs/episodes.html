@@ -63,14 +63,26 @@
       <p class="lead">Une sélection chronologique des épisodes les plus récents publiés dans les flux RSS référencés, tous podcasts confondus.</p>
     </header>
     <div class="episode-filters" aria-label="Filtres des épisodes">
-      <select id="episode-topic" aria-label="Filtrer les épisodes par sujet ou catégorie"><option value="">Tous les sujets</option><option value=".NET">.NET (2)</option><option value="Administration système">Administration système (10)</option><option value="Angular">Angular (1)</option><option value="Architecture">Architecture (7)</option><option value="AWS">AWS (2)</option><option value="Azure">Azure (5)</option><option value="Carrière">Carrière (8)</option><option value="Cloud">Cloud (25)</option><option value="Cloud Security">Cloud Security (1)</option><option value="CNCF">CNCF (1)</option><option value="Cybersécurité" selected>Cybersécurité (33)</option><option value="Data">Data (1)</option><option value="DevOps">DevOps (10)</option><option value="DFIR">DFIR (10)</option><option value="Développement">Développement (22)</option><option value="Développement Web">Développement Web (2)</option><option value="GCP">GCP (1)</option><option value="GRC">GRC (2)</option><option value="IA">IA (26)</option><option value="Infrastructure">Infrastructure (3)</option><option value="Intelligence Artificielle">Intelligence Artificielle (2)</option><option value="Java">Java (1)</option><option value="JavaScript">JavaScript (2)</option><option value="Kubernetes">Kubernetes (3)</option><option value="Linux">Linux (12)</option><option value="LLM">LLM (7)</option><option value="Machine Learning">Machine Learning (2)</option><option value="Malware">Malware (1)</option><option value="Open Source">Open Source (12)</option><option value="Pentest">Pentest (10)</option><option value="Python">Python (3)</option><option value="Red Team">Red Team (10)</option><option value="Réseau">Réseau (3)</option><option value="Tech">Tech (12)</option></select>
-      <select id="episode-language" aria-label="Filtrer les épisodes par langue"><option value="">Toutes les langues</option><option value="en">Anglais (60)</option><option value="fr" selected>Français (40)</option></select>
+      <select id="episode-topic" aria-label="Filtrer les épisodes par sujet ou catégorie"><option value="">Tous les sujets</option><option value=".NET">.NET (1)</option><option value="Administration système">Administration système (9)</option><option value="Architecture">Architecture (8)</option><option value="AWS">AWS (1)</option><option value="Azure">Azure (4)</option><option value="Carrière">Carrière (8)</option><option value="Cloud">Cloud (24)</option><option value="CNCF">CNCF (1)</option><option value="Cybersécurité" selected>Cybersécurité (32)</option><option value="Data">Data (1)</option><option value="DevOps">DevOps (11)</option><option value="DFIR">DFIR (10)</option><option value="Développement">Développement (23)</option><option value="Développement Web">Développement Web (2)</option><option value="GRC">GRC (2)</option><option value="IA">IA (25)</option><option value="Infrastructure">Infrastructure (3)</option><option value="Intelligence Artificielle">Intelligence Artificielle (2)</option><option value="Java">Java (1)</option><option value="JavaScript">JavaScript (2)</option><option value="Kubernetes">Kubernetes (3)</option><option value="Linux">Linux (11)</option><option value="LLM">LLM (7)</option><option value="Machine Learning">Machine Learning (2)</option><option value="Malware">Malware (1)</option><option value="Open Source">Open Source (12)</option><option value="Pentest">Pentest (10)</option><option value="Python">Python (4)</option><option value="Red Team">Red Team (10)</option><option value="Réseau">Réseau (3)</option><option value="Tech">Tech (13)</option></select>
+      <select id="episode-language" aria-label="Filtrer les épisodes par langue"><option value="">Toutes les langues</option><option value="en">Anglais (58)</option><option value="fr" selected>Français (42)</option></select>
     </div>
     <section class="panel">
       <div class="panel-head"><h2>À écouter maintenant</h2><span class="muted" id="episode-count">22 épisodes</span></div>
       <ol class="episode-list episode-feed" id="episode-list">
-      <li class="episode episode-feed-item" hidden data-topics="Linux|Administration système" data-language="en">
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|DevOps|IA|LLM|Carrière" data-language="en">
         <span class="episode-rank">01</span>
+        <a class="episode-cover" href="podcast/the-cloudcast.html"><div class="mini-cover"><img src="https://storage.buzzsprout.com/qy0q4u4tgdaume7dfehgpznhwhn0?.jpg" alt="Pochette de The Cloudcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
+        <div class="episode-feed-body">
+          <span class="episode-date">25/11/2026</span>
+          <h3>Price Per Outcome: Rethinking AI Token Spend with Vitaly Gordon</h3>
+          <a class="episode-podcast" href="podcast/the-cloudcast.html">The Cloudcast</a>
+          <div class="chips"><a class="chip" href="/?topic=Cloud">Cloud</a><a class="chip" href="/?topic=DevOps">DevOps</a><a class="chip" href="/?topic=IA">IA</a><span class="chip chip-more" title="Cloud, DevOps, IA, LLM, Carrière">+2</span></div>
+          <audio class="episode-audio" controls preload="none" src="https://www.buzzsprout.com/3195/episodes/20178183-price-per-outcome-rethinking-ai-token-spend-with-vitaly-gordon.mp3"></audio>
+        </div>
+        <span class="episode-duration">46 min</span>
+      </li>
+      <li class="episode episode-feed-item" hidden data-topics="Linux|Administration système" data-language="en">
+        <span class="episode-rank">02</span>
         <a class="episode-cover" href="podcast/ask-noah-show.html"><div class="mini-cover"><img src="https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/3/305e3275-6919-4ed2-9ca1-b21e0cf904b2/cover.jpg?v=1" alt="Pochette de The Ask Noah Show" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">25/11/2026</span>
@@ -81,8 +93,104 @@
         </div>
         <span class="episode-duration">55 min</span>
       </li>
+      <li class="episode episode-feed-item" hidden data-topics="Développement|IA|Tech" data-language="fr">
+        <span class="episode-rank">03</span>
+        <a class="episode-cover" href="podcast/tech-cafe.html"><div class="mini-cover"><img src="https://static.audiomeans.fr/img/podcast/6babef68-0aa0-4a2a-879a-97ff3bd55131.jpg" alt="Pochette de Tech Café" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
+        <div class="episode-feed-body">
+          <span class="episode-date">25/11/2026</span>
+          <h3><a href="https://techcafe.fr/saint-jensen-revient/" target="_blank" rel="noopener noreferrer">Saint Jensen revient</a></h3>
+          <a class="episode-podcast" href="podcast/tech-cafe.html">Tech Café</a>
+          <div class="chips"><a class="chip" href="/?topic=D%C3%A9veloppement">Développement</a><a class="chip" href="/?topic=IA">IA</a><a class="chip" href="/?topic=Tech">Tech</a></div>
+          <audio class="episode-audio" controls preload="none" src="https://audio.audiomeans.fr/file/EnfpQtbvlS/675cbe89-6641-4b5f-ae6c-5f491ee65f76.mp3?_=1795563564"></audio>
+        </div>
+        <span class="episode-duration">84 min</span>
+      </li>
+      <li class="episode episode-feed-item" hidden data-topics="Développement|Python" data-language="en">
+        <span class="episode-rank">04</span>
+        <a class="episode-cover" href="podcast/python-bytes.html"><div class="mini-cover"><img src="https://cdn.pythonbytes.fm/static/img/podcast-theme-img_3000.jpg" alt="Pochette de Python Bytes" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
+        <div class="episode-feed-body">
+          <span class="episode-date">25/11/2026</span>
+          <h3><a href="https://pythonbytes.fm/episodes/show/506/raft-rust-and-release-day" target="_blank" rel="noopener noreferrer">#506 Raft, Rust, and release day</a></h3>
+          <a class="episode-podcast" href="podcast/python-bytes.html">Python Bytes</a>
+          <div class="chips"><a class="chip" href="/?topic=D%C3%A9veloppement">Développement</a><a class="chip" href="/?topic=Python">Python</a></div>
+          <audio class="episode-audio" controls preload="none" src="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/pythonbytes.fm/episodes/download/506/raft-rust-and-release-day.mp3"></audio>
+        </div>
+        <span class="episode-duration">31 min</span>
+      </li>
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
+        <span class="episode-rank">05</span>
+        <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
+        <div class="episode-feed-body">
+          <span class="episode-date">25/11/2026</span>
+          <h3><a href="https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Texas-Sports-Academy--que-financent-les-6-5-M-de-bons-scolaires-e3ssduv" target="_blank" rel="noopener noreferrer">Texas Sports Academy : que financent les 6,5 M$ de bons scolaires ?</a></h3>
+          <a class="episode-podcast" href="podcast/le-centre-de-gravite.html">Le centre de gravité</a>
+          <div class="chips"><a class="chip" href="/?topic=Cloud">Cloud</a><a class="chip" href="/?topic=IA">IA</a><a class="chip" href="/?topic=Tech">Tech</a></div>
+          <audio class="episode-audio" controls preload="none" src="https://anchor.fm/s/11065f6ec/podcast/play/129955231/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fb7617dcf-6e18-dabc-bff4-da26b7702ede.mp3"></audio>
+        </div>
+        <span class="episode-duration">7 min</span>
+      </li>
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
+        <span class="episode-rank">06</span>
+        <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
+        <div class="episode-feed-body">
+          <span class="episode-date">25/11/2026</span>
+          <h3><a href="https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenAI--peut-on-auditer-un-labo-de-lintrieur-e3sqru6" target="_blank" rel="noopener noreferrer">OpenAI : peut-on auditer un labo de l&#x27;intérieur ?</a></h3>
+          <a class="episode-podcast" href="podcast/le-centre-de-gravite.html">Le centre de gravité</a>
+          <div class="chips"><a class="chip" href="/?topic=Cloud">Cloud</a><a class="chip" href="/?topic=IA">IA</a><a class="chip" href="/?topic=Tech">Tech</a></div>
+          <audio class="episode-audio" controls preload="none" src="https://anchor.fm/s/11065f6ec/podcast/play/129904006/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fe46a5407-f34d-1355-a811-f219441258f4.mp3"></audio>
+        </div>
+        <span class="episode-duration">7 min</span>
+      </li>
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
+        <span class="episode-rank">07</span>
+        <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
+        <div class="episode-feed-body">
+          <span class="episode-date">25/11/2026</span>
+          <h3><a href="https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Juges-et-IA--o-sarrte-la-simple-assistance-au-tribunal-e3sqqt8" target="_blank" rel="noopener noreferrer">Juges et IA : où s’arrête la simple assistance au tribunal ?</a></h3>
+          <a class="episode-podcast" href="podcast/le-centre-de-gravite.html">Le centre de gravité</a>
+          <div class="chips"><a class="chip" href="/?topic=Cloud">Cloud</a><a class="chip" href="/?topic=IA">IA</a><a class="chip" href="/?topic=Tech">Tech</a></div>
+          <audio class="episode-audio" controls preload="none" src="https://anchor.fm/s/11065f6ec/podcast/play/129902952/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fa7de9953-1d76-9b1f-e24f-a44ebc20de0f.mp3"></audio>
+        </div>
+        <span class="episode-duration">7 min</span>
+      </li>
+      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
+        <span class="episode-rank">08</span>
+        <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
+        <div class="episode-feed-body">
+          <span class="episode-date">25/11/2026</span>
+          <h3><a href="https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Du-Bellay--langle-mort-des-IA-e3q03op" target="_blank" rel="noopener noreferrer">Du Bellay, l&#x27;angle mort des IA</a></h3>
+          <a class="episode-podcast" href="podcast/le-centre-de-gravite.html">Le centre de gravité</a>
+          <div class="chips"><a class="chip" href="/?topic=Cloud">Cloud</a><a class="chip" href="/?topic=IA">IA</a><a class="chip" href="/?topic=Tech">Tech</a></div>
+          <audio class="episode-audio" controls preload="none" src="https://anchor.fm/s/11065f6ec/podcast/play/126930137/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F6a96518d-17ff-3219-0bb0-ab4218369b49.mp3"></audio>
+        </div>
+        <span class="episode-duration">18 min</span>
+      </li>
+      <li class="episode episode-feed-item" hidden data-topics="Développement|Architecture" data-language="fr">
+        <span class="episode-rank">09</span>
+        <a class="episode-cover" href="podcast/if-this-then-dev.html"><div class="mini-cover"><img src="https://static.audiomeans.fr/img/podcast/b0f6c0ee-41d3-4406-9d0c-7ef45174c4b8.jpg" alt="Pochette de If This Then Dev" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
+        <div class="episode-feed-body">
+          <span class="episode-date">25/11/2026</span>
+          <h3><a href="https://podcasts.audiomeans.fr/ifttd-if-this-then-dev-a6c7a443ffca/386-1d1a7e0f66d5" target="_blank" rel="noopener noreferrer">#386.src - ESN AI Native: Remettre l&#x27;humain au coeur de l&#x27;Agentic Software Factory avec Jordan Nourry</a></h3>
+          <a class="episode-podcast" href="podcast/if-this-then-dev.html">If This Then Dev</a>
+          <div class="chips"><a class="chip" href="/?topic=D%C3%A9veloppement">Développement</a><a class="chip" href="/?topic=Architecture">Architecture</a></div>
+          <audio class="episode-audio" controls preload="none" src="https://audio.audiomeans.fr/file/EnfpQtbvlS/65ceec49-da35-4c8e-b8f7-1d1a7e0f66d5.mp3?_=1795525227"></audio>
+        </div>
+        <span class="episode-duration">73 min</span>
+      </li>
+      <li class="episode episode-feed-item" hidden data-topics="DevOps" data-language="en">
+        <span class="episode-rank">10</span>
+        <a class="episode-cover" href="podcast/arrested-devops.html"><div class="mini-cover"><img src="https://www.arresteddevops.com/img/ado-podcast-logo.png" alt="Pochette de Arrested DevOps" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
+        <div class="episode-feed-body">
+          <span class="episode-date">25/11/2026</span>
+          <h3><a href="https://www.arresteddevops.com/just-geeking/" target="_blank" rel="noopener noreferrer">Just Geeking with Cassidy Williams</a></h3>
+          <a class="episode-podcast" href="podcast/arrested-devops.html">Arrested DevOps</a>
+          <div class="chips"><a class="chip" href="/?topic=DevOps">DevOps</a></div>
+          <audio class="episode-audio" controls preload="none" src="https://media.blubrry.com/arresteddevops/content.blubrry.com/arresteddevops/arrested-devops-podcast-episode212.mp3"></audio>
+        </div>
+        <span class="episode-duration">34 min</span>
+      </li>
       <li class="episode episode-feed-item" hidden data-topics="IA|Machine Learning" data-language="en">
-        <span class="episode-rank">02</span>
+        <span class="episode-rank">11</span>
         <a class="episode-cover" href="podcast/twiml.html"><div class="mini-cover"><img src="https://megaphone-images.spotifycdn.com/podcasts/35230150-ee98-11eb-ad1a-b38cbabcd053/image/TWIML_AI_Podcast_Official_Cover_Art_1400px.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" alt="Pochette de This Week in Machine Learning &amp; AI" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -94,7 +202,7 @@
         <span class="episode-duration">70 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Open Source|Développement" data-language="en">
-        <span class="episode-rank">03</span>
+        <span class="episode-rank">12</span>
         <a class="episode-cover" href="podcast/changelog.html"><div class="mini-cover"><img src="https://cdn.changelog.com/static/images/podcasts/podcast-original-f16d0363067166f241d080ee2e2d4a28.png" alt="Pochette de The Changelog" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -106,7 +214,7 @@
         <span class="episode-duration">108 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|Architecture" data-language="en">
-        <span class="episode-rank">04</span>
+        <span class="episode-rank">13</span>
         <a class="episode-cover" href="podcast/software-engineering-daily.html"><div class="mini-cover"><img src="https://softwareengineeringdaily.com/wp-content/uploads/2026/07/sed_logo_2026.png" alt="Pochette de Software Engineering Daily" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -118,7 +226,7 @@
         <span class="episode-duration">60 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité|DFIR" data-language="fr">
-        <span class="episode-rank">05</span>
+        <span class="episode-rank">14</span>
         <a class="episode-cover" href="podcast/radiocsirt.html"><div class="mini-cover"><img src="https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png" alt="Pochette de RadioCSIRT" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -130,7 +238,7 @@
         <span class="episode-duration">11 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité|Malware" data-language="fr">
-        <span class="episode-rank">06</span>
+        <span class="episode-rank">15</span>
         <a class="episode-cover" href="podcast/le-monde-de-la-cyber.html"><div class="mini-cover"><img src="https://static.audiomeans.fr/img/podcast/5f659943-7058-46e8-952e-199f7aeaa798.jpg" alt="Pochette de Le Monde de la Cyber" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -142,7 +250,7 @@
         <span class="episode-duration">60 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
-        <span class="episode-rank">07</span>
+        <span class="episode-rank">16</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -154,7 +262,7 @@
         <span class="episode-duration">7 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
-        <span class="episode-rank">08</span>
+        <span class="episode-rank">17</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -166,7 +274,7 @@
         <span class="episode-duration">7 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
-        <span class="episode-rank">09</span>
+        <span class="episode-rank">18</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -178,43 +286,7 @@
         <span class="episode-duration">7 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
-        <span class="episode-rank">10</span>
-        <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
-        <div class="episode-feed-body">
-          <span class="episode-date">24/11/2026</span>
-          <h3><a href="https://podcasters.spotify.com/pod/show/franck-dubray/episodes/MONAI-Label--faut-il-sparer-annotation-et-entranement-e3sqsaj" target="_blank" rel="noopener noreferrer">MONAI Label : faut-il séparer annotation et entraînement ?</a></h3>
-          <a class="episode-podcast" href="podcast/le-centre-de-gravite.html">Le centre de gravité</a>
-          <div class="chips"><a class="chip" href="/?topic=Cloud">Cloud</a><a class="chip" href="/?topic=IA">IA</a><a class="chip" href="/?topic=Tech">Tech</a></div>
-          <audio class="episode-audio" controls preload="none" src="https://anchor.fm/s/11065f6ec/podcast/play/129904403/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F32a38469-a526-c7b5-8351-91150172f177.mp3"></audio>
-        </div>
-        <span class="episode-duration">7 min</span>
-      </li>
-      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
-        <span class="episode-rank">11</span>
-        <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
-        <div class="episode-feed-body">
-          <span class="episode-date">24/11/2026</span>
-          <h3><a href="https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Justice--faire-payer-son-abonnement-IA--la-partie-perdante-e3sqqr2" target="_blank" rel="noopener noreferrer">Justice : faire payer son abonnement IA à la partie perdante ?</a></h3>
-          <a class="episode-podcast" href="podcast/le-centre-de-gravite.html">Le centre de gravité</a>
-          <div class="chips"><a class="chip" href="/?topic=Cloud">Cloud</a><a class="chip" href="/?topic=IA">IA</a><a class="chip" href="/?topic=Tech">Tech</a></div>
-          <audio class="episode-audio" controls preload="none" src="https://anchor.fm/s/11065f6ec/podcast/play/129902882/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fed1fac83-8eb4-91bc-cb51-4298739ee079.mp3"></audio>
-        </div>
-        <span class="episode-duration">7 min</span>
-      </li>
-      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
-        <span class="episode-rank">12</span>
-        <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
-        <div class="episode-feed-body">
-          <span class="episode-date">24/11/2026</span>
-          <h3><a href="https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Essais-cliniques-et-Fujitsu--que-disent-les-89--de-tri-e3sqs62" target="_blank" rel="noopener noreferrer">Essais cliniques et Fujitsu : que disent les 89 % de tri ?</a></h3>
-          <a class="episode-podcast" href="podcast/le-centre-de-gravite.html">Le centre de gravité</a>
-          <div class="chips"><a class="chip" href="/?topic=Cloud">Cloud</a><a class="chip" href="/?topic=IA">IA</a><a class="chip" href="/?topic=Tech">Tech</a></div>
-          <audio class="episode-audio" controls preload="none" src="https://anchor.fm/s/11065f6ec/podcast/play/129904258/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fd050c01b-6c2d-171f-db88-5d812cfaa031.mp3"></audio>
-        </div>
-        <span class="episode-duration">7 min</span>
-      </li>
-      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
-        <span class="episode-rank">13</span>
+        <span class="episode-rank">19</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -226,7 +298,7 @@
         <span class="episode-duration">7 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
-        <span class="episode-rank">14</span>
+        <span class="episode-rank">20</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -238,7 +310,7 @@
         <span class="episode-duration">7 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
-        <span class="episode-rank">15</span>
+        <span class="episode-rank">21</span>
         <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -249,20 +321,8 @@
         </div>
         <span class="episode-duration">7 min</span>
       </li>
-      <li class="episode episode-feed-item" hidden data-topics="Cloud|IA|Tech" data-language="fr">
-        <span class="episode-rank">16</span>
-        <a class="episode-cover" href="podcast/le-centre-de-gravite.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg" alt="Pochette de Le centre de gravité" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
-        <div class="episode-feed-body">
-          <span class="episode-date">24/11/2026</span>
-          <h3><a href="https://podcasters.spotify.com/pod/show/franck-dubray/episodes/AWS--Decart-et-Trainium--acheter-la-portabilit--7-5-Md-e3sqs7v" target="_blank" rel="noopener noreferrer">AWS, Decart et Trainium : acheter la portabilité à 7,5 Md$ ?</a></h3>
-          <a class="episode-podcast" href="podcast/le-centre-de-gravite.html">Le centre de gravité</a>
-          <div class="chips"><a class="chip" href="/?topic=Cloud">Cloud</a><a class="chip" href="/?topic=IA">IA</a><a class="chip" href="/?topic=Tech">Tech</a></div>
-          <audio class="episode-audio" controls preload="none" src="https://anchor.fm/s/11065f6ec/podcast/play/129904319/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fca02c39c-5d14-f5bf-9587-c395a2b1781f.mp3"></audio>
-        </div>
-        <span class="episode-duration">8 min</span>
-      </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|Architecture" data-language="en">
-        <span class="episode-rank">17</span>
+        <span class="episode-rank">22</span>
         <a class="episode-cover" href="podcast/heavy-strategies.html"><div class="mini-cover"><img src="https://static.feedpress.com/logo/heavystrategy-65738ff49c606.png" alt="Pochette de Heavy Strategy" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -274,7 +334,7 @@
         <span class="episode-duration">46 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cybersécurité|Pentest|Red Team" data-language="en">
-        <span class="episode-rank">18</span>
+        <span class="episode-rank">23</span>
         <a class="episode-cover" href="podcast/cyberpodcast-official.html"><div class="mini-cover"><img src="https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj" alt="Pochette de CyberPodcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -286,7 +346,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cybersécurité|Pentest|Red Team" data-language="en">
-        <span class="episode-rank">19</span>
+        <span class="episode-rank">24</span>
         <a class="episode-cover" href="podcast/cyberpodcast-official.html"><div class="mini-cover"><img src="https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj" alt="Pochette de CyberPodcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">24/11/2026</span>
@@ -298,7 +358,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|JavaScript|Développement Web" data-language="en">
-        <span class="episode-rank">20</span>
+        <span class="episode-rank">25</span>
         <a class="episode-cover" href="podcast/syntax.html"><div class="mini-cover"><img src="https://megaphone-images.spotifycdn.com/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" alt="Pochette de Syntax" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">23/11/2026</span>
@@ -310,7 +370,7 @@
         <span class="episode-duration">72 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|Carrière" data-language="en">
-        <span class="episode-rank">21</span>
+        <span class="episode-rank">26</span>
         <a class="episode-cover" href="podcast/soft-skills-engineering.html"><div class="mini-cover"><img src="https://download.softskills.audio/sse-cover-art.png" alt="Pochette de Soft Skills Engineering" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">23/11/2026</span>
@@ -322,7 +382,7 @@
         <span class="episode-duration">30 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité" data-language="fr">
-        <span class="episode-rank">22</span>
+        <span class="episode-rank">27</span>
         <a class="episode-cover" href="podcast/riskintel-media.html"><div class="mini-cover"><img src="https://image.ausha.co/c3yW5F56nIhAY9CDNIzAvfwemve0u3qpH8ZClSNI_1400x1400.jpeg?t=1736074692" alt="Pochette de Riskintel Média" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">23/11/2026</span>
@@ -334,7 +394,7 @@
         <span class="episode-duration">22 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité|DFIR" data-language="fr">
-        <span class="episode-rank">23</span>
+        <span class="episode-rank">28</span>
         <a class="episode-cover" href="podcast/radiocsirt.html"><div class="mini-cover"><img src="https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png" alt="Pochette de RadioCSIRT" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">23/11/2026</span>
@@ -346,7 +406,7 @@
         <span class="episode-duration">14 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Linux|DevOps" data-language="en">
-        <span class="episode-rank">24</span>
+        <span class="episode-rank">29</span>
         <a class="episode-cover" href="podcast/linux-unplugged.html"><div class="mini-cover"><img src="https://assets.fireside.fm/file/fireside-images/podcasts/images/f/f31a453c-fa15-491f-8618-3f71f1d565e5/cover.jpg" alt="Pochette de Linux Unplugged" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">23/11/2026</span>
@@ -358,7 +418,7 @@
         <span class="episode-duration">81 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|Azure" data-language="fr">
-        <span class="episode-rank">25</span>
+        <span class="episode-rank">30</span>
         <a class="episode-cover" href="podcast/les-tetes-dans-le-cloud.html"><div class="mini-cover"><img src="https://static.audiomeans.fr/img/podcast/6d33de64-9124-475c-9be7-b4a249107108.jpg" alt="Pochette de Les Têtes dans le Cloud" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">23/11/2026</span>
@@ -370,7 +430,7 @@
         <span class="episode-duration">100 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Linux|Open Source|Administration système" data-language="en">
-        <span class="episode-rank">26</span>
+        <span class="episode-rank">31</span>
         <a class="episode-cover" href="podcast/late-night-linux.html"><div class="mini-cover"><img src="http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg" alt="Pochette de Late Night Linux" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">23/11/2026</span>
@@ -382,7 +442,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cybersécurité|Pentest|Red Team" data-language="en">
-        <span class="episode-rank">27</span>
+        <span class="episode-rank">32</span>
         <a class="episode-cover" href="podcast/cyberpodcast-official.html"><div class="mini-cover"><img src="https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj" alt="Pochette de CyberPodcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">23/11/2026</span>
@@ -394,7 +454,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cybersécurité|Pentest|Red Team" data-language="en">
-        <span class="episode-rank">28</span>
+        <span class="episode-rank">33</span>
         <a class="episode-cover" href="podcast/cyberpodcast-official.html"><div class="mini-cover"><img src="https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj" alt="Pochette de CyberPodcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">23/11/2026</span>
@@ -406,7 +466,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|DevOps|IA|LLM|Carrière" data-language="en">
-        <span class="episode-rank">29</span>
+        <span class="episode-rank">34</span>
         <a class="episode-cover" href="podcast/the-cloudcast.html"><div class="mini-cover"><img src="https://storage.buzzsprout.com/qy0q4u4tgdaume7dfehgpznhwhn0?.jpg" alt="Pochette de The Cloudcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">22/11/2026</span>
@@ -418,7 +478,7 @@
         <span class="episode-duration">32 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité|DFIR" data-language="fr">
-        <span class="episode-rank">30</span>
+        <span class="episode-rank">35</span>
         <a class="episode-cover" href="podcast/radiocsirt.html"><div class="mini-cover"><img src="https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png" alt="Pochette de RadioCSIRT" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">22/11/2026</span>
@@ -430,7 +490,7 @@
         <span class="episode-duration">35 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité" data-language="fr">
-        <span class="episode-rank">31</span>
+        <span class="episode-rank">36</span>
         <a class="episode-cover" href="podcast/nolimitsecu.html"><div class="mini-cover"><img src="https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/60/ce/8f/60ce8f21-4939-c2af-6d81-7d86a460e5f2/mza_7503302632113938466.jpg/600x600bb.jpg" alt="Pochette de NoLimitSecu" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">22/11/2026</span>
@@ -442,7 +502,7 @@
         <span class="episode-duration">5 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cybersécurité|Pentest|Red Team" data-language="en">
-        <span class="episode-rank">32</span>
+        <span class="episode-rank">37</span>
         <a class="episode-cover" href="podcast/cyberpodcast-official.html"><div class="mini-cover"><img src="https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj" alt="Pochette de CyberPodcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">22/11/2026</span>
@@ -454,7 +514,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|IA|Tech" data-language="fr">
-        <span class="episode-rank">33</span>
+        <span class="episode-rank">38</span>
         <a class="episode-cover" href="podcast/tech-cafe.html"><div class="mini-cover"><img src="https://static.audiomeans.fr/img/podcast/6babef68-0aa0-4a2a-879a-97ff3bd55131.jpg" alt="Pochette de Tech Café" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">21/11/2026</span>
@@ -466,7 +526,7 @@
         <span class="episode-duration">85 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité|DFIR" data-language="fr">
-        <span class="episode-rank">34</span>
+        <span class="episode-rank">39</span>
         <a class="episode-cover" href="podcast/radiocsirt.html"><div class="mini-cover"><img src="https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png" alt="Pochette de RadioCSIRT" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">21/11/2026</span>
@@ -478,7 +538,7 @@
         <span class="episode-duration">12 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cybersécurité|Pentest|Red Team" data-language="en">
-        <span class="episode-rank">35</span>
+        <span class="episode-rank">40</span>
         <a class="episode-cover" href="podcast/cyberpodcast-official.html"><div class="mini-cover"><img src="https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj" alt="Pochette de CyberPodcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">21/11/2026</span>
@@ -490,7 +550,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Open Source|Développement" data-language="en">
-        <span class="episode-rank">36</span>
+        <span class="episode-rank">41</span>
         <a class="episode-cover" href="podcast/changelog.html"><div class="mini-cover"><img src="https://cdn.changelog.com/static/images/podcasts/podcast-original-f16d0363067166f241d080ee2e2d4a28.png" alt="Pochette de The Changelog" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">20/11/2026</span>
@@ -502,7 +562,7 @@
         <span class="episode-duration">73 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|Kubernetes|DevOps|Carrière" data-language="en">
-        <span class="episode-rank">37</span>
+        <span class="episode-rank">42</span>
         <a class="episode-cover" href="podcast/software-defined-talk.html"><div class="mini-cover"><img src="https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/9/9b74150b-3553-49dc-8332-f89bbbba9f92/cover.jpg?v=1" alt="Pochette de Software Defined Talk" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">20/11/2026</span>
@@ -514,7 +574,7 @@
         <span class="episode-duration">55 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité|DFIR" data-language="fr">
-        <span class="episode-rank">38</span>
+        <span class="episode-rank">43</span>
         <a class="episode-cover" href="podcast/radiocsirt.html"><div class="mini-cover"><img src="https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png" alt="Pochette de RadioCSIRT" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">20/11/2026</span>
@@ -526,7 +586,7 @@
         <span class="episode-duration">9 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|Réseau|Infrastructure" data-language="en">
-        <span class="episode-rank">39</span>
+        <span class="episode-rank">44</span>
         <a class="episode-cover" href="podcast/packet-pushers.html"><div class="mini-cover"><img src="https://static.feedpress.com/logo/packetpushersweeklypodcast-653bc236a0040.png" alt="Pochette de Packet Pushers" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">20/11/2026</span>
@@ -538,7 +598,7 @@
         <span class="episode-duration">47 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Linux|Open Source|Administration système" data-language="en">
-        <span class="episode-rank">40</span>
+        <span class="episode-rank">45</span>
         <a class="episode-cover" href="podcast/late-night-linux.html"><div class="mini-cover"><img src="http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg" alt="Pochette de Late Night Linux" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">20/11/2026</span>
@@ -550,7 +610,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|Architecture" data-language="fr">
-        <span class="episode-rank">41</span>
+        <span class="episode-rank">46</span>
         <a class="episode-cover" href="podcast/if-this-then-dev.html"><div class="mini-cover"><img src="https://static.audiomeans.fr/img/podcast/b0f6c0ee-41d3-4406-9d0c-7ef45174c4b8.jpg" alt="Pochette de If This Then Dev" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">20/11/2026</span>
@@ -562,7 +622,7 @@
         <span class="episode-duration">15 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cybersécurité|Pentest|Red Team" data-language="en">
-        <span class="episode-rank">42</span>
+        <span class="episode-rank">47</span>
         <a class="episode-cover" href="podcast/cyberpodcast-official.html"><div class="mini-cover"><img src="https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj" alt="Pochette de CyberPodcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">20/11/2026</span>
@@ -574,7 +634,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cybersécurité|Pentest|Red Team" data-language="en">
-        <span class="episode-rank">43</span>
+        <span class="episode-rank">48</span>
         <a class="episode-cover" href="podcast/cyberpodcast-official.html"><div class="mini-cover"><img src="https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj" alt="Pochette de CyberPodcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">20/11/2026</span>
@@ -586,7 +646,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité|GRC" data-language="fr">
-        <span class="episode-rank">44</span>
+        <span class="episode-rank">49</span>
         <a class="episode-cover" href="podcast/compliance-without-coma.html"><div class="mini-cover"><img src="https://image.ausha.co/hNH1ZYD9kDdqrWgFHAufGnZUjq7wpZN8gNVJdajQ_1400x1400.jpeg?t=1795087059" alt="Pochette de Compliance Without Coma" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">20/11/2026</span>
@@ -598,7 +658,7 @@
         <span class="episode-duration">6 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|Architecture" data-language="en">
-        <span class="episode-rank">45</span>
+        <span class="episode-rank">50</span>
         <a class="episode-cover" href="podcast/software-engineering-daily.html"><div class="mini-cover"><img src="https://softwareengineeringdaily.com/wp-content/uploads/2026/07/sed_logo_2026.png" alt="Pochette de Software Engineering Daily" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">19/11/2026</span>
@@ -610,7 +670,7 @@
         <span class="episode-duration">36 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité|DFIR" data-language="fr">
-        <span class="episode-rank">46</span>
+        <span class="episode-rank">51</span>
         <a class="episode-cover" href="podcast/radiocsirt.html"><div class="mini-cover"><img src="https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png" alt="Pochette de RadioCSIRT" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">19/11/2026</span>
@@ -622,7 +682,7 @@
         <span class="episode-duration">14 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="IA|Intelligence Artificielle" data-language="en">
-        <span class="episode-rank">47</span>
+        <span class="episode-rank">52</span>
         <a class="episode-cover" href="podcast/practical-ai.html"><div class="mini-cover"><img src="https://img.transistorcdn.com/WMlp2ug34XB6LDJ3-vnzti_-_y144LUlFW0Xzzn3fss/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wMTZi/ZWJmNWIwNDdmYTcw/NGJjMTExZjNjZmYy/M2ZjNS5wbmc.jpg" alt="Pochette de Practical AI" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">19/11/2026</span>
@@ -634,7 +694,7 @@
         <span class="episode-duration">45 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|Azure" data-language="fr">
-        <span class="episode-rank">48</span>
+        <span class="episode-rank">53</span>
         <a class="episode-cover" href="podcast/les-tetes-dans-le-cloud.html"><div class="mini-cover"><img src="https://static.audiomeans.fr/img/podcast/6d33de64-9124-475c-9be7-b4a249107108.jpg" alt="Pochette de Les Têtes dans le Cloud" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">19/11/2026</span>
@@ -646,7 +706,7 @@
         <span class="episode-duration">21 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="LLM|IA" data-language="en">
-        <span class="episode-rank">49</span>
+        <span class="episode-rank">54</span>
         <a class="episode-cover" href="podcast/latent-space.html"><div class="mini-cover"><img src="https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818" alt="Pochette de Latent Space" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">19/11/2026</span>
@@ -658,7 +718,7 @@
         <span class="episode-duration">84 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Linux|Open Source|Administration système" data-language="en">
-        <span class="episode-rank">50</span>
+        <span class="episode-rank">55</span>
         <a class="episode-cover" href="podcast/late-night-linux.html"><div class="mini-cover"><img src="http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg" alt="Pochette de Late Night Linux" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">19/11/2026</span>
@@ -670,7 +730,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cybersécurité|Pentest|Red Team" data-language="en">
-        <span class="episode-rank">51</span>
+        <span class="episode-rank">56</span>
         <a class="episode-cover" href="podcast/cyberpodcast-official.html"><div class="mini-cover"><img src="https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj" alt="Pochette de CyberPodcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">19/11/2026</span>
@@ -682,7 +742,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cybersécurité|Pentest|Red Team" data-language="en">
-        <span class="episode-rank">52</span>
+        <span class="episode-rank">57</span>
         <a class="episode-cover" href="podcast/cyberpodcast-official.html"><div class="mini-cover"><img src="https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj" alt="Pochette de CyberPodcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">19/11/2026</span>
@@ -694,7 +754,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|.NET" data-language="en">
-        <span class="episode-rank">53</span>
+        <span class="episode-rank">58</span>
         <a class="episode-cover" href="podcast/dotnet-rocks.html"><div class="mini-cover"><img src="https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d609b60f7cc16bfd0e6416ce8d5596ec.jpg" alt="Pochette de .NET Rocks!" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">19/11/2026</span>
@@ -706,7 +766,7 @@
         <span class="episode-duration">49 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|DevOps|IA|LLM|Carrière" data-language="en">
-        <span class="episode-rank">54</span>
+        <span class="episode-rank">59</span>
         <a class="episode-cover" href="podcast/the-cloudcast.html"><div class="mini-cover"><img src="https://storage.buzzsprout.com/qy0q4u4tgdaume7dfehgpznhwhn0?.jpg" alt="Pochette de The Cloudcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">18/11/2026</span>
@@ -718,7 +778,7 @@
         <span class="episode-duration">50 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Open Source|Développement" data-language="en">
-        <span class="episode-rank">55</span>
+        <span class="episode-rank">60</span>
         <a class="episode-cover" href="podcast/changelog.html"><div class="mini-cover"><img src="https://cdn.changelog.com/static/images/podcasts/podcast-original-f16d0363067166f241d080ee2e2d4a28.png" alt="Pochette de The Changelog" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">18/11/2026</span>
@@ -730,7 +790,7 @@
         <span class="episode-duration">84 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|IA|Tech" data-language="fr">
-        <span class="episode-rank">56</span>
+        <span class="episode-rank">61</span>
         <a class="episode-cover" href="podcast/tech-cafe.html"><div class="mini-cover"><img src="https://static.audiomeans.fr/img/podcast/6babef68-0aa0-4a2a-879a-97ff3bd55131.jpg" alt="Pochette de Tech Café" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">18/11/2026</span>
@@ -742,7 +802,7 @@
         <span class="episode-duration">85 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|JavaScript|Développement Web" data-language="en">
-        <span class="episode-rank">57</span>
+        <span class="episode-rank">62</span>
         <a class="episode-cover" href="podcast/syntax.html"><div class="mini-cover"><img src="https://megaphone-images.spotifycdn.com/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" alt="Pochette de Syntax" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">18/11/2026</span>
@@ -754,7 +814,7 @@
         <span class="episode-duration">51 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité|DFIR" data-language="fr">
-        <span class="episode-rank">58</span>
+        <span class="episode-rank">63</span>
         <a class="episode-cover" href="podcast/radiocsirt.html"><div class="mini-cover"><img src="https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png" alt="Pochette de RadioCSIRT" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">18/11/2026</span>
@@ -766,7 +826,7 @@
         <span class="episode-duration">44 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité" data-language="fr">
-        <span class="episode-rank">59</span>
+        <span class="episode-rank">64</span>
         <a class="episode-cover" href="podcast/polysecure.html"><div class="mini-cover"><img src="https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/28/3f/f1/283ff12a-8b1d-f1b1-c2e8-e5edb093574c/mza_8980461369952681688.jpg/600x600bb.jpg" alt="Pochette de PolySécure" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">18/11/2026</span>
@@ -778,7 +838,7 @@
         <span class="episode-duration">55 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="LLM|IA" data-language="en">
-        <span class="episode-rank">60</span>
+        <span class="episode-rank">65</span>
         <a class="episode-cover" href="podcast/latent-space.html"><div class="mini-cover"><img src="https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818" alt="Pochette de Latent Space" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">18/11/2026</span>
@@ -790,7 +850,7 @@
         <span class="episode-duration">54 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|Architecture" data-language="fr">
-        <span class="episode-rank">61</span>
+        <span class="episode-rank">66</span>
         <a class="episode-cover" href="podcast/if-this-then-dev.html"><div class="mini-cover"><img src="https://static.audiomeans.fr/img/podcast/b0f6c0ee-41d3-4406-9d0c-7ef45174c4b8.jpg" alt="Pochette de If This Then Dev" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">18/11/2026</span>
@@ -802,7 +862,7 @@
         <span class="episode-duration">64 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|AWS|Azure|DevOps|Réseau|Infrastructure" data-language="en">
-        <span class="episode-rank">62</span>
+        <span class="episode-rank">67</span>
         <a class="episode-cover" href="podcast/day-two-cloud.html"><div class="mini-cover"><img src="https://static.feedpress.com/logo/day2cloud-669fc5e024d4b.jpg" alt="Pochette de Day Two Cloud" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">18/11/2026</span>
@@ -814,7 +874,7 @@
         <span class="episode-duration">37 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="DevOps" data-language="en">
-        <span class="episode-rank">63</span>
+        <span class="episode-rank">68</span>
         <a class="episode-cover" href="podcast/arrested-devops.html"><div class="mini-cover"><img src="https://www.arresteddevops.com/img/ado-podcast-logo.png" alt="Pochette de Arrested DevOps" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">18/11/2026</span>
@@ -826,7 +886,7 @@
         <span class="episode-duration">33 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="IA|Machine Learning" data-language="en">
-        <span class="episode-rank">64</span>
+        <span class="episode-rank">69</span>
         <a class="episode-cover" href="podcast/twiml.html"><div class="mini-cover"><img src="https://megaphone-images.spotifycdn.com/podcasts/35230150-ee98-11eb-ad1a-b38cbabcd053/image/TWIML_AI_Podcast_Official_Cover_Art_1400px.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress" alt="Pochette de This Week in Machine Learning &amp; AI" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">17/11/2026</span>
@@ -838,7 +898,7 @@
         <span class="episode-duration">58 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Linux|Administration système" data-language="en">
-        <span class="episode-rank">65</span>
+        <span class="episode-rank">70</span>
         <a class="episode-cover" href="podcast/ask-noah-show.html"><div class="mini-cover"><img src="https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/3/305e3275-6919-4ed2-9ca1-b21e0cf904b2/cover.jpg?v=1" alt="Pochette de The Ask Noah Show" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">17/11/2026</span>
@@ -850,7 +910,7 @@
         <span class="episode-duration">75 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|Architecture" data-language="en">
-        <span class="episode-rank">66</span>
+        <span class="episode-rank">71</span>
         <a class="episode-cover" href="podcast/software-engineering-daily.html"><div class="mini-cover"><img src="https://softwareengineeringdaily.com/wp-content/uploads/2026/07/sed_logo_2026.png" alt="Pochette de Software Engineering Daily" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">17/11/2026</span>
@@ -862,7 +922,7 @@
         <span class="episode-duration">54 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité|DFIR" data-language="fr">
-        <span class="episode-rank">67</span>
+        <span class="episode-rank">72</span>
         <a class="episode-cover" href="podcast/radiocsirt.html"><div class="mini-cover"><img src="https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png" alt="Pochette de RadioCSIRT" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">17/11/2026</span>
@@ -874,7 +934,7 @@
         <span class="episode-duration">12 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|Python" data-language="en">
-        <span class="episode-rank">68</span>
+        <span class="episode-rank">73</span>
         <a class="episode-cover" href="podcast/python-bytes.html"><div class="mini-cover"><img src="https://cdn.pythonbytes.fm/static/img/podcast-theme-img_3000.jpg" alt="Pochette de Python Bytes" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">17/11/2026</span>
@@ -886,7 +946,7 @@
         <span class="episode-duration">40 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité" data-language="fr">
-        <span class="episode-rank">69</span>
+        <span class="episode-rank">74</span>
         <a class="episode-cover" href="podcast/polysecure.html"><div class="mini-cover"><img src="https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/28/3f/f1/283ff12a-8b1d-f1b1-c2e8-e5edb093574c/mza_8980461369952681688.jpg/600x600bb.jpg" alt="Pochette de PolySécure" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">17/11/2026</span>
@@ -898,7 +958,7 @@
         <span class="episode-duration">68 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Linux|Open Source|Administration système" data-language="en">
-        <span class="episode-rank">70</span>
+        <span class="episode-rank">75</span>
         <a class="episode-cover" href="podcast/late-night-linux.html"><div class="mini-cover"><img src="http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg" alt="Pochette de Late Night Linux" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">17/11/2026</span>
@@ -910,7 +970,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité" data-language="fr">
-        <span class="episode-rank">71</span>
+        <span class="episode-rank">76</span>
         <a class="episode-cover" href="podcast/la-box-du-rssi.html"><div class="mini-cover"><img src="https://image.ausha.co/UmjONms2O6yvvssNOdEXazwTxejnYcft1pZ3DXuw_1400x1400.jpeg?t=1768305932" alt="Pochette de La Box du RSSI" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">17/11/2026</span>
@@ -922,7 +982,7 @@
         <span class="episode-duration">27 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|Kubernetes|CNCF" data-language="en">
-        <span class="episode-rank">72</span>
+        <span class="episode-rank">77</span>
         <a class="episode-cover" href="podcast/kubernetes-podcast.html"><div class="mini-cover"><img src="https://static.libsyn.com/p/assets/a/3/a/a/a3aa4f08236059f5e55e3c100dce7605/NewKPodRoboWhite-20240924-1zwoxpn1sl.png" alt="Pochette de Kubernetes Podcast from Google" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">17/11/2026</span>
@@ -934,7 +994,7 @@
         <span class="episode-duration">34 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Python|IA" data-language="en">
-        <span class="episode-rank">73</span>
+        <span class="episode-rank">78</span>
         <a class="episode-cover" href="podcast/talk-python.html"><div class="mini-cover"><img src="https://cdn-podcast.talkpython.fm/static/img/talk-python-3000.jpg" alt="Pochette de Talk Python To Me" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">16/11/2026</span>
@@ -946,7 +1006,7 @@
         <span class="episode-duration">63 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|Carrière" data-language="en">
-        <span class="episode-rank">74</span>
+        <span class="episode-rank">79</span>
         <a class="episode-cover" href="podcast/soft-skills-engineering.html"><div class="mini-cover"><img src="https://download.softskills.audio/sse-cover-art.png" alt="Pochette de Soft Skills Engineering" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">16/11/2026</span>
@@ -958,7 +1018,7 @@
         <span class="episode-duration">35 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité|DFIR" data-language="fr">
-        <span class="episode-rank">75</span>
+        <span class="episode-rank">80</span>
         <a class="episode-cover" href="podcast/radiocsirt.html"><div class="mini-cover"><img src="https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png" alt="Pochette de RadioCSIRT" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">16/11/2026</span>
@@ -970,7 +1030,7 @@
         <span class="episode-duration">15 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité" data-language="fr">
-        <span class="episode-rank">76</span>
+        <span class="episode-rank">81</span>
         <a class="episode-cover" href="podcast/polysecure.html"><div class="mini-cover"><img src="https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/28/3f/f1/283ff12a-8b1d-f1b1-c2e8-e5edb093574c/mza_8980461369952681688.jpg/600x600bb.jpg" alt="Pochette de PolySécure" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">16/11/2026</span>
@@ -982,7 +1042,7 @@
         <span class="episode-duration">44 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Linux|DevOps" data-language="en">
-        <span class="episode-rank">77</span>
+        <span class="episode-rank">82</span>
         <a class="episode-cover" href="podcast/linux-unplugged.html"><div class="mini-cover"><img src="https://assets.fireside.fm/file/fireside-images/podcasts/images/f/f31a453c-fa15-491f-8618-3f71f1d565e5/cover.jpg" alt="Pochette de Linux Unplugged" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">16/11/2026</span>
@@ -994,7 +1054,7 @@
         <span class="episode-duration">101 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|Java" data-language="fr">
-        <span class="episode-rank">78</span>
+        <span class="episode-rank">83</span>
         <a class="episode-cover" href="podcast/les-cast-codeurs.html"><div class="mini-cover"><img src="https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/27/d4/c2/27d4c27c-6cd5-b27d-de7f-e683c79e5442/mza_6557719921920703431.png/600x600bb.jpg" alt="Pochette de Les Cast Codeurs" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">16/11/2026</span>
@@ -1006,7 +1066,7 @@
         <span class="episode-duration">68 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="LLM|IA" data-language="en">
-        <span class="episode-rank">79</span>
+        <span class="episode-rank">84</span>
         <a class="episode-cover" href="podcast/latent-space.html"><div class="mini-cover"><img src="https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/d4933544-aa8c-47f8-a092-ec3775a7abd9/podcast_artwork_20261021-241-xyrobd.jpg?t=1792609818" alt="Pochette de Latent Space" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">16/11/2026</span>
@@ -1018,7 +1078,7 @@
         <span class="episode-duration">98 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité" data-language="fr">
-        <span class="episode-rank">80</span>
+        <span class="episode-rank">85</span>
         <a class="episode-cover" href="podcast/cyber-grand-mere.html"><div class="mini-cover"><img src="https://image.ausha.co/cJQ9LKJiAcfpKunRWM315F8VlE6graB8HmNIG00y_1400x1400.jpeg?t=1656144902" alt="Pochette de La cybersécurité expliquée à ma grand-mère" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">16/11/2026</span>
@@ -1030,7 +1090,7 @@
         <span class="episode-duration">32 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|DevOps|IA|LLM|Carrière" data-language="en">
-        <span class="episode-rank">81</span>
+        <span class="episode-rank">86</span>
         <a class="episode-cover" href="podcast/the-cloudcast.html"><div class="mini-cover"><img src="https://storage.buzzsprout.com/qy0q4u4tgdaume7dfehgpznhwhn0?.jpg" alt="Pochette de The Cloudcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">15/11/2026</span>
@@ -1042,7 +1102,7 @@
         <span class="episode-duration">46 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité|DFIR" data-language="fr">
-        <span class="episode-rank">82</span>
+        <span class="episode-rank">87</span>
         <a class="episode-cover" href="podcast/radiocsirt.html"><div class="mini-cover"><img src="https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png" alt="Pochette de RadioCSIRT" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">15/11/2026</span>
@@ -1054,7 +1114,7 @@
         <span class="episode-duration">10 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité" data-language="fr">
-        <span class="episode-rank">83</span>
+        <span class="episode-rank">88</span>
         <a class="episode-cover" href="podcast/nolimitsecu.html"><div class="mini-cover"><img src="https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/60/ce/8f/60ce8f21-4939-c2af-6d81-7d86a460e5f2/mza_7503302632113938466.jpg/600x600bb.jpg" alt="Pochette de NoLimitSecu" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">15/11/2026</span>
@@ -1066,7 +1126,7 @@
         <span class="episode-duration">5 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Linux|Open Source|Administration système" data-language="en">
-        <span class="episode-rank">84</span>
+        <span class="episode-rank">89</span>
         <a class="episode-cover" href="podcast/late-night-linux.html"><div class="mini-cover"><img src="http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg" alt="Pochette de Late Night Linux" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">15/11/2026</span>
@@ -1078,7 +1138,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Open Source|Développement" data-language="en">
-        <span class="episode-rank">85</span>
+        <span class="episode-rank">90</span>
         <a class="episode-cover" href="podcast/changelog.html"><div class="mini-cover"><img src="https://cdn.changelog.com/static/images/podcasts/podcast-original-f16d0363067166f241d080ee2e2d4a28.png" alt="Pochette de The Changelog" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">13/11/2026</span>
@@ -1090,7 +1150,7 @@
         <span class="episode-duration">140 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|Kubernetes|DevOps|Carrière" data-language="en">
-        <span class="episode-rank">86</span>
+        <span class="episode-rank">91</span>
         <a class="episode-cover" href="podcast/software-defined-talk.html"><div class="mini-cover"><img src="https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/9/9b74150b-3553-49dc-8332-f89bbbba9f92/cover.jpg?v=1" alt="Pochette de Software Defined Talk" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">13/11/2026</span>
@@ -1102,7 +1162,7 @@
         <span class="episode-duration">68 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Open Source|Développement|Python|Data" data-language="en">
-        <span class="episode-rank">87</span>
+        <span class="episode-rank">92</span>
         <a class="episode-cover" href="podcast/real-python.html"><div class="mini-cover"><img src="https://files.realpython.com/media/real-python-logo-square.28474fda9228.png" alt="Pochette de Real Python Podcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">13/11/2026</span>
@@ -1114,7 +1174,7 @@
         <span class="episode-duration">69 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="IA|Intelligence Artificielle" data-language="en">
-        <span class="episode-rank">88</span>
+        <span class="episode-rank">93</span>
         <a class="episode-cover" href="podcast/practical-ai.html"><div class="mini-cover"><img src="https://img.transistorcdn.com/WMlp2ug34XB6LDJ3-vnzti_-_y144LUlFW0Xzzn3fss/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wMTZi/ZWJmNWIwNDdmYTcw/NGJjMTExZjNjZmYy/M2ZjNS5wbmc.jpg" alt="Pochette de Practical AI" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">13/11/2026</span>
@@ -1126,7 +1186,7 @@
         <span class="episode-duration">44 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|Réseau|Infrastructure" data-language="en">
-        <span class="episode-rank">89</span>
+        <span class="episode-rank">94</span>
         <a class="episode-cover" href="podcast/packet-pushers.html"><div class="mini-cover"><img src="https://static.feedpress.com/logo/packetpushersweeklypodcast-653bc236a0040.png" alt="Pochette de Packet Pushers" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">13/11/2026</span>
@@ -1138,7 +1198,7 @@
         <span class="episode-duration">56 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Linux|Open Source|Administration système" data-language="en">
-        <span class="episode-rank">90</span>
+        <span class="episode-rank">95</span>
         <a class="episode-cover" href="podcast/late-night-linux.html"><div class="mini-cover"><img src="http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg" alt="Pochette de Late Night Linux" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">13/11/2026</span>
@@ -1150,7 +1210,7 @@
         <span class="episode-duration">—</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité|GRC" data-language="fr">
-        <span class="episode-rank">91</span>
+        <span class="episode-rank">96</span>
         <a class="episode-cover" href="podcast/compliance-without-coma.html"><div class="mini-cover"><img src="https://image.ausha.co/hNH1ZYD9kDdqrWgFHAufGnZUjq7wpZN8gNVJdajQ_1400x1400.jpeg?t=1795087059" alt="Pochette de Compliance Without Coma" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">13/11/2026</span>
@@ -1162,7 +1222,7 @@
         <span class="episode-duration">9 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Développement|Architecture" data-language="en">
-        <span class="episode-rank">92</span>
+        <span class="episode-rank">97</span>
         <a class="episode-cover" href="podcast/software-engineering-daily.html"><div class="mini-cover"><img src="https://softwareengineeringdaily.com/wp-content/uploads/2026/07/sed_logo_2026.png" alt="Pochette de Software Engineering Daily" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">12/11/2026</span>
@@ -1174,7 +1234,7 @@
         <span class="episode-duration">42 min</span>
       </li>
       <li class="episode episode-feed-item" data-topics="Cybersécurité" data-language="fr">
-        <span class="episode-rank">93</span>
+        <span class="episode-rank">98</span>
         <a class="episode-cover" href="podcast/riskintel-media.html"><div class="mini-cover"><img src="https://image.ausha.co/c3yW5F56nIhAY9CDNIzAvfwemve0u3qpH8ZClSNI_1400x1400.jpeg?t=1736074692" alt="Pochette de Riskintel Média" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">12/11/2026</span>
@@ -1186,7 +1246,7 @@
         <span class="episode-duration">78 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Cloud|Azure" data-language="fr">
-        <span class="episode-rank">94</span>
+        <span class="episode-rank">99</span>
         <a class="episode-cover" href="podcast/les-tetes-dans-le-cloud.html"><div class="mini-cover"><img src="https://static.audiomeans.fr/img/podcast/6d33de64-9124-475c-9be7-b4a249107108.jpg" alt="Pochette de Les Têtes dans le Cloud" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">12/11/2026</span>
@@ -1198,7 +1258,7 @@
         <span class="episode-duration">31 min</span>
       </li>
       <li class="episode episode-feed-item" hidden data-topics="Linux|Open Source|Administration système" data-language="en">
-        <span class="episode-rank">95</span>
+        <span class="episode-rank">100</span>
         <a class="episode-cover" href="podcast/late-night-linux.html"><div class="mini-cover"><img src="http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg" alt="Pochette de Late Night Linux" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
         <div class="episode-feed-body">
           <span class="episode-date">12/11/2026</span>
@@ -1208,66 +1268,6 @@
 
         </div>
         <span class="episode-duration">—</span>
-      </li>
-      <li class="episode episode-feed-item" hidden data-topics="Cybersécurité|Cloud Security|Cloud|AWS|Azure|GCP|IA" data-language="en">
-        <span class="episode-rank">96</span>
-        <a class="episode-cover" href="podcast/cloud-security-podcast.html"><div class="mini-cover"><img src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/2749242/2749242-1702414932410-4a0a63fceb0f9.jpg" alt="Pochette de Cloud Security Podcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
-        <div class="episode-feed-body">
-          <span class="episode-date">12/11/2026</span>
-          <h3><a href="https://podcasters.spotify.com/pod/show/cloudsecuritypodcast/episodes/How-to-Scale-Cloud-Security-with-Auto-Remediation-e3s9q67" target="_blank" rel="noopener noreferrer">How to Scale Cloud Security with Auto-Remediation</a></h3>
-          <a class="episode-podcast" href="podcast/cloud-security-podcast.html">Cloud Security Podcast</a>
-          <div class="chips"><a class="chip" href="/?topic=Cybers%C3%A9curit%C3%A9">Cybersécurité</a><a class="chip" href="/?topic=Cloud%20Security">Cloud Security</a><a class="chip" href="/?topic=Cloud">Cloud</a><span class="chip chip-more" title="Cybersécurité, Cloud Security, Cloud, AWS, Azure, GCP, IA">+4</span></div>
-          <audio class="episode-audio" controls preload="none" src="https://anchor.fm/s/10fb9928/podcast/play/129345159/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-12%2F436609594-44100-2-6c0fa1aa098c18.mp3"></audio>
-        </div>
-        <span class="episode-duration">43 min</span>
-      </li>
-      <li class="episode episode-feed-item" hidden data-topics="Développement|.NET" data-language="en">
-        <span class="episode-rank">97</span>
-        <a class="episode-cover" href="podcast/dotnet-rocks.html"><div class="mini-cover"><img src="https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d609b60f7cc16bfd0e6416ce8d5596ec.jpg" alt="Pochette de .NET Rocks!" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
-        <div class="episode-feed-body">
-          <span class="episode-date">12/11/2026</span>
-          <h3><a href="https://www.spreaker.com/episode/modern-mentorship-with-ethan-winer--76101432" target="_blank" rel="noopener noreferrer">Modern Mentorship with Ethan Winer</a></h3>
-          <a class="episode-podcast" href="podcast/dotnet-rocks.html">.NET Rocks!</a>
-          <div class="chips"><a class="chip" href="/?topic=D%C3%A9veloppement">Développement</a><a class="chip" href="/?topic=.NET">.NET</a></div>
-          <audio class="episode-audio" controls preload="none" src="https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76101432/dotnetrocks_2028_modern_mentorship_main.mp3"></audio>
-        </div>
-        <span class="episode-duration">51 min</span>
-      </li>
-      <li class="episode episode-feed-item" hidden data-topics="Cloud|DevOps|IA|LLM|Carrière" data-language="en">
-        <span class="episode-rank">98</span>
-        <a class="episode-cover" href="podcast/the-cloudcast.html"><div class="mini-cover"><img src="https://storage.buzzsprout.com/qy0q4u4tgdaume7dfehgpznhwhn0?.jpg" alt="Pochette de The Cloudcast" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
-        <div class="episode-feed-body">
-          <span class="episode-date">11/11/2026</span>
-          <h3>AI’s Netflix Moment: What Early Cloud Teaches Us About the Next Phase</h3>
-          <a class="episode-podcast" href="podcast/the-cloudcast.html">The Cloudcast</a>
-          <div class="chips"><a class="chip" href="/?topic=Cloud">Cloud</a><a class="chip" href="/?topic=DevOps">DevOps</a><a class="chip" href="/?topic=IA">IA</a><span class="chip chip-more" title="Cloud, DevOps, IA, LLM, Carrière">+2</span></div>
-          <audio class="episode-audio" controls preload="none" src="https://www.buzzsprout.com/3195/episodes/20106552-ai-s-netflix-moment-what-early-cloud-teaches-us-about-the-next-phase.mp3"></audio>
-        </div>
-        <span class="episode-duration">22 min</span>
-      </li>
-      <li class="episode episode-feed-item" hidden data-topics="Linux|Administration système" data-language="en">
-        <span class="episode-rank">99</span>
-        <a class="episode-cover" href="podcast/ask-noah-show.html"><div class="mini-cover"><img src="https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/3/305e3275-6919-4ed2-9ca1-b21e0cf904b2/cover.jpg?v=1" alt="Pochette de The Ask Noah Show" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
-        <div class="episode-feed-body">
-          <span class="episode-date">11/11/2026</span>
-          <h3><a href="https://podcast.asknoahshow.com/514" target="_blank" rel="noopener noreferrer">Episode 514: Ask Noah Show 514</a></h3>
-          <a class="episode-podcast" href="podcast/ask-noah-show.html">The Ask Noah Show</a>
-          <div class="chips"><a class="chip" href="/?topic=Linux">Linux</a><a class="chip" href="/?topic=Administration%20syst%C3%A8me">Administration système</a></div>
-          <audio class="episode-audio" controls preload="none" src="https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/1d2d8ea6-cd76-4437-bfb8-f4ead5064495.mp3"></audio>
-        </div>
-        <span class="episode-duration">53 min</span>
-      </li>
-      <li class="episode episode-feed-item" hidden data-topics="Développement|Angular|IA" data-language="en">
-        <span class="episode-rank">100</span>
-        <a class="episode-cover" href="podcast/angular-show.html"><div class="mini-cover"><img src="https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/fcc772975a2e6b3cf9d89de273b79fb5.jpg" alt="Pochette de The Angular Show" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div></a>
-        <div class="episode-feed-body">
-          <span class="episode-date">11/11/2026</span>
-          <h3><a href="https://www.spreaker.com/episode/s1e8-consulting-in-the-age-of-ai-with-ben-mchone--76293049" target="_blank" rel="noopener noreferrer">S1E8 | Consulting in the Age of AI with Ben McHone</a></h3>
-          <a class="episode-podcast" href="podcast/angular-show.html">The Angular Show</a>
-          <div class="chips"><a class="chip" href="/?topic=D%C3%A9veloppement">Développement</a><a class="chip" href="/?topic=Angular">Angular</a><a class="chip" href="/?topic=IA">IA</a></div>
-          <audio class="episode-audio" controls preload="none" src="https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76293049/ben_final_podcast.mp3"></audio>
-        </div>
-        <span class="episode-duration">47 min</span>
       </li></ol>
     </section>
   </main>

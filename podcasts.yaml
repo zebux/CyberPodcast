@@ -2455,11 +2455,51 @@ podcasts:
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
   last_episode: '2026-11-25'
-  last_episode_title: 'Texas Sports Academy : que financent les 6,5 M$ de bons scolaires ?'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Texas-Sports-Academy--que-financent-les-6-5-M-de-bons-scolaires-e3ssduv
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/129955231/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fb7617dcf-6e18-dabc-bff4-da26b7702ede.mp3
+  last_episode_title: 'Omnilert et faux positifs : qui répond de l''alerte policière ?'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Omnilert-et-faux-positifs--qui-rpond-de-lalerte-policire-e3suud7
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/130037607/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fe7bda437-62c6-2419-c305-99fee89b932b.mp3
   last_episode_duration: 7
   episodes:
+  - title: 'Omnilert et faux positifs : qui répond de l''alerte policière ?'
+    published: '2026-11-25'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Omnilert-et-faux-positifs--qui-rpond-de-lalerte-policire-e3suud7
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/130037607/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fe7bda437-62c6-2419-c305-99fee89b932b.mp3
+    duration: 7
+  - title: 'Shirudo (OpenAI/Cisco) : le piège du patch eBPF temporaire ?'
+    published: '2026-11-25'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shirudo-OpenAICisco--le-pige-du-patch-eBPF-temporaire-e3suu9a
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/130037482/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F150bdad6-eca7-3b57-e20c-ea8bd4381c08.mp3
+    duration: 7
+  - title: 'Code municipal et IA : quand la mairie consulte sans son avocat'
+    published: '2026-11-25'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Code-municipal-et-IA--quand-la-mairie-consulte-sans-son-avocat-e3suu6p
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/130037401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fe7e4d41d-f2e7-6917-0a9d-96b756d9ec2c.mp3
+    duration: 7
+  - title: 'Palantir : tracer une frappe suffit-il à protéger les civils ?'
+    published: '2026-11-25'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Palantir--tracer-une-frappe-suffit-il--protger-les-civils-e3suu4s
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/130037340/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F861951d4-1118-3ae6-cf8d-88138b406f4a.mp3
+    duration: 7
+  - title: 'AscendGYM : le vrai coût en tokens des kernels optimisés'
+    published: '2026-11-25'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/AscendGYM--le-vrai-cot-en-tokens-des-kernels-optimiss-e3ssrbq
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129968954/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fc28dd88d-f02d-22b2-3218-a3b424f7e77e.mp3
+    duration: 7
+  - title: 'Together AI & ZDR : vos prompts sont-ils vraiment effacés ?'
+    published: '2026-11-25'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Together-AI--ZDR--vos-prompts-sont-ils-vraiment-effacs-e3ssr9a
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129968874/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F5d2f8f8c-3236-8647-a765-b314c7851496.mp3
+    duration: 7
+  - title: 'Évaluation LLM : générer plus de critères ou varier les axes ?'
+    published: '2026-11-25'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/valuation-LLM--gnrer-plus-de-critres-ou-varier-les-axes-e3sse36
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129955366/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F6e54f411-2d1f-0694-e4d5-940b43b8b4ea.mp3
+    duration: 7
+  - title: 'Serveurs IA, Dell, HPE : que vaut encore un contrat à prix fixe ?'
+    published: '2026-11-25'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Serveurs-IA--Dell--HPE--que-vaut-encore-un-contrat--prix-fixe-e3sse0u
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129955294/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F4fcd1148-9366-25e4-9fca-0440b35c90c6.mp3
+    duration: 7
   - title: 'Texas Sports Academy : que financent les 6,5 M$ de bons scolaires ?'
     published: '2026-11-25'
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Texas-Sports-Academy--que-financent-les-6-5-M-de-bons-scolaires-e3ssduv
@@ -2470,51 +2510,11 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenAI--peut-on-auditer-un-labo-de-lintrieur-e3sqru6
     audio: https://anchor.fm/s/11065f6ec/podcast/play/129904006/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fe46a5407-f34d-1355-a811-f219441258f4.mp3
     duration: 7
-  - title: 'Juges et IA : où s’arrête la simple assistance au tribunal ?'
-    published: '2026-11-25'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Juges-et-IA--o-sarrte-la-simple-assistance-au-tribunal-e3sqqt8
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129902952/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fa7de9953-1d76-9b1f-e24f-a44ebc20de0f.mp3
-    duration: 7
-  - title: Du Bellay, l'angle mort des IA
-    published: '2026-11-25'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Du-Bellay--langle-mort-des-IA-e3q03op
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/126930137/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2F6a96518d-17ff-3219-0bb0-ab4218369b49.mp3
-    duration: 18
-  - title: 'Capex IA et inflation : le piège du décalage temporel'
-    published: '2026-11-24'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Capex-IA-et-inflation--le-pige-du-dcalage-temporel-e3ssdst
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129955165/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F7a62fc1b-51c4-d64e-b727-f2fe608dc9cf.mp3
-    duration: 7
-  - title: 'Stent conçu par GPT-6 Astra : le piège des 19 $ d''IA'
-    published: '2026-11-24'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Stent-conu-par-GPT-6-Astra--le-pige-des-19--dIA-e3ssdqf
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129955087/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F6f9fac26-56de-3f98-b5dd-9f3152761d79.mp3
-    duration: 7
-  - title: 'EdTech et données d''élèves : le vrai prix du brouillon numérique'
-    published: '2026-11-24'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/EdTech-et-donnes-dlves--le-vrai-prix-du-brouillon-numrique-e3ssdn9
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129954985/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F8ae62dc2-7fdd-9a18-a9fe-23dfb4b1ed36.mp3
-    duration: 7
-  - title: 'Cellules virtuelles : pourquoi les modèles lissent le vivant'
-    published: '2026-11-24'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Cellules-virtuelles--pourquoi-les-modles-lissent-le-vivant-e3ssdlp
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129954937/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F549ca952-0df9-cdc2-2957-653ffb0fc80f.mp3
-    duration: 7
-  - title: 'OpenAI : 50 000 bourses ChatGPT pour conquérir les labos ?'
-    published: '2026-11-24'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenAI--50-000-bourses-ChatGPT-pour-conqurir-les-labos-e3sqtvr
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129906107/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fda1b54bd-f12f-0cd1-8e48-c369de754d48.mp3
-    duration: 7
-  - title: 'OpenAI : pourquoi ses règles d''API verrouillent l''entraînement'
-    published: '2026-11-24'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenAI--pourquoi-ses-rgles-dAPI-verrouillent-lentranement-e3sqsdh
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/129904497/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2F909d8f9d-f755-a054-2125-63083b1560af.mp3
-    duration: 7
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
   updated_at: '2026-11-25'
-  episode_count: 1288
+  episode_count: 1296
   average_duration: 7
   status: active
   community_rating: null
@@ -3508,12 +3508,17 @@ podcasts:
   image: https://image.ausha.co/UmjONms2O6yvvssNOdEXazwTxejnYcft1pZ3DXuw_1400x1400.jpeg?t=1768305932
   author: Fabrice Bourdelon
   description: La Box du RSSI est un podcast 🎙️ dédié à la cybersécurité pour les TPE, PME et ETI. Je suis ravi de vous accueillir dans cet espace où nous allons partager, échanger et surtout VULGARISER les…
-  last_episode: '2026-11-17'
-  last_episode_title: '#060 - SAISON 3 - EP.09 - LUDOVIC LECOMTE'
-  last_episode_url: https://podcast.ausha.co/laboxdurssi/060
-  last_episode_audio: https://audio.ausha.co/wEGn6FLe525v.mp3?t=1794939672
-  last_episode_duration: 27
+  last_episode: '2026-11-25'
+  last_episode_title: '#061 - SAISON 3 - EP.10 - TIMELEON TILMANT'
+  last_episode_url: https://podcast.ausha.co/laboxdurssi/061
+  last_episode_audio: https://audio.ausha.co/D3X6KUxNAV3q.mp3?t=1795616755
+  last_episode_duration: 28
   episodes:
+  - title: '#061 - SAISON 3 - EP.10 - TIMELEON TILMANT'
+    published: '2026-11-25'
+    url: https://podcast.ausha.co/laboxdurssi/061
+    audio: https://audio.ausha.co/D3X6KUxNAV3q.mp3?t=1795616755
+    duration: 28
   - title: '#060 - SAISON 3 - EP.09 - LUDOVIC LECOMTE'
     published: '2026-11-17'
     url: https://podcast.ausha.co/laboxdurssi/060
@@ -3559,16 +3564,11 @@ podcasts:
     url: https://podcast.ausha.co/laboxdurssi/052
     audio: https://audio.ausha.co/YKg6LcLDWYMR.mp3?t=1788771540
     duration: 33
-  - title: '#051 - SAISON 2 - EP.13 - GUILIANN LE MAUFF'
-    published: '2026-06-15'
-    url: https://podcast.ausha.co/laboxdurssi/051
-    audio: https://audio.ausha.co/1PZL1SAPD1Nd.mp3?t=1781504433
-    duration: 23
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-25'
-  episode_count: 61
+  episode_count: 62
   average_duration: 27
   status: active
   community_rating: null
@@ -5074,12 +5074,17 @@ podcasts:
   image: https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj
   author: CyberPodcast
   description: CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet accessible look into the cybersecurity landscape.
-  last_episode: '2026-11-24'
-  last_episode_title: 'Thirteen Years of Tor Network Attacks | Tor Network Attacks #26 | CyberPodcast'
-  last_episode_url: https://www.youtube.com/watch?v=hz3hkKOLDSE
+  last_episode: '2026-11-25'
+  last_episode_title: OWASP Breaks Down Agentic AI Dimensions
+  last_episode_url: https://www.youtube.com/shorts/MqNc-SZboO4
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: OWASP Breaks Down Agentic AI Dimensions
+    published: '2026-11-25'
+    url: https://www.youtube.com/shorts/MqNc-SZboO4
+    audio: null
+    duration: null
   - title: 'Thirteen Years of Tor Network Attacks | Tor Network Attacks #26 | CyberPodcast'
     published: '2026-11-24'
     url: https://www.youtube.com/watch?v=hz3hkKOLDSE
@@ -5123,11 +5128,6 @@ podcasts:
   - title: 'Stealthy Traffic Analysis Can Break Tor Anonymity | Paper Breakdown #21 | CyberPodcast'
     published: '2026-11-19'
     url: https://www.youtube.com/watch?v=0zHWdWsg--0
-    audio: null
-    duration: null
-  - title: 'OWASP Top10 for LLM: Deepfake Detection Vulnerabilities'
-    published: '2026-11-19'
-    url: https://www.youtube.com/shorts/VFWtv1EGMXQ
     audio: null
     duration: null
   frequency: daily
@@ -6364,12 +6364,17 @@ podcasts:
   image: https://megaphone-images.spotifycdn.com/podcasts/5197fe5a-42f7-11f0-affd-87d9985a1760/image/c86a54acd72683732c4773e25bf0ae14.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
   author: Wes Bos
   description: Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like…
-  last_episode: '2026-11-23'
-  last_episode_title: '1057: Write Once, Deploy Everywhere'
+  last_episode: '2026-11-25'
+  last_episode_title: '1058: Can we still be proud of what we build?'
   last_episode_url: https://syntax.fm/1057
-  last_episode_audio: https://traffic.megaphone.fm/FSI9155658158.mp3
-  last_episode_duration: 72
+  last_episode_audio: https://traffic.megaphone.fm/FSI7304861123.mp3
+  last_episode_duration: 67
   episodes:
+  - title: '1058: Can we still be proud of what we build?'
+    published: '2026-11-25'
+    url: null
+    audio: https://traffic.megaphone.fm/FSI7304861123.mp3
+    duration: 67
   - title: '1057: Write Once, Deploy Everywhere'
     published: '2026-11-23'
     url: https://syntax.fm/1057
@@ -6415,17 +6420,12 @@ podcasts:
     url: https://syntax.fm/1049
     audio: https://traffic.megaphone.fm/FSI9752067287.mp3
     duration: 58
-  - title: '1048: Deno Is Dead'
-    published: '2026-10-19'
-    url: https://syntax.fm/1048
-    audio: https://traffic.megaphone.fm/FSI8730245538.mp3
-    duration: 100
   frequency: weekly
   frequency_days: 5
   first_seen: '2026-11-09'
   updated_at: '2026-11-25'
-  episode_count: 1057
-  average_duration: 66
+  episode_count: 1058
+  average_duration: 64
   status: active
   community_rating: 4.5
   community_rating_count: 72

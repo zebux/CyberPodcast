@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T18:46:15.078147+00:00",
+  "generated_at": "2026-11-25T02:54:30.606507+00:00",
   "mode": "network",
-  "duration_seconds": 9.71,
+  "duration_seconds": 9.54,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -559,7 +559,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/aec09a42-41a9-43c0-978a-f88af903da3b.mp3"
+          "url": "https://aphid.fireside.fm/d/1437767933/305e3275-6919-4ed2-9ca1-b21e0cf904b2/a20c2109-13ba-4193-bc2d-81993a77a9bb.mp3"
         }
       }
     },
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129986691/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F703eba07-1f64-1a5c-a2e5-f45e398afd6b.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/129955165/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F7a62fc1b-51c4-d64e-b727-f2fe608dc9cf.mp3"
         }
       }
     },
@@ -1134,7 +1134,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://track.podcastics.com/7830/440811.mp3"
+          "url": "https://track.podcastics.com/7830/440948.mp3"
         }
       }
     },
@@ -1571,7 +1571,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/692/the-changelog-692.mp3"
+          "url": "https://op3.dev/e/https://pscrb.fm/rss/p/https://cdn.changelog.com/uploads/podcast/693/the-changelog-693.mp3"
         }
       }
     },
@@ -1866,11 +1866,11 @@
         },
         "image": {
           "status": "unchecked",
-          "url": "https://megaphone.imgix.net/podcasts/35230150-ee98-11eb-ad1a-b38cbabcd053/image/TWIML_AI_Podcast_Official_Cover_Art_1400px.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
+          "url": "https://megaphone-images.spotifycdn.com/podcasts/35230150-ee98-11eb-ad1a-b38cbabcd053/image/TWIML_AI_Podcast_Official_Cover_Art_1400px.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress"
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN1029197842.mp3"
+          "url": "https://pscrb.fm/rss/p/traffic.megaphone.fm/MLN2250038870.mp3"
         }
       }
     },

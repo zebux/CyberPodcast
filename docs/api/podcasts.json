@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T12:59:13.474550+00:00",
+  "generated_at": "2026-11-26T22:07:33.469390+00:00",
   "site": "https://cyberpodcast.fr/",
   "count": 86,
   "podcasts": [
@@ -2726,12 +2726,19 @@
       "image": "http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg",
       "author": "Late Night Linux",
       "description": "Podcast britannique d'actualité Linux, open source et administration système.",
-      "last_episode": "2026-11-23",
-      "last_episode_title": "Late Night Linux – Episode 413",
-      "last_episode_url": "https://latenightlinux.com/late-night-linux-episode-413/",
+      "last_episode": "2026-11-26",
+      "last_episode_title": "2.5 Admins 327: Everything Breaks",
+      "last_episode_url": "https://latenightlinux.com/2-5-admins-327/",
       "last_episode_audio": null,
       "last_episode_duration": null,
       "episodes": [
+        {
+          "title": "2.5 Admins 327: Everything Breaks",
+          "published": "2026-11-26",
+          "url": "https://latenightlinux.com/2-5-admins-327/",
+          "audio": null,
+          "duration": null
+        },
         {
           "title": "Late Night Linux – Episode 413",
           "published": "2026-11-23",
@@ -2794,20 +2801,13 @@
           "url": "https://latenightlinux.com/late-night-linux-episode-411/",
           "audio": null,
           "duration": null
-        },
-        {
-          "title": "Linux After Dark – Episode 134",
-          "published": "2026-11-06",
-          "url": "https://latenightlinux.com/linux-after-dark-episode-134/",
-          "audio": null,
-          "duration": null
         }
       ],
       "frequency": "daily",
       "frequency_days": 2,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-26",
-      "episode_count": 1062,
+      "episode_count": 1063,
       "average_duration": null,
       "status": "active",
       "community_rating": 4.6,
@@ -3118,79 +3118,79 @@
       "author": "Franck Dubray - Dragonfly",
       "description": "Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.",
       "last_episode": "2026-11-26",
-      "last_episode_title": "Boileau, l'angle mort des IA",
-      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Boileau--langle-mort-des-IA-e3q03r7",
-      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/126930215/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Feba04405-79c2-bd08-9a88-5fc1c6d60e3d.mp3",
-      "last_episode_duration": 18,
+      "last_episode_title": "Logiciel pour soi : 47 % du temps à vérifier, dans cette étude",
+      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Logiciel-pour-soi--47--du-temps--vrifier--dans-cette-tude-e3t3220",
+      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/130172416/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F7f9afa4e-6f84-b428-9ba3-2787847a164f.mp3",
+      "last_episode_duration": 7,
       "episodes": [
         {
-          "title": "Boileau, l'angle mort des IA",
+          "title": "Logiciel pour soi : 47 % du temps à vérifier, dans cette étude",
           "published": "2026-11-26",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Boileau--langle-mort-des-IA-e3q03r7",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/126930215/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Feba04405-79c2-bd08-9a88-5fc1c6d60e3d.mp3",
-          "duration": 18
-        },
-        {
-          "title": "Omnilert et faux positifs : qui répond de l'alerte policière ?",
-          "published": "2026-11-25",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Omnilert-et-faux-positifs--qui-rpond-de-lalerte-policire-e3suud7",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130037607/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fe7bda437-62c6-2419-c305-99fee89b932b.mp3",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Logiciel-pour-soi--47--du-temps--vrifier--dans-cette-tude-e3t3220",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130172416/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F7f9afa4e-6f84-b428-9ba3-2787847a164f.mp3",
           "duration": 7
         },
         {
-          "title": "Shirudo (OpenAI/Cisco) : le piège du patch eBPF temporaire ?",
-          "published": "2026-11-25",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shirudo-OpenAICisco--le-pige-du-patch-eBPF-temporaire-e3suu9a",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130037482/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F150bdad6-eca7-3b57-e20c-ea8bd4381c08.mp3",
+          "title": "Shadow AI au bureau : bloquer les outils ou perdre la vue ?",
+          "published": "2026-11-26",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shadow-AI-au-bureau--bloquer-les-outils-ou-perdre-la-vue-e3t31an",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130171671/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2Fcd6826f4-76fd-cce7-aa11-ae10a9572fc5.mp3",
           "duration": 7
         },
         {
-          "title": "Code municipal et IA : quand la mairie consulte sans son avocat",
-          "published": "2026-11-25",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Code-municipal-et-IA--quand-la-mairie-consulte-sans-son-avocat-e3suu6p",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130037401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fe7e4d41d-f2e7-6917-0a9d-96b756d9ec2c.mp3",
+          "title": "Puces 14/16 nm et TSMC : le coût de prouver son usage",
+          "published": "2026-11-26",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Puces-1416-nm-et-TSMC--le-cot-de-prouver-son-usage-e3t2vef",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130169743/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2Fafb7f8d2-3bce-e1fd-b03e-5f82d06ed7e6.mp3",
           "duration": 7
         },
         {
-          "title": "Palantir : tracer une frappe suffit-il à protéger les civils ?",
-          "published": "2026-11-25",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Palantir--tracer-une-frappe-suffit-il--protger-les-civils-e3suu4s",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130037340/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F861951d4-1118-3ae6-cf8d-88138b406f4a.mp3",
+          "title": "GPT‑6.2 et protéines : qui a vraiment conçu les 35 liaisons ?",
+          "published": "2026-11-26",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/GPT6-2-et-protines--qui-a-vraiment-conu-les-35-liaisons-e3t2u3d",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130168365/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F5db4ee18-4393-53eb-1e4a-faad1dac7da5.mp3",
           "duration": 7
         },
         {
-          "title": "AscendGYM : le vrai coût en tokens des kernels optimisés",
-          "published": "2026-11-25",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/AscendGYM--le-vrai-cot-en-tokens-des-kernels-optimiss-e3ssrbq",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129968954/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fc28dd88d-f02d-22b2-3218-a3b424f7e77e.mp3",
+          "title": "Claude et les trous noirs : calcul résolu ou piste fermée ?",
+          "published": "2026-11-26",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Claude-et-les-trous-noirs--calcul-rsolu-ou-piste-ferme-e3suv4c",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130038348/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Ff0c15f23-502e-d8ae-125c-45318e2676ae.mp3",
           "duration": 7
         },
         {
-          "title": "Together AI & ZDR : vos prompts sont-ils vraiment effacés ?",
-          "published": "2026-11-25",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Together-AI--ZDR--vos-prompts-sont-ils-vraiment-effacs-e3ssr9a",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129968874/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F5d2f8f8c-3236-8647-a765-b314c7851496.mp3",
+          "title": "ASML et MATCH Act : qui contrôle la maintenance en Chine ?",
+          "published": "2026-11-26",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/ASML-et-MATCH-Act--qui-contrle-la-maintenance-en-Chine-e3suv1s",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130038268/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F1805740f-6a36-874f-7d46-ca487f706dcd.mp3",
           "duration": 7
         },
         {
-          "title": "Évaluation LLM : générer plus de critères ou varier les axes ?",
-          "published": "2026-11-25",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/valuation-LLM--gnrer-plus-de-critres-ou-varier-les-axes-e3sse36",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129955366/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F6e54f411-2d1f-0694-e4d5-940b43b8b4ea.mp3",
+          "title": "Hayden AI à San Francisco : 55 M$ pour verbaliser ou rouler ?",
+          "published": "2026-11-26",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Hayden-AI--San-Francisco--55-M-pour-verbaliser-ou-rouler-e3suuq7",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130038023/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fafb1080f-257b-c50b-b692-ec9ecdfbe6ae.mp3",
           "duration": 7
         },
         {
-          "title": "Serveurs IA, Dell, HPE : que vaut encore un contrat à prix fixe ?",
-          "published": "2026-11-25",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Serveurs-IA--Dell--HPE--que-vaut-encore-un-contrat--prix-fixe-e3sse0u",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129955294/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2F4fcd1148-9366-25e4-9fca-0440b35c90c6.mp3",
+          "title": "Interprétabilité : le piège des « Parasite Features »",
+          "published": "2026-11-26",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Interprtabilit--le-pige-des--Parasite-Features-e3suun1",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130037921/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fb7c8c6f4-ea4e-f621-b5d2-3c2455d86886.mp3",
           "duration": 7
         },
         {
-          "title": "Texas Sports Academy : que financent les 6,5 M$ de bons scolaires ?",
-          "published": "2026-11-25",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Texas-Sports-Academy--que-financent-les-6-5-M-de-bons-scolaires-e3ssduv",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129955231/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fb7617dcf-6e18-dabc-bff4-da26b7702ede.mp3",
+          "title": "Gallium et germanium chinois : le piège du sursis de 2 mois",
+          "published": "2026-11-26",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Gallium-et-germanium-chinois--le-pige-du-sursis-de-2-mois-e3suujn",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130037815/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fd2485e7b-54ae-8f71-89d8-445f5b718036.mp3",
+          "duration": 8
+        },
+        {
+          "title": "Diagnostic des maladies rares : le biais caché des benchmarks",
+          "published": "2026-11-26",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Diagnostic-des-maladies-rares--le-biais-cach-des-benchmarks-e3suuhf",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/130037743/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F364b1512-e719-729b-1e08-58240e4f41e5.mp3",
           "duration": 7
         }
       ],
@@ -3198,7 +3198,7 @@
       "frequency_days": 1,
       "first_seen": "2026-11-16",
       "updated_at": "2026-11-26",
-      "episode_count": 1302,
+      "episode_count": 1309,
       "average_duration": 7,
       "status": "active",
       "community_rating": null,
@@ -4464,13 +4464,13 @@
       "author": "Fabrice Bourdelon",
       "description": "La Box du RSSI est un podcast 🎙️ dédié à la cybersécurité pour les TPE, PME et ETI. Je suis ravi de vous accueillir dans cet espace où nous allons partager, échanger et surtout VULGARISER les…",
       "last_episode": "2026-11-25",
-      "last_episode_title": "#061 - SAISON 3 - EP.10 - TIMELEON TILMANT",
+      "last_episode_title": "#061 - SAISON 3 - EP.10 - TIMOLEON TILMANT",
       "last_episode_url": "https://podcast.ausha.co/laboxdurssi/061",
       "last_episode_audio": "https://audio.ausha.co/D3X6KUxNAV3q.mp3?t=1795616755",
       "last_episode_duration": 28,
       "episodes": [
         {
-          "title": "#061 - SAISON 3 - EP.10 - TIMELEON TILMANT",
+          "title": "#061 - SAISON 3 - EP.10 - TIMOLEON TILMANT",
           "published": "2026-11-25",
           "url": "https://podcast.ausha.co/laboxdurssi/061",
           "audio": "https://audio.ausha.co/D3X6KUxNAV3q.mp3?t=1795616755",
@@ -5841,7 +5841,7 @@
       "rss": "https://polysecure.ca/general_feed.xml",
       "youtube": "https://www.youtube.com/@polysecurepodcast",
       "spotify": "https://open.spotify.com/show/2Aal9u7zflmLOEpzhJ5uvu",
-      "apple_podcast": "https://podcasts.apple.com/ca/podcast/polysecure-podcast/id1561084634",
+      "apple_podcast": "https://podcasts.apple.com/fr/podcast/polys%C3%A9cure-podcast/id1561084634?uo=4",
       "linkedin": null,
       "deezer": null,
       "pocket_casts": "https://pca.st/piz8zozv",
@@ -6403,7 +6403,7 @@
       "updated_at": "2026-11-26",
       "episode_count": 2,
       "average_duration": null,
-      "status": "active",
+      "status": "archived",
       "community_rating": null,
       "community_rating_count": null,
       "platform": "Spotify for Creators",
@@ -6417,7 +6417,8 @@
         "Cybersécurité"
       ],
       "tags": [
-        "Cybersécurité"
+        "Society & Culture",
+        "Personal Journals"
       ]
     },
     {
@@ -6445,12 +6446,26 @@
       "image": "https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj",
       "author": "CyberPodcast",
       "description": "CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet accessible look into the cybersecurity landscape.",
-      "last_episode": "2026-11-25",
-      "last_episode_title": "OWASP Breaks Down Agentic AI Dimensions",
-      "last_episode_url": "https://www.youtube.com/shorts/MqNc-SZboO4",
+      "last_episode": "2026-11-26",
+      "last_episode_title": "OWASP AI Security: Agentic AI Risks & Autonomy Spectrum",
+      "last_episode_url": "https://www.youtube.com/shorts/TBVz4wT7i-A",
       "last_episode_audio": null,
       "last_episode_duration": null,
       "episodes": [
+        {
+          "title": "OWASP AI Security: Agentic AI Risks & Autonomy Spectrum",
+          "published": "2026-11-26",
+          "url": "https://www.youtube.com/shorts/TBVz4wT7i-A",
+          "audio": null,
+          "duration": null
+        },
+        {
+          "title": "Why Free MIX Networks Are Less Secure Than Cascades | Paper Breakdown #22 | CyberPodcast",
+          "published": "2026-11-26",
+          "url": "https://www.youtube.com/watch?v=EELwWS0ILJI",
+          "audio": null,
+          "duration": null
+        },
         {
           "title": "OWASP Breaks Down Agentic AI Dimensions",
           "published": "2026-11-25",
@@ -6504,20 +6519,6 @@
           "title": "Why Deepfakes Work: Amygdala Hijack Explained",
           "published": "2026-11-20",
           "url": "https://www.youtube.com/shorts/KD1S8aggYeU",
-          "audio": null,
-          "duration": null
-        },
-        {
-          "title": "OWASP GenAI COMPASS RunBook 1.0 | Podcast #13 | OWASP AI Security | CyberPodcast",
-          "published": "2026-11-20",
-          "url": "https://www.youtube.com/watch?v=Sz7ZSHRDeaw",
-          "audio": null,
-          "duration": null
-        },
-        {
-          "title": "Stealthy Traffic Analysis Can Break Tor Anonymity | Paper Breakdown #21 | CyberPodcast",
-          "published": "2026-11-19",
-          "url": "https://www.youtube.com/watch?v=0zHWdWsg--0",
           "audio": null,
           "duration": null
         }
@@ -6793,7 +6794,17 @@
         "Cybersécurité"
       ],
       "tags": [
-        "Cybersécurité"
+        "hacking",
+        "hackers",
+        "hacker",
+        "hack",
+        "surveillance",
+        "privacy",
+        "vie privée",
+        "piratage",
+        "Technology",
+        "News",
+        "Tech News"
       ]
     },
     {
@@ -8582,7 +8593,7 @@
       "rss": "https://cppcast.com/feed.rss",
       "youtube": null,
       "spotify": "https://open.spotify.com/show/3NPVzS05lvJLv3ovgF3OAP",
-      "apple_podcast": "https://podcasts.apple.com/us/podcast/cppcast/id968703120",
+      "apple_podcast": "https://podcasts.apple.com/us/podcast/cppcast/id968703120?uo=4",
       "linkedin": null,
       "deezer": null,
       "pocket_casts": "https://pca.st/2onqeys1",
@@ -9355,7 +9366,7 @@
       "rss": "https://javascriptjabber.com/feed",
       "youtube": "https://www.youtube.com/playlist?list=PLJesql-aSfX4bg83Xuq_0QZs6MLSyklkq",
       "spotify": "https://open.spotify.com/show/6xpiit8aJmwDHk1rKdxmri",
-      "apple_podcast": "https://podcasts.apple.com/us/podcast/javascript-jabber/id1237401284",
+      "apple_podcast": "https://podcasts.apple.com/us/podcast/javascript-jabber/id496893300?uo=4",
       "linkedin": null,
       "deezer": null,
       "pocket_casts": null,
@@ -9449,8 +9460,8 @@
       "episode_count": 738,
       "average_duration": 69,
       "status": "slow",
-      "community_rating": 3.6,
-      "community_rating_count": 65,
+      "community_rating": 4.4,
+      "community_rating_count": 233,
       "platform": "autre",
       "hosting_platform": null,
       "listening_platforms": [
@@ -9738,7 +9749,7 @@
       "rss": "https://serve.podhome.fm/rss/c9abdd38-a5dc-5eb2-96fd-f833f93208a7",
       "youtube": null,
       "spotify": "https://open.spotify.com/show/19KSYTTB5DTEb2z5Q3qiTh",
-      "apple_podcast": "https://podcasts.apple.com/us/podcast/the-machine-learning-podcast/id1626358243",
+      "apple_podcast": "https://podcasts.apple.com/us/podcast/ai-engineering-podcast/id1626358243?uo=4",
       "linkedin": null,
       "deezer": null,
       "pocket_casts": "https://pca.st/itunes/1626358243",

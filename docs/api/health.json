@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26T12:59:13.380907+00:00",
+  "generated_at": "2026-11-26T22:07:33.369673+00:00",
   "mode": "network",
-  "duration_seconds": 9.45,
+  "duration_seconds": 9.42,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/126930215/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Feba04405-79c2-bd08-9a88-5fc1c6d60e3d.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/130172416/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F7f9afa4e-6f84-b428-9ba3-2787847a164f.mp3"
         }
       }
     },

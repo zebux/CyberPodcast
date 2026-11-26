@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T20:52:54.223449+00:00",
+  "generated_at": "2026-11-26T03:20:47.948327+00:00",
   "mode": "network",
-  "duration_seconds": 9.1,
+  "duration_seconds": 10.05,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -1134,7 +1134,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://track.podcastics.com/7830/440948.mp3"
+          "url": "https://track.podcastics.com/7830/441101.mp3"
         }
       }
     },
@@ -1617,7 +1617,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76356116/dotnetrocks_2029_owasp_top_ten_and_asp_net_core.mp3"
+          "url": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/76579259/dotnetrocks_2030_who_owns_the_code.mp3"
         }
       }
     },
@@ -1663,7 +1663,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/talkpython.fm/episodes/download/569/connecting-agents-to-data-via-mcp-cli-and-more.mp3?v=2"
+          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/talkpython.fm/episodes/download/570/free-threaded-python.mp3?v=2"
         }
       }
     },

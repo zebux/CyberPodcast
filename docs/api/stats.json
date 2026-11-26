@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-26T03:20:48.071710+00:00",
+  "generated_at": "2026-11-26T12:59:13.474550+00:00",
   "total": 86,
-  "total_episodes": 25983,
+  "total_episodes": 25991,
   "with_rss": 86,
   "with_image": 86,
   "with_audio": 84,
   "rated": 65,
-  "average_rating": 4.72,
+  "average_rating": 4.71,
   "by_status": {
     "slow": 18,
-    "archived": 14,
-    "active": 54
+    "archived": 13,
+    "active": 55
   },
   "by_language": {
     "fr": 43,
@@ -43,7 +43,7 @@
     "YouTube": 56,
     "Amazon Music": 20,
     "Pocket Casts": 26,
-    "Castbox": 18,
+    "Castbox": 19,
     "Podcast Addict": 36,
     "Deezer": 5
   },

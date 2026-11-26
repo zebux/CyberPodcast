@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T03:20:48.071710+00:00",
+  "generated_at": "2026-11-26T12:59:13.474550+00:00",
   "site": "https://cyberpodcast.fr/",
   "count": 86,
   "podcasts": [
@@ -3117,12 +3117,19 @@
       "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg",
       "author": "Franck Dubray - Dragonfly",
       "description": "Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.",
-      "last_episode": "2026-11-25",
-      "last_episode_title": "Omnilert et faux positifs : qui répond de l'alerte policière ?",
-      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Omnilert-et-faux-positifs--qui-rpond-de-lalerte-policire-e3suud7",
-      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/130037607/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fe7bda437-62c6-2419-c305-99fee89b932b.mp3",
-      "last_episode_duration": 7,
+      "last_episode": "2026-11-26",
+      "last_episode_title": "Boileau, l'angle mort des IA",
+      "last_episode_url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Boileau--langle-mort-des-IA-e3q03r7",
+      "last_episode_audio": "https://anchor.fm/s/11065f6ec/podcast/play/126930215/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Feba04405-79c2-bd08-9a88-5fc1c6d60e3d.mp3",
+      "last_episode_duration": 18,
       "episodes": [
+        {
+          "title": "Boileau, l'angle mort des IA",
+          "published": "2026-11-26",
+          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Boileau--langle-mort-des-IA-e3q03r7",
+          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/126930215/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Feba04405-79c2-bd08-9a88-5fc1c6d60e3d.mp3",
+          "duration": 18
+        },
         {
           "title": "Omnilert et faux positifs : qui répond de l'alerte policière ?",
           "published": "2026-11-25",
@@ -3185,20 +3192,13 @@
           "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Texas-Sports-Academy--que-financent-les-6-5-M-de-bons-scolaires-e3ssduv",
           "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129955231/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-23%2Fb7617dcf-6e18-dabc-bff4-da26b7702ede.mp3",
           "duration": 7
-        },
-        {
-          "title": "OpenAI : peut-on auditer un labo de l'intérieur ?",
-          "published": "2026-11-25",
-          "url": "https://podcasters.spotify.com/pod/show/franck-dubray/episodes/OpenAI--peut-on-auditer-un-labo-de-lintrieur-e3sqru6",
-          "audio": "https://anchor.fm/s/11065f6ec/podcast/play/129904006/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fe46a5407-f34d-1355-a811-f219441258f4.mp3",
-          "duration": 7
         }
       ],
       "frequency": "daily",
       "frequency_days": 1,
       "first_seen": "2026-11-16",
       "updated_at": "2026-11-26",
-      "episode_count": 1296,
+      "episode_count": 1302,
       "average_duration": 7,
       "status": "active",
       "community_rating": null,
@@ -5841,7 +5841,7 @@
       "rss": "https://polysecure.ca/general_feed.xml",
       "youtube": "https://www.youtube.com/@polysecurepodcast",
       "spotify": "https://open.spotify.com/show/2Aal9u7zflmLOEpzhJ5uvu",
-      "apple_podcast": "https://podcasts.apple.com/fr/podcast/polys%C3%A9cure-podcast/id1561084634?uo=4",
+      "apple_podcast": "https://podcasts.apple.com/ca/podcast/polysecure-podcast/id1561084634",
       "linkedin": null,
       "deezer": null,
       "pocket_casts": "https://pca.st/piz8zozv",
@@ -6117,12 +6117,19 @@
       "image": "https://www.radiocsirt.org/wp-content/uploads/2024/11/cover-1-1024x1024.png",
       "author": "Marc Frédéric GOMEZ",
       "description": "Podcast consacré aux CSIRT, à la réponse à incident et à la cybersécurité opérationnelle.",
-      "last_episode": "2026-11-25",
-      "last_episode_title": "Ep.809 -Drupal et Optimizely, GeoServer - Flash info du mercredi 25 novembre 2026",
-      "last_episode_url": "https://www.radiocsirt.org/podcast/ep-809-drupal-et-optimizely-geoserver-flash-info-du-mercredi-25-novembre-2026/",
-      "last_episode_audio": "https://track.podcastics.com/7830/441101.mp3",
-      "last_episode_duration": 10,
+      "last_episode": "2026-11-26",
+      "last_episode_title": "Ep.810 - KEV de la CISA, Mitel MiCollab, Xen Orchestra - Jeudi 26 novembre 2026",
+      "last_episode_url": "https://www.radiocsirt.org/podcast/ep-810-kev-de-la-cisa-mitel-micollab-xen-orchestra-jeudi-26-novembre-2026/",
+      "last_episode_audio": "https://track.podcastics.com/7830/441119.mp3",
+      "last_episode_duration": 23,
       "episodes": [
+        {
+          "title": "Ep.810 - KEV de la CISA, Mitel MiCollab, Xen Orchestra - Jeudi 26 novembre 2026",
+          "published": "2026-11-26",
+          "url": "https://www.radiocsirt.org/podcast/ep-810-kev-de-la-cisa-mitel-micollab-xen-orchestra-jeudi-26-novembre-2026/",
+          "audio": "https://track.podcastics.com/7830/441119.mp3",
+          "duration": 23
+        },
         {
           "title": "Ep.809 -Drupal et Optimizely, GeoServer - Flash info du mercredi 25 novembre 2026",
           "published": "2026-11-25",
@@ -6185,21 +6192,14 @@
           "url": "https://www.radiocsirt.org/podcast/ep-803-httpx-optimjack-flash-info-du-mardi-17-novembre-2026/",
           "audio": "https://track.podcastics.com/7830/440111.mp3",
           "duration": 12
-        },
-        {
-          "title": "Ep.802 - LiteLLM, Kerberos - Flash info du lundi 16 novembre 2026",
-          "published": "2026-11-16",
-          "url": "https://www.radiocsirt.org/podcast/ep-802-litellm-kerberos-flash-info-du-lundi-16-novembre-2026/",
-          "audio": "https://track.podcastics.com/7830/439934.mp3",
-          "duration": 15
         }
       ],
       "frequency": "daily",
       "frequency_days": 1,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-26",
-      "episode_count": 815,
-      "average_duration": 12,
+      "episode_count": 816,
+      "average_duration": 13,
       "status": "active",
       "community_rating": 4.9,
       "community_rating_count": 62,
@@ -6403,7 +6403,7 @@
       "updated_at": "2026-11-26",
       "episode_count": 2,
       "average_duration": null,
-      "status": "archived",
+      "status": "active",
       "community_rating": null,
       "community_rating_count": null,
       "platform": "Spotify for Creators",
@@ -6417,8 +6417,7 @@
         "Cybersécurité"
       ],
       "tags": [
-        "Society & Culture",
-        "Personal Journals"
+        "Cybersécurité"
       ]
     },
     {
@@ -6794,17 +6793,7 @@
         "Cybersécurité"
       ],
       "tags": [
-        "hacking",
-        "hackers",
-        "hacker",
-        "hack",
-        "surveillance",
-        "privacy",
-        "vie privée",
-        "piratage",
-        "Technology",
-        "News",
-        "Tech News"
+        "Cybersécurité"
       ]
     },
     {
@@ -8338,12 +8327,19 @@
       "image": "https://softwareengineeringdaily.com/wp-content/uploads/2026/07/sed_logo_2026.png",
       "author": "Software Engineering Daily",
       "description": "Technical interviews about software topics.",
-      "last_episode": "2026-11-24",
-      "last_episode_title": "Steve Yegge on Building Software Factories",
-      "last_episode_url": "https://softwareengineeringdaily.com/podcasts/steve-yegge-on-building-software-factories/",
-      "last_episode_audio": "https://media.transistor.fm/b159157f/bd5804ae.mp3",
-      "last_episode_duration": 60,
+      "last_episode": "2026-11-26",
+      "last_episode_title": "Temporal and Durable Execution for AI Agents",
+      "last_episode_url": "https://softwareengineeringdaily.com/podcasts/temporal-and-durable-execution-for-ai-agents/",
+      "last_episode_audio": "https://media.transistor.fm/9d768b37/782f9b88.mp3",
+      "last_episode_duration": 47,
       "episodes": [
+        {
+          "title": "Temporal and Durable Execution for AI Agents",
+          "published": "2026-11-26",
+          "url": "https://softwareengineeringdaily.com/podcasts/temporal-and-durable-execution-for-ai-agents/",
+          "audio": "https://media.transistor.fm/9d768b37/782f9b88.mp3",
+          "duration": 47
+        },
         {
           "title": "Steve Yegge on Building Software Factories",
           "published": "2026-11-24",
@@ -8406,17 +8402,10 @@
           "url": "https://softwareengineeringdaily.com/podcasts/managing-ai-coding-costs-at-scale/",
           "audio": "https://media.transistor.fm/6e0e955f/43980af7.mp3",
           "duration": 61
-        },
-        {
-          "title": "Blitzy and Autonomous Software Development for Enterprise",
-          "published": "2026-10-22",
-          "url": "https://softwareengineeringdaily.com/podcasts/blitzy-and-autonomous-software-development-for-enterprise/",
-          "audio": "https://media.transistor.fm/dd637ae2/ead5439c.mp3",
-          "duration": 51
         }
       ],
-      "frequency": "weekly",
-      "frequency_days": 5,
+      "frequency": "daily",
+      "frequency_days": 2,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-26",
       "episode_count": 104,
@@ -8593,7 +8582,7 @@
       "rss": "https://cppcast.com/feed.rss",
       "youtube": null,
       "spotify": "https://open.spotify.com/show/3NPVzS05lvJLv3ovgF3OAP",
-      "apple_podcast": "https://podcasts.apple.com/us/podcast/cppcast/id968703120?uo=4",
+      "apple_podcast": "https://podcasts.apple.com/us/podcast/cppcast/id968703120",
       "linkedin": null,
       "deezer": null,
       "pocket_casts": "https://pca.st/2onqeys1",
@@ -9366,7 +9355,7 @@
       "rss": "https://javascriptjabber.com/feed",
       "youtube": "https://www.youtube.com/playlist?list=PLJesql-aSfX4bg83Xuq_0QZs6MLSyklkq",
       "spotify": "https://open.spotify.com/show/6xpiit8aJmwDHk1rKdxmri",
-      "apple_podcast": "https://podcasts.apple.com/us/podcast/javascript-jabber/id496893300?uo=4",
+      "apple_podcast": "https://podcasts.apple.com/us/podcast/javascript-jabber/id1237401284",
       "linkedin": null,
       "deezer": null,
       "pocket_casts": null,
@@ -9460,8 +9449,8 @@
       "episode_count": 738,
       "average_duration": 69,
       "status": "slow",
-      "community_rating": 4.4,
-      "community_rating_count": 233,
+      "community_rating": 3.6,
+      "community_rating_count": 65,
       "platform": "autre",
       "hosting_platform": null,
       "listening_platforms": [
@@ -9749,7 +9738,7 @@
       "rss": "https://serve.podhome.fm/rss/c9abdd38-a5dc-5eb2-96fd-f833f93208a7",
       "youtube": null,
       "spotify": "https://open.spotify.com/show/19KSYTTB5DTEb2z5Q3qiTh",
-      "apple_podcast": "https://podcasts.apple.com/us/podcast/ai-engineering-podcast/id1626358243?uo=4",
+      "apple_podcast": "https://podcasts.apple.com/us/podcast/the-machine-learning-podcast/id1626358243",
       "linkedin": null,
       "deezer": null,
       "pocket_casts": "https://pca.st/itunes/1626358243",
@@ -9884,16 +9873,23 @@
       "pocket_casts": "https://pca.st/itunes/1406537385",
       "podcast_addict": "https://podcastaddict.com/podcast/practical-ai/5689090",
       "amazon_music": null,
-      "castbox": null,
+      "castbox": "https://castbox.fm/vic/1406537385",
       "image": "https://img.transistorcdn.com/WMlp2ug34XB6LDJ3-vnzti_-_y144LUlFW0Xzzn3fss/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8wMTZi/ZWJmNWIwNDdmYTcw/NGJjMTExZjNjZmYy/M2ZjNS5wbmc.jpg",
       "author": "Daniel Whitenack and Chris Benson",
       "description": "Making artificial intelligence practical, productive & accessible to everyone.",
-      "last_episode": "2026-11-19",
-      "last_episode_title": "Building Human-Centered AI",
-      "last_episode_url": "https://share.transistor.fm/s/bb4dad17",
-      "last_episode_audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/bb4dad17/16dab0bd.mp3",
-      "last_episode_duration": 45,
+      "last_episode": "2026-11-26",
+      "last_episode_title": "Humans in a Post-Human World",
+      "last_episode_url": "https://share.transistor.fm/s/45701c1a",
+      "last_episode_audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/45701c1a/c3f3fb4a.mp3",
+      "last_episode_duration": 56,
       "episodes": [
+        {
+          "title": "Humans in a Post-Human World",
+          "published": "2026-11-26",
+          "url": "https://share.transistor.fm/s/45701c1a",
+          "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/45701c1a/c3f3fb4a.mp3",
+          "duration": 56
+        },
         {
           "title": "Building Human-Centered AI",
           "published": "2026-11-19",
@@ -9956,20 +9952,13 @@
           "url": "https://share.transistor.fm/s/74934e48",
           "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/74934e48/4c629c07.mp3",
           "duration": 49
-        },
-        {
-          "title": "How to get discovered in AI search",
-          "published": "2026-09-17",
-          "url": "https://share.transistor.fm/s/66185604",
-          "audio": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/66185604/d94b5158.mp3",
-          "duration": 55
         }
       ],
       "frequency": "weekly",
       "frequency_days": 7,
       "first_seen": "2026-11-09",
       "updated_at": "2026-11-26",
-      "episode_count": 383,
+      "episode_count": 384,
       "average_duration": 47,
       "status": "active",
       "community_rating": 4.3,
@@ -9980,7 +9969,8 @@
         "Apple Podcasts",
         "Spotify",
         "YouTube",
-        "Pocket Casts"
+        "Pocket Casts",
+        "Castbox"
       ],
       "topics": [
         "IA"

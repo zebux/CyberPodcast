@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26T03:20:47.948327+00:00",
+  "generated_at": "2026-11-26T12:59:13.380907+00:00",
   "mode": "network",
-  "duration_seconds": 10.05,
+  "duration_seconds": 9.45,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/130037607/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fe7bda437-62c6-2419-c305-99fee89b932b.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/126930215/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Feba04405-79c2-bd08-9a88-5fc1c6d60e3d.mp3"
         }
       }
     },
@@ -1134,7 +1134,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://track.podcastics.com/7830/441101.mp3"
+          "url": "https://track.podcastics.com/7830/441119.mp3"
         }
       }
     },
@@ -1548,7 +1548,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://media.transistor.fm/b159157f/bd5804ae.mp3"
+          "url": "https://media.transistor.fm/9d768b37/782f9b88.mp3"
         }
       }
     },
@@ -1824,7 +1824,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/bb4dad17/16dab0bd.mp3"
+          "url": "https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/media.transistor.fm/45701c1a/c3f3fb4a.mp3"
         }
       }
     },

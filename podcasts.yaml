@@ -114,7 +114,7 @@ podcasts:
   hosts:
   - Arnaud Morvillier
   website: https://shows.acast.com/on-azure-grave-onag
-  rss: https://feeds.acast.com/public/shows/on-azure-grave-onag
+  rss: https://feeds.acast.com/public/shows/649866b28b68980011d7f955
   youtube: https://www.youtube.com/@grow-unaA
   spotify: null
   apple_podcast: https://podcasts.apple.com/fr/podcast/on-azure-grave-onag/id1694255772?uo=4
@@ -279,7 +279,7 @@ podcasts:
   updated_at: '2026-11-27'
   episode_count: 8
   average_duration: 12
-  status: archived
+  status: active
   community_rating: null
   community_rating_count: null
   platform: Spotify for Creators
@@ -794,7 +794,7 @@ podcasts:
   rss: https://www.arresteddevops.com/feed/podcast
   youtube: null
   spotify: https://open.spotify.com/show/7hHA2ZlfOmbwv96wEBaMR2
-  apple_podcast: https://podcasts.apple.com/us/podcast/arrested-devops/id773888088?uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/arrested-devops/id773888088
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/VqEP
@@ -907,12 +907,17 @@ podcasts:
   image: https://cdn.fireside.fm/file/fireside-images-2024/podcasts/images/9/9b74150b-3553-49dc-8332-f89bbbba9f92/cover.jpg?v=1
   author: Software Defined Talk LLC
   description: A podcast about Enterprise Software and Cloud Computing that doesn't take itself too seriously.
-  last_episode: '2026-11-20'
-  last_episode_title: 'Episode 599: Innovator vs Operator'
-  last_episode_url: https://www.softwaredefinedtalk.com/599
-  last_episode_audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/524daddc-e373-44f4-b45f-70eb85be96c0.mp3
-  last_episode_duration: 55
+  last_episode: '2026-11-27'
+  last_episode_title: 'Episode 600: AI Show and Tell'
+  last_episode_url: https://www.softwaredefinedtalk.com/600
+  last_episode_audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/102437d5-df90-46ce-93ff-178a9a8504a4.mp3
+  last_episode_duration: 79
   episodes:
+  - title: 'Episode 600: AI Show and Tell'
+    published: '2026-11-27'
+    url: https://www.softwaredefinedtalk.com/600
+    audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/102437d5-df90-46ce-93ff-178a9a8504a4.mp3
+    duration: 79
   - title: 'Episode 599: Innovator vs Operator'
     published: '2026-11-20'
     url: https://www.softwaredefinedtalk.com/599
@@ -958,17 +963,12 @@ podcasts:
     url: https://www.softwaredefinedtalk.com/591
     audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/b58c9ea1-5a32-4455-90a2-58220f75946f.mp3
     duration: 59
-  - title: 'Episode 590: Transparency will save us'
-    published: '2026-09-18'
-    url: https://www.softwaredefinedtalk.com/590
-    audio: https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/e986e313-5a09-434c-9ad9-8ffc8398b6d1.mp3
-    duration: 53
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-27'
-  episode_count: 546
-  average_duration: 59
+  episode_count: 547
+  average_duration: 60
   status: active
   community_rating: 4.7
   community_rating_count: 69
@@ -1803,12 +1803,8 @@ podcasts:
   - Cloud
   - Architecture
   tags:
-  - Technology
-  - CIO
-  - CISO
-  - CTO
-  - strategy
-  - leadership
+  - Architecture
+  - Cloud
 - id: command-line-heroes
   name: Command Line Heroes
   category:
@@ -2137,7 +2133,7 @@ podcasts:
   rss: https://latenightlinux.com/feed
   youtube: https://www.youtube.com/latenightlinux
   spotify: https://open.spotify.com/show/0xSfxhV2n0GSTtWP57H5VO
-  apple_podcast: https://podcasts.apple.com/us/podcast/late-night-linux/id1189978971?uo=4
+  apple_podcast: https://podcasts.apple.com/gb/podcast/late-night-linux-all-episodes/id1381229825
   linkedin: null
   deezer: null
   pocket_casts: null
@@ -2210,8 +2206,8 @@ podcasts:
   episode_count: 1063
   average_duration: null
   status: active
-  community_rating: 4.6
-  community_rating_count: 168
+  community_rating: 5.0
+  community_rating_count: 14
   platform: autre
   hosting_platform: null
   listening_platforms:
@@ -2454,12 +2450,52 @@ podcasts:
   image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45600851/45600851-1782690960738-15065aee3b296.jpg
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
-  last_episode: '2026-11-26'
-  last_episode_title: 'Logiciel pour soi : 47 % du temps à vérifier, dans cette étude'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Logiciel-pour-soi--47--du-temps--vrifier--dans-cette-tude-e3t3220
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/130172416/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F7f9afa4e-6f84-b428-9ba3-2787847a164f.mp3
+  last_episode: '2026-11-27'
+  last_episode_title: 'Hex.pm : aucun paquet modifié, quels secrets révoquer ?'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Hex-pm--aucun-paquet-modifi--quels-secrets-rvoquer-e3t3e6q
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/130184858/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F58e2c361-8874-88c8-f2a0-4710845a90f8.mp3
   last_episode_duration: 7
   episodes:
+  - title: 'Hex.pm : aucun paquet modifié, quels secrets révoquer ?'
+    published: '2026-11-27'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Hex-pm--aucun-paquet-modifi--quels-secrets-rvoquer-e3t3e6q
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/130184858/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F58e2c361-8874-88c8-f2a0-4710845a90f8.mp3
+    duration: 7
+  - title: 'SciResearch-Eval : le coût en raisonnement du doute scientifique'
+    published: '2026-11-27'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/SciResearch-Eval--le-cot-en-raisonnement-du-doute-scientifique-e3t3e5d
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/130184813/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2Fb49a7d24-9820-1699-152b-2ebb69082c7a.mp3
+    duration: 7
+  - title: 'Sila et Panasonic : que garantit le contrat à 1 milliard ?'
+    published: '2026-11-27'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Sila-et-Panasonic--que-garantit-le-contrat--1-milliard-e3t39c5
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/130179909/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F700114db-491d-1871-0206-c7a37597aca3.mp3
+    duration: 7
+  - title: 'Auto-correction des LLM : pourquoi l’IA échoue à douter seule'
+    published: '2026-11-27'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Auto-correction-des-LLM--pourquoi-lIA-choue--douter-seule-e3t39a7
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/130179847/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F9a77a5ac-92be-76e9-7094-81bdd675ab78.mp3
+    duration: 8
+  - title: 'Quantification IA : quand le batch fausse les tests de sûreté'
+    published: '2026-11-27'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Quantification-IA--quand-le-batch-fausse-les-tests-de-sret-e3t381l
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/130178549/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F60eb01ac-b5e7-ff95-d6e3-3312d2ba6f50.mp3
+    duration: 7
+  - title: 'myColorado : le piège du coffre de documents dans un wallet'
+    published: '2026-11-27'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/myColorado--le-pige-du-coffre-de-documents-dans-un-wallet-e3t3251
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/130172513/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2Fea16fc8f-79d5-1a5b-a077-61f099ad0066.mp3
+    duration: 7
+  - title: 'Voyager 1 à un jour-lumière : réparer à 48h de latence'
+    published: '2026-11-27'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Voyager-1--un-jour-lumire--rparer--48h-de-latence-e3sqs0o
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/129904088/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fc48d7fee-e8c8-d733-b010-bb5b52434aef.mp3
+    duration: 7
+  - title: Dante, l'angle mort des IA
+    published: '2026-11-27'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Dante--langle-mort-des-IA-e3q03u0
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/126930304/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Fa0594954-6d83-2777-2f11-8c42ff7918bb.mp3
+    duration: 23
   - title: 'Logiciel pour soi : 47 % du temps à vérifier, dans cette étude'
     published: '2026-11-26'
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Logiciel-pour-soi--47--du-temps--vrifier--dans-cette-tude-e3t3220
@@ -2470,51 +2506,11 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shadow-AI-au-bureau--bloquer-les-outils-ou-perdre-la-vue-e3t31an
     audio: https://anchor.fm/s/11065f6ec/podcast/play/130171671/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2Fcd6826f4-76fd-cce7-aa11-ae10a9572fc5.mp3
     duration: 7
-  - title: 'Puces 14/16 nm et TSMC : le coût de prouver son usage'
-    published: '2026-11-26'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Puces-1416-nm-et-TSMC--le-cot-de-prouver-son-usage-e3t2vef
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/130169743/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2Fafb7f8d2-3bce-e1fd-b03e-5f82d06ed7e6.mp3
-    duration: 7
-  - title: 'GPT‑6.2 et protéines : qui a vraiment conçu les 35 liaisons ?'
-    published: '2026-11-26'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/GPT6-2-et-protines--qui-a-vraiment-conu-les-35-liaisons-e3t2u3d
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/130168365/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F5db4ee18-4393-53eb-1e4a-faad1dac7da5.mp3
-    duration: 7
-  - title: 'Claude et les trous noirs : calcul résolu ou piste fermée ?'
-    published: '2026-11-26'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Claude-et-les-trous-noirs--calcul-rsolu-ou-piste-ferme-e3suv4c
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/130038348/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Ff0c15f23-502e-d8ae-125c-45318e2676ae.mp3
-    duration: 7
-  - title: 'ASML et MATCH Act : qui contrôle la maintenance en Chine ?'
-    published: '2026-11-26'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/ASML-et-MATCH-Act--qui-contrle-la-maintenance-en-Chine-e3suv1s
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/130038268/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F1805740f-6a36-874f-7d46-ca487f706dcd.mp3
-    duration: 7
-  - title: 'Hayden AI à San Francisco : 55 M$ pour verbaliser ou rouler ?'
-    published: '2026-11-26'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Hayden-AI--San-Francisco--55-M-pour-verbaliser-ou-rouler-e3suuq7
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/130038023/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fafb1080f-257b-c50b-b692-ec9ecdfbe6ae.mp3
-    duration: 7
-  - title: 'Interprétabilité : le piège des « Parasite Features »'
-    published: '2026-11-26'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Interprtabilit--le-pige-des--Parasite-Features-e3suun1
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/130037921/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fb7c8c6f4-ea4e-f621-b5d2-3c2455d86886.mp3
-    duration: 7
-  - title: 'Gallium et germanium chinois : le piège du sursis de 2 mois'
-    published: '2026-11-26'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Gallium-et-germanium-chinois--le-pige-du-sursis-de-2-mois-e3suujn
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/130037815/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2Fd2485e7b-54ae-8f71-89d8-445f5b718036.mp3
-    duration: 8
-  - title: 'Diagnostic des maladies rares : le biais caché des benchmarks'
-    published: '2026-11-26'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Diagnostic-des-maladies-rares--le-biais-cach-des-benchmarks-e3suuhf
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/130037743/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-24%2F364b1512-e719-729b-1e08-58240e4f41e5.mp3
-    duration: 7
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
   updated_at: '2026-11-27'
-  episode_count: 1309
+  episode_count: 1317
   average_duration: 7
   status: active
   community_rating: null
@@ -2642,12 +2638,17 @@ podcasts:
   image: https://image.ausha.co/hNH1ZYD9kDdqrWgFHAufGnZUjq7wpZN8gNVJdajQ_1400x1400.jpeg?t=1795087059
   author: Fabrice De Paepe
   description: 🔐 Normes. Risques. Gouvernance. Sans prise de tête. Bienvenue dans Compliance Without Coma®, le podcast qui parle de sécurité de l’information, de conformité, de risques et de normes… sans jargon et…
-  last_episode: '2026-11-20'
-  last_episode_title: Une tentative de fraude au président par Microsoft Teams | EP87
-  last_episode_url: https://podcast.ausha.co/compliance-without-coma/une-tentative-de-fraude-au-president-par-microsoft-teams-ep87
-  last_episode_audio: https://audio.ausha.co/l2eKRClQKJpl.mp3?t=1795084948
-  last_episode_duration: 6
+  last_episode: '2026-11-27'
+  last_episode_title: Les modèles de maturité CMM, CMMI et CMMC :votre score cyber grimpe, et votre sécurité ? | EP88
+  last_episode_url: https://podcast.ausha.co/compliance-without-coma/les-modeles-de-maturite-cmm-cmmi-et-cmmc-votre-score-cyber-grimpe-et-votre-securite-ep88
+  last_episode_audio: https://audio.ausha.co/NedRXTAvdD6O.mp3?t=1795710182
+  last_episode_duration: 18
   episodes:
+  - title: Les modèles de maturité CMM, CMMI et CMMC :votre score cyber grimpe, et votre sécurité ? | EP88
+    published: '2026-11-27'
+    url: https://podcast.ausha.co/compliance-without-coma/les-modeles-de-maturite-cmm-cmmi-et-cmmc-votre-score-cyber-grimpe-et-votre-securite-ep88
+    audio: https://audio.ausha.co/NedRXTAvdD6O.mp3?t=1795710182
+    duration: 18
   - title: Une tentative de fraude au président par Microsoft Teams | EP87
     published: '2026-11-20'
     url: https://podcast.ausha.co/compliance-without-coma/une-tentative-de-fraude-au-president-par-microsoft-teams-ep87
@@ -2693,16 +2694,11 @@ podcasts:
     url: https://podcast.ausha.co/compliance-without-coma/comment-clarifier-les-roles-de-data-owner-et-data-custodian-pour-une-meilleure-gouvernance-des-donnees-en
     audio: https://audio.ausha.co/Ljg2JCxpZLD3.mp3?t=1790151490
     duration: 9
-  - title: Pourquoi tout le monde confond Politique, Standard, et Procedure (Gouvernance) | EP78
-    published: '2026-09-18'
-    url: https://podcast.ausha.co/compliance-without-coma/pourquoi-tout-le-monde-confond-politique-standard-et-procedure-ep-78
-    audio: https://audio.ausha.co/zrNKLT11Y6KY.mp3?t=1789553090
-    duration: 9
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-27'
-  episode_count: 88
+  episode_count: 89
   average_duration: 9
   status: active
   community_rating: null
@@ -2832,7 +2828,7 @@ podcasts:
   rss: https://feeds.redcircle.com/ee62d503-8472-489e-aa70-be2885f8f5c9
   youtube: null
   spotify: https://open.spotify.com/show/7Mt7FaJCmutbUrdFMogo49
-  apple_podcast: https://podcasts.apple.com/fr/podcast/cybers%C3%A9curit%C3%A9-all-day/id1543119176?uo=4
+  apple_podcast: https://podcasts.apple.com/fr/podcast/cybers%C3%A9curit%C3%A9-all-day/id1543119176
   linkedin: null
   deezer: https://www.deezer.com/en/show/2051862
   pocket_casts: null
@@ -4182,32 +4178,8 @@ podcasts:
   - Podcast Addict
   topics:
   - Cybersécurité
-  - Malware
   tags:
-  - cybersécurité
-  - risque
-  - hacker
-  - informatique
-  - technologie
-  - internet
-  - attaque
-  - malware
-  - virus
-  - ransomware
-  - logiciel
-  - tech
-  - politique
-  - entreprise
-  - femmes
-  - cyber
-  - sensibilisation
-  - expertise
-  - IA
-  - données
-  - sécurité
-  - défense
-  - France
-  - Technology
+  - Cybersécurité
 - id: les-enfants-de-la-cyber
   name: Les Enfants de la Cyber
   category:
@@ -4379,7 +4351,7 @@ podcasts:
   topics:
   - Cybersécurité
   tags:
-  - HarfangLab
+  - Cybersécurité
 - id: nolimitsecu
   name: NoLimitSecu
   category:
@@ -4593,7 +4565,7 @@ podcasts:
   rss: https://polysecure.ca/general_feed.xml
   youtube: https://www.youtube.com/@polysecurepodcast
   spotify: https://open.spotify.com/show/2Aal9u7zflmLOEpzhJ5uvu
-  apple_podcast: https://podcasts.apple.com/fr/podcast/polys%C3%A9cure-podcast/id1561084634?uo=4
+  apple_podcast: https://podcasts.apple.com/ca/podcast/polysecure-podcast/id1561084634
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/piz8zozv
@@ -5074,12 +5046,17 @@ podcasts:
   image: https://yt3.googleusercontent.com/mT90k8OvBssPq6NZlakPUIMW9M6QYXsVNITjaUAsKDxurQwRdsl2MkDCqxf8oGsRS9FngBdFmw=s900-c-k-c0x00ffffff-no-rj
   author: CyberPodcast
   description: CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet accessible look into the cybersecurity landscape.
-  last_episode: '2026-11-26'
-  last_episode_title: 'OWASP AI Security: Agentic AI Risks & Autonomy Spectrum'
-  last_episode_url: https://www.youtube.com/shorts/TBVz4wT7i-A
+  last_episode: '2026-11-27'
+  last_episode_title: 'Securing Gen AI: OWASP Framework Deep Dive | Podcast #14 | OWASP AI Security | CyberPodcast'
+  last_episode_url: https://www.youtube.com/watch?v=w72XzhHZwlY
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: 'Securing Gen AI: OWASP Framework Deep Dive | Podcast #14 | OWASP AI Security | CyberPodcast'
+    published: '2026-11-27'
+    url: https://www.youtube.com/watch?v=w72XzhHZwlY
+    audio: null
+    duration: null
   - title: 'OWASP AI Security: Agentic AI Risks & Autonomy Spectrum'
     published: '2026-11-26'
     url: https://www.youtube.com/shorts/TBVz4wT7i-A
@@ -5123,11 +5100,6 @@ podcasts:
   - title: 'OWASP Top10 for LLM: Deepfake Preparedness'
     published: '2026-11-21'
     url: https://www.youtube.com/shorts/tAXBhBgKGH4
-    audio: null
-    duration: null
-  - title: 'Why Deepfakes Work: Amygdala Hijack Explained'
-    published: '2026-11-20'
-    url: https://www.youtube.com/shorts/KD1S8aggYeU
     audio: null
     duration: null
   frequency: daily
@@ -5441,7 +5413,7 @@ podcasts:
   frequency_days: null
   first_seen: '2026-11-09'
   updated_at: '2026-11-27'
-  episode_count: 100
+  episode_count: 30
   average_duration: null
   status: archived
   community_rating: 4.8
@@ -6556,7 +6528,7 @@ podcasts:
   rss: https://softwareengineeringdaily.com/category/podcast/feed
   youtube: https://www.youtube.com/@SoftwareDaily
   spotify: https://open.spotify.com/show/6UCtBYL29hwhw4YbTdX83N
-  apple_podcast: https://podcasts.apple.com/us/podcast/software-engineering-daily/id1019576853?uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/software-engineering-daily/id1019576853
   linkedin: null
   deezer: null
   pocket_casts: null
@@ -6626,7 +6598,7 @@ podcasts:
   frequency_days: 2
   first_seen: '2026-11-09'
   updated_at: '2026-11-27'
-  episode_count: 104
+  episode_count: 100
   average_duration: 53
   status: active
   community_rating: 4.4
@@ -7158,7 +7130,7 @@ podcasts:
   rss: https://realpython.com/podcasts/rpp/feed
   youtube: https://www.youtube.com/@realpython/podcasts
   spotify: https://open.spotify.com/show/41Av6Rq81LfOT3Volz7W9D
-  apple_podcast: https://podcasts.apple.com/us/podcast/feed/id1501905538
+  apple_podcast: https://podcasts.apple.com/us/podcast/the-real-python-podcast/id1501905538?uo=4
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/itunes/1501905538
@@ -7168,12 +7140,17 @@ podcasts:
   image: https://files.realpython.com/media/real-python-logo-square.28474fda9228.png
   author: Real Python
   description: A weekly Python podcast The show covers a wide range of topics including Python…
-  last_episode: '2026-11-13'
-  last_episode_title: Mentoring Developers Beyond the Code With Tim Schilling
-  last_episode_url: https://realpython.com/podcasts/rpp/319/
-  last_episode_audio: https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E319_02_Tim_Schilling.cd5cf31e5515.mp3
-  last_episode_duration: 69
+  last_episode: '2026-11-27'
+  last_episode_title: Optimizing Python Performance & Building a Django Static Site
+  last_episode_url: https://realpython.com/podcasts/rpp/320/
+  last_episode_audio: https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E320_02_Pycoders.97b0f8761d79.mp3
+  last_episode_duration: 47
   episodes:
+  - title: Optimizing Python Performance & Building a Django Static Site
+    published: '2026-11-27'
+    url: https://realpython.com/podcasts/rpp/320/
+    audio: https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E320_02_Pycoders.97b0f8761d79.mp3
+    duration: 47
   - title: Mentoring Developers Beyond the Code With Tim Schilling
     published: '2026-11-13'
     url: https://realpython.com/podcasts/rpp/319/
@@ -7219,16 +7196,11 @@ podcasts:
     url: https://realpython.com/podcasts/rpp/311/
     audio: https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E311_03_PyCoders.303c777df801.mp3
     duration: 47
-  - title: 'Performance Engineering: Profiling and Making Apps Fast by Default'
-    published: '2026-09-04'
-    url: https://realpython.com/podcasts/rpp/310/
-    audio: https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E310_02_Den_Odell.df6778d7f7a6.mp3
-    duration: 77
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
   updated_at: '2026-11-27'
-  episode_count: 320
+  episode_count: 321
   average_duration: 58
   status: active
   community_rating: 4.7
@@ -7769,7 +7741,7 @@ podcasts:
   rss: https://changelog.com/practicalai/feed
   youtube: https://www.youtube.com/@practicalai_show
   spotify: https://open.spotify.com/show/1LaCr5TFAgYPK5qHjP3XDp
-  apple_podcast: https://podcasts.apple.com/us/podcast/practical-ai-machine-learning-data-science-llm/id1406537385
+  apple_podcast: https://podcasts.apple.com/us/podcast/practical-ai/id1406537385?uo=4
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/itunes/1406537385
@@ -8179,7 +8151,7 @@ podcasts:
   rss: https://feeds.buzzsprout.com/190346.rss
   youtube: null
   spotify: null
-  apple_podcast: https://podcasts.apple.com/us/podcast/developers-journey/id1079113167?mt=2&uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/the-developers-journey/id1832805533?uo=4
   linkedin: null
   deezer: null
   pocket_casts: null
@@ -8398,7 +8370,7 @@ podcasts:
   rss: https://feeds.simplecast.com/7y1CbAbN
   youtube: https://www.youtube.com/playlist?list=PLV-fn3HlNVWG0Z9LOrH3tdFBs-2VlLSVg
   spotify: https://open.spotify.com/show/6Ah6xxZ04VQBqjBB5ZU0Ll
-  apple_podcast: https://podcasts.apple.com/us/podcast/maintainable/id1459893010
+  apple_podcast: https://podcasts.apple.com/us/podcast/maintainable/id1459893010?uo=4
   linkedin: null
   deezer: null
   pocket_casts: null

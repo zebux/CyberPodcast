@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-27T04:24:28.218172+00:00",
+  "generated_at": "2026-11-27T14:07:30.136935+00:00",
   "total": 86,
-  "total_episodes": 26000,
+  "total_episodes": 25937,
   "with_rss": 86,
   "with_image": 86,
   "with_audio": 84,
   "rated": 65,
-  "average_rating": 4.71,
+  "average_rating": 4.72,
   "by_status": {
     "slow": 18,
-    "archived": 14,
-    "active": 54
+    "active": 55,
+    "archived": 13
   },
   "by_language": {
     "fr": 43,
@@ -80,7 +80,6 @@
     "Tech": 2,
     "GRC": 1,
     "Juridique": 2,
-    "Malware": 1,
     "Cryptographie": 1,
     "Pentest": 2,
     "Red Team": 2,
@@ -136,7 +135,6 @@
     "Tech": 2,
     "GRC": 1,
     "Juridique": 2,
-    "Malware": 1,
     "Cryptographie": 1,
     "Pentest": 2,
     "Red Team": 2,

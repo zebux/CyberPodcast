@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T04:24:28.138082+00:00",
+  "generated_at": "2026-11-27T14:07:30.048015+00:00",
   "mode": "network",
-  "duration_seconds": 10.63,
+  "duration_seconds": 8.61,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -45,7 +45,7 @@
         },
         "rss": {
           "status": "unchecked",
-          "url": "https://feeds.acast.com/public/shows/on-azure-grave-onag"
+          "url": "https://feeds.acast.com/public/shows/649866b28b68980011d7f955"
         },
         "image": {
           "status": "unchecked",
@@ -237,7 +237,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/524daddc-e373-44f4-b45f-70eb85be96c0.mp3"
+          "url": "https://aphid.fireside.fm/d/1437767933/9b74150b-3553-49dc-8332-f89bbbba9f92/102437d5-df90-46ce-93ff-178a9a8504a4.mp3"
         }
       }
     },
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/130172416/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F7f9afa4e-6f84-b428-9ba3-2787847a164f.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/130184858/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F58e2c361-8874-88c8-f2a0-4710845a90f8.mp3"
         }
       }
     },
@@ -628,7 +628,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://audio.ausha.co/l2eKRClQKJpl.mp3?t=1795084948"
+          "url": "https://audio.ausha.co/NedRXTAvdD6O.mp3?t=1795710182"
         }
       }
     },
@@ -1686,7 +1686,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E319_02_Tim_Schilling.cd5cf31e5515.mp3"
+          "url": "https://dts.podtrac.com/redirect.mp3/files.realpython.com/podcasts/RPP_E320_02_Pycoders.97b0f8761d79.mp3"
         }
       }
     },

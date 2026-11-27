@@ -114,7 +114,7 @@ podcasts:
   hosts:
   - Arnaud Morvillier
   website: https://shows.acast.com/on-azure-grave-onag
-  rss: https://feeds.acast.com/public/shows/649866b28b68980011d7f955
+  rss: https://feeds.acast.com/public/shows/on-azure-grave-onag
   youtube: https://www.youtube.com/@grow-unaA
   spotify: null
   apple_podcast: https://podcasts.apple.com/fr/podcast/on-azure-grave-onag/id1694255772?uo=4
@@ -794,7 +794,7 @@ podcasts:
   rss: https://www.arresteddevops.com/feed/podcast
   youtube: null
   spotify: https://open.spotify.com/show/7hHA2ZlfOmbwv96wEBaMR2
-  apple_podcast: https://podcasts.apple.com/us/podcast/arrested-devops/id773888088
+  apple_podcast: https://podcasts.apple.com/us/podcast/arrested-devops/id773888088?uo=4
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/VqEP
@@ -1803,8 +1803,12 @@ podcasts:
   - Cloud
   - Architecture
   tags:
-  - Architecture
-  - Cloud
+  - Technology
+  - CIO
+  - CISO
+  - CTO
+  - strategy
+  - leadership
 - id: command-line-heroes
   name: Command Line Heroes
   category:
@@ -2133,7 +2137,7 @@ podcasts:
   rss: https://latenightlinux.com/feed
   youtube: https://www.youtube.com/latenightlinux
   spotify: https://open.spotify.com/show/0xSfxhV2n0GSTtWP57H5VO
-  apple_podcast: https://podcasts.apple.com/gb/podcast/late-night-linux-all-episodes/id1381229825
+  apple_podcast: https://podcasts.apple.com/us/podcast/late-night-linux/id1189978971?uo=4
   linkedin: null
   deezer: null
   pocket_casts: null
@@ -2143,12 +2147,17 @@ podcasts:
   image: http://latenightlinux.com/wp-content/uploads/latenightlinux.jpg
   author: Late Night Linux
   description: Podcast britannique d'actualité Linux, open source et administration système.
-  last_episode: '2026-11-26'
-  last_episode_title: '2.5 Admins 327: Everything Breaks'
-  last_episode_url: https://latenightlinux.com/2-5-admins-327/
+  last_episode: '2026-11-27'
+  last_episode_title: Hybrid Cloud Show – Episode 70
+  last_episode_url: https://latenightlinux.com/hcs70/
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: Hybrid Cloud Show – Episode 70
+    published: '2026-11-27'
+    url: https://latenightlinux.com/hcs70/
+    audio: null
+    duration: null
   - title: '2.5 Admins 327: Everything Breaks'
     published: '2026-11-26'
     url: https://latenightlinux.com/2-5-admins-327/
@@ -2194,20 +2203,15 @@ podcasts:
     url: https://latenightlinux.com/ath42/
     audio: null
     duration: null
-  - title: Late Night Linux – Episode 411
-    published: '2026-11-09'
-    url: https://latenightlinux.com/late-night-linux-episode-411/
-    audio: null
-    duration: null
   frequency: daily
   frequency_days: 2
   first_seen: '2026-11-09'
   updated_at: '2026-11-27'
-  episode_count: 1063
+  episode_count: 1064
   average_duration: null
   status: active
-  community_rating: 5.0
-  community_rating_count: 14
+  community_rating: 4.6
+  community_rating_count: 168
   platform: autre
   hosting_platform: null
   listening_platforms:
@@ -2451,11 +2455,26 @@ podcasts:
   author: Franck Dubray - Dragonfly
   description: Le podcast qui utilise l'IA comme prisme pour lire le monde et notre histoire.
   last_episode: '2026-11-27'
-  last_episode_title: 'Hex.pm : aucun paquet modifié, quels secrets révoquer ?'
-  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Hex-pm--aucun-paquet-modifi--quels-secrets-rvoquer-e3t3e6q
-  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/130184858/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F58e2c361-8874-88c8-f2a0-4710845a90f8.mp3
+  last_episode_title: 'Master ou diversification : le choc des premiers revenus au Texas'
+  last_episode_url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Master-ou-diversification--le-choc-des-premiers-revenus-au-Texas-e3t3ebo
+  last_episode_audio: https://anchor.fm/s/11065f6ec/podcast/play/130185016/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2Fc30393b4-032f-d704-7db0-cbb6186f8ce1.mp3
   last_episode_duration: 7
   episodes:
+  - title: 'Master ou diversification : le choc des premiers revenus au Texas'
+    published: '2026-11-27'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Master-ou-diversification--le-choc-des-premiers-revenus-au-Texas-e3t3ebo
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/130185016/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2Fc30393b4-032f-d704-7db0-cbb6186f8ce1.mp3
+    duration: 7
+  - title: 'GCTranslate : qui relit les 800M de mots traduits par l''État ?'
+    published: '2026-11-27'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/GCTranslate--qui-relit-les-800M-de-mots-traduits-par-ltat-e3t3ea9
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/130184969/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F18dfadf5-f78d-3683-e2b3-2b9aab8ca465.mp3
+    duration: 8
+  - title: 'Mistral AI et collectivités : le dilemme de la mutualisation'
+    published: '2026-11-27'
+    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Mistral-AI-et-collectivits--le-dilemme-de-la-mutualisation-e3t3e88
+    audio: https://anchor.fm/s/11065f6ec/podcast/play/130184904/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F439baf7f-c988-3e0f-cffb-ac5a40386165.mp3
+    duration: 8
   - title: 'Hex.pm : aucun paquet modifié, quels secrets révoquer ?'
     published: '2026-11-27'
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Hex-pm--aucun-paquet-modifi--quels-secrets-rvoquer-e3t3e6q
@@ -2491,26 +2510,11 @@ podcasts:
     url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Voyager-1--un-jour-lumire--rparer--48h-de-latence-e3sqs0o
     audio: https://anchor.fm/s/11065f6ec/podcast/play/129904088/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-22%2Fc48d7fee-e8c8-d733-b010-bb5b52434aef.mp3
     duration: 7
-  - title: Dante, l'angle mort des IA
-    published: '2026-11-27'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Dante--langle-mort-des-IA-e3q03u0
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/126930304/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-9-6%2Fa0594954-6d83-2777-2f11-8c42ff7918bb.mp3
-    duration: 23
-  - title: 'Logiciel pour soi : 47 % du temps à vérifier, dans cette étude'
-    published: '2026-11-26'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Logiciel-pour-soi--47--du-temps--vrifier--dans-cette-tude-e3t3220
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/130172416/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F7f9afa4e-6f84-b428-9ba3-2787847a164f.mp3
-    duration: 7
-  - title: 'Shadow AI au bureau : bloquer les outils ou perdre la vue ?'
-    published: '2026-11-26'
-    url: https://podcasters.spotify.com/pod/show/franck-dubray/episodes/Shadow-AI-au-bureau--bloquer-les-outils-ou-perdre-la-vue-e3t31an
-    audio: https://anchor.fm/s/11065f6ec/podcast/play/130171671/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2Fcd6826f4-76fd-cce7-aa11-ae10a9572fc5.mp3
-    duration: 7
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
   updated_at: '2026-11-27'
-  episode_count: 1317
+  episode_count: 1320
   average_duration: 7
   status: active
   community_rating: null
@@ -2828,7 +2832,7 @@ podcasts:
   rss: https://feeds.redcircle.com/ee62d503-8472-489e-aa70-be2885f8f5c9
   youtube: null
   spotify: https://open.spotify.com/show/7Mt7FaJCmutbUrdFMogo49
-  apple_podcast: https://podcasts.apple.com/fr/podcast/cybers%C3%A9curit%C3%A9-all-day/id1543119176
+  apple_podcast: https://podcasts.apple.com/fr/podcast/cybers%C3%A9curit%C3%A9-all-day/id1543119176?uo=4
   linkedin: null
   deezer: https://www.deezer.com/en/show/2051862
   pocket_casts: null
@@ -4351,7 +4355,7 @@ podcasts:
   topics:
   - Cybersécurité
   tags:
-  - Cybersécurité
+  - HarfangLab
 - id: nolimitsecu
   name: NoLimitSecu
   category:
@@ -4565,7 +4569,7 @@ podcasts:
   rss: https://polysecure.ca/general_feed.xml
   youtube: https://www.youtube.com/@polysecurepodcast
   spotify: https://open.spotify.com/show/2Aal9u7zflmLOEpzhJ5uvu
-  apple_podcast: https://podcasts.apple.com/ca/podcast/polysecure-podcast/id1561084634
+  apple_podcast: https://podcasts.apple.com/fr/podcast/polys%C3%A9cure-podcast/id1561084634?uo=4
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/piz8zozv
@@ -5047,11 +5051,16 @@ podcasts:
   author: CyberPodcast
   description: CyberPodcast is dedicated to vulnerability research, CVE analysis, bug bounty hunting, and offensive security. From real-world case studies to emerging threats, each episode provides a technical yet accessible look into the cybersecurity landscape.
   last_episode: '2026-11-27'
-  last_episode_title: 'Securing Gen AI: OWASP Framework Deep Dive | Podcast #14 | OWASP AI Security | CyberPodcast'
-  last_episode_url: https://www.youtube.com/watch?v=w72XzhHZwlY
+  last_episode_title: 'Agentic AI Workforce: Invisible and Unchecked'
+  last_episode_url: https://www.youtube.com/shorts/m3iuWSfNXeI
   last_episode_audio: null
   last_episode_duration: null
   episodes:
+  - title: 'Agentic AI Workforce: Invisible and Unchecked'
+    published: '2026-11-27'
+    url: https://www.youtube.com/shorts/m3iuWSfNXeI
+    audio: null
+    duration: null
   - title: 'Securing Gen AI: OWASP Framework Deep Dive | Podcast #14 | OWASP AI Security | CyberPodcast'
     published: '2026-11-27'
     url: https://www.youtube.com/watch?v=w72XzhHZwlY
@@ -5095,11 +5104,6 @@ podcasts:
   - title: Agentic AI Risks Evolve from Hypothetical to Real Threats
     published: '2026-11-22'
     url: https://www.youtube.com/shorts/ywzVYW5PWmc
-    audio: null
-    duration: null
-  - title: 'OWASP Top10 for LLM: Deepfake Preparedness'
-    published: '2026-11-21'
-    url: https://www.youtube.com/shorts/tAXBhBgKGH4
     audio: null
     duration: null
   frequency: daily
@@ -5413,7 +5417,7 @@ podcasts:
   frequency_days: null
   first_seen: '2026-11-09'
   updated_at: '2026-11-27'
-  episode_count: 30
+  episode_count: 100
   average_duration: null
   status: archived
   community_rating: 4.8
@@ -5795,7 +5799,7 @@ podcasts:
   rss: https://feeds.audiomeans.fr/feed/03d88297-85c1-475f-a491-a6c7a443ffca.xml
   youtube: https://www.youtube.com/channel/UCsrTQc8637V2oWINnTptb_A
   spotify: https://open.spotify.com/show/7nda7u8PGTU2AfpLZ9ZR9Z
-  apple_podcast: https://podcasts.apple.com/fr/podcast/ifttd-if-this-then-dev/id1471506605
+  apple_podcast: https://podcasts.apple.com/fr/podcast/ifttd-if-this-then-dev/id1471506605?uo=4
   linkedin: null
   deezer: https://www.deezer.com/fr/show/396442
   pocket_casts: null
@@ -5998,7 +6002,7 @@ podcasts:
   rss: https://feed.ausha.co/aOeG3uNw2QrW
   youtube: https://www.youtube.com/channel/UCQZ9fN69sDNl1oItZmn7dAw
   spotify: https://open.spotify.com/show/0btVq1hBSKAgsLTuSFecLO
-  apple_podcast: https://podcasts.apple.com/fr/podcast/la-cave/id1788778471
+  apple_podcast: https://podcasts.apple.com/fr/podcast/la-cave/id1788778471?uo=4
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/y1g74mgc
@@ -6528,7 +6532,7 @@ podcasts:
   rss: https://softwareengineeringdaily.com/category/podcast/feed
   youtube: https://www.youtube.com/@SoftwareDaily
   spotify: https://open.spotify.com/show/6UCtBYL29hwhw4YbTdX83N
-  apple_podcast: https://podcasts.apple.com/us/podcast/software-engineering-daily/id1019576853
+  apple_podcast: https://podcasts.apple.com/us/podcast/software-engineering-daily/id1019576853?uo=4
   linkedin: null
   deezer: null
   pocket_casts: null
@@ -6598,7 +6602,7 @@ podcasts:
   frequency_days: 2
   first_seen: '2026-11-09'
   updated_at: '2026-11-27'
-  episode_count: 100
+  episode_count: 104
   average_duration: 53
   status: active
   community_rating: 4.4
@@ -6737,7 +6741,7 @@ podcasts:
   rss: https://cppcast.com/feed.rss
   youtube: null
   spotify: https://open.spotify.com/show/3NPVzS05lvJLv3ovgF3OAP
-  apple_podcast: https://podcasts.apple.com/us/podcast/cppcast/id968703120
+  apple_podcast: https://podcasts.apple.com/us/podcast/cppcast/id968703120?uo=4
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/2onqeys1
@@ -7232,6 +7236,7 @@ podcasts:
   - Mat Ryer
   - Johnny Boursiquot
   - Jon Calhoun
+  - Go Time Indiegogo Podcast
   website: https://changelog.com/gotime
   rss: https://changelog.com/gotime/feed
   youtube: https://www.youtube.com/playlist?list=PLCzseuA9sYrc2AB-eYXMBLVD8l9AM1ov0
@@ -7846,7 +7851,7 @@ podcasts:
   - Alessio Fanelli
   website: https://www.latent.space/
   rss: https://api.substack.com/feed/podcast/1084089.rss
-  youtube: https://www.youtube.com/watch?v=Qe9d9dWyED0
+  youtube: https://www.youtube.com/watch?v=qjPcaZf_plo
   spotify: https://open.spotify.com/show/2p7zZVwVF6Yk0Zsb4QmT7t
   apple_podcast: https://podcasts.apple.com/us/podcast/latent-space-the-ai-engineer-podcast/id1674008350
   linkedin: null

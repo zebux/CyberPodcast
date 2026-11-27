@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T14:07:30.048015+00:00",
+  "generated_at": "2026-11-27T22:51:24.778938+00:00",
   "mode": "network",
-  "duration_seconds": 8.61,
+  "duration_seconds": 18.25,
   "summary": {
     "total": 86,
     "ok": 86,
@@ -45,7 +45,7 @@
         },
         "rss": {
           "status": "unchecked",
-          "url": "https://feeds.acast.com/public/shows/649866b28b68980011d7f955"
+          "url": "https://feeds.acast.com/public/shows/on-azure-grave-onag"
         },
         "image": {
           "status": "unchecked",
@@ -582,7 +582,7 @@
         },
         "audio": {
           "status": "unchecked",
-          "url": "https://anchor.fm/s/11065f6ec/podcast/play/130184858/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2F58e2c361-8874-88c8-f2a0-4710845a90f8.mp3"
+          "url": "https://anchor.fm/s/11065f6ec/podcast/play/130185016/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-10-26%2Fc30393b4-032f-d704-7db0-cbb6186f8ce1.mp3"
         }
       }
     },

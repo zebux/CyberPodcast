@@ -84,7 +84,7 @@ podcasts:
   frequency: irregular
   frequency_days: 338
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 11
   average_duration: 59
   status: slow
@@ -186,7 +186,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 97
   average_duration: 16
   status: slow
@@ -276,7 +276,7 @@ podcasts:
   frequency: weekly
   frequency_days: 8
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 8
   average_duration: 12
   status: active
@@ -378,7 +378,7 @@ podcasts:
   frequency: monthly
   frequency_days: 22
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 142
   average_duration: 21
   status: slow
@@ -485,7 +485,7 @@ podcasts:
   frequency: weekly
   frequency_days: 5
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 225
   average_duration: 22
   status: active
@@ -557,7 +557,7 @@ podcasts:
   frequency: bimonthly
   frequency_days: 61
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 5
   average_duration: 43
   status: active
@@ -658,7 +658,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 16
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 273
   average_duration: 34
   status: active
@@ -758,7 +758,7 @@ podcasts:
   frequency: weekly
   frequency_days: 3
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 1118
   average_duration: 38
   status: active
@@ -794,7 +794,7 @@ podcasts:
   rss: https://www.arresteddevops.com/feed/podcast
   youtube: null
   spotify: https://open.spotify.com/show/7hHA2ZlfOmbwv96wEBaMR2
-  apple_podcast: https://podcasts.apple.com/us/podcast/arrested-devops/id773888088?uo=4
+  apple_podcast: https://podcasts.apple.com/us/podcast/arrested-devops/id773888088
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/VqEP
@@ -863,7 +863,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 213
   average_duration: 39
   status: active
@@ -966,7 +966,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 547
   average_duration: 60
   status: active
@@ -1070,7 +1070,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 250
   average_duration: 60
   status: active
@@ -1171,7 +1171,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 682
   average_duration: 31
   status: active
@@ -1270,7 +1270,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 622
   average_duration: 32
   status: slow
@@ -1374,7 +1374,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 102
   average_duration: 22
   status: slow
@@ -1474,7 +1474,7 @@ podcasts:
   frequency: monthly
   frequency_days: 21
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 335
   average_duration: 35
   status: archived
@@ -1574,7 +1574,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 366
   average_duration: 43
   status: active
@@ -1681,7 +1681,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 250
   average_duration: 45
   status: active
@@ -1786,7 +1786,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 151
   average_duration: 38
   status: active
@@ -1803,12 +1803,8 @@ podcasts:
   - Cloud
   - Architecture
   tags:
-  - Technology
-  - CIO
-  - CISO
-  - CTO
-  - strategy
-  - leadership
+  - Architecture
+  - Cloud
 - id: command-line-heroes
   name: Command Line Heroes
   category:
@@ -1893,7 +1889,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 77
   average_duration: 23
   status: archived
@@ -1998,7 +1994,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 300
   average_duration: 15
   status: archived
@@ -2103,7 +2099,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 151
   average_duration: 58
   status: slow
@@ -2206,7 +2202,7 @@ podcasts:
   frequency: daily
   frequency_days: 2
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 1064
   average_duration: null
   status: active
@@ -2308,7 +2304,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 694
   average_duration: 80
   status: active
@@ -2410,7 +2406,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 515
   average_duration: 54
   status: active
@@ -2513,7 +2509,7 @@ podcasts:
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-16'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 1320
   average_duration: 7
   status: active
@@ -2598,7 +2594,7 @@ podcasts:
   frequency: monthly
   frequency_days: 21
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 7
   average_duration: 36
   status: slow
@@ -2701,7 +2697,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 89
   average_duration: 9
   status: active
@@ -2804,7 +2800,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 10
   average_duration: 90
   status: slow
@@ -2901,7 +2897,7 @@ podcasts:
   frequency: bimonthly
   frequency_days: 63
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 77
   average_duration: 37
   status: active
@@ -3001,7 +2997,7 @@ podcasts:
   frequency: bimonthly
   frequency_days: 49
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 52
   average_duration: 35
   status: active
@@ -3079,7 +3075,7 @@ podcasts:
   frequency: irregular
   frequency_days: 222
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 5
   average_duration: 28
   status: active
@@ -3174,7 +3170,7 @@ podcasts:
   frequency: weekly
   frequency_days: 10
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 300
   average_duration: null
   status: active
@@ -3274,7 +3270,7 @@ podcasts:
   frequency: monthly
   frequency_days: 36
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 58
   average_duration: 53
   status: active
@@ -3372,7 +3368,7 @@ podcasts:
   frequency: weekly
   frequency_days: 9
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 51
   average_duration: 82
   status: slow
@@ -3469,7 +3465,7 @@ podcasts:
   frequency: monthly
   frequency_days: 23
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 23
   average_duration: 22
   status: active
@@ -3567,7 +3563,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 62
   average_duration: 27
   status: active
@@ -3667,7 +3663,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 85
   average_duration: 30
   status: active
@@ -3770,7 +3766,7 @@ podcasts:
   frequency: irregular
   frequency_days: 124
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 13
   average_duration: 37
   status: active
@@ -3876,7 +3872,7 @@ podcasts:
   frequency: monthly
   frequency_days: 22
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 123
   average_duration: 17
   status: archived
@@ -3975,7 +3971,7 @@ podcasts:
   frequency: monthly
   frequency_days: 35
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 20
   average_duration: 63
   status: slow
@@ -4067,7 +4063,7 @@ podcasts:
   frequency: monthly
   frequency_days: 30
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 9
   average_duration: 4
   status: slow
@@ -4166,7 +4162,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 137
   average_duration: 34
   status: active
@@ -4236,7 +4232,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 4
   average_duration: 27
   status: active
@@ -4337,7 +4333,7 @@ podcasts:
   frequency: bimonthly
   frequency_days: 51
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 16
   average_duration: 55
   status: active
@@ -4355,7 +4351,7 @@ podcasts:
   topics:
   - Cybersécurité
   tags:
-  - HarfangLab
+  - Cybersécurité
 - id: nolimitsecu
   name: NoLimitSecu
   category:
@@ -4437,7 +4433,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 302
   average_duration: 27
   status: active
@@ -4535,7 +4531,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 26
   average_duration: 37
   status: slow
@@ -4569,7 +4565,7 @@ podcasts:
   rss: https://polysecure.ca/general_feed.xml
   youtube: https://www.youtube.com/@polysecurepodcast
   spotify: https://open.spotify.com/show/2Aal9u7zflmLOEpzhJ5uvu
-  apple_podcast: https://podcasts.apple.com/fr/podcast/polys%C3%A9cure-podcast/id1561084634?uo=4
+  apple_podcast: https://podcasts.apple.com/ca/podcast/polysecure-podcast/id1561084634
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/piz8zozv
@@ -4638,7 +4634,7 @@ podcasts:
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 872
   average_duration: 44
   status: active
@@ -4740,7 +4736,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 20
   average_duration: 32
   status: active
@@ -4848,7 +4844,7 @@ podcasts:
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 816
   average_duration: 13
   status: active
@@ -4948,7 +4944,7 @@ podcasts:
   frequency: weekly
   frequency_days: 6
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 192
   average_duration: 34
   status: active
@@ -5011,7 +5007,7 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 2
   average_duration: null
   status: archived
@@ -5109,7 +5105,7 @@ podcasts:
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-10'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 15
   average_duration: null
   status: active
@@ -5207,7 +5203,7 @@ podcasts:
   frequency: monthly
   frequency_days: 41
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 21
   average_duration: 12
   status: slow
@@ -5304,7 +5300,7 @@ podcasts:
   frequency: quarterly
   frequency_days: 100
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 15
   average_duration: 64
   status: archived
@@ -5416,8 +5412,8 @@ podcasts:
   frequency: null
   frequency_days: null
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
-  episode_count: 100
+  updated_at: '2026-11-28'
+  episode_count: 30
   average_duration: null
   status: archived
   community_rating: 4.8
@@ -5511,7 +5507,7 @@ podcasts:
   frequency: monthly
   frequency_days: 44
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 60
   average_duration: 35
   status: slow
@@ -5583,7 +5579,7 @@ podcasts:
   frequency: monthly
   frequency_days: 35
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 5
   average_duration: 33
   status: archived
@@ -5677,7 +5673,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 7
   average_duration: 32
   status: archived
@@ -5768,7 +5764,7 @@ podcasts:
   frequency: bimonthly
   frequency_days: 71
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 8
   average_duration: 45
   status: archived
@@ -5868,7 +5864,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 767
   average_duration: 61
   status: active
@@ -5974,7 +5970,7 @@ podcasts:
   frequency: monthly
   frequency_days: 32
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 364
   average_duration: 71
   status: active
@@ -6002,7 +5998,7 @@ podcasts:
   rss: https://feed.ausha.co/aOeG3uNw2QrW
   youtube: https://www.youtube.com/channel/UCQZ9fN69sDNl1oItZmn7dAw
   spotify: https://open.spotify.com/show/0btVq1hBSKAgsLTuSFecLO
-  apple_podcast: https://podcasts.apple.com/fr/podcast/la-cave/id1788778471?uo=4
+  apple_podcast: https://podcasts.apple.com/fr/podcast/la-cave/id1788778471
   linkedin: null
   deezer: null
   pocket_casts: https://pca.st/y1g74mgc
@@ -6071,7 +6067,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 18
   average_duration: 65
   status: slow
@@ -6177,7 +6173,7 @@ podcasts:
   frequency: weekly
   frequency_days: 4
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 562
   average_duration: 85
   status: active
@@ -6290,7 +6286,7 @@ podcasts:
   frequency: monthly
   frequency_days: 35
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 109
   average_duration: 86
   status: active
@@ -6399,7 +6395,7 @@ podcasts:
   frequency: weekly
   frequency_days: 5
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 1058
   average_duration: 64
   status: active
@@ -6500,7 +6496,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 242
   average_duration: 5
   status: archived
@@ -6601,7 +6597,7 @@ podcasts:
   frequency: daily
   frequency_days: 2
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 104
   average_duration: 53
   status: active
@@ -6703,7 +6699,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 1022
   average_duration: 106
   status: active
@@ -6810,7 +6806,7 @@ podcasts:
   frequency: monthly
   frequency_days: 28
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 412
   average_duration: 62
   status: active
@@ -6911,7 +6907,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 2024
   average_duration: 57
   status: active
@@ -7009,7 +7005,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 506
   average_duration: 33
   status: active
@@ -7106,7 +7102,7 @@ podcasts:
   frequency: weekly
   frequency_days: 10
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 569
   average_duration: 65
   status: active
@@ -7203,7 +7199,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 321
   average_duration: 58
   status: active
@@ -7310,7 +7306,7 @@ podcasts:
   frequency: weekly
   frequency_days: 9
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 347
   average_duration: 66
   status: slow
@@ -7415,7 +7411,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 738
   average_duration: 69
   status: slow
@@ -7514,7 +7510,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 123
   average_duration: 58
   status: archived
@@ -7616,7 +7612,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 309
   average_duration: 53
   status: active
@@ -7714,7 +7710,7 @@ podcasts:
   frequency: weekly
   frequency_days: 10
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 82
   average_duration: 60
   status: active
@@ -7815,12 +7811,12 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 384
   average_duration: 47
   status: active
   community_rating: 4.3
-  community_rating_count: 202
+  community_rating_count: 203
   platform: Transistor
   hosting_platform: Transistor
   listening_platforms:
@@ -7922,7 +7918,7 @@ podcasts:
   frequency: daily
   frequency_days: 1
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 300
   average_duration: 70
   status: active
@@ -8020,7 +8016,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 804
   average_duration: 58
   status: active
@@ -8124,7 +8120,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 13
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 521
   average_duration: 54
   status: active
@@ -8225,7 +8221,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 296
   average_duration: 47
   status: archived
@@ -8335,7 +8331,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 541
   average_duration: 33
   status: active
@@ -8444,7 +8440,7 @@ podcasts:
   frequency: biweekly
   frequency_days: 14
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 236
   average_duration: 55
   status: active
@@ -8561,7 +8557,7 @@ podcasts:
   frequency: weekly
   frequency_days: 7
   first_seen: '2026-11-09'
-  updated_at: '2026-11-27'
+  updated_at: '2026-11-28'
   episode_count: 136
   average_duration: 70
   status: slow
